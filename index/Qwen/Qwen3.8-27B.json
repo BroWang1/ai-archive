@@ -227,7 +227,13 @@
       },
       "serving": null,
       "mirrors": {
-        "hf": null,
+        "hf": {
+          "repo": "AIArchiveInfo/Qwen3.8-27B",
+          "byte_identical": true,
+          "upstream_revision": "1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0",
+          "verified_files": 18,
+          "mirrored_at": "2026-09-09T22:06:29Z"
+        },
         "master": null
       }
     }
