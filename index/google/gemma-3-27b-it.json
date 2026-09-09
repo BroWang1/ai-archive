@@ -25,7 +25,7 @@
           "path": ".gitattributes",
           "size": 2450,
           "sha256": null,
-          "kind": "snapshot"
+          "kind": "gated-no-snapshot"
         },
         {
           "path": "README.md",
@@ -37,25 +37,25 @@
           "path": "added_tokens.json",
           "size": 35,
           "sha256": null,
-          "kind": "snapshot"
+          "kind": "gated-no-snapshot"
         },
         {
           "path": "chat_template.json",
           "size": 1615,
           "sha256": null,
-          "kind": "snapshot"
+          "kind": "gated-no-snapshot"
         },
         {
           "path": "config.json",
           "size": 972,
           "sha256": null,
-          "kind": "snapshot"
+          "kind": "gated-no-snapshot"
         },
         {
           "path": "generation_config.json",
           "size": 215,
           "sha256": null,
-          "kind": "snapshot"
+          "kind": "gated-no-snapshot"
         },
         {
           "path": "model-00001-of-00012.safetensors",
@@ -133,43 +133,43 @@
           "path": "model.safetensors.index.json",
           "size": 126651,
           "sha256": null,
-          "kind": "snapshot"
+          "kind": "gated-no-snapshot"
         },
         {
           "path": "preprocessor_config.json",
           "size": 570,
           "sha256": null,
-          "kind": "snapshot"
+          "kind": "gated-no-snapshot"
         },
         {
           "path": "processor_config.json",
           "size": 70,
           "sha256": null,
-          "kind": "snapshot"
+          "kind": "gated-no-snapshot"
         },
         {
           "path": "special_tokens_map.json",
           "size": 662,
           "sha256": null,
-          "kind": "snapshot"
+          "kind": "gated-no-snapshot"
         },
         {
           "path": "tokenizer.json",
           "size": 33384568,
           "sha256": null,
-          "kind": "snapshot"
+          "kind": "gated-no-snapshot"
         },
         {
           "path": "tokenizer.model",
           "size": 4689074,
           "sha256": null,
-          "kind": "snapshot"
+          "kind": "gated-no-snapshot"
         },
         {
           "path": "tokenizer_config.json",
           "size": 1156999,
           "sha256": null,
-          "kind": "snapshot"
+          "kind": "gated-no-snapshot"
         }
       ],
       "total_bytes": 54904369444,
@@ -192,5 +192,5 @@
     "tech_report": null,
     "arxiv": null
   },
-  "notes": ""
+  "notes": "Gated repo: manifest + weight hashes captured; snapshot files need an HF token from an account that accepted the license. Re-ingest with auth later."
 }

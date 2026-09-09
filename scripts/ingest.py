@@ -102,6 +102,7 @@ def ingest(repo_id, revision=None, max_file_mb=64):
                 data = r.read()
         except urllib.error.HTTPError as e:
             print(f"  ! {path}: HTTP {e.code}, manifested without snapshot")
+            entry["kind"] = "gated-no-snapshot" if e.code in (401, 403) else "no-snapshot"
             files.append(entry)
             continue
         dest.write_bytes(data)
