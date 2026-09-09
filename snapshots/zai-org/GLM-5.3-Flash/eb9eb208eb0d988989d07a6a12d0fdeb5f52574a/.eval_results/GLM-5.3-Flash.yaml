@@ -1,0 +1,28 @@
+- dataset:
+    id: harborframework/terminal-bench-2.1
+    task_id: terminalbench_2_1
+  value: 84.3
+  date: "2026-08-26"
+  source:
+    url: https://huggingface.co/zai-org/GLM-5.3-Flash
+    name: "GLM-5.3-Flash model card"
+
+- dataset:
+    id: datacurve/deep-swe
+    task_id: deep_swe
+  value: 63.4
+  date: "2026-08-26"
+  source:
+    url: https://huggingface.co/zai-org/GLM-5.3-Flash
+    name: "GLM-5.3-Flash model card"
+  notes: "Reported as DeepSWE v1.1 on the model card, run via the mini-swe-agent harness with 400K context."
+
+- dataset:
+    id: cais/hle
+    task_id: hle
+  value: 55.3
+  date: "2026-08-26"
+  source:
+    url: https://huggingface.co/zai-org/GLM-5.3-Flash
+    name: "GLM-5.3-Flash model card"
+  notes: "HLE with tools (full set) and a 300K-context management strategy, not the no-tools default; judged by GPT-5.6-luna (medium)."

@@ -19,5 +19,13 @@
     "Tele-AI",
     "IEITYuan",
     "OrionStarAI"
+  ],
+  "extra_orgs_comment": "Non-Chinese labs tracked only for their top leaderboard models (backup scope), not exhaustively.",
+  "extra_orgs": [
+    "meta-llama",
+    "meta-models",
+    "mistralai",
+    "openai",
+    "google"
   ]
 }

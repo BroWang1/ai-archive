@@ -1,0 +1,268 @@
+{
+  "repo_id": "openai/gpt-oss-120b",
+  "canonical_org": "openai",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "b5c939de8f754692c1647ca79fbf85e8c1e70f8a",
+      "captured_at": "2026-09-09T21:36:04Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/openai/gpt-oss-120b?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"71f0-9oYcSPC8BI/ZEWy6djg4+aCxLTA\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "apache-2.0",
+        "file": "LICENSE",
+        "sha256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
+        "redistributable": null,
+        "obligations": []
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1570,
+          "sha256": "34448b82c17d60fec9b65b1f093c115ddbaadc04beb1b0140b6bfed2e012a930",
+          "kind": "snapshot"
+        },
+        {
+          "path": "LICENSE",
+          "size": 11357,
+          "sha256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 7111,
+          "sha256": "92b0408cf5dce04e4c5e4e5f2be0361da710d3650baefd7d7519badd1c687919",
+          "kind": "snapshot"
+        },
+        {
+          "path": "USAGE_POLICY",
+          "size": 201,
+          "sha256": "fc48d386a7a7ff8b066f743cfe62df683ab16892450f5bb7357bb4de261cd037",
+          "kind": "snapshot"
+        },
+        {
+          "path": "chat_template.jinja",
+          "size": 16738,
+          "sha256": "a4c9919cbbd4acdd51ccffe22da049264b1b73e59055fa58811a99efbd7c8146",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 2089,
+          "sha256": "933aeb666a3fd851133ddd7686414f369bc564c4185fb5704416550879f10566",
+          "kind": "snapshot"
+        },
+        {
+          "path": "generation_config.json",
+          "size": 177,
+          "sha256": "f9970ada892d2d1f72e3ed0a6535ccebadd11897318794ca671d8c7014c957da",
+          "kind": "snapshot"
+        },
+        {
+          "path": "metal/model.bin",
+          "size": 65238253568,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00000-of-00014.safetensors",
+          "size": 4625017896,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00001-of-00014.safetensors",
+          "size": 4115586736,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00002-of-00014.safetensors",
+          "size": 4625017888,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00003-of-00014.safetensors",
+          "size": 4115586752,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00004-of-00014.safetensors",
+          "size": 4625017896,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00005-of-00014.safetensors",
+          "size": 4115586696,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00006-of-00014.safetensors",
+          "size": 4625017856,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00007-of-00014.safetensors",
+          "size": 4060267176,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00008-of-00014.safetensors",
+          "size": 4625017896,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00009-of-00014.safetensors",
+          "size": 4170906304,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00010-of-00014.safetensors",
+          "size": 4625017896,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00011-of-00014.safetensors",
+          "size": 4115586752,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00012-of-00014.safetensors",
+          "size": 4064660808,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00013-of-00014.safetensors",
+          "size": 4625017896,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00014-of-00014.safetensors",
+          "size": 4115586736,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model.safetensors.index.json",
+          "size": 54511,
+          "sha256": "ede2655fdc05008561983b6e0829c600727c28d591e071077377059f03a6c00e",
+          "kind": "snapshot"
+        },
+        {
+          "path": "original/config.json",
+          "size": 377,
+          "sha256": "063aaa98e012cac330d58d18471700f0b0eb90bb15c58fb227809d45090f3e65",
+          "kind": "snapshot"
+        },
+        {
+          "path": "original/dtypes.json",
+          "size": 19658,
+          "sha256": "5726a2558b998f57ff570570c46fd2c94a431dc69ff1a55d57df6c4955aec7bf",
+          "kind": "snapshot"
+        },
+        {
+          "path": "original/model--00001-of-00007.safetensors",
+          "size": 10544040680,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "original/model--00002-of-00007.safetensors",
+          "size": 10488721680,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "original/model--00003-of-00007.safetensors",
+          "size": 10488721688,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "original/model--00004-of-00007.safetensors",
+          "size": 10488721672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "original/model--00005-of-00007.safetensors",
+          "size": 10488721680,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "original/model--00006-of-00007.safetensors",
+          "size": 10433402600,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "original/model--00007-of-00007.safetensors",
+          "size": 2316539800,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "original/model.safetensors.index.json",
+          "size": 37796,
+          "sha256": "40ffac1e58f77c5307f20990cdb89910ad86961ed556952feda8aaa1c0d5ac97",
+          "kind": "snapshot"
+        },
+        {
+          "path": "special_tokens_map.json",
+          "size": 98,
+          "sha256": "dd5e191d20c12d2fee1da5bae14ca1db0f5f4215300af691f23cdee97120a293",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer.json",
+          "size": 27868174,
+          "sha256": "0614fe83cadab421296e664e1f48f4261fa8fef6e03e63bb75c20f38e37d07d3",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 4200,
+          "sha256": "9279e942392b742d633c7adbb89ebe002c98399db8926a7af5125c726f404070",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 195764040609,
+      "weight_bytes": 195736016552,
+      "snapshot_dir": "snapshots/openai/gpt-oss-120b/b5c939de8f754692c1647ca79fbf85e8c1e70f8a/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

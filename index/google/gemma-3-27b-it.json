@@ -1,0 +1,196 @@
+{
+  "repo_id": "google/gemma-3-27b-it",
+  "canonical_org": "google",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "005ad3404e59d6023443cb575daa05336842228a",
+      "captured_at": "2026-09-09T21:36:22Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/google/gemma-3-27b-it?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"3287-vxLFMmZfZu5cS298fTQpjGXoYC4\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "gemma",
+        "file": null,
+        "sha256": null,
+        "redistributable": null,
+        "obligations": []
+      },
+      "gate_terms_sha256": "ef8fde15145debdb83c8bd5ed57234d2bc210219a4686e044f1b786f2909a4aa",
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 2450,
+          "sha256": null,
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 25123,
+          "sha256": "c41e39b345afbed23425d72d2f0675363531f0dfac5eb3515db939fc2340bac6",
+          "kind": "snapshot"
+        },
+        {
+          "path": "added_tokens.json",
+          "size": 35,
+          "sha256": null,
+          "kind": "snapshot"
+        },
+        {
+          "path": "chat_template.json",
+          "size": 1615,
+          "sha256": null,
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 972,
+          "sha256": null,
+          "kind": "snapshot"
+        },
+        {
+          "path": "generation_config.json",
+          "size": 215,
+          "sha256": null,
+          "kind": "snapshot"
+        },
+        {
+          "path": "model-00001-of-00012.safetensors",
+          "size": 4854573696,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00002-of-00012.safetensors",
+          "size": 4954792944,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00003-of-00012.safetensors",
+          "size": 4954792976,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00004-of-00012.safetensors",
+          "size": 4954793016,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00005-of-00012.safetensors",
+          "size": 4954793016,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00006-of-00012.safetensors",
+          "size": 4954793016,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00007-of-00012.safetensors",
+          "size": 4954793016,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00008-of-00012.safetensors",
+          "size": 4954793016,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00009-of-00012.safetensors",
+          "size": 4954793016,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00010-of-00012.safetensors",
+          "size": 4954793016,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00011-of-00012.safetensors",
+          "size": 4954793016,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00012-of-00012.safetensors",
+          "size": 462476696,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model.safetensors.index.json",
+          "size": 126651,
+          "sha256": null,
+          "kind": "snapshot"
+        },
+        {
+          "path": "preprocessor_config.json",
+          "size": 570,
+          "sha256": null,
+          "kind": "snapshot"
+        },
+        {
+          "path": "processor_config.json",
+          "size": 70,
+          "sha256": null,
+          "kind": "snapshot"
+        },
+        {
+          "path": "special_tokens_map.json",
+          "size": 662,
+          "sha256": null,
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer.json",
+          "size": 33384568,
+          "sha256": null,
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer.model",
+          "size": 4689074,
+          "sha256": null,
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 1156999,
+          "sha256": null,
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 54904369444,
+      "weight_bytes": 54864980440,
+      "snapshot_dir": "snapshots/google/gemma-3-27b-it/005ad3404e59d6023443cb575daa05336842228a/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

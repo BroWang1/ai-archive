@@ -1,0 +1,8 @@
+- dataset:
+    id: ScaleAI/SWE-bench_Pro
+    task_id: SWE_Bench_Pro
+  value: 27.67
+  source:
+    url: https://scale.com/leaderboard/swe_bench_pro_public
+    name: SWE-Bench Pro official evaluation results
+    user: nielsr

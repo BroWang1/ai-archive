@@ -1,0 +1,8 @@
+- dataset:
+    id: hkust-nlp/Toolathlon
+    task_id: toolathlon_verified
+  value: 73.0
+  date: "2026-08-31"
+  source:
+    url: https://huggingface.co/zai-org/GLM-5.3
+    name: "zai-org/GLM-5.3 model card"

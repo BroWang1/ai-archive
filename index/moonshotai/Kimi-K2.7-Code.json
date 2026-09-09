@@ -1,0 +1,568 @@
+{
+  "repo_id": "moonshotai/Kimi-K2.7-Code",
+  "canonical_org": "moonshotai",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "74797c9c62378b951a1f6fcf5c4631024e9b8bef",
+      "captured_at": "2026-09-09T21:38:13Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/moonshotai/Kimi-K2.7-Code?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"5d7e-MdyCL9xfFq5Hkq7zisKGK+WbEq8\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "other",
+        "file": "LICENSE",
+        "sha256": "9cb73476cecdfabac7775bf7c225bd5f6017d5d678372917e4456964c0454f7a",
+        "redistributable": null,
+        "obligations": []
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1643,
+          "sha256": "18437bb276e3b2abb0aa081a4445de1fe43d7f546ad19b80993e3de0f5778bc5",
+          "kind": "snapshot"
+        },
+        {
+          "path": "LICENSE",
+          "size": 1470,
+          "sha256": "9cb73476cecdfabac7775bf7c225bd5f6017d5d678372917e4456964c0454f7a",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 15061,
+          "sha256": "c78bbe5af19636b180eda956abf1f30a79027ec04d6642ebddc44edbc4470879",
+          "kind": "snapshot"
+        },
+        {
+          "path": "THIRD_PARTY_NOTICES.md",
+          "size": 1665,
+          "sha256": "98392e4fd8a43aa576613212e69d0c7d2090504b4127da1fca7270f6af85d101",
+          "kind": "snapshot"
+        },
+        {
+          "path": "chat_template.jinja",
+          "size": 2385,
+          "sha256": "8d21200dff7e85beaf51c8b110952e039ffd0779f615d64d63293d74773360f9",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 5420,
+          "sha256": "ffbb57bff844e024f6c112640b63da80af228ceb8fb3e2e21908a21febbcdffb",
+          "kind": "snapshot"
+        },
+        {
+          "path": "configuration_deepseek.py",
+          "size": 10615,
+          "sha256": "c1327c307e2dd11d1bf0adc8bcef69ae51f9617a3a869a9497bb08aec912f931",
+          "kind": "snapshot"
+        },
+        {
+          "path": "configuration_kimi_k25.py",
+          "size": 5435,
+          "sha256": "2bc5487efced291e0e6aa3b24aad1082bade4172aff94ea1b6f0ae20a1d6bb4f",
+          "kind": "snapshot"
+        },
+        {
+          "path": "docs/deploy_guidance.md",
+          "size": 3689,
+          "sha256": "b1bc4c5fb7c8b1da727663d4da83999afc902f6166ff862fbaef514b86de2c65",
+          "kind": "snapshot"
+        },
+        {
+          "path": "figures/demo_video.mp4",
+          "size": 270100,
+          "sha256": "09b4d925aa0a7c712feef50765355f0625d8f6d46ea302fd98db9609e9070047",
+          "kind": "snapshot"
+        },
+        {
+          "path": "figures/kimi-logo.png",
+          "size": 87988,
+          "sha256": "4a80f64242bf907940765adc7bcf340c28dd83334b07c5503792a26495d1933b",
+          "kind": "snapshot"
+        },
+        {
+          "path": "generation_config.json",
+          "size": 91,
+          "sha256": "b784cc6a9ecb551196b81cb6b1d2dcb18467b92adaab6992ae4cc455ad44d2ce",
+          "kind": "snapshot"
+        },
+        {
+          "path": "kimi_k25_processor.py",
+          "size": 6906,
+          "sha256": "537d7a708e1654766fc628c99667bdb9364136d3541633d6522ac43cef9bfea0",
+          "kind": "snapshot"
+        },
+        {
+          "path": "kimi_k25_vision_processing.py",
+          "size": 10019,
+          "sha256": "498e20753c9aa6b6224ddbcd05b04deb7e987b76595bf5c28ee8583f33ebc375",
+          "kind": "snapshot"
+        },
+        {
+          "path": "media_utils.py",
+          "size": 13179,
+          "sha256": "77a6b1fed3580b0562443092928a0240c2989e3950377e93893952123ae48e3d",
+          "kind": "snapshot"
+        },
+        {
+          "path": "model-00001-of-000064.safetensors",
+          "size": 995001888,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00002-of-000064.safetensors",
+          "size": 9809047464,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00003-of-000064.safetensors",
+          "size": 9809047464,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00004-of-000064.safetensors",
+          "size": 9809047464,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00005-of-000064.safetensors",
+          "size": 9809047464,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00006-of-000064.safetensors",
+          "size": 9809047464,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00007-of-000064.safetensors",
+          "size": 9809047464,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00008-of-000064.safetensors",
+          "size": 9809047464,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00009-of-000064.safetensors",
+          "size": 9809047464,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00010-of-000064.safetensors",
+          "size": 9809047464,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00011-of-000064.safetensors",
+          "size": 9809050936,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00012-of-000064.safetensors",
+          "size": 9809050936,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00013-of-000064.safetensors",
+          "size": 9809050936,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00014-of-000064.safetensors",
+          "size": 9809050936,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00015-of-000064.safetensors",
+          "size": 9809050936,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00016-of-000064.safetensors",
+          "size": 9809050936,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00017-of-000064.safetensors",
+          "size": 9809050936,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00018-of-000064.safetensors",
+          "size": 9809050936,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00019-of-000064.safetensors",
+          "size": 9809050936,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00020-of-000064.safetensors",
+          "size": 9809050936,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00021-of-000064.safetensors",
+          "size": 9809050936,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00022-of-000064.safetensors",
+          "size": 9809050936,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00023-of-000064.safetensors",
+          "size": 9809050936,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00024-of-000064.safetensors",
+          "size": 9809050936,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00025-of-000064.safetensors",
+          "size": 9809050936,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00026-of-000064.safetensors",
+          "size": 9809050936,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00027-of-000064.safetensors",
+          "size": 9809050936,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00028-of-000064.safetensors",
+          "size": 9809050936,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00029-of-000064.safetensors",
+          "size": 9809050936,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00030-of-000064.safetensors",
+          "size": 9809050936,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00031-of-000064.safetensors",
+          "size": 9809050936,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00032-of-000064.safetensors",
+          "size": 9809050936,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00033-of-000064.safetensors",
+          "size": 9809050936,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00034-of-000064.safetensors",
+          "size": 9809050936,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00035-of-000064.safetensors",
+          "size": 9809050936,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00036-of-000064.safetensors",
+          "size": 9809050936,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00037-of-000064.safetensors",
+          "size": 9809050936,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00038-of-000064.safetensors",
+          "size": 9809050936,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00039-of-000064.safetensors",
+          "size": 9809050936,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00040-of-000064.safetensors",
+          "size": 9809050936,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00041-of-000064.safetensors",
+          "size": 9809050936,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00042-of-000064.safetensors",
+          "size": 9809050936,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00043-of-000064.safetensors",
+          "size": 9809050936,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00044-of-000064.safetensors",
+          "size": 9809050936,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00045-of-000064.safetensors",
+          "size": 9809050936,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00046-of-000064.safetensors",
+          "size": 9809050936,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00047-of-000064.safetensors",
+          "size": 9809050936,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00048-of-000064.safetensors",
+          "size": 9809050936,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00049-of-000064.safetensors",
+          "size": 9809050936,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00050-of-000064.safetensors",
+          "size": 9809050936,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00051-of-000064.safetensors",
+          "size": 9809050936,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00052-of-000064.safetensors",
+          "size": 9809050936,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00053-of-000064.safetensors",
+          "size": 9809050936,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00054-of-000064.safetensors",
+          "size": 9809050936,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00055-of-000064.safetensors",
+          "size": 9809050936,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00056-of-000064.safetensors",
+          "size": 9809050936,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00057-of-000064.safetensors",
+          "size": 9809050936,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00058-of-000064.safetensors",
+          "size": 9809050936,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00059-of-000064.safetensors",
+          "size": 9809050936,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00060-of-000064.safetensors",
+          "size": 9809050936,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00061-of-000064.safetensors",
+          "size": 9809050936,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00062-of-000064.safetensors",
+          "size": 4697635160,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00063-of-000064.safetensors",
+          "size": 108556344,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00064-of-000064.safetensors",
+          "size": 833769904,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model.safetensors.index.json",
+          "size": 23597438,
+          "sha256": "f6dd3318271f0121445d2af1c0c3f75707127a84a625f86bc0eaae9deb848f40",
+          "kind": "snapshot"
+        },
+        {
+          "path": "modeling_deepseek.py",
+          "size": 78639,
+          "sha256": "17e079e0a5e41114aabd2ae5ba924128ba6652bc6f9a00ea06efcd1230340406",
+          "kind": "snapshot"
+        },
+        {
+          "path": "modeling_kimi_k25.py",
+          "size": 53045,
+          "sha256": "a1594f129ae8dc5fa3c9dbbc24e8e603b30d7caef1226669b4d95dc8f2a3e2dd",
+          "kind": "snapshot"
+        },
+        {
+          "path": "preprocessor_config.json",
+          "size": 744,
+          "sha256": "bd9a1f5d7b1580b38093c35ca49162580a118485164fac48e1cdb224ee41fcff",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tiktoken.model",
+          "size": 2795286,
+          "sha256": "b6c497a7469b33ced9c38afb1ad6e47f03f5e5dc05f15930799210ec050c5103",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenization_kimi.py",
+          "size": 14132,
+          "sha256": "88394687bd081f55928849b2d140e190c70297660d3fb8b7c54c0e5633b177e3",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 4832,
+          "sha256": "6dfafeacca3d44748fc4a2fcc6725be5ea616ecc5b95f5a8b4277077c06e7d9f",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tool_declaration_ts.py",
+          "size": 16517,
+          "sha256": "97e09ed262f1cd38f87584eaa46c5d4d5b3c9725dd299b21642f389040794ebc",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 595204984507,
+      "weight_bytes": 595177988208,
+      "snapshot_dir": "snapshots/moonshotai/Kimi-K2.7-Code/74797c9c62378b951a1f6fcf5c4631024e9b8bef/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

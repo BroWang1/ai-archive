@@ -1,0 +1,1060 @@
+{
+  "repo_id": "tencent/Hy4-preview-FP8",
+  "canonical_org": "tencent",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "4215ec29de873a998e849cee902654490c7ff4d1",
+      "captured_at": "2026-09-09T21:41:58Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/tencent/Hy4-preview-FP8?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"cc8f-296iITQ6+I/BXOOWi4QCY4HOulQ\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "apache-2.0",
+        "file": "LICENSE",
+        "sha256": "333da5371c92bcee0043e81cd39f56f14b4b7905a93fe23c53b6f3b13075c5c3",
+        "redistributable": null,
+        "obligations": []
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1642,
+          "sha256": "fc069f619ad9dadef254dff7cc4703d143dbf32365f3084d54c36f52c3df3089",
+          "kind": "snapshot"
+        },
+        {
+          "path": ".gitignore",
+          "size": 421,
+          "sha256": "b7ff006440be6db0d4f5710a74b64cdb142c9283d592e4ee2cdd3e6c07fdf8cd",
+          "kind": "snapshot"
+        },
+        {
+          "path": "LICENSE",
+          "size": 11625,
+          "sha256": "333da5371c92bcee0043e81cd39f56f14b4b7905a93fe23c53b6f3b13075c5c3",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 10808,
+          "sha256": "f9cbc6566006d919e7f4e5ba02756778bac0559fb8359eb560864cfd7eff4da7",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README_CN.md",
+          "size": 9650,
+          "sha256": "9a118096f4dbc3797665f2a8611fc7a65c81a6fa8d494f973a0bf91c7741dd6e",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/benchmark-appendix.jpg",
+          "size": 8135858,
+          "sha256": "02c751bf51c52c52cc02094561d7144bbfe3e27084d48d8a405d580da3554e21",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/benchmark.jpg",
+          "size": 16392330,
+          "sha256": "1380ff67ebed3be637f0288ba7aa956ba4821ddc002100de44996271478c3fd4",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/logo-en.png",
+          "size": 65860,
+          "sha256": "0cd56e2438d4c91a5d529b3102f800de5f17c768f73caaf4848a864e7b741080",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/logo-zh.png",
+          "size": 69906,
+          "sha256": "1e9a9aea04658439e1af23db01c4cd2c6c6765fd1efd1a594c7ffdd312f31bb6",
+          "kind": "snapshot"
+        },
+        {
+          "path": "chat_template.jinja",
+          "size": 14779,
+          "sha256": "dc6113d43370db693d0348cb3decb7f2355ed2828006e227a510e1cbe575583c",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 22895,
+          "sha256": "8f08e75af6c46578a6fc93883b4446189c67cc8b6ff47f20a51c43cd3dd9d6d4",
+          "kind": "snapshot"
+        },
+        {
+          "path": "finetune/README.md",
+          "size": 18911,
+          "sha256": "9eb1588d5f32b1246a1d24faf632b65057a1039783648dbd2b9fb149191fc6cc",
+          "kind": "snapshot"
+        },
+        {
+          "path": "finetune/README_CN.md",
+          "size": 17159,
+          "sha256": "77c82625a5257b49ed894ce4c07d9be716a4d4a63ef7abb22faa2c5b92370451",
+          "kind": "snapshot"
+        },
+        {
+          "path": "finetune/data/example_data.jsonl",
+          "size": 9508,
+          "sha256": "b7258ee6e57eb8bf943e1e5b681cc69209d39195b42e2fc503a1df69b5f1e200",
+          "kind": "snapshot"
+        },
+        {
+          "path": "finetune/deepspeed_support/ds_zero2_no_offload.json",
+          "size": 725,
+          "sha256": "8f8386ffb2eb79e6967671cc4b8d4b232cd6e545664bb37057b70f8a082acdd2",
+          "kind": "snapshot"
+        },
+        {
+          "path": "finetune/deepspeed_support/ds_zero2_offload.json",
+          "size": 830,
+          "sha256": "420d26be7fab30d1e79d97c45a34f009bbe9f4f3ab498ea292b5bcda3d4798c2",
+          "kind": "snapshot"
+        },
+        {
+          "path": "finetune/deepspeed_support/ds_zero3_no_offload.json",
+          "size": 1101,
+          "sha256": "cc8e1c5b9ba443035c647989897cd7bc607d0bcf9611fb8df2701a3d18b796df",
+          "kind": "snapshot"
+        },
+        {
+          "path": "finetune/deepspeed_support/ds_zero3_offload.json",
+          "size": 1099,
+          "sha256": "08db577e6e9cc723da661b93a4211ce8f4bb0677f010e8b46a8709d023cc185f",
+          "kind": "snapshot"
+        },
+        {
+          "path": "finetune/deepspeed_support/train.py",
+          "size": 27359,
+          "sha256": "3060cda37d07bd0ced41c2ee7a4f18d48a6a782dcf901266d0f4ddec261880f4",
+          "kind": "snapshot"
+        },
+        {
+          "path": "finetune/deepspeed_support/train.sh",
+          "size": 2962,
+          "sha256": "51e1cef5747f5fa15f89ec9ae155a6031e7b7ae433c4ff923f0cf335a3700ba6",
+          "kind": "snapshot"
+        },
+        {
+          "path": "finetune/deepspeed_support/train_lora.sh",
+          "size": 3104,
+          "sha256": "02ababdfa88c4439f16c09b14b26186ab9e720b3fe57e5ada9ba742ab0350aab",
+          "kind": "snapshot"
+        },
+        {
+          "path": "finetune/llama_factory_support/dataset_info.json",
+          "size": 325,
+          "sha256": "d7a5a37e174034d240205018967f43a206082d1048f59923242086ee4b44809a",
+          "kind": "snapshot"
+        },
+        {
+          "path": "finetune/llama_factory_support/hy_v4_full_sft.yaml",
+          "size": 1276,
+          "sha256": "2678fc0bfb93e7eb2f3d617e5bbef09414eb65a9292d073feaddc80263fe3251",
+          "kind": "snapshot"
+        },
+        {
+          "path": "finetune/llama_factory_support/hy_v4_lora_sft.yaml",
+          "size": 1626,
+          "sha256": "abd32650367b4418c81c3b9f1c7f3850277c671ec0360cbccbb333f61e2cc978",
+          "kind": "snapshot"
+        },
+        {
+          "path": "finetune/llama_factory_support/hy_v4_patches.py",
+          "size": 32954,
+          "sha256": "4eb685c6b2357f164b7fe5e65dc83b2fe21dbe50a687627add248b223ac9aeed",
+          "kind": "snapshot"
+        },
+        {
+          "path": "finetune/llama_factory_support/hy_v4_template.py",
+          "size": 2555,
+          "sha256": "1e204aeab29d5fcee63e0b545afca0d2c1d8cb74181442aeda78297e648e670a",
+          "kind": "snapshot"
+        },
+        {
+          "path": "finetune/llama_factory_support/train_hy_v4.py",
+          "size": 3281,
+          "sha256": "54c7de7959498f01f0d7fa6859280943eedbf78c70847051d94df29d9be76079",
+          "kind": "snapshot"
+        },
+        {
+          "path": "finetune/llama_factory_support/train_lf.sh",
+          "size": 3404,
+          "sha256": "1efed877150790f42b6266209759520e0ee23df2c7461a5c3f269556adb16880",
+          "kind": "snapshot"
+        },
+        {
+          "path": "finetune/ms_swift_support/fsdp_hy_v4.json",
+          "size": 658,
+          "sha256": "8a43524ea57a383a007aa77c98481283c9b10648352b2a3b47bfe42525794f14",
+          "kind": "snapshot"
+        },
+        {
+          "path": "finetune/ms_swift_support/hy_v4_full_sft.yaml",
+          "size": 1600,
+          "sha256": "d36cfe8f3831663cfb01277d27b35cff276b7d8233b73e5c4ef559f302381321",
+          "kind": "snapshot"
+        },
+        {
+          "path": "finetune/ms_swift_support/hy_v4_lora_sft.yaml",
+          "size": 1397,
+          "sha256": "988a3f71e5582825a98db12023a59b77c052fd7f72e069d1ef2797a6824b773f",
+          "kind": "snapshot"
+        },
+        {
+          "path": "finetune/ms_swift_support/hy_v4_swift_patches.py",
+          "size": 18862,
+          "sha256": "57d1d21dd5e6f0e0ff6bbd01a2c9c3d653d2ac8e606d70fc500ee79175e4b259",
+          "kind": "snapshot"
+        },
+        {
+          "path": "finetune/ms_swift_support/sft_train.sh",
+          "size": 3266,
+          "sha256": "ea5ea9a42cbb741c930eb12d77d051e4624f0b74491ff89acb04aba0d081a178",
+          "kind": "snapshot"
+        },
+        {
+          "path": "finetune/ms_swift_support/sft_train_lora.sh",
+          "size": 3369,
+          "sha256": "c3ac3520fb5b424b90c4c5383e0670506dbba9e2c39ed6ec53fda62eaa371a29",
+          "kind": "snapshot"
+        },
+        {
+          "path": "finetune/requirements.txt",
+          "size": 160,
+          "sha256": "3b5d8b5401cbd36740ce0349fe92f7a39e88c9f77a9deb71643484103e98ad37",
+          "kind": "snapshot"
+        },
+        {
+          "path": "generation_config.json",
+          "size": 189,
+          "sha256": "001b5da7349623a53ce45b6d75a9e29e1b7b0a0532b30589b7ca9a480f137546",
+          "kind": "snapshot"
+        },
+        {
+          "path": "model-00001-of-00130.safetensors",
+          "size": 9965666800,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00002-of-00130.safetensors",
+          "size": 9965666808,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00003-of-00130.safetensors",
+          "size": 9965666808,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00004-of-00130.safetensors",
+          "size": 9965666800,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00005-of-00130.safetensors",
+          "size": 9965666808,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00006-of-00130.safetensors",
+          "size": 9965666808,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00007-of-00130.safetensors",
+          "size": 9965666800,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00008-of-00130.safetensors",
+          "size": 9965666808,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00009-of-00130.safetensors",
+          "size": 9965666808,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00010-of-00130.safetensors",
+          "size": 9965666800,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00011-of-00130.safetensors",
+          "size": 9965666808,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00012-of-00130.safetensors",
+          "size": 9965666808,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00013-of-00130.safetensors",
+          "size": 9965666800,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00014-of-00130.safetensors",
+          "size": 9965666808,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00015-of-00130.safetensors",
+          "size": 9965666808,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00016-of-00130.safetensors",
+          "size": 9965666800,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00017-of-00130.safetensors",
+          "size": 9965666808,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00018-of-00130.safetensors",
+          "size": 9965666808,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00019-of-00130.safetensors",
+          "size": 9965666800,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00020-of-00130.safetensors",
+          "size": 9965666808,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00021-of-00130.safetensors",
+          "size": 9965666808,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00022-of-00130.safetensors",
+          "size": 9965666800,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00023-of-00130.safetensors",
+          "size": 9965666808,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00024-of-00130.safetensors",
+          "size": 9965666808,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00025-of-00130.safetensors",
+          "size": 9965666800,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00026-of-00130.safetensors",
+          "size": 9965666808,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00027-of-00130.safetensors",
+          "size": 9965666808,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00028-of-00130.safetensors",
+          "size": 9965666808,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00029-of-00130.safetensors",
+          "size": 9965666808,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00030-of-00130.safetensors",
+          "size": 9965666808,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00031-of-00130.safetensors",
+          "size": 9965666808,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00032-of-00130.safetensors",
+          "size": 9965666808,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00033-of-00130.safetensors",
+          "size": 9965666808,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00034-of-00130.safetensors",
+          "size": 9965666808,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00035-of-00130.safetensors",
+          "size": 9965666808,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00036-of-00130.safetensors",
+          "size": 9965666808,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00037-of-00130.safetensors",
+          "size": 9965666808,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00038-of-00130.safetensors",
+          "size": 9965666808,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00039-of-00130.safetensors",
+          "size": 9965666808,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00040-of-00130.safetensors",
+          "size": 9965666808,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00041-of-00130.safetensors",
+          "size": 9965666808,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00042-of-00130.safetensors",
+          "size": 9965666808,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00043-of-00130.safetensors",
+          "size": 9965666808,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00044-of-00130.safetensors",
+          "size": 9965666808,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00045-of-00130.safetensors",
+          "size": 9965666808,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00046-of-00130.safetensors",
+          "size": 1484783728,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00047-of-00130.safetensors",
+          "size": 714081224,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00048-of-00130.safetensors",
+          "size": 402344176,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00049-of-00130.safetensors",
+          "size": 9965666808,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00050-of-00130.safetensors",
+          "size": 9965666808,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00051-of-00130.safetensors",
+          "size": 1484783712,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00052-of-00130.safetensors",
+          "size": 811598672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00053-of-00130.safetensors",
+          "size": 606910568,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00054-of-00130.safetensors",
+          "size": 9965666808,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00055-of-00130.safetensors",
+          "size": 9965666808,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00056-of-00130.safetensors",
+          "size": 553651520,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00057-of-00130.safetensors",
+          "size": 811598672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00058-of-00130.safetensors",
+          "size": 408945240,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00059-of-00130.safetensors",
+          "size": 9965666808,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00060-of-00130.safetensors",
+          "size": 9965666808,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00061-of-00130.safetensors",
+          "size": 553651040,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00062-of-00130.safetensors",
+          "size": 714081216,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00063-of-00130.safetensors",
+          "size": 493100776,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00064-of-00130.safetensors",
+          "size": 9965666808,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00065-of-00130.safetensors",
+          "size": 9965666808,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00066-of-00130.safetensors",
+          "size": 553651528,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00067-of-00130.safetensors",
+          "size": 811598672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00068-of-00130.safetensors",
+          "size": 651366744,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00069-of-00130.safetensors",
+          "size": 9965666808,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00070-of-00130.safetensors",
+          "size": 9965666808,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00071-of-00130.safetensors",
+          "size": 649009720,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00072-of-00130.safetensors",
+          "size": 714081224,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00073-of-00130.safetensors",
+          "size": 811598672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00074-of-00130.safetensors",
+          "size": 9965666808,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00075-of-00130.safetensors",
+          "size": 9965666808,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00076-of-00130.safetensors",
+          "size": 704580032,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00077-of-00130.safetensors",
+          "size": 714081224,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00078-of-00130.safetensors",
+          "size": 811598672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00079-of-00130.safetensors",
+          "size": 9965666808,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00080-of-00130.safetensors",
+          "size": 9965666808,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00081-of-00130.safetensors",
+          "size": 471471768,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00082-of-00130.safetensors",
+          "size": 811692456,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00083-of-00130.safetensors",
+          "size": 811598672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00084-of-00130.safetensors",
+          "size": 9965666808,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00085-of-00130.safetensors",
+          "size": 9965666808,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00086-of-00130.safetensors",
+          "size": 550468384,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00087-of-00130.safetensors",
+          "size": 714200200,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00088-of-00130.safetensors",
+          "size": 714081216,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00089-of-00130.safetensors",
+          "size": 9965666808,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00090-of-00130.safetensors",
+          "size": 9965666808,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00091-of-00130.safetensors",
+          "size": 858202480,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00092-of-00130.safetensors",
+          "size": 811712800,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00093-of-00130.safetensors",
+          "size": 714081216,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00094-of-00130.safetensors",
+          "size": 9965666808,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00095-of-00130.safetensors",
+          "size": 9965666808,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00096-of-00130.safetensors",
+          "size": 545004488,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00097-of-00130.safetensors",
+          "size": 546044400,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00098-of-00130.safetensors",
+          "size": 714081224,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00099-of-00130.safetensors",
+          "size": 9965666808,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00100-of-00130.safetensors",
+          "size": 9965666808,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00101-of-00130.safetensors",
+          "size": 740039416,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00102-of-00130.safetensors",
+          "size": 714198272,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00103-of-00130.safetensors",
+          "size": 714081224,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00104-of-00130.safetensors",
+          "size": 9965666808,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00105-of-00130.safetensors",
+          "size": 9965666808,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00106-of-00130.safetensors",
+          "size": 740039400,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00107-of-00130.safetensors",
+          "size": 811717496,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00108-of-00130.safetensors",
+          "size": 811598672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00109-of-00130.safetensors",
+          "size": 9965666808,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00110-of-00130.safetensors",
+          "size": 9965666808,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00111-of-00130.safetensors",
+          "size": 528368236,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00112-of-00130.safetensors",
+          "size": 523377280,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00113-of-00130.safetensors",
+          "size": 811598672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00114-of-00130.safetensors",
+          "size": 9965666808,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00115-of-00130.safetensors",
+          "size": 9965666808,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00116-of-00130.safetensors",
+          "size": 494672224,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00117-of-00130.safetensors",
+          "size": 621709912,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00118-of-00130.safetensors",
+          "size": 811598672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00119-of-00130.safetensors",
+          "size": 9965666808,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00120-of-00130.safetensors",
+          "size": 9965666808,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00121-of-00130.safetensors",
+          "size": 539591704,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00122-of-00130.safetensors",
+          "size": 629545560,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00123-of-00130.safetensors",
+          "size": 462819616,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00124-of-00130.safetensors",
+          "size": 201326720,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00125-of-00130.safetensors",
+          "size": 9965666808,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00126-of-00130.safetensors",
+          "size": 9965666808,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00127-of-00130.safetensors",
+          "size": 548389176,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00128-of-00130.safetensors",
+          "size": 727152328,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00129-of-00130.safetensors",
+          "size": 714081224,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00130-of-00130.safetensors",
+          "size": 10540166064,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model.safetensors.index.json",
+          "size": 254109,
+          "sha256": "ebc41cb4183d6c0fa91ad15b5f2beebcc1e224bf97516bfe51cb6bf08bdbf106",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer.json",
+          "size": 9358955,
+          "sha256": "ff67615de6e6ee073a20bd1fe3a776053e821573f4ae566aeb8e9d43de801201",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 351,
+          "sha256": "15267c495102b0ce259408a0b3a9dc11a6de74dd7dd8ef5b9757f64252a9b2df",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 813800659217,
+      "weight_bytes": 813766152348,
+      "snapshot_dir": "snapshots/tencent/Hy4-preview-FP8/4215ec29de873a998e849cee902654490c7ff4d1/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

@@ -1,0 +1,124 @@
+{
+  "repo_id": "meta-models/Muse-Glimmer-30B",
+  "canonical_org": "meta-models",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "a4e59da52a7bc87ae7251dd5545c0dd437c44b68",
+      "captured_at": "2026-09-09T21:35:36Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/meta-models/Muse-Glimmer-30B?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"3713-ifvFHs8NB2ESfemyI+xcrsPdKK8\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "apache-2.0",
+        "file": "LICENSE",
+        "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+        "redistributable": null,
+        "obligations": []
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1570,
+          "sha256": "34448b82c17d60fec9b65b1f093c115ddbaadc04beb1b0140b6bfed2e012a930",
+          "kind": "snapshot"
+        },
+        {
+          "path": "LICENSE",
+          "size": 11358,
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 16892,
+          "sha256": "5894e358c58f4f8425645a5b0b890468ecb3e6b049c2e941648db077c4b7df58",
+          "kind": "snapshot"
+        },
+        {
+          "path": "USAGE_POLICY.md",
+          "size": 5230,
+          "sha256": "98a14dab9fd97de1666dc8589d399efab1e7fc3ba4e6230d037d6637ba9481d3",
+          "kind": "snapshot"
+        },
+        {
+          "path": "chat_template.jinja",
+          "size": 9992,
+          "sha256": "cfc67e5f349f37690dfd31ed1f18bc4442a9dd32fe39a648f993cb4eb3cae678",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 5109,
+          "sha256": "5a9df2d8a385b3d361ab6ae68d73586f4e775033933bd0cd863fb7f3820e6a14",
+          "kind": "snapshot"
+        },
+        {
+          "path": "generation_config.json",
+          "size": 202,
+          "sha256": "1fa51889b1f8d3659802dedaa27e005b81e5c58483f13ecf13f2d97306bc6e35",
+          "kind": "snapshot"
+        },
+        {
+          "path": "model-00001-of-00002.safetensors",
+          "size": 49950112952,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00002-of-00002.safetensors",
+          "size": 9603322320,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model.safetensors.index.json",
+          "size": 132674,
+          "sha256": "7d817b4dccb1b123fc6c1939356c65cee3a0ad462a5b821ac88280990a27d1ba",
+          "kind": "snapshot"
+        },
+        {
+          "path": "processor_config.json",
+          "size": 1084,
+          "sha256": "97e2a486dd9866b81f40cf4b8bc0c9ced9a7cd8a5bc65aa4cc2f4de0712dae77",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer.json",
+          "size": 28129897,
+          "sha256": "c9dbee66967b58f31a7c27f723c3760da3526ccd0427578e8905b0abb0031c4d",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 79936,
+          "sha256": "781e6c74f571642c71202167b67d9255b28cc439bdda1582ff31346182f5a9c5",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 59581829216,
+      "weight_bytes": 59553435272,
+      "snapshot_dir": "snapshots/meta-models/Muse-Glimmer-30B/a4e59da52a7bc87ae7251dd5545c0dd437c44b68/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

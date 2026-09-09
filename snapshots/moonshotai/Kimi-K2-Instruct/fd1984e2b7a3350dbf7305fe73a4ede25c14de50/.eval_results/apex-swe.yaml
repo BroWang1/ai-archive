@@ -1,0 +1,10 @@
+- dataset:
+    id: mercor/APEX-SWE
+    task_id: apex-swe
+  value: 11.2
+  date: '2026-04-22'
+  source:
+    url: https://www.mercor.com/apex/apex-swe-leaderboard/
+    name: APEX-SWE Leaderboard
+    user: mercor
+  notes: "harness: claude_code; reasoning_effort: thinking"

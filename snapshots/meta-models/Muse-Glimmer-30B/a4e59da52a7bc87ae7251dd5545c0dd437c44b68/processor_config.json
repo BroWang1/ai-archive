@@ -1,0 +1,53 @@
+{
+  "image_processor": {
+    "do_convert_rgb": true,
+    "do_normalize": true,
+    "do_rescale": true,
+    "do_resize": true,
+    "image_mean": [
+      0.5,
+      0.5,
+      0.5
+    ],
+    "image_processor_type": "MuseGlimmerImageProcessor",
+    "image_std": [
+      0.5,
+      0.5,
+      0.5
+    ],
+    "max_image_tokens": 4096,
+    "merge_size": 2,
+    "patch_size": 14,
+    "resample": 1,
+    "rescale_factor": 0.00392156862745098,
+    "temporal_patch_size": 2
+  },
+  "processor_class": "MuseGlimmerProcessor",
+  "video_processor": {
+    "do_convert_rgb": true,
+    "do_normalize": true,
+    "do_rescale": true,
+    "do_resize": true,
+    "do_sample_frames": true,
+    "fps": 2.0,
+    "image_mean": [
+      0.5,
+      0.5,
+      0.5
+    ],
+    "image_std": [
+      0.5,
+      0.5,
+      0.5
+    ],
+    "max_video_frame_tokens": 144,
+    "merge_size": 2,
+    "num_frames": 96,
+    "patch_size": 14,
+    "resample": 1,
+    "rescale_factor": 0.00392156862745098,
+    "return_metadata": true,
+    "temporal_patch_size": 2,
+    "video_processor_type": "MuseGlimmerVideoProcessor"
+  }
+}

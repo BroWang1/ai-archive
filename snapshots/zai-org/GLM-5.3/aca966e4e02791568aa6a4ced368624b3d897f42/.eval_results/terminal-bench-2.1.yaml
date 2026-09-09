@@ -1,0 +1,8 @@
+- dataset:
+    id: harborframework/terminal-bench-2.1
+    task_id: terminalbench_2_1
+  value: 88.2
+  source:
+    url: https://huggingface.co/zai-org/GLM-5.3
+    name: Model Card
+  notes: "harness: claude code"

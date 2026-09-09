@@ -1,0 +1,544 @@
+{
+  "repo_id": "moonshotai/Kimi-K2-Instruct",
+  "canonical_org": "moonshotai",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "fd1984e2b7a3350dbf7305fe73a4ede25c14de50",
+      "captured_at": "2026-09-09T21:37:42Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/moonshotai/Kimi-K2-Instruct?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"5cd3-zCEwTnPluFKgYWqb3BR1ADNN/3Y\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "other",
+        "file": "LICENSE",
+        "sha256": "b280da6f496d75e0c5beb79b03520d190fce67dfe12f75cf3aadad8670839d93",
+        "redistributable": null,
+        "obligations": []
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".eval_results/apex-swe.yaml",
+          "size": 268,
+          "sha256": "66293e5e344839493c89b719a2d9fe83c444b45edc4daaf4c7968f1b25eb2ae5",
+          "kind": "snapshot"
+        },
+        {
+          "path": ".eval_results/swe_bench_pro.yaml",
+          "size": 221,
+          "sha256": "dc05cb1441d0074c12df2d4452151d78f06d2699b852a77cd700b69c69511269",
+          "kind": "snapshot"
+        },
+        {
+          "path": ".eval_results/terminal_bench.yaml",
+          "size": 277,
+          "sha256": "0a48612dc14f18467877f81fec0d3e94dab73b23df1e74f20a9e74db79fa996b",
+          "kind": "snapshot"
+        },
+        {
+          "path": ".gitattributes",
+          "size": 1695,
+          "sha256": "693f2443f2f1433b456bffd31f930d43950a2d0f53eaa34f489a547fed53612f",
+          "kind": "snapshot"
+        },
+        {
+          "path": "LICENSE",
+          "size": 1463,
+          "sha256": "b280da6f496d75e0c5beb79b03520d190fce67dfe12f75cf3aadad8670839d93",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 25517,
+          "sha256": "72e2785dbd9ada9355ea3a812d2a9da606f1ae07feea7a0f7e18b8111deb8837",
+          "kind": "snapshot"
+        },
+        {
+          "path": "THIRD_PARTY_NOTICES.md",
+          "size": 1664,
+          "sha256": "5d7789302c002ace2bef98ee1082a1278026b868b0a6bec0ee1eaf1b71022ade",
+          "kind": "snapshot"
+        },
+        {
+          "path": "chat_template.jinja",
+          "size": 2021,
+          "sha256": "39e8c195b474c1a4148046f41fedd177b2ff8f420fa376e52fcdddb829e8f0c5",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 1725,
+          "sha256": "8c13ae1049df55f29b3bdcae69a562433f243ff70dac251d819ecad8dbdf7439",
+          "kind": "snapshot"
+        },
+        {
+          "path": "configuration_deepseek.py",
+          "size": 10652,
+          "sha256": "54f29dd0d56e9a13f639c703e524daa71794e360050012aea3788ad7cfc38b17",
+          "kind": "snapshot"
+        },
+        {
+          "path": "docs/deploy_guidance.md",
+          "size": 8903,
+          "sha256": "b12e81002e9263aac7d6e66b494e4cb32a49ae11638898e47bdf250c09294c68",
+          "kind": "snapshot"
+        },
+        {
+          "path": "docs/tool_call_guidance.md",
+          "size": 10280,
+          "sha256": "dffeb04c10de66d440e1a7d2cc003b73db41d15f561637a559d3717c2ad7ee2a",
+          "kind": "snapshot"
+        },
+        {
+          "path": "figures/Base-Evaluation.png",
+          "size": 245449,
+          "sha256": "d1d3ee49430417c17326c9def19264756a3bc0b0aa001e598d0e0d751ebf93f8",
+          "kind": "snapshot"
+        },
+        {
+          "path": "figures/banner.png",
+          "size": 291736,
+          "sha256": "380b39db25a6842cedaabad354a0a4929b617835094800124bba756c3b0e98f8",
+          "kind": "snapshot"
+        },
+        {
+          "path": "figures/kimi-logo.png",
+          "size": 87988,
+          "sha256": "4a80f64242bf907940765adc7bcf340c28dd83334b07c5503792a26495d1933b",
+          "kind": "snapshot"
+        },
+        {
+          "path": "generation_config.json",
+          "size": 52,
+          "sha256": "0d9e3603a1c128d86a6ea49a706e27a557cb29ce8183c905a1cd3e8e69eea1a5",
+          "kind": "snapshot"
+        },
+        {
+          "path": "kimi-logo.png",
+          "size": 87988,
+          "sha256": "4a80f64242bf907940765adc7bcf340c28dd83334b07c5503792a26495d1933b",
+          "kind": "snapshot"
+        },
+        {
+          "path": "model-1-of-61.safetensors",
+          "size": 2846451040,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-10-of-61.safetensors",
+          "size": 17066593104,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-11-of-61.safetensors",
+          "size": 17066595432,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-12-of-61.safetensors",
+          "size": 17066595432,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-13-of-61.safetensors",
+          "size": 17066595432,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-14-of-61.safetensors",
+          "size": 17066595432,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-15-of-61.safetensors",
+          "size": 17066595432,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-16-of-61.safetensors",
+          "size": 17066595432,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-17-of-61.safetensors",
+          "size": 17066595432,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-18-of-61.safetensors",
+          "size": 17066595432,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-19-of-61.safetensors",
+          "size": 17066595432,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-2-of-61.safetensors",
+          "size": 17066593104,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-20-of-61.safetensors",
+          "size": 17066595432,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-21-of-61.safetensors",
+          "size": 17066595432,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-22-of-61.safetensors",
+          "size": 17066595432,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-23-of-61.safetensors",
+          "size": 17066595432,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-24-of-61.safetensors",
+          "size": 17066595432,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-25-of-61.safetensors",
+          "size": 17066595432,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-26-of-61.safetensors",
+          "size": 17066595432,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-27-of-61.safetensors",
+          "size": 17066595432,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-28-of-61.safetensors",
+          "size": 17066595432,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-29-of-61.safetensors",
+          "size": 17066595432,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-3-of-61.safetensors",
+          "size": 17066593104,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-30-of-61.safetensors",
+          "size": 17066595432,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-31-of-61.safetensors",
+          "size": 17066595432,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-32-of-61.safetensors",
+          "size": 17066595432,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-33-of-61.safetensors",
+          "size": 17066595432,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-34-of-61.safetensors",
+          "size": 17066595432,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-35-of-61.safetensors",
+          "size": 17066595432,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-36-of-61.safetensors",
+          "size": 17066595432,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-37-of-61.safetensors",
+          "size": 17066595432,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-38-of-61.safetensors",
+          "size": 17066595432,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-39-of-61.safetensors",
+          "size": 17066595432,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-4-of-61.safetensors",
+          "size": 17066593104,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-40-of-61.safetensors",
+          "size": 17066595432,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-41-of-61.safetensors",
+          "size": 17066595432,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-42-of-61.safetensors",
+          "size": 17066595432,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-43-of-61.safetensors",
+          "size": 17066595432,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-44-of-61.safetensors",
+          "size": 17066595432,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-45-of-61.safetensors",
+          "size": 17066595432,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-46-of-61.safetensors",
+          "size": 17066595432,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-47-of-61.safetensors",
+          "size": 17066595432,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-48-of-61.safetensors",
+          "size": 17066595432,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-49-of-61.safetensors",
+          "size": 17066595432,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-5-of-61.safetensors",
+          "size": 17066593104,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-50-of-61.safetensors",
+          "size": 17066595432,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-51-of-61.safetensors",
+          "size": 17066595432,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-52-of-61.safetensors",
+          "size": 17066595432,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-53-of-61.safetensors",
+          "size": 17066595432,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-54-of-61.safetensors",
+          "size": 17066595432,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-55-of-61.safetensors",
+          "size": 17066595432,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-56-of-61.safetensors",
+          "size": 17066595432,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-57-of-61.safetensors",
+          "size": 17066595432,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-58-of-61.safetensors",
+          "size": 17066595432,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-59-of-61.safetensors",
+          "size": 17066595432,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-6-of-61.safetensors",
+          "size": 17066593104,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-60-of-61.safetensors",
+          "size": 17066595432,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-61-of-61.safetensors",
+          "size": 19415420696,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-7-of-61.safetensors",
+          "size": 17066593104,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-8-of-61.safetensors",
+          "size": 17066593104,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-9-of-61.safetensors",
+          "size": 17066593104,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model.safetensors.index.json",
+          "size": 12529626,
+          "sha256": "78957a08bb224e141dbf63feba25b8c6f2b9825a89434054e2856a20c45a1eb7",
+          "kind": "snapshot"
+        },
+        {
+          "path": "modeling_deepseek.py",
+          "size": 75769,
+          "sha256": "ce753fc9076ce13ce9557e680e2f5bd68ae8929a8225772968a9a22a1d17b7d4",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tiktoken.model",
+          "size": 2795286,
+          "sha256": "b6c497a7469b33ced9c38afb1ad6e47f03f5e5dc05f15930799210ec050c5103",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenization_kimi.py",
+          "size": 12586,
+          "sha256": "b52cbff687ee5b32c8c0551da9974c678d39be0f3c890d53727888557b850c1f",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 3695,
+          "sha256": "5ba77d5822137ac3cb9337d2b84561d10425562cf8b8f2c74c91a832516a778d",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 1029207176133,
+      "weight_bytes": 1029190981272,
+      "snapshot_dir": "snapshots/moonshotai/Kimi-K2-Instruct/fd1984e2b7a3350dbf7305fe73a4ede25c14de50/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

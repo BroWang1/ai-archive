@@ -1,0 +1,10 @@
+- dataset:
+    id: harborframework/terminal-bench-2.0
+    task_id: terminalbench_2
+  value: 27.8
+  date: '2025-11-01'
+  source:
+    url: https://www.tbench.ai/leaderboard/terminal-bench/2.0
+    name: Terminal-Bench Leaderboard
+    user: burtenshaw
+  notes: "agent: Terminus 2"

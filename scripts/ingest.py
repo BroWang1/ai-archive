@@ -51,7 +51,8 @@ def classify(path):
 
 def ingest(repo_id, revision=None, max_file_mb=64):
     org = repo_id.split("/")[0]
-    orgs = json.loads((ROOT / "config" / "orgs.json").read_text())["orgs"]
+    cfg = json.loads((ROOT / "config" / "orgs.json").read_text())
+    orgs = cfg["orgs"] + cfg.get("extra_orgs", [])
     if org not in orgs:
         print(f"warning: {org} is not in config/orgs.json — canonical-org check FAILED. "
               f"Confirm this is not a derivative re-upload before trusting this capture.")

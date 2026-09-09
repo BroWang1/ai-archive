@@ -1,0 +1,8 @@
+- dataset:
+    id: cais/hle
+    task_id: hle
+  value: 62.5
+  source:
+    url: https://huggingface.co/zai-org/GLM-5.3
+    name: Model Card
+  notes: "With tools."

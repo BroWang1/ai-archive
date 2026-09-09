@@ -1,0 +1,1390 @@
+{
+  "repo_id": "Qwen/Qwen3.8-2.4T-A95B-FP8",
+  "canonical_org": "Qwen",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "d2dc35658bcf77e66643428cb52e774cc3b5bd29",
+      "captured_at": "2026-09-09T21:39:04Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/Qwen/Qwen3.8-2.4T-A95B-FP8?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"1a6af-cE3dyjPCUedQf1Wnx63fCoZdKf4\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "other",
+        "file": "LICENSE",
+        "sha256": "a136bc4137ef3d7a7a54963164a47270f73e497917728ea0f4407a0115db1290",
+        "redistributable": null,
+        "obligations": []
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1635,
+          "sha256": "d1a8f4a1d2e3787c5956393d9306365ebefe1912cb76828870682b1ab16f5c27",
+          "kind": "snapshot"
+        },
+        {
+          "path": "LICENSE",
+          "size": 3390,
+          "sha256": "a136bc4137ef3d7a7a54963164a47270f73e497917728ea0f4407a0115db1290",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 35980,
+          "sha256": "efc54a1b85afe95cb1bdf00ed1106bf82bf6b91af4f7e546a6f47df868ff446c",
+          "kind": "snapshot"
+        },
+        {
+          "path": "chat_template.jinja",
+          "size": 7495,
+          "sha256": "40ce34a5bcbc0231462740761215bc31a83882a8b3a4b6aa1c6e869b95945e4e",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 55622,
+          "sha256": "b7396b749964c6afb5387c58e6425db8628e85f8ae66739d284eb1c8f42c4d4e",
+          "kind": "snapshot"
+        },
+        {
+          "path": "generation_config.json",
+          "size": 202,
+          "sha256": "e70c136c1b78ddc1fb0905bac8e733a4dc448d4f852a5dd75143fffc70be550e",
+          "kind": "snapshot"
+        },
+        {
+          "path": "merges.txt",
+          "size": 3353259,
+          "sha256": "a9d356d7bdf1ef4949e3e748e95b8e10ad9d4e2e838eddc38a0a7b6b94d1db8d",
+          "kind": "snapshot"
+        },
+        {
+          "path": "model-00001-of-00213.safetensors",
+          "size": 17182224624,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00002-of-00213.safetensors",
+          "size": 8591112304,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00003-of-00213.safetensors",
+          "size": 17182224624,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00004-of-00213.safetensors",
+          "size": 8591112304,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00005-of-00213.safetensors",
+          "size": 17182226672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00006-of-00213.safetensors",
+          "size": 8591113328,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00007-of-00213.safetensors",
+          "size": 17182224624,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00008-of-00213.safetensors",
+          "size": 8591112304,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00009-of-00213.safetensors",
+          "size": 17182224624,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00010-of-00213.safetensors",
+          "size": 8591112304,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00011-of-00213.safetensors",
+          "size": 3985468096,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00012-of-00213.safetensors",
+          "size": 17182224624,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00013-of-00213.safetensors",
+          "size": 8591112304,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00014-of-00213.safetensors",
+          "size": 17182224624,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00015-of-00213.safetensors",
+          "size": 8591112304,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00016-of-00213.safetensors",
+          "size": 17182224624,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00017-of-00213.safetensors",
+          "size": 8591112304,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00018-of-00213.safetensors",
+          "size": 17182224624,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00019-of-00213.safetensors",
+          "size": 8591112304,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00020-of-00213.safetensors",
+          "size": 3972721896,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00021-of-00213.safetensors",
+          "size": 17182224624,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00022-of-00213.safetensors",
+          "size": 8591112304,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00023-of-00213.safetensors",
+          "size": 17182224624,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00024-of-00213.safetensors",
+          "size": 8591112304,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00025-of-00213.safetensors",
+          "size": 4068474992,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00026-of-00213.safetensors",
+          "size": 2810632544,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00027-of-00213.safetensors",
+          "size": 17182226672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00028-of-00213.safetensors",
+          "size": 8591113328,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00029-of-00213.safetensors",
+          "size": 17182226672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00030-of-00213.safetensors",
+          "size": 8591113328,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00031-of-00213.safetensors",
+          "size": 17182226672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00032-of-00213.safetensors",
+          "size": 8591113328,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00033-of-00213.safetensors",
+          "size": 17182226672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00034-of-00213.safetensors",
+          "size": 8591113328,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00035-of-00213.safetensors",
+          "size": 17182226672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00036-of-00213.safetensors",
+          "size": 8591113328,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00037-of-00213.safetensors",
+          "size": 3981110048,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00038-of-00213.safetensors",
+          "size": 17182226672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00039-of-00213.safetensors",
+          "size": 8591113328,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00040-of-00213.safetensors",
+          "size": 17182226672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00041-of-00213.safetensors",
+          "size": 8591113328,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00042-of-00213.safetensors",
+          "size": 17182226672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00043-of-00213.safetensors",
+          "size": 8591113328,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00044-of-00213.safetensors",
+          "size": 17182226672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00045-of-00213.safetensors",
+          "size": 8591113328,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00046-of-00213.safetensors",
+          "size": 3939167408,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00047-of-00213.safetensors",
+          "size": 17182226672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00048-of-00213.safetensors",
+          "size": 8591113328,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00049-of-00213.safetensors",
+          "size": 17182226672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00050-of-00213.safetensors",
+          "size": 8591113328,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00051-of-00213.safetensors",
+          "size": 2810632584,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00052-of-00213.safetensors",
+          "size": 17182226672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00053-of-00213.safetensors",
+          "size": 8591113328,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00054-of-00213.safetensors",
+          "size": 17182226672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00055-of-00213.safetensors",
+          "size": 8591113328,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00056-of-00213.safetensors",
+          "size": 17182226672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00057-of-00213.safetensors",
+          "size": 8591113328,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00058-of-00213.safetensors",
+          "size": 17182226672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00059-of-00213.safetensors",
+          "size": 8591113328,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00060-of-00213.safetensors",
+          "size": 3909971424,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00061-of-00213.safetensors",
+          "size": 17182226672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00062-of-00213.safetensors",
+          "size": 8591113328,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00063-of-00213.safetensors",
+          "size": 17182226672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00064-of-00213.safetensors",
+          "size": 8591113328,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00065-of-00213.safetensors",
+          "size": 17182226672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00066-of-00213.safetensors",
+          "size": 8591113328,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00067-of-00213.safetensors",
+          "size": 17182226672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00068-of-00213.safetensors",
+          "size": 8591113328,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00069-of-00213.safetensors",
+          "size": 3905595736,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00070-of-00213.safetensors",
+          "size": 17182226672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00071-of-00213.safetensors",
+          "size": 8591113328,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00072-of-00213.safetensors",
+          "size": 17182226672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00073-of-00213.safetensors",
+          "size": 8591113328,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00074-of-00213.safetensors",
+          "size": 17182226672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00075-of-00213.safetensors",
+          "size": 8591113328,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00076-of-00213.safetensors",
+          "size": 17182226672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00077-of-00213.safetensors",
+          "size": 8591113328,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00078-of-00213.safetensors",
+          "size": 3901220008,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00079-of-00213.safetensors",
+          "size": 17182226672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00080-of-00213.safetensors",
+          "size": 8591113328,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00081-of-00213.safetensors",
+          "size": 17182226672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00082-of-00213.safetensors",
+          "size": 8591113328,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00083-of-00213.safetensors",
+          "size": 17182226672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00084-of-00213.safetensors",
+          "size": 8591113328,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00085-of-00213.safetensors",
+          "size": 17182226672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00086-of-00213.safetensors",
+          "size": 8591113328,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00087-of-00213.safetensors",
+          "size": 3909971424,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00088-of-00213.safetensors",
+          "size": 17182226672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00089-of-00213.safetensors",
+          "size": 8591113328,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00090-of-00213.safetensors",
+          "size": 17182226672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00091-of-00213.safetensors",
+          "size": 8591113328,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00092-of-00213.safetensors",
+          "size": 17182226672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00093-of-00213.safetensors",
+          "size": 8591113328,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00094-of-00213.safetensors",
+          "size": 17182226672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00095-of-00213.safetensors",
+          "size": 8591113328,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00096-of-00213.safetensors",
+          "size": 3905595736,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00097-of-00213.safetensors",
+          "size": 17182226672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00098-of-00213.safetensors",
+          "size": 8591113328,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00099-of-00213.safetensors",
+          "size": 17182226672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00100-of-00213.safetensors",
+          "size": 8591113328,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00101-of-00213.safetensors",
+          "size": 17182226672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00102-of-00213.safetensors",
+          "size": 8591113328,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00103-of-00213.safetensors",
+          "size": 17182226672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00104-of-00213.safetensors",
+          "size": 8591113328,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00105-of-00213.safetensors",
+          "size": 3901220008,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00106-of-00213.safetensors",
+          "size": 17182226672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00107-of-00213.safetensors",
+          "size": 8591113328,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00108-of-00213.safetensors",
+          "size": 17182226672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00109-of-00213.safetensors",
+          "size": 8591113328,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00110-of-00213.safetensors",
+          "size": 17182226672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00111-of-00213.safetensors",
+          "size": 8591113328,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00112-of-00213.safetensors",
+          "size": 17182226672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00113-of-00213.safetensors",
+          "size": 8591113328,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00114-of-00213.safetensors",
+          "size": 3909971424,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00115-of-00213.safetensors",
+          "size": 17182226672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00116-of-00213.safetensors",
+          "size": 8591113328,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00117-of-00213.safetensors",
+          "size": 17182226672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00118-of-00213.safetensors",
+          "size": 8591113328,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00119-of-00213.safetensors",
+          "size": 17182226672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00120-of-00213.safetensors",
+          "size": 8591113328,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00121-of-00213.safetensors",
+          "size": 17182226672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00122-of-00213.safetensors",
+          "size": 8591113328,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00123-of-00213.safetensors",
+          "size": 3905595736,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00124-of-00213.safetensors",
+          "size": 17182226672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00125-of-00213.safetensors",
+          "size": 8591113328,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00126-of-00213.safetensors",
+          "size": 17182226672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00127-of-00213.safetensors",
+          "size": 8591113328,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00128-of-00213.safetensors",
+          "size": 17182226672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00129-of-00213.safetensors",
+          "size": 8591113328,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00130-of-00213.safetensors",
+          "size": 17182226672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00131-of-00213.safetensors",
+          "size": 8591113328,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00132-of-00213.safetensors",
+          "size": 3901220008,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00133-of-00213.safetensors",
+          "size": 17182226672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00134-of-00213.safetensors",
+          "size": 8591113328,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00135-of-00213.safetensors",
+          "size": 17182226672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00136-of-00213.safetensors",
+          "size": 8591113328,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00137-of-00213.safetensors",
+          "size": 17182226672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00138-of-00213.safetensors",
+          "size": 8591113328,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00139-of-00213.safetensors",
+          "size": 17182226672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00140-of-00213.safetensors",
+          "size": 8591113328,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00141-of-00213.safetensors",
+          "size": 3909971424,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00142-of-00213.safetensors",
+          "size": 17182226672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00143-of-00213.safetensors",
+          "size": 8591113328,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00144-of-00213.safetensors",
+          "size": 17182226672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00145-of-00213.safetensors",
+          "size": 8591113328,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00146-of-00213.safetensors",
+          "size": 17182226672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00147-of-00213.safetensors",
+          "size": 8591113328,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00148-of-00213.safetensors",
+          "size": 17182226672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00149-of-00213.safetensors",
+          "size": 8591113328,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00150-of-00213.safetensors",
+          "size": 3905595736,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00151-of-00213.safetensors",
+          "size": 17182226672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00152-of-00213.safetensors",
+          "size": 8591113328,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00153-of-00213.safetensors",
+          "size": 17182226672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00154-of-00213.safetensors",
+          "size": 8591113328,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00155-of-00213.safetensors",
+          "size": 17182226672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00156-of-00213.safetensors",
+          "size": 8591113328,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00157-of-00213.safetensors",
+          "size": 17182226672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00158-of-00213.safetensors",
+          "size": 8591113328,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00159-of-00213.safetensors",
+          "size": 3901220008,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00160-of-00213.safetensors",
+          "size": 17182226672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00161-of-00213.safetensors",
+          "size": 8591113328,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00162-of-00213.safetensors",
+          "size": 17182226672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00163-of-00213.safetensors",
+          "size": 8591113328,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00164-of-00213.safetensors",
+          "size": 17182226672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00165-of-00213.safetensors",
+          "size": 8591113328,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00166-of-00213.safetensors",
+          "size": 17182226672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00167-of-00213.safetensors",
+          "size": 8591113328,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00168-of-00213.safetensors",
+          "size": 3909971424,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00169-of-00213.safetensors",
+          "size": 17182226672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00170-of-00213.safetensors",
+          "size": 8591113328,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00171-of-00213.safetensors",
+          "size": 17182226672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00172-of-00213.safetensors",
+          "size": 8591113328,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00173-of-00213.safetensors",
+          "size": 17182226672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00174-of-00213.safetensors",
+          "size": 8591113328,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00175-of-00213.safetensors",
+          "size": 17182226672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00176-of-00213.safetensors",
+          "size": 8591113328,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00177-of-00213.safetensors",
+          "size": 3905595736,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00178-of-00213.safetensors",
+          "size": 17182226672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00179-of-00213.safetensors",
+          "size": 8591113328,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00180-of-00213.safetensors",
+          "size": 17182226672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00181-of-00213.safetensors",
+          "size": 8591113328,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00182-of-00213.safetensors",
+          "size": 17182226672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00183-of-00213.safetensors",
+          "size": 8591113328,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00184-of-00213.safetensors",
+          "size": 2915342896,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00185-of-00213.safetensors",
+          "size": 17182220528,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00186-of-00213.safetensors",
+          "size": 8591110256,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00187-of-00213.safetensors",
+          "size": 17182226672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00188-of-00213.safetensors",
+          "size": 8591113328,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00189-of-00213.safetensors",
+          "size": 17182226672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00190-of-00213.safetensors",
+          "size": 8591113328,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00191-of-00213.safetensors",
+          "size": 17182226672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00192-of-00213.safetensors",
+          "size": 8591113328,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00193-of-00213.safetensors",
+          "size": 3565758112,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00194-of-00213.safetensors",
+          "size": 17182226672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00195-of-00213.safetensors",
+          "size": 8591113328,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00196-of-00213.safetensors",
+          "size": 17182226672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00197-of-00213.safetensors",
+          "size": 8591113328,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00198-of-00213.safetensors",
+          "size": 17182226672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00199-of-00213.safetensors",
+          "size": 8591113328,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00200-of-00213.safetensors",
+          "size": 17182226672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00201-of-00213.safetensors",
+          "size": 8591113328,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00202-of-00213.safetensors",
+          "size": 3905595736,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00203-of-00213.safetensors",
+          "size": 17182226672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00204-of-00213.safetensors",
+          "size": 8591113328,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00205-of-00213.safetensors",
+          "size": 17182226672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00206-of-00213.safetensors",
+          "size": 8591113328,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00207-of-00213.safetensors",
+          "size": 17182226672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00208-of-00213.safetensors",
+          "size": 8591113328,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00209-of-00213.safetensors",
+          "size": 17182226672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00210-of-00213.safetensors",
+          "size": 8591113328,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00211-of-00213.safetensors",
+          "size": 3905595736,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00212-of-00213.safetensors",
+          "size": 4068474976,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00213-of-00213.safetensors",
+          "size": 570426312,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model.safetensors.index.json",
+          "size": 28691675,
+          "sha256": "67f75ab10833869c951b5c8e02ddcf4fa11974a8dcb950c51193680c90a4f77c",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer.json",
+          "size": 12809320,
+          "sha256": "0997f410c57a1f4e53b09e4be8f4a172d90edd9564368fb0847030937229b9f3",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 16438,
+          "sha256": "a4a70308585bebf75f240af83d569586dbcce75626ec324e2f4fe82a72153623",
+          "kind": "snapshot"
+        },
+        {
+          "path": "vocab.json",
+          "size": 6722759,
+          "sha256": "ce99b4cb2983d118806ce0a8b777a35b093e2000a503ebde25853284c9dfa003",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 2496154395007,
+      "weight_bytes": 2496102697232,
+      "snapshot_dir": "snapshots/Qwen/Qwen3.8-2.4T-A95B-FP8/d2dc35658bcf77e66643428cb52e774cc3b5bd29/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}
