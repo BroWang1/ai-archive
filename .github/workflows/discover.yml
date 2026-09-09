@@ -1,0 +1,38 @@
+name: discover
+on:
+  schedule:
+    - cron: "43 7 * * 1,4"   # Mon + Thu
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Scan tracked orgs
+        id: scan
+        run: |
+          set +e
+          python3 scripts/discover.py | tee discover.log
+          code=$?
+          echo "new=$([ $code -eq 3 ] && echo yes || echo no)" >> "$GITHUB_OUTPUT"
+          [ $code -eq 3 ] || [ $code -eq 0 ] || exit $code
+      - name: Commit state (heartbeat)
+        run: |
+          git config user.name "ai-archive-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add -A state/
+          git commit -m "heartbeat: discover $(date -u +%F)" --allow-empty
+          git push
+      - name: Open issue on new releases
+        if: steps.scan.outputs.new == 'yes'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh issue create \
+            --title "New releases to capture $(date -u +%F)" \
+            --body "$(cat discover.log)"

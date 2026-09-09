@@ -1,0 +1,44 @@
+{
+  "repos": {
+    "Qwen/Qwen3.8-27B": {
+      "history": [
+        {
+          "at": "2026-09-09T19:09:25Z",
+          "from": null,
+          "to": "live",
+          "http": 200
+        }
+      ],
+      "status": "live",
+      "last_checked": "2026-09-09T19:09:25Z",
+      "last_http": 200
+    },
+    "deepseek-ai/DeepSeek-V3.2-Exp": {
+      "history": [
+        {
+          "at": "2026-09-09T19:09:25Z",
+          "from": null,
+          "to": "live",
+          "http": 200
+        }
+      ],
+      "status": "live",
+      "last_checked": "2026-09-09T19:09:25Z",
+      "last_http": 200
+    },
+    "zai-org/GLM-4.6": {
+      "history": [
+        {
+          "at": "2026-09-09T19:09:25Z",
+          "from": null,
+          "to": "live",
+          "http": 200
+        }
+      ],
+      "status": "live",
+      "last_checked": "2026-09-09T19:09:25Z",
+      "last_http": 200
+    }
+  },
+  "last_run": "2026-09-09T19:09:25Z"
+}

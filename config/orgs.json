@@ -1,0 +1,23 @@
+{
+  "comment": "Canonical Hugging Face orgs of tracked Chinese labs. Ingest resolves models by org listing, never by name search (derivative repos outnumber originals in search results).",
+  "orgs": [
+    "Qwen",
+    "deepseek-ai",
+    "zai-org",
+    "moonshotai",
+    "tencent",
+    "MiniMaxAI",
+    "internlm",
+    "stepfun-ai",
+    "baichuan-inc",
+    "01-ai",
+    "inclusionAI",
+    "XiaomiMiMo",
+    "Skywork",
+    "openbmb",
+    "ByteDance-Seed",
+    "Tele-AI",
+    "IEITYuan",
+    "OrionStarAI"
+  ]
+}
