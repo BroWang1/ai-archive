@@ -10,7 +10,7 @@
         }
       ],
       "status": "live",
-      "last_checked": "2026-09-09T19:46:40Z",
+      "last_checked": "2026-09-10T11:21:03Z",
       "last_http": 200
     },
     "deepseek-ai/DeepSeek-V3.2-Exp": {
@@ -23,7 +23,7 @@
         }
       ],
       "status": "live",
-      "last_checked": "2026-09-09T19:46:40Z",
+      "last_checked": "2026-09-10T11:21:03Z",
       "last_http": 200
     },
     "zai-org/GLM-4.6": {
@@ -36,9 +36,282 @@
         }
       ],
       "status": "live",
-      "last_checked": "2026-09-09T19:46:40Z",
+      "last_checked": "2026-09-10T11:21:03Z",
+      "last_http": 200
+    },
+    "MiniMaxAI/MiniMax-M2": {
+      "history": [
+        {
+          "at": "2026-09-10T11:21:03Z",
+          "from": null,
+          "to": "live",
+          "http": 200
+        }
+      ],
+      "status": "live",
+      "last_checked": "2026-09-10T11:21:03Z",
+      "last_http": 200
+    },
+    "Qwen/Qwen3.8-2.4T-A95B-FP8": {
+      "history": [
+        {
+          "at": "2026-09-10T11:21:03Z",
+          "from": null,
+          "to": "live",
+          "http": 200
+        }
+      ],
+      "status": "live",
+      "last_checked": "2026-09-10T11:21:03Z",
+      "last_http": 200
+    },
+    "Qwen/Qwen3.8-2.4T-A95B": {
+      "history": [
+        {
+          "at": "2026-09-10T11:21:03Z",
+          "from": null,
+          "to": "live",
+          "http": 200
+        }
+      ],
+      "status": "live",
+      "last_checked": "2026-09-10T11:21:03Z",
+      "last_http": 200
+    },
+    "Qwen/Qwen3.8-Flash-Next": {
+      "history": [
+        {
+          "at": "2026-09-10T11:21:03Z",
+          "from": null,
+          "to": "live",
+          "http": 200
+        }
+      ],
+      "status": "live",
+      "last_checked": "2026-09-10T11:21:03Z",
+      "last_http": 200
+    },
+    "baichuan-inc/Baichuan-M3-235B": {
+      "history": [
+        {
+          "at": "2026-09-10T11:21:03Z",
+          "from": null,
+          "to": "live",
+          "http": 200
+        }
+      ],
+      "status": "live",
+      "last_checked": "2026-09-10T11:21:03Z",
+      "last_http": 200
+    },
+    "deepseek-ai/DeepSeek-V4-Flash-0731": {
+      "history": [
+        {
+          "at": "2026-09-10T11:21:03Z",
+          "from": null,
+          "to": "live",
+          "http": 200
+        }
+      ],
+      "status": "live",
+      "last_checked": "2026-09-10T11:21:03Z",
+      "last_http": 200
+    },
+    "deepseek-ai/DeepSeek-V4-Pro-0813": {
+      "history": [
+        {
+          "at": "2026-09-10T11:21:03Z",
+          "from": null,
+          "to": "live",
+          "http": 200
+        }
+      ],
+      "status": "live",
+      "last_checked": "2026-09-10T11:21:03Z",
+      "last_http": 200
+    },
+    "deepseek-ai/DeepSeek-V4-Pro": {
+      "history": [
+        {
+          "at": "2026-09-10T11:21:03Z",
+          "from": null,
+          "to": "live",
+          "http": 200
+        }
+      ],
+      "status": "live",
+      "last_checked": "2026-09-10T11:21:03Z",
+      "last_http": 200
+    },
+    "google/gemma-3-27b-it": {
+      "history": [
+        {
+          "at": "2026-09-10T11:21:03Z",
+          "from": null,
+          "to": "live",
+          "http": 200
+        }
+      ],
+      "status": "live",
+      "last_checked": "2026-09-10T11:21:03Z",
+      "last_http": 200
+    },
+    "internlm/Intern-S2-Preview-397B-FP8": {
+      "history": [
+        {
+          "at": "2026-09-10T11:21:03Z",
+          "from": null,
+          "to": "live",
+          "http": 200
+        }
+      ],
+      "status": "live",
+      "last_checked": "2026-09-10T11:21:03Z",
+      "last_http": 200
+    },
+    "meta-llama/Llama-4-Maverick-17B-128E-Instruct": {
+      "history": [
+        {
+          "at": "2026-09-10T11:21:03Z",
+          "from": null,
+          "to": "live",
+          "http": 200
+        }
+      ],
+      "status": "live",
+      "last_checked": "2026-09-10T11:21:03Z",
+      "last_http": 200
+    },
+    "meta-models/Muse-Glimmer-30B": {
+      "history": [
+        {
+          "at": "2026-09-10T11:21:03Z",
+          "from": null,
+          "to": "live",
+          "http": 200
+        }
+      ],
+      "status": "live",
+      "last_checked": "2026-09-10T11:21:03Z",
+      "last_http": 200
+    },
+    "moonshotai/Kimi-K2-Instruct": {
+      "history": [
+        {
+          "at": "2026-09-10T11:21:03Z",
+          "from": null,
+          "to": "live",
+          "http": 200
+        }
+      ],
+      "status": "live",
+      "last_checked": "2026-09-10T11:21:03Z",
+      "last_http": 200
+    },
+    "moonshotai/Kimi-K2.7-Code": {
+      "history": [
+        {
+          "at": "2026-09-10T11:21:03Z",
+          "from": null,
+          "to": "live",
+          "http": 200
+        }
+      ],
+      "status": "live",
+      "last_checked": "2026-09-10T11:21:03Z",
+      "last_http": 200
+    },
+    "moonshotai/Kimi-K3": {
+      "history": [
+        {
+          "at": "2026-09-10T11:21:03Z",
+          "from": null,
+          "to": "live",
+          "http": 200
+        }
+      ],
+      "status": "live",
+      "last_checked": "2026-09-10T11:21:03Z",
+      "last_http": 200
+    },
+    "openai/gpt-oss-120b": {
+      "history": [
+        {
+          "at": "2026-09-10T11:21:03Z",
+          "from": null,
+          "to": "live",
+          "http": 200
+        }
+      ],
+      "status": "live",
+      "last_checked": "2026-09-10T11:21:03Z",
+      "last_http": 200
+    },
+    "stepfun-ai/Step-3.7-Flash": {
+      "history": [
+        {
+          "at": "2026-09-10T11:21:03Z",
+          "from": null,
+          "to": "live",
+          "http": 200
+        }
+      ],
+      "status": "live",
+      "last_checked": "2026-09-10T11:21:03Z",
+      "last_http": 200
+    },
+    "tencent/Hy4-preview-FP8": {
+      "history": [
+        {
+          "at": "2026-09-10T11:21:03Z",
+          "from": null,
+          "to": "live",
+          "http": 200
+        }
+      ],
+      "status": "live",
+      "last_checked": "2026-09-10T11:21:03Z",
+      "last_http": 200
+    },
+    "zai-org/GLM-5.2": {
+      "history": [
+        {
+          "at": "2026-09-10T11:21:03Z",
+          "from": null,
+          "to": "live",
+          "http": 200
+        }
+      ],
+      "status": "live",
+      "last_checked": "2026-09-10T11:21:03Z",
+      "last_http": 200
+    },
+    "zai-org/GLM-5.3-Flash": {
+      "history": [
+        {
+          "at": "2026-09-10T11:21:03Z",
+          "from": null,
+          "to": "live",
+          "http": 200
+        }
+      ],
+      "status": "live",
+      "last_checked": "2026-09-10T11:21:03Z",
+      "last_http": 200
+    },
+    "zai-org/GLM-5.3": {
+      "history": [
+        {
+          "at": "2026-09-10T11:21:03Z",
+          "from": null,
+          "to": "live",
+          "http": 200
+        }
+      ],
+      "status": "live",
+      "last_checked": "2026-09-10T11:21:03Z",
       "last_http": 200
     }
   },
-  "last_run": "2026-09-09T19:46:40Z"
+  "last_run": "2026-09-10T11:21:03Z"
 }
