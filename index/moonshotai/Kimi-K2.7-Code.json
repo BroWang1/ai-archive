@@ -17,7 +17,9 @@
         "file": "LICENSE",
         "sha256": "9cb73476cecdfabac7775bf7c225bd5f6017d5d678372917e4456964c0454f7a",
         "redistributable": null,
-        "obligations": []
+        "obligations": [],
+        "freedom": "conditional",
+        "freedom_note": "Modified MIT: redistribution allowed; 'Kimi K2' display required >100M MAU or >$20M/mo revenue"
       },
       "gate_terms_sha256": null,
       "files": [

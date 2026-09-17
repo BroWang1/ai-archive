@@ -17,7 +17,9 @@
         "file": "LICENSE",
         "sha256": "a136bc4137ef3d7a7a54963164a47270f73e497917728ea0f4407a0115db1290",
         "redistributable": null,
-        "obligations": []
+        "obligations": [],
+        "freedom": "conditional",
+        "freedom_note": "Qwen License: redistribution allowed; commercial license required above ~$50M annual revenue"
       },
       "gate_terms_sha256": null,
       "files": [

@@ -17,7 +17,9 @@
         "file": "LICENSE",
         "sha256": "f95172ae8c823aebb14f73810fc71ce026e27555a17134d4720233caf8c2b2f0",
         "redistributable": null,
-        "obligations": []
+        "obligations": [],
+        "freedom": "restricted",
+        "freedom_note": "Gated repo: access requires accepting the author's terms"
       },
       "gate_terms_sha256": "73893b00cb5a67653f7275854d1349974d2fd7c531adc186d7b83fe46a720141",
       "files": [

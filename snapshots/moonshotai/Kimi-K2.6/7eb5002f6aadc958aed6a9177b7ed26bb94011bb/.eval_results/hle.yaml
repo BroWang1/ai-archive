@@ -1,0 +1,9 @@
+- dataset:
+    id: cais/hle
+    task_id: hle
+  value: 34.7
+  date: '2026-04-20'
+  source:
+    url: https://huggingface.co/moonshotai/Kimi-K2.6
+    name: Model Card
+    user: SaylorTwift

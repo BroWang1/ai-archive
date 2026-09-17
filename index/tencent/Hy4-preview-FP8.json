@@ -17,7 +17,9 @@
         "file": "LICENSE",
         "sha256": "333da5371c92bcee0043e81cd39f56f14b4b7905a93fe23c53b6f3b13075c5c3",
         "redistributable": null,
-        "obligations": []
+        "obligations": [],
+        "freedom": "restricted",
+        "freedom_note": "Tencent Community License family: territory exclusions apply \u2014 check per release"
       },
       "gate_terms_sha256": null,
       "files": [

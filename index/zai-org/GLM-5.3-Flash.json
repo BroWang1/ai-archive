@@ -16,8 +16,10 @@
         "tag": "mit",
         "file": "LICENSE",
         "sha256": "30b85b6b9659f2e78aa259f8faf5d920a68dee7c9ced3fa6dba1f19f2bc4fca1",
-        "redistributable": null,
-        "obligations": []
+        "redistributable": true,
+        "obligations": [],
+        "freedom": "free",
+        "freedom_note": "mit with LICENSE file verified in snapshot"
       },
       "gate_terms_sha256": null,
       "files": [

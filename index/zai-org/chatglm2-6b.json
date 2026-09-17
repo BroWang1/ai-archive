@@ -1,0 +1,156 @@
+{
+  "repo_id": "zai-org/chatglm2-6b",
+  "canonical_org": "zai-org",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "d2e2d91789248536a747d9ce60642a336444186c",
+      "captured_at": "2026-09-17T22:33:12Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/zai-org/chatglm2-6b?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"1b50-u1zl28n+Pi6YcDATU7njL/1tjGc\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": null,
+        "file": null,
+        "sha256": null,
+        "redistributable": false,
+        "obligations": [],
+        "freedom": "unlicensed",
+        "freedom_note": "No license tag and no file \u2014 cannot redistribute"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1519,
+          "sha256": "11ad7efa24975ee4b0c3c3a38ed18737f0658a5f75a0a96787b576a78a023361",
+          "kind": "snapshot"
+        },
+        {
+          "path": "MODEL_LICENSE",
+          "size": 4133,
+          "sha256": "6d5aafcdc677ba5f4e9956218bc82a2e5b62b3531930bf554ff1d2f96a7273be",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 9059,
+          "sha256": "ca49d031ce995c375b073e4064a1bb5a4b789dfe6376ac09489df69f50f857a4",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 1318,
+          "sha256": "e8d844142748827e25467f569911c2596e1de5eaf682759e25cd59891ffbeece",
+          "kind": "snapshot"
+        },
+        {
+          "path": "configuration_chatglm.py",
+          "size": 2332,
+          "sha256": "351ba435758670b27c160b7657c7ab1d32053c4e8c0606a5a9b8f9908249dec8",
+          "kind": "snapshot"
+        },
+        {
+          "path": "modeling_chatglm.py",
+          "size": 54906,
+          "sha256": "4f6a3f62906d84a026303873b114e9a507bbbd275a5986845df8547efd872d9f",
+          "kind": "snapshot"
+        },
+        {
+          "path": "pytorch_model-00001-of-00007.bin",
+          "size": 1827780615,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "pytorch_model-00002-of-00007.bin",
+          "size": 1968299005,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "pytorch_model-00003-of-00007.bin",
+          "size": 1927414561,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "pytorch_model-00004-of-00007.bin",
+          "size": 1815225523,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "pytorch_model-00005-of-00007.bin",
+          "size": 1968299069,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "pytorch_model-00006-of-00007.bin",
+          "size": 1927414561,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "pytorch_model-00007-of-00007.bin",
+          "size": 1052808067,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "pytorch_model.bin.index.json",
+          "size": 20438,
+          "sha256": "65fe4d354e616af1c1967cb52921e2b0297ce7f5a77838b5c3c9adc64da65a36",
+          "kind": "snapshot"
+        },
+        {
+          "path": "quantization.py",
+          "size": 14692,
+          "sha256": "7a690346ab3866ebdc361fb5d7389ecf6e3e8fe62f50868d28a5bcbff52ecd20",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenization_chatglm.py",
+          "size": 10061,
+          "sha256": "a223e318392c2a065b96ddfd371e780873cc12365719ceec86d4a610fa476f3c",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer.model",
+          "size": 1018370,
+          "sha256": "e7dc4c393423b76e4373e5157ddc34803a0189ba96b21ddbb40269d31468a6f2",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 244,
+          "sha256": "5e27c433028fe5e26fd98e82a1069fca50f0b69717576eb013b4b80a98ba8992",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 12488378473,
+      "weight_bytes": 12487241401,
+      "snapshot_dir": "snapshots/zai-org/chatglm2-6b/d2e2d91789248536a747d9ce60642a336444186c/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

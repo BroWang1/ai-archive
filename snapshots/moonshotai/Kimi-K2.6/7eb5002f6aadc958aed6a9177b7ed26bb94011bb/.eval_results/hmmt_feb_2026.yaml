@@ -1,0 +1,9 @@
+- dataset:
+    id: MathArena/hmmt_feb_2026
+    task_id: MathArena/hmmt_feb_2026
+  value: 92.7
+  date: '2026-04-20'
+  source:
+    url: https://huggingface.co/moonshotai/Kimi-K2.6
+    name: Model Card
+    user: SaylorTwift

@@ -17,7 +17,9 @@
         "file": "LICENSE",
         "sha256": "20c797ce19af0c17de52c6afb144644768a591c521655f5ebf5712c9850f2887",
         "redistributable": null,
-        "obligations": []
+        "obligations": [],
+        "freedom": "conditional",
+        "freedom_note": "Modified MIT: redistribution allowed; >$20M/yr MaaS revenue requires separate agreement; 'Kimi K3' display >100M MAU"
       },
       "gate_terms_sha256": null,
       "files": [

@@ -1,0 +1,378 @@
+{
+  "repo_id": "zai-org/GLM-4.5-Air",
+  "canonical_org": "zai-org",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "a24ceef6ce4f3536971efe9b778bdaa1bab18daa",
+      "captured_at": "2026-09-17T22:33:31Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/zai-org/GLM-4.5-Air?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"4533-6et8ArRt5AfjYQHvRWZc9GByq0k\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "mit",
+        "file": null,
+        "sha256": null,
+        "redistributable": null,
+        "obligations": [],
+        "freedom": "conditional",
+        "freedom_note": "'mit' card tag but NO license file in repo \u2014 unverifiable, confirm upstream"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1570,
+          "sha256": "34448b82c17d60fec9b65b1f093c115ddbaadc04beb1b0140b6bfed2e012a930",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 3001,
+          "sha256": "fdcdf454bbb54db5cf1a1dd83152feb6555c4962678cae5c7658bf9cd0261e8b",
+          "kind": "snapshot"
+        },
+        {
+          "path": "chat_template.jinja",
+          "size": 3242,
+          "sha256": "44f815868bf02fa458dd2f741a338046f4bf45f398eb6d067766726b9d96cce3",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 1008,
+          "sha256": "e59f21d7be4b4b917d80bb3a2d1211356d29cf3aeff93372523daf7d0ffb839d",
+          "kind": "snapshot"
+        },
+        {
+          "path": "generation_config.json",
+          "size": 155,
+          "sha256": "06ac18cb0e733da062bdb1d260247d52b1f6c4b10785fc733402f22a510da05d",
+          "kind": "snapshot"
+        },
+        {
+          "path": "model-00001-of-00047.safetensors",
+          "size": 2970138176,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00002-of-00047.safetensors",
+          "size": 4683035216,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00003-of-00047.safetensors",
+          "size": 4683035216,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00004-of-00047.safetensors",
+          "size": 4683035216,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00005-of-00047.safetensors",
+          "size": 4683035216,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00006-of-00047.safetensors",
+          "size": 4683035216,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00007-of-00047.safetensors",
+          "size": 4683035216,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00008-of-00047.safetensors",
+          "size": 4683035216,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00009-of-00047.safetensors",
+          "size": 4683035216,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00010-of-00047.safetensors",
+          "size": 4683035216,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00011-of-00047.safetensors",
+          "size": 4683035616,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00012-of-00047.safetensors",
+          "size": 4683035616,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00013-of-00047.safetensors",
+          "size": 4683035616,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00014-of-00047.safetensors",
+          "size": 4683035616,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00015-of-00047.safetensors",
+          "size": 4683035616,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00016-of-00047.safetensors",
+          "size": 4683035616,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00017-of-00047.safetensors",
+          "size": 4683035616,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00018-of-00047.safetensors",
+          "size": 4683035616,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00019-of-00047.safetensors",
+          "size": 4683035616,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00020-of-00047.safetensors",
+          "size": 4683035616,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00021-of-00047.safetensors",
+          "size": 4683035616,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00022-of-00047.safetensors",
+          "size": 4683035616,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00023-of-00047.safetensors",
+          "size": 4683035616,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00024-of-00047.safetensors",
+          "size": 4683035616,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00025-of-00047.safetensors",
+          "size": 4683035616,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00026-of-00047.safetensors",
+          "size": 4683035616,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00027-of-00047.safetensors",
+          "size": 4683035616,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00028-of-00047.safetensors",
+          "size": 4683035616,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00029-of-00047.safetensors",
+          "size": 4683035616,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00030-of-00047.safetensors",
+          "size": 4683035616,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00031-of-00047.safetensors",
+          "size": 4683035616,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00032-of-00047.safetensors",
+          "size": 4683035616,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00033-of-00047.safetensors",
+          "size": 4683035616,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00034-of-00047.safetensors",
+          "size": 4683035616,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00035-of-00047.safetensors",
+          "size": 4683035616,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00036-of-00047.safetensors",
+          "size": 4683035616,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00037-of-00047.safetensors",
+          "size": 4683035616,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00038-of-00047.safetensors",
+          "size": 4683035616,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00039-of-00047.safetensors",
+          "size": 4683035616,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00040-of-00047.safetensors",
+          "size": 4683035616,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00041-of-00047.safetensors",
+          "size": 4683035616,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00042-of-00047.safetensors",
+          "size": 4683035616,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00043-of-00047.safetensors",
+          "size": 4683035616,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00044-of-00047.safetensors",
+          "size": 4683035616,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00045-of-00047.safetensors",
+          "size": 4683035616,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00046-of-00047.safetensors",
+          "size": 7166072280,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00047-of-00047.safetensors",
+          "size": 4750169496,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model.safetensors.index.json",
+          "size": 1651359,
+          "sha256": "0c18a393dd882583f840b3306cb6f8104355a871680cfe88911ff78bd9ba530c",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer.json",
+          "size": 19970699,
+          "sha256": "9340665016419c825c4bdabbcc9acc43b7ca2c68ce142724afa829abb1be5efd",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 7307,
+          "sha256": "27d01309c0ae7b5edb6511daabfcbf772b60e21c65cbb74d059acc76796f7897",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 220961581797,
+      "weight_bytes": 220939943456,
+      "snapshot_dir": "snapshots/zai-org/GLM-4.5-Air/a24ceef6ce4f3536971efe9b778bdaa1bab18daa/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

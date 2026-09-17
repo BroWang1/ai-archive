@@ -1,0 +1,8 @@
+- dataset:
+    id: MMMU/MMMU_Pro
+    task_id: mmmu_pro_vision
+  value: 79.4
+  date: '2026-04-20'
+  source:
+    url: https://huggingface.co/moonshotai/Kimi-K2.6
+    name: Model Card

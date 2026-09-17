@@ -16,8 +16,10 @@
         "tag": "apache-2.0",
         "file": "LICENSE",
         "sha256": "44408c2710f3406a7a6af2388288c9ce078331ca4159fc69541d3af672c8e873",
-        "redistributable": null,
-        "obligations": []
+        "redistributable": true,
+        "obligations": [],
+        "freedom": "free",
+        "freedom_note": "apache-2.0 with LICENSE file verified in snapshot"
       },
       "gate_terms_sha256": null,
       "files": [

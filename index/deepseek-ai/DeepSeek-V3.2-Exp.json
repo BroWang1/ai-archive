@@ -20,7 +20,9 @@
         "obligations": [
           "attribution",
           "include-license-copy"
-        ]
+        ],
+        "freedom": "conditional",
+        "freedom_note": "MIT for code; older DeepSeek Model License permits re-hosting but its use restrictions must be passed through"
       },
       "gate_terms_sha256": null,
       "files": [

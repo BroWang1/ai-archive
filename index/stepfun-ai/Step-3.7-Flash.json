@@ -17,7 +17,9 @@
         "file": null,
         "sha256": null,
         "redistributable": null,
-        "obligations": []
+        "obligations": [],
+        "freedom": "conditional",
+        "freedom_note": "'apache-2.0' card tag but NO license file in repo \u2014 unverifiable, confirm upstream"
       },
       "gate_terms_sha256": null,
       "files": [

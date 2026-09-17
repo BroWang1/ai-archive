@@ -17,7 +17,9 @@
         "file": "LICENSE",
         "sha256": "96e1622099fc9d6b70c9760f007d99e66d7497eec636b63c60fe208401e9170c",
         "redistributable": null,
-        "obligations": []
+        "obligations": [],
+        "freedom": "conditional",
+        "freedom_note": "Custom license ('other') \u2014 read before redistributing"
       },
       "gate_terms_sha256": null,
       "files": [

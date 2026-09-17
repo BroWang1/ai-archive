@@ -1,0 +1,9 @@
+- dataset:
+    id: SWE-bench/SWE-bench_Verified
+    task_id: swe_bench_%_resolved
+  value: 80.2
+  date: '2026-04-20'
+  source:
+    url: https://huggingface.co/moonshotai/Kimi-K2.6
+    name: Model Card
+    user: SaylorTwift

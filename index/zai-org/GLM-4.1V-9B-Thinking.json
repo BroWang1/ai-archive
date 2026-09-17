@@ -1,0 +1,138 @@
+{
+  "repo_id": "zai-org/GLM-4.1V-9B-Thinking",
+  "canonical_org": "zai-org",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "3c1471e51dc811b589d4d12b1c1c7c1c941267c2",
+      "captured_at": "2026-09-17T22:33:21Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/zai-org/GLM-4.1V-9B-Thinking?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"1670-LdXHYHC0YFc0FBM+IhcBgoCjcNw\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "mit",
+        "file": null,
+        "sha256": null,
+        "redistributable": null,
+        "obligations": [],
+        "freedom": "conditional",
+        "freedom_note": "'mit' card tag but NO license file in repo \u2014 unverifiable, confirm upstream"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1570,
+          "sha256": "34448b82c17d60fec9b65b1f093c115ddbaadc04beb1b0140b6bfed2e012a930",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 4422,
+          "sha256": "7ac0ed3602f183bcf9e0487adb128658d861957c8021443dcea918f8d4460566",
+          "kind": "snapshot"
+        },
+        {
+          "path": "chat_template.jinja",
+          "size": 922,
+          "sha256": "847603d3ed14387a2b45c197f8d07ddee0f9938051549c727cbc894facfea78b",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 1530,
+          "sha256": "141e15cb74afaca3d870970ed405c4bab0f93a3fa46cfab70782b91f5dd526f4",
+          "kind": "snapshot"
+        },
+        {
+          "path": "generation_config.json",
+          "size": 239,
+          "sha256": "e9527bdf03e7d4971f9cacdbcf81a5fe04b10b64fc478bba6bf389cc0e597b72",
+          "kind": "snapshot"
+        },
+        {
+          "path": "model-00001-of-00004.safetensors",
+          "size": 5303216560,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00002-of-00004.safetensors",
+          "size": 5303216696,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00003-of-00004.safetensors",
+          "size": 5303216696,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00004-of-00004.safetensors",
+          "size": 4675994152,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model.safetensors.index.json",
+          "size": 66392,
+          "sha256": "d1a77d5ca0b8fa2cb57e097e1d4087bbfcb86e85778ce59e17e5e2610bc6dd86",
+          "kind": "snapshot"
+        },
+        {
+          "path": "notebook.ipynb",
+          "size": 2537101,
+          "sha256": "4e773310cc43f99e534f54b458655bc6f70c439304ac11b6624edec476b64df1",
+          "kind": "snapshot"
+        },
+        {
+          "path": "preprocessor_config.json",
+          "size": 364,
+          "sha256": "d71bebc1307f2d1e38e87563b50faa78c72fd2e4093b5c69c756f12c444fec6a",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer.json",
+          "size": 19966496,
+          "sha256": "76ebeac0d8bd7879ead7b43c16b44981f277e47225de2bd7de9ae1a6cc664a8c",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 4795,
+          "sha256": "468e400c12d54be1b1b0e008fa5ee9382c8c9ef29a5dd0b5093421ef261935ed",
+          "kind": "snapshot"
+        },
+        {
+          "path": "video_preprocessor_config.json",
+          "size": 365,
+          "sha256": "85d5ca37836f20a5edd11800e4380e731612946f8c7b70fba4d8f532fe752932",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 20608228300,
+      "weight_bytes": 20585644104,
+      "snapshot_dir": "snapshots/zai-org/GLM-4.1V-9B-Thinking/3c1471e51dc811b589d4d12b1c1c7c1c941267c2/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

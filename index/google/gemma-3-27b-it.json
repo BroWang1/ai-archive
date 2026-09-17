@@ -17,7 +17,9 @@
         "file": null,
         "sha256": null,
         "redistributable": null,
-        "obligations": []
+        "obligations": [],
+        "freedom": "restricted",
+        "freedom_note": "Gated repo: access requires accepting the author's terms"
       },
       "gate_terms_sha256": "ef8fde15145debdb83c8bd5ed57234d2bc210219a4686e044f1b786f2909a4aa",
       "files": [

@@ -25,8 +25,21 @@ WEIGHT_EXT = {".safetensors", ".bin", ".pt", ".pth", ".gguf", ".h5", ".msgpack",
 ALWAYS_SNAPSHOT = {"tokenizer.json", "tokenizer.model", "vocab.json", "merges.txt"}
 
 
+def _token():
+    import os
+    t = os.environ.get("HF_TOKEN")
+    if t:
+        return t.strip()
+    p = Path.home() / ".cache" / "huggingface" / "token"
+    return p.read_text().strip() if p.exists() else None
+
+
 def fetch(url):
-    req = urllib.request.Request(url, headers={"User-Agent": "ai-archive/" + TOOL})
+    headers = {"User-Agent": "ai-archive/" + TOOL}
+    tok = _token()
+    if tok:
+        headers["Authorization"] = f"Bearer {tok}"
+    req = urllib.request.Request(url, headers=headers)
     return urllib.request.urlopen(req, timeout=60)
 
 

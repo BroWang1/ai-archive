@@ -1,0 +1,9 @@
+- dataset:
+    id: harborframework/terminal-bench-2.0
+    task_id: terminalbench_2
+  value: 66.7
+  date: '2026-04-20'
+  source:
+    url: https://huggingface.co/moonshotai/Kimi-K2.6
+    name: Model Card
+    user: SaylorTwift

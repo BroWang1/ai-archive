@@ -1,0 +1,9 @@
+- dataset:
+    id: ScaleAI/SWE-bench_Pro
+    task_id: SWE_Bench_Pro
+  value: 58.6
+  date: '2026-04-20'
+  source:
+    url: https://huggingface.co/moonshotai/Kimi-K2.6
+    name: Model Card
+    user: SaylorTwift

@@ -21,7 +21,9 @@
           "attribution",
           "notice-retention",
           "state-changes"
-        ]
+        ],
+        "freedom": "free",
+        "freedom_note": "apache-2.0 with LICENSE file verified in snapshot"
       },
       "gate_terms_sha256": null,
       "files": [

@@ -1,0 +1,9 @@
+- dataset:
+    id: Idavidrein/gpqa
+    task_id: diamond
+  value: 90.5
+  date: '2026-04-20'
+  source:
+    url: https://huggingface.co/moonshotai/Kimi-K2.6
+    name: Model Card
+    user: SaylorTwift
