@@ -1,0 +1,60 @@
+{%- if tools %}
+    {%- if messages[0]['role'] == 'system' %}
+        {{-'<_system>'+messages[0]['content'] }}
+    {%- else %}
+        {{- '<_system>' }}
+    {%- endif %}
+    {{- '\n\n# 可用工具\n你可以调用<tools></tools>标签中包含的一个或多个工具来辅助你回答问题,以下是可用工具详情：\n<tools>\n' }}
+    {%- for tool in tools %}
+        {{- tool | tojson }}
+        {{-'\n'}}
+    {%- endfor %}
+    {{- '</tools>\n\n# 调用方法\n你需要遵循工具的要求，使用json格式返回工具名称及参数，并用<tool_call></tool_call>包含。下方是一个调用模板：\n<tool_call>\n{\"name\": <function-name>, \"arguments\": <args-json-object>}\n</tool_call>\n\n' }}
+{%- else %}
+    {%- if messages[0]['role'] == 'system' %}
+        {{- '<_system>' + messages[0]['content'] + '\n' }}
+    {%- else %}
+        {{- '<_system>' }}
+    {%- endif %}
+{%- endif %}
+{%- for message in messages %}
+    {%- if (message.role == 'user') %}
+        {{- '<_user>' + message.content }}
+    {%- elif message.role == 'bot' or message.role == 'assistant' %}
+        {%- set content = message.content.split('</think>')[-1].lstrip('\n') %}
+        {{- '<_bot>' }}
+        {%- if message.content %}
+            {{- content }}
+        {%- endif %}
+        {%- for tool_call in message.tool_calls %}
+            {%- if tool_call.function is defined %}
+                {%- set tool_call = tool_call.function %}
+            {%- endif %}
+            {%- if loop.index0 == 0 %}
+                {{-'<tool_call>'}}
+            {%- else %}
+                {{-'\n<tool_call>'}}
+            {%- endif %}
+            {{- '\n{"name": "' }}{{ tool_call.name }}
+            {{- '", "arguments": ' }}
+            {%- if tool_call.arguments is string %}
+                {{- tool_call.arguments }}
+            {%- else %}
+                {{- tool_call.arguments | tojson }}
+            {%- endif %}
+            {{- '}\n</tool_call>' }}
+        {%- endfor %}
+        {{- '<_end>\n' }}
+    {%- elif message.role == 'tool' %}
+        {%- if (loop.index0 == 0) or (messages[loop.index0 - 1].role != 'tool') %}
+            {{- '<_user>'+'<tool_response>\n' }}
+        {%- else %}
+            {{- '\n<tool_response>\n' }}
+        {%- endif %}
+        {{- message.content }}
+        {{- '\n</tool_response>' }}
+    {%- endif %}
+{%- endfor %}
+{%- if add_generation_prompt %}
+    {{- '<_bot><think>\n' }}
+{%- endif %}

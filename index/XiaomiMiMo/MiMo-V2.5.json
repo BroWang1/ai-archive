@@ -1,0 +1,282 @@
+{
+  "repo_id": "XiaomiMiMo/MiMo-V2.5",
+  "canonical_org": "XiaomiMiMo",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "63651580ca774f8504f676040460aed3e1244ac1",
+      "captured_at": "2026-09-17T22:46:23Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/XiaomiMiMo/MiMo-V2.5?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"438b-YfJD9icKNIY3ht586oRsnBddhOs\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "mit",
+        "file": null,
+        "sha256": null,
+        "redistributable": null,
+        "obligations": [],
+        "freedom": "conditional",
+        "freedom_note": "'mit' card tag but NO license file in repo \u2014 unverifiable, confirm upstream"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1732,
+          "sha256": "a02df99a15187680600d4b39de633cd285e16b8e26d52d7ba31b6888a56d4452",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 10705,
+          "sha256": "8c54ab372168ccf760a0fec8b8756b1405d0e137e2de1b5799e1ec0a2dc8a13f",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/architecture.svg",
+          "size": 1744711,
+          "sha256": "8379e306f31547c973d9b94fba4206f0f673cf83906f0d6304779aac0b0cb3b0",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/mimo-v2.5-coding-bench.png",
+          "size": 157249,
+          "sha256": "a64757621731f35a2dfeb682a29fc59e489eb71339b81a9482852268978e4c3d",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/mimo-v2.5-graphwalks.jpeg",
+          "size": 195240,
+          "sha256": "345d86f6c9ef9d5247a42e66bdca40b91ca25e613195f19a8f66ca5e7dc59fe2",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/mimo-v2.5-multimodal-bench.png",
+          "size": 241490,
+          "sha256": "8abf8b5c85b1fe0d131d66e39be6849e4243122001558150b382959946c7b331",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/wechat.jpg",
+          "size": 99703,
+          "sha256": "fc359540e8af1e2580e7c799ae65c3f9cde53f54ea32f52f366191f00d13d487",
+          "kind": "snapshot"
+        },
+        {
+          "path": "audio_tokenizer/chat_template.jinja",
+          "size": 5588,
+          "sha256": "cf1a0a0e5cbc6a6a1b609f19f6db5483fddf978e6c8c8453ca2549bed02b7425",
+          "kind": "snapshot"
+        },
+        {
+          "path": "audio_tokenizer/config.json",
+          "size": 1215,
+          "sha256": "e0702adae37947e0c980c38bae58ffa0d48bd492d523afe814aa4d73f008c7d1",
+          "kind": "snapshot"
+        },
+        {
+          "path": "audio_tokenizer/generation_config.json",
+          "size": 149,
+          "sha256": "5e14358a9bd50424310fe2c5afabf6a131c3a9b452c9322f7d9ee6f9ff6b8ef9",
+          "kind": "snapshot"
+        },
+        {
+          "path": "audio_tokenizer/model.safetensors",
+          "size": 652622472,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "audio_tokenizer/tokenizer_config.json",
+          "size": 6059,
+          "sha256": "ac41378c3257a15e31d5afa7a8e3e6ca9c2ec6702adf7a93064f8dae384939df",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 7780,
+          "sha256": "292a60e74ae9a6d53422b31b21468ce2111c0ab3f7f7a4f4e9c7cd5133b96587",
+          "kind": "snapshot"
+        },
+        {
+          "path": "configuration_mimo_v2.py",
+          "size": 10049,
+          "sha256": "773062ac9850b908eb54751b3e4dbe00e653c0e80595599409e97d0c1af2ce3e",
+          "kind": "snapshot"
+        },
+        {
+          "path": "generation_config.json",
+          "size": 195,
+          "sha256": "eecf00d9701921271c904a916c425ba6db61bcd190902e200d0a322bfd5572dd",
+          "kind": "snapshot"
+        },
+        {
+          "path": "merges.txt",
+          "size": 1671839,
+          "sha256": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3",
+          "kind": "snapshot"
+        },
+        {
+          "path": "model.safetensors.index.json",
+          "size": 6983764,
+          "sha256": "f2e1774c9acf9a62338b68c144e6fc7a66495e59f2e64b3078c1b7ef5a196816",
+          "kind": "snapshot"
+        },
+        {
+          "path": "model_mtp.safetensors",
+          "size": 1189405960,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model_pp0_ep0_shard0.safetensors",
+          "size": 34369159872,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model_pp0_ep0_shard1.safetensors",
+          "size": 14463302008,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model_pp0_ep1_shard0.safetensors",
+          "size": 34369162432,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model_pp0_ep1_shard1.safetensors",
+          "size": 3490619024,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model_pp0_ep2_shard0.safetensors",
+          "size": 34369162432,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model_pp0_ep2_shard1.safetensors",
+          "size": 3490619024,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model_pp0_ep3_shard0.safetensors",
+          "size": 34369169600,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model_pp0_ep3_shard1.safetensors",
+          "size": 3490619752,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model_pp0_ep4_shard0.safetensors",
+          "size": 34369170624,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model_pp0_ep4_shard1.safetensors",
+          "size": 3490619856,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model_pp0_ep5_shard0.safetensors",
+          "size": 34369170624,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model_pp0_ep5_shard1.safetensors",
+          "size": 3490619856,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model_pp0_ep6_shard0.safetensors",
+          "size": 34369170624,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model_pp0_ep6_shard1.safetensors",
+          "size": 3490619856,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model_pp0_ep7_shard0.safetensors",
+          "size": 34369170624,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model_pp0_ep7_shard1.safetensors",
+          "size": 3490619856,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "modeling_mimo_v2.py",
+          "size": 85516,
+          "sha256": "a8c3cb3aae473bcc15f023010547c919f15eba6546e6ed7efb61a8937b12f3ad",
+          "kind": "snapshot"
+        },
+        {
+          "path": "preprocessor_config.json",
+          "size": 350,
+          "sha256": "b269e51bdc1c53ef7c82522984378513f462869cf83c4c75ec3f98bd92aa7972",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer.json",
+          "size": 7033572,
+          "sha256": "633518aad78f9f61bae2ae420d621215754a4424c918b052cd8c22a3b59e99d2",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 15167,
+          "sha256": "fd34b805f75a890a5c123d79a2982bbe240b3b6efb156d22401bd619484d9bd2",
+          "kind": "snapshot"
+        },
+        {
+          "path": "vocab.json",
+          "size": 2776833,
+          "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 315714053402,
+      "weight_bytes": 315693004496,
+      "snapshot_dir": "snapshots/XiaomiMiMo/MiMo-V2.5/63651580ca774f8504f676040460aed3e1244ac1/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

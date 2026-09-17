@@ -1,0 +1,150 @@
+{
+  "repo_id": "meta-llama/Llama-3.1-8B-Instruct",
+  "canonical_org": "meta-llama",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "0e9e39f249a16976918f6564b8830bc894c89659",
+      "captured_at": "2026-09-17T22:55:01Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/meta-llama/Llama-3.1-8B-Instruct?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"6165-PUIPPBaySoZLc1iisv+2GM7ypYA\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "llama3.1",
+        "file": "LICENSE",
+        "sha256": "64e1b2889b7892e6bbe7a7ed5bfe6ff793c61f9d584345f8f41cf9f5cb30a369",
+        "redistributable": null,
+        "obligations": [],
+        "freedom": "restricted",
+        "freedom_note": "Gated repo: access requires accepting the author's terms"
+      },
+      "gate_terms_sha256": "5c9dbba36d13ab12a88be8ec7f0184b78e67bc63cea2bde97ba30cc54b5d4845",
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1519,
+          "sha256": null,
+          "kind": "gated-no-snapshot"
+        },
+        {
+          "path": "LICENSE",
+          "size": 7627,
+          "sha256": "64e1b2889b7892e6bbe7a7ed5bfe6ff793c61f9d584345f8f41cf9f5cb30a369",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 44044,
+          "sha256": "ed0e2e86f7a40c38b793b0a04dfd993b2c1dfb34906804f96b999f0bbd8d70e6",
+          "kind": "snapshot"
+        },
+        {
+          "path": "USE_POLICY.md",
+          "size": 4691,
+          "sha256": null,
+          "kind": "gated-no-snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 855,
+          "sha256": null,
+          "kind": "gated-no-snapshot"
+        },
+        {
+          "path": "generation_config.json",
+          "size": 184,
+          "sha256": null,
+          "kind": "gated-no-snapshot"
+        },
+        {
+          "path": "model-00001-of-00004.safetensors",
+          "size": 4976698672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00002-of-00004.safetensors",
+          "size": 4999802720,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00003-of-00004.safetensors",
+          "size": 4915916176,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00004-of-00004.safetensors",
+          "size": 1168138808,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model.safetensors.index.json",
+          "size": 23950,
+          "sha256": null,
+          "kind": "gated-no-snapshot"
+        },
+        {
+          "path": "original/consolidated.00.pth",
+          "size": 16060617592,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "original/params.json",
+          "size": 199,
+          "sha256": null,
+          "kind": "gated-no-snapshot"
+        },
+        {
+          "path": "original/tokenizer.model",
+          "size": 2183982,
+          "sha256": null,
+          "kind": "gated-no-snapshot"
+        },
+        {
+          "path": "special_tokens_map.json",
+          "size": 296,
+          "sha256": null,
+          "kind": "gated-no-snapshot"
+        },
+        {
+          "path": "tokenizer.json",
+          "size": 9085657,
+          "sha256": null,
+          "kind": "gated-no-snapshot"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 55351,
+          "sha256": null,
+          "kind": "gated-no-snapshot"
+        }
+      ],
+      "total_bytes": 32132582323,
+      "weight_bytes": 32121173968,
+      "snapshot_dir": "snapshots/meta-llama/Llama-3.1-8B-Instruct/0e9e39f249a16976918f6564b8830bc894c89659/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

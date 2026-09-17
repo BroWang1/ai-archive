@@ -1,0 +1,210 @@
+{
+  "repo_id": "ByteDance-Seed/Seed-OSS-36B-Instruct",
+  "canonical_org": "ByteDance-Seed",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "497f1dca95ebdec98e41d517b9f060ee753c902f",
+      "captured_at": "2026-09-17T22:50:50Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/ByteDance-Seed/Seed-OSS-36B-Instruct?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"395d-82rAgo9i8ZL6ifCxoBWTt2BaRPs\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "apache-2.0",
+        "file": "LICENSE.txt",
+        "sha256": "41fe2167e8a52d375dd36304db345312bd629addb2e109e47104a7d34a2cf116",
+        "redistributable": true,
+        "obligations": [],
+        "freedom": "free",
+        "freedom_note": "apache-2.0 with LICENSE file verified in snapshot"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1626,
+          "sha256": "4239c717e80d0c20eb6cb7aec97e97d4c87219be33dcf96aa49c21401c2baea9",
+          "kind": "snapshot"
+        },
+        {
+          "path": "LICENSE.txt",
+          "size": 11356,
+          "sha256": "41fe2167e8a52d375dd36304db345312bd629addb2e109e47104a7d34a2cf116",
+          "kind": "snapshot"
+        },
+        {
+          "path": "MODEL_CARD.md",
+          "size": 4829,
+          "sha256": "b87d901f379de25a6e8eb0c3812a849e6eac9d8177d3c23597f5639ab66f0104",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 19944,
+          "sha256": "a8b639d3654d3453bed9037cd1470ea6bc43289b1058a71840f8e11a99a6ca49",
+          "kind": "snapshot"
+        },
+        {
+          "path": "chat_template.jinja",
+          "size": 7705,
+          "sha256": "3f9e0dc4adeb8032287d0129dc75b6298fee8698a52ab41e863dbc89929330d3",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 770,
+          "sha256": "09f91799169531b687cbd15e6338aee6105fcbb058193c04faa7ae0344506132",
+          "kind": "snapshot"
+        },
+        {
+          "path": "generation_config.json",
+          "size": 172,
+          "sha256": "99c964d4affb46130f92a457c72deacf1b3152df9eb7aa0b05494ec5b1e7915b",
+          "kind": "snapshot"
+        },
+        {
+          "path": "model-00001-of-00015.safetensors",
+          "size": 4954686296,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00002-of-00015.safetensors",
+          "size": 4991407840,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00003-of-00015.safetensors",
+          "size": 4834167328,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00004-of-00015.safetensors",
+          "size": 4886550176,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00005-of-00015.safetensors",
+          "size": 4834167360,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00006-of-00015.safetensors",
+          "size": 4886550176,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00007-of-00015.safetensors",
+          "size": 4834167360,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00008-of-00015.safetensors",
+          "size": 4886550176,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00009-of-00015.safetensors",
+          "size": 4834167360,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00010-of-00015.safetensors",
+          "size": 4886550176,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00011-of-00015.safetensors",
+          "size": 4834167360,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00012-of-00015.safetensors",
+          "size": 4886550176,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00013-of-00015.safetensors",
+          "size": 4834167360,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00014-of-00015.safetensors",
+          "size": 4886550176,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00015-of-00015.safetensors",
+          "size": 4031898896,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model.safetensors.index.json",
+          "size": 63285,
+          "sha256": "a8a22e2d4f7e9dfe7e867f72d30cb16bdf1b0cc6e0bff4b80aae4b4b77cedea0",
+          "kind": "snapshot"
+        },
+        {
+          "path": "special_tokens_map.json",
+          "size": 432,
+          "sha256": "2566e3f4a6db47cc6051b180e9f00314805857e16f2c6ac1d08fdbbb353d5f36",
+          "kind": "snapshot"
+        },
+        {
+          "path": "thinking_budget.png",
+          "size": 190266,
+          "sha256": "3acc41ada52728454bd060fe5eddc8d3d0495cfdbdcb9eff41a0f49582442ab5",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer.json",
+          "size": 11883696,
+          "sha256": "f6bd848f52451824a3033a9f1e67eea5b399a13c90f845a332d3a29537e05827",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 23849,
+          "sha256": "97d6fdf939d37045baeaa69fbaeacb2b88733e35869840f913a372c8aa92ee87",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 72314506146,
+      "weight_bytes": 72302298216,
+      "snapshot_dir": "snapshots/ByteDance-Seed/Seed-OSS-36B-Instruct/497f1dca95ebdec98e41d517b9f060ee753c902f/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

@@ -1,0 +1,150 @@
+{
+  "repo_id": "baichuan-inc/Baichuan2-7B-Base",
+  "canonical_org": "baichuan-inc",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "f9d4d8dd2f7a3dbede3bda3b0cf0224e9272bbe5",
+      "captured_at": "2026-09-17T22:57:39Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/baichuan-inc/Baichuan2-7B-Base?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"1090-l/t579wF8HEMb/DBFnW28k0JPhI\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "other",
+        "file": null,
+        "sha256": null,
+        "redistributable": null,
+        "obligations": [],
+        "freedom": "conditional",
+        "freedom_note": "Custom license ('other') \u2014 read before redistributing"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1519,
+          "sha256": "11ad7efa24975ee4b0c3c3a38ed18737f0658a5f75a0a96787b576a78a023361",
+          "kind": "snapshot"
+        },
+        {
+          "path": "Baichuan 2\u6a21\u578b\u793e\u533a\u8bb8\u53ef\u534f\u8bae.pdf",
+          "size": 257644,
+          "sha256": "fd72f7092b666c7a9ed4e8637aebbb97f1a9427886c76bdea638fbc74a59d720",
+          "kind": "snapshot"
+        },
+        {
+          "path": "Community License for Baichuan 2 Model.pdf",
+          "size": 204871,
+          "sha256": "450dbbb3e51279cac1a77880dc0f1ab0a7334dbb0603f833b2cceabb4c080137",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 15044,
+          "sha256": "23477cd743ccb920d74a2bc79ac097a0d7bff560f4fd0a25b1260d4880848c10",
+          "kind": "snapshot"
+        },
+        {
+          "path": "checkpoints.jpeg",
+          "size": 295464,
+          "sha256": "980c5f610ce6cb602bc123cdad1954d03dd775faec32519ab5d9159e029411bd",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 738,
+          "sha256": "2e264cbf7a05092292cb30a554566979edb923d71c31b2d89a22e29d29f7244b",
+          "kind": "snapshot"
+        },
+        {
+          "path": "configuration_baichuan.py",
+          "size": 2384,
+          "sha256": "d4c75f7ea9b448230c5ba52de5988995c73e3f41b55b202670c55a67a2d5bcc8",
+          "kind": "snapshot"
+        },
+        {
+          "path": "generation_utils.py",
+          "size": 2966,
+          "sha256": "a4067a97fadd3a4be73c886cb9cd1ab9f3e028d500ff51ae48d2c82e745ea07c",
+          "kind": "snapshot"
+        },
+        {
+          "path": "modeling_baichuan.py",
+          "size": 33078,
+          "sha256": "337db1acf2fbbdcacddc8aff8c1b11b6265096ca528de873475b7911a6fc2210",
+          "kind": "snapshot"
+        },
+        {
+          "path": "pytorch_model-00001-of-00002.bin",
+          "size": 9934624972,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "pytorch_model-00002-of-00002.bin",
+          "size": 5077402187,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "pytorch_model.bin.index.json",
+          "size": 18658,
+          "sha256": "bd4115a901475f97a903e017fd2c9922d9ffa38adcff1960fffcf47041dffda1",
+          "kind": "snapshot"
+        },
+        {
+          "path": "quantizer.py",
+          "size": 9070,
+          "sha256": "0d3feddce559ae5741c5db75724179c748f1b73a2e0bc40546a6c0777e43eff4",
+          "kind": "snapshot"
+        },
+        {
+          "path": "special_tokens_map.json",
+          "size": 548,
+          "sha256": "20e75e78a486a1282a8ff92cbfaa7ff23578e058419c516d86867b5f75588b2c",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenization_baichuan.py",
+          "size": 9631,
+          "sha256": "2d11dd7aba79b329e1821f6ec19752e903c136ade9e4c1a016b1a3e1a84d7d27",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer.model",
+          "size": 2001107,
+          "sha256": "79452955be6b419a65984273a9f08af86042e1c2a75ee3ba989cbf620a133cc2",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 795,
+          "sha256": "49bb1dd184695eb2880d4204906a143a6b1e48e684c54603cf8d962bc39ee235",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 15014880676,
+      "weight_bytes": 15012027159,
+      "snapshot_dir": "snapshots/baichuan-inc/Baichuan2-7B-Base/f9d4d8dd2f7a3dbede3bda3b0cf0224e9272bbe5/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

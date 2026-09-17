@@ -1,0 +1,138 @@
+{
+  "repo_id": "IEITYuan/Yuan2-2B-hf",
+  "canonical_org": "IEITYuan",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "08191f171c2d40b737d67e16659f182746e31a2c",
+      "captured_at": "2026-09-17T22:53:07Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/IEITYuan/Yuan2-2B-hf?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"10dd-7W7Y4FU84Ep3fF1NfpvgqkKtvS0\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "other",
+        "file": null,
+        "sha256": null,
+        "redistributable": null,
+        "obligations": [],
+        "freedom": "conditional",
+        "freedom_note": "Custom license ('other') \u2014 read before redistributing"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1561,
+          "sha256": "8f435ca0fcca8fcb4d7c870a98a3d4ae09bfc23c52ddc308c4b634a588f262e2",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 7776,
+          "sha256": "eb7aec98ccd010557c6858deaf20cb506a1b2d6a85ab4d8c3a885900b33e7983",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 1006,
+          "sha256": "d86fdad382a85a0f841141f34bc1c244417fa8ae6dcaf65dda7a7ca11380e129",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config_cpu.json",
+          "size": 1008,
+          "sha256": "227d688ec5d7068624530a18978c51e22b97247cc92792d2a160379b73c4c744",
+          "kind": "snapshot"
+        },
+        {
+          "path": "configuration_yuan.py",
+          "size": 1317,
+          "sha256": "9353f00163b5cc5d15424ed6985341290d519a9af4e159f3e29c39295dbaf16c",
+          "kind": "snapshot"
+        },
+        {
+          "path": "generation_config.json",
+          "size": 144,
+          "sha256": "a59252e097f40db0791d17a26efc640dfc2606f5870c13c645eaf4af6613e9f8",
+          "kind": "snapshot"
+        },
+        {
+          "path": "pytorch_model-00001-of-00003.bin",
+          "size": 1996194152,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "pytorch_model-00002-of-00003.bin",
+          "size": 1996799819,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "pytorch_model-00003-of-00003.bin",
+          "size": 184587257,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "pytorch_model.bin.index.json",
+          "size": 31049,
+          "sha256": "576e8595bae057615aad82cacf27b50f0fadc9e3a825d6e90af01722df329501",
+          "kind": "snapshot"
+        },
+        {
+          "path": "special_tokens_map.json",
+          "size": 411,
+          "sha256": "ff3b4a612c4e447acb02d40071bddd989fe0da87eb5b7fe0dbadfc4f74de7531",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer.model",
+          "size": 2155861,
+          "sha256": "36f79e0c70f73cdd2a8dd0fbe7bfe290da158eea746778d289e4ad76c8b383d9",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 1144,
+          "sha256": "572f4174f638f291f0172a757b82672a9670ae17b69ef7b38c71ca59e8af76e6",
+          "kind": "snapshot"
+        },
+        {
+          "path": "yuan_hf_model.py",
+          "size": 53278,
+          "sha256": "e6784264e8515ddcec28692b20470cad7c55e3f02732c9a2de3881912ae0c397",
+          "kind": "snapshot"
+        },
+        {
+          "path": "yuan_hf_model_cpu.py",
+          "size": 53278,
+          "sha256": "e6784264e8515ddcec28692b20470cad7c55e3f02732c9a2de3881912ae0c397",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 4179889061,
+      "weight_bytes": 4177581228,
+      "snapshot_dir": "snapshots/IEITYuan/Yuan2-2B-hf/08191f171c2d40b737d67e16659f182746e31a2c/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

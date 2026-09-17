@@ -1,0 +1,192 @@
+{
+  "repo_id": "stepfun-ai/Step3-VL-10B",
+  "canonical_org": "stepfun-ai",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "5026053b0c2f5dfaa08fc2d149384162c3c8bca1",
+      "captured_at": "2026-09-17T22:43:45Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/stepfun-ai/Step3-VL-10B?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"2585-yb0z+CHVh1E0WsE+fC2Zfhtoo/A\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "apache-2.0",
+        "file": null,
+        "sha256": null,
+        "redistributable": null,
+        "obligations": [],
+        "freedom": "conditional",
+        "freedom_note": "'apache-2.0' card tag but NO license file in repo \u2014 unverifiable, confirm upstream"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1630,
+          "sha256": "d5c55e420763bb41a20fed84657078d089eb2f40c269b3b10c86518f44370e55",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 19019,
+          "sha256": "126b824075cc7f88587f4650a0e1178a8edb1077f4f5642f081a1f4c60c26475",
+          "kind": "snapshot"
+        },
+        {
+          "path": "added_tokens.json",
+          "size": 1298,
+          "sha256": "f96e868e18dbf8000e66087a52d594391ca818e39d80427ccbaa315280816580",
+          "kind": "snapshot"
+        },
+        {
+          "path": "chat_template.jinja",
+          "size": 4700,
+          "sha256": "84ae90f45e8da12c4a108a267c595dcf3854de531e51738589ad59ac598e9841",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 1912,
+          "sha256": "104e95be67d00d67f88b3cb83c2c6514e41351ff7e7241d4848b65542c7a2f63",
+          "kind": "snapshot"
+        },
+        {
+          "path": "configuration_step_vl.py",
+          "size": 2507,
+          "sha256": "ddb97a6ba3b5c4db0c3ddedf9da1e29edd12f937ed2018ce66684b53e8009514",
+          "kind": "snapshot"
+        },
+        {
+          "path": "figures/performance.png",
+          "size": 633660,
+          "sha256": "6f5f433ac8ad956aa4f71b8347544fe31cfd230c344a5f015bed4dffbb114836",
+          "kind": "snapshot"
+        },
+        {
+          "path": "figures/stepfun.svg",
+          "size": 674,
+          "sha256": "d7a372e84bab7c028fa98f649937103d482bf7464a4fe583ffeb014c62418239",
+          "kind": "snapshot"
+        },
+        {
+          "path": "generation_config.json",
+          "size": 136,
+          "sha256": "95d57d63b8178e58e379bada1dc7b38d5715ce262800b8f4986bef3491df5c49",
+          "kind": "snapshot"
+        },
+        {
+          "path": "merges.txt",
+          "size": 1671853,
+          "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5",
+          "kind": "snapshot"
+        },
+        {
+          "path": "model-00001.safetensors",
+          "size": 4286778640,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00002.safetensors",
+          "size": 4286779488,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00003.safetensors",
+          "size": 4244835480,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00004.safetensors",
+          "size": 4270911400,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00005.safetensors",
+          "size": 3254325800,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model.safetensors.index.json",
+          "size": 91124,
+          "sha256": "45d46b0300fa3204ab290fb5beff9044374acaf390e343cd5c79f071486df59c",
+          "kind": "snapshot"
+        },
+        {
+          "path": "modeling_step_vl.py",
+          "size": 23263,
+          "sha256": "191a417f267bcc49bc9242f780ec5d049e6b80c425b61883ee367b864deec71f",
+          "kind": "snapshot"
+        },
+        {
+          "path": "processing_step3.py",
+          "size": 18272,
+          "sha256": "f50ad06c8c44115331f2c8ee932086f6efdea008e9e0376d8fd4502c0bb36339",
+          "kind": "snapshot"
+        },
+        {
+          "path": "processor_config.json",
+          "size": 82,
+          "sha256": "f1c72a87b483e58b0e459169b8512b6ca0a70aa425f7bc652d0879ef761a9b8c",
+          "kind": "snapshot"
+        },
+        {
+          "path": "special_tokens_map.json",
+          "size": 5602,
+          "sha256": "e27a4d322c6f8f5089dc38414faf14e4963a4072322e2fc1c07556c2c71ad035",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer.json",
+          "size": 11426994,
+          "sha256": "439885437ceee7205faa72b808b543bb3fcd2f3df788a959aa3604d07a8f5c75",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 9967,
+          "sha256": "d4cf67300f4f66d8d215dcac69eafcf40eb82a3ca27409ba59a2e433661beefa",
+          "kind": "snapshot"
+        },
+        {
+          "path": "vision_encoder.py",
+          "size": 17765,
+          "sha256": "88ef6fd45c59ffc52202c2d5097032a3cb16fed31e086d288be11488d0babecb",
+          "kind": "snapshot"
+        },
+        {
+          "path": "vocab.json",
+          "size": 2776833,
+          "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 20360338099,
+      "weight_bytes": 20343630808,
+      "snapshot_dir": "snapshots/stepfun-ai/Step3-VL-10B/5026053b0c2f5dfaa08fc2d149384162c3c8bca1/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

@@ -1,0 +1,324 @@
+{
+  "repo_id": "tencent/Hunyuan-A13B-Instruct",
+  "canonical_org": "tencent",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "290ddb9a56ed23c2c83a1c8081533e58925df952",
+      "captured_at": "2026-09-17T22:37:37Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/tencent/Hunyuan-A13B-Instruct?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"2e21-Pm4TW8CKu+J4frigqM9Me1rPFvo\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "other",
+        "file": "LICENSE",
+        "sha256": "e3e51427556222cb152990f47991eedbd6ffa6561bb9346580d32e841e13530c",
+        "redistributable": null,
+        "obligations": [],
+        "freedom": "restricted",
+        "freedom_note": "Tencent Community License: EXCLUDES EU, UK, South Korea; license required >100M MAU"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1570,
+          "sha256": "34448b82c17d60fec9b65b1f093c115ddbaadc04beb1b0140b6bfed2e012a930",
+          "kind": "snapshot"
+        },
+        {
+          "path": "LICENSE",
+          "size": 15524,
+          "sha256": "e3e51427556222cb152990f47991eedbd6ffa6561bb9346580d32e841e13530c",
+          "kind": "snapshot"
+        },
+        {
+          "path": "Notice.txt",
+          "size": 15354,
+          "sha256": "0f4b97a49caaa41c75792b9a507bfc14c9f1a34534622d87e877766863ca6c6f",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 17674,
+          "sha256": "f7df4703f678f1baa19e4786be5fd8d55559bb3dc83c84cb6e015fb1aa08a969",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README_CN.md",
+          "size": 17628,
+          "sha256": "51a46e90854f17e34901aa356282b2b63e510d9f908cd6be9097d50100c7e29b",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 3376,
+          "sha256": "5fb4af8fa99a28c0bfd1ae009b9488acb2c4365956ffab472c38ae2c1a3d378e",
+          "kind": "snapshot"
+        },
+        {
+          "path": "configuration_hunyuan.py",
+          "size": 15013,
+          "sha256": "55783fffd0467966df1cd90e697d67419b50a884563a188596a9903c5d7830b5",
+          "kind": "snapshot"
+        },
+        {
+          "path": "generation_config.json",
+          "size": 205,
+          "sha256": "c6b34deeebf0428323229729a4c9deae8b7f679e16446f1b70bf53b907427ee4",
+          "kind": "snapshot"
+        },
+        {
+          "path": "hunyuan.py",
+          "size": 37574,
+          "sha256": "6165fa4f5ecf4e0f6c2babd0c44300348fa63161a76bb1bade4e8de646c36572",
+          "kind": "snapshot"
+        },
+        {
+          "path": "model-00001-of-00033.safetensors",
+          "size": 4985270248,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00002-of-00033.safetensors",
+          "size": 4992312432,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00003-of-00033.safetensors",
+          "size": 4992312432,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00004-of-00033.safetensors",
+          "size": 4992312432,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00005-of-00033.safetensors",
+          "size": 4992312432,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00006-of-00033.safetensors",
+          "size": 4992312432,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00007-of-00033.safetensors",
+          "size": 4992312432,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00008-of-00033.safetensors",
+          "size": 4992312432,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00009-of-00033.safetensors",
+          "size": 4992312432,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00010-of-00033.safetensors",
+          "size": 4992312432,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00011-of-00033.safetensors",
+          "size": 4992312600,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00012-of-00033.safetensors",
+          "size": 4992312632,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00013-of-00033.safetensors",
+          "size": 4992312632,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00014-of-00033.safetensors",
+          "size": 4992312632,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00015-of-00033.safetensors",
+          "size": 4992312632,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00016-of-00033.safetensors",
+          "size": 4992312632,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00017-of-00033.safetensors",
+          "size": 4992312632,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00018-of-00033.safetensors",
+          "size": 4992312632,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00019-of-00033.safetensors",
+          "size": 4992312632,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00020-of-00033.safetensors",
+          "size": 4992312632,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00021-of-00033.safetensors",
+          "size": 4992312632,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00022-of-00033.safetensors",
+          "size": 4992312632,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00023-of-00033.safetensors",
+          "size": 4992312632,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00024-of-00033.safetensors",
+          "size": 4992312632,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00025-of-00033.safetensors",
+          "size": 4992312632,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00026-of-00033.safetensors",
+          "size": 4992312632,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00027-of-00033.safetensors",
+          "size": 4992312632,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00028-of-00033.safetensors",
+          "size": 4992312632,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00029-of-00033.safetensors",
+          "size": 4992312632,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00030-of-00033.safetensors",
+          "size": 4992312632,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00031-of-00033.safetensors",
+          "size": 4992312632,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00032-of-00033.safetensors",
+          "size": 4992312632,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00033-of-00033.safetensors",
+          "size": 1056994712,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model.safetensors.index.json",
+          "size": 585367,
+          "sha256": "0cc8e768bb71636cbc84ab370c8b96b8d41cf37d26d3d9313a745a394b5bf29f",
+          "kind": "snapshot"
+        },
+        {
+          "path": "modeling_hunyuan.py",
+          "size": 78852,
+          "sha256": "8bac177eb18e4957ccbb824b70241e2743050381de9efa0dc06f293f5a2a6005",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer.json",
+          "size": 16388221,
+          "sha256": "4185389a69284fdd3ebf737c6120bbeee36cbed9763151fa5bac5986a39e05d4",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 1023,
+          "sha256": "b2e1225428746d48b9fa435a918b7684622bbe0212ce6f822fc6005b157b2bad",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 160821132101,
+      "weight_bytes": 160803954720,
+      "snapshot_dir": "snapshots/tencent/Hunyuan-A13B-Instruct/290ddb9a56ed23c2c83a1c8081533e58925df952/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

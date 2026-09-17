@@ -1,0 +1,282 @@
+{
+  "repo_id": "Skywork/Skywork-R1V-38B",
+  "canonical_org": "Skywork",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "363f7c8e12c537b1ef468193597f9e58f998eab9",
+      "captured_at": "2026-09-17T22:48:00Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/Skywork/Skywork-R1V-38B?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"292e-TyZvAoAqcg8k0G6qqsAbtIZk7/g\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "mit",
+        "file": null,
+        "sha256": null,
+        "redistributable": null,
+        "obligations": [],
+        "freedom": "conditional",
+        "freedom_note": "'mit' card tag but NO license file in repo \u2014 unverifiable, confirm upstream"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1724,
+          "sha256": "1f5c84bc5d3ab3580d52f0fdeeb930153bed1460b61dc6f6b330e3fe12cc3054",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 9303,
+          "sha256": "38b136f01c8d4a4dd4be7535155177dc2b5ef3c4456b25fc1a467c7c969134bb",
+          "kind": "snapshot"
+        },
+        {
+          "path": "added_tokens.json",
+          "size": 179,
+          "sha256": "df59e170102f8d19d3e186cc91c81006c9822ea9fe8ce2b68e7be77195c01db3",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 3709,
+          "sha256": "63541e69bd37cc6e54af40cdc3003ef9ecd5927ac475b14cc3e3bf84972612e5",
+          "kind": "snapshot"
+        },
+        {
+          "path": "configuration.json",
+          "size": 76,
+          "sha256": "7f5e4dab8f262b1731914cb110764c86dbfc0459a136de7cc3ae4ae375edc828",
+          "kind": "snapshot"
+        },
+        {
+          "path": "configuration_skywork_chat.py",
+          "size": 3767,
+          "sha256": "1638355132a7b3bd3bc3daad3918121d31bba1d63018aaa53aad0cdb13fd6137",
+          "kind": "snapshot"
+        },
+        {
+          "path": "configuration_skywork_lm2.py",
+          "size": 6400,
+          "sha256": "117dbf06200639249f565687ac8d19321c0d55bbeb396c2b173fc665e654176b",
+          "kind": "snapshot"
+        },
+        {
+          "path": "configuration_skywork_vit.py",
+          "size": 4519,
+          "sha256": "53d26c7435694d5c94da48ad6cd5a1365672884068b02e032593c769f5532703",
+          "kind": "snapshot"
+        },
+        {
+          "path": "conversation.py",
+          "size": 5135,
+          "sha256": "6eb79129b04ea906f14aab02af2999a03a4dcd246d8b1f736d62ae73715be942",
+          "kind": "snapshot"
+        },
+        {
+          "path": "eval.jpeg",
+          "size": 741199,
+          "sha256": "cc822a0d9a18fd5d66a5ae1dfbd5f4a04aeb896a115f133119e9e7e16250e660",
+          "kind": "snapshot"
+        },
+        {
+          "path": "generation_config.json",
+          "size": 181,
+          "sha256": "72cbec1015da9ed03ad025483005cbf6481403abf947adfd54e504d1a66a2126",
+          "kind": "snapshot"
+        },
+        {
+          "path": "logo.jpeg",
+          "size": 577971,
+          "sha256": "325f75e31f530e21e9f9b85ba92cf5aa66cc943d02c34f5388290851ae2aac7d",
+          "kind": "snapshot"
+        },
+        {
+          "path": "model-00001-of-00016.safetensors",
+          "size": 4988569440,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00002-of-00016.safetensors",
+          "size": 4937253584,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00003-of-00016.safetensors",
+          "size": 4780642896,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00004-of-00016.safetensors",
+          "size": 4876060256,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00005-of-00016.safetensors",
+          "size": 4876060272,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00006-of-00016.safetensors",
+          "size": 4876060312,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00007-of-00016.safetensors",
+          "size": 4876060312,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00008-of-00016.safetensors",
+          "size": 4876060312,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00009-of-00016.safetensors",
+          "size": 4876060312,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00010-of-00016.safetensors",
+          "size": 4876060312,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00011-of-00016.safetensors",
+          "size": 4876060312,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00012-of-00016.safetensors",
+          "size": 4876060312,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00013-of-00016.safetensors",
+          "size": 4876060312,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00014-of-00016.safetensors",
+          "size": 4876060312,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00015-of-00016.safetensors",
+          "size": 4876060312,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00016-of-00016.safetensors",
+          "size": 3565298616,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model.safetensors.index.json",
+          "size": 126576,
+          "sha256": "362fe9a7f0654001e62e0fa299149a33a4b32a87f4de90b7b48e585b400b3dc0",
+          "kind": "snapshot"
+        },
+        {
+          "path": "modeling_skywork_chat.py",
+          "size": 15640,
+          "sha256": "98bead4302ad1cff7458695287091f1a776ade6e20739f3ef0aec80756d7e7aa",
+          "kind": "snapshot"
+        },
+        {
+          "path": "modeling_skywork_lm2.py",
+          "size": 60369,
+          "sha256": "3c9ca7bd5fc81a695af5efc8df049c104dac9ebfcb581ba021372ff978afdfc0",
+          "kind": "snapshot"
+        },
+        {
+          "path": "modeling_skywork_vit.py",
+          "size": 17874,
+          "sha256": "ead95ee4e29d964c591bf236d5ab74255e51fac88539bcc0195f4b0721d89c0e",
+          "kind": "snapshot"
+        },
+        {
+          "path": "preprocessor_config.json",
+          "size": 287,
+          "sha256": "0658115064c561026539aeeead9ed3b1a8e0cc90967df8c142849199f955d2b4",
+          "kind": "snapshot"
+        },
+        {
+          "path": "skywork-logo.png",
+          "size": 118662,
+          "sha256": "bbd30750ec11120286b588940e8f33d045f56f00c97447880e88423518617fcc",
+          "kind": "snapshot"
+        },
+        {
+          "path": "special_tokens_map.json",
+          "size": 957,
+          "sha256": "9b9ae6886a4c7b0c61178e68d49a6a2d99d4e85425ae0e8276bf75b4b0b2c4f9",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer.json",
+          "size": 7031660,
+          "sha256": "88145e3c3249adc2546ede277e9819d6e405e19072456e4b521cbc724bd60773",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 3073,
+          "sha256": "284d83646ec9d74572cac0334fba75429271f09873c3770e54fc0b3d9a716abc",
+          "kind": "snapshot"
+        },
+        {
+          "path": "vocab.json",
+          "size": 3382507,
+          "sha256": "ecbe4a338ea384baed4fa3b4868de0b55f08e4b3195681d42ffa6cdff2422d7f",
+          "kind": "snapshot"
+        },
+        {
+          "path": "zero_to_fp32.py",
+          "size": 25314,
+          "sha256": "47e22c3e2e9c55705ff72102ffd1146b607e80880f2011ced5bc969d11ea7b05",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 76796625266,
+      "weight_bytes": 76784488184,
+      "snapshot_dir": "snapshots/Skywork/Skywork-R1V-38B/363f7c8e12c537b1ef468193597f9e58f998eab9/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

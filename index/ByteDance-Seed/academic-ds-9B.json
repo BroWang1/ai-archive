@@ -1,0 +1,126 @@
+{
+  "repo_id": "ByteDance-Seed/academic-ds-9B",
+  "canonical_org": "ByteDance-Seed",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "2a205727f616995ad4aba57806f8e2d0d2f28743",
+      "captured_at": "2026-09-17T22:51:10Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/ByteDance-Seed/academic-ds-9B?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"17ed-64hEk9JwPIo61Qi2HtizsScnMJI\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "apache-2.0",
+        "file": "LICENSE",
+        "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+        "redistributable": true,
+        "obligations": [],
+        "freedom": "free",
+        "freedom_note": "apache-2.0 with LICENSE file verified in snapshot"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1519,
+          "sha256": "11ad7efa24975ee4b0c3c3a38ed18737f0658a5f75a0a96787b576a78a023361",
+          "kind": "snapshot"
+        },
+        {
+          "path": "LICENSE",
+          "size": 11358,
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 352,
+          "sha256": "274ef4f471ba0f63e3280db8f183664a90a6bdd1794635e836adbb6d9d3cf229",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 1598,
+          "sha256": "ae907e3d47ea56d78236f6c4f3a37743d507c6afd8981a6cbe7212c0450a7492",
+          "kind": "snapshot"
+        },
+        {
+          "path": "configuration_deepseek.py",
+          "size": 10550,
+          "sha256": "4b65c122fa8d41a839f1e64f9bc78ea37fb75a0fcad9a4a524a4c198c79a0010",
+          "kind": "snapshot"
+        },
+        {
+          "path": "model-00001-of-00004.safetensors",
+          "size": 4995691168,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00002-of-00004.safetensors",
+          "size": 4994474712,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00003-of-00004.safetensors",
+          "size": 4994475144,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00004-of-00004.safetensors",
+          "size": 3748740248,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model.safetensors.index.json",
+          "size": 277704,
+          "sha256": "9c7ee2ad3fdb504550cb4615c5abc93d8a52aef6f93d798475102ee786d06bd4",
+          "kind": "snapshot"
+        },
+        {
+          "path": "modeling_deepseek.py",
+          "size": 75754,
+          "sha256": "5a5d5c190c8d028203178156d514cf5ccf81cbdb87878f6850a8477acc928f3b",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer.json",
+          "size": 7847652,
+          "sha256": "621ac2e32d0dba658404412318818aaa8ce8cda492e59830109d8da6b517fb41",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 3128,
+          "sha256": "637bcd1a08cf7c772ce6a383196b22930921c79c3c73223c5afc0c7f41545546",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 18741610887,
+      "weight_bytes": 18733381272,
+      "snapshot_dir": "snapshots/ByteDance-Seed/academic-ds-9B/2a205727f616995ad4aba57806f8e2d0d2f28743/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

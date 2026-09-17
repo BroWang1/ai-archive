@@ -1,0 +1,102 @@
+{
+  "repo_id": "openbmb/VoxCPM2",
+  "canonical_org": "openbmb",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "32279effe8c19989596f05d353d1447f51d9e915",
+      "captured_at": "2026-09-17T22:49:53Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/openbmb/VoxCPM2?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"16f2-Tx3xYhr5iwHis3WzS67Nw3x+dkg\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "apache-2.0",
+        "file": null,
+        "sha256": null,
+        "redistributable": null,
+        "obligations": [],
+        "freedom": "conditional",
+        "freedom_note": "'apache-2.0' card tag but NO license file in repo \u2014 unverifiable, confirm upstream"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1519,
+          "sha256": "11ad7efa24975ee4b0c3c3a38ed18737f0658a5f75a0a96787b576a78a023361",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 7939,
+          "sha256": "c18d2ffbfb2f0aec770481c967842aee6c200cde65f6b033efd892a849986fda",
+          "kind": "snapshot"
+        },
+        {
+          "path": "audiovae.pth",
+          "size": 376951122,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "config.json",
+          "size": 4336,
+          "sha256": "405f0dcd92f7feba6011ed4eac5c8d4f74cba9712f07fd5cfa3063bbdd95402c",
+          "kind": "snapshot"
+        },
+        {
+          "path": "model.safetensors",
+          "size": 4580080592,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "special_tokens_map.json",
+          "size": 1632,
+          "sha256": "068594063e37662c02b21acf42ebb334ef6a74fb810e68a2368f88f08351de76",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenization_voxcpm2.py",
+          "size": 2895,
+          "sha256": "84489ea32b6ee0cae22ed5480cacb6df85c46624c3119be9a2021c3649a12729",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer.json",
+          "size": 3676772,
+          "sha256": "f8984687e4a92a3503d521396d454b7d68e9fdaab2a0288eb3536c7c1aa4bc20",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 5059,
+          "sha256": "e78a3ebb48a0b9437efd1823b6b726c823da89e49dd8bcc90c02419d9baa772b",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 4960731866,
+      "weight_bytes": 4957031714,
+      "snapshot_dir": "snapshots/openbmb/VoxCPM2/32279effe8c19989596f05d353d1447f51d9e915/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

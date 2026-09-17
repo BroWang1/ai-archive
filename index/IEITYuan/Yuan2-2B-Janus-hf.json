@@ -1,0 +1,126 @@
+{
+  "repo_id": "IEITYuan/Yuan2-2B-Janus-hf",
+  "canonical_org": "IEITYuan",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "c048bb91b59dbd9cd7b3aa4dc9324560ec3da22d",
+      "captured_at": "2026-09-17T22:52:58Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/IEITYuan/Yuan2-2B-Janus-hf?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"eae-L8VFoW8rqGiyr6MJlzX1ZnVumY8\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "other",
+        "file": "LICENSE",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "redistributable": null,
+        "obligations": [],
+        "freedom": "conditional",
+        "freedom_note": "Custom license ('other') \u2014 read before redistributing"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1519,
+          "sha256": "11ad7efa24975ee4b0c3c3a38ed18737f0658a5f75a0a96787b576a78a023361",
+          "kind": "snapshot"
+        },
+        {
+          "path": "LICENSE",
+          "size": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 7878,
+          "sha256": "7c215404e9d14ca667cef9fd6142b64dcc62707479d88ee503beddb7704fce5c",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 1007,
+          "sha256": "3c54de6811e8a14e24c024b195881cb29542423ebfa5fd29c34a83ffcdeab44c",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config_cpu.json",
+          "size": 1008,
+          "sha256": "227d688ec5d7068624530a18978c51e22b97247cc92792d2a160379b73c4c744",
+          "kind": "snapshot"
+        },
+        {
+          "path": "configuration_yuan.py",
+          "size": 1317,
+          "sha256": "9353f00163b5cc5d15424ed6985341290d519a9af4e159f3e29c39295dbaf16c",
+          "kind": "snapshot"
+        },
+        {
+          "path": "generation_config.json",
+          "size": 144,
+          "sha256": "a59252e097f40db0791d17a26efc640dfc2606f5870c13c645eaf4af6613e9f8",
+          "kind": "snapshot"
+        },
+        {
+          "path": "pytorch_model.bin",
+          "size": 4730694872,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "special_tokens_map.json",
+          "size": 411,
+          "sha256": "ff3b4a612c4e447acb02d40071bddd989fe0da87eb5b7fe0dbadfc4f74de7531",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer.model",
+          "size": 2155861,
+          "sha256": "36f79e0c70f73cdd2a8dd0fbe7bfe290da158eea746778d289e4ad76c8b383d9",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 1144,
+          "sha256": "572f4174f638f291f0172a757b82672a9670ae17b69ef7b38c71ca59e8af76e6",
+          "kind": "snapshot"
+        },
+        {
+          "path": "yuan_hf_model.py",
+          "size": 53278,
+          "sha256": "e6784264e8515ddcec28692b20470cad7c55e3f02732c9a2de3881912ae0c397",
+          "kind": "snapshot"
+        },
+        {
+          "path": "yuan_hf_model_cpu.py",
+          "size": 53278,
+          "sha256": "e6784264e8515ddcec28692b20470cad7c55e3f02732c9a2de3881912ae0c397",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 4732971717,
+      "weight_bytes": 4730694872,
+      "snapshot_dir": "snapshots/IEITYuan/Yuan2-2B-Janus-hf/c048bb91b59dbd9cd7b3aa4dc9324560ec3da22d/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

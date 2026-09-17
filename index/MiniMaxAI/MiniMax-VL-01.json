@@ -1,0 +1,2718 @@
+{
+  "repo_id": "MiniMaxAI/MiniMax-VL-01",
+  "canonical_org": "MiniMaxAI",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "308b79934be140a43a0fb80f82b4e20d0ebe3cb8",
+      "captured_at": "2026-09-17T22:41:19Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/MiniMaxAI/MiniMax-VL-01?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"19f3c-TimSHWABA2tOUNg2Rw/Gtj5gFYo\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": null,
+        "file": "LICENSE-MODEL",
+        "sha256": "703a5a022ff8698f533be5e43007f3e3e8e69585b6d2c4ad9638364801dcc65b",
+        "redistributable": false,
+        "obligations": [],
+        "freedom": "unlicensed",
+        "freedom_note": "No license tag and no file \u2014 cannot redistribute"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1572,
+          "sha256": "28462c100d31db095e10c2a46bc164d928ea61ddb96d59ad1e5fa8d3ab835254",
+          "kind": "snapshot"
+        },
+        {
+          "path": "LICENSE-CODE",
+          "size": 1076,
+          "sha256": "56d475e4677b1ccb260f0703030c6b6c3c6a2bd4844bf927f966c54cc753883e",
+          "kind": "snapshot"
+        },
+        {
+          "path": "LICENSE-MODEL",
+          "size": 7617,
+          "sha256": "703a5a022ff8698f533be5e43007f3e3e8e69585b6d2c4ad9638364801dcc65b",
+          "kind": "snapshot"
+        },
+        {
+          "path": "MiniMax-VL-01_Function_Call_Guide.md",
+          "size": 13044,
+          "sha256": "b294ab6fde0ff8efbeb4c378a64180bbe87a941bc7bd6ac792ae4fa370558c53",
+          "kind": "snapshot"
+        },
+        {
+          "path": "MiniMax-VL-01_Function_Call_Guide_CN.md",
+          "size": 12215,
+          "sha256": "504323ff00b94929f5bf6249d677da85155dbe4e7bb90833af92181742830a76",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 23374,
+          "sha256": "a7f1f280e54164bafe3f33a8423f37c037dd4e52c50c94f2b703f05dce48a196",
+          "kind": "snapshot"
+        },
+        {
+          "path": "added_tokens.json",
+          "size": 666,
+          "sha256": "15ed1cbd400c97aa0b5977359058b2fef53f29c3710a02f47751fc5f812bbc59",
+          "kind": "snapshot"
+        },
+        {
+          "path": "apple.jpg",
+          "size": 400882,
+          "sha256": "b07e9e9df6a993a802382409d70732e07bff1ffa85fb9decce4c5ae540681014",
+          "kind": "snapshot"
+        },
+        {
+          "path": "chat_template.json",
+          "size": 917,
+          "sha256": "ca2c2d81775530fcb378b160d776b7d066127dde4691637a3bb315370a974e6a",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 3923,
+          "sha256": "a63d0fab034489009b0eebba2018a6c365a96f79a93049a802fd7a406f7c0787",
+          "kind": "snapshot"
+        },
+        {
+          "path": "configuration_minimax_text_01.py",
+          "size": 7362,
+          "sha256": "2a8b85d11eacf2b3340bdd56b950cbeae500fe29b850f3f43761300a67bd56ed",
+          "kind": "snapshot"
+        },
+        {
+          "path": "configuration_minimax_vl_01.py",
+          "size": 5719,
+          "sha256": "db2bc6fc0bf00b4adb440c011a2303e43ad44b2334c42b8cad75c24064859a10",
+          "kind": "snapshot"
+        },
+        {
+          "path": "figures/MiniMaxLogo.png",
+          "size": 45345,
+          "sha256": "8b31758e26d66556e0ac721865584ba70653cd585e9b8529f0a835a2b5849fa7",
+          "kind": "snapshot"
+        },
+        {
+          "path": "figures/TextBench.png",
+          "size": 420426,
+          "sha256": "2c448f4616f7fe6c266005d5ef03cb323e565d2ca1dfb2288be86fe7875aa1ae",
+          "kind": "snapshot"
+        },
+        {
+          "path": "figures/VisionBench.png",
+          "size": 439845,
+          "sha256": "4a3ed4b165e398e31c1d26708c11571283d87400c1b423d402f22a3933d52be9",
+          "kind": "snapshot"
+        },
+        {
+          "path": "figures/hailuo.svg",
+          "size": 1537,
+          "sha256": "b700eab36687278056f050fa2864795bc5f69ee5a60ad498c3974ce509d7defd",
+          "kind": "snapshot"
+        },
+        {
+          "path": "figures/image.jpg",
+          "size": 400882,
+          "sha256": "b07e9e9df6a993a802382409d70732e07bff1ffa85fb9decce4c5ae540681014",
+          "kind": "snapshot"
+        },
+        {
+          "path": "figures/minimax.svg",
+          "size": 1255,
+          "sha256": "1de341543d54099467e1c786020fe003b3a5edaf84151f31798f3e432fba9e6b",
+          "kind": "snapshot"
+        },
+        {
+          "path": "figures/niah.png",
+          "size": 1472332,
+          "sha256": "73fbd47b590198dad0ea6be7c45c35ce738a2978deb893c842721f0f0cf02eb8",
+          "kind": "snapshot"
+        },
+        {
+          "path": "image_processor.py",
+          "size": 27235,
+          "sha256": "bfe243d303e760824ebcfc18e421a64e00539307918c1bdc4a36a053d7c31d2a",
+          "kind": "snapshot"
+        },
+        {
+          "path": "main.py",
+          "size": 5304,
+          "sha256": "57ff44f95632400dde31f71a354e54cc0ca8ba0f5fb8105c685327eb66c64957",
+          "kind": "snapshot"
+        },
+        {
+          "path": "merges.txt",
+          "size": 2414077,
+          "sha256": "ca47ea60cf5bd48832586adc264f439d0ea4254176b24a95f85eaa9750e2b5f9",
+          "kind": "snapshot"
+        },
+        {
+          "path": "model-00000-of-00414.safetensors",
+          "size": 4916773016,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00001-of-00414.safetensors",
+          "size": 2272091616,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00002-of-00414.safetensors",
+          "size": 2103016504,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00003-of-00414.safetensors",
+          "size": 2116402768,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00004-of-00414.safetensors",
+          "size": 2254811112,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00005-of-00414.safetensors",
+          "size": 2103016528,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00006-of-00414.safetensors",
+          "size": 2116402792,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00007-of-00414.safetensors",
+          "size": 2254811144,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00008-of-00414.safetensors",
+          "size": 2151680728,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00009-of-00414.safetensors",
+          "size": 2264927088,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00010-of-00414.safetensors",
+          "size": 2151680744,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00011-of-00414.safetensors",
+          "size": 2264927080,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00012-of-00414.safetensors",
+          "size": 2151680736,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00013-of-00414.safetensors",
+          "size": 2264927088,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00014-of-00414.safetensors",
+          "size": 2151680728,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00015-of-00414.safetensors",
+          "size": 2264927096,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00016-of-00414.safetensors",
+          "size": 2151680736,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00017-of-00414.safetensors",
+          "size": 2264927080,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00018-of-00414.safetensors",
+          "size": 2151680744,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00019-of-00414.safetensors",
+          "size": 2264927080,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00020-of-00414.safetensors",
+          "size": 2151680728,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00021-of-00414.safetensors",
+          "size": 2264927096,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00022-of-00414.safetensors",
+          "size": 2151680728,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00023-of-00414.safetensors",
+          "size": 2264927088,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00024-of-00414.safetensors",
+          "size": 2151680736,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00025-of-00414.safetensors",
+          "size": 2264927080,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00026-of-00414.safetensors",
+          "size": 2151680744,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00027-of-00414.safetensors",
+          "size": 2264927088,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00028-of-00414.safetensors",
+          "size": 2151680728,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00029-of-00414.safetensors",
+          "size": 2264927096,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00030-of-00414.safetensors",
+          "size": 2151680728,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00031-of-00414.safetensors",
+          "size": 2264927080,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00032-of-00414.safetensors",
+          "size": 2151680744,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00033-of-00414.safetensors",
+          "size": 2264927096,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00034-of-00414.safetensors",
+          "size": 2151680752,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00035-of-00414.safetensors",
+          "size": 2264927112,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00036-of-00414.safetensors",
+          "size": 2151680744,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00037-of-00414.safetensors",
+          "size": 2264927112,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00038-of-00414.safetensors",
+          "size": 2151680752,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00039-of-00414.safetensors",
+          "size": 2264927096,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00040-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00041-of-00414.safetensors",
+          "size": 2264927104,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00042-of-00414.safetensors",
+          "size": 2151680744,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00043-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00044-of-00414.safetensors",
+          "size": 2151680744,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00045-of-00414.safetensors",
+          "size": 2264927104,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00046-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00047-of-00414.safetensors",
+          "size": 2264927096,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00048-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00049-of-00414.safetensors",
+          "size": 2264927112,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00050-of-00414.safetensors",
+          "size": 2151680744,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00051-of-00414.safetensors",
+          "size": 2264927112,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00052-of-00414.safetensors",
+          "size": 2151680752,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00053-of-00414.safetensors",
+          "size": 2264927104,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00054-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00055-of-00414.safetensors",
+          "size": 2264927104,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00056-of-00414.safetensors",
+          "size": 2151680752,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00057-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00058-of-00414.safetensors",
+          "size": 2151680744,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00059-of-00414.safetensors",
+          "size": 2264927112,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00060-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00061-of-00414.safetensors",
+          "size": 2264927096,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00062-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00063-of-00414.safetensors",
+          "size": 2264927104,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00064-of-00414.safetensors",
+          "size": 2151680744,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00065-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00066-of-00414.safetensors",
+          "size": 2151680752,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00067-of-00414.safetensors",
+          "size": 2264927104,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00068-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00069-of-00414.safetensors",
+          "size": 2264927096,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00070-of-00414.safetensors",
+          "size": 2151680752,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00071-of-00414.safetensors",
+          "size": 2264927112,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00072-of-00414.safetensors",
+          "size": 2151680744,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00073-of-00414.safetensors",
+          "size": 2264927112,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00074-of-00414.safetensors",
+          "size": 2151680752,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00075-of-00414.safetensors",
+          "size": 2264927096,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00076-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00077-of-00414.safetensors",
+          "size": 2264927104,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00078-of-00414.safetensors",
+          "size": 2151680744,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00079-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00080-of-00414.safetensors",
+          "size": 2151680744,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00081-of-00414.safetensors",
+          "size": 2264927104,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00082-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00083-of-00414.safetensors",
+          "size": 2264927096,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00084-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00085-of-00414.safetensors",
+          "size": 2264927112,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00086-of-00414.safetensors",
+          "size": 2151680744,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00087-of-00414.safetensors",
+          "size": 2264927112,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00088-of-00414.safetensors",
+          "size": 2151680752,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00089-of-00414.safetensors",
+          "size": 2264927104,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00090-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00091-of-00414.safetensors",
+          "size": 2264927104,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00092-of-00414.safetensors",
+          "size": 2151680752,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00093-of-00414.safetensors",
+          "size": 2340436848,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00094-of-00414.safetensors",
+          "size": 2116402792,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00095-of-00414.safetensors",
+          "size": 2254811144,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00096-of-00414.safetensors",
+          "size": 2103016528,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00097-of-00414.safetensors",
+          "size": 2116402792,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00098-of-00414.safetensors",
+          "size": 2254811144,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00099-of-00414.safetensors",
+          "size": 2103016528,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00100-of-00414.safetensors",
+          "size": 2116402792,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00101-of-00414.safetensors",
+          "size": 2140753144,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00102-of-00414.safetensors",
+          "size": 2264927096,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00103-of-00414.safetensors",
+          "size": 2151680744,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00104-of-00414.safetensors",
+          "size": 2264927096,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00105-of-00414.safetensors",
+          "size": 2151680744,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00106-of-00414.safetensors",
+          "size": 2264927096,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00107-of-00414.safetensors",
+          "size": 2151680744,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00108-of-00414.safetensors",
+          "size": 2264927096,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00109-of-00414.safetensors",
+          "size": 2151680744,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00110-of-00414.safetensors",
+          "size": 2264927096,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00111-of-00414.safetensors",
+          "size": 2151680744,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00112-of-00414.safetensors",
+          "size": 2264927096,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00113-of-00414.safetensors",
+          "size": 2151680744,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00114-of-00414.safetensors",
+          "size": 2264927096,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00115-of-00414.safetensors",
+          "size": 2151680744,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00116-of-00414.safetensors",
+          "size": 2264927096,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00117-of-00414.safetensors",
+          "size": 2151680744,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00118-of-00414.safetensors",
+          "size": 2264927096,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00119-of-00414.safetensors",
+          "size": 2151680744,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00120-of-00414.safetensors",
+          "size": 2264927096,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00121-of-00414.safetensors",
+          "size": 2151680744,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00122-of-00414.safetensors",
+          "size": 2264927096,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00123-of-00414.safetensors",
+          "size": 2151680744,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00124-of-00414.safetensors",
+          "size": 2264927096,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00125-of-00414.safetensors",
+          "size": 2151680744,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00126-of-00414.safetensors",
+          "size": 2264927096,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00127-of-00414.safetensors",
+          "size": 2151680744,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00128-of-00414.safetensors",
+          "size": 2264927096,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00129-of-00414.safetensors",
+          "size": 2151680744,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00130-of-00414.safetensors",
+          "size": 2264927104,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00131-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00132-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00133-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00134-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00135-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00136-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00137-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00138-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00139-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00140-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00141-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00142-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00143-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00144-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00145-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00146-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00147-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00148-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00149-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00150-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00151-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00152-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00153-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00154-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00155-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00156-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00157-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00158-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00159-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00160-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00161-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00162-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00163-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00164-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00165-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00166-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00167-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00168-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00169-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00170-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00171-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00172-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00173-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00174-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00175-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00176-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00177-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00178-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00179-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00180-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00181-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00182-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00183-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00184-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00185-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00186-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00187-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00188-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00189-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00190-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00191-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00192-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00193-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00194-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00195-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00196-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00197-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00198-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00199-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00200-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00201-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00202-of-00414.safetensors",
+          "size": 2141564784,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00203-of-00414.safetensors",
+          "size": 2103016528,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00204-of-00414.safetensors",
+          "size": 2116402792,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00205-of-00414.safetensors",
+          "size": 2254811144,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00206-of-00414.safetensors",
+          "size": 2103016528,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00207-of-00414.safetensors",
+          "size": 2116402792,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00208-of-00414.safetensors",
+          "size": 2254811144,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00209-of-00414.safetensors",
+          "size": 2140753144,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00210-of-00414.safetensors",
+          "size": 2264927096,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00211-of-00414.safetensors",
+          "size": 2151680744,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00212-of-00414.safetensors",
+          "size": 2264927096,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00213-of-00414.safetensors",
+          "size": 2151680744,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00214-of-00414.safetensors",
+          "size": 2264927096,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00215-of-00414.safetensors",
+          "size": 2151680744,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00216-of-00414.safetensors",
+          "size": 2264927096,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00217-of-00414.safetensors",
+          "size": 2151680744,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00218-of-00414.safetensors",
+          "size": 2264927096,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00219-of-00414.safetensors",
+          "size": 2151680744,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00220-of-00414.safetensors",
+          "size": 2264927096,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00221-of-00414.safetensors",
+          "size": 2151680744,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00222-of-00414.safetensors",
+          "size": 2264927096,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00223-of-00414.safetensors",
+          "size": 2151680744,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00224-of-00414.safetensors",
+          "size": 2264927096,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00225-of-00414.safetensors",
+          "size": 2151680744,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00226-of-00414.safetensors",
+          "size": 2264927096,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00227-of-00414.safetensors",
+          "size": 2151680744,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00228-of-00414.safetensors",
+          "size": 2264927096,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00229-of-00414.safetensors",
+          "size": 2151680744,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00230-of-00414.safetensors",
+          "size": 2264927096,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00231-of-00414.safetensors",
+          "size": 2151680744,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00232-of-00414.safetensors",
+          "size": 2264927096,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00233-of-00414.safetensors",
+          "size": 2151680744,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00234-of-00414.safetensors",
+          "size": 2264927096,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00235-of-00414.safetensors",
+          "size": 2151680744,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00236-of-00414.safetensors",
+          "size": 2264927096,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00237-of-00414.safetensors",
+          "size": 2151680744,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00238-of-00414.safetensors",
+          "size": 2264927104,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00239-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00240-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00241-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00242-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00243-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00244-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00245-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00246-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00247-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00248-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00249-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00250-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00251-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00252-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00253-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00254-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00255-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00256-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00257-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00258-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00259-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00260-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00261-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00262-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00263-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00264-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00265-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00266-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00267-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00268-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00269-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00270-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00271-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00272-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00273-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00274-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00275-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00276-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00277-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00278-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00279-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00280-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00281-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00282-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00283-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00284-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00285-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00286-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00287-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00288-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00289-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00290-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00291-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00292-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00293-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00294-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00295-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00296-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00297-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00298-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00299-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00300-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00301-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00302-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00303-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00304-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00305-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00306-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00307-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00308-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00309-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00310-of-00414.safetensors",
+          "size": 2191113552,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00311-of-00414.safetensors",
+          "size": 2154131200,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00312-of-00414.safetensors",
+          "size": 2128985712,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00313-of-00414.safetensors",
+          "size": 2191113552,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00314-of-00414.safetensors",
+          "size": 2154131200,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00315-of-00414.safetensors",
+          "size": 2128985712,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00316-of-00414.safetensors",
+          "size": 2191113552,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00317-of-00414.safetensors",
+          "size": 3365980424,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00318-of-00414.safetensors",
+          "size": 2264927096,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00319-of-00414.safetensors",
+          "size": 2151680744,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00320-of-00414.safetensors",
+          "size": 2264927096,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00321-of-00414.safetensors",
+          "size": 2151680744,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00322-of-00414.safetensors",
+          "size": 2264927096,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00323-of-00414.safetensors",
+          "size": 2151680744,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00324-of-00414.safetensors",
+          "size": 2264927096,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00325-of-00414.safetensors",
+          "size": 2151680744,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00326-of-00414.safetensors",
+          "size": 2264927096,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00327-of-00414.safetensors",
+          "size": 2151680744,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00328-of-00414.safetensors",
+          "size": 2264927096,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00329-of-00414.safetensors",
+          "size": 2151680744,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00330-of-00414.safetensors",
+          "size": 2264927096,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00331-of-00414.safetensors",
+          "size": 2151680744,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00332-of-00414.safetensors",
+          "size": 2264927096,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00333-of-00414.safetensors",
+          "size": 2151680744,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00334-of-00414.safetensors",
+          "size": 2264927096,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00335-of-00414.safetensors",
+          "size": 2151680744,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00336-of-00414.safetensors",
+          "size": 2264927096,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00337-of-00414.safetensors",
+          "size": 2151680744,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00338-of-00414.safetensors",
+          "size": 2264927096,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00339-of-00414.safetensors",
+          "size": 2151680744,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00340-of-00414.safetensors",
+          "size": 2264927096,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00341-of-00414.safetensors",
+          "size": 2151680744,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00342-of-00414.safetensors",
+          "size": 2264927096,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00343-of-00414.safetensors",
+          "size": 2151680744,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00344-of-00414.safetensors",
+          "size": 2264927096,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00345-of-00414.safetensors",
+          "size": 2151680752,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00346-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00347-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00348-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00349-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00350-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00351-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00352-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00353-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00354-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00355-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00356-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00357-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00358-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00359-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00360-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00361-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00362-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00363-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00364-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00365-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00366-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00367-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00368-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00369-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00370-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00371-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00372-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00373-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00374-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00375-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00376-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00377-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00378-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00379-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00380-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00381-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00382-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00383-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00384-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00385-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00386-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00387-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00388-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00389-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00390-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00391-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00392-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00393-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00394-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00395-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00396-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00397-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00398-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00399-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00400-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00401-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00402-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00403-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00404-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00405-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00406-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00407-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00408-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00409-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00410-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00411-of-00414.safetensors",
+          "size": 2151680760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00412-of-00414.safetensors",
+          "size": 2264927120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00413-of-00414.safetensors",
+          "size": 792724504,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model.safetensors.index.json",
+          "size": 989619,
+          "sha256": "321195936edd551625a1fea534ddb2e461ccc3995de922820908c457073c19cc",
+          "kind": "snapshot"
+        },
+        {
+          "path": "modeling_clip.py",
+          "size": 87003,
+          "sha256": "de186ffc326c0c3223b1b8726a29dda4ff6f1583e4bf7b0841cc08073140b766",
+          "kind": "snapshot"
+        },
+        {
+          "path": "modeling_minimax_text_01.py",
+          "size": 75409,
+          "sha256": "27ba3f3a87c850eee92568e9246e12a2fe948a4b10f4630d53c21896ecc64d9e",
+          "kind": "snapshot"
+        },
+        {
+          "path": "modeling_minimax_vl_01.py",
+          "size": 50444,
+          "sha256": "87815d8d1f3987ce68227878b93b7f71f3ae4a66096124a74a7e0f502786bce0",
+          "kind": "snapshot"
+        },
+        {
+          "path": "preprocessor_config.json",
+          "size": 2065,
+          "sha256": "db78390048fc0f8260466d64c0857be0aa0f119ed56d7b48464e629e1d50c9fc",
+          "kind": "snapshot"
+        },
+        {
+          "path": "processing_minimax_vl_01.py",
+          "size": 18647,
+          "sha256": "3fe1981f18c2aa11e01d56713ca61bdad3bc7005e75e0fa151d4f4a82f18dc92",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer.json",
+          "size": 9724836,
+          "sha256": "ece04384257543dd1c1312991b6042efdc5be09103729a62cc84d718bcc3b1a6",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 1656,
+          "sha256": "c78b01f389153315574c218ce3363911c67009430ce285f4a6a37c9d521ae58a",
+          "kind": "snapshot"
+        },
+        {
+          "path": "vocab.json",
+          "size": 4705413,
+          "sha256": "b44c066b5dc34c800c4e3ecbd85f3e95ce3bfdbf8a5fe30223e005175103578a",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 915389293289,
+      "weight_bytes": 915367931592,
+      "snapshot_dir": "snapshots/MiniMaxAI/MiniMax-VL-01/308b79934be140a43a0fb80f82b4e20d0ebe3cb8/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

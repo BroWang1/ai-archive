@@ -1,0 +1,138 @@
+{
+  "repo_id": "01-ai/Yi-1.5-9B-Chat",
+  "canonical_org": "01-ai",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "1a0fc698cf883c4f5c325f026ca79f0ebd9955a5",
+      "captured_at": "2026-09-17T22:44:44Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/01-ai/Yi-1.5-9B-Chat?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"1675-kLjr061Z4jOgIxdnPmBZIVfKUmg\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "apache-2.0",
+        "file": null,
+        "sha256": null,
+        "redistributable": null,
+        "obligations": [],
+        "freedom": "conditional",
+        "freedom_note": "'apache-2.0' card tag but NO license file in repo \u2014 unverifiable, confirm upstream"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1519,
+          "sha256": "11ad7efa24975ee4b0c3c3a38ed18737f0658a5f75a0a96787b576a78a023361",
+          "kind": "snapshot"
+        },
+        {
+          "path": "NOTICE",
+          "size": 879,
+          "sha256": "100e95372c34fb697ad661c45044f353b515f5067e4d4156e4e6a16cc7116f6e",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 5779,
+          "sha256": "5b245685718cc62faa5a588e87ccc215532ff93bb2a6f24f1fd698445432b460",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 661,
+          "sha256": "a96597f583645c70ebda338eb3e3681c582eccc85b2a3e4b98eb031bce6e100d",
+          "kind": "snapshot"
+        },
+        {
+          "path": "generation_config.json",
+          "size": 132,
+          "sha256": "11b6eeda277c29496ba50e471d7e8202a7924c4800596bbdca5f1560859687a4",
+          "kind": "snapshot"
+        },
+        {
+          "path": "md5",
+          "size": 598,
+          "sha256": "8c9af8b5017e4681b9b93adcb73c0a20bea54be094def380cfbcf85189c8d95c",
+          "kind": "snapshot"
+        },
+        {
+          "path": "model-00001-of-00004.safetensors",
+          "size": 4932711424,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00002-of-00004.safetensors",
+          "size": 4976802816,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00003-of-00004.safetensors",
+          "size": 4968397360,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00004-of-00004.safetensors",
+          "size": 2780953384,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model.safetensors.index.json",
+          "size": 35838,
+          "sha256": "b84d6ebdcbaa08a91d99947222b5ee792a4503f6e4e857c07fb6cf2a3c8a2117",
+          "kind": "snapshot"
+        },
+        {
+          "path": "special_tokens_map.json",
+          "size": 567,
+          "sha256": "27ce6fefbeb38d978a6a8d4d6a81a63fdd318b9db0489b44c6f3fadb57ce0661",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer.json",
+          "size": 3602758,
+          "sha256": "4c5b294ae0af51894980134a59f4e39ca824471acecd6996d50935876ed73cdf",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer.model",
+          "size": 1033105,
+          "sha256": "386c49cf943d71aa110361135338c50e38beeff0a66593480421f37b319e1a39",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 1673,
+          "sha256": "a877a66153e25d07e7ac73fa33f4d4003cb8bdd93bab1a32fc0b4578554ccba4",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 17663548493,
+      "weight_bytes": 17658864984,
+      "snapshot_dir": "snapshots/01-ai/Yi-1.5-9B-Chat/1a0fc698cf883c4f5c325f026ca79f0ebd9955a5/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

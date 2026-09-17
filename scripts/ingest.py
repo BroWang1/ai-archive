@@ -13,6 +13,7 @@ import json
 import re
 import sys
 import urllib.error
+import urllib.parse
 import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
@@ -109,7 +110,7 @@ def ingest(repo_id, revision=None, max_file_mb=64):
         # download into the snapshot and hash locally
         dest = snap_dir / path
         dest.parent.mkdir(parents=True, exist_ok=True)
-        raw_url = f"{HF}/{repo_id}/resolve/{sha}/{path}"
+        raw_url = f"{HF}/{repo_id}/resolve/{sha}/{urllib.parse.quote(path)}"
         try:
             with fetch(raw_url) as r:
                 data = r.read()

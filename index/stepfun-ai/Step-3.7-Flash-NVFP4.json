@@ -1,0 +1,222 @@
+{
+  "repo_id": "stepfun-ai/Step-3.7-Flash-NVFP4",
+  "canonical_org": "stepfun-ai",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "4275532ffd9a9496ff36b7a2dc4a9db1048da438",
+      "captured_at": "2026-09-17T22:42:57Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/stepfun-ai/Step-3.7-Flash-NVFP4?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"4908-93Zr7BKwjprhUJtiyeHJ9VbgCBY\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "apache-2.0",
+        "file": null,
+        "sha256": null,
+        "redistributable": null,
+        "obligations": [],
+        "freedom": "conditional",
+        "freedom_note": "'apache-2.0' card tag but NO license file in repo \u2014 unverifiable, confirm upstream"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1561,
+          "sha256": "04bc81cb0b1a143a2f8bbeb55e04b607a85d509407eec07eb1cc47cea0e42284",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 14023,
+          "sha256": "b720774885053937f2c424572fb43991d1fcc87b4666e8acec36abbd9fd706d7",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/benchmarks.png",
+          "size": 321943,
+          "sha256": "3d26171162c0421a57c6c2c22074b9b276b626c5d90fe3a62e9fceb8ad988ae7",
+          "kind": "snapshot"
+        },
+        {
+          "path": "chat_template.jinja",
+          "size": 5723,
+          "sha256": "f428623fc81c940c35be3509fbffc086b4b4360d8800e46103e6f34d02891633",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 14590,
+          "sha256": "e09a8654f5c894c50378db85fc950fa127cff800fe75e81caa4692cdd41beab8",
+          "kind": "snapshot"
+        },
+        {
+          "path": "configuration_step3p7.py",
+          "size": 8375,
+          "sha256": "4689fe2daf39501d5ce17f1d947cf9c5c78ab0950f80807f64ecd2de1ce8bb81",
+          "kind": "snapshot"
+        },
+        {
+          "path": "generation_config.json",
+          "size": 140,
+          "sha256": "86de547389d88f0def9711dc0725432005a47a995e32415b8272a20e8bfa8cb0",
+          "kind": "snapshot"
+        },
+        {
+          "path": "hf_quant_config.json",
+          "size": 7094,
+          "sha256": "bde947cd2dab22d400e87c5e15a2c30b882457f2f48b7404b6c031e5f620d192",
+          "kind": "snapshot"
+        },
+        {
+          "path": "model-00001-of-00013.safetensors",
+          "size": 9342187088,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00002-of-00013.safetensors",
+          "size": 9251674336,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00003-of-00013.safetensors",
+          "size": 9939278216,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00004-of-00013.safetensors",
+          "size": 9531404840,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00005-of-00013.safetensors",
+          "size": 9939278272,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00006-of-00013.safetensors",
+          "size": 9531404840,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00007-of-00013.safetensors",
+          "size": 9939278272,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00008-of-00013.safetensors",
+          "size": 9531404840,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00009-of-00013.safetensors",
+          "size": 9251674432,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00010-of-00013.safetensors",
+          "size": 9437030328,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00011-of-00013.safetensors",
+          "size": 9939278264,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00012-of-00013.safetensors",
+          "size": 9531404848,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00013-of-00013.safetensors",
+          "size": 9219957752,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-mtp-bf16.safetensors",
+          "size": 4856347904,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model.safetensors.index.json",
+          "size": 191883,
+          "sha256": "b1dd5b2bc83e2fb8372dc3754f79d0e1dfdb5f6139d83c6c1b66284dd13e3c24",
+          "kind": "snapshot"
+        },
+        {
+          "path": "modeling_step3p7.py",
+          "size": 56765,
+          "sha256": "1a6d88edb1e6c82230f42c71189104a877b5eee17dfd7c165210bffc7714b2a9",
+          "kind": "snapshot"
+        },
+        {
+          "path": "processing_step3.py",
+          "size": 18686,
+          "sha256": "983f9fc399a5b14fe3e492f05d4e3c1b2d3b3fc589dc426da9e5a1731ed516ec",
+          "kind": "snapshot"
+        },
+        {
+          "path": "special_tokens_map.json",
+          "size": 468,
+          "sha256": "d47424bda11df4cedc3f9458915c465a28e601d3b7df0e78f6dff4d7727006c4",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer.json",
+          "size": 9977071,
+          "sha256": "a8859f8d349f77a5c1933aca6594572e63616355c688a25f152530e772c0ae99",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 163405,
+          "sha256": "78202af487f4d4360e8d15cb0506d60718f8599770599c6f28f7f1fa045a591f",
+          "kind": "snapshot"
+        },
+        {
+          "path": "vision_encoder.py",
+          "size": 17706,
+          "sha256": "88adf0a61c84254c68d3a32544856eff7c3283fa2f3cd6914e94857dba36b5f2",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 129252403665,
+      "weight_bytes": 129241604232,
+      "snapshot_dir": "snapshots/stepfun-ai/Step-3.7-Flash-NVFP4/4275532ffd9a9496ff36b7a2dc4a9db1048da438/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

@@ -1,0 +1,7 @@
+- dataset:
+    id: SWE-bench/SWE-bench_Multilingual
+    task_id: swe_bench_multilingual_%_resolved
+  value: 72.4
+  source:
+    url: https://huggingface.co/inclusionAI/Ling-3.0-flash
+    name: Model Card

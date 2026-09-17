@@ -1,0 +1,9 @@
+- dataset:
+    id: Idavidrein/gpqa
+    task_id: diamond
+  value: 83.5
+  date: '2026-02-11'
+  source:
+    url: https://arxiv.org/abs/2602.10604
+    name: Step 3.5 Flash Paper
+    user: SaylorTwift

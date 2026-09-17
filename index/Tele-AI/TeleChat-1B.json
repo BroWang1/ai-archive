@@ -1,0 +1,114 @@
+{
+  "repo_id": "Tele-AI/TeleChat-1B",
+  "canonical_org": "Tele-AI",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "7d6191165af093e74f3398a8074a56f732155af0",
+      "captured_at": "2026-09-17T22:52:07Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/Tele-AI/TeleChat-1B?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"ba8-K/+V1+X0aes6f55Q/apuC3JWIuM\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "apache-2.0",
+        "file": null,
+        "sha256": null,
+        "redistributable": null,
+        "obligations": [],
+        "freedom": "conditional",
+        "freedom_note": "'apache-2.0' card tag but NO license file in repo \u2014 unverifiable, confirm upstream"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1519,
+          "sha256": "11ad7efa24975ee4b0c3c3a38ed18737f0658a5f75a0a96787b576a78a023361",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 13678,
+          "sha256": "29f43045b8bcd30a519e597100ad97dcf75b26701480ec5cd9bc06ba21ea5982",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 988,
+          "sha256": "2832e5668d9fb3100c010a57df89cb1a055ccf793b5fd78baaa2eb0fbe04895c",
+          "kind": "snapshot"
+        },
+        {
+          "path": "configuration_telechat.py",
+          "size": 4405,
+          "sha256": "6a1cec287baa3e027375340c65ee3e06ef5c52b9eacab8775fba8124268470bf",
+          "kind": "snapshot"
+        },
+        {
+          "path": "modeling_telechat.py",
+          "size": 34877,
+          "sha256": "8752146f0ea4875efea907685e7c648c6c7f34866cdb1e6c2cb87e7b7c9c1498",
+          "kind": "snapshot"
+        },
+        {
+          "path": "pytorch_model.bin.index.json",
+          "size": 13762,
+          "sha256": "57da777391ba0949c01da7561189d6ba2b8db68bbec73bec32bcb8bc603b77b3",
+          "kind": "snapshot"
+        },
+        {
+          "path": "pytorch_model_00001-of-00001.bin",
+          "size": 2593711876,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "specail_tokens_map.json",
+          "size": 585,
+          "sha256": "7ff468e28ed6fbf72e3d1614817d59ebfc35d52494895b1874c536594f637cae",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenization_telechat3.py",
+          "size": 8656,
+          "sha256": "aaede74aee87193f477e9b8874f3535db1d424ca6081cf8eadf414e501312654",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer.model",
+          "size": 1978781,
+          "sha256": "b2c86d881f9a94b1c50bf25f8f987accea9ec2a1be74529f0240d8e13e66aa3d",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 912,
+          "sha256": "d7a5ae198134dc2146e261bc68d940c00f72c5400acbd3814bf509f335da9bcd",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 2595770039,
+      "weight_bytes": 2593711876,
+      "snapshot_dir": "snapshots/Tele-AI/TeleChat-1B/7d6191165af093e74f3398a8074a56f732155af0/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

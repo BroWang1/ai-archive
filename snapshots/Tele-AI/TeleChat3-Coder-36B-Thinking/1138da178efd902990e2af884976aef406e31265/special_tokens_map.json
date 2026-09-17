@@ -1,0 +1,38 @@
+{
+  "additional_special_tokens": [
+    "<_start>",
+    "<_end>",
+    "<_pad>",
+    "<_user>",
+    "<_bot>",
+    "<_system>",
+    "<think>",
+    "</think>",
+    "<tool_call>",
+    "<_observation>",
+    "</tool_call>",
+    "<tool_response>",
+    "</tool_response>"
+  ],
+  "bos_token": {
+    "content": "<_start>",
+    "lstrip": false,
+    "normalized": false,
+    "rstrip": false,
+    "single_word": false
+  },
+  "eos_token": {
+    "content": "<_end>",
+    "lstrip": false,
+    "normalized": false,
+    "rstrip": false,
+    "single_word": false
+  },
+  "pad_token": {
+    "content": "<_pad>",
+    "lstrip": false,
+    "normalized": false,
+    "rstrip": false,
+    "single_word": false
+  }
+}

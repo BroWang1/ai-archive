@@ -1,0 +1,252 @@
+{
+  "repo_id": "OrionStarAI/OrionStar-Yi-34B-Chat",
+  "canonical_org": "OrionStarAI",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "a667fd67183f2e9171ecb0dfa5fb1669ad2e0a6d",
+      "captured_at": "2026-09-17T22:54:23Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/OrionStarAI/OrionStar-Yi-34B-Chat?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"1d33-9bVbZMxd6UlcEm280UTobOoREwo\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "other",
+        "file": null,
+        "sha256": null,
+        "redistributable": null,
+        "obligations": [],
+        "freedom": "conditional",
+        "freedom_note": "Custom license ('other') \u2014 read before redistributing"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1519,
+          "sha256": "11ad7efa24975ee4b0c3c3a38ed18737f0658a5f75a0a96787b576a78a023361",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 10847,
+          "sha256": "dd35f8b6ee0dbfcfd539a9767bdb05291fa45d652cb633c6942911f0cd1f7876",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README_en.md",
+          "size": 9023,
+          "sha256": "bae46deaf704888972e6a64c280513e2d40c6eb465b7f254f83fd2d872f00837",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 717,
+          "sha256": "1aace96f84d044002a29553f223089b670caf888e09d89f912b67d778c0e515b",
+          "kind": "snapshot"
+        },
+        {
+          "path": "configuration.json",
+          "size": 48,
+          "sha256": "a78221ae93dd8977b26fcd1d106fa5ad7e7f1fd3a7d93bfd9d6fba5ed00ec4d2",
+          "kind": "snapshot"
+        },
+        {
+          "path": "configuration_yi.py",
+          "size": 5468,
+          "sha256": "13471b01cf43dff5b6e037b05ac0250371e626658bb7c19ea5c3645dc0154d52",
+          "kind": "snapshot"
+        },
+        {
+          "path": "generation_config.json",
+          "size": 261,
+          "sha256": "351377a48e1832973a9567ccf7da20de4a0668a4161b7653eb7a5d88151fa2dc",
+          "kind": "snapshot"
+        },
+        {
+          "path": "generation_utils.py",
+          "size": 1800,
+          "sha256": "17ec6119436db11ea79fd44114bacc0049bc29eb34558f2db7ebe50bab893124",
+          "kind": "snapshot"
+        },
+        {
+          "path": "model-00001-of-00007.safetensors",
+          "size": 9975341344,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00002-of-00007.safetensors",
+          "size": 9909309968,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00003-of-00007.safetensors",
+          "size": 9747800648,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00004-of-00007.safetensors",
+          "size": 9747829512,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00005-of-00007.safetensors",
+          "size": 9747829512,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00006-of-00007.safetensors",
+          "size": 9938670344,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00007-of-00007.safetensors",
+          "size": 9711113984,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model.safetensors.index.json",
+          "size": 44957,
+          "sha256": "0319479d63450467f205f418c5f5104753a71ccfc8cd232a379259f851ebe282",
+          "kind": "snapshot"
+        },
+        {
+          "path": "modeling_yi.py",
+          "size": 41803,
+          "sha256": "743c5b4ee6471aa816e37f5dfe95090ed0cc62063d5d4b313b5d7bc4135f7ca2",
+          "kind": "snapshot"
+        },
+        {
+          "path": "pics/company_wechat.jpg",
+          "size": 256175,
+          "sha256": "2a3868d0d8293289848f3ee6c8290c31344216d66fc1a6cef3e587ef347279d9",
+          "kind": "snapshot"
+        },
+        {
+          "path": "pics/orion_start.PNG",
+          "size": 28103,
+          "sha256": "ead7700252dfc11a0f614f4ab909e4fcb76fa40054087d71f8b4875a501437c9",
+          "kind": "snapshot"
+        },
+        {
+          "path": "pics/wechat_group.jpg",
+          "size": 177489,
+          "sha256": "de355e715349772d202e9328cd51838e21e6f49a764d1567675532192e4f544f",
+          "kind": "snapshot"
+        },
+        {
+          "path": "pytorch_model-00001-of-00007.bin",
+          "size": 9975359126,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "pytorch_model-00002-of-00007.bin",
+          "size": 9909328186,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "pytorch_model-00003-of-00007.bin",
+          "size": 9747818814,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "pytorch_model-00004-of-00007.bin",
+          "size": 9747848138,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "pytorch_model-00005-of-00007.bin",
+          "size": 9747848198,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "pytorch_model-00006-of-00007.bin",
+          "size": 9938689066,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "pytorch_model-00007-of-00007.bin",
+          "size": 9711130536,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "pytorch_model.bin.index.json",
+          "size": 42774,
+          "sha256": "ecc09f1086a24bd2465478092f64eeb5fd3cef23ae755dbc4ebfd460fa1a94b2",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenization_yi.py",
+          "size": 8964,
+          "sha256": "42171ea19a302a93a3b5f28b146a007f02dc7124764d4a34c10b8048fdf68c31",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer.json",
+          "size": 3560486,
+          "sha256": "18da9ff3421e5c878bd223ce42316058c0bdf688c114aa57e469ed5b91b4c3bc",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer.model",
+          "size": 1033105,
+          "sha256": "386c49cf943d71aa110361135338c50e38beeff0a66593480421f37b319e1a39",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 199,
+          "sha256": "95003471a7ceacd4901aff9e0402198a58c9e51d004bd3ecea65cfac7bba1579",
+          "kind": "snapshot"
+        },
+        {
+          "path": "training_args.bin",
+          "size": 6776,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "zero_to_fp32.py",
+          "size": 23607,
+          "sha256": "c3d9f6d855fce9b344e825d0e57822d9798e94d25fe4f284a8a0d3945efa4723",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 137561171497,
+      "weight_bytes": 137555924152,
+      "snapshot_dir": "snapshots/OrionStarAI/OrionStar-Yi-34B-Chat/a667fd67183f2e9171ecb0dfa5fb1669ad2e0a6d/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

@@ -1,0 +1,144 @@
+{
+  "repo_id": "tencent/Hunyuan-7B-Instruct",
+  "canonical_org": "tencent",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "6fd6ecb05e76589bc43b79f49e3619445c6b4593",
+      "captured_at": "2026-09-17T22:37:27Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/tencent/Hunyuan-7B-Instruct?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"113e-ZrBWo9aFwq1HmoRknJcwQRB7rak\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": null,
+        "file": "LICENSE.txt",
+        "sha256": "0d666200251ceb38448241425d0d7d5d9ccf2f330d5385b8104a2ba98ad748e8",
+        "redistributable": null,
+        "obligations": [],
+        "freedom": "restricted",
+        "freedom_note": "Tencent Community License: EXCLUDES EU, UK, South Korea; license required >100M MAU"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1570,
+          "sha256": "34448b82c17d60fec9b65b1f093c115ddbaadc04beb1b0140b6bfed2e012a930",
+          "kind": "snapshot"
+        },
+        {
+          "path": "LICENSE",
+          "size": 15519,
+          "sha256": "0d666200251ceb38448241425d0d7d5d9ccf2f330d5385b8104a2ba98ad748e8",
+          "kind": "snapshot"
+        },
+        {
+          "path": "LICENSE.txt",
+          "size": 15519,
+          "sha256": "0d666200251ceb38448241425d0d7d5d9ccf2f330d5385b8104a2ba98ad748e8",
+          "kind": "snapshot"
+        },
+        {
+          "path": "Notice.txt",
+          "size": 15344,
+          "sha256": "5bd0ed5540235c50f6498c160a708d1598a92445b6122a48365fb0f2b1709c1b",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 21716,
+          "sha256": "8788d94cfa6b435912c20287bd4c629c205bf28f9f40fcab55042df4a12c19ad",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README_CN.md",
+          "size": 29680,
+          "sha256": "50d3944979de636236e233347cda71f13145785e64ee320c3bc18ea512879459",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 1369,
+          "sha256": "8c8192aca763cc6246aa4cb196cc1d27a79f6403fe6093b31c77abc3ff753ee8",
+          "kind": "snapshot"
+        },
+        {
+          "path": "generation_config.json",
+          "size": 205,
+          "sha256": "c6b34deeebf0428323229729a4c9deae8b7f679e16446f1b70bf53b907427ee4",
+          "kind": "snapshot"
+        },
+        {
+          "path": "model-00001-of-00004.safetensors",
+          "size": 4975976336,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00002-of-00004.safetensors",
+          "size": 4999811728,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00003-of-00004.safetensors",
+          "size": 4915924448,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00004-of-00004.safetensors",
+          "size": 117465544,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model.safetensors.index.json",
+          "size": 29732,
+          "sha256": "ed7a4df213ba38158fc55e6b961afc0dcc11744b270bc1a1d614a66f631de111",
+          "kind": "snapshot"
+        },
+        {
+          "path": "requirements.txt",
+          "size": 57,
+          "sha256": "8062702f1c5a702d49f9d3ec138bf5b8062ace2724b4f167d6d9fbe596db203f",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer.json",
+          "size": 16388221,
+          "sha256": "4185389a69284fdd3ebf737c6120bbeee36cbed9763151fa5bac5986a39e05d4",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 1023,
+          "sha256": "b2e1225428746d48b9fa435a918b7684622bbe0212ce6f822fc6005b157b2bad",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 15025698011,
+      "weight_bytes": 15009178056,
+      "snapshot_dir": "snapshots/tencent/Hunyuan-7B-Instruct/6fd6ecb05e76589bc43b79f49e3619445c6b4593/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

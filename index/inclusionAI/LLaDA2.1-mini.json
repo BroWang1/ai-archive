@@ -1,0 +1,150 @@
+{
+  "repo_id": "inclusionAI/LLaDA2.1-mini",
+  "canonical_org": "inclusionAI",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "20e64e2ad21644d0e5248586ed9c942cdd45de0f",
+      "captured_at": "2026-09-17T22:45:30Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/inclusionAI/LLaDA2.1-mini?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"21d5-veTm8f1ORknoso909sDKJIOgzt0\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "apache-2.0",
+        "file": null,
+        "sha256": null,
+        "redistributable": null,
+        "obligations": [],
+        "freedom": "conditional",
+        "freedom_note": "'apache-2.0' card tag but NO license file in repo \u2014 unverifiable, confirm upstream"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1519,
+          "sha256": "11ad7efa24975ee4b0c3c3a38ed18737f0658a5f75a0a96787b576a78a023361",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 14845,
+          "sha256": "b96541953be3008e0031c20058de32705fda65a3a62d0a5ed0eaf725a299c69b",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 1509,
+          "sha256": "6b1db3737e1d173a0326cd0bb740d7ae81515f5ea9468903fa008dadca9cffde",
+          "kind": "snapshot"
+        },
+        {
+          "path": "configuration_llada2_moe.py",
+          "size": 3157,
+          "sha256": "618ba95f31bcdd08fd5f92d47d7a3404c5dd5e24bef1c3847f7126025dc263e4",
+          "kind": "snapshot"
+        },
+        {
+          "path": "model-00000-of-00008.safetensors",
+          "size": 5735111000,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00001-of-00008.safetensors",
+          "size": 3825430152,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00002-of-00008.safetensors",
+          "size": 3825430152,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00003-of-00008.safetensors",
+          "size": 3825431744,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00004-of-00008.safetensors",
+          "size": 3825431976,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00005-of-00008.safetensors",
+          "size": 3825431976,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00006-of-00008.safetensors",
+          "size": 3825431976,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00007-of-00008.safetensors",
+          "size": 3825431976,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model.safetensors.index.json",
+          "size": 1338852,
+          "sha256": "42bc76b39efa3bbb71de6d7580d490f986334299b6cdd976b966e1a854ac6a44",
+          "kind": "snapshot"
+        },
+        {
+          "path": "modeling_llada2_moe.py",
+          "size": 60421,
+          "sha256": "fe5c809d4d0e3e489eff649a976300daaf0f1086dd411ef72da602fa8097be46",
+          "kind": "snapshot"
+        },
+        {
+          "path": "special_tokens_map.json",
+          "size": 180,
+          "sha256": "2fb357349941f0b4b88669cc2745e70350487dc1b46a5b4dfab8ae1882efdf0b",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer.json",
+          "size": 7663359,
+          "sha256": "0a1db22fe3dfb28f9b2be6d87f472af371b50235d7f5366ecac14b52ff8c002b",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 4595,
+          "sha256": "053a74db9233c69408762c4e70043cf9811504d1a59220adb0d00c956cf7749c",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 32522219389,
+      "weight_bytes": 32513130952,
+      "snapshot_dir": "snapshots/inclusionAI/LLaDA2.1-mini/20e64e2ad21644d0e5248586ed9c942cdd45de0f/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

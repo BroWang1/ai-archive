@@ -1,0 +1,132 @@
+{
+  "repo_id": "IEITYuan/Yuan-embedding-1.0",
+  "canonical_org": "IEITYuan",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "6c3ddf7f50fb751f2d8392f742260fada2605eca",
+      "captured_at": "2026-09-17T22:52:39Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/IEITYuan/Yuan-embedding-1.0?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"11a9a-5PFY3LV0krBKmif4HyugfmXalyI\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": null,
+        "file": null,
+        "sha256": null,
+        "redistributable": false,
+        "obligations": [],
+        "freedom": "unlicensed",
+        "freedom_note": "No license tag and no file \u2014 cannot redistribute"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1519,
+          "sha256": "11ad7efa24975ee4b0c3c3a38ed18737f0658a5f75a0a96787b576a78a023361",
+          "kind": "snapshot"
+        },
+        {
+          "path": "1_Pooling/config.json",
+          "size": 297,
+          "sha256": "4e103b8e2a31573ea88570523c2db4f13d34e09a26333e8a889268ed907b3822",
+          "kind": "snapshot"
+        },
+        {
+          "path": "2_Dense/config.json",
+          "size": 116,
+          "sha256": "04cb736409603781f6cac8d19029b183df838471f36b0583832d30fc0f9510fc",
+          "kind": "snapshot"
+        },
+        {
+          "path": "2_Dense/model.safetensors",
+          "size": 7347360,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "README.md",
+          "size": 31884,
+          "sha256": "33324f34016be0c491726d9ce29d8aa09ade39db104fea7c1776a1627943fd87",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 864,
+          "sha256": "300f4db97bd437ac204c5da62da8aae1a2d8fef2744b00356d4c535e9d6e4dbc",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config_sentence_transformers.json",
+          "size": 205,
+          "sha256": "46c9100399b256177d9ab8a0bdae7e2d2b7e9bc8123f27345953d02bb77a24b9",
+          "kind": "snapshot"
+        },
+        {
+          "path": "model.safetensors",
+          "size": 1302134568,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "modules.json",
+          "size": 341,
+          "sha256": "f83ea5d68ac85ec15f650b350f0dc37b03d63abd60442f518e14c06f479beee6",
+          "kind": "snapshot"
+        },
+        {
+          "path": "sentence_bert_config.json",
+          "size": 53,
+          "sha256": "ec8e29d6dcb61b611b7d3fdd2982c4524e6ad985959fa7194eacfb655a8d0d51",
+          "kind": "snapshot"
+        },
+        {
+          "path": "special_tokens_map.json",
+          "size": 695,
+          "sha256": "5d5b662e421ea9fac075174bb0688ee0d9431699900b90662acd44b2a350503a",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer.json",
+          "size": 439377,
+          "sha256": "1c4fe7bd360d7b758ab46c2ea7dd6aaa707e719bea05280293aea4a737b50438",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 1461,
+          "sha256": "de2ec2766c807b88a6442718d304a4217c2027aa93dd4060e9677bf92363abb1",
+          "kind": "snapshot"
+        },
+        {
+          "path": "vocab.txt",
+          "size": 109540,
+          "sha256": "45bbac6b341c319adc98a532532882e91a9cefc0329aa57bac9ae761c27b291c",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 1310068280,
+      "weight_bytes": 1309481928,
+      "snapshot_dir": "snapshots/IEITYuan/Yuan-embedding-1.0/6c3ddf7f50fb751f2d8392f742260fada2605eca/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

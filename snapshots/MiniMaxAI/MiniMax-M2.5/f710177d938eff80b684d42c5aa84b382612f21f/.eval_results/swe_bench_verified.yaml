@@ -1,0 +1,9 @@
+- dataset:
+    id: SWE-bench/SWE-bench_Verified
+    task_id: swe_bench_%_resolved
+  value: 75.80
+  source:
+    url: https://www.swebench.com/
+    name: SWE-Bench official evaluation
+    user: nielsr
+  notes: high reasoning

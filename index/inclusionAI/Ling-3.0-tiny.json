@@ -1,0 +1,306 @@
+{
+  "repo_id": "inclusionAI/Ling-3.0-tiny",
+  "canonical_org": "inclusionAI",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "e3a47d5b986e7141b6efd62597d598ebb392060d",
+      "captured_at": "2026-09-17T22:45:38Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/inclusionAI/Ling-3.0-tiny?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"408f-KbfYXkmTrtGYunsdhv9zNrqt1ss\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "mit",
+        "file": null,
+        "sha256": null,
+        "redistributable": null,
+        "obligations": [],
+        "freedom": "conditional",
+        "freedom_note": "'mit' card tag but NO license file in repo \u2014 unverifiable, confirm upstream"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1570,
+          "sha256": "34448b82c17d60fec9b65b1f093c115ddbaadc04beb1b0140b6bfed2e012a930",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 9470,
+          "sha256": "676d77f773f03b724eb9fd2abe2a12c58d6cae59ad4195b9b1a46a81b3a3c71b",
+          "kind": "snapshot"
+        },
+        {
+          "path": "chat_template.jinja",
+          "size": 6041,
+          "sha256": "eb6226c94ae38058f875d159f86a206b3a165828c0e7d6bda664ae14667f798a",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 2130,
+          "sha256": "9750d847957913f665a13c0b5a6537199e33c6f3ec970d9fcb55a0e5076d4012",
+          "kind": "snapshot"
+        },
+        {
+          "path": "configuration_bailing_moe_v3.py",
+          "size": 4725,
+          "sha256": "f2c048966aec8a2f042cfeb1351f74d51a28589b409c55baae7d24e841c1f6c4",
+          "kind": "snapshot"
+        },
+        {
+          "path": "generation_config.json",
+          "size": 56,
+          "sha256": "64752c5973a55faf4cfc02604c7587c38b090f00013f91191f52362dcc79a4a8",
+          "kind": "snapshot"
+        },
+        {
+          "path": "model-00000-of-00032.safetensors",
+          "size": 1132407184,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00001-of-00032.safetensors",
+          "size": 377516376,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00002-of-00032.safetensors",
+          "size": 377516376,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00003-of-00032.safetensors",
+          "size": 377516376,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00004-of-00032.safetensors",
+          "size": 377516376,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00005-of-00032.safetensors",
+          "size": 377516376,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00006-of-00032.safetensors",
+          "size": 377516560,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00007-of-00032.safetensors",
+          "size": 377516616,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00008-of-00032.safetensors",
+          "size": 664495552,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00009-of-00032.safetensors",
+          "size": 453019768,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00010-of-00032.safetensors",
+          "size": 453019768,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00011-of-00032.safetensors",
+          "size": 453019768,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00012-of-00032.safetensors",
+          "size": 453019768,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00013-of-00032.safetensors",
+          "size": 453019768,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00014-of-00032.safetensors",
+          "size": 453019984,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00015-of-00032.safetensors",
+          "size": 453020056,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00016-of-00032.safetensors",
+          "size": 687686672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00017-of-00032.safetensors",
+          "size": 453019960,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00018-of-00032.safetensors",
+          "size": 453019960,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00019-of-00032.safetensors",
+          "size": 453019960,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00020-of-00032.safetensors",
+          "size": 453019960,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00021-of-00032.safetensors",
+          "size": 453019960,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00022-of-00032.safetensors",
+          "size": 453020176,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00023-of-00032.safetensors",
+          "size": 453020248,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00024-of-00032.safetensors",
+          "size": 1147368624,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00025-of-00032.safetensors",
+          "size": 453019960,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00026-of-00032.safetensors",
+          "size": 453019960,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00027-of-00032.safetensors",
+          "size": 453019960,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00028-of-00032.safetensors",
+          "size": 453019960,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00029-of-00032.safetensors",
+          "size": 453019960,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00030-of-00032.safetensors",
+          "size": 453020176,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00031-of-00032.safetensors",
+          "size": 453020248,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model.safetensors.index.json",
+          "size": 833614,
+          "sha256": "84ef9fe8ef967eeb0545deb1d23c0ce54e86e6b18fa943a7903d7354a79f9cf9",
+          "kind": "snapshot"
+        },
+        {
+          "path": "modeling_bailing_moe_v3.py",
+          "size": 73194,
+          "sha256": "c2509bf7ac580c262e2581d34d6403aa21682d2e10beb9ad85ad8820a7e33a40",
+          "kind": "snapshot"
+        },
+        {
+          "path": "special_tokens_map.json",
+          "size": 580,
+          "sha256": "69b63b9f81044ead642d16a5fdc01bcc737dc1183746485c8397ab14d3126614",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer.json",
+          "size": 12205732,
+          "sha256": "40fb9d7d7795b8bd305aeff39ce9963f3f450915b9553f2938e009be9a1fed60",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 49671,
+          "sha256": "2456b0372956cd3e82f17e33372148b115a94970bfd4878ba5e7e60cd3204f74",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 15801179199,
+      "weight_bytes": 15787992416,
+      "snapshot_dir": "snapshots/inclusionAI/Ling-3.0-tiny/e3a47d5b986e7141b6efd62597d598ebb392060d/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

@@ -1,0 +1,138 @@
+{
+  "repo_id": "OrionStarAI/OrionStar-Yi-34B-Chat-Llama",
+  "canonical_org": "OrionStarAI",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "ad91c09c174b39100fd512789774950525477180",
+      "captured_at": "2026-09-17T22:53:53Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/OrionStarAI/OrionStar-Yi-34B-Chat-Llama?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"1082-k29ha0tX6p5Q+Nf0JGIleHtpneg\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "apache-2.0",
+        "file": null,
+        "sha256": null,
+        "redistributable": null,
+        "obligations": [],
+        "freedom": "conditional",
+        "freedom_note": "'apache-2.0' card tag but NO license file in repo \u2014 unverifiable, confirm upstream"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1519,
+          "sha256": "11ad7efa24975ee4b0c3c3a38ed18737f0658a5f75a0a96787b576a78a023361",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 2541,
+          "sha256": "615f17d9c13e955cf9cd20c9cdcd0bcddece6b10809bdd3ccc51b4439ff7b93e",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 558,
+          "sha256": "f54708062f25d11d335f47163f5da2bc1abf30e43cbb5fa5b6e8506c632b0162",
+          "kind": "snapshot"
+        },
+        {
+          "path": "generation_config.json",
+          "size": 261,
+          "sha256": "351377a48e1832973a9567ccf7da20de4a0668a4161b7653eb7a5d88151fa2dc",
+          "kind": "snapshot"
+        },
+        {
+          "path": "model-00001-of-00007.safetensors",
+          "size": 9975341608,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00002-of-00007.safetensors",
+          "size": 9909310272,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00003-of-00007.safetensors",
+          "size": 9747800920,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00004-of-00007.safetensors",
+          "size": 9747829824,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00005-of-00007.safetensors",
+          "size": 9747829824,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00006-of-00007.safetensors",
+          "size": 9938670648,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00007-of-00007.safetensors",
+          "size": 9711114248,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model.safetensors.index.json",
+          "size": 46937,
+          "sha256": "cfbd835c4c3cd944ae4de7acb30ea8ab0b7b2f5b120a50c222e91f4f579ea5ea",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenization_yi.py",
+          "size": 8964,
+          "sha256": "42171ea19a302a93a3b5f28b146a007f02dc7124764d4a34c10b8048fdf68c31",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer.model",
+          "size": 1033105,
+          "sha256": "386c49cf943d71aa110361135338c50e38beeff0a66593480421f37b319e1a39",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 184,
+          "sha256": "8f640e7114cc0c3134b86fe84206435291910f34110aee354d1146187229618c",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 68778991413,
+      "weight_bytes": 68777897344,
+      "snapshot_dir": "snapshots/OrionStarAI/OrionStar-Yi-34B-Chat-Llama/ad91c09c174b39100fd512789774950525477180/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

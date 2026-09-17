@@ -1,0 +1,420 @@
+{
+  "repo_id": "stepfun-ai/Step-3.5-Flash",
+  "canonical_org": "stepfun-ai",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "ab446a3de5e171ea341227e24bb1f090e1b771f7",
+      "captured_at": "2026-09-17T22:43:18Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/stepfun-ai/Step-3.5-Flash?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"52de-x4a6JUWgTie8MVa4ACQysSspOAo\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "apache-2.0",
+        "file": null,
+        "sha256": null,
+        "redistributable": null,
+        "obligations": [],
+        "freedom": "conditional",
+        "freedom_note": "'apache-2.0' card tag but NO license file in repo \u2014 unverifiable, confirm upstream"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".done",
+          "size": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "kind": "snapshot"
+        },
+        {
+          "path": ".eval_results/gpqa_diamond.yaml",
+          "size": 196,
+          "sha256": "bf83a8c3cc236fedfe2e7ed9a010ce5d1ae8b0a7a4b818be54b02dc95032eddd",
+          "kind": "snapshot"
+        },
+        {
+          "path": ".eval_results/hle.yaml",
+          "size": 206,
+          "sha256": "03a4ee13f653ad07fdc8980da6902b2ea571cd25b8f2f1dda8d6c71997a6d4c6",
+          "kind": "snapshot"
+        },
+        {
+          "path": ".eval_results/mmlu_pro.yaml",
+          "size": 200,
+          "sha256": "666b2d3cc56e53a07f243293be4535f6b320ad8735a36c555cbafbf9878ebf2d",
+          "kind": "snapshot"
+        },
+        {
+          "path": ".eval_results/swe_bench_verified.yaml",
+          "size": 222,
+          "sha256": "f20fb45794c675f57ac1854182309ded574469965a9c43c3258086fe5b276646",
+          "kind": "snapshot"
+        },
+        {
+          "path": ".eval_results/terminal_bench_2.yaml",
+          "size": 223,
+          "sha256": "a70562fcefc6a6e087c3fd24763433c24dbbafba88453d515f2032e1b54ad703",
+          "kind": "snapshot"
+        },
+        {
+          "path": ".gitattributes",
+          "size": 1574,
+          "sha256": "606c255446efa7b0e96b02e3b64a0320bcaad3f7ba0806cba278aadad12cdeab",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 26241,
+          "sha256": "6b903e2816900a43ec28d4a8f0f5c2feb72f7c65945cad503375414a270751d2",
+          "kind": "snapshot"
+        },
+        {
+          "path": "chat_template.jinja",
+          "size": 5004,
+          "sha256": "b18b99dff7261214c43e0402cba9f573e3240be6f9bb7ccaa54bb8df97e49dca",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 4930,
+          "sha256": "794dcd0ea3e925efd9f8bd98745e2246ae73eab58fb0113c3338d7cab619ea3d",
+          "kind": "snapshot"
+        },
+        {
+          "path": "configuration_step3p5.py",
+          "size": 2285,
+          "sha256": "3edef21cbc04129f0d63a2a4ca4d012bea553281db525884d23861627768bda3",
+          "kind": "snapshot"
+        },
+        {
+          "path": "model-00001.safetensors",
+          "size": 9628898912,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00002.safetensors",
+          "size": 8632547344,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00003.safetensors",
+          "size": 9059696992,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00004.safetensors",
+          "size": 9059696992,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00005.safetensors",
+          "size": 9059696992,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00006.safetensors",
+          "size": 9059696992,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00007.safetensors",
+          "size": 9059696992,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00008.safetensors",
+          "size": 9059696992,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00009.safetensors",
+          "size": 9059696992,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00010.safetensors",
+          "size": 9059697000,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00011.safetensors",
+          "size": 9059697000,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00012.safetensors",
+          "size": 9059697000,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00013.safetensors",
+          "size": 9059697000,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00014.safetensors",
+          "size": 9059697000,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00015.safetensors",
+          "size": 9059697000,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00016.safetensors",
+          "size": 9059697000,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00017.safetensors",
+          "size": 9059697000,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00018.safetensors",
+          "size": 9059697000,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00019.safetensors",
+          "size": 9059697000,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00020.safetensors",
+          "size": 9059697000,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00021.safetensors",
+          "size": 9059697000,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00022.safetensors",
+          "size": 9059697000,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00023.safetensors",
+          "size": 9059697000,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00024.safetensors",
+          "size": 9059697000,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00025.safetensors",
+          "size": 9059697000,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00026.safetensors",
+          "size": 9059697000,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00027.safetensors",
+          "size": 9059697000,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00028.safetensors",
+          "size": 9059697000,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00029.safetensors",
+          "size": 9059697000,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00030.safetensors",
+          "size": 9059697000,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00031.safetensors",
+          "size": 9059697000,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00032.safetensors",
+          "size": 9059697000,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00033.safetensors",
+          "size": 9059697000,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00034.safetensors",
+          "size": 9059697000,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00035.safetensors",
+          "size": 9059697000,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00036.safetensors",
+          "size": 9059697000,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00037.safetensors",
+          "size": 9059697000,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00038.safetensors",
+          "size": 9059697000,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00039.safetensors",
+          "size": 9059697000,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00040.safetensors",
+          "size": 9059697000,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00041.safetensors",
+          "size": 9059697000,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00042.safetensors",
+          "size": 9059697000,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00043.safetensors",
+          "size": 9059697000,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00044.safetensors",
+          "size": 9059697000,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model.safetensors.index.json",
+          "size": 59149,
+          "sha256": "5ba2ba696d661da761f2cb46055265d9714a688cfce97801d68cce61a87952d0",
+          "kind": "snapshot"
+        },
+        {
+          "path": "modeling_step3p5.py",
+          "size": 38567,
+          "sha256": "b17c4483f30b4f67c8ac0194aaa652ce7a9e6b8efd9ffe08445de4e9be538f87",
+          "kind": "snapshot"
+        },
+        {
+          "path": "special_tokens_map.json",
+          "size": 468,
+          "sha256": "d47424bda11df4cedc3f9458915c465a28e601d3b7df0e78f6dff4d7727006c4",
+          "kind": "snapshot"
+        },
+        {
+          "path": "step-bar-chart.png",
+          "size": 647158,
+          "sha256": "3fa283dc9c139edc3331aaafa21d69de212a241f03262f09acf96fbc0123a93d",
+          "kind": "snapshot"
+        },
+        {
+          "path": "stepfun.svg",
+          "size": 674,
+          "sha256": "d7a372e84bab7c028fa98f649937103d482bf7464a4fe583ffeb014c62418239",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer.json",
+          "size": 9976972,
+          "sha256": "b564c620eb77fa11d0926011c2202347d6cfc358d79724ee04ae7007e13636f0",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 163405,
+          "sha256": "78202af487f4d4360e8d15cb0506d60718f8599770599c6f28f7f1fa045a591f",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 398779647674,
+      "weight_bytes": 398768720200,
+      "snapshot_dir": "snapshots/stepfun-ai/Step-3.5-Flash/ab446a3de5e171ea341227e24bb1f090e1b771f7/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

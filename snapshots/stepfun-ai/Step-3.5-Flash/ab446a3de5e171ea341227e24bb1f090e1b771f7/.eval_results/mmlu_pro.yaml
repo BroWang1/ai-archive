@@ -1,0 +1,9 @@
+- dataset:
+    id: TIGER-Lab/MMLU-Pro
+    task_id: mmlu_pro
+  value: 84.4
+  date: '2026-02-11'
+  source:
+    url: https://arxiv.org/abs/2602.10604
+    name: Step 3.5 Flash Paper
+    user: SaylorTwift

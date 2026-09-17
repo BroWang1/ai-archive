@@ -1,0 +1,168 @@
+{
+  "repo_id": "internlm/internlm2_5-7b-chat",
+  "canonical_org": "internlm",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "eb72b541689b0432dade0435feb339b89fdd39ff",
+      "captured_at": "2026-09-17T22:42:21Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/internlm/internlm2_5-7b-chat?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"1cbe-SeSPm7MryQigHd2TJvydc8hxSkA\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "other",
+        "file": null,
+        "sha256": null,
+        "redistributable": null,
+        "obligations": [],
+        "freedom": "conditional",
+        "freedom_note": "Custom license ('other') \u2014 read before redistributing"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1519,
+          "sha256": "11ad7efa24975ee4b0c3c3a38ed18737f0658a5f75a0a96787b576a78a023361",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 18803,
+          "sha256": "6fc478eb67e16606166919bbbed9df50b0cec516a42b0f40795169c7070e3da5",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 916,
+          "sha256": "3797dfe1ee8e1b7060f8cb70f32ab9445774c8fc7f352a910e160304304ce153",
+          "kind": "snapshot"
+        },
+        {
+          "path": "configuration_internlm2.py",
+          "size": 8842,
+          "sha256": "bd507289e9307cd1cec8e44eb483cff2b47d786111cb4070bd82e10c55563f25",
+          "kind": "snapshot"
+        },
+        {
+          "path": "generation_config.json",
+          "size": 123,
+          "sha256": "3a31386520b254271c53882b72a86e07e350035fc773b7930fc28177d52f476f",
+          "kind": "snapshot"
+        },
+        {
+          "path": "model-00001-of-00008.safetensors",
+          "size": 1949337704,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00002-of-00008.safetensors",
+          "size": 1946242696,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00003-of-00008.safetensors",
+          "size": 1979780440,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00004-of-00008.safetensors",
+          "size": 1946242728,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00005-of-00008.safetensors",
+          "size": 1979780456,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00006-of-00008.safetensors",
+          "size": 1946242728,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00007-of-00008.safetensors",
+          "size": 1979780456,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00008-of-00008.safetensors",
+          "size": 1748035640,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model.safetensors.index.json",
+          "size": 18179,
+          "sha256": "1c3947a3578100becf21a781727e193985013754a845ca34591e7a5ff76245d7",
+          "kind": "snapshot"
+        },
+        {
+          "path": "modeling_internlm2.py",
+          "size": 81047,
+          "sha256": "415a9cb54262d0c4616b6ce2c75f39ab209acb2e33fbc05445661c7015a1b2df",
+          "kind": "snapshot"
+        },
+        {
+          "path": "special_tokens_map.json",
+          "size": 713,
+          "sha256": "e636e880c43a263dc00724686c9ad90e2d23bd1467fe9ed1b95740cd9f387202",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenization_internlm2.py",
+          "size": 8806,
+          "sha256": "444d4c2b0da158e61c34b3c727943f0ad454770c74b307f4d881f03603335eef",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenization_internlm2_fast.py",
+          "size": 7805,
+          "sha256": "1fe5f033032afc400b9b8b0274f16efd57c6ebaab46a2f6fe9f961afb868ae10",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer.model",
+          "size": 1477754,
+          "sha256": "f868398fc4e05ee1e8aeba95ddf18ddcc45b8bce55d5093bead5bbf80429b48b",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 2511,
+          "sha256": "3ad60a8ee8a0a63a1f1d51884787d557eb6a312e5689148b4d599639ac42801b",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 15477069866,
+      "weight_bytes": 15475442848,
+      "snapshot_dir": "snapshots/internlm/internlm2_5-7b-chat/eb72b541689b0432dade0435feb339b89fdd39ff/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

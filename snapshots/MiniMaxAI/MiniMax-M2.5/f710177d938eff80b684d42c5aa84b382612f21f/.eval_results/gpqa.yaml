@@ -1,0 +1,9 @@
+- dataset:
+    id: Idavidrein/gpqa
+    task_id: diamond
+  value: 85.2
+  date: '2026-02-13'
+  source:
+    url: https://huggingface.co/MiniMaxAI/MiniMax-M2.5
+    name: Model Card
+    user: SaylorTwift

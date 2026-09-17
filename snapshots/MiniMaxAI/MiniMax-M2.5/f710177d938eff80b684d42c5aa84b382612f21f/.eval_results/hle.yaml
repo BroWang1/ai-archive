@@ -1,0 +1,9 @@
+- dataset:
+    id: cais/hle
+    task_id: hle
+  value: 19.4
+  date: '2026-02-13'
+  source:
+    url: https://huggingface.co/MiniMaxAI/MiniMax-M2.5
+    name: Model Card
+    user: SaylorTwift

@@ -1,0 +1,276 @@
+{
+  "repo_id": "moonshotai/Kimi-Linear-48B-A3B-Instruct",
+  "canonical_org": "moonshotai",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "e1df551a447157d4658b573f9a695d57658590e9",
+      "captured_at": "2026-09-17T22:34:51Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/moonshotai/Kimi-Linear-48B-A3B-Instruct?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"28f3-0Pa9r3ZmvQwePJH6obCZsXLlowY\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "mit",
+        "file": null,
+        "sha256": null,
+        "redistributable": null,
+        "obligations": [],
+        "freedom": "conditional",
+        "freedom_note": "'mit' card tag but NO license file in repo \u2014 unverifiable, confirm upstream"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1631,
+          "sha256": "70711e003ecefde7929ed9b1e49770523a0a2b539c437498acf3f58d7da67c1d",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 6540,
+          "sha256": "d2332c5f1c7318737c2d42c6ec09ff7f26223d1b595fd5d0e1a189ba53064dd9",
+          "kind": "snapshot"
+        },
+        {
+          "path": "chat_template.jinja",
+          "size": 1850,
+          "sha256": "75e3cd76bd26b77c02507eb35073b66c8ffd0c88eab185ebc6f8c6e425161809",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 1751,
+          "sha256": "a6ac3c2c4b5aa72370f9727f49ffa4432715d20061889acdb37c688be853096e",
+          "kind": "snapshot"
+        },
+        {
+          "path": "configuration_kimi.py",
+          "size": 4948,
+          "sha256": "79422aca3ee6c89d201e0c15c4c9a6db517ba83d87ecdc4e41fa0f71297238d9",
+          "kind": "snapshot"
+        },
+        {
+          "path": "figures/arch.png",
+          "size": 237810,
+          "sha256": "132ae021fa4661ed39e7be784d46f05f22b82aabb9afd2bab8dbdc0a5a61cba0",
+          "kind": "snapshot"
+        },
+        {
+          "path": "figures/arxiv.png",
+          "size": 2066,
+          "sha256": "8a9b6f6422b16d06b4feada756072382a3d9bb0f016e1af646fabb5b79b1950e",
+          "kind": "snapshot"
+        },
+        {
+          "path": "figures/banner.png",
+          "size": 63214,
+          "sha256": "860813b16f049ba7540fe99568729ac62a12cc651d523b4be534ead4fb5a7716",
+          "kind": "snapshot"
+        },
+        {
+          "path": "figures/github.png",
+          "size": 6393,
+          "sha256": "367d5cb2adc609451cf9127250edfe893837485e7c779d7dcb4e31234f59b001",
+          "kind": "snapshot"
+        },
+        {
+          "path": "figures/logo.png",
+          "size": 13101,
+          "sha256": "7870b48105beb49cdb29bb3090abb7bbca688bef862507904c23d9c472df221c",
+          "kind": "snapshot"
+        },
+        {
+          "path": "figures/perf_speed.png",
+          "size": 160274,
+          "sha256": "f8951e618db41ae57fa0cec4845d7b275dffbd7f9db12c6496bfea536c625aea",
+          "kind": "snapshot"
+        },
+        {
+          "path": "generation_config.json",
+          "size": 147,
+          "sha256": "5d7571b3479fd7263e52c4b2e829c2ae64143abcb0d8d9813258fc4b7994cffe",
+          "kind": "snapshot"
+        },
+        {
+          "path": "model-00001-of-00020.safetensors",
+          "size": 4999482712,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00002-of-00020.safetensors",
+          "size": 4999923264,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00003-of-00020.safetensors",
+          "size": 4997138040,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00004-of-00020.safetensors",
+          "size": 4997148016,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00005-of-00020.safetensors",
+          "size": 4999923296,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00006-of-00020.safetensors",
+          "size": 4997138040,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00007-of-00020.safetensors",
+          "size": 4997148128,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00008-of-00020.safetensors",
+          "size": 4999924384,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00009-of-00020.safetensors",
+          "size": 4997139104,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00010-of-00020.safetensors",
+          "size": 4997149016,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00011-of-00020.safetensors",
+          "size": 4999924408,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00012-of-00020.safetensors",
+          "size": 4997139104,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00013-of-00020.safetensors",
+          "size": 4997148992,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00014-of-00020.safetensors",
+          "size": 4999924440,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00015-of-00020.safetensors",
+          "size": 4997139104,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00016-of-00020.safetensors",
+          "size": 4997148960,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00017-of-00020.safetensors",
+          "size": 4999924472,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00018-of-00020.safetensors",
+          "size": 4997139104,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00019-of-00020.safetensors",
+          "size": 4999934384,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00020-of-00020.safetensors",
+          "size": 3280687152,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model.safetensors.index.json",
+          "size": 1987740,
+          "sha256": "e63dba2b42cfe38ad7f2fd7cf561706c584f8fe7b42016baba16b27fe0d06bab",
+          "kind": "snapshot"
+        },
+        {
+          "path": "modeling_kimi.py",
+          "size": 42975,
+          "sha256": "d79b365e37378881b9f1585007a56e236ca27a414920943cb85d1dacb75dda99",
+          "kind": "snapshot"
+        },
+        {
+          "path": "special_tokens_map.json",
+          "size": 5583,
+          "sha256": "16786e586e9ac2ebad36dc32023f055dc3a8682a85c8f274ff07988ab31758b9",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tiktoken.model",
+          "size": 2795286,
+          "sha256": "b6c497a7469b33ced9c38afb1ad6e47f03f5e5dc05f15930799210ec050c5103",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenization_kimi.py",
+          "size": 12534,
+          "sha256": "b6b304f63d355f29f5f5aa27694337c824c90e1ac80559ca537909824729761f",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 3695,
+          "sha256": "5ba77d5822137ac3cb9337d2b84561d10425562cf8b8f2c74c91a832516a778d",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 98253571658,
+      "weight_bytes": 98248224120,
+      "snapshot_dir": "snapshots/moonshotai/Kimi-Linear-48B-A3B-Instruct/e1df551a447157d4658b573f9a695d57658590e9/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

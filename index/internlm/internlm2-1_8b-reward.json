@@ -1,0 +1,138 @@
+{
+  "repo_id": "internlm/internlm2-1_8b-reward",
+  "canonical_org": "internlm",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "25f3593492ab4625ce00fce8c5e67802d6e702ca",
+      "captured_at": "2026-09-17T22:42:01Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/internlm/internlm2-1_8b-reward?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"df0-LzcMWHdh1yD/XpkZ3CNJ/BYapyU\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "other",
+        "file": null,
+        "sha256": null,
+        "redistributable": null,
+        "obligations": [],
+        "freedom": "conditional",
+        "freedom_note": "Custom license ('other') \u2014 read before redistributing"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1519,
+          "sha256": "11ad7efa24975ee4b0c3c3a38ed18737f0658a5f75a0a96787b576a78a023361",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 16491,
+          "sha256": "0196c2491ed9b8e27cdef90c2c48abfcbbc5641415f71cb54b16956e6d16fee4",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 813,
+          "sha256": "a50c39e11d22fb4250c2fa82724dbd59c8b2b1885fa85ca4565b4f710dc0c957",
+          "kind": "snapshot"
+        },
+        {
+          "path": "configuration_internlm2.py",
+          "size": 9042,
+          "sha256": "8b645f86e6a6bf9895eff775718fc85454da6c15c275bc28bf8fc54d1fc7f74c",
+          "kind": "snapshot"
+        },
+        {
+          "path": "model-00001-of-00002.safetensors",
+          "size": 1981392544,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00002-of-00002.safetensors",
+          "size": 1417790344,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model.safetensors.index.json",
+          "size": 13682,
+          "sha256": "d59589bef9aed26422d6475c4bba85aa8703197c50dbc0abf814a53434df3ffd",
+          "kind": "snapshot"
+        },
+        {
+          "path": "modeling_internlm2.py",
+          "size": 91364,
+          "sha256": "32114decf3b8e21af96ed5327f77d8cdefb2a96d26af4a1ed63af45f14572656",
+          "kind": "snapshot"
+        },
+        {
+          "path": "reward_bench_results/eval-set/internlm2-1_8b-reward.json",
+          "size": 996,
+          "sha256": "dda38f448666f6a36e87118cfd98c46a97f823d75cf09f76a9f2fd4de1cceedf",
+          "kind": "snapshot"
+        },
+        {
+          "path": "reward_bench_results/pref-sets/internlm2-1_8b-reward.json",
+          "size": 400,
+          "sha256": "8bf844f060e25cd422672c0bc4b431f2d63a6644ec2b16bba8b74ee6e4a4ad22",
+          "kind": "snapshot"
+        },
+        {
+          "path": "special_tokens_map.json",
+          "size": 809,
+          "sha256": "54252d86e6290c9ee9eca79f767668edb03b72cb745ba9aa49902d6ea780d11c",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenization_internlm2.py",
+          "size": 8806,
+          "sha256": "444d4c2b0da158e61c34b3c727943f0ad454770c74b307f4d881f03603335eef",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenization_internlm2_fast.py",
+          "size": 7805,
+          "sha256": "1fe5f033032afc400b9b8b0274f16efd57c6ebaab46a2f6fe9f961afb868ae10",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer.model",
+          "size": 1477754,
+          "sha256": "f868398fc4e05ee1e8aeba95ddf18ddcc45b8bce55d5093bead5bbf80429b48b",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 2950,
+          "sha256": "49e72c79132f88a490e8c66f4d493ed954520ea2be46cd71e2c94c458ce00784",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 3400815319,
+      "weight_bytes": 3399182888,
+      "snapshot_dir": "snapshots/internlm/internlm2-1_8b-reward/25f3593492ab4625ce00fce8c5e67802d6e702ca/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

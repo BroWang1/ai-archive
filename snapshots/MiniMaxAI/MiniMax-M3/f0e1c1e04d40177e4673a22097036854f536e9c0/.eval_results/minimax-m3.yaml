@@ -1,0 +1,94 @@
+# Evaluation results for MiniMaxAI/MiniMax-M3
+# Extracted from the model card benchmark graph (figures/benchmark.jpeg)
+# https://huggingface.co/MiniMaxAI/MiniMax-M3
+# Paper: https://arxiv.org/abs/2606.13392
+
+# ---------------------------------------------------------------------------
+# Coding
+# ---------------------------------------------------------------------------
+
+# SWE-Bench Verified - 80.5
+- dataset:
+    id: SWE-bench/SWE-bench_Verified
+    task_id: swe_bench_%_resolved
+  value: 80.5
+  source:
+    url: https://huggingface.co/MiniMaxAI/MiniMax-M3
+    name: MiniMax-M3 model card
+  notes: "Evaluated on internal infrastructure using Claude Code as the scaffolding. Each test was run 4 times and the average was taken."
+
+# SWE-Bench Pro - 59.0
+- dataset:
+    id: ScaleAI/SWE-bench_Pro
+    task_id: SWE_Bench_Pro
+  value: 59.0
+  source:
+    url: https://huggingface.co/MiniMaxAI/MiniMax-M3
+    name: MiniMax-M3 model card
+  notes: "Evaluated on internal infrastructure using Claude Code as the scaffolding. Testing logic is aligned with the official evaluation."
+
+
+# ---------------------------------------------------------------------------
+# Multimodal
+# ---------------------------------------------------------------------------
+
+# MMMU-Pro - 78.1
+# MMMU-Pro defines three tasks: mmmu_pro_vision, mmmu_pro_standard_4_options,
+# mmmu_pro_standard_10_options. The model card reports a single "MMMU-Pro"
+# score without specifying the exact variant. We map it to the standard
+# 10-options task as the most common updated benchmark configuration.
+- dataset:
+    id: MMMU/MMMU_Pro
+    task_id: mmmu_pro_standard_10_options
+  value: 78.1
+  source:
+    url: https://huggingface.co/MiniMaxAI/MiniMax-M3
+    name: MiniMax-M3 model card
+  notes: "MMMU-Pro score extracted from the model card benchmark graph. The exact task variant (vision, standard 4-options, or standard 10-options) is not explicitly stated."
+
+# Video-MME (w/ sub) - 85.4
+# Mapped to Video-MME-v2, the registered successor benchmark on the Hub.
+- dataset:
+    id: MME-Benchmarks/Video-MME-v2
+    task_id: video-mme-v2
+  value: 85.4
+  source:
+    url: https://huggingface.co/MiniMaxAI/MiniMax-M3
+    name: MiniMax-M3 model card
+  notes: "Model card reports 'VideoMME (w/ sub)'. Mapped to the closest registered benchmark on the Hub, Video-MME-v2."
+
+# ---------------------------------------------------------------------------
+# Cowork
+# ---------------------------------------------------------------------------
+
+# Claw-Eval - 74.5
+# Claw-Eval defines three tasks: general, multimodal, multi_turn. The model card
+# reports a single overall score, so it is mapped to the 'general' task.
+- dataset:
+    id: claw-eval/Claw-Eval
+    task_id: general
+  value: 74.5
+  source:
+    url: https://huggingface.co/MiniMaxAI/MiniMax-M3
+    name: MiniMax-M3 model card
+  notes: "Model card reports a single 'Claw-Eval' score. Mapped to the 'general' task (overall); the exact task split is not specified."
+
+# Apex-Agents - 27.7
+- dataset:
+    id: mercor/apex-agents
+    task_id: apex-agents
+  value: 27.7
+  source:
+    url: https://huggingface.co/MiniMaxAI/MiniMax-M3
+    name: MiniMax-M3 model card
+  notes: "Evaluated on the apex-agents benchmark."
+
+# YC-Bench - 2.1M (final assets in fund, monetary metric)
+- dataset:
+    id: collinear-ai/yc-bench
+    task_id: medium
+  value: 2100000
+  source:
+    url: https://huggingface.co/MiniMaxAI/MiniMax-M3
+    name: MiniMax-M3 model card
+  notes: "Model card reports 2.1M (monetary value, final assets fund). The benchmark's 'medium' task is used as the overall evaluation. Metric is monetary, not percentage-based."

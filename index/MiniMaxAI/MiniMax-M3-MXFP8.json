@@ -1,0 +1,360 @@
+{
+  "repo_id": "MiniMaxAI/MiniMax-M3-MXFP8",
+  "canonical_org": "MiniMaxAI",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "c5454eb03678d8710e54a4e0fc681b9f3b4a3dba",
+      "captured_at": "2026-09-17T22:41:02Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/MiniMaxAI/MiniMax-M3-MXFP8?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"5c21-twkUCs0ZSSR06nHwaeJCfMC1mvo\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "other",
+        "file": "LICENSE",
+        "sha256": "b53f2fdda3049b0e9013207be51efc2d372cda1fcfdd8bb4bb8b22658ca5db9c",
+        "redistributable": null,
+        "obligations": [],
+        "freedom": "conditional",
+        "freedom_note": "Custom license ('other') \u2014 read before redistributing"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1578,
+          "sha256": "c2457f175f9cce05b9bca3e438139fe9617ae488617989f1d751d0f3eab14fec",
+          "kind": "snapshot"
+        },
+        {
+          "path": "LICENSE",
+          "size": 3339,
+          "sha256": "b53f2fdda3049b0e9013207be51efc2d372cda1fcfdd8bb4bb8b22658ca5db9c",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 5097,
+          "sha256": "0768cf0b6255623139565a270f2dfaebf67bb6d364ef205487f35fb6960fdf51",
+          "kind": "snapshot"
+        },
+        {
+          "path": "added_tokens.json",
+          "size": 1660,
+          "sha256": "63f277741fb061e615cb604286a845d971178ba4716732a59cf42b3752c0ce4e",
+          "kind": "snapshot"
+        },
+        {
+          "path": "chat_template.jinja",
+          "size": 11756,
+          "sha256": "11421244f67553498e5c8112dae02802025bcc4305ec45ad380af95c96f9fe64",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 9071,
+          "sha256": "a3698fff231a6cd92f632dcbe50f0b1dbda716994f29ccde9f0fa9d2a87698bf",
+          "kind": "snapshot"
+        },
+        {
+          "path": "configuration_minimax_m3_vl.py",
+          "size": 4356,
+          "sha256": "836c3e4aff06f88bd2891b18292424ed7a90158b508d9235d490a33d9e3cba32",
+          "kind": "snapshot"
+        },
+        {
+          "path": "figures/benchmark.jpeg",
+          "size": 4417149,
+          "sha256": "b4bc02e54f508f540e71a9286905477c780934bb79c0b17cd5892b6338313e57",
+          "kind": "snapshot"
+        },
+        {
+          "path": "figures/efficiency_gqa_vs_msa.png",
+          "size": 47694,
+          "sha256": "12b57574e58a5cd2c0e44e431a10737534c864d962bbd7e6ec1c0b1223c2d7d7",
+          "kind": "snapshot"
+        },
+        {
+          "path": "figures/logo.svg",
+          "size": 8462,
+          "sha256": "6d53d092d3bb13a499a43c2ee72d29d6d1b9ac2ed465bae95e3b1f430ed59ee3",
+          "kind": "snapshot"
+        },
+        {
+          "path": "generation_config.json",
+          "size": 150,
+          "sha256": "272d19efac5060ff8c9f76c7ed67909a5da1be466284ee4f1f1bd2a810c6fad2",
+          "kind": "snapshot"
+        },
+        {
+          "path": "image_processor.py",
+          "size": 7856,
+          "sha256": "8218f98634c365608a98ea887bfebac37131ec2acdb8445188350490de7cf994",
+          "kind": "snapshot"
+        },
+        {
+          "path": "merges.txt",
+          "size": 2414077,
+          "sha256": "ca47ea60cf5bd48832586adc264f439d0ea4254176b24a95f85eaa9750e2b5f9",
+          "kind": "snapshot"
+        },
+        {
+          "path": "model-00001-of-00031.safetensors",
+          "size": 8303674712,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00002-of-00031.safetensors",
+          "size": 16098618792,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00003-of-00031.safetensors",
+          "size": 16098618872,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00004-of-00031.safetensors",
+          "size": 16098619208,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00005-of-00031.safetensors",
+          "size": 16098619672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00006-of-00031.safetensors",
+          "size": 16098619128,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00007-of-00031.safetensors",
+          "size": 16098619848,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00008-of-00031.safetensors",
+          "size": 16098619768,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00009-of-00031.safetensors",
+          "size": 16098619848,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00010-of-00031.safetensors",
+          "size": 16098619800,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00011-of-00031.safetensors",
+          "size": 16098619800,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00012-of-00031.safetensors",
+          "size": 16098619768,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00013-of-00031.safetensors",
+          "size": 16098619800,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00014-of-00031.safetensors",
+          "size": 16098619768,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00015-of-00031.safetensors",
+          "size": 16098619768,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00016-of-00031.safetensors",
+          "size": 16098619768,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00017-of-00031.safetensors",
+          "size": 16098619768,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00018-of-00031.safetensors",
+          "size": 16098619768,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00019-of-00031.safetensors",
+          "size": 16098619768,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00020-of-00031.safetensors",
+          "size": 16098619760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00021-of-00031.safetensors",
+          "size": 16098619768,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00022-of-00031.safetensors",
+          "size": 16098619768,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00023-of-00031.safetensors",
+          "size": 16098619768,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00024-of-00031.safetensors",
+          "size": 16098619768,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00025-of-00031.safetensors",
+          "size": 16098619768,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00026-of-00031.safetensors",
+          "size": 16098619768,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00027-of-00031.safetensors",
+          "size": 16098619768,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00028-of-00031.safetensors",
+          "size": 506815888,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00029-of-00031.safetensors",
+          "size": 12246524552,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00030-of-00031.safetensors",
+          "size": 2063975528,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00031-of-00031.safetensors",
+          "size": 2063975528,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model.safetensors.index.json",
+          "size": 5529251,
+          "sha256": "41126751cfdb44c2fb33522bcaaa6f6ca057462838b3493a347678e6e1ca24ee",
+          "kind": "snapshot"
+        },
+        {
+          "path": "preprocessor_config.json",
+          "size": 772,
+          "sha256": "36785da1dc7a00324048bd7c537c24247fca97c626884818257fd0b92287de31",
+          "kind": "snapshot"
+        },
+        {
+          "path": "processing_minimax.py",
+          "size": 9965,
+          "sha256": "0706ae8b93b3489a3b3bc7f48a5f29fb34b1449ebebb37586250e4d5fa8f5e35",
+          "kind": "snapshot"
+        },
+        {
+          "path": "special_tokens_map.json",
+          "size": 277,
+          "sha256": "401b624ec44507183d1dc65c74f7f3387699a77971aa19fa5a0cc57a3989ba97",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer.json",
+          "size": 9731500,
+          "sha256": "bb1f1626cf01448f1e3b6036d0a061ffc66c91d9046aada14ea23a5441b5ad6e",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 11288,
+          "sha256": "15caca9f74fbce9b86dc014e9324cbefa56703d81ccd6d56020faa1c41d2eae5",
+          "kind": "snapshot"
+        },
+        {
+          "path": "video_processor.py",
+          "size": 7318,
+          "sha256": "ced0f8d85d73f8722fecb26033d2d91ecf4a4e5112c91ce1b1522ca7edd0943d",
+          "kind": "snapshot"
+        },
+        {
+          "path": "vocab.json",
+          "size": 4705413,
+          "sha256": "b44c066b5dc34c800c4e3ecbd85f3e95ce3bfdbf8a5fe30223e005175103578a",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 443776005285,
+      "weight_bytes": 443749077256,
+      "snapshot_dir": "snapshots/MiniMaxAI/MiniMax-M3-MXFP8/c5454eb03678d8710e54a4e0fc681b9f3b4a3dba/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

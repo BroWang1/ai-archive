@@ -1,0 +1,120 @@
+{% set default_thinking_sys %}You are an expert reasoner with extensive experience in all areas. You approach problems through systematic thinking and rigorous reasoning. Your response should reflect deep understanding and precise logical thinking, making your solution path and reasoning clear to others. Please put your thinking process within <think>...</think> tags.{% endset %}
+{%- set tool_instruction %}Your response should consist of a reasoning step (**thought**) followed immediately by a function call in valid JSON format. Wrap each function call using the `<|action_start|><|plugin|>` and `<|action_end|>` tags.
+
+**Format example:**
+
+```
+(Your thought goes here...)
+
+<|action_start|><|plugin|>
+{
+    "name": "tool_name",
+    "parameters": {
+        "parameter1": "value1",
+        "parameter2": "value2"
+    }
+}
+<|action_end|>
+```
+
+# External Tools
+You have access to these tools:
+{% if tools %}{{ tools | tojson(indent=2) }}{% else %}[]{% endif %}{% endset %}
+{%- set ns = namespace(multi_step_tool=true, last_query_index=messages|length - 1) %}
+{%- for message in messages[::-1] %}
+    {%- set index = (messages|length - 1) - loop.index0 %}
+    {%- if ns.multi_step_tool and message.role == "user" %}
+        {%- set ns.multi_step_tool = false %}
+        {%- set ns.last_query_index = index %}
+    {%- endif %}
+{%- endfor %}
+{%- for message in messages %}
+  {%- set role = message.role if message.role != 'tool' else 'environment' %}
+  {%- set reasoning_content = '' %}
+  {%- set content = message.content %}
+  {%- set ns.tool_calls = '' %}
+  {%- if role == 'assistant' %}
+    {%- if message.reasoning_content is string %}
+      {%- set reasoning_content = message.reasoning_content %}
+    {%- elif '</think>' in content %}
+      {%- set reasoning_content = content.split('</think>')[0].strip().split('<think>')[-1].strip() %}
+      {%- set content = content.split('</think>')[-1].lstrip('
+') %}
+    {%- endif %}
+    {%- if message.tool_calls %}
+      {%- for tool_call in message.tool_calls %}
+        {%- if not loop.first %}
+            {%- set ns.tool_calls = ns.tool_calls + '
+' %}
+        {%- endif %}
+        {%- if tool_call.function %}
+            {%- set tool_call = tool_call.function %}
+        {%- endif %}
+        {%- set ns.tool_calls = ns.tool_calls + '<|action_start|><|plugin|>
+{"name": "' + tool_call.name + '", "parameters": ' %}
+        {%- if tool_call.arguments is string %}
+            {%- set ns.tool_calls = ns.tool_calls + tool_call.arguments %}
+        {%- else %}
+            {%- set ns.tool_calls = ns.tool_calls + tool_call.arguments | tojson %}
+        {%- endif %}
+        {%- set ns.tool_calls = ns.tool_calls + '}
+<|action_end|>' %}
+        {%- endfor %}
+    {%- endif %}
+  {%- set reasoning_content = '<think>
+' + reasoning_content.strip('
+') + '
+</think>
+' %}
+  {%- endif %}
+  {%- if not content is string %}
+    {%- set ns.content = '' %}
+    {%- for _content in message.content %}
+      {%- if _content.type == 'image' %}
+        {%- set ns.content = ns.content ~ '
+<IMG_CONTEXT>' %}
+      {%- elif _content.type == 'video' %}
+        {%- set ns.content = ns.content ~ '
+<video>' %}
+      {%- elif _content.type == 'text' %}
+        {%- set ns.content = ns.content ~ '
+' ~ _content.text %}
+      {%- endif %}
+    {%- endfor %}
+    {%- set content = ns.content %}
+  {%- endif %}
+  {%- set content = content.lstrip('
+') %}
+  {%- if ns.tool_calls %}
+    {%- set content = content + ns.tool_calls %}
+  {%- endif %}
+  {%- if loop.index0 == 0 %}
+    {%- set system_prompt = '' %}
+    {%- if role == 'system' %}
+      {%- set system_prompt = system_prompt + content %}
+    {%- elif enable_thinking is not defined or enable_thinking %}
+      {%- set system_prompt = system_prompt + default_thinking_sys %}
+    {%- endif %}
+    {%- if tools %}
+      {%- set system_prompt = system_prompt.rstrip('
+') + '
+
+' + tool_instruction %}
+    {%- endif %}
+    {%- set system_prompt = system_prompt.strip('
+') %}
+  {%- endif %}
+{%- if loop.index0 == 0 and system_prompt %}<|im_start|>system{% if tools %} name=<|plugin|>{% endif %}
+
+{{ system_prompt }}<|im_end|>
+{% endif %}
+{%- if role != 'system' %}<|im_start|>{{ role }}{% if role == 'environment' or role == 'tool' %} name=<|plugin|>{% endif %}
+
+{% if loop.index0 > ns.last_query_index and (loop.last or (not loop.last and reasoning_content)) %}{{ reasoning_content }}
+{%- endif %}{{ content }}<|im_end|>
+{% endif %}
+{%- endfor %}
+{%- if add_generation_prompt %}<|im_start|>assistant
+{% if enable_thinking is not defined or enable_thinking %}
+<think>{% endif %}
+{% endif %}

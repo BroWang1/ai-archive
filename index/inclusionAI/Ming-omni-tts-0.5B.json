@@ -1,0 +1,120 @@
+{
+  "repo_id": "inclusionAI/Ming-omni-tts-0.5B",
+  "canonical_org": "inclusionAI",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "9154772e7fbc585907b6237e3190790676f28975",
+      "captured_at": "2026-09-17T22:45:48Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/inclusionAI/Ming-omni-tts-0.5B?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"1450-2Q3/mVoXN1wsUydpG1NvNa6riz0\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "apache-2.0",
+        "file": null,
+        "sha256": null,
+        "redistributable": null,
+        "obligations": [],
+        "freedom": "conditional",
+        "freedom_note": "'apache-2.0' card tag but NO license file in repo \u2014 unverifiable, confirm upstream"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1570,
+          "sha256": "34448b82c17d60fec9b65b1f093c115ddbaadc04beb1b0140b6bfed2e012a930",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 3741,
+          "sha256": "3a7cba759171ecb3c24d54b31d53072c12f4f4956ddd870504e1e474a517c351",
+          "kind": "snapshot"
+        },
+        {
+          "path": "added_tokens.json",
+          "size": 1785,
+          "sha256": "34394b1e16d7da2db16618bd43a0f970902ade0075480bcd812fe62d559ec319",
+          "kind": "snapshot"
+        },
+        {
+          "path": "campplus.onnx",
+          "size": 28303423,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "chat_template.jinja",
+          "size": 2507,
+          "sha256": "cd8e9439f0570856fd70470bf8889ebd8b5d1107207f67a5efb46e342330527f",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 3999,
+          "sha256": "31f880bf8a6e60361dbf8d626988789143a5f1709b55bf266c68a811303bdae3",
+          "kind": "snapshot"
+        },
+        {
+          "path": "merges.txt",
+          "size": 1671853,
+          "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5",
+          "kind": "snapshot"
+        },
+        {
+          "path": "model.safetensors",
+          "size": 3231324920,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "special_tokens_map.json",
+          "size": 584,
+          "sha256": "237d4ccfdbe0a14965c937d424b2f080cd9c0216e3a6a4f0408cdb016cf7009d",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer.json",
+          "size": 11431389,
+          "sha256": "87d54ca3b44ea2f822ba39a0a45cb1b61644bd6606d9d3536dea75367bffb06d",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 13640,
+          "sha256": "005ab957ad0d917879a0456b5ddb42cacc0e3600b96f5eebf9c2711b451b7ec2",
+          "kind": "snapshot"
+        },
+        {
+          "path": "vocab.json",
+          "size": 2776833,
+          "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 3275536244,
+      "weight_bytes": 3259628343,
+      "snapshot_dir": "snapshots/inclusionAI/Ming-omni-tts-0.5B/9154772e7fbc585907b6237e3190790676f28975/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

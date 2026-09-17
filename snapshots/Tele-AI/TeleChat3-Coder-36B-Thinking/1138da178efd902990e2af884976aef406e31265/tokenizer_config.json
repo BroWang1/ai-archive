@@ -1,0 +1,141 @@
+{
+  "add_bos_token": false,
+  "add_eos_token": false,
+  "added_tokens_decoder": {
+    "1": {
+      "content": "<_start>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "2": {
+      "content": "<_end>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "3": {
+      "content": "<_pad>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "4": {
+      "content": "<_user>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "5": {
+      "content": "<_bot>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "6": {
+      "content": "<_system>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "7": {
+      "content": "<_observation>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "9": {
+      "content": "<think>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "10": {
+      "content": "</think>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "11": {
+      "content": "<tool_call>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "12": {
+      "content": "</tool_call>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "13": {
+      "content": "<tool_response>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "14": {
+      "content": "</tool_response>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    }
+  },
+  "additional_special_tokens": [
+    "<_start>",
+    "<_end>",
+    "<_pad>",
+    "<_user>",
+    "<_bot>",
+    "<_system>",
+    "<think>",
+    "</think>",
+    "<tool_call>",
+    "<_observation>",
+    "</tool_call>",
+    "<tool_response>",
+    "</tool_response>"
+  ],
+  "auto_map": {
+    "AutoTokenizer": [
+      "tokenization_telechat3.Telechat3Tokenizer",
+      null
+    ]
+  },
+  "bos_token": "<_start>",
+  "clean_up_tokenization_spaces": false,
+  "eos_token": "<_end>",
+  "extra_special_tokens": {},
+  "model_max_length": 100000000,
+  "pad_token": "<_pad>",
+  "sp_model_kwargs": {},
+  "split_special_tokens": false,
+  "tokenizer_class": "Telechat3Tokenizer",
+  "use_fast": false
+}

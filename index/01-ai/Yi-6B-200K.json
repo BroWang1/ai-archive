@@ -1,0 +1,144 @@
+{
+  "repo_id": "01-ai/Yi-6B-200K",
+  "canonical_org": "01-ai",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "46b2762d8a78344292598f3ced6af746cec84bec",
+      "captured_at": "2026-09-17T22:44:53Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/01-ai/Yi-6B-200K?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"187e-RfntWPE4I+uktIoSOPg1IGCQ0P0\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "apache-2.0",
+        "file": "LICENSE",
+        "sha256": "fef9a71a6fa3b558a147271252cf131f70afa07f1f2f448778cd829f123fcc14",
+        "redistributable": true,
+        "obligations": [],
+        "freedom": "free",
+        "freedom_note": "apache-2.0 with LICENSE file verified in snapshot"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1519,
+          "sha256": "11ad7efa24975ee4b0c3c3a38ed18737f0658a5f75a0a96787b576a78a023361",
+          "kind": "snapshot"
+        },
+        {
+          "path": "LICENSE",
+          "size": 11335,
+          "sha256": "fef9a71a6fa3b558a147271252cf131f70afa07f1f2f448778cd829f123fcc14",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 87851,
+          "sha256": "3be96045674ec47661802334b8ed1ad949675fdc1bc284d4d9127e626ccdf5c2",
+          "kind": "snapshot"
+        },
+        {
+          "path": "Yi.svg",
+          "size": 980,
+          "sha256": "f6c09587a3e6a21a44677265a8e981820c986d0a678d24aa0867c3931d778698",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 608,
+          "sha256": "592083f6c0921652e79b472b5f70ffeaf408363565a1765ca67e6713a7de3d17",
+          "kind": "snapshot"
+        },
+        {
+          "path": "generation_config.json",
+          "size": 132,
+          "sha256": "9db944b8d40dbe91ed00d5631707a7384877575399274025a9887003f898fafa",
+          "kind": "snapshot"
+        },
+        {
+          "path": "md5",
+          "size": 184,
+          "sha256": "08fe4b61632b06c9488b8fed9c197dfede4e18bc6f0614e938a1b0eb078e91dd",
+          "kind": "snapshot"
+        },
+        {
+          "path": "model-00001-of-00002.safetensors",
+          "size": 9943075664,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00002-of-00002.safetensors",
+          "size": 2179037000,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model.safetensors.index.json",
+          "size": 28091,
+          "sha256": "7f6bd207393ded896c4c9d30519dfee8735c605d6ad9124b4e58ca34fd40d60b",
+          "kind": "snapshot"
+        },
+        {
+          "path": "pytorch_model-00001-of-00002.bin",
+          "size": 9943139358,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "pytorch_model-00002-of-00002.bin",
+          "size": 2179047672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "pytorch_model.bin.index.json",
+          "size": 26788,
+          "sha256": "f354493603d58cd1a369352bafd7369b1189c9d15fef139f7060eaff8e1eab86",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer.json",
+          "size": 3602758,
+          "sha256": "a13ccc285aea27f5e9a98d40e04e330b01d89db6de7af10b013f56eec8eae8a2",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer.model",
+          "size": 1033105,
+          "sha256": "386c49cf943d71aa110361135338c50e38beeff0a66593480421f37b319e1a39",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 322,
+          "sha256": "f470d301b28bf988d61bc9abe598bd6f2a0f42b455b79b22b109a8e069d1f249",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 24249093367,
+      "weight_bytes": 24244299694,
+      "snapshot_dir": "snapshots/01-ai/Yi-6B-200K/46b2762d8a78344292598f3ced6af746cec84bec/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

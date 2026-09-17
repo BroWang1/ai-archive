@@ -1,0 +1,126 @@
+{
+  "repo_id": "01-ai/Yi-6B-Chat",
+  "canonical_org": "01-ai",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "2dbf63b0cb7bc493c0243502c6e6111a36e3a093",
+      "captured_at": "2026-09-17T22:44:35Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/01-ai/Yi-6B-Chat?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"18d2-yw91PZV6jZLCR5M4apnCm2dyk7M\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "apache-2.0",
+        "file": "LICENSE",
+        "sha256": "fef9a71a6fa3b558a147271252cf131f70afa07f1f2f448778cd829f123fcc14",
+        "redistributable": true,
+        "obligations": [],
+        "freedom": "free",
+        "freedom_note": "apache-2.0 with LICENSE file verified in snapshot"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1519,
+          "sha256": "11ad7efa24975ee4b0c3c3a38ed18737f0658a5f75a0a96787b576a78a023361",
+          "kind": "snapshot"
+        },
+        {
+          "path": "LICENSE",
+          "size": 11335,
+          "sha256": "fef9a71a6fa3b558a147271252cf131f70afa07f1f2f448778cd829f123fcc14",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 87851,
+          "sha256": "3be96045674ec47661802334b8ed1ad949675fdc1bc284d4d9127e626ccdf5c2",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 611,
+          "sha256": "75400cc9a254403e715cd40e007ba828d248dc073877231fe87e5dc70af3bc2b",
+          "kind": "snapshot"
+        },
+        {
+          "path": "generation_config.json",
+          "size": 183,
+          "sha256": "64886b991289e25f79afbd883bf715752a5382f1a01c143dbfbc6f13f632331d",
+          "kind": "snapshot"
+        },
+        {
+          "path": "model-00001-of-00003.safetensors",
+          "size": 4932711424,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00002-of-00003.safetensors",
+          "size": 4976802816,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00003-of-00003.safetensors",
+          "size": 2212590568,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model.safetensors.index.json",
+          "size": 23950,
+          "sha256": "b9692ddd324782a7051c6f1e0f2b0261ef43a9bd4f06e526ab1e140a3efbeebe",
+          "kind": "snapshot"
+        },
+        {
+          "path": "special_tokens_map.json",
+          "size": 662,
+          "sha256": "9717e36f666fbd9a2d27ea20352e1b601cdb1c81492c70fa45c3aaae0922044c",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer.json",
+          "size": 3602758,
+          "sha256": "a13ccc285aea27f5e9a98d40e04e330b01d89db6de7af10b013f56eec8eae8a2",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer.model",
+          "size": 1033105,
+          "sha256": "386c49cf943d71aa110361135338c50e38beeff0a66593480421f37b319e1a39",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 1902,
+          "sha256": "0f0771fcc691b64d3e613b5e8d60224ae4a4644d421cbc4c30990b5afc7fe4f2",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 12126868684,
+      "weight_bytes": 12122104808,
+      "snapshot_dir": "snapshots/01-ai/Yi-6B-Chat/2dbf63b0cb7bc493c0243502c6e6111a36e3a093/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

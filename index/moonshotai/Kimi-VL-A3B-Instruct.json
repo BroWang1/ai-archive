@@ -1,0 +1,198 @@
+{
+  "repo_id": "moonshotai/Kimi-VL-A3B-Instruct",
+  "canonical_org": "moonshotai",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "398eede0903cd983a2bfa0cc634e9ac1d843f375",
+      "captured_at": "2026-09-17T22:34:34Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/moonshotai/Kimi-VL-A3B-Instruct?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"1efd-9YuFTmepOuFRzzqZuh8Ul0HvgdI\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "mit",
+        "file": null,
+        "sha256": null,
+        "redistributable": null,
+        "obligations": [],
+        "freedom": "conditional",
+        "freedom_note": "'mit' card tag but NO license file in repo \u2014 unverifiable, confirm upstream"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1722,
+          "sha256": "c58cb09727b7fea047dc29f253c6aa3632fc93b538d055cb8db9831db024d73f",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 14619,
+          "sha256": "7fa4d4e39537a43a7d6cc6f62873eb014b2f8bc3da2142111ba2ad29d4984794",
+          "kind": "snapshot"
+        },
+        {
+          "path": "chat_template.jinja",
+          "size": 1032,
+          "sha256": "172c7450a66b9b3644538888ffa24d02047e535e9d1f911564460203fbf7e8e8",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 2005,
+          "sha256": "af3810295de6b08232776b74110ed482fa0183f4aeaec586ff4f7593910951cb",
+          "kind": "snapshot"
+        },
+        {
+          "path": "configuration_kimi_vl.py",
+          "size": 13151,
+          "sha256": "d30462b89993b9fef138db983d3884bbc39750effadf2efe67f404d28ee40e5b",
+          "kind": "snapshot"
+        },
+        {
+          "path": "figures/arch.png",
+          "size": 641358,
+          "sha256": "5195d9f99c08f7e135eedb19cf370d92c36b7b3387e9c1b7cad5e24990a0d6d0",
+          "kind": "snapshot"
+        },
+        {
+          "path": "figures/demo.png",
+          "size": 525038,
+          "sha256": "95de8765da89c41a2421f1c1fa3986e4d3c83793d92c8ade460a142b329d04c1",
+          "kind": "snapshot"
+        },
+        {
+          "path": "figures/instruct_perf.png",
+          "size": 2235806,
+          "sha256": "52405bbe3e3b0c30a5502c40095241000d4c3dbf9862d7a6c0b6079806292ad4",
+          "kind": "snapshot"
+        },
+        {
+          "path": "figures/logo.png",
+          "size": 13101,
+          "sha256": "7870b48105beb49cdb29bb3090abb7bbca688bef862507904c23d9c472df221c",
+          "kind": "snapshot"
+        },
+        {
+          "path": "generation_config.json",
+          "size": 149,
+          "sha256": "da26dd1916774784790db2b83336bad62d0917356743478ba6eb0c425c53eac5",
+          "kind": "snapshot"
+        },
+        {
+          "path": "image_processing_kimi_vl.py",
+          "size": 4680,
+          "sha256": "bb58551e088f3bb0027b1886ca5ff42776c485acec1a9aafe91553ff76926870",
+          "kind": "snapshot"
+        },
+        {
+          "path": "model-00001-of-00007.safetensors",
+          "size": 4994390288,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00002-of-00007.safetensors",
+          "size": 4995061424,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00003-of-00007.safetensors",
+          "size": 4996100112,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00004-of-00007.safetensors",
+          "size": 4996100320,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00005-of-00007.safetensors",
+          "size": 4998185720,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00006-of-00007.safetensors",
+          "size": 4996099448,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00007-of-00007.safetensors",
+          "size": 2840161216,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model.safetensors.index.json",
+          "size": 588207,
+          "sha256": "178ba3a15cb12f6ceac42aecfe665a8f041d47e948220d75b073088957efedd8",
+          "kind": "snapshot"
+        },
+        {
+          "path": "modeling_kimi_vl.py",
+          "size": 105649,
+          "sha256": "74e8f18afa5bf8f580ef5be5f15b51506f1e4f604df5a84f508a7796b8947c0b",
+          "kind": "snapshot"
+        },
+        {
+          "path": "preprocessor_config.json",
+          "size": 401,
+          "sha256": "d968a7d7f83f82c3b0e1061079dcdbefd6f2c75b7ee4240cce995afaeae1f622",
+          "kind": "snapshot"
+        },
+        {
+          "path": "processing_kimi_vl.py",
+          "size": 7537,
+          "sha256": "f8e64816baed0a92d85d0a987b587028ad55a0779f3ace8c5b68db705dc61561",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tiktoken.model",
+          "size": 2795286,
+          "sha256": "b6c497a7469b33ced9c38afb1ad6e47f03f5e5dc05f15930799210ec050c5103",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenization_moonshot.py",
+          "size": 10958,
+          "sha256": "0ae85e29c37689fefe41b8bfdb7aebd9a0152defedbf37fae0f8413000512029",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 3857,
+          "sha256": "d7861718cab22c7962e14b4693b4009dd526115cd392dc779069a8173be95703",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 32823063084,
+      "weight_bytes": 32816098528,
+      "snapshot_dir": "snapshots/moonshotai/Kimi-VL-A3B-Instruct/398eede0903cd983a2bfa0cc634e9ac1d843f375/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

@@ -1,0 +1,138 @@
+{
+  "repo_id": "stepfun-ai/GOT-OCR2_0",
+  "canonical_org": "stepfun-ai",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "979938bf89ccdc949c0131ddd3841e24578a4742",
+      "captured_at": "2026-09-17T22:42:47Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/stepfun-ai/GOT-OCR2_0?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"11d6-CXVx/1X96RoP8Wn/RgdinMkrDwM\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "apache-2.0",
+        "file": null,
+        "sha256": null,
+        "redistributable": null,
+        "obligations": [],
+        "freedom": "conditional",
+        "freedom_note": "'apache-2.0' card tag but NO license file in repo \u2014 unverifiable, confirm upstream"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1519,
+          "sha256": "11ad7efa24975ee4b0c3c3a38ed18737f0658a5f75a0a96787b576a78a023361",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 3959,
+          "sha256": "1c8697ddeb841080c25a06b2eadd9dbdf714cdef886fb457a2568b57b2079134",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/got_logo.png",
+          "size": 510573,
+          "sha256": "cf9a90a822ef9d521ba0f9702b50cbd7a8a37e5661f0792a94a009deb9511de7",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/got_support.jpg",
+          "size": 198197,
+          "sha256": "c4d78f00966111b9a8ba838f8ab0ad6a1e2e9fdf91ccf7790915808aca2fada0",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/train_sample.jpg",
+          "size": 155378,
+          "sha256": "3839e3b1a775ba710d01097dc84d7e8bf2609c3f8ba52a6e810660044d856362",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 986,
+          "sha256": "59db7f1fc9346e596221a1af3d836b11148d6ac5e6344f64f34820df672ac629",
+          "kind": "snapshot"
+        },
+        {
+          "path": "generation_config.json",
+          "size": 117,
+          "sha256": "64e4f9d67c678c6dd6b1ac2f1b0d2562ae12cec463493ce2951daf1dba4e494f",
+          "kind": "snapshot"
+        },
+        {
+          "path": "got_vision_b.py",
+          "size": 16106,
+          "sha256": "8931c2e1145afa6e99aa707fa73ab24afabe3ad69fe5341a5b7160e2688cf750",
+          "kind": "snapshot"
+        },
+        {
+          "path": "model.safetensors",
+          "size": 1432121416,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "modeling_GOT.py",
+          "size": 33771,
+          "sha256": "68375b6bf7683cca41bb987953f0e31fde802652ad01e1accc4b53127b841609",
+          "kind": "snapshot"
+        },
+        {
+          "path": "qwen.tiktoken",
+          "size": 2561218,
+          "sha256": "b2b1b8dfb5cc5f024bafc373121c6aba3f66f9a5a0269e243470a1de16a33186",
+          "kind": "snapshot"
+        },
+        {
+          "path": "render_tools.py",
+          "size": 1992,
+          "sha256": "11393028ac7095431cfaa9c8ee14b9c6e8ca1d618158dfe729b89e83e889fb99",
+          "kind": "snapshot"
+        },
+        {
+          "path": "special_tokens_map.json",
+          "size": 149,
+          "sha256": "337f1a03344485ec7ea2acd6f7021567feab077fd81f96b72423fcd3f8f5fc09",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenization_qwen.py",
+          "size": 9470,
+          "sha256": "eec08335cdcdcb538120e204f19b41bbd9e5ab989e14b1b1cf8f506ac584c601",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 300,
+          "sha256": "0a0f9a1847cf1bc7d09ebcc1ae8d6a43f71cc6ff1821096102c5db8d387018d4",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 1435615151,
+      "weight_bytes": 1432121416,
+      "snapshot_dir": "snapshots/stepfun-ai/GOT-OCR2_0/979938bf89ccdc949c0131ddd3841e24578a4742/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

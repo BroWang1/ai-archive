@@ -1,0 +1,9 @@
+{
+  "auto_map": {
+    "AutoTokenizer": ["LlamaTokenizer"]
+  },
+  "add_bos_token": false,
+  "add_eos_token": false,
+  "model_max_length": 4096,
+  "tokenizer_class": "LlamaTokenizer" 
+}

@@ -1,0 +1,7 @@
+- dataset:
+    id: cais/hle
+    task_id: hle
+  value: 22.7
+  source:
+    url: https://huggingface.co/inclusionAI/Ling-3.0-flash
+    name: Model Card

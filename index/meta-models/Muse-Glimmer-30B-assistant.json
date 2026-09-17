@@ -1,0 +1,84 @@
+{
+  "repo_id": "meta-models/Muse-Glimmer-30B-assistant",
+  "canonical_org": "meta-models",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "e8192f3a8f617f74be2ce220360c89ef4789f39f",
+      "captured_at": "2026-09-17T22:55:11Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/meta-models/Muse-Glimmer-30B-assistant?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"7f1-wE5p76T3k58Txghme0cEze77yUY\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "apache-2.0",
+        "file": "LICENSE",
+        "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+        "redistributable": true,
+        "obligations": [],
+        "freedom": "free",
+        "freedom_note": "apache-2.0 with LICENSE file verified in snapshot"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1519,
+          "sha256": "11ad7efa24975ee4b0c3c3a38ed18737f0658a5f75a0a96787b576a78a023361",
+          "kind": "snapshot"
+        },
+        {
+          "path": "LICENSE",
+          "size": 11358,
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 17353,
+          "sha256": "07aaa09b5d0df14a949ec9d1c4d7ce6e3639669ce747f0f2f15e3db238e42d16",
+          "kind": "snapshot"
+        },
+        {
+          "path": "USAGE_POLICY.md",
+          "size": 5230,
+          "sha256": "98a14dab9fd97de1666dc8589d399efab1e7fc3ba4e6230d037d6637ba9481d3",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 883,
+          "sha256": "38915167b64b1e6405492aacae5b1b4511b6431163d2960b9bd25821df6fa30a",
+          "kind": "snapshot"
+        },
+        {
+          "path": "model.safetensors",
+          "size": 5111976608,
+          "sha256": null,
+          "kind": "weights"
+        }
+      ],
+      "total_bytes": 5112012951,
+      "weight_bytes": 5111976608,
+      "snapshot_dir": "snapshots/meta-models/Muse-Glimmer-30B-assistant/e8192f3a8f617f74be2ce220360c89ef4789f39f/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

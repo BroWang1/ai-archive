@@ -1,0 +1,102 @@
+{
+  "repo_id": "stepfun-ai/GOT-OCR-2.0-hf",
+  "canonical_org": "stepfun-ai",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "d3017ef2c2c1395888c8d635c5e0508bcb0ac78d",
+      "captured_at": "2026-09-17T22:43:10Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/stepfun-ai/GOT-OCR-2.0-hf?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"b02-MY0h8xH6Z8fh6b502WM91QJmpU8\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "apache-2.0",
+        "file": null,
+        "sha256": null,
+        "redistributable": null,
+        "obligations": [],
+        "freedom": "conditional",
+        "freedom_note": "'apache-2.0' card tag but NO license file in repo \u2014 unverifiable, confirm upstream"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1570,
+          "sha256": "34448b82c17d60fec9b65b1f093c115ddbaadc04beb1b0140b6bfed2e012a930",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 12077,
+          "sha256": "706d6fe217d2f047ca68f47bdcf44ace4a0832491da396972c2c917944e84c18",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 608,
+          "sha256": "cbe8aacd6cd84a2d58eafcd0045c6ac40e02e3a448f24b8cee51cc81d8bdccf2",
+          "kind": "snapshot"
+        },
+        {
+          "path": "generation_config.json",
+          "size": 74,
+          "sha256": "31915c5a692f43c5765a20cfc5f9403bcd250f5721a0d931bb703169c08993b4",
+          "kind": "snapshot"
+        },
+        {
+          "path": "model.safetensors",
+          "size": 1121114488,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "preprocessor_config.json",
+          "size": 439,
+          "sha256": "ef9a0dc0935cac11f4230ca30d00a52bedfa52b6633e409e9fbd2ea56373aa7e",
+          "kind": "snapshot"
+        },
+        {
+          "path": "special_tokens_map.json",
+          "size": 213,
+          "sha256": "7c2368a3889fdfb37c24cabeb031b53f47934f357b54e56e8e389909a338ea47",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer.json",
+          "size": 18702549,
+          "sha256": "36b382a3c48c9a143c30139dac6c8230ddfb0b46a3dc43082af6052abe99d9de",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 39228,
+          "sha256": "8b0542937d32a67da8ea2d1288b870e325be383a962c65d201864299560a2b8e",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 1139871246,
+      "weight_bytes": 1121114488,
+      "snapshot_dir": "snapshots/stepfun-ai/GOT-OCR-2.0-hf/d3017ef2c2c1395888c8d635c5e0508bcb0ac78d/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

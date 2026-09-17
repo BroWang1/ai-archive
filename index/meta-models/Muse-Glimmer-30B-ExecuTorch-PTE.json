@@ -1,0 +1,282 @@
+{
+  "repo_id": "meta-models/Muse-Glimmer-30B-ExecuTorch-PTE",
+  "canonical_org": "meta-models",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "fc6fa93cdefeddc93abd7abf883e99279af7ea51",
+      "captured_at": "2026-09-17T22:55:15Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/meta-models/Muse-Glimmer-30B-ExecuTorch-PTE?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"5640-4kaBIiPKP/hc92JCBZzAmzfF2yM\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "apache-2.0",
+        "file": "LICENSE",
+        "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+        "redistributable": true,
+        "obligations": [],
+        "freedom": "free",
+        "freedom_note": "apache-2.0 with LICENSE file verified in snapshot"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 8674,
+          "sha256": "12483f4d8a22880449a6f474ea2580f6e1a410d7441cc037ac509caf3b4d432d",
+          "kind": "snapshot"
+        },
+        {
+          "path": "LICENSE",
+          "size": 11358,
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 30522,
+          "sha256": "286f781a3b6ee909f818f4f73c12186e2ec302089fa99af2d0711339fee801b2",
+          "kind": "snapshot"
+        },
+        {
+          "path": "USAGE_POLICY.md",
+          "size": 5230,
+          "sha256": "98a14dab9fd97de1666dc8589d399efab1e7fc3ba4e6230d037d6637ba9481d3",
+          "kind": "snapshot"
+        },
+        {
+          "path": "chat_template.jinja",
+          "size": 9992,
+          "sha256": "cfc67e5f349f37690dfd31ed1f18bc4442a9dd32fe39a648f993cb4eb3cae678",
+          "kind": "snapshot"
+        },
+        {
+          "path": "muse-glimmer-k-quant-17G-128K-text-dflash-metal/muse-glimmer-k-quant-17G-128K-text-dflash-metal.pte",
+          "size": 19641819904,
+          "sha256": null,
+          "kind": "skipped-large"
+        },
+        {
+          "path": "muse-glimmer-k-quant-17G-128K-text-dflash-sm80+ptx/muse-glimmer-k-quant-17G-128K-text-dflash-sm80+ptx.ptd",
+          "size": 27199379968,
+          "sha256": null,
+          "kind": "skipped-large"
+        },
+        {
+          "path": "muse-glimmer-k-quant-17G-128K-text-dflash-sm80+ptx/muse-glimmer-k-quant-17G-128K-text-dflash-sm80+ptx.pte",
+          "size": 25493632,
+          "sha256": "fbda790806dfbaac82d9f1fa9de99379a0cc0899ca215e09de3e91bd698f5417",
+          "kind": "snapshot"
+        },
+        {
+          "path": "muse-glimmer-k-quant-17G-128K-text-image-dflash-metal/muse-glimmer-k-quant-17G-128K-text-image-dflash-metal.pte",
+          "size": 21055028608,
+          "sha256": null,
+          "kind": "skipped-large"
+        },
+        {
+          "path": "muse-glimmer-k-quant-17G-128K-text-image-dflash-metal/pos_embed.bin",
+          "size": 6291456,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "muse-glimmer-k-quant-17G-128K-text-image-dflash-sm80+ptx/muse-glimmer-k-quant-17G-128K-text-image-dflash-sm80+ptx.ptd",
+          "size": 28607362688,
+          "sha256": null,
+          "kind": "skipped-large"
+        },
+        {
+          "path": "muse-glimmer-k-quant-17G-128K-text-image-dflash-sm80+ptx/muse-glimmer-k-quant-17G-128K-text-image-dflash-sm80+ptx.pte",
+          "size": 33328672,
+          "sha256": "9fdff583d84e9ea65af43fed66cea5d6baa47ef95ae8fcc4b8d62aec14b91664",
+          "kind": "snapshot"
+        },
+        {
+          "path": "muse-glimmer-k-quant-17G-128K-text-image-dflash-sm80+ptx/pos_embed.bin",
+          "size": 6291456,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "muse-glimmer-k-quant-17G-128K-text-image-solo-metal/muse-glimmer-k-quant-17G-128K-text-image-solo-metal.pte",
+          "size": 19359103360,
+          "sha256": null,
+          "kind": "skipped-large"
+        },
+        {
+          "path": "muse-glimmer-k-quant-17G-128K-text-image-solo-metal/pos_embed.bin",
+          "size": 6291456,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "muse-glimmer-k-quant-17G-128K-text-image-solo-sm80+ptx/muse-glimmer-k-quant-17G-128K-text-image-solo-sm80+ptx.ptd",
+          "size": 21174160128,
+          "sha256": null,
+          "kind": "skipped-large"
+        },
+        {
+          "path": "muse-glimmer-k-quant-17G-128K-text-image-solo-sm80+ptx/muse-glimmer-k-quant-17G-128K-text-image-solo-sm80+ptx.pte",
+          "size": 24379032,
+          "sha256": "3b167832871ba9b51b85ad18b831c4c999d09a23fed75f97d3ebce093513533a",
+          "kind": "snapshot"
+        },
+        {
+          "path": "muse-glimmer-k-quant-17G-128K-text-image-solo-sm80+ptx/pos_embed.bin",
+          "size": 6291456,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "muse-glimmer-k-quant-17G-128K-text-solo-metal/muse-glimmer-k-quant-17G-128K-text-solo-metal.pte",
+          "size": 17945894528,
+          "sha256": null,
+          "kind": "skipped-large"
+        },
+        {
+          "path": "muse-glimmer-k-quant-17G-128K-text-solo-sm80+ptx/muse-glimmer-k-quant-17G-128K-text-solo-sm80+ptx.ptd",
+          "size": 19766177408,
+          "sha256": null,
+          "kind": "skipped-large"
+        },
+        {
+          "path": "muse-glimmer-k-quant-17G-128K-text-solo-sm80+ptx/muse-glimmer-k-quant-17G-128K-text-solo-sm80+ptx.pte",
+          "size": 16241152,
+          "sha256": "b7767dbd81b101ebcc4485e51d523cc71948235057d66a58c5e4ebdb534a8908",
+          "kind": "snapshot"
+        },
+        {
+          "path": "muse-glimmer-k-quant-dynamic-128K-text-dflash-metal/muse-glimmer-k-quant-dynamic-128K-text-dflash-metal.pte",
+          "size": 22429111296,
+          "sha256": null,
+          "kind": "skipped-large"
+        },
+        {
+          "path": "muse-glimmer-k-quant-dynamic-128K-text-dflash-sm80+ptx/muse-glimmer-k-quant-dynamic-128K-text-dflash-sm80+ptx.ptd",
+          "size": 30007732736,
+          "sha256": null,
+          "kind": "skipped-large"
+        },
+        {
+          "path": "muse-glimmer-k-quant-dynamic-128K-text-dflash-sm80+ptx/muse-glimmer-k-quant-dynamic-128K-text-dflash-sm80+ptx.pte",
+          "size": 27481864,
+          "sha256": "b9934fd334197b0c31aab4b8367816f23a9aa118595b63c8f1c76a62463a56dc",
+          "kind": "snapshot"
+        },
+        {
+          "path": "muse-glimmer-k-quant-dynamic-128K-text-image-dflash-metal/muse-glimmer-k-quant-dynamic-128K-text-image-dflash-metal.pte",
+          "size": 23842320000,
+          "sha256": null,
+          "kind": "skipped-large"
+        },
+        {
+          "path": "muse-glimmer-k-quant-dynamic-128K-text-image-dflash-metal/pos_embed.bin",
+          "size": 6291456,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "muse-glimmer-k-quant-dynamic-128K-text-image-dflash-sm80+ptx/muse-glimmer-k-quant-dynamic-128K-text-image-dflash-sm80+ptx.ptd",
+          "size": 31415715456,
+          "sha256": null,
+          "kind": "skipped-large"
+        },
+        {
+          "path": "muse-glimmer-k-quant-dynamic-128K-text-image-dflash-sm80+ptx/muse-glimmer-k-quant-dynamic-128K-text-image-dflash-sm80+ptx.pte",
+          "size": 35077880,
+          "sha256": "565833561f511deccbe6d382f549e950298f27a5a483363829f65b66fe97c581",
+          "kind": "snapshot"
+        },
+        {
+          "path": "muse-glimmer-k-quant-dynamic-128K-text-image-dflash-sm80+ptx/pos_embed.bin",
+          "size": 6291456,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "muse-glimmer-k-quant-dynamic-128K-text-image-solo-metal/muse-glimmer-k-quant-dynamic-128K-text-image-solo-metal.pte",
+          "size": 22146390656,
+          "sha256": null,
+          "kind": "skipped-large"
+        },
+        {
+          "path": "muse-glimmer-k-quant-dynamic-128K-text-image-solo-metal/pos_embed.bin",
+          "size": 6291456,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "muse-glimmer-k-quant-dynamic-128K-text-image-solo-sm80+ptx/muse-glimmer-k-quant-dynamic-128K-text-image-solo-sm80+ptx.ptd",
+          "size": 23982512896,
+          "sha256": null,
+          "kind": "skipped-large"
+        },
+        {
+          "path": "muse-glimmer-k-quant-dynamic-128K-text-image-solo-sm80+ptx/muse-glimmer-k-quant-dynamic-128K-text-image-solo-sm80+ptx.pte",
+          "size": 26175808,
+          "sha256": "e985f0f8611bacd182e71a722f7d33e27760e7c8346bf14b95bc1b0bb49185e8",
+          "kind": "snapshot"
+        },
+        {
+          "path": "muse-glimmer-k-quant-dynamic-128K-text-image-solo-sm80+ptx/pos_embed.bin",
+          "size": 6291456,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "muse-glimmer-k-quant-dynamic-128K-text-solo-metal/muse-glimmer-k-quant-dynamic-128K-text-solo-metal.pte",
+          "size": 20733181824,
+          "sha256": null,
+          "kind": "skipped-large"
+        },
+        {
+          "path": "muse-glimmer-k-quant-dynamic-128K-text-solo-sm80+ptx/muse-glimmer-k-quant-dynamic-128K-text-solo-sm80+ptx.ptd",
+          "size": 22574530176,
+          "sha256": null,
+          "kind": "skipped-large"
+        },
+        {
+          "path": "muse-glimmer-k-quant-dynamic-128K-text-solo-sm80+ptx/muse-glimmer-k-quant-dynamic-128K-text-solo-sm80+ptx.pte",
+          "size": 18360440,
+          "sha256": "0a84033be792ec98b1afd78313f97fa7d870ce67da2e41d2cc381ceca90ce2e5",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer.json",
+          "size": 28129897,
+          "sha256": "c9dbee66967b58f31a7c27f723c3760da3526ccd0427578e8905b0abb0031c4d",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 79936,
+          "sha256": "781e6c74f571642c71202167b67d9255b28cc439bdda1582ff31346182f5a9c5",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 372165567369,
+      "weight_bytes": 50331648,
+      "snapshot_dir": "snapshots/meta-models/Muse-Glimmer-30B-ExecuTorch-PTE/fc6fa93cdefeddc93abd7abf883e99279af7ea51/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

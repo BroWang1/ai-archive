@@ -1,0 +1,126 @@
+{
+  "repo_id": "openai/clip-vit-large-patch14",
+  "canonical_org": "openai",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "32bd64288804d66eefd0ccbe215aa642df71cc41",
+      "captured_at": "2026-09-17T22:56:20Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/openai/clip-vit-large-patch14?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"181f-W8PrJsJ7HAY4Naya7LBv7lpw7ik\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": null,
+        "file": null,
+        "sha256": null,
+        "redistributable": false,
+        "obligations": [],
+        "freedom": "unlicensed",
+        "freedom_note": "No license tag and no file \u2014 cannot redistribute"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1229,
+          "sha256": "98ccb431c012ebfe976280fbd45aea4cec7409935868ccecf3954370f96732a1",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 7947,
+          "sha256": "de4274ec48590ab3aa1c239720ff55e99a37f4165c117ba3ad7af2b7df72687c",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 4519,
+          "sha256": "8a09b467700c58138c29d53c605b34ebc69beaadd13274a8a2af8ad2c2f4032a",
+          "kind": "snapshot"
+        },
+        {
+          "path": "flax_model.msgpack",
+          "size": 1710486359,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "merges.txt",
+          "size": 524619,
+          "sha256": "9fd691f7c8039210e0fced15865466c65820d09b63988b0174bfe25de299051a",
+          "kind": "snapshot"
+        },
+        {
+          "path": "model.safetensors",
+          "size": 1710540580,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "preprocessor_config.json",
+          "size": 316,
+          "sha256": "910e70b3956ac9879ebc90b22fb3bc8a75b6a0677814500101a4c072bd7857bd",
+          "kind": "snapshot"
+        },
+        {
+          "path": "pytorch_model.bin",
+          "size": 1710671599,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "special_tokens_map.json",
+          "size": 389,
+          "sha256": "f8c0d6c39aee3f8431078ef6646567b0aba7f2246e9c54b8b99d55c22b707cbf",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tf_model.h5",
+          "size": 1711114176,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "tokenizer.json",
+          "size": 2224003,
+          "sha256": "a83e0809aa4c3af7208b2df632a7a69668c6d48775b3c3fe4e1b1199d1f8b8f4",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 905,
+          "sha256": "deef455e52fa5e8151e339add0582e4235f066009601360999d3a9cda83b1129",
+          "kind": "snapshot"
+        },
+        {
+          "path": "vocab.json",
+          "size": 961143,
+          "sha256": "3f0c4f7d2086b61b38487075278ea9ed04edb53a03cbb045b86c27190fa8fb69",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 6846537784,
+      "weight_bytes": 6842812714,
+      "snapshot_dir": "snapshots/openai/clip-vit-large-patch14/32bd64288804d66eefd0ccbe215aa642df71cc41/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

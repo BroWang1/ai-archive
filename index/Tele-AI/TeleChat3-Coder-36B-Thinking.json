@@ -1,0 +1,306 @@
+{
+  "repo_id": "Tele-AI/TeleChat3-Coder-36B-Thinking",
+  "canonical_org": "Tele-AI",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "1138da178efd902990e2af884976aef406e31265",
+      "captured_at": "2026-09-17T22:57:58Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/Tele-AI/TeleChat3-Coder-36B-Thinking?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"2fdf-BxX0EZ/21tHNzjqic4VAt/EbZF8\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": null,
+        "file": null,
+        "sha256": null,
+        "redistributable": false,
+        "obligations": [],
+        "freedom": "unlicensed",
+        "freedom_note": "No license tag and no file \u2014 cannot redistribute"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1635,
+          "sha256": "fa2b2c1f5d6f1bee4ed9514499f7a4f3ae59cde7beaf84f7200fd5351a358602",
+          "kind": "snapshot"
+        },
+        {
+          "path": "Demo/\u4e94\u5b50\u68cb.gif",
+          "size": 194343,
+          "sha256": "60bea5996fb11c09b049b047178903681a68674fb64e6f306d1ddd88a0c5fcc9",
+          "kind": "snapshot"
+        },
+        {
+          "path": "Demo/\u4e94\u5b50\u68cb.html",
+          "size": 17186,
+          "sha256": "09f32c8c80af6e8567e56be8254f670116b6dc6af5b8c614843f00ba0535ac02",
+          "kind": "snapshot"
+        },
+        {
+          "path": "Demo/\u5927\u9c7c\u5403\u5c0f\u9c7c.gif",
+          "size": 1838812,
+          "sha256": "2504f4e795341d10b3154b1afb39ba381f09160ca7c6cada790c7d2ddcbac047",
+          "kind": "snapshot"
+        },
+        {
+          "path": "Demo/\u5927\u9c7c\u5403\u5c0f\u9c7c.html",
+          "size": 16844,
+          "sha256": "ea53efc0ee2282b126cfc823289232a571ecab7908ededf43e982f2231f3b841",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 16335,
+          "sha256": "5997fc33334274a6f79033652033c9c4f194083bf3676dbe4604fcea803d822f",
+          "kind": "snapshot"
+        },
+        {
+          "path": "TeleChat3-Coder_vllm_tool_parser/.gitignore",
+          "size": 27,
+          "sha256": "83604fd897148918ddb4eebb7d3aff888c887ae0d01b59c42ce28ac66538cb24",
+          "kind": "snapshot"
+        },
+        {
+          "path": "TeleChat3-Coder_vllm_tool_parser/README.md",
+          "size": 458,
+          "sha256": "227e5a997a7e532d85272150c5225943b95c60c859f93c5a17cafc6165d2e6cb",
+          "kind": "snapshot"
+        },
+        {
+          "path": "TeleChat3-Coder_vllm_tool_parser/setup.py",
+          "size": 457,
+          "sha256": "3b1b9bd6cafa87dc12659e445c4336ee369a8d35927a584a1cdad15bdb7a3a3b",
+          "kind": "snapshot"
+        },
+        {
+          "path": "TeleChat3-Coder_vllm_tool_parser/telechat3_reasoning.py",
+          "size": 992,
+          "sha256": "efff8ea1dc1104ea599eaccb469b71f6d5b7becf650d4dca3b62065d3f9578a1",
+          "kind": "snapshot"
+        },
+        {
+          "path": "TeleChat3-Coder_vllm_tool_parser/telechat3_tool_parser.py",
+          "size": 6115,
+          "sha256": "79b4ff1ec1e8e03a6dc864fc9589c76fb19815350569e11555bc5e9d3dbaa7d2",
+          "kind": "snapshot"
+        },
+        {
+          "path": "chat_template.jinja",
+          "size": 3580,
+          "sha256": "0d642bb297a8e85322fce4c40a9a8942dbb0d6e501ea5137812fbb889ca3c014",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 1093,
+          "sha256": "e556336f28c8f093df12cc0cfbdd679404ec5f45ca151ef6f218a8d5e80fd49f",
+          "kind": "snapshot"
+        },
+        {
+          "path": "configuration.json",
+          "size": 48,
+          "sha256": "a78221ae93dd8977b26fcd1d106fa5ad7e7f1fd3a7d93bfd9d6fba5ed00ec4d2",
+          "kind": "snapshot"
+        },
+        {
+          "path": "configuration_telechat3.py",
+          "size": 4052,
+          "sha256": "0d0195a25e1d9733eddefcad5f078ac91d554380d6633777f2d7c9140d1b6f62",
+          "kind": "snapshot"
+        },
+        {
+          "path": "generation_config.json",
+          "size": 132,
+          "sha256": "9f21654399d07e2373213b503d3e53dac92a4dff374fa32a234746a01fde32b4",
+          "kind": "snapshot"
+        },
+        {
+          "path": "images/TeleChat3-Coder_post_training.png",
+          "size": 26872,
+          "sha256": "410a95e09b88548e3fef32e140ca0a2b285f7b6773b5e4f67ffc6f09cfcb62b0",
+          "kind": "snapshot"
+        },
+        {
+          "path": "model-00001-of-00020.safetensors",
+          "size": 3951086216,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00002-of-00020.safetensors",
+          "size": 3850448168,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00003-of-00020.safetensors",
+          "size": 3724644208,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00004-of-00020.safetensors",
+          "size": 3850448192,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00005-of-00020.safetensors",
+          "size": 3724644248,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00006-of-00020.safetensors",
+          "size": 3850448200,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00007-of-00020.safetensors",
+          "size": 3724644248,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00008-of-00020.safetensors",
+          "size": 3850448200,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00009-of-00020.safetensors",
+          "size": 3724644248,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00010-of-00020.safetensors",
+          "size": 3850448200,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00011-of-00020.safetensors",
+          "size": 3724644248,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00012-of-00020.safetensors",
+          "size": 3850448200,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00013-of-00020.safetensors",
+          "size": 3724644248,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00014-of-00020.safetensors",
+          "size": 3850448200,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00015-of-00020.safetensors",
+          "size": 3724644248,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00016-of-00020.safetensors",
+          "size": 3850448200,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00017-of-00020.safetensors",
+          "size": 3724644248,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00018-of-00020.safetensors",
+          "size": 3850448200,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00019-of-00020.safetensors",
+          "size": 2466339328,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00020-of-00020.safetensors",
+          "size": 1610612864,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model.safetensors.index.json",
+          "size": 47763,
+          "sha256": "7e3cb157e3ab862b39d40ad9f71a3b8a283161428abea02615faf407819f8094",
+          "kind": "snapshot"
+        },
+        {
+          "path": "modeling_telechat3.py",
+          "size": 38205,
+          "sha256": "3f163255698ea94e4fa04c8fc0b48c96d8d22f7b5b6dbb99a0db072966f81c98",
+          "kind": "snapshot"
+        },
+        {
+          "path": "special_tokens_map.json",
+          "size": 688,
+          "sha256": "02de0ea7fc4877f91494332ea54a2e827a288999132d6894584b812426ac76f8",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenization_telechat3.py",
+          "size": 8453,
+          "sha256": "0be54b921f2a1d9b1c3933c5aec5775ed4e3b6b7834a9d22ed5929620a89b259",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer.model",
+          "size": 2199270,
+          "sha256": "dae8e4989190d2347aba464962e43be0f1a65e27a29f6c5297cd25f60636accc",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 3004,
+          "sha256": "6678d2ca3aa6d8a440f2072faf01cd0f27410a7097edf9aac02e3c3bfc339250",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 72483652476,
+      "weight_bytes": 72479226112,
+      "snapshot_dir": "snapshots/Tele-AI/TeleChat3-Coder-36B-Thinking/1138da178efd902990e2af884976aef406e31265/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

@@ -1,0 +1,138 @@
+{
+  "repo_id": "Skywork/Skywork-Reward-Llama-3.1-8B-v0.2",
+  "canonical_org": "Skywork",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "d4117fbfd81b72f41b96341238baa1e3e90a4ce1",
+      "captured_at": "2026-09-17T22:57:50Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/Skywork/Skywork-Reward-Llama-3.1-8B-v0.2?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"2129-RQC8+vOOXvRRJss+/8Hu5xHgSZQ\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": null,
+        "file": null,
+        "sha256": null,
+        "redistributable": false,
+        "obligations": [],
+        "freedom": "unlicensed",
+        "freedom_note": "No license tag and no file \u2014 cannot redistribute"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1519,
+          "sha256": "11ad7efa24975ee4b0c3c3a38ed18737f0658a5f75a0a96787b576a78a023361",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 12124,
+          "sha256": "1bd42594cd7f5554ea068feef8bf5f2fde0490d3c8c87092c40191dd7f0aff17",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 1061,
+          "sha256": "06851b05c7f8a1ccad2cf3babe6978a488ab5e2c6867a2a09fa2998ef066f6a6",
+          "kind": "snapshot"
+        },
+        {
+          "path": "misc/Skywork Community License.pdf",
+          "size": 145755,
+          "sha256": "2993d6fc824bdb6796fa8502368bf16a9825fa385fe2e145e2f8c8b7fcb30a15",
+          "kind": "snapshot"
+        },
+        {
+          "path": "misc/Skywork \u6a21\u578b\u793e\u533a\u8bb8\u53ef\u534f\u8bae.pdf",
+          "size": 384459,
+          "sha256": "3aec854d90458e7e34a39cd8c0e00e4a8598e485413c7931527b5b094ab32ed5",
+          "kind": "snapshot"
+        },
+        {
+          "path": "misc/fig.jpg",
+          "size": 78870,
+          "sha256": "f2b064bc84a5b629be2881e8d5edf9349d3cacc13a8857f39e0b6b9cb90c4e69",
+          "kind": "snapshot"
+        },
+        {
+          "path": "model-00001-of-00004.safetensors",
+          "size": 4976698672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00002-of-00004.safetensors",
+          "size": 4999802720,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00003-of-00004.safetensors",
+          "size": 4915916176,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00004-of-00004.safetensors",
+          "size": 117473824,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model.safetensors.index.json",
+          "size": 23948,
+          "sha256": "8a4b0b738cb0795eb1e248cd372e5448264cb3b90ab070a8785d12f022f6222c",
+          "kind": "snapshot"
+        },
+        {
+          "path": "special_tokens_map.json",
+          "size": 340,
+          "sha256": "f526dabe70ae46e1fb9caff406987c5e46a18f2c572906efa75b890e7833fb2a",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer.json",
+          "size": 9085657,
+          "sha256": "79e3e522635f3171300913bb421464a87de6222182a0570b9b2ccba2a964b2b4",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 55393,
+          "sha256": "e334ebb246b3024e7c80ac349e31fd901b682424f63146dcfb553ab7c670f733",
+          "kind": "snapshot"
+        },
+        {
+          "path": "trainer_state.json",
+          "size": 164764,
+          "sha256": "d00b501753f92643a2dc626f1fe21b148f68d1c487a4e73421bf2515eef41269",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 15019845282,
+      "weight_bytes": 15009891392,
+      "snapshot_dir": "snapshots/Skywork/Skywork-Reward-Llama-3.1-8B-v0.2/d4117fbfd81b72f41b96341238baa1e3e90a4ce1/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

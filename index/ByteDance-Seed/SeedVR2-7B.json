@@ -1,0 +1,90 @@
+{
+  "repo_id": "ByteDance-Seed/SeedVR2-7B",
+  "canonical_org": "ByteDance-Seed",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "eb0c4281d41ba3767d4f14370f0e37e9e9180c16",
+      "captured_at": "2026-09-17T22:51:28Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/ByteDance-Seed/SeedVR2-7B?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"83b-b2Co/nyp66HIBDTjArcZ8A1NYiE\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "apache-2.0",
+        "file": null,
+        "sha256": null,
+        "redistributable": null,
+        "obligations": [],
+        "freedom": "conditional",
+        "freedom_note": "'apache-2.0' card tag but NO license file in repo \u2014 unverifiable, confirm upstream"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1561,
+          "sha256": "04bc81cb0b1a143a2f8bbeb55e04b607a85d509407eec07eb1cc47cea0e42284",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 5247,
+          "sha256": "e252a7257166e3b7fe61e3f5c5ed5d11f09f3225afaeb3de344b898e8efe1d38",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/seedvr_logo.png",
+          "size": 167665,
+          "sha256": "9a08170e6ce79f87ad524d4ad5c083c8f1766f245d9dfea6b54fde5dca00f4a2",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/teaser.png",
+          "size": 1336994,
+          "sha256": "1aa53097c719d208642536f4684a174a260ab63ed4dda6515d83a2cb6b4f76ff",
+          "kind": "snapshot"
+        },
+        {
+          "path": "ema_vae.pth",
+          "size": 1002691902,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "seedvr2_ema_7b.pth",
+          "size": 32958774606,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "seedvr2_ema_7b_sharp.pth",
+          "size": 32958774606,
+          "sha256": null,
+          "kind": "weights"
+        }
+      ],
+      "total_bytes": 66921752581,
+      "weight_bytes": 66920241114,
+      "snapshot_dir": "snapshots/ByteDance-Seed/SeedVR2-7B/eb0c4281d41ba3767d4f14370f0e37e9e9180c16/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

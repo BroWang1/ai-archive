@@ -1,0 +1,9 @@
+- dataset:
+    id: IntelligenceLab/Long-Horizon-Terminal-Bench
+    task_id: lhtb
+  value: 38.5
+  date: '2026-07-16'
+  source:
+    url: https://zli12321.github.io/LHTB/leaderboard.html
+    name: LHTB leaderboard
+  notes: "mean reward x100 over 46 tasks (partial credit); solved@0.95=3/46; official LHTB Harbor harness"

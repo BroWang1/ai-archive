@@ -1,0 +1,162 @@
+{
+  "repo_id": "internlm/internlm-chat-7b",
+  "canonical_org": "internlm",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "4e2d2e185058a4cbaa2377ba1bb993eb599ce492",
+      "captured_at": "2026-09-17T22:42:12Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/internlm/internlm-chat-7b?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"1af5-C++yBAFu1LJrCXNTm19g81PnO08\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": null,
+        "file": null,
+        "sha256": null,
+        "redistributable": false,
+        "obligations": [],
+        "freedom": "unlicensed",
+        "freedom_note": "No license tag and no file \u2014 cannot redistribute"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 2071,
+          "sha256": "b20f52ab2a83b30ad6b1aa3d2c57479bebb79fd51780672f93cf1fd7b1723ce2",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 12599,
+          "sha256": "3c914a229bd2716c0438ce221c1fbd09ed11acd137ee7b01fabdf3f0aa980f6f",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 731,
+          "sha256": "05fd9e0b93a60760278eb1637c687863d183f9477c426de53f1e200e450262df",
+          "kind": "snapshot"
+        },
+        {
+          "path": "configuration_internlm.py",
+          "size": 5369,
+          "sha256": "d5cf9cab0e6d11972d9735949e69d5fd62376b188899366bd363e1985b52d6a9",
+          "kind": "snapshot"
+        },
+        {
+          "path": "generation_config.json",
+          "size": 132,
+          "sha256": "b5596e7a1e89e10b72ed61ef0d729fbbf0f3b5bdd50890d149e1568aa7ec2e59",
+          "kind": "snapshot"
+        },
+        {
+          "path": "modeling_internlm.py",
+          "size": 58536,
+          "sha256": "1eef33dc13ae44dae46f47d5f1d543537b6204cda721e6718c315281b26e1dfd",
+          "kind": "snapshot"
+        },
+        {
+          "path": "pytorch_model-00001-of-00008.bin",
+          "size": 1969371359,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "pytorch_model-00002-of-00008.bin",
+          "size": 1933845097,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "pytorch_model-00003-of-00008.bin",
+          "size": 1933845161,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "pytorch_model-00004-of-00008.bin",
+          "size": 1990459141,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "pytorch_model-00005-of-00008.bin",
+          "size": 1990459735,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "pytorch_model-00006-of-00008.bin",
+          "size": 1990459735,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "pytorch_model-00007-of-00008.bin",
+          "size": 1990468265,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "pytorch_model-00008-of-00008.bin",
+          "size": 845153194,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "pytorch_model.bin.index.json",
+          "size": 37116,
+          "sha256": "08d58e27929891185728a9257559c2e4317dd08f28490397ee0b03e6a023c941",
+          "kind": "snapshot"
+        },
+        {
+          "path": "special_tokens_map.json",
+          "size": 95,
+          "sha256": "833c7a70faf348f64bc7e62aa070b575205b5acc47201e109ec37a3516e0eba8",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenization_internlm.py",
+          "size": 8826,
+          "sha256": "8bb3bd087d434ebb6d99fb432a641b0e37ed784aabe262698330d1afb54d8451",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer.model",
+          "size": 1658691,
+          "sha256": "aab622d98c98677a1a51f969e25765154487bf3e85c7819db105db2fcacba83f",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 343,
+          "sha256": "f447aaf3b5e4868df7eef513b7a638c5684cfabf2922b6eda7c9cbd01805638f",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 14645846196,
+      "weight_bytes": 14644061687,
+      "snapshot_dir": "snapshots/internlm/internlm-chat-7b/4e2d2e185058a4cbaa2377ba1bb993eb599ce492/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

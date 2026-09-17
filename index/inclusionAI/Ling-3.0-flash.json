@@ -1,0 +1,282 @@
+{
+  "repo_id": "inclusionAI/Ling-3.0-flash",
+  "canonical_org": "inclusionAI",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "e0dfe7cd0f6e3b572bbbc0a8a84947469e428cc3",
+      "captured_at": "2026-09-17T22:45:59Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/inclusionAI/Ling-3.0-flash?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"3d28-CWvT94e995vQXc7WpdS+iRQsGDY\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "mit",
+        "file": null,
+        "sha256": null,
+        "redistributable": null,
+        "obligations": [],
+        "freedom": "conditional",
+        "freedom_note": "'mit' card tag but NO license file in repo \u2014 unverifiable, confirm upstream"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".eval_results/aime_2026.yaml",
+          "size": 176,
+          "sha256": "5b7ffed51b4a4e5d11a5a1a94b5c7413143e6850613f82a340f71493f46b2dfe",
+          "kind": "snapshot"
+        },
+        {
+          "path": ".eval_results/hle.yaml",
+          "size": 149,
+          "sha256": "136b3747bfb99557bdfe9b005565caa0b4f3841d60ecec1430ae30fab8948e3c",
+          "kind": "snapshot"
+        },
+        {
+          "path": ".eval_results/hmmt_feb_2026.yaml",
+          "size": 184,
+          "sha256": "a1cc3859394a5fd23eb02e2b7a2d3d0e5658202f1e469399c93d67363b69b1b1",
+          "kind": "snapshot"
+        },
+        {
+          "path": ".eval_results/swe-bench_multilingual.yaml",
+          "size": 203,
+          "sha256": "d58dd91e95394574565fcbf137c89ab017ed4f1e169e43c475aa2953dfbeb3fa",
+          "kind": "snapshot"
+        },
+        {
+          "path": ".eval_results/swe-bench_pro.yaml",
+          "size": 172,
+          "sha256": "7c9100fdf40f7c4b6aa34b392f2cb9bfb1a9a6ba7c80fa450e60ddb6c7d268f0",
+          "kind": "snapshot"
+        },
+        {
+          "path": ".gitattributes",
+          "size": 1570,
+          "sha256": "34448b82c17d60fec9b65b1f093c115ddbaadc04beb1b0140b6bfed2e012a930",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 10206,
+          "sha256": "3a4a8b60af02990b69a55d69c74c04543845d47db46d4f642a99fd4414db966d",
+          "kind": "snapshot"
+        },
+        {
+          "path": "chat_template.jinja",
+          "size": 6073,
+          "sha256": "b4ab3a1c8f748e6f874d9aea102333efe7ab82528e8ab81c2eb155851e8705c6",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 2897,
+          "sha256": "6c1bd3c25e8b2db7ed954bd08291fa706ab2596a16b2cbab397ca75d44979c3b",
+          "kind": "snapshot"
+        },
+        {
+          "path": "configuration_bailing_moe_v3.py",
+          "size": 4725,
+          "sha256": "f2c048966aec8a2f042cfeb1351f74d51a28589b409c55baae7d24e841c1f6c4",
+          "kind": "snapshot"
+        },
+        {
+          "path": "model-00001-of-00024.safetensors",
+          "size": 10715426912,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00002-of-00024.safetensors",
+          "size": 10522791950,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00003-of-00024.safetensors",
+          "size": 10522792184,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00004-of-00024.safetensors",
+          "size": 10711541790,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00005-of-00024.safetensors",
+          "size": 10522791950,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00006-of-00024.safetensors",
+          "size": 10522793948,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00007-of-00024.safetensors",
+          "size": 10522794860,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00008-of-00024.safetensors",
+          "size": 10711544514,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00009-of-00024.safetensors",
+          "size": 10522794626,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00010-of-00024.safetensors",
+          "size": 10522794626,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00011-of-00024.safetensors",
+          "size": 10522794860,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00012-of-00024.safetensors",
+          "size": 10711544514,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00013-of-00024.safetensors",
+          "size": 10522794626,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00014-of-00024.safetensors",
+          "size": 10522794626,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00015-of-00024.safetensors",
+          "size": 10522794860,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00016-of-00024.safetensors",
+          "size": 10711544514,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00017-of-00024.safetensors",
+          "size": 10522794626,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00018-of-00024.safetensors",
+          "size": 10522794626,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00019-of-00024.safetensors",
+          "size": 10522794860,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00020-of-00024.safetensors",
+          "size": 10711544514,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00021-of-00024.safetensors",
+          "size": 10522794626,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00022-of-00024.safetensors",
+          "size": 10522794626,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00023-of-00024.safetensors",
+          "size": 10522794860,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00024-of-00024.safetensors",
+          "size": 11820449544,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model.safetensors.index.json",
+          "size": 6049031,
+          "sha256": "c8cb50abb3731de0a361aa477a4b04988981bfff0935bff357658d55bfa454c1",
+          "kind": "snapshot"
+        },
+        {
+          "path": "modeling_bailing_moe_v3.py",
+          "size": 73194,
+          "sha256": "c2509bf7ac580c262e2581d34d6403aa21682d2e10beb9ad85ad8820a7e33a40",
+          "kind": "snapshot"
+        },
+        {
+          "path": "special_tokens_map.json",
+          "size": 580,
+          "sha256": "69b63b9f81044ead642d16a5fdc01bcc737dc1183746485c8397ab14d3126614",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer.json",
+          "size": 12205732,
+          "sha256": "40fb9d7d7795b8bd305aeff39ce9963f3f450915b9553f2938e009be9a1fed60",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 49671,
+          "sha256": "2456b0372956cd3e82f17e33372148b115a94970bfd4878ba5e7e60cd3204f74",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 254999502205,
+      "weight_bytes": 254981097642,
+      "snapshot_dir": "snapshots/inclusionAI/Ling-3.0-flash/e0dfe7cd0f6e3b572bbbc0a8a84947469e428cc3/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

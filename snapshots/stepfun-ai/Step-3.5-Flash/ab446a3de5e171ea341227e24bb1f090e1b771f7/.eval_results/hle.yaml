@@ -1,0 +1,10 @@
+- dataset:
+    id: cais/hle
+    task_id: hle
+  value: 23.1
+  date: '2026-02-11'
+  source:
+    url: https://arxiv.org/abs/2602.10604
+    name: Step 3.5 Flash Paper
+    user: SaylorTwift
+  notes: "Text Only"

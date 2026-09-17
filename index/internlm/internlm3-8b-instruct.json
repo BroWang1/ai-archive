@@ -1,0 +1,132 @@
+{
+  "repo_id": "internlm/internlm3-8b-instruct",
+  "canonical_org": "internlm",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "28c99415adaf61767bd1c619f4f99f308fdfd223",
+      "captured_at": "2026-09-17T22:41:52Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/internlm/internlm3-8b-instruct?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"14de-tI5YfsbgSOJX9bPX+sQcxNZbfv0\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "apache-2.0",
+        "file": "LICENSE.txt",
+        "sha256": "3650804584fdf501723ddff1af68da29c1d0129ee12a729900b7380e48f25eac",
+        "redistributable": true,
+        "obligations": [],
+        "freedom": "free",
+        "freedom_note": "apache-2.0 with LICENSE file verified in snapshot"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1519,
+          "sha256": "11ad7efa24975ee4b0c3c3a38ed18737f0658a5f75a0a96787b576a78a023361",
+          "kind": "snapshot"
+        },
+        {
+          "path": "LICENSE.txt",
+          "size": 11357,
+          "sha256": "3650804584fdf501723ddff1af68da29c1d0129ee12a729900b7380e48f25eac",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 39850,
+          "sha256": "05952b9d45a7e470843502490354cb33f74d3fc76288dcf14c5632cbda96ac59",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 1010,
+          "sha256": "e1d88b33517b569d39ccb6730548f6eea9adb5dac892d5db74b78f670c0a7471",
+          "kind": "snapshot"
+        },
+        {
+          "path": "configuration_internlm3.py",
+          "size": 10536,
+          "sha256": "b5a73e90a656afeea1746971b0580531e163a31e7a2d87c4c8e135bd33e0d2af",
+          "kind": "snapshot"
+        },
+        {
+          "path": "generation_config.json",
+          "size": 124,
+          "sha256": "db178f917cc724c2cc3e698913af9b066da214442ca7b05e6ff24f59a1620042",
+          "kind": "snapshot"
+        },
+        {
+          "path": "model-00001-of-00002.safetensors",
+          "size": 9928388896,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00002-of-00002.safetensors",
+          "size": 7680144544,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model.safetensors.index.json",
+          "size": 35838,
+          "sha256": "25a4ed0fa934ddb9e471c87ee2da0cf38ea3c5c2a92b675afd1e11188c659371",
+          "kind": "snapshot"
+        },
+        {
+          "path": "modeling_internlm3.py",
+          "size": 56370,
+          "sha256": "5a3d3ff1d89c51de0ca1856849955222fa6aa572e168ffe50c7c86467f6c4ffe",
+          "kind": "snapshot"
+        },
+        {
+          "path": "special_tokens_map.json",
+          "size": 1003,
+          "sha256": "5614da48c591d1329e8e624f3947038b1d8aae7617ad727ef3009642391b3c17",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenization_internlm3.py",
+          "size": 13220,
+          "sha256": "e168823f9316389913a4e9562a28b46ba08994bd6fc34f9942359d14ec7b5513",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer.model",
+          "size": 2475075,
+          "sha256": "bcacff3229854f5103ee7a85473a30ca9a8b3a68f3aae9b7479574b23ac2256b",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 5692,
+          "sha256": "5700c8c5bc4dc5892b89b5c5bb7e7194c1683e1ee7124dc6d64d37116404c1a9",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 17611185034,
+      "weight_bytes": 17608533440,
+      "snapshot_dir": "snapshots/internlm/internlm3-8b-instruct/28c99415adaf61767bd1c619f4f99f308fdfd223/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

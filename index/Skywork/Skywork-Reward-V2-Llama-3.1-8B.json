@@ -1,0 +1,132 @@
+{
+  "repo_id": "Skywork/Skywork-Reward-V2-Llama-3.1-8B",
+  "canonical_org": "Skywork",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "cba2f842f3f1af2f1b2f0d35e794d789976390c5",
+      "captured_at": "2026-09-17T22:48:18Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/Skywork/Skywork-Reward-V2-Llama-3.1-8B?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"fd8-eM2ZhlR6B2zc/lfOGHmb8qD9kWI\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "llama3.1",
+        "file": "LICENSE",
+        "sha256": "64e1b2889b7892e6bbe7a7ed5bfe6ff793c61f9d584345f8f41cf9f5cb30a369",
+        "redistributable": null,
+        "obligations": [],
+        "freedom": "conditional",
+        "freedom_note": "Custom license ('llama3.1') \u2014 read before redistributing"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1695,
+          "sha256": "05ccd2c5e19eb9e6aab5ea98dc54d73bf1db7dfa97427de34519de4b1df938c2",
+          "kind": "snapshot"
+        },
+        {
+          "path": "LICENSE",
+          "size": 7627,
+          "sha256": "64e1b2889b7892e6bbe7a7ed5bfe6ff793c61f9d584345f8f41cf9f5cb30a369",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 16124,
+          "sha256": "4eeec49b3decc8f470aab47bb51295e83810c9694014e6a40202a5ee604acd31",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/skywork_logo.png",
+          "size": 118662,
+          "sha256": "bbd30750ec11120286b588940e8f33d045f56f00c97447880e88423518617fcc",
+          "kind": "snapshot"
+        },
+        {
+          "path": "chat_template.jinja",
+          "size": 389,
+          "sha256": "ba03a121d097859c7b5b9cd03af99aafe95275210d2876f642ad9929a150f122",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 993,
+          "sha256": "88109773c20f5977bf4ba73f7cb0ebd60c31f5e18503d35c5e4573cdf1ad1f64",
+          "kind": "snapshot"
+        },
+        {
+          "path": "model-00001-of-00004.safetensors",
+          "size": 4976698672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00002-of-00004.safetensors",
+          "size": 4999802720,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00003-of-00004.safetensors",
+          "size": 4915916176,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00004-of-00004.safetensors",
+          "size": 117473824,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model.safetensors.index.json",
+          "size": 23948,
+          "sha256": "8a4b0b738cb0795eb1e248cd372e5448264cb3b90ab070a8785d12f022f6222c",
+          "kind": "snapshot"
+        },
+        {
+          "path": "special_tokens_map.json",
+          "size": 340,
+          "sha256": "f526dabe70ae46e1fb9caff406987c5e46a18f2c572906efa75b890e7833fb2a",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer.json",
+          "size": 17209920,
+          "sha256": "6b9e4e7fb171f92fd137b777cc2714bf87d11576700a1dcd7a399e7bbe39537b",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 50565,
+          "sha256": "c7db026feb72501d1e343f2ebd704005ce1c2af6993ae9b44354fba30030a66b",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 15027321655,
+      "weight_bytes": 15009891392,
+      "snapshot_dir": "snapshots/Skywork/Skywork-Reward-V2-Llama-3.1-8B/cba2f842f3f1af2f1b2f0d35e794d789976390c5/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

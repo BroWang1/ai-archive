@@ -1,0 +1,204 @@
+{
+  "repo_id": "01-ai/Yi-1.5-34B-Chat",
+  "canonical_org": "01-ai",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "fa4ffba162f20948bf77c2a30eca952bf0812b7f",
+      "captured_at": "2026-09-17T22:45:02Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/01-ai/Yi-1.5-34B-Chat?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"23b8-kfNwV6NorzlcrRpuhb35ZNjgNhU\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "apache-2.0",
+        "file": null,
+        "sha256": null,
+        "redistributable": null,
+        "obligations": [],
+        "freedom": "conditional",
+        "freedom_note": "'apache-2.0' card tag but NO license file in repo \u2014 unverifiable, confirm upstream"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1578,
+          "sha256": "1a162b00962dd7fab04f5c1db2c47ee31c465594e420f3c2348c2f4ef002bdbf",
+          "kind": "snapshot"
+        },
+        {
+          "path": "NOTICE",
+          "size": 879,
+          "sha256": "100e95372c34fb697ad661c45044f353b515f5067e4d4156e4e6a16cc7116f6e",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 5779,
+          "sha256": "5b245685718cc62faa5a588e87ccc215532ff93bb2a6f24f1fd698445432b460",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 661,
+          "sha256": "5aee47078b2c1ca2e784306df05d8ccf5cdf253694f05e0abdc5b023d34c5a38",
+          "kind": "snapshot"
+        },
+        {
+          "path": "generation_config.json",
+          "size": 132,
+          "sha256": "11b6eeda277c29496ba50e471d7e8202a7924c4800596bbdca5f1560859687a4",
+          "kind": "snapshot"
+        },
+        {
+          "path": "md5",
+          "size": 1335,
+          "sha256": "1948c85cb19e0d349f26d8679b3f48fb8a908bbc6314b13b883bf9ea63e8878a",
+          "kind": "snapshot"
+        },
+        {
+          "path": "model-00001-of-00015.safetensors",
+          "size": 4793130760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00002-of-00015.safetensors",
+          "size": 4756459720,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00003-of-00015.safetensors",
+          "size": 4991370136,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00004-of-00015.safetensors",
+          "size": 4756459760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00005-of-00015.safetensors",
+          "size": 4756459760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00006-of-00015.safetensors",
+          "size": 4991370160,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00007-of-00015.safetensors",
+          "size": 4756459760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00008-of-00015.safetensors",
+          "size": 4756459760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00009-of-00015.safetensors",
+          "size": 4991370160,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00010-of-00015.safetensors",
+          "size": 4756459760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00011-of-00015.safetensors",
+          "size": 4756459760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00012-of-00015.safetensors",
+          "size": 4991370160,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00013-of-00015.safetensors",
+          "size": 4756459760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00014-of-00015.safetensors",
+          "size": 4756459760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00015-of-00015.safetensors",
+          "size": 1211148856,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model.safetensors.index.json",
+          "size": 44754,
+          "sha256": "ba935efeec6b71eb5af1c330c2d05cfd4a129f65fd8bc8361e2ac6ec21060078",
+          "kind": "snapshot"
+        },
+        {
+          "path": "special_tokens_map.json",
+          "size": 567,
+          "sha256": "27ce6fefbeb38d978a6a8d4d6a81a63fdd318b9db0489b44c6f3fadb57ce0661",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer.json",
+          "size": 3602758,
+          "sha256": "a13ccc285aea27f5e9a98d40e04e330b01d89db6de7af10b013f56eec8eae8a2",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer.model",
+          "size": 1033105,
+          "sha256": "386c49cf943d71aa110361135338c50e38beeff0a66593480421f37b319e1a39",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 1673,
+          "sha256": "a877a66153e25d07e7ac73fa33f4d4003cb8bdd93bab1a32fc0b4578554ccba4",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 68782591253,
+      "weight_bytes": 68777898032,
+      "snapshot_dir": "snapshots/01-ai/Yi-1.5-34B-Chat/fa4ffba162f20948bf77c2a30eca952bf0812b7f/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

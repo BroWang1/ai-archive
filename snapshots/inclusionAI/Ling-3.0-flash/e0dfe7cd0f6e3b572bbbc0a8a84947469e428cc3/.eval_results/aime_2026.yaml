@@ -1,0 +1,7 @@
+- dataset:
+    id: MathArena/aime_2026
+    task_id: MathArena/aime_2026
+  value: 93.2
+  source:
+    url: https://huggingface.co/inclusionAI/Ling-3.0-flash
+    name: Model Card

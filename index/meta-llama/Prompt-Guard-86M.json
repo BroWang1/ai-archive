@@ -1,0 +1,114 @@
+{
+  "repo_id": "meta-llama/Prompt-Guard-86M",
+  "canonical_org": "meta-llama",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "1209add6ca7d9c1d815171b8e5571587fe3e7b03",
+      "captured_at": "2026-09-17T22:55:06Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/meta-llama/Prompt-Guard-86M?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"433c-pdMaDzk3qEy0lZ3hL3G2kVbee/I\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "llama3.1",
+        "file": "LICENSE",
+        "sha256": "64e1b2889b7892e6bbe7a7ed5bfe6ff793c61f9d584345f8f41cf9f5cb30a369",
+        "redistributable": null,
+        "obligations": [],
+        "freedom": "restricted",
+        "freedom_note": "Gated repo: access requires accepting the author's terms"
+      },
+      "gate_terms_sha256": "b43927cb62f528972ce0bb264348b7165f0d0765678887f88e894d151c2f9abf",
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1630,
+          "sha256": null,
+          "kind": "gated-no-snapshot"
+        },
+        {
+          "path": "LICENSE",
+          "size": 7627,
+          "sha256": "64e1b2889b7892e6bbe7a7ed5bfe6ff793c61f9d584345f8f41cf9f5cb30a369",
+          "kind": "snapshot"
+        },
+        {
+          "path": "Prompt-Guard-20240715180000.md5",
+          "size": 256,
+          "sha256": null,
+          "kind": "gated-no-snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 31020,
+          "sha256": "d106d152ed01139ded5c88cf3721c944047f6ecbcae1febab976da39c34623c8",
+          "kind": "snapshot"
+        },
+        {
+          "path": "USE_POLICY.md",
+          "size": 4691,
+          "sha256": null,
+          "kind": "gated-no-snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 1031,
+          "sha256": null,
+          "kind": "gated-no-snapshot"
+        },
+        {
+          "path": "model.safetensors",
+          "size": 1115271284,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "prompt_guard_visual.png",
+          "size": 1025309,
+          "sha256": null,
+          "kind": "gated-no-snapshot"
+        },
+        {
+          "path": "special_tokens_map.json",
+          "size": 286,
+          "sha256": null,
+          "kind": "gated-no-snapshot"
+        },
+        {
+          "path": "tokenizer.json",
+          "size": 16331639,
+          "sha256": null,
+          "kind": "gated-no-snapshot"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 1284,
+          "sha256": null,
+          "kind": "gated-no-snapshot"
+        }
+      ],
+      "total_bytes": 1132676057,
+      "weight_bytes": 1115271284,
+      "snapshot_dir": "snapshots/meta-llama/Prompt-Guard-86M/1209add6ca7d9c1d815171b8e5571587fe3e7b03/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

@@ -1,0 +1,138 @@
+{
+  "repo_id": "Skywork/Skywork-OR1-Math-7B",
+  "canonical_org": "Skywork",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "fcef970f1d10682f13c182b280146a194ed57d1e",
+      "captured_at": "2026-09-17T22:48:36Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/Skywork/Skywork-OR1-Math-7B?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"16fc-022SUP8WmKNyOj1X6mxDn5kxcW0\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": null,
+        "file": null,
+        "sha256": null,
+        "redistributable": false,
+        "obligations": [],
+        "freedom": "unlicensed",
+        "freedom_note": "No license tag and no file \u2014 cannot redistribute"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1760,
+          "sha256": "7f772b9e8587b1b42e2a14531f5184e0d83c8dff9d9db85a84ed49a6e56f9663",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 7376,
+          "sha256": "837f185f425a5aad74b5ca6909a94bcc5ca9c185986c213416d9117e65990310",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/32b_perf.png",
+          "size": 134915,
+          "sha256": "dda634cc383faa0dcdb5f591b1041ce61b8ae3cb7a83e18abac1a00351040958",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/7b_perf.png",
+          "size": 129458,
+          "sha256": "6a4d69da4b84782899dcc46d26f18a8259492d420d7af0e2c19e8f00587efd0a",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/skywork-or1-math-7b-multi-stage.png",
+          "size": 156907,
+          "sha256": "7acb487d213549015259bd5553544b09047d7ab9bfd603dd2bb068ffe67ab6db",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 754,
+          "sha256": "6673df32586bddb5814977e6dff3cf301a48d10a48f485c90e7709e33ab79a95",
+          "kind": "snapshot"
+        },
+        {
+          "path": "generation_config.json",
+          "size": 121,
+          "sha256": "887c61443f5923fc8eea13fbebdee6f9a77fe4b9d16f88a2bb8aac74291baf80",
+          "kind": "snapshot"
+        },
+        {
+          "path": "model-00001-of-00004.safetensors",
+          "size": 4877660776,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00002-of-00004.safetensors",
+          "size": 4932751008,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00003-of-00004.safetensors",
+          "size": 4330865200,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00004-of-00004.safetensors",
+          "size": 1089994880,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model.safetensors.index.json",
+          "size": 27752,
+          "sha256": "998a078123ffc97763690de7f2a677eb89168af5eaf8a5e12e6bc24d18e25bdb",
+          "kind": "snapshot"
+        },
+        {
+          "path": "special_tokens_map.json",
+          "size": 485,
+          "sha256": "59cda48bbe8bab9d61ffb410e6e3c07b6d98bff73cee7c88ff8b51f95f21ab1c",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer.json",
+          "size": 11422778,
+          "sha256": "e20ddafc659ba90242154b55275402edeca0715e5dbb30f56815a4ce081f4893",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 6734,
+          "sha256": "8c32f3b0afaf748b128843f4301cc267e9384a83e7a2b40054fb77b1d2cfba5b",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 15243160904,
+      "weight_bytes": 15231271864,
+      "snapshot_dir": "snapshots/Skywork/Skywork-OR1-Math-7B/fcef970f1d10682f13c182b280146a194ed57d1e/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

@@ -1,0 +1,348 @@
+{
+  "repo_id": "XiaomiMiMo/MiMo-V2.5-Pro",
+  "canonical_org": "XiaomiMiMo",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "21d1ecfecd7bd70f31be25ca49d7edd21f003659",
+      "captured_at": "2026-09-17T22:47:03Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/XiaomiMiMo/MiMo-V2.5-Pro?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"53ba-Af6k/G2DGtvsLXkb/gvtT3SW2WA\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "mit",
+        "file": null,
+        "sha256": null,
+        "redistributable": null,
+        "obligations": [],
+        "freedom": "conditional",
+        "freedom_note": "'mit' card tag but NO license file in repo \u2014 unverifiable, confirm upstream"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1824,
+          "sha256": "1687f593894ce5955161eb8a3fbe0b3eef116b58e32322518c0c61110ef25a5f",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 11122,
+          "sha256": "5387cd822ba7b6e6570107bb9b265490cece72fd1c179da503f83243c8f1698f",
+          "kind": "snapshot"
+        },
+        {
+          "path": "added_tokens.json",
+          "size": 735,
+          "sha256": "79f6ec6fcc423d3a82bfac8b9033b1daac7b7bce06a5f5f441637b480cc605de",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/architecture.png",
+          "size": 151523,
+          "sha256": "364418932cbfeb4757e7f7bc91bd3df19de6fca21640c3c0bbda89a569358e0d",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/benchmark.jpg",
+          "size": 623777,
+          "sha256": "5b4e4a2c797c9ab879249f88b5b2341322391f71c689941a70e075b66401a6c6",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/post_training_evaluation.jpg",
+          "size": 216452,
+          "sha256": "f8b9ea21cb0b35905395f4af80aa6952fce1367b388af82d67ab89233e2674a4",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/wechat.jpg",
+          "size": 99703,
+          "sha256": "fc359540e8af1e2580e7c799ae65c3f9cde53f54ea32f52f366191f00d13d487",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 5350,
+          "sha256": "7e11c6cd358a841d5ac016fc80c030cad14d418ee125e9bde1eb6d0757b635d6",
+          "kind": "snapshot"
+        },
+        {
+          "path": "configuration_mimo_v2.py",
+          "size": 8538,
+          "sha256": "4ecf7496d022aeca24e58d523302d3ea1ad78784e8bc50b3af7134526c623d80",
+          "kind": "snapshot"
+        },
+        {
+          "path": "merges.txt",
+          "size": 1823241,
+          "sha256": "b8e04af9c950e393054010dcef499c3f005e803e9b2da1a09b96a26c33266eb1",
+          "kind": "snapshot"
+        },
+        {
+          "path": "model.safetensors.index.json",
+          "size": 15569001,
+          "sha256": "a7ad2187407f8cf989f140a42d9bf340be7a220b2f6b35afa0a728774eb20f4b",
+          "kind": "snapshot"
+        },
+        {
+          "path": "model_mtp.safetensors",
+          "size": 2463641280,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model_pp0_ep0_shard0.safetensors",
+          "size": 34554911640,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model_pp0_ep0_shard1.safetensors",
+          "size": 27180576088,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model_pp0_ep10_shard0.safetensors",
+          "size": 31264218696,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model_pp0_ep11_shard0.safetensors",
+          "size": 31264218696,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model_pp0_ep12_shard0.safetensors",
+          "size": 31264218696,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model_pp0_ep13_shard0.safetensors",
+          "size": 31264218696,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model_pp0_ep14_shard0.safetensors",
+          "size": 31264218696,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model_pp0_ep15_shard0.safetensors",
+          "size": 31264218696,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model_pp0_ep16_shard0.safetensors",
+          "size": 31264218696,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model_pp0_ep17_shard0.safetensors",
+          "size": 31264218696,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model_pp0_ep18_shard0.safetensors",
+          "size": 31264218696,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model_pp0_ep19_shard0.safetensors",
+          "size": 31264218696,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model_pp0_ep1_shard0.safetensors",
+          "size": 31264213728,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model_pp0_ep20_shard0.safetensors",
+          "size": 31264218696,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model_pp0_ep21_shard0.safetensors",
+          "size": 31264218696,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model_pp0_ep22_shard0.safetensors",
+          "size": 31264218696,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model_pp0_ep23_shard0.safetensors",
+          "size": 31264218696,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model_pp0_ep24_shard0.safetensors",
+          "size": 31264218696,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model_pp0_ep25_shard0.safetensors",
+          "size": 31264218696,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model_pp0_ep26_shard0.safetensors",
+          "size": 31264218696,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model_pp0_ep27_shard0.safetensors",
+          "size": 31264218696,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model_pp0_ep28_shard0.safetensors",
+          "size": 31264218696,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model_pp0_ep29_shard0.safetensors",
+          "size": 31264218696,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model_pp0_ep2_shard0.safetensors",
+          "size": 31264213728,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model_pp0_ep30_shard0.safetensors",
+          "size": 31264218696,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model_pp0_ep31_shard0.safetensors",
+          "size": 31264218696,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model_pp0_ep3_shard0.safetensors",
+          "size": 31264213728,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model_pp0_ep4_shard0.safetensors",
+          "size": 31264213728,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model_pp0_ep5_shard0.safetensors",
+          "size": 31264213728,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model_pp0_ep6_shard0.safetensors",
+          "size": 31264213728,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model_pp0_ep7_shard0.safetensors",
+          "size": 31264213728,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model_pp0_ep8_shard0.safetensors",
+          "size": 31264217040,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model_pp0_ep9_shard0.safetensors",
+          "size": 31264218696,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "modeling_mimo_v2.py",
+          "size": 31473,
+          "sha256": "4d33f4bd84a23c0ada163113dea3f28ecaa130370a9c3ef317d965cb031d1d5a",
+          "kind": "snapshot"
+        },
+        {
+          "path": "special_tokens_map.json",
+          "size": 644,
+          "sha256": "57255613bbe23c9497211ca68561ff429a51e871dbaf5a59998fa4c8f7fe168a",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer.json",
+          "size": 12180133,
+          "sha256": "cdd40b08814d626d2ab1eb36c7ca66521a96bce4d478cf1375a4d45fe03e1cf9",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 14720,
+          "sha256": "bf6af875bfa52d5fb877d44ef47e0e537024712061d6891938e04245f7dd2ef3",
+          "kind": "snapshot"
+        },
+        {
+          "path": "vocab.json",
+          "size": 2776833,
+          "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 1033423387221,
+      "weight_bytes": 1033389872152,
+      "snapshot_dir": "snapshots/XiaomiMiMo/MiMo-V2.5-Pro/21d1ecfecd7bd70f31be25ca49d7edd21f003659/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

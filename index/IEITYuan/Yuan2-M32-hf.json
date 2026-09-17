@@ -1,0 +1,168 @@
+{
+  "repo_id": "IEITYuan/Yuan2-M32-hf",
+  "canonical_org": "IEITYuan",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "3f5371ba89e7468ea91a7d596371f8e4c6a63003",
+      "captured_at": "2026-09-17T22:52:48Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/IEITYuan/Yuan2-M32-hf?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"136b-Mxop6mwp8u8lgARnxhOWx6CFLXY\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "apache-2.0",
+        "file": null,
+        "sha256": null,
+        "redistributable": null,
+        "obligations": [],
+        "freedom": "conditional",
+        "freedom_note": "'apache-2.0' card tag but NO license file in repo \u2014 unverifiable, confirm upstream"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1519,
+          "sha256": "11ad7efa24975ee4b0c3c3a38ed18737f0658a5f75a0a96787b576a78a023361",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 8863,
+          "sha256": "73a47407233441f24a7730a4d7409798b088ef140201aebd9d0a754a112ccf34",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 1291,
+          "sha256": "5b1ba2fc8b5aa36b37a3c499562d29a852a82f02fd7655fd93bf0fb9385255b3",
+          "kind": "snapshot"
+        },
+        {
+          "path": "configuration.json",
+          "size": 40,
+          "sha256": "2561dfac0daa0797c0bb380fe4b578cede73227a5f7c103303e49c478bb1d88d",
+          "kind": "snapshot"
+        },
+        {
+          "path": "configuration_yuan.py",
+          "size": 1362,
+          "sha256": "cfed3e18beae3163830f1522b95efd0d29b8e5b5818867b2514b5ebb57224a2d",
+          "kind": "snapshot"
+        },
+        {
+          "path": "generation_config.json",
+          "size": 151,
+          "sha256": "55ee162643bdb6f261ea3481df360a483db5202e0e288f687fadebf7bf9d04c3",
+          "kind": "snapshot"
+        },
+        {
+          "path": "pytorch_model-00001-of-00009.bin",
+          "size": 9966449668,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "pytorch_model-00002-of-00009.bin",
+          "size": 9983763500,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "pytorch_model-00003-of-00009.bin",
+          "size": 9950209092,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "pytorch_model-00004-of-00009.bin",
+          "size": 9983763664,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "pytorch_model-00005-of-00009.bin",
+          "size": 9950209284,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "pytorch_model-00006-of-00009.bin",
+          "size": 9983763716,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "pytorch_model-00007-of-00009.bin",
+          "size": 9950209296,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "pytorch_model-00008-of-00009.bin",
+          "size": 9983763740,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "pytorch_model-00009-of-00009.bin",
+          "size": 134232787,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "pytorch_model.bin.index.json",
+          "size": 156900,
+          "sha256": "e34cf151b5783b16bce564b94516afe9c4a9493a65820111de55b764d24cacbe",
+          "kind": "snapshot"
+        },
+        {
+          "path": "special_tokens_map.json",
+          "size": 434,
+          "sha256": "602d53328281e749699ac4aee853f30877b5164cdc5e86582a5173499f8b50a5",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer.model",
+          "size": 2155861,
+          "sha256": "36f79e0c70f73cdd2a8dd0fbe7bfe290da158eea746778d289e4ad76c8b383d9",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 761,
+          "sha256": "b61b4e0959177e43273de717a490023143a449e6dccd170155730a410bb21125",
+          "kind": "snapshot"
+        },
+        {
+          "path": "yuan_moe_hf_model.py",
+          "size": 63310,
+          "sha256": "08af3f3b45049519e0176d44f6ccfce9550cbfdffc2bee7c254ab0adeae17048",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 79888755239,
+      "weight_bytes": 79886364747,
+      "snapshot_dir": "snapshots/IEITYuan/Yuan2-M32-hf/3f5371ba89e7468ea91a7d596371f8e4c6a63003/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

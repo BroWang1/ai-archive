@@ -1,0 +1,9 @@
+- dataset:
+    id: SWE-bench/SWE-bench_Verified
+    task_id: swe_bench_%_resolved
+  value: 74.4
+  date: '2026-02-11'
+  source:
+    url: https://arxiv.org/abs/2602.10604
+    name: Step 3.5 Flash Paper
+    user: SaylorTwift

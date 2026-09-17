@@ -1,0 +1,7 @@
+{
+  "image_seq_length": 256,
+  "processor_class": "InternS1Processor",
+  "auto_map": {
+    "AutoProcessor": "processing_interns1.InternS1Processor"
+  }
+}

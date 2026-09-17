@@ -1,0 +1,312 @@
+{
+  "repo_id": "Tele-AI/telechat-7B",
+  "canonical_org": "Tele-AI",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "0c33078695dff4d41bed535c1d9d9c89db947a4c",
+      "captured_at": "2026-09-17T22:58:15Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/Tele-AI/telechat-7B?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"27e4-OuwxcE5tViUl4qnRCUgydlPJNdg\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "apache-2.0",
+        "file": null,
+        "sha256": null,
+        "redistributable": null,
+        "obligations": [],
+        "freedom": "conditional",
+        "freedom_note": "'apache-2.0' card tag but NO license file in repo \u2014 unverifiable, confirm upstream"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1519,
+          "sha256": "11ad7efa24975ee4b0c3c3a38ed18737f0658a5f75a0a96787b576a78a023361",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 12519,
+          "sha256": "b7ce42a970af92cdb6119e570de2fd1c2ef77eb712365c17ccd7dea1f2f7c86f",
+          "kind": "snapshot"
+        },
+        {
+          "path": "TeleChat\u6a21\u578b\u793e\u533a\u8bb8\u53ef\u534f\u8bae.pdf",
+          "size": 545638,
+          "sha256": "311a94a42672ada24353a343beaa01b4c21bc313cd5bd1e5f6a1351f644fd6b5",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 943,
+          "sha256": "1472e7732161ff5e6f3f2aa7bfca471c6ee010cb798412c2c686d829c5792081",
+          "kind": "snapshot"
+        },
+        {
+          "path": "configuration_telechat.py",
+          "size": 4163,
+          "sha256": "94de23b9792af9f2f3197182671d105521a28a3b35ee419ae25d7a7cf912b18f",
+          "kind": "snapshot"
+        },
+        {
+          "path": "generation_config.json",
+          "size": 277,
+          "sha256": "52da2967892643939e35c1ddf8197a3fbbe00de2b98f09680d160263c160a77a",
+          "kind": "snapshot"
+        },
+        {
+          "path": "generation_utils.py",
+          "size": 4800,
+          "sha256": "9748f08d00dcd41f8f7268192bd50b6a15586148d0564bdbbd361d75096b0821",
+          "kind": "snapshot"
+        },
+        {
+          "path": "modeling_telechat.py",
+          "size": 37824,
+          "sha256": "47ac7f79bd9f3f1dd26844c57d7119625ac51394476e25df96bf9bed574d293b",
+          "kind": "snapshot"
+        },
+        {
+          "path": "pytorch_model.bin.index.json",
+          "size": 21967,
+          "sha256": "4b55b7a386cf1c8c045cb4c84f25226ee88be965c6c2a0c624d2c52414711877",
+          "kind": "snapshot"
+        },
+        {
+          "path": "pytorch_model_00001-of-00032.bin",
+          "size": 1312818090,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "pytorch_model_00002-of-00032.bin",
+          "size": 436244035,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "pytorch_model_00003-of-00032.bin",
+          "size": 436244035,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "pytorch_model_00004-of-00032.bin",
+          "size": 436244035,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "pytorch_model_00005-of-00032.bin",
+          "size": 436244035,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "pytorch_model_00006-of-00032.bin",
+          "size": 436244035,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "pytorch_model_00007-of-00032.bin",
+          "size": 436244035,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "pytorch_model_00008-of-00032.bin",
+          "size": 436244035,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "pytorch_model_00009-of-00032.bin",
+          "size": 436244035,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "pytorch_model_00010-of-00032.bin",
+          "size": 436244035,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "pytorch_model_00011-of-00032.bin",
+          "size": 436244035,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "pytorch_model_00012-of-00032.bin",
+          "size": 436244035,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "pytorch_model_00013-of-00032.bin",
+          "size": 436244035,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "pytorch_model_00014-of-00032.bin",
+          "size": 436244035,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "pytorch_model_00015-of-00032.bin",
+          "size": 436244035,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "pytorch_model_00016-of-00032.bin",
+          "size": 436244035,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "pytorch_model_00017-of-00032.bin",
+          "size": 436244035,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "pytorch_model_00018-of-00032.bin",
+          "size": 436244035,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "pytorch_model_00019-of-00032.bin",
+          "size": 436244035,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "pytorch_model_00020-of-00032.bin",
+          "size": 436244035,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "pytorch_model_00021-of-00032.bin",
+          "size": 436244035,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "pytorch_model_00022-of-00032.bin",
+          "size": 436244035,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "pytorch_model_00023-of-00032.bin",
+          "size": 436244035,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "pytorch_model_00024-of-00032.bin",
+          "size": 436244035,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "pytorch_model_00025-of-00032.bin",
+          "size": 436244035,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "pytorch_model_00026-of-00032.bin",
+          "size": 436244035,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "pytorch_model_00027-of-00032.bin",
+          "size": 436244035,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "pytorch_model_00028-of-00032.bin",
+          "size": 436244035,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "pytorch_model_00029-of-00032.bin",
+          "size": 436244035,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "pytorch_model_00030-of-00032.bin",
+          "size": 436244035,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "pytorch_model_00031-of-00032.bin",
+          "size": 436244035,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "pytorch_model_00032-of-00032.bin",
+          "size": 9130,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "special_tokens_map.json",
+          "size": 92,
+          "sha256": "8a8fa5f16c90a4201278d99cff061b011709cf6198499b5ac4e87fffe76b41f4",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer.json",
+          "size": 9229466,
+          "sha256": "4574699fe53afd2f04edc89004d6cb513b964dfb23a5cfb754be57182ebac492",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 238,
+          "sha256": "cc1f382217a286c9fa226f4532d366815c16b1476189e704558261d67f7615db",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 14410007716,
+      "weight_bytes": 14400148270,
+      "snapshot_dir": "snapshots/Tele-AI/telechat-7B/0c33078695dff4d41bed535c1d9d9c89db947a4c/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

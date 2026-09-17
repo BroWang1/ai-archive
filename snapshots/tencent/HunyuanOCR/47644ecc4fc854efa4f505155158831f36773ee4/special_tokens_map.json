@@ -1,0 +1,29 @@
+{
+  "bos_token": {
+    "content": "<｜hy_begin▁of▁sentence｜>",
+    "lstrip": false,
+    "normalized": false,
+    "rstrip": false,
+    "single_word": false
+  },
+  "eos_token": {
+    "content": "<｜hy_Assistant｜>",
+    "lstrip": false,
+    "normalized": false,
+    "rstrip": false,
+    "single_word": false
+  },
+  "image_end_token": "<｜hy_place▁holder▁no▁101｜>",
+  "image_start_token": "<｜hy_place▁holder▁no▁100｜>",
+  "image_token": "<｜hy_place▁holder▁no▁102｜>",
+  "pad_token": {
+    "content": "<｜hy_▁pad▁｜>",
+    "lstrip": false,
+    "normalized": false,
+    "rstrip": false,
+    "single_word": false
+  },
+  "video_end_token": "<｜hy_place▁holder▁no▁105｜>",
+  "video_start_token": "<｜hy_place▁holder▁no▁104｜>",
+  "video_token": "<｜hy_place▁holder▁no▁665｜>"
+}

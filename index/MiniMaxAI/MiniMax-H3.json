@@ -1,0 +1,1728 @@
+{
+  "repo_id": "MiniMaxAI/MiniMax-H3",
+  "canonical_org": "MiniMaxAI",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "42ed227ee7df40d41602854ae760620d6eb651fe",
+      "captured_at": "2026-09-17T22:37:48Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/MiniMaxAI/MiniMax-H3?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"d384-oYmYYpQ7mKJMu2uLNTtGe5VJ2QY\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "other",
+        "file": "LICENSE",
+        "sha256": "59b99642b95ea21630e311198ddbfffbfe05aadba0c2f5d884cbdf4efcc90f44",
+        "redistributable": null,
+        "obligations": [],
+        "freedom": "conditional",
+        "freedom_note": "Custom license ('other') \u2014 read before redistributing"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1645,
+          "sha256": "e48ce24c550bf9d182505544ba6fd4a105791afb26918e2406b16ee46016a5e5",
+          "kind": "snapshot"
+        },
+        {
+          "path": "FL2VA/audio_vae/config.json",
+          "size": 1973,
+          "sha256": "d8f3bcc62e23c7e9806970fa63cca6139c06faa3797cf9c94034f60db8512771",
+          "kind": "snapshot"
+        },
+        {
+          "path": "FL2VA/audio_vae/config.yaml",
+          "size": 91,
+          "sha256": "259f675c9f71eedc24ca4f23965cd32a1b3878fc894f56664c40328d99831a5e",
+          "kind": "snapshot"
+        },
+        {
+          "path": "FL2VA/audio_vae/dac_activations.py",
+          "size": 2189,
+          "sha256": "74ca8bb9e8039f1ff362ca4219eee5240a7df9502f3dbdc3161d4e86fbd6dc04",
+          "kind": "snapshot"
+        },
+        {
+          "path": "FL2VA/audio_vae/dac_alias_free_act.py",
+          "size": 835,
+          "sha256": "db8761e66c0eaf9fce2dcccb59162d52b22ca0de9f699cf7d21ec7cd507e86fd",
+          "kind": "snapshot"
+        },
+        {
+          "path": "FL2VA/audio_vae/dac_alias_free_filter.py",
+          "size": 3300,
+          "sha256": "a369523cd7f14f4f299d8e2e47f3c473da76ed1910e6e9134fd7a9fce02537e8",
+          "kind": "snapshot"
+        },
+        {
+          "path": "FL2VA/audio_vae/dac_alias_free_resample.py",
+          "size": 1740,
+          "sha256": "fe35055893833c563e42adc5e5882cbe7628c82d48d33c300fcf0a9576997910",
+          "kind": "snapshot"
+        },
+        {
+          "path": "FL2VA/audio_vae/dac_attn_proj.py",
+          "size": 3317,
+          "sha256": "0e04556fa5fd38d4a71e62fcf4d3242fd9a2464fd72ed62baef2ec0980d910c6",
+          "kind": "snapshot"
+        },
+        {
+          "path": "FL2VA/audio_vae/dac_audio_vae.py",
+          "size": 7266,
+          "sha256": "ec04939602d4710d039e83f558a7572547669652f7fa967e3de0a3b6c48cfd48",
+          "kind": "snapshot"
+        },
+        {
+          "path": "FL2VA/audio_vae/dac_bigvgan.py",
+          "size": 7102,
+          "sha256": "f5df4e6f633e74da479549ef7a6d2684964e4b65ac42c6765be42f9c7fcb7bd2",
+          "kind": "snapshot"
+        },
+        {
+          "path": "FL2VA/audio_vae/dac_utils.py",
+          "size": 362,
+          "sha256": "74ef0ba2c2a11ca35a7c0cc166fe88e564de01230000a0bcc8429103312ad9f0",
+          "kind": "snapshot"
+        },
+        {
+          "path": "FL2VA/audio_vae/metadata.json",
+          "size": 440,
+          "sha256": "755d0529d43b2b5c83590f6f44ca659bc68e6a21b01d5669c93e8b2965749bff",
+          "kind": "snapshot"
+        },
+        {
+          "path": "FL2VA/audio_vae/minimax_h3_audio_vae.py",
+          "size": 3532,
+          "sha256": "63bc0dab6def69480cfd77ea820f9a9a84fc4bd6e56868e4f45ec1e1e200578f",
+          "kind": "snapshot"
+        },
+        {
+          "path": "FL2VA/audio_vae/model.safetensors",
+          "size": 605429308,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "FL2VA/model_index.json",
+          "size": 719,
+          "sha256": "d1113e0f123c69f79cd0de35ca1771606ebc3ec924270d257b771f96f584aa6b",
+          "kind": "snapshot"
+        },
+        {
+          "path": "FL2VA/processor/chat_template.json",
+          "size": 5499,
+          "sha256": "5c72a170d2a4a1a3bc5adad2e689ae28138a9700e5b8c96c0266331e86c0acce",
+          "kind": "snapshot"
+        },
+        {
+          "path": "FL2VA/processor/merges.txt",
+          "size": 1671839,
+          "sha256": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3",
+          "kind": "snapshot"
+        },
+        {
+          "path": "FL2VA/processor/preprocessor_config.json",
+          "size": 390,
+          "sha256": "27225450ac9c6529872ee1924fcb0962ff5634834f817040f444118116f4e516",
+          "kind": "snapshot"
+        },
+        {
+          "path": "FL2VA/processor/tokenizer.json",
+          "size": 7032403,
+          "sha256": "a5d85b6dcc535e6b93115a9ef287e6132fdbf30270da6218194ba742261173c7",
+          "kind": "snapshot"
+        },
+        {
+          "path": "FL2VA/processor/tokenizer_config.json",
+          "size": 11003,
+          "sha256": "a07e942ac874baa13758de8d1fbdb186683cc03416b5589e1b6671c6b3057c68",
+          "kind": "snapshot"
+        },
+        {
+          "path": "FL2VA/processor/video_preprocessor_config.json",
+          "size": 385,
+          "sha256": "7768af27c1fafa9cc9011c1dc20067e03f8915e03b63504550e11d5066986d13",
+          "kind": "snapshot"
+        },
+        {
+          "path": "FL2VA/processor/vocab.json",
+          "size": 2776833,
+          "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+          "kind": "snapshot"
+        },
+        {
+          "path": "FL2VA/text_encoder/chat_template.json",
+          "size": 5499,
+          "sha256": "5c72a170d2a4a1a3bc5adad2e689ae28138a9700e5b8c96c0266331e86c0acce",
+          "kind": "snapshot"
+        },
+        {
+          "path": "FL2VA/text_encoder/config.json",
+          "size": 1474,
+          "sha256": "d2dd0c60d01b9e195d9447c52da61c7302d28828524914c044d9c6e1b81d0427",
+          "kind": "snapshot"
+        },
+        {
+          "path": "FL2VA/text_encoder/merges.txt",
+          "size": 1671839,
+          "sha256": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3",
+          "kind": "snapshot"
+        },
+        {
+          "path": "FL2VA/text_encoder/model-00001-of-00014.safetensors",
+          "size": 4932328944,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "FL2VA/text_encoder/model-00002-of-00014.safetensors",
+          "size": 4875990528,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "FL2VA/text_encoder/model-00003-of-00014.safetensors",
+          "size": 4875990552,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "FL2VA/text_encoder/model-00004-of-00014.safetensors",
+          "size": 4875990584,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "FL2VA/text_encoder/model-00005-of-00014.safetensors",
+          "size": 4875990584,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "FL2VA/text_encoder/model-00006-of-00014.safetensors",
+          "size": 4875990584,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "FL2VA/text_encoder/model-00007-of-00014.safetensors",
+          "size": 4875990584,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "FL2VA/text_encoder/model-00008-of-00014.safetensors",
+          "size": 4875990584,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "FL2VA/text_encoder/model-00009-of-00014.safetensors",
+          "size": 4875990584,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "FL2VA/text_encoder/model-00010-of-00014.safetensors",
+          "size": 4875990584,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "FL2VA/text_encoder/model-00011-of-00014.safetensors",
+          "size": 4875990584,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "FL2VA/text_encoder/model-00012-of-00014.safetensors",
+          "size": 4875990584,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "FL2VA/text_encoder/model-00013-of-00014.safetensors",
+          "size": 4875990584,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "FL2VA/text_encoder/model-00014-of-00014.safetensors",
+          "size": 3270697008,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "FL2VA/text_encoder/model.safetensors.index.json",
+          "size": 97831,
+          "sha256": "06c952c569285870b811989b794b9766493e280fb77fbcb957fc4e5fcf25403a",
+          "kind": "snapshot"
+        },
+        {
+          "path": "FL2VA/text_encoder/preprocessor_config.json",
+          "size": 390,
+          "sha256": "27225450ac9c6529872ee1924fcb0962ff5634834f817040f444118116f4e516",
+          "kind": "snapshot"
+        },
+        {
+          "path": "FL2VA/text_encoder/tokenizer.json",
+          "size": 7032403,
+          "sha256": "a5d85b6dcc535e6b93115a9ef287e6132fdbf30270da6218194ba742261173c7",
+          "kind": "snapshot"
+        },
+        {
+          "path": "FL2VA/text_encoder/tokenizer_config.json",
+          "size": 11003,
+          "sha256": "a07e942ac874baa13758de8d1fbdb186683cc03416b5589e1b6671c6b3057c68",
+          "kind": "snapshot"
+        },
+        {
+          "path": "FL2VA/text_encoder/video_preprocessor_config.json",
+          "size": 385,
+          "sha256": "7768af27c1fafa9cc9011c1dc20067e03f8915e03b63504550e11d5066986d13",
+          "kind": "snapshot"
+        },
+        {
+          "path": "FL2VA/text_encoder/vocab.json",
+          "size": 2776833,
+          "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+          "kind": "snapshot"
+        },
+        {
+          "path": "FL2VA/tokenizer/merges.txt",
+          "size": 1671839,
+          "sha256": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3",
+          "kind": "snapshot"
+        },
+        {
+          "path": "FL2VA/tokenizer/tokenizer.json",
+          "size": 7032403,
+          "sha256": "a5d85b6dcc535e6b93115a9ef287e6132fdbf30270da6218194ba742261173c7",
+          "kind": "snapshot"
+        },
+        {
+          "path": "FL2VA/tokenizer/tokenizer_config.json",
+          "size": 11003,
+          "sha256": "a07e942ac874baa13758de8d1fbdb186683cc03416b5589e1b6671c6b3057c68",
+          "kind": "snapshot"
+        },
+        {
+          "path": "FL2VA/tokenizer/vocab.json",
+          "size": 2776833,
+          "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+          "kind": "snapshot"
+        },
+        {
+          "path": "FL2VA/transformer/config.json",
+          "size": 604,
+          "sha256": "f619093a231fcfbcc3d035bec26c50ad864e7331a500d5c519f5045dc1e50458",
+          "kind": "snapshot"
+        },
+        {
+          "path": "FL2VA/transformer/model-00001-of-00013.safetensors",
+          "size": 5227812968,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "FL2VA/transformer/model-00002-of-00013.safetensors",
+          "size": 5164578856,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "FL2VA/transformer/model-00003-of-00013.safetensors",
+          "size": 5164578872,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "FL2VA/transformer/model-00004-of-00013.safetensors",
+          "size": 5164578896,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "FL2VA/transformer/model-00005-of-00013.safetensors",
+          "size": 5164578896,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "FL2VA/transformer/model-00006-of-00013.safetensors",
+          "size": 5164578896,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "FL2VA/transformer/model-00007-of-00013.safetensors",
+          "size": 5164578896,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "FL2VA/transformer/model-00008-of-00013.safetensors",
+          "size": 5164578896,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "FL2VA/transformer/model-00009-of-00013.safetensors",
+          "size": 5164578896,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "FL2VA/transformer/model-00010-of-00013.safetensors",
+          "size": 5164578896,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "FL2VA/transformer/model-00011-of-00013.safetensors",
+          "size": 5164578896,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "FL2VA/transformer/model-00012-of-00013.safetensors",
+          "size": 5164578896,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "FL2VA/transformer/model-00013-of-00013.safetensors",
+          "size": 4242305176,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "FL2VA/transformer/model.safetensors.index.json",
+          "size": 38323,
+          "sha256": "fb457a26ffa6294660e249b0ddd03a337f2e5393f770b5c34c8b8f90a29a7efb",
+          "kind": "snapshot"
+        },
+        {
+          "path": "FL2VA/video_vae/attention.py",
+          "size": 5785,
+          "sha256": "c9db8465c57f0bfb40c0194227be6e34b2c1ff7c5b5d63abca9964eed6283767",
+          "kind": "snapshot"
+        },
+        {
+          "path": "FL2VA/video_vae/base_module.py",
+          "size": 9520,
+          "sha256": "0e7ddf5086179a306298693ac461ffcbc27ccb28dbc786b1a05060de7a3357c0",
+          "kind": "snapshot"
+        },
+        {
+          "path": "FL2VA/video_vae/config.json",
+          "size": 1807,
+          "sha256": "3edd2cdd1ebc823c868be55ef917e1b3b8a398fde4d3150dae44a3bf05d9f627",
+          "kind": "snapshot"
+        },
+        {
+          "path": "FL2VA/video_vae/conv.py",
+          "size": 4487,
+          "sha256": "b3adee35f27e5d372543242aa86ce5e0138f13b794b6c81f919001e3e2346723",
+          "kind": "snapshot"
+        },
+        {
+          "path": "FL2VA/video_vae/flash.py",
+          "size": 5763,
+          "sha256": "c1918463d303a16f278a670bb4f33d3f8d6f7653b0d473313ff5835699b86d04",
+          "kind": "snapshot"
+        },
+        {
+          "path": "FL2VA/video_vae/func.py",
+          "size": 5840,
+          "sha256": "0612c26a65f095699cc7acd51937cd153584fa5a0476956e46a4679aa575c22d",
+          "kind": "snapshot"
+        },
+        {
+          "path": "FL2VA/video_vae/klvae.py",
+          "size": 48594,
+          "sha256": "d05a22b4918ad303f147d6b0d0ae9038bd1af1f810a5553b04f3542ab9bcff96",
+          "kind": "snapshot"
+        },
+        {
+          "path": "FL2VA/video_vae/minimax_h3_video_vae.py",
+          "size": 5123,
+          "sha256": "77fdea69a48485b5434f65d08096657b5d78b78b7cdf24e1241038f237720138",
+          "kind": "snapshot"
+        },
+        {
+          "path": "FL2VA/video_vae/norm.py",
+          "size": 10686,
+          "sha256": "258b120ca8d9a16366d7b811fe93eebf98fe1564db0995e8b7747229c651919a",
+          "kind": "snapshot"
+        },
+        {
+          "path": "FL2VA/video_vae/normalize.py",
+          "size": 1200,
+          "sha256": "8db651acb9eb551c906a2850bbca8e9d851f00d07b30ccf66ceb6057da687a13",
+          "kind": "snapshot"
+        },
+        {
+          "path": "FL2VA/video_vae/parallel.py",
+          "size": 12997,
+          "sha256": "7193522beafd65bc3dbe40b9843e360ab8da3a0bb211e9bfb67bb0d5d0e66919",
+          "kind": "snapshot"
+        },
+        {
+          "path": "FL2VA/video_vae/source/config.json",
+          "size": 1164,
+          "sha256": "66c68f541e6578ce613ce7a0fc985eb59097038829e49f7535e6d08e6d95ab12",
+          "kind": "snapshot"
+        },
+        {
+          "path": "FL2VA/video_vae/source/model.safetensors",
+          "size": 10415548320,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "FL2VA/video_vae/utils.py",
+          "size": 764,
+          "sha256": "309e45e9d9e33cd5516a10eac2d207eb9f940079a6d9bbe0ee80aaaf7eb42dcd",
+          "kind": "snapshot"
+        },
+        {
+          "path": "FL2VA/video_vae/vae_cnn.py",
+          "size": 8836,
+          "sha256": "3949b701e6893bd2ea070cd5b18ed8135a7c21d884290df449b1997212d65b11",
+          "kind": "snapshot"
+        },
+        {
+          "path": "FL2VA/video_vae/vae_module.py",
+          "size": 1884,
+          "sha256": "9558fb302e10a619f198e12e04701c68988e897d0b627f958f33d27fd2a30d94",
+          "kind": "snapshot"
+        },
+        {
+          "path": "FL2VA/video_vae/vae_processor.py",
+          "size": 8369,
+          "sha256": "32870580a1802d9163104a4d68170e35a4772106867181e1bd343dff11f87d2e",
+          "kind": "snapshot"
+        },
+        {
+          "path": "FL2VA/video_vae/vae_vit.py",
+          "size": 13490,
+          "sha256": "a372c28441b56ec2dbc6041dbd6ce2766c64c0e61b2c69a16594a97a11da3f58",
+          "kind": "snapshot"
+        },
+        {
+          "path": "LICENSE",
+          "size": 17604,
+          "sha256": "59b99642b95ea21630e311198ddbfffbfe05aadba0c2f5d884cbdf4efcc90f44",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 38406,
+          "sha256": "f0116a90332496bdfcc827320c603a26b849c73bf804f2674d03682fbbd2334a",
+          "kind": "snapshot"
+        },
+        {
+          "path": "Ref2VA/audio_vae/config.json",
+          "size": 1973,
+          "sha256": "d8f3bcc62e23c7e9806970fa63cca6139c06faa3797cf9c94034f60db8512771",
+          "kind": "snapshot"
+        },
+        {
+          "path": "Ref2VA/audio_vae/config.yaml",
+          "size": 91,
+          "sha256": "259f675c9f71eedc24ca4f23965cd32a1b3878fc894f56664c40328d99831a5e",
+          "kind": "snapshot"
+        },
+        {
+          "path": "Ref2VA/audio_vae/dac_activations.py",
+          "size": 2189,
+          "sha256": "74ca8bb9e8039f1ff362ca4219eee5240a7df9502f3dbdc3161d4e86fbd6dc04",
+          "kind": "snapshot"
+        },
+        {
+          "path": "Ref2VA/audio_vae/dac_alias_free_act.py",
+          "size": 835,
+          "sha256": "db8761e66c0eaf9fce2dcccb59162d52b22ca0de9f699cf7d21ec7cd507e86fd",
+          "kind": "snapshot"
+        },
+        {
+          "path": "Ref2VA/audio_vae/dac_alias_free_filter.py",
+          "size": 3300,
+          "sha256": "a369523cd7f14f4f299d8e2e47f3c473da76ed1910e6e9134fd7a9fce02537e8",
+          "kind": "snapshot"
+        },
+        {
+          "path": "Ref2VA/audio_vae/dac_alias_free_resample.py",
+          "size": 1740,
+          "sha256": "fe35055893833c563e42adc5e5882cbe7628c82d48d33c300fcf0a9576997910",
+          "kind": "snapshot"
+        },
+        {
+          "path": "Ref2VA/audio_vae/dac_attn_proj.py",
+          "size": 3317,
+          "sha256": "0e04556fa5fd38d4a71e62fcf4d3242fd9a2464fd72ed62baef2ec0980d910c6",
+          "kind": "snapshot"
+        },
+        {
+          "path": "Ref2VA/audio_vae/dac_audio_vae.py",
+          "size": 7266,
+          "sha256": "ec04939602d4710d039e83f558a7572547669652f7fa967e3de0a3b6c48cfd48",
+          "kind": "snapshot"
+        },
+        {
+          "path": "Ref2VA/audio_vae/dac_bigvgan.py",
+          "size": 7102,
+          "sha256": "f5df4e6f633e74da479549ef7a6d2684964e4b65ac42c6765be42f9c7fcb7bd2",
+          "kind": "snapshot"
+        },
+        {
+          "path": "Ref2VA/audio_vae/dac_utils.py",
+          "size": 362,
+          "sha256": "74ef0ba2c2a11ca35a7c0cc166fe88e564de01230000a0bcc8429103312ad9f0",
+          "kind": "snapshot"
+        },
+        {
+          "path": "Ref2VA/audio_vae/metadata.json",
+          "size": 440,
+          "sha256": "755d0529d43b2b5c83590f6f44ca659bc68e6a21b01d5669c93e8b2965749bff",
+          "kind": "snapshot"
+        },
+        {
+          "path": "Ref2VA/audio_vae/minimax_h3_audio_vae.py",
+          "size": 3532,
+          "sha256": "63bc0dab6def69480cfd77ea820f9a9a84fc4bd6e56868e4f45ec1e1e200578f",
+          "kind": "snapshot"
+        },
+        {
+          "path": "Ref2VA/audio_vae/model.safetensors",
+          "size": 605429308,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "Ref2VA/model_index.json",
+          "size": 707,
+          "sha256": "b160b13700bf08aea7fce1bc3dd0d3a49ea15036298c50082ec107f87843b90c",
+          "kind": "snapshot"
+        },
+        {
+          "path": "Ref2VA/processor/chat_template.json",
+          "size": 5499,
+          "sha256": "5c72a170d2a4a1a3bc5adad2e689ae28138a9700e5b8c96c0266331e86c0acce",
+          "kind": "snapshot"
+        },
+        {
+          "path": "Ref2VA/processor/merges.txt",
+          "size": 1671839,
+          "sha256": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3",
+          "kind": "snapshot"
+        },
+        {
+          "path": "Ref2VA/processor/preprocessor_config.json",
+          "size": 390,
+          "sha256": "27225450ac9c6529872ee1924fcb0962ff5634834f817040f444118116f4e516",
+          "kind": "snapshot"
+        },
+        {
+          "path": "Ref2VA/processor/tokenizer.json",
+          "size": 7032403,
+          "sha256": "a5d85b6dcc535e6b93115a9ef287e6132fdbf30270da6218194ba742261173c7",
+          "kind": "snapshot"
+        },
+        {
+          "path": "Ref2VA/processor/tokenizer_config.json",
+          "size": 11003,
+          "sha256": "a07e942ac874baa13758de8d1fbdb186683cc03416b5589e1b6671c6b3057c68",
+          "kind": "snapshot"
+        },
+        {
+          "path": "Ref2VA/processor/video_preprocessor_config.json",
+          "size": 385,
+          "sha256": "7768af27c1fafa9cc9011c1dc20067e03f8915e03b63504550e11d5066986d13",
+          "kind": "snapshot"
+        },
+        {
+          "path": "Ref2VA/processor/vocab.json",
+          "size": 2776833,
+          "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+          "kind": "snapshot"
+        },
+        {
+          "path": "Ref2VA/text_encoder/chat_template.json",
+          "size": 5499,
+          "sha256": "5c72a170d2a4a1a3bc5adad2e689ae28138a9700e5b8c96c0266331e86c0acce",
+          "kind": "snapshot"
+        },
+        {
+          "path": "Ref2VA/text_encoder/config.json",
+          "size": 1474,
+          "sha256": "d2dd0c60d01b9e195d9447c52da61c7302d28828524914c044d9c6e1b81d0427",
+          "kind": "snapshot"
+        },
+        {
+          "path": "Ref2VA/text_encoder/merges.txt",
+          "size": 1671839,
+          "sha256": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3",
+          "kind": "snapshot"
+        },
+        {
+          "path": "Ref2VA/text_encoder/model-00001-of-00014.safetensors",
+          "size": 4932328944,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "Ref2VA/text_encoder/model-00002-of-00014.safetensors",
+          "size": 4875990528,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "Ref2VA/text_encoder/model-00003-of-00014.safetensors",
+          "size": 4875990552,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "Ref2VA/text_encoder/model-00004-of-00014.safetensors",
+          "size": 4875990584,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "Ref2VA/text_encoder/model-00005-of-00014.safetensors",
+          "size": 4875990584,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "Ref2VA/text_encoder/model-00006-of-00014.safetensors",
+          "size": 4875990584,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "Ref2VA/text_encoder/model-00007-of-00014.safetensors",
+          "size": 4875990584,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "Ref2VA/text_encoder/model-00008-of-00014.safetensors",
+          "size": 4875990584,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "Ref2VA/text_encoder/model-00009-of-00014.safetensors",
+          "size": 4875990584,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "Ref2VA/text_encoder/model-00010-of-00014.safetensors",
+          "size": 4875990584,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "Ref2VA/text_encoder/model-00011-of-00014.safetensors",
+          "size": 4875990584,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "Ref2VA/text_encoder/model-00012-of-00014.safetensors",
+          "size": 4875990584,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "Ref2VA/text_encoder/model-00013-of-00014.safetensors",
+          "size": 4875990584,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "Ref2VA/text_encoder/model-00014-of-00014.safetensors",
+          "size": 3270697008,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "Ref2VA/text_encoder/model.safetensors.index.json",
+          "size": 97831,
+          "sha256": "06c952c569285870b811989b794b9766493e280fb77fbcb957fc4e5fcf25403a",
+          "kind": "snapshot"
+        },
+        {
+          "path": "Ref2VA/text_encoder/preprocessor_config.json",
+          "size": 390,
+          "sha256": "27225450ac9c6529872ee1924fcb0962ff5634834f817040f444118116f4e516",
+          "kind": "snapshot"
+        },
+        {
+          "path": "Ref2VA/text_encoder/tokenizer.json",
+          "size": 7032403,
+          "sha256": "a5d85b6dcc535e6b93115a9ef287e6132fdbf30270da6218194ba742261173c7",
+          "kind": "snapshot"
+        },
+        {
+          "path": "Ref2VA/text_encoder/tokenizer_config.json",
+          "size": 11003,
+          "sha256": "a07e942ac874baa13758de8d1fbdb186683cc03416b5589e1b6671c6b3057c68",
+          "kind": "snapshot"
+        },
+        {
+          "path": "Ref2VA/text_encoder/video_preprocessor_config.json",
+          "size": 385,
+          "sha256": "7768af27c1fafa9cc9011c1dc20067e03f8915e03b63504550e11d5066986d13",
+          "kind": "snapshot"
+        },
+        {
+          "path": "Ref2VA/text_encoder/vocab.json",
+          "size": 2776833,
+          "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+          "kind": "snapshot"
+        },
+        {
+          "path": "Ref2VA/tokenizer/merges.txt",
+          "size": 1671839,
+          "sha256": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3",
+          "kind": "snapshot"
+        },
+        {
+          "path": "Ref2VA/tokenizer/tokenizer.json",
+          "size": 7032403,
+          "sha256": "a5d85b6dcc535e6b93115a9ef287e6132fdbf30270da6218194ba742261173c7",
+          "kind": "snapshot"
+        },
+        {
+          "path": "Ref2VA/tokenizer/tokenizer_config.json",
+          "size": 11003,
+          "sha256": "a07e942ac874baa13758de8d1fbdb186683cc03416b5589e1b6671c6b3057c68",
+          "kind": "snapshot"
+        },
+        {
+          "path": "Ref2VA/tokenizer/vocab.json",
+          "size": 2776833,
+          "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+          "kind": "snapshot"
+        },
+        {
+          "path": "Ref2VA/transformer/config.json",
+          "size": 604,
+          "sha256": "f619093a231fcfbcc3d035bec26c50ad864e7331a500d5c519f5045dc1e50458",
+          "kind": "snapshot"
+        },
+        {
+          "path": "Ref2VA/transformer/model-00001-of-00013.safetensors",
+          "size": 5227812968,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "Ref2VA/transformer/model-00002-of-00013.safetensors",
+          "size": 5164578856,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "Ref2VA/transformer/model-00003-of-00013.safetensors",
+          "size": 5164578872,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "Ref2VA/transformer/model-00004-of-00013.safetensors",
+          "size": 5164578896,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "Ref2VA/transformer/model-00005-of-00013.safetensors",
+          "size": 5164578896,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "Ref2VA/transformer/model-00006-of-00013.safetensors",
+          "size": 5164578896,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "Ref2VA/transformer/model-00007-of-00013.safetensors",
+          "size": 5164578896,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "Ref2VA/transformer/model-00008-of-00013.safetensors",
+          "size": 5164578896,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "Ref2VA/transformer/model-00009-of-00013.safetensors",
+          "size": 5164578896,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "Ref2VA/transformer/model-00010-of-00013.safetensors",
+          "size": 5164578896,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "Ref2VA/transformer/model-00011-of-00013.safetensors",
+          "size": 5164578896,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "Ref2VA/transformer/model-00012-of-00013.safetensors",
+          "size": 5164578896,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "Ref2VA/transformer/model-00013-of-00013.safetensors",
+          "size": 4242305176,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "Ref2VA/transformer/model.safetensors.index.json",
+          "size": 38323,
+          "sha256": "fb457a26ffa6294660e249b0ddd03a337f2e5393f770b5c34c8b8f90a29a7efb",
+          "kind": "snapshot"
+        },
+        {
+          "path": "Ref2VA/video_vae/attention.py",
+          "size": 5785,
+          "sha256": "c9db8465c57f0bfb40c0194227be6e34b2c1ff7c5b5d63abca9964eed6283767",
+          "kind": "snapshot"
+        },
+        {
+          "path": "Ref2VA/video_vae/base_module.py",
+          "size": 9520,
+          "sha256": "0e7ddf5086179a306298693ac461ffcbc27ccb28dbc786b1a05060de7a3357c0",
+          "kind": "snapshot"
+        },
+        {
+          "path": "Ref2VA/video_vae/config.json",
+          "size": 1807,
+          "sha256": "3edd2cdd1ebc823c868be55ef917e1b3b8a398fde4d3150dae44a3bf05d9f627",
+          "kind": "snapshot"
+        },
+        {
+          "path": "Ref2VA/video_vae/conv.py",
+          "size": 4487,
+          "sha256": "b3adee35f27e5d372543242aa86ce5e0138f13b794b6c81f919001e3e2346723",
+          "kind": "snapshot"
+        },
+        {
+          "path": "Ref2VA/video_vae/flash.py",
+          "size": 5763,
+          "sha256": "c1918463d303a16f278a670bb4f33d3f8d6f7653b0d473313ff5835699b86d04",
+          "kind": "snapshot"
+        },
+        {
+          "path": "Ref2VA/video_vae/func.py",
+          "size": 5840,
+          "sha256": "0612c26a65f095699cc7acd51937cd153584fa5a0476956e46a4679aa575c22d",
+          "kind": "snapshot"
+        },
+        {
+          "path": "Ref2VA/video_vae/klvae.py",
+          "size": 48594,
+          "sha256": "d05a22b4918ad303f147d6b0d0ae9038bd1af1f810a5553b04f3542ab9bcff96",
+          "kind": "snapshot"
+        },
+        {
+          "path": "Ref2VA/video_vae/minimax_h3_video_vae.py",
+          "size": 5123,
+          "sha256": "77fdea69a48485b5434f65d08096657b5d78b78b7cdf24e1241038f237720138",
+          "kind": "snapshot"
+        },
+        {
+          "path": "Ref2VA/video_vae/norm.py",
+          "size": 10686,
+          "sha256": "258b120ca8d9a16366d7b811fe93eebf98fe1564db0995e8b7747229c651919a",
+          "kind": "snapshot"
+        },
+        {
+          "path": "Ref2VA/video_vae/normalize.py",
+          "size": 1200,
+          "sha256": "8db651acb9eb551c906a2850bbca8e9d851f00d07b30ccf66ceb6057da687a13",
+          "kind": "snapshot"
+        },
+        {
+          "path": "Ref2VA/video_vae/parallel.py",
+          "size": 12997,
+          "sha256": "7193522beafd65bc3dbe40b9843e360ab8da3a0bb211e9bfb67bb0d5d0e66919",
+          "kind": "snapshot"
+        },
+        {
+          "path": "Ref2VA/video_vae/source/config.json",
+          "size": 1164,
+          "sha256": "66c68f541e6578ce613ce7a0fc985eb59097038829e49f7535e6d08e6d95ab12",
+          "kind": "snapshot"
+        },
+        {
+          "path": "Ref2VA/video_vae/source/model.safetensors",
+          "size": 10415548320,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "Ref2VA/video_vae/utils.py",
+          "size": 764,
+          "sha256": "309e45e9d9e33cd5516a10eac2d207eb9f940079a6d9bbe0ee80aaaf7eb42dcd",
+          "kind": "snapshot"
+        },
+        {
+          "path": "Ref2VA/video_vae/vae_cnn.py",
+          "size": 8836,
+          "sha256": "3949b701e6893bd2ea070cd5b18ed8135a7c21d884290df449b1997212d65b11",
+          "kind": "snapshot"
+        },
+        {
+          "path": "Ref2VA/video_vae/vae_module.py",
+          "size": 1884,
+          "sha256": "9558fb302e10a619f198e12e04701c68988e897d0b627f958f33d27fd2a30d94",
+          "kind": "snapshot"
+        },
+        {
+          "path": "Ref2VA/video_vae/vae_processor.py",
+          "size": 8369,
+          "sha256": "32870580a1802d9163104a4d68170e35a4772106867181e1bd343dff11f87d2e",
+          "kind": "snapshot"
+        },
+        {
+          "path": "Ref2VA/video_vae/vae_vit.py",
+          "size": 13490,
+          "sha256": "a372c28441b56ec2dbc6041dbd6ce2766c64c0e61b2c69a16594a97a11da3f58",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/fl2va.mp4",
+          "size": 1064614,
+          "sha256": "5a5d6e0fcdda7e6a5d98cb92d9e5cb4b6b0b44d6e1dfd5a370d16dfaa79b9ae6",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/full-arch.png",
+          "size": 420645,
+          "sha256": "5bd8e4077a11a400ab32ed8d8b6cfc81b16fdd0af3fd1716e78544b0e02ed38d",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/h3_direct_2k.mp4",
+          "size": 8946498,
+          "sha256": "cc928dc5f406ca22d66656f98717808fd16ede2bfb5a3483c9b71264a9d74678",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/h3_direct_768p.mp4",
+          "size": 2385173,
+          "sha256": "642e444e8cfa9d3417da69f429598d067bb8123639bbbe462de5687b583ac641",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/i2va.mp4",
+          "size": 1064614,
+          "sha256": "5a5d6e0fcdda7e6a5d98cb92d9e5cb4b6b0b44d6e1dfd5a370d16dfaa79b9ae6",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/i2va_2k.mp4",
+          "size": 3334690,
+          "sha256": "dcfec002e432208a9feeeb90b7867a00c1d6a18ce4707fa94df0930997802840",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/i2va_direct_2k.mp4",
+          "size": 4569735,
+          "sha256": "c3c1eef07982164c7be26a2c8286c14a3f3d15afca94006856d3501873cc7fed",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/i2va_direct_768p.mp4",
+          "size": 1448158,
+          "sha256": "fc73d7633bed7f0125b9219ae97e9f7c75c26176aae82bbb4c5d1576187d96f1",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/minimax-h3.png",
+          "size": 705139,
+          "sha256": "ebf43dfeaca485024b940e4a51e769666ae111badb6ed565ceac2cf3c8ceffd4",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/overview.png",
+          "size": 212889,
+          "sha256": "b32290cdabb1fe08982ecca971b3df7e14b22c661b171db610c1fa66198881b9",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/r2va.mp4",
+          "size": 850734,
+          "sha256": "5c9d33dfc517438c59e93da7b3d0b2a62e3cf69bc2adb7d1b2d33d7d8df7161f",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/r2va_2k.mp4",
+          "size": 2788329,
+          "sha256": "c3c96ce2bcd22b61ca65974c1a071b1659398644416cae2609f1ba026bd3ce35",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/r2va_direct_2k.mp4",
+          "size": 3134612,
+          "sha256": "26f07ac79f8731360790ae1f046ab9d78ba0b3ba5fe84f61578696856bbec993",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/r2va_direct_768p.mp4",
+          "size": 1121153,
+          "sha256": "9b940b139d164be8b4cf310143869b2f85054808d0d496ea7de62e848d8a2445",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/ref2va.mp4",
+          "size": 850734,
+          "sha256": "5c9d33dfc517438c59e93da7b3d0b2a62e3cf69bc2adb7d1b2d33d7d8df7161f",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/t2va.mp4",
+          "size": 1637373,
+          "sha256": "d66903241362e224085cc93f7a5e70fba6ab378d0ac6ff6af83acf2559849a42",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/t2va_2k.mp4",
+          "size": 6000926,
+          "sha256": "6624095cbda8953606b39a763b7988bd2c183e0469e2e3c3e1be2eba5a022023",
+          "kind": "snapshot"
+        },
+        {
+          "path": "audio_scheduler/scheduler_config.json",
+          "size": 96,
+          "sha256": "804780f7133477067bd6bbfbc02dc8b3cf9feeb400f97c08f5b1d5f6cbab3840",
+          "kind": "snapshot"
+        },
+        {
+          "path": "audio_vae/config.json",
+          "size": 2271,
+          "sha256": "9a3c645ff892b376c6f5f4c8685964cd75474731af594ff058492a0000caabb6",
+          "kind": "snapshot"
+        },
+        {
+          "path": "audio_vae/diffusion_pytorch_model.safetensors",
+          "size": 605429340,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "docs/QA-about-License.md",
+          "size": 3917,
+          "sha256": "c39dcfc5dc3e546918509b57709db826a9b1945311bffaa01e80501101b8abe4",
+          "kind": "snapshot"
+        },
+        {
+          "path": "docs/VIDEO_PROMPT_WRITING_GUIDE_base_en.md",
+          "size": 15773,
+          "sha256": "2cfebc096a6e08370f288d468d90b60f7f9bcb938f94bf090816e910e48e75fc",
+          "kind": "snapshot"
+        },
+        {
+          "path": "docs/VIDEO_PROMPT_WRITING_GUIDE_ref_en.md",
+          "size": 23553,
+          "sha256": "1e574f356716ad55612247ffb7bbccbcdb484ad96599d63c7dca1af186b1fab7",
+          "kind": "snapshot"
+        },
+        {
+          "path": "model_index.json",
+          "size": 2936,
+          "sha256": "5a587fe13b2371427415ac892463142683aefcd8d322e274a3a095eac37ac7d2",
+          "kind": "snapshot"
+        },
+        {
+          "path": "modular_model_index.json",
+          "size": 2935,
+          "sha256": "a2b6a210e482ffb78e613b553f570c44e101afce6741bd4ed91429d0559af031",
+          "kind": "snapshot"
+        },
+        {
+          "path": "processor/chat_template.json",
+          "size": 5499,
+          "sha256": "5c72a170d2a4a1a3bc5adad2e689ae28138a9700e5b8c96c0266331e86c0acce",
+          "kind": "snapshot"
+        },
+        {
+          "path": "processor/merges.txt",
+          "size": 1671839,
+          "sha256": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3",
+          "kind": "snapshot"
+        },
+        {
+          "path": "processor/preprocessor_config.json",
+          "size": 390,
+          "sha256": "27225450ac9c6529872ee1924fcb0962ff5634834f817040f444118116f4e516",
+          "kind": "snapshot"
+        },
+        {
+          "path": "processor/tokenizer.json",
+          "size": 7032403,
+          "sha256": "a5d85b6dcc535e6b93115a9ef287e6132fdbf30270da6218194ba742261173c7",
+          "kind": "snapshot"
+        },
+        {
+          "path": "processor/tokenizer_config.json",
+          "size": 11003,
+          "sha256": "a07e942ac874baa13758de8d1fbdb186683cc03416b5589e1b6671c6b3057c68",
+          "kind": "snapshot"
+        },
+        {
+          "path": "processor/video_preprocessor_config.json",
+          "size": 385,
+          "sha256": "7768af27c1fafa9cc9011c1dc20067e03f8915e03b63504550e11d5066986d13",
+          "kind": "snapshot"
+        },
+        {
+          "path": "processor/vocab.json",
+          "size": 2776833,
+          "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+          "kind": "snapshot"
+        },
+        {
+          "path": "scheduler/scheduler_config.json",
+          "size": 97,
+          "sha256": "8fa6c3aa70dc9e691e1a6df899fd1b6f75f70481a27cee6e18a303817075c304",
+          "kind": "snapshot"
+        },
+        {
+          "path": "scripts/readme/full-2k-i2va-h3-base.sh",
+          "size": 1166,
+          "sha256": "d7d9a3f7d0dd90b6799acdc07e6c7c300f721db65ca9cda9bb84e5c0b9589165",
+          "kind": "snapshot"
+        },
+        {
+          "path": "scripts/readme/full-2k-i2va-h3-context-ir.sh",
+          "size": 1252,
+          "sha256": "fc04f15349e80cc21c21dd2ce794721ef670e522caf6f76745177773ed7e6ab6",
+          "kind": "snapshot"
+        },
+        {
+          "path": "scripts/readme/full-2k-i2va-h3-regenerate-2k.sh",
+          "size": 1566,
+          "sha256": "b66701da7bdb003cca5362b7ff9e98bbd3f533155e7b434ffc5a52626fc7d8b5",
+          "kind": "snapshot"
+        },
+        {
+          "path": "scripts/readme/full-2k-i2va-reference-2k-result-by-directly-calling-open-platform-api.sh",
+          "size": 1342,
+          "sha256": "51668e6d753328b9bcdc3a80d32c686e3f0d3954cd1643e9d2f63df11ea440a0",
+          "kind": "snapshot"
+        },
+        {
+          "path": "scripts/readme/full-2k-i2va-reference-768p-result-by-directly-calling-open-platform-api.sh",
+          "size": 1350,
+          "sha256": "a5db59db6b23b89f23dce182623b8b48bf9130da1baea50741b7cace5ff328f9",
+          "kind": "snapshot"
+        },
+        {
+          "path": "scripts/readme/full-2k-ref2va-h3-api-2k-in-open-platform-for-reference.sh",
+          "size": 1744,
+          "sha256": "caec8a2aaa523d5bcf466d9ddcb3dcbe8f2557ffddd531a158d28dc81768f7d1",
+          "kind": "snapshot"
+        },
+        {
+          "path": "scripts/readme/full-2k-ref2va-h3-base.sh",
+          "size": 1456,
+          "sha256": "a7fcd7ac1bba8924199e7cac99e01d2fae826ac5ccda21948c1216f9b9f09c84",
+          "kind": "snapshot"
+        },
+        {
+          "path": "scripts/readme/full-2k-ref2va-h3-context-ir.sh",
+          "size": 1654,
+          "sha256": "8ad994259735861f8282c125ff1425f1732f56786b7c061cc41994ab88f1454b",
+          "kind": "snapshot"
+        },
+        {
+          "path": "scripts/readme/full-2k-ref2va-reference-2k-result-by-directly-calling-open-platform-api.sh",
+          "size": 1923,
+          "sha256": "2dbfe2718937428d8b25827ed4cb23606301181a0e4fef53350a8f344a38823c",
+          "kind": "snapshot"
+        },
+        {
+          "path": "scripts/readme/full-2k-ref2va-reference-768p-result-by-directly-calling-open-platform-api.sh",
+          "size": 1752,
+          "sha256": "ae5ab4330dbf3150a91caeddfcbdd97e7ef996247401ec35a78221c317aecd68",
+          "kind": "snapshot"
+        },
+        {
+          "path": "scripts/readme/full-2k-t2va-h3-base.sh",
+          "size": 906,
+          "sha256": "1281d8f4f65356a56851d8e562250ca76a2193591e41d02a41f813615225834c",
+          "kind": "snapshot"
+        },
+        {
+          "path": "scripts/readme/full-2k-t2va-h3-context-ir.sh",
+          "size": 1100,
+          "sha256": "910f5ae62ee78e587abeec22f2e35fe10313d664c4a0d170990cb0f8f03201c3",
+          "kind": "snapshot"
+        },
+        {
+          "path": "scripts/readme/full-2k-t2va-h3-regenerate-2k.sh",
+          "size": 1294,
+          "sha256": "a285529b8840f9766530196843125118030d14326170626864b71bd8f8932415",
+          "kind": "snapshot"
+        },
+        {
+          "path": "scripts/readme/full-2k-t2va-reference-2k-result-by-directly-calling-open-platform-api.sh",
+          "size": 1182,
+          "sha256": "8b7a9a9951d15fde9b3c4a09086bc2a644d39ac86b24acb9afb1247975e93a64",
+          "kind": "snapshot"
+        },
+        {
+          "path": "scripts/readme/full-2k-t2va-reference-768p-result-by-directly-calling-open-platform-api.sh",
+          "size": 1190,
+          "sha256": "6459f593f3a6d2fba57cb1dad5528375483080304e13103c142022c389aae898",
+          "kind": "snapshot"
+        },
+        {
+          "path": "scripts/readme/reproducible-768p-fl2va-request.sh",
+          "size": 5718,
+          "sha256": "82d1c06897da37e5976ae8f58cc1833ed04e92559aebe9f9578e0a890d2a8cb5",
+          "kind": "snapshot"
+        },
+        {
+          "path": "scripts/readme/reproducible-768p-ref2va-request.sh",
+          "size": 5047,
+          "sha256": "73ea0e5cc94440b2e8955dc0703a07e3c691d62967c481f5d9b3e92391fc882a",
+          "kind": "snapshot"
+        },
+        {
+          "path": "scripts/readme/reproducible-768p-t2va-request.sh",
+          "size": 3425,
+          "sha256": "78bfe72365f27a53d145d0ddbf1c422de3cfe075e6558998cc7e01d7d41cdab1",
+          "kind": "snapshot"
+        },
+        {
+          "path": "text_encoder/chat_template.json",
+          "size": 5499,
+          "sha256": "5c72a170d2a4a1a3bc5adad2e689ae28138a9700e5b8c96c0266331e86c0acce",
+          "kind": "snapshot"
+        },
+        {
+          "path": "text_encoder/config.json",
+          "size": 1474,
+          "sha256": "d2dd0c60d01b9e195d9447c52da61c7302d28828524914c044d9c6e1b81d0427",
+          "kind": "snapshot"
+        },
+        {
+          "path": "text_encoder/merges.txt",
+          "size": 1671839,
+          "sha256": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3",
+          "kind": "snapshot"
+        },
+        {
+          "path": "text_encoder/model-00001-of-00014.safetensors",
+          "size": 4932328944,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "text_encoder/model-00002-of-00014.safetensors",
+          "size": 4875990528,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "text_encoder/model-00003-of-00014.safetensors",
+          "size": 4875990552,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "text_encoder/model-00004-of-00014.safetensors",
+          "size": 4875990584,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "text_encoder/model-00005-of-00014.safetensors",
+          "size": 4875990584,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "text_encoder/model-00006-of-00014.safetensors",
+          "size": 4875990584,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "text_encoder/model-00007-of-00014.safetensors",
+          "size": 4875990584,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "text_encoder/model-00008-of-00014.safetensors",
+          "size": 4875990584,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "text_encoder/model-00009-of-00014.safetensors",
+          "size": 4875990584,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "text_encoder/model-00010-of-00014.safetensors",
+          "size": 4875990584,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "text_encoder/model-00011-of-00014.safetensors",
+          "size": 4875990584,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "text_encoder/model-00012-of-00014.safetensors",
+          "size": 4875990584,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "text_encoder/model-00013-of-00014.safetensors",
+          "size": 4875990584,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "text_encoder/model-00014-of-00014.safetensors",
+          "size": 3270697008,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "text_encoder/model.safetensors.index.json",
+          "size": 97831,
+          "sha256": "06c952c569285870b811989b794b9766493e280fb77fbcb957fc4e5fcf25403a",
+          "kind": "snapshot"
+        },
+        {
+          "path": "text_encoder/preprocessor_config.json",
+          "size": 390,
+          "sha256": "27225450ac9c6529872ee1924fcb0962ff5634834f817040f444118116f4e516",
+          "kind": "snapshot"
+        },
+        {
+          "path": "text_encoder/tokenizer.json",
+          "size": 7032403,
+          "sha256": "a5d85b6dcc535e6b93115a9ef287e6132fdbf30270da6218194ba742261173c7",
+          "kind": "snapshot"
+        },
+        {
+          "path": "text_encoder/tokenizer_config.json",
+          "size": 11003,
+          "sha256": "a07e942ac874baa13758de8d1fbdb186683cc03416b5589e1b6671c6b3057c68",
+          "kind": "snapshot"
+        },
+        {
+          "path": "text_encoder/video_preprocessor_config.json",
+          "size": 385,
+          "sha256": "7768af27c1fafa9cc9011c1dc20067e03f8915e03b63504550e11d5066986d13",
+          "kind": "snapshot"
+        },
+        {
+          "path": "text_encoder/vocab.json",
+          "size": 2776833,
+          "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer/merges.txt",
+          "size": 1671839,
+          "sha256": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer/tokenizer.json",
+          "size": 7032403,
+          "sha256": "a5d85b6dcc535e6b93115a9ef287e6132fdbf30270da6218194ba742261173c7",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer/tokenizer_config.json",
+          "size": 11003,
+          "sha256": "a07e942ac874baa13758de8d1fbdb186683cc03416b5589e1b6671c6b3057c68",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer/vocab.json",
+          "size": 2776833,
+          "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+          "kind": "snapshot"
+        },
+        {
+          "path": "transformer/config.json",
+          "size": 546,
+          "sha256": "74c11bff524336576096993cbfcdcdc2ef4fa2fa4409df693bdcbc6c666282ae",
+          "kind": "snapshot"
+        },
+        {
+          "path": "transformer/diffusion_pytorch_model-00001-of-00014.safetensors",
+          "size": 4825958704,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "transformer/diffusion_pytorch_model-00002-of-00014.safetensors",
+          "size": 4702158032,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "transformer/diffusion_pytorch_model-00003-of-00014.safetensors",
+          "size": 4933368192,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "transformer/diffusion_pytorch_model-00004-of-00014.safetensors",
+          "size": 4567069608,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "transformer/diffusion_pytorch_model-00005-of-00014.safetensors",
+          "size": 4702158080,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "transformer/diffusion_pytorch_model-00006-of-00014.safetensors",
+          "size": 4933368232,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "transformer/diffusion_pytorch_model-00007-of-00014.safetensors",
+          "size": 4567069608,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "transformer/diffusion_pytorch_model-00008-of-00014.safetensors",
+          "size": 4702158080,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "transformer/diffusion_pytorch_model-00009-of-00014.safetensors",
+          "size": 4933368232,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "transformer/diffusion_pytorch_model-00010-of-00014.safetensors",
+          "size": 4567069608,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "transformer/diffusion_pytorch_model-00011-of-00014.safetensors",
+          "size": 4702158080,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "transformer/diffusion_pytorch_model-00012-of-00014.safetensors",
+          "size": 4933368232,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "transformer/diffusion_pytorch_model-00013-of-00014.safetensors",
+          "size": 4567069608,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "transformer/diffusion_pytorch_model-00014-of-00014.safetensors",
+          "size": 4644161920,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "transformer/diffusion_pytorch_model.safetensors.index.json",
+          "size": 64488,
+          "sha256": "ac30a3b58963f2e735d493475fbb81853a5735ec947619648b3e045acda6783e",
+          "kind": "snapshot"
+        },
+        {
+          "path": "transformer_ref/config.json",
+          "size": 546,
+          "sha256": "74c11bff524336576096993cbfcdcdc2ef4fa2fa4409df693bdcbc6c666282ae",
+          "kind": "snapshot"
+        },
+        {
+          "path": "transformer_ref/diffusion_pytorch_model-00001-of-00014.safetensors",
+          "size": 4825958704,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "transformer_ref/diffusion_pytorch_model-00002-of-00014.safetensors",
+          "size": 4702158032,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "transformer_ref/diffusion_pytorch_model-00003-of-00014.safetensors",
+          "size": 4933368192,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "transformer_ref/diffusion_pytorch_model-00004-of-00014.safetensors",
+          "size": 4567069608,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "transformer_ref/diffusion_pytorch_model-00005-of-00014.safetensors",
+          "size": 4702158080,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "transformer_ref/diffusion_pytorch_model-00006-of-00014.safetensors",
+          "size": 4933368232,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "transformer_ref/diffusion_pytorch_model-00007-of-00014.safetensors",
+          "size": 4567069608,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "transformer_ref/diffusion_pytorch_model-00008-of-00014.safetensors",
+          "size": 4702158080,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "transformer_ref/diffusion_pytorch_model-00009-of-00014.safetensors",
+          "size": 4933368232,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "transformer_ref/diffusion_pytorch_model-00010-of-00014.safetensors",
+          "size": 4567069608,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "transformer_ref/diffusion_pytorch_model-00011-of-00014.safetensors",
+          "size": 4702158080,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "transformer_ref/diffusion_pytorch_model-00012-of-00014.safetensors",
+          "size": 4933368232,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "transformer_ref/diffusion_pytorch_model-00013-of-00014.safetensors",
+          "size": 4567069608,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "transformer_ref/diffusion_pytorch_model-00014-of-00014.safetensors",
+          "size": 4644161920,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "transformer_ref/diffusion_pytorch_model.safetensors.index.json",
+          "size": 64488,
+          "sha256": "ac30a3b58963f2e735d493475fbb81853a5735ec947619648b3e045acda6783e",
+          "kind": "snapshot"
+        },
+        {
+          "path": "vae/config.json",
+          "size": 2011,
+          "sha256": "78f67deec3d63aae807f2bfe7154bc1e26f6372cb20b63265fcbae1b62bb5745",
+          "kind": "snapshot"
+        },
+        {
+          "path": "vae/diffusion_pytorch_model-00001-of-00003.safetensors",
+          "size": 5061033024,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "vae/diffusion_pytorch_model-00002-of-00003.safetensors",
+          "size": 4955986528,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "vae/diffusion_pytorch_model-00003-of-00003.safetensors",
+          "size": 398539336,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "vae/diffusion_pytorch_model.safetensors.index.json",
+          "size": 74228,
+          "sha256": "15f6d44553c3c616b0dc999920aa784f92ecee7e4201f1f99ac405cfbf3061ca",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 498474749480,
+      "weight_bytes": 498329662404,
+      "snapshot_dir": "snapshots/MiniMaxAI/MiniMax-H3/42ed227ee7df40d41602854ae760620d6eb651fe/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

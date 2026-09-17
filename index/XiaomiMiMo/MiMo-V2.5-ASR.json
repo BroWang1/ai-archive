@@ -1,0 +1,180 @@
+{
+  "repo_id": "XiaomiMiMo/MiMo-V2.5-ASR",
+  "canonical_org": "XiaomiMiMo",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "98641d537df521ac6df05f74090475694d9510b7",
+      "captured_at": "2026-09-17T22:47:30Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/XiaomiMiMo/MiMo-V2.5-ASR?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"3543-l888zGt8nfHeaVvDgTjj3UzddlA\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "mit",
+        "file": null,
+        "sha256": null,
+        "redistributable": null,
+        "obligations": [],
+        "freedom": "conditional",
+        "freedom_note": "'mit' card tag but NO license file in repo \u2014 unverifiable, confirm upstream"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1753,
+          "sha256": "aa0a800ed0db670804b3e88bf0511b57228bffa1490de17bb39c8dbf8ffc3e4d",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 8022,
+          "sha256": "c4ce7a248d5857bd8acfb23d159b592bfa325026976a7434f27b05f140a2fdc9",
+          "kind": "snapshot"
+        },
+        {
+          "path": "added_tokens.json",
+          "size": 788,
+          "sha256": "45a03de178f22795c611428bf0798d9acaa9792bb8484870b7e8dab8ad34e0c3",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/MiMo_ASR_Demo.png",
+          "size": 73207,
+          "sha256": "d4e1433c408a52a626214463ebd449b403128072064615b82cc207cf03f813e8",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/MiMo_ASR_Results.png",
+          "size": 449363,
+          "sha256": "2c3f5148a5040f323e96158703ad44f6854bff72bbad7a656b8a526a6404972c",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/XiaomiMIMO.png",
+          "size": 289565,
+          "sha256": "89cf9afd532aa29697d65880b1f0dcb4f3286289eb3e8d697c46f32545cf1444",
+          "kind": "snapshot"
+        },
+        {
+          "path": "chat_template.jinja",
+          "size": 8467,
+          "sha256": "e63cd39d862e28059a94632cba03160eeb15c771bf7e0abd76f29db4eaa0b793",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 2787,
+          "sha256": "1bfaf8285e1e1f5e78035d223457749424950efa847f1cd02aa8828c1771bfeb",
+          "kind": "snapshot"
+        },
+        {
+          "path": "generation_config.json",
+          "size": 77,
+          "sha256": "575fff5a84761eea35265538cff4609365ca06355b064a44f16d7ab457ef73da",
+          "kind": "snapshot"
+        },
+        {
+          "path": "merges.txt",
+          "size": 1671853,
+          "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5",
+          "kind": "snapshot"
+        },
+        {
+          "path": "model-00001-of-00007.safetensors",
+          "size": 4959966216,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00002-of-00007.safetensors",
+          "size": 4962272576,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00003-of-00007.safetensors",
+          "size": 4962272648,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00004-of-00007.safetensors",
+          "size": 4962272648,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00005-of-00007.safetensors",
+          "size": 4962272648,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00006-of-00007.safetensors",
+          "size": 3196344216,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00007-of-00007.safetensors",
+          "size": 4069034792,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model.safetensors.index.json",
+          "size": 62265,
+          "sha256": "6e890bcef1b854b9b4da575f4c7490770fcb5aa1740fd3421877b5517eef2684",
+          "kind": "snapshot"
+        },
+        {
+          "path": "special_tokens_map.json",
+          "size": 616,
+          "sha256": "6676f091c8bc4d1b50146427cfde92073402866b87b6e39223227931b70083e9",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer.json",
+          "size": 11423383,
+          "sha256": "d91a78cce6441fd6855038f6764fc5f811ae949d9b89f43ac326cddfe91c66db",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 6092,
+          "sha256": "fcd8ec17c91cd380f6c2e78bc409463949a546db1fd4182ee50856895f20115d",
+          "kind": "snapshot"
+        },
+        {
+          "path": "vocab.json",
+          "size": 2776833,
+          "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 32091210815,
+      "weight_bytes": 32074435744,
+      "snapshot_dir": "snapshots/XiaomiMiMo/MiMo-V2.5-ASR/98641d537df521ac6df05f74090475694d9510b7/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

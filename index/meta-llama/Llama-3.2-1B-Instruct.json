@@ -1,0 +1,126 @@
+{
+  "repo_id": "meta-llama/Llama-3.2-1B-Instruct",
+  "canonical_org": "meta-llama",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "9213176726f574b556790deb65791e0c5aa438b6",
+      "captured_at": "2026-09-17T22:54:56Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/meta-llama/Llama-3.2-1B-Instruct?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"6078-7iW9K6g2gd7f9BKa2ZYA15lP/+M\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "llama3.2",
+        "file": "LICENSE.txt",
+        "sha256": "0b4284c1f87029e67654c7953afa16279961632cf73dcfe33374c4c2f298fa35",
+        "redistributable": null,
+        "obligations": [],
+        "freedom": "restricted",
+        "freedom_note": "Gated repo: access requires accepting the author's terms"
+      },
+      "gate_terms_sha256": "db43f8c8574aa6151261de092a655448f3b89a4890c28348f55a72de164c20b4",
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1519,
+          "sha256": null,
+          "kind": "gated-no-snapshot"
+        },
+        {
+          "path": "LICENSE.txt",
+          "size": 7712,
+          "sha256": "0b4284c1f87029e67654c7953afa16279961632cf73dcfe33374c4c2f298fa35",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 41742,
+          "sha256": "18564977261167ff9f76d8ee3a94c8d1cc59c0e143ba054f1187744086004a93",
+          "kind": "snapshot"
+        },
+        {
+          "path": "USE_POLICY.md",
+          "size": 6021,
+          "sha256": null,
+          "kind": "gated-no-snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 877,
+          "sha256": null,
+          "kind": "gated-no-snapshot"
+        },
+        {
+          "path": "generation_config.json",
+          "size": 189,
+          "sha256": null,
+          "kind": "gated-no-snapshot"
+        },
+        {
+          "path": "model.safetensors",
+          "size": 2471645608,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "original/consolidated.00.pth",
+          "size": 2471677246,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "original/params.json",
+          "size": 220,
+          "sha256": null,
+          "kind": "gated-no-snapshot"
+        },
+        {
+          "path": "original/tokenizer.model",
+          "size": 2183982,
+          "sha256": null,
+          "kind": "gated-no-snapshot"
+        },
+        {
+          "path": "special_tokens_map.json",
+          "size": 296,
+          "sha256": null,
+          "kind": "gated-no-snapshot"
+        },
+        {
+          "path": "tokenizer.json",
+          "size": 9085657,
+          "sha256": null,
+          "kind": "gated-no-snapshot"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 54528,
+          "sha256": null,
+          "kind": "gated-no-snapshot"
+        }
+      ],
+      "total_bytes": 4954705597,
+      "weight_bytes": 4943322854,
+      "snapshot_dir": "snapshots/meta-llama/Llama-3.2-1B-Instruct/9213176726f574b556790deb65791e0c5aa438b6/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}
