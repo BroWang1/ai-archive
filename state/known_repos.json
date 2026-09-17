@@ -940,6 +940,7 @@
       "internlm/AlchemistCoder-DS-6.7B",
       "internlm/AlchemistCoder-L-7B",
       "internlm/Atria-Dawn-Preview",
+      "internlm/Atria-Dawn-Preview-Ascend-w8a8",
       "internlm/Atria-Dawn-Preview-FP8",
       "internlm/CapRL-3B",
       "internlm/CapRL-Eval-3B",
@@ -1791,5 +1792,5 @@
     ]
   },
   "first_run_done": true,
-  "last_run": "2026-09-14T14:24:14Z"
+  "last_run": "2026-09-17T12:46:30Z"
 }
