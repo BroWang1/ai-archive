@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kalm-t5gemma2-vllm-plugin"
+version = "0.1.0"
+description = "vLLM 0.19.1 adapter for KaLM-Reranker-V1-Nano"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+license = {text = "Apache-2.0"}
+dependencies = [
+    "transformers==5.6.2",
+    "vllm==0.19.1",
+]
+
+[project.optional-dependencies]
+online = [
+    "fastapi>=0.136,<0.137",
+    "uvicorn>=0.46,<0.47",
+]
+
+[project.entry-points."vllm.general_plugins"]
+kalm_t5gemma2 = "kalm_t5gemma2_vllm_plugin.register:register"
+
+[project.scripts]
+kalm-vllm-rerank = "kalm_t5gemma2_vllm_plugin.cli:main"
+kalm-vllm-serve = "kalm_t5gemma2_vllm_plugin.server:main"
+kalm-vllm-client = "kalm_t5gemma2_vllm_plugin.client:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+

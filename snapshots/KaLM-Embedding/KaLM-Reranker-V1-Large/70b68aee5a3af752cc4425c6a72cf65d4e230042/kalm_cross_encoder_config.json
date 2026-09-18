@@ -1,0 +1,6 @@
+{
+  "query_max_length": 512,
+  "document_max_length": 1024,
+  "encoder_chunk_size": 4,
+  "system_instruction": "Judge whether the Document meets the requirements based on the Query and the Instruct provided. Note that the answer can only be \"yes\" or \"no\"."
+}

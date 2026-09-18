@@ -1,0 +1,10 @@
+{
+  "query": "What is the capital of China?",
+  "documents": [
+    "The capital of China is Beijing.",
+    "Gravity attracts bodies toward one another."
+  ],
+  "instruction": "Given a query, retrieve documents that answer the query.",
+  "top_k": null,
+  "return_margin": false
+}

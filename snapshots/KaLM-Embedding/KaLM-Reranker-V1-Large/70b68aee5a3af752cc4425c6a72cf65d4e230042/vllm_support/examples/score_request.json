@@ -1,0 +1,16 @@
+{
+  "pairs": [
+    {
+      "id": "positive",
+      "query": "What is the capital of China?",
+      "document": "The capital of China is Beijing."
+    },
+    {
+      "id": "negative",
+      "query": "What is the capital of China?",
+      "document": "Gravity attracts bodies toward one another."
+    }
+  ],
+  "instruction": null,
+  "return_margin": false
+}

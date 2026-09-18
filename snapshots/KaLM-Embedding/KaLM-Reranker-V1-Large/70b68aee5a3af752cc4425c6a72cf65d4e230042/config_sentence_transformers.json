@@ -1,0 +1,13 @@
+{
+  "model_type": "CrossEncoder",
+  "__version__": {
+    "sentence_transformers": "5.6.0",
+    "transformers": "5.3.0",
+    "pytorch": "2.6.0"
+  },
+  "prompts": {
+    "retrieval": "Given a query, retrieve documents that answer the query."
+  },
+  "default_prompt_name": "retrieval",
+  "activation_fn": "torch.nn.modules.activation.Sigmoid"
+}
