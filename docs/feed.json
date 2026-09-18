@@ -6,284 +6,284 @@
  "description": "Captures, mirrors, takedown alerts and radar signals for open-weight AI models",
  "items": [
   {
-   "id": "2026-09-18T10:38:34Z-3670194185",
+   "id": "2026-09-18T19:50:54Z-3083556827",
+   "title": "This week aiarchive.info captured 152 open-weight model repos and mirrored 15 of them for long-term preservation. New captures span major Chinese labs including Qwen (Qwen3.5, Qwen3-VL, Qwen3-Embedding, Qwen-Image), DeepSeek (V3.2, V4-Flash, DeepSeek-OCR), Tencent Hunyuan, MiniMax, Moonshot Kimi, and zai-org GLM, alongside international releases from OpenAI, Meta, Mistral, and Google. Mirrored copies include Baichuan-M3-235B, Yi-6B/34B variants, Seed-OSS-36B, and DeepSeek-V3.2-Exp, ensuring these weights remain downloadable independent of their original hosts.",
+   "date_published": "2026-09-18T19:50:54Z",
+   "url": "https://github.com/BroWang1/ai-archive/issues",
+   "content_text": "This week aiarchive.info captured 152 open-weight model repos and mirrored 15 of them for long-term preservation. New captures span major Chinese labs including Qwen (Qwen3.5, Qwen3-VL, Qwen3-Embedding, Qwen-Image), DeepSeek (V3.2, V4-Flash, DeepSeek-OCR), Tencent Hunyuan, MiniMax, Moonshot Kimi, and zai-org GLM, alongside international releases from OpenAI, Meta, Mistral, and Google. Mirrored copies include Baichuan-M3-235B, Yi-6B/34B variants, Seed-OSS-36B, and DeepSeek-V3.2-Exp, ensuring these weights remain downloadable independent of their original hosts."
+  },
+  {
+   "id": "2026-09-18T10:38:34Z-687438506",
    "title": "This week aiarchive.info captured 162 open-weight model repos, including new entries from Qwen (Qwen3.6-27B, Qwen3.6-35B-A3B, Qwen3-ASR-1.7B), DeepSeek (DeepSeek-V4-Flash, DeepSeek-OCR-2, DeepSeek-Math-V2), and MiniMax (MiniMax-M3, MiniMax-M3-MXFP8, MiniMax-H3). 15 repos were mirrored, among them Baichuan-M3-235B, DeepSeek-V3.2-Exp, and several Yi and Seed-OSS checkpoints. No alerts or radar signals were recorded this week.",
    "date_published": "2026-09-18T10:38:34Z",
    "url": "https://github.com/BroWang1/ai-archive/issues",
    "content_text": "This week aiarchive.info captured 162 open-weight model repos, including new entries from Qwen (Qwen3.6-27B, Qwen3.6-35B-A3B, Qwen3-ASR-1.7B), DeepSeek (DeepSeek-V4-Flash, DeepSeek-OCR-2, DeepSeek-Math-V2), and MiniMax (MiniMax-M3, MiniMax-M3-MXFP8, MiniMax-H3). 15 repos were mirrored, among them Baichuan-M3-235B, DeepSeek-V3.2-Exp, and several Yi and Seed-OSS checkpoints. No alerts or radar signals were recorded this week."
   },
   {
-   "id": "2026-09-18T09:03:00Z-851919945",
+   "id": "2026-09-18T09:03:00Z-459232436",
    "title": "This week aiarchive.info captured 168 open-weight model repos and mirrored 15, with no alerts or radar signals. Captured families include Qwen (Qwen3.5, Qwen3-VL, Qwen3-Embedding, Qwen-Image), DeepSeek (V3.2, V4-Flash, OCR), Tencent Hunyuan, Xiaomi MiMo, MiniMax, and Wan video models. Mirrored copies now include Baichuan-M3-235B, Yi-6B/34B, Seed-OSS-36B, Qwen3-8B, and DeepSeek-V3.2-Exp.",
    "date_published": "2026-09-18T09:03:00Z",
    "url": "https://github.com/BroWang1/ai-archive/issues",
    "content_text": "This week aiarchive.info captured 168 open-weight model repos and mirrored 15, with no alerts or radar signals. Captured families include Qwen (Qwen3.5, Qwen3-VL, Qwen3-Embedding, Qwen-Image), DeepSeek (V3.2, V4-Flash, OCR), Tencent Hunyuan, Xiaomi MiMo, MiniMax, and Wan video models. Mirrored copies now include Baichuan-M3-235B, Yi-6B/34B, Seed-OSS-36B, Qwen3-8B, and DeepSeek-V3.2-Exp."
   },
   {
-   "id": "2026-09-18T08:13:33Z-2373333539",
+   "id": "2026-09-18T08:13:33Z-973341909",
    "title": "Week in local AI: 156 models captured, 15 new preserved mirrors. Now downloadable: Seed-OSS-36B-Instruct, academic-ds-9B, Seed-OSS-36B-Base, DeepSeek-V3.2-Exp\u2026.",
    "date_published": "2026-09-18T08:13:33Z",
    "url": "https://github.com/BroWang1/ai-archive/issues",
    "content_text": "Week in local AI: 156 models captured, 15 new preserved mirrors. Now downloadable: Seed-OSS-36B-Instruct, academic-ds-9B, Seed-OSS-36B-Base, DeepSeek-V3.2-Exp\u2026."
   },
   {
-   "id": "2026-09-18T06:15:14Z-3793424249",
+   "id": "2026-09-18T06:15:14Z-504765321",
    "title": "Captured openai/gpt-oss-safeguard-20b \u2014 14 GB manifested, license: free",
    "date_published": "2026-09-18T06:15:14Z",
    "url": "https://huggingface.co/openai/gpt-oss-safeguard-20b",
    "content_text": "Captured openai/gpt-oss-safeguard-20b \u2014 14 GB manifested, license: free"
   },
   {
-   "id": "2026-09-18T06:15:03Z-3548989842",
+   "id": "2026-09-18T06:15:03Z-4074915398",
    "title": "Captured Qwen/Qwen3Guard-Stream-4B \u2014 8 GB manifested, license: free",
    "date_published": "2026-09-18T06:15:03Z",
    "url": "https://huggingface.co/Qwen/Qwen3Guard-Stream-4B",
    "content_text": "Captured Qwen/Qwen3Guard-Stream-4B \u2014 8 GB manifested, license: free"
   },
   {
-   "id": "2026-09-18T06:14:52Z-3518187983",
+   "id": "2026-09-18T06:14:52Z-2717756480",
    "title": "Captured Qwen/Qwen3Guard-Gen-4B \u2014 9 GB manifested, license: free",
    "date_published": "2026-09-18T06:14:52Z",
    "url": "https://huggingface.co/Qwen/Qwen3Guard-Gen-4B",
    "content_text": "Captured Qwen/Qwen3Guard-Gen-4B \u2014 9 GB manifested, license: free"
   },
   {
-   "id": "2026-09-18T06:14:22Z-209893899",
+   "id": "2026-09-18T06:14:22Z-3002997456",
    "title": "Captured KaLM-Embedding/KaLM-Reranker-V1-Large \u2014 15 GB manifested, license: conditional",
    "date_published": "2026-09-18T06:14:22Z",
    "url": "https://huggingface.co/KaLM-Embedding/KaLM-Reranker-V1-Large",
    "content_text": "Captured KaLM-Embedding/KaLM-Reranker-V1-Large \u2014 15 GB manifested, license: conditional"
   },
   {
-   "id": "2026-09-18T06:14:08Z-1406343761",
+   "id": "2026-09-18T06:14:08Z-436150115",
    "title": "Captured tencent/KaLM-Embedding-Gemma3-12B-2511 \u2014 24 GB manifested, license: conditional",
    "date_published": "2026-09-18T06:14:08Z",
    "url": "https://huggingface.co/tencent/KaLM-Embedding-Gemma3-12B-2511",
    "content_text": "Captured tencent/KaLM-Embedding-Gemma3-12B-2511 \u2014 24 GB manifested, license: conditional"
   },
   {
-   "id": "2026-09-18T06:13:47Z-3445943389",
+   "id": "2026-09-18T06:13:47Z-3275670248",
    "title": "Captured BAAI/bge-m3 \u2014 2 GB manifested, license: conditional",
    "date_published": "2026-09-18T06:13:47Z",
    "url": "https://huggingface.co/BAAI/bge-m3",
    "content_text": "Captured BAAI/bge-m3 \u2014 2 GB manifested, license: conditional"
   },
   {
-   "id": "2026-09-18T06:13:35Z-3313454314",
+   "id": "2026-09-18T06:13:35Z-41671401",
    "title": "Captured Qwen/Qwen3-Reranker-4B \u2014 8 GB manifested, license: conditional",
    "date_published": "2026-09-18T06:13:35Z",
    "url": "https://huggingface.co/Qwen/Qwen3-Reranker-4B",
    "content_text": "Captured Qwen/Qwen3-Reranker-4B \u2014 8 GB manifested, license: conditional"
   },
   {
-   "id": "2026-09-18T06:13:24Z-3198278417",
+   "id": "2026-09-18T06:13:24Z-3984635691",
    "title": "Captured Qwen/Qwen3-Embedding-8B \u2014 15 GB manifested, license: free",
    "date_published": "2026-09-18T06:13:24Z",
    "url": "https://huggingface.co/Qwen/Qwen3-Embedding-8B",
    "content_text": "Captured Qwen/Qwen3-Embedding-8B \u2014 15 GB manifested, license: free"
   },
   {
-   "id": "2026-09-18T06:12:52Z-2276879774",
+   "id": "2026-09-18T06:12:52Z-426297278",
    "title": "Captured MoritzLaurer/ModernBERT-large-zeroshot-v2.0 \u2014 5 GB manifested, license: conditional",
    "date_published": "2026-09-18T06:12:52Z",
    "url": "https://huggingface.co/MoritzLaurer/ModernBERT-large-zeroshot-v2.0",
    "content_text": "Captured MoritzLaurer/ModernBERT-large-zeroshot-v2.0 \u2014 5 GB manifested, license: conditional"
   },
   {
-   "id": "2026-09-18T06:12:38Z-4209823330",
+   "id": "2026-09-18T06:12:38Z-1144377493",
    "title": "Captured MoritzLaurer/deberta-v3-large-zeroshot-v2.0 \u2014 3 GB manifested, license: conditional",
    "date_published": "2026-09-18T06:12:38Z",
    "url": "https://huggingface.co/MoritzLaurer/deberta-v3-large-zeroshot-v2.0",
    "content_text": "Captured MoritzLaurer/deberta-v3-large-zeroshot-v2.0 \u2014 3 GB manifested, license: conditional"
   },
   {
-   "id": "2026-09-18T06:11:04Z-3603892927",
+   "id": "2026-09-18T06:11:04Z-3616367400",
    "title": "Captured Wan-AI/Wan2.1-VACE-1.3B \u2014 19 GB manifested, license: free",
    "date_published": "2026-09-18T06:11:04Z",
    "url": "https://huggingface.co/Wan-AI/Wan2.1-VACE-1.3B",
    "content_text": "Captured Wan-AI/Wan2.1-VACE-1.3B \u2014 19 GB manifested, license: free"
   },
   {
-   "id": "2026-09-18T06:10:44Z-2366191362",
+   "id": "2026-09-18T06:10:44Z-2523641690",
    "title": "Captured Wan-AI/Wan2.1-VACE-14B \u2014 75 GB manifested, license: free",
    "date_published": "2026-09-18T06:10:44Z",
    "url": "https://huggingface.co/Wan-AI/Wan2.1-VACE-14B",
    "content_text": "Captured Wan-AI/Wan2.1-VACE-14B \u2014 75 GB manifested, license: free"
   },
   {
-   "id": "2026-09-18T06:10:13Z-1260733946",
+   "id": "2026-09-18T06:10:13Z-2514473657",
    "title": "Captured Wan-AI/Wan2.2-S2V-14B \u2014 48 GB manifested, license: conditional",
    "date_published": "2026-09-18T06:10:13Z",
    "url": "https://huggingface.co/Wan-AI/Wan2.2-S2V-14B",
    "content_text": "Captured Wan-AI/Wan2.2-S2V-14B \u2014 48 GB manifested, license: conditional"
   },
   {
-   "id": "2026-09-18T06:00:25Z-3815960732",
+   "id": "2026-09-18T06:00:25Z-601189224",
    "title": "Captured Wan-AI/Wan2.2-Animate-14B \u2014 68 GB manifested, license: conditional",
    "date_published": "2026-09-18T06:00:25Z",
    "url": "https://huggingface.co/Wan-AI/Wan2.2-Animate-14B",
    "content_text": "Captured Wan-AI/Wan2.2-Animate-14B \u2014 68 GB manifested, license: conditional"
   },
   {
-   "id": "2026-09-18T06:00:03Z-1793718441",
+   "id": "2026-09-18T06:00:03Z-3077774023",
    "title": "Captured Wan-AI/Wan2.1-T2V-1.3B \u2014 18 GB manifested, license: free",
    "date_published": "2026-09-18T06:00:03Z",
    "url": "https://huggingface.co/Wan-AI/Wan2.1-T2V-1.3B",
    "content_text": "Captured Wan-AI/Wan2.1-T2V-1.3B \u2014 18 GB manifested, license: free"
   },
   {
-   "id": "2026-09-18T05:59:41Z-2957683574",
+   "id": "2026-09-18T05:59:41Z-594988277",
    "title": "Captured Wan-AI/Wan2.1-T2V-14B \u2014 69 GB manifested, license: free",
    "date_published": "2026-09-18T05:59:41Z",
    "url": "https://huggingface.co/Wan-AI/Wan2.1-T2V-14B",
    "content_text": "Captured Wan-AI/Wan2.1-T2V-14B \u2014 69 GB manifested, license: free"
   },
   {
-   "id": "2026-09-18T05:59:24Z-1849892509",
+   "id": "2026-09-18T05:59:24Z-2418325502",
    "title": "Captured Wan-AI/Wan2.2-TI2V-5B \u2014 34 GB manifested, license: conditional",
    "date_published": "2026-09-18T05:59:24Z",
    "url": "https://huggingface.co/Wan-AI/Wan2.2-TI2V-5B",
    "content_text": "Captured Wan-AI/Wan2.2-TI2V-5B \u2014 34 GB manifested, license: conditional"
   },
   {
-   "id": "2026-09-18T05:59:06Z-2057011776",
+   "id": "2026-09-18T05:59:06Z-1464807268",
    "title": "Captured Wan-AI/Wan2.2-I2V-A14B \u2014 126 GB manifested, license: conditional",
    "date_published": "2026-09-18T05:59:06Z",
    "url": "https://huggingface.co/Wan-AI/Wan2.2-I2V-A14B",
    "content_text": "Captured Wan-AI/Wan2.2-I2V-A14B \u2014 126 GB manifested, license: conditional"
   },
   {
-   "id": "2026-09-18T05:58:48Z-624731884",
+   "id": "2026-09-18T05:58:48Z-3550158944",
    "title": "Captured Wan-AI/Wan2.2-T2V-A14B \u2014 126 GB manifested, license: conditional",
    "date_published": "2026-09-18T05:58:48Z",
    "url": "https://huggingface.co/Wan-AI/Wan2.2-T2V-A14B",
    "content_text": "Captured Wan-AI/Wan2.2-T2V-A14B \u2014 126 GB manifested, license: conditional"
   },
   {
-   "id": "2026-09-18T05:13:35Z-356352442",
+   "id": "2026-09-18T05:13:35Z-1794676442",
    "title": "Captured DeepMostInnovations/sales-conversion-model-reinf-learning \u2014 0 GB manifested, license: conditional",
    "date_published": "2026-09-18T05:13:35Z",
    "url": "https://huggingface.co/DeepMostInnovations/sales-conversion-model-reinf-learning",
    "content_text": "Captured DeepMostInnovations/sales-conversion-model-reinf-learning \u2014 0 GB manifested, license: conditional"
   },
   {
-   "id": "2026-09-18T04:59:03Z-2294435934",
+   "id": "2026-09-18T04:59:03Z-214898144",
    "title": "Captured zai-org/GLM-Image \u2014 36 GB manifested, license: conditional",
    "date_published": "2026-09-18T04:59:03Z",
    "url": "https://huggingface.co/zai-org/GLM-Image",
    "content_text": "Captured zai-org/GLM-Image \u2014 36 GB manifested, license: conditional"
   },
   {
-   "id": "2026-09-18T04:58:48Z-4030300434",
+   "id": "2026-09-18T04:58:48Z-2782851100",
    "title": "Captured Qwen/Qwen-Image \u2014 58 GB manifested, license: free",
    "date_published": "2026-09-18T04:58:48Z",
    "url": "https://huggingface.co/Qwen/Qwen-Image",
    "content_text": "Captured Qwen/Qwen-Image \u2014 58 GB manifested, license: free"
   },
   {
-   "id": "2026-09-18T04:58:19Z-2373203851",
+   "id": "2026-09-18T04:58:19Z-2962121506",
    "title": "Captured Qwen/Qwen-Image-Edit-2511 \u2014 58 GB manifested, license: conditional",
    "date_published": "2026-09-18T04:58:19Z",
    "url": "https://huggingface.co/Qwen/Qwen-Image-Edit-2511",
    "content_text": "Captured Qwen/Qwen-Image-Edit-2511 \u2014 58 GB manifested, license: conditional"
   },
   {
-   "id": "2026-09-18T04:58:08Z-2287512072",
+   "id": "2026-09-18T04:58:08Z-1892470630",
    "title": "Captured Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice \u2014 5 GB manifested, license: conditional",
    "date_published": "2026-09-18T04:58:08Z",
    "url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
    "content_text": "Captured Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice \u2014 5 GB manifested, license: conditional"
   },
   {
-   "id": "2026-09-18T04:58:00Z-3278887966",
+   "id": "2026-09-18T04:58:00Z-2161685230",
    "title": "Captured zai-org/GLM-ASR-Nano-2512 \u2014 5 GB manifested, license: conditional",
    "date_published": "2026-09-18T04:58:00Z",
    "url": "https://huggingface.co/zai-org/GLM-ASR-Nano-2512",
    "content_text": "Captured zai-org/GLM-ASR-Nano-2512 \u2014 5 GB manifested, license: conditional"
   },
   {
-   "id": "2026-09-18T04:57:41Z-4289721775",
+   "id": "2026-09-18T04:57:41Z-1206082688",
    "title": "Captured FunAudioLLM/Fun-ASR-Nano-2512 \u2014 2 GB manifested, license: conditional",
    "date_published": "2026-09-18T04:57:41Z",
    "url": "https://huggingface.co/FunAudioLLM/Fun-ASR-Nano-2512",
    "content_text": "Captured FunAudioLLM/Fun-ASR-Nano-2512 \u2014 2 GB manifested, license: conditional"
   },
   {
-   "id": "2026-09-18T04:57:32Z-2658997107",
+   "id": "2026-09-18T04:57:32Z-2776173090",
    "title": "Captured Qwen/Qwen3-ASR-1.7B \u2014 5 GB manifested, license: conditional",
    "date_published": "2026-09-18T04:57:32Z",
    "url": "https://huggingface.co/Qwen/Qwen3-ASR-1.7B",
    "content_text": "Captured Qwen/Qwen3-ASR-1.7B \u2014 5 GB manifested, license: conditional"
   },
   {
-   "id": "2026-09-18T04:56:58Z-2792501792",
+   "id": "2026-09-18T04:56:58Z-1760857645",
    "title": "Captured tencent/Hy-MT2-1.8B \u2014 4 GB manifested, license: free",
    "date_published": "2026-09-18T04:56:58Z",
    "url": "https://huggingface.co/tencent/Hy-MT2-1.8B",
    "content_text": "Captured tencent/Hy-MT2-1.8B \u2014 4 GB manifested, license: free"
   },
   {
-   "id": "2026-09-18T04:56:36Z-3679353760",
+   "id": "2026-09-18T04:56:36Z-1168767645",
    "title": "Captured deepseek-ai/DeepSeek-V3.2-Speciale \u2014 689 GB manifested, license: conditional",
    "date_published": "2026-09-18T04:56:36Z",
    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Speciale",
    "content_text": "Captured deepseek-ai/DeepSeek-V3.2-Speciale \u2014 689 GB manifested, license: conditional"
   },
   {
-   "id": "2026-09-18T04:56:23Z-2168471150",
+   "id": "2026-09-18T04:56:23Z-672711268",
    "title": "Captured deepseek-ai/DeepSeek-Math-V2 \u2014 689 GB manifested, license: free",
    "date_published": "2026-09-18T04:56:23Z",
    "url": "https://huggingface.co/deepseek-ai/DeepSeek-Math-V2",
    "content_text": "Captured deepseek-ai/DeepSeek-Math-V2 \u2014 689 GB manifested, license: free"
   },
   {
-   "id": "2026-09-18T04:56:09Z-2688546198",
+   "id": "2026-09-18T04:56:09Z-3184109938",
    "title": "Captured deepseek-ai/DeepSeek-OCR-2 \u2014 7 GB manifested, license: free",
    "date_published": "2026-09-18T04:56:09Z",
    "url": "https://huggingface.co/deepseek-ai/DeepSeek-OCR-2",
    "content_text": "Captured deepseek-ai/DeepSeek-OCR-2 \u2014 7 GB manifested, license: free"
   },
   {
-   "id": "2026-09-18T04:55:55Z-1747561766",
+   "id": "2026-09-18T04:55:55Z-3812924360",
    "title": "Captured XiaomiMiMo/MiMo-VL-7B-RL \u2014 17 GB manifested, license: conditional",
    "date_published": "2026-09-18T04:55:55Z",
    "url": "https://huggingface.co/XiaomiMiMo/MiMo-VL-7B-RL",
    "content_text": "Captured XiaomiMiMo/MiMo-VL-7B-RL \u2014 17 GB manifested, license: conditional"
   },
   {
-   "id": "2026-09-18T04:55:41Z-4289002455",
+   "id": "2026-09-18T04:55:41Z-1351964306",
    "title": "Captured openbmb/MiniCPM-V-4 \u2014 8 GB manifested, license: conditional",
    "date_published": "2026-09-18T04:55:41Z",
    "url": "https://huggingface.co/openbmb/MiniCPM-V-4",
    "content_text": "Captured openbmb/MiniCPM-V-4 \u2014 8 GB manifested, license: conditional"
   },
   {
-   "id": "2026-09-18T04:55:24Z-1663268088",
+   "id": "2026-09-18T04:55:24Z-3207055066",
    "title": "Captured Qwen/Qwen3.5-122B-A10B \u2014 250 GB manifested, license: free",
    "date_published": "2026-09-18T04:55:24Z",
    "url": "https://huggingface.co/Qwen/Qwen3.5-122B-A10B",
    "content_text": "Captured Qwen/Qwen3.5-122B-A10B \u2014 250 GB manifested, license: free"
   },
   {
-   "id": "2026-09-18T04:55:10Z-2281230321",
+   "id": "2026-09-18T04:55:10Z-3826282920",
    "title": "Captured Qwen/Qwen3.6-27B \u2014 56 GB manifested, license: free",
    "date_published": "2026-09-18T04:55:10Z",
    "url": "https://huggingface.co/Qwen/Qwen3.6-27B",
    "content_text": "Captured Qwen/Qwen3.6-27B \u2014 56 GB manifested, license: free"
   },
   {
-   "id": "2026-09-18T04:54:10Z-3460826421",
+   "id": "2026-09-18T04:54:10Z-1667933026",
    "title": "Captured tencent/Hy-MT2-30B-A3B \u2014 60 GB manifested, license: free",
    "date_published": "2026-09-18T04:54:10Z",
    "url": "https://huggingface.co/tencent/Hy-MT2-30B-A3B",
    "content_text": "Captured tencent/Hy-MT2-30B-A3B \u2014 60 GB manifested, license: free"
-  },
-  {
-   "id": "2026-09-18T04:53:54Z-536030209",
-   "title": "Captured Qwen/Qwen3.6-35B-A3B \u2014 72 GB manifested, license: free",
-   "date_published": "2026-09-18T04:53:54Z",
-   "url": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B",
-   "content_text": "Captured Qwen/Qwen3.6-35B-A3B \u2014 72 GB manifested, license: free"
   }
  ]
 }
