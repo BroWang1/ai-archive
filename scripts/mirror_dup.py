@@ -15,6 +15,7 @@ Flow per model (no local staging, no bandwidth):
 import argparse
 import json
 import re
+import shutil
 import subprocess
 import sys
 import time
@@ -23,6 +24,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+HF_CLI = shutil.which("hf") or str(ROOT / ".venv" / "bin" / "hf")
 sys.path.insert(0, str(ROOT / "scripts"))
 import ingest  # noqa: E402
 
@@ -63,7 +65,7 @@ def mirror_one(record_path, to_org, hf_api):
     name = rid.split("/", 1)[1]
     target = f"{to_org}/{name}"
     for attempt in range(3):
-        r = subprocess.run([str(ROOT / ".venv" / "bin" / "hf"), "repos", "duplicate", rid, target,
+        r = subprocess.run([HF_CLI, "repos", "duplicate", rid, target,
                             "--public"], capture_output=True, text=True)
         if r.returncode == 0 or "already" in r.stderr.lower():
             break
