@@ -44,18 +44,16 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           if grep -q "DEEPSEEK BALANCE LOW" digest.txt 2>/dev/null; then
-            gh issue create \
-              --title "⚠️ DeepSeek balance low — top up to keep AI-polished digests" \
-              --body "$(grep -A1 'DEEPSEEK BALANCE LOW' digest.txt)
-
-If the balance empties, nothing breaks: the weekly digest automatically falls back to the factual no-AI version. Top up at platform.deepseek.com to restore polished prose."
+            grep -A1 "DEEPSEEK BALANCE LOW" digest.txt > balance_body.md
+            echo "" >> balance_body.md
+            echo "If the balance empties, nothing breaks: the digest falls back to the factual no-AI version. Top up at platform.deepseek.com to restore polished prose." >> balance_body.md
+            gh issue create --title "Warning: DeepSeek balance low" --body-file balance_body.md
           fi
       - name: Post digest as issue
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          gh issue create \
-            --title "Weekly digest $(date -u +%F)" \
-            --body "$(cat digest.txt)
-
-Automated weekly run. Anything needing the owner's judgment is in the open issues list."
+          cp digest.txt issue_body.md
+          echo "" >> issue_body.md
+          echo "Automated weekly run. Anything needing the owner's judgment is in the open issues list." >> issue_body.md
+          gh issue create --title "Weekly digest $(date -u +%F)" --body-file issue_body.md
