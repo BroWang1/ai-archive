@@ -1,0 +1,22 @@
+[
+    {
+        "speaker": "customer",
+        "message": "Hello, I'm looking for information on your new AI-powered CRM."
+    },
+    {
+        "speaker": "sales_rep",
+        "message": "You've come to the right place! Our new AI CRM is designed to revolutionize sales workflows. What are you hoping to achieve with a new CRM?"
+    },
+    {
+        "speaker": "customer",
+        "message": "maybe not for us. its a great product, in future may buy"
+    },
+    {
+        "speaker": "sales_rep",
+        "message": "Excellent, those are two key strengths. Our AI analyzes lead behavior to provide highly accurate scoring, and the automated sequences can be personalized using dynamic content. Would you be interested in a quick demo of those features?"
+    },
+    {
+        "speaker": "customer",
+        "message": "looks oke, but maybe we can't consider"
+    }
+]

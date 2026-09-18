@@ -56,6 +56,20 @@ header{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;border-bottom:3
 h1{font-family:var(--display);font-weight:600;font-size:clamp(26px,4vw,34px);margin:0;text-wrap:balance}
 h1 .seal{color:var(--seal)}
 .sub{color:var(--muted);font-size:14px}
+.wizard{background:var(--panel);border:1px solid var(--line);border-top:3px solid var(--seal);border-radius:6px;padding:18px;margin:24px 0 6px}
+.wizard h2{font-family:var(--display);font-weight:600;font-size:22px;margin:0 0 12px}
+.wizrow{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:14px}
+.wizfield{display:flex;flex-direction:column;gap:4px;flex:1;min-width:200px}
+.wizfield label{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--muted)}
+.wizfield select{background:var(--paper);border:1px solid var(--line);border-radius:6px;padding:9px 10px;color:var(--ink);font:inherit}
+.wizfield select:focus{outline:2px solid var(--seal)}
+.wizresult{display:flex;flex-direction:column;gap:6px;border-top:1px dashed var(--line);padding-top:12px}
+.wizresult .wname{font-family:var(--display);font-size:22px;font-weight:600}
+.wizresult .wname a{color:var(--seal);text-decoration:none}
+.wizresult .wmeta{font-family:var(--mono);font-size:12.5px;color:var(--muted)}
+.wizresult .wwhy{font-size:14px}
+.wizresult .wrun{font-size:13px;color:var(--muted);line-height:1.6}
+.wizresult .wrun b{color:var(--ink)}
 .picks{margin:24px 0 8px}
 .picks h2{font-family:var(--display);font-weight:600;font-size:20px;margin:0 0 2px}
 .picks .lede{color:var(--muted);font-size:13.5px;margin:0 0 14px}
@@ -111,6 +125,35 @@ footer a{color:var(--seal)}
   <h1><span class="seal">AI</span>Archive Catalog</h1>
   <span class="sub">Preservation records for frontier open-weight models — filter by license freedom</span>
 </header>
+<section class="wizard">
+  <h2>Which model should I run?</h2>
+  <div class="wizrow">
+    <div class="wizfield"><label for="wmachine">Your machine</label>
+      <select id="wmachine">
+        <option value="0">Phone or tablet</option>
+        <option value="1" selected>Basic laptop (8GB RAM)</option>
+        <option value="2">Decent laptop / PC (16–32GB RAM)</option>
+        <option value="3">Gaming PC (24GB+ GPU)</option>
+        <option value="4">Workstation / 96–128GB Mac</option>
+        <option value="5">Mac Studio 256GB+ / small server</option>
+        <option value="6">Multi-GPU server</option>
+      </select></div>
+    <div class="wizfield"><label for="wtask">What you want to do</label>
+      <select id="wtask">
+        <option value="general" selected>General chat &amp; assistant</option>
+        <option value="coding">Coding</option>
+        <option value="vision">Understand images / screenshots</option>
+        <option value="ocr">Read documents (OCR)</option>
+        <option value="math">Math &amp; hard reasoning</option>
+        <option value="longdocs">Very long documents</option>
+        <option value="translation">Translation</option>
+        <option value="stt">Speech → text</option>
+        <option value="tts">Text → speech</option>
+        <option value="images">Generate / edit images</option>
+      </select></div>
+  </div>
+  <div class="wizresult" id="wizresult"></div>
+</section>
 <section class="picks">
   <h2>Find your local AI</h2>
   <p class="lede">The best open Chinese model for your setup — evidence-picked, freedom-first, preserved here.</p>
@@ -139,6 +182,68 @@ footer a{color:var(--seal)}
 const DATA = __DATA__;
 const PICKS = __PICKS__;
 const MIRRORED = new Set(DATA.filter(r=>r.mirrored).map(r=>r.id));
+const LADDERS = {
+  general: [[0,"openbmb/MiniCPM5-2B","2.5B that beats 4B-class models; official phone builds"],
+            [1,"Qwen/Qwen3.5-9B","The most-downloaded model on Hugging Face; multimodal"],
+            [2,"Qwen/Qwen3.6-35B-A3B","Flagship-adjacent quality at small-model speed (3B active)"],
+            [3,"zai-org/GLM-4.7-Flash","MIT; strongest 30B-class, built for agents and tools"],
+            [4,"Qwen/Qwen3.5-122B-A10B","Frontier-company benchmarks in 96–128GB of memory"],
+            [5,"zai-org/GLM-5.3-Flash","MIT 320B MoE; best capability-per-byte in its class"],
+            [6,"deepseek-ai/DeepSeek-V4-Pro-0813","#1 open-weight model in the world right now"]],
+  coding: [[0,"openbmb/MiniCPM5-2B","LiveCodeBench 69.1 from a 2.5B — remarkable for a phone"],
+           [1,"Qwen/Qwen3.5-9B","Solid coding in 8GB"],
+           [2,"Qwen/Qwen3.6-35B-A3B","SWE-bench 73.4 — near-flagship coding, runs fast"],
+           [3,"Qwen/Qwen3.8-27B","The Sept-2026 local coding default; 4-bit matches full quality"],
+           [5,"zai-org/GLM-5.3-Flash","Tops open-weight coding boards"],
+           [6,"deepseek-ai/DeepSeek-V4-Pro-0813","Maximum open coding ability"]],
+  vision: [[0,"openbmb/MiniCPM-V-4","4.1B vision model for phones and 8GB machines"],
+           [1,"Qwen/Qwen3.5-9B","Natively multimodal (MMMU 78.4)"],
+           [3,"Qwen/Qwen3.8-27B","Same download as the coding pick — it sees images natively"]],
+  ocr: [[0,"zai-org/GLM-OCR","1.3B, MIT, 94.6% OmniDocBench — beats frontier closed models, runs on CPU"]],
+  math: [[0,"openbmb/MiniCPM5-2B","AIME 86.5 at 2.5B"],
+         [1,"Qwen/Qwen3.5-9B","Strong reasoner for 8GB"],
+         [3,"Qwen/Qwen3.8-27B","Only frontier-adjacent reasoning that fits 24GB"],
+         [6,"deepseek-ai/DeepSeek-Math-V2","Maximum accuracy (96% AIME-class); server only"]],
+  longdocs: [[1,"Qwen/Qwen3.5-9B","262K context natively, extendable to 1M"],
+             [3,"Qwen/Qwen3.8-27B","262K context with strong recall"],
+             [5,"zai-org/GLM-5.3-Flash","True 1,048,576-token window, verified from config"]],
+  translation: [[0,"tencent/Hy-MT2-1.8B","Purpose-built 2B translator from the WMT-winning line; CPU-friendly"]],
+  stt: [[0,"Qwen/Qwen3-ASR-1.7B","Top-20 speech recognition on all of HF by adoption"]],
+  tts: [[0,"openbmb/VoxCPM2","Tokenizer-free TTS, 30 languages, runs on CPU"],
+        [1,"Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice","Most-adopted open TTS with voice cloning"]],
+  images: [[2,"zai-org/GLM-Image","6.9B, MIT, best at legible in-image text, low VRAM"],
+           [3,"Qwen/Qwen-Image-Edit-2511","Top open image family: generation + editing in ~16GB"]],
+};
+const BYID = Object.fromEntries(DATA.map(r=>[r.id,r]));
+function renderWizard(){
+  const tier = +document.getElementById("wmachine").value;
+  const task = document.getElementById("wtask").value;
+  const ladder = LADDERS[task];
+  let best = null;
+  for(const [min, repo, note] of ladder) if(min <= tier) best = [min, repo, note];
+  const el = document.getElementById("wizresult");
+  if(!best){
+    const [, repo, note] = ladder[0];
+    el.innerHTML = `<span class="wwhy">This job really wants a bigger machine — the smallest good option is
+      <a href="https://huggingface.co/${repo}" target="_blank" rel="noopener">${repo.split("/")[1]}</a> (${note}).</span>`;
+    return;
+  }
+  const [, repo, note] = best;
+  const row = BYID[repo];
+  const name = repo.split("/")[1];
+  const url = row && row.mirrored ? `https://huggingface.co/AIArchiveInfo/${name}` : `https://huggingface.co/${repo}`;
+  const size = row ? (row.gb >= 1000 ? (row.gb/1000).toFixed(2)+" TB" : row.gb.toFixed(1)+" GB") : "";
+  el.innerHTML = `
+    <span class="wname"><a href="${url}" target="_blank" rel="noopener">${name}</a></span>
+    <span class="wmeta">${repo} · original weights ${size} · quantized versions are typically ¼–½ of that${row && row.mirrored ? " · ✓ preserved in this archive" : ""}</span>
+    <span class="wwhy">${note}.</span>
+    <span class="wrun"><b>Run it:</b> 1) install <b>LM Studio</b> (lmstudio.ai) or <b>Ollama</b> (ollama.com) —
+    both free · 2) search for “${name}” inside the app · 3) pick the largest quantized version that fits your
+    memory, and you're chatting locally.</span>`;
+}
+document.getElementById("wmachine").addEventListener("change", renderWizard);
+document.getElementById("wtask").addEventListener("change", renderWizard);
+renderWizard();
 function renderPicks(){
   const groups = [["hardware","By your hardware"],["use-case","By the job"]];
   const el = document.getElementById("pickspanel");

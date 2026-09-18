@@ -1,0 +1,13 @@
+{
+  "model_type": "sales_conversion_rl",
+  "framework": "stable-baselines3",
+  "algorithm": "ppo",
+  "embedding_provider": "azure-openai",
+  "embedding_model": "text-embedding-3-large",
+  "embedding_dimension": 3072,
+  "observation_dimension": 3088,
+  "action_space": "continuous",
+  "license": "mit",
+  "paper_url": "https://arxiv.org/abs/2503.23303",
+  "citation": "Nandakishor M. (2025). SalesRLAgent: A Reinforcement Learning Approach for Real-Time Sales Conversion Prediction and Optimization. arXiv:2503.23303."
+}

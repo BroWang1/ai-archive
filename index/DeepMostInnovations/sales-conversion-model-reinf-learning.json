@@ -1,0 +1,116 @@
+{
+  "repo_id": "DeepMostInnovations/sales-conversion-model-reinf-learning",
+  "canonical_org": "DeepMostInnovations",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "105963aa2bcdaa9a41600366ee7218bb03e397d2",
+      "captured_at": "2026-09-18T05:13:35Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/DeepMostInnovations/sales-conversion-model-reinf-learning?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"cff-7txgmv2k+YUSmxDdasow7UgKuOQ\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "mit",
+        "file": null,
+        "sha256": null,
+        "redistributable": true,
+        "obligations": [
+          "attribution"
+        ],
+        "freedom": "free",
+        "freedom_note": "MIT declared in card metadata and README badge; no standalone LICENSE file \u2014 declaration preserved in snapshot (user-approved mirror)"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1519,
+          "sha256": "11ad7efa24975ee4b0c3c3a38ed18737f0658a5f75a0a96787b576a78a023361",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 14476,
+          "sha256": "96393b17848fe4ecbaa73ea897cb2a57fb656b5c76074c5a2ad563eeac500ba5",
+          "kind": "snapshot"
+        },
+        {
+          "path": "clean_dataset.py",
+          "size": 18797,
+          "sha256": "0a2fbbd4d5cd835f32c42541c493a67681b3bf129641626cad696216d1cf9e47",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 519,
+          "sha256": "d4b3f10eb1cb62ff08a1dd138d3ba683f5f829cd376cf768a6439c6e732fd809",
+          "kind": "snapshot"
+        },
+        {
+          "path": "opensource_inference.py",
+          "size": 22375,
+          "sha256": "322d12a8e236c6e2f1fca4e7201d8d1a571af88575abcaf42c9ffc74a81a2645",
+          "kind": "snapshot"
+        },
+        {
+          "path": "sales_conversion_model.zip",
+          "size": 8631111,
+          "sha256": "1b3f95111f0b3f1c5af6f4876eee0a15ed72a18e68d5fc9e04aa1b9f4e6967dd",
+          "kind": "snapshot"
+        },
+        {
+          "path": "sales_inference.py",
+          "size": 19200,
+          "sha256": "afedec93bc814a6c35bb4928aee29c31278536a504d379225ae85d60f6cb424b",
+          "kind": "snapshot"
+        },
+        {
+          "path": "sales_model.zip",
+          "size": 21250269,
+          "sha256": "6952e15146bce50759ed00d4e9617a981ee99db3c6df85fcbcd22a32aed303a1",
+          "kind": "snapshot"
+        },
+        {
+          "path": "sales_model_311.zip",
+          "size": 21252251,
+          "sha256": "32d311157d51269dec7106fdeb80437394612b78503faba27cea39ed62ac79cd",
+          "kind": "snapshot"
+        },
+        {
+          "path": "sample_conv_generated.json",
+          "size": 885,
+          "sha256": "af83cf3967428fa3cd54d9c553e8277189d298543c3d48b6cefabf176ec09271",
+          "kind": "snapshot"
+        },
+        {
+          "path": "train.py",
+          "size": 26061,
+          "sha256": "4d69bd99bc341782d6bd35da17e8f9941bbcb9e56187a352d4429f4c1a8ffe41",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 51237463,
+      "weight_bytes": 0,
+      "snapshot_dir": "snapshots/DeepMostInnovations/sales-conversion-model-reinf-learning/105963aa2bcdaa9a41600366ee7218bb03e397d2/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": "Out-of-scope curiosity (applied RL, sales conversion): mirrored at user request 2026-09-18."
+}
