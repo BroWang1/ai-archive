@@ -1,5 +1,12 @@
 [
  {
+  "at": "2026-09-18T10:38:34Z",
+  "kind": "digest",
+  "text": "This week aiarchive.info captured 162 open-weight model repos, including new entries from Qwen (Qwen3.6-27B, Qwen3.6-35B-A3B, Qwen3-ASR-1.7B), DeepSeek (DeepSeek-V4-Flash, DeepSeek-OCR-2, DeepSeek-Math-V2), and MiniMax (MiniMax-M3, MiniMax-M3-MXFP8, MiniMax-H3). 15 repos were mirrored, among them Baichuan-M3-235B, DeepSeek-V3.2-Exp, and several Yi and Seed-OSS checkpoints. No alerts or radar signals were recorded this week.",
+  "url": "https://github.com/BroWang1/ai-archive/issues",
+  "action": "details"
+ },
+ {
   "at": "2026-09-18T09:03:00Z",
   "kind": "digest",
   "text": "This week aiarchive.info captured 168 open-weight model repos and mirrored 15, with no alerts or radar signals. Captured families include Qwen (Qwen3.5, Qwen3-VL, Qwen3-Embedding, Qwen-Image), DeepSeek (V3.2, V4-Flash, OCR), Tencent Hunyuan, Xiaomi MiMo, MiniMax, and Wan video models. Mirrored copies now include Baichuan-M3-235B, Yi-6B/34B, Seed-OSS-36B, Qwen3-8B, and DeepSeek-V3.2-Exp.",
@@ -270,13 +277,6 @@
   "kind": "capture",
   "text": "Captured Qwen/Qwen3.6-35B-A3B \u2014 72 GB manifested, license: free",
   "url": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B",
-  "action": "view / download"
- },
- {
-  "at": "2026-09-18T04:53:43Z",
-  "kind": "capture",
-  "text": "Captured Qwen/Qwen3.5-4B \u2014 9 GB manifested, license: free",
-  "url": "https://huggingface.co/Qwen/Qwen3.5-4B",
   "action": "view / download"
  }
 ]
