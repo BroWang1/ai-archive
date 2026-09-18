@@ -110,6 +110,8 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--to", required=True)
     ap.add_argument("--only")
+    ap.add_argument("--pause", type=int, default=30,
+                    help="seconds between models; raise to ride out duplication quotas")
     args = ap.parse_args()
     from huggingface_hub import HfApi
     hf_api = HfApi()
@@ -126,9 +128,9 @@ def main():
             print(f"  error: {type(e).__name__}: {e}")
             res = "error"
         tally[res] = tally.get(res, 0) + 1
-        print(f"  -> {res}")
-        if res == "ok":
-            time.sleep(30)
+        print(f"  -> {res}", flush=True)
+        if res in ("ok", "fail-duplicate"):
+            time.sleep(args.pause)
     print("\n" + ", ".join(f"{k}: {v}" for k, v in sorted(tally.items())))
 
 

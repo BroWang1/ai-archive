@@ -33,7 +33,7 @@
           "path": "Demo/\u4e94\u5b50\u68cb.gif",
           "size": 194343,
           "sha256": "60bea5996fb11c09b049b047178903681a68674fb64e6f306d1ddd88a0c5fcc9",
-          "kind": "snapshot"
+          "kind": "media-no-snapshot"
         },
         {
           "path": "Demo/\u4e94\u5b50\u68cb.html",
@@ -45,7 +45,7 @@
           "path": "Demo/\u5927\u9c7c\u5403\u5c0f\u9c7c.gif",
           "size": 1838812,
           "sha256": "2504f4e795341d10b3154b1afb39ba381f09160ca7c6cada790c7d2ddcbac047",
-          "kind": "snapshot"
+          "kind": "media-no-snapshot"
         },
         {
           "path": "Demo/\u5927\u9c7c\u5403\u5c0f\u9c7c.html",

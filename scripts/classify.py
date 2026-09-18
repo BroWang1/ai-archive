@@ -25,6 +25,10 @@ PERMISSIVE_TAGS = {"apache-2.0", "mit", "bsd-3-clause", "bsd-2-clause", "bsd"}
 # repo-prefix overrides where the actual LICENSE text is known to differ from
 # what the tag suggests; first match wins
 KNOWN = [
+    ("MiniMaxAI/MiniMax-H3", "restricted",
+     "MiniMax H3 Community License: EXCLUDES the US, EU, UK and South Korea — do not mirror from US infrastructure"),
+    ("tencent/KaLM-Embedding-Gemma3", "conditional",
+     "Tencent custom license over a Gemma base — read before redistributing"),
     ("moonshotai/Kimi-K3", "conditional",
      "Modified MIT: redistribution allowed; >$20M/yr MaaS revenue requires separate agreement; 'Kimi K3' display >100M MAU"),
     ("moonshotai/Kimi-K2", "conditional",

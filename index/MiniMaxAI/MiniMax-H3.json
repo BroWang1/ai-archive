@@ -18,8 +18,8 @@
         "sha256": "59b99642b95ea21630e311198ddbfffbfe05aadba0c2f5d884cbdf4efcc90f44",
         "redistributable": null,
         "obligations": [],
-        "freedom": "conditional",
-        "freedom_note": "Custom license ('other') \u2014 read before redistributing"
+        "freedom": "restricted",
+        "freedom_note": "MiniMax H3 Community License: EXCLUDES the US, EU, UK and South Korea \u2014 do not mirror from US infrastructure"
       },
       "gate_terms_sha256": null,
       "files": [
@@ -1017,7 +1017,7 @@
           "path": "assets/fl2va.mp4",
           "size": 1064614,
           "sha256": "5a5d6e0fcdda7e6a5d98cb92d9e5cb4b6b0b44d6e1dfd5a370d16dfaa79b9ae6",
-          "kind": "snapshot"
+          "kind": "media-no-snapshot"
         },
         {
           "path": "assets/full-arch.png",
@@ -1029,37 +1029,37 @@
           "path": "assets/h3_direct_2k.mp4",
           "size": 8946498,
           "sha256": "cc928dc5f406ca22d66656f98717808fd16ede2bfb5a3483c9b71264a9d74678",
-          "kind": "snapshot"
+          "kind": "media-no-snapshot"
         },
         {
           "path": "assets/h3_direct_768p.mp4",
           "size": 2385173,
           "sha256": "642e444e8cfa9d3417da69f429598d067bb8123639bbbe462de5687b583ac641",
-          "kind": "snapshot"
+          "kind": "media-no-snapshot"
         },
         {
           "path": "assets/i2va.mp4",
           "size": 1064614,
           "sha256": "5a5d6e0fcdda7e6a5d98cb92d9e5cb4b6b0b44d6e1dfd5a370d16dfaa79b9ae6",
-          "kind": "snapshot"
+          "kind": "media-no-snapshot"
         },
         {
           "path": "assets/i2va_2k.mp4",
           "size": 3334690,
           "sha256": "dcfec002e432208a9feeeb90b7867a00c1d6a18ce4707fa94df0930997802840",
-          "kind": "snapshot"
+          "kind": "media-no-snapshot"
         },
         {
           "path": "assets/i2va_direct_2k.mp4",
           "size": 4569735,
           "sha256": "c3c1eef07982164c7be26a2c8286c14a3f3d15afca94006856d3501873cc7fed",
-          "kind": "snapshot"
+          "kind": "media-no-snapshot"
         },
         {
           "path": "assets/i2va_direct_768p.mp4",
           "size": 1448158,
           "sha256": "fc73d7633bed7f0125b9219ae97e9f7c75c26176aae82bbb4c5d1576187d96f1",
-          "kind": "snapshot"
+          "kind": "media-no-snapshot"
         },
         {
           "path": "assets/minimax-h3.png",
@@ -1077,43 +1077,43 @@
           "path": "assets/r2va.mp4",
           "size": 850734,
           "sha256": "5c9d33dfc517438c59e93da7b3d0b2a62e3cf69bc2adb7d1b2d33d7d8df7161f",
-          "kind": "snapshot"
+          "kind": "media-no-snapshot"
         },
         {
           "path": "assets/r2va_2k.mp4",
           "size": 2788329,
           "sha256": "c3c96ce2bcd22b61ca65974c1a071b1659398644416cae2609f1ba026bd3ce35",
-          "kind": "snapshot"
+          "kind": "media-no-snapshot"
         },
         {
           "path": "assets/r2va_direct_2k.mp4",
           "size": 3134612,
           "sha256": "26f07ac79f8731360790ae1f046ab9d78ba0b3ba5fe84f61578696856bbec993",
-          "kind": "snapshot"
+          "kind": "media-no-snapshot"
         },
         {
           "path": "assets/r2va_direct_768p.mp4",
           "size": 1121153,
           "sha256": "9b940b139d164be8b4cf310143869b2f85054808d0d496ea7de62e848d8a2445",
-          "kind": "snapshot"
+          "kind": "media-no-snapshot"
         },
         {
           "path": "assets/ref2va.mp4",
           "size": 850734,
           "sha256": "5c9d33dfc517438c59e93da7b3d0b2a62e3cf69bc2adb7d1b2d33d7d8df7161f",
-          "kind": "snapshot"
+          "kind": "media-no-snapshot"
         },
         {
           "path": "assets/t2va.mp4",
           "size": 1637373,
           "sha256": "d66903241362e224085cc93f7a5e70fba6ab378d0ac6ff6af83acf2559849a42",
-          "kind": "snapshot"
+          "kind": "media-no-snapshot"
         },
         {
           "path": "assets/t2va_2k.mp4",
           "size": 6000926,
           "sha256": "6624095cbda8953606b39a763b7988bd2c183e0469e2e3c3e1be2eba5a022023",
-          "kind": "snapshot"
+          "kind": "media-no-snapshot"
         },
         {
           "path": "audio_scheduler/scheduler_config.json",

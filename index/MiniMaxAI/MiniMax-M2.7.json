@@ -117,7 +117,7 @@
           "path": "figures/agent_teams.gif",
           "size": 7444751,
           "sha256": "2f72c28868b6f5cc641435923a7340e4b7a8e9ecf79cd46ca31b277152a0dfd1",
-          "kind": "snapshot"
+          "kind": "media-no-snapshot"
         },
         {
           "path": "figures/banner.png",

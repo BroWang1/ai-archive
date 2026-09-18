@@ -57,7 +57,7 @@
           "path": "assets/Skiing.mp4",
           "size": 8534409,
           "sha256": "479ace116d6ac92487ad90f415b3ef817cd019bba4521043ef0d5faaa1a8415d",
-          "kind": "snapshot"
+          "kind": "media-no-snapshot"
         },
         {
           "path": "assets/Trump_WEF_2018_10s.mp3",
@@ -69,13 +69,13 @@
           "path": "assets/audio_cases/assistant_ref.mp4",
           "size": 65478,
           "sha256": "7e4a56e4418740ee0326f11ca2bd61a54d84e7d23e86a5e030369ee89f8e8390",
-          "kind": "snapshot"
+          "kind": "media-no-snapshot"
         },
         {
           "path": "assets/audio_cases/assistant_response.mp4",
           "size": 269504,
           "sha256": "d46268e3beb78b4287a896a09b2df0f895629ecbdcdc4cf3c519fe040084860f",
-          "kind": "snapshot"
+          "kind": "media-no-snapshot"
         },
         {
           "path": "assets/audio_cases/elon_musk__000_assistant_audio.wav",
@@ -93,13 +93,13 @@
           "path": "assets/audio_cases/elon_musk_ref.mp4",
           "size": 165179,
           "sha256": "206c48ec4b08898fbfbfb1ea1fec058750c39c97cd2e5088b15b61fb194d6f7e",
-          "kind": "snapshot"
+          "kind": "media-no-snapshot"
         },
         {
           "path": "assets/audio_cases/elon_musk_response.mp4",
           "size": 388534,
           "sha256": "d83c3a977fd444351710c9ba2c347c90efd49ed990276c5309867374df373a4f",
-          "kind": "snapshot"
+          "kind": "media-no-snapshot"
         },
         {
           "path": "assets/audio_cases/hermione__000_assistant_audio.wav",
@@ -177,13 +177,13 @@
           "path": "assets/omni_duplex1.mp4",
           "size": 7295040,
           "sha256": "31622e1efd9a7b197a340266037b45aeec13b3b27f010f1ea1d22d9c6e69405f",
-          "kind": "snapshot"
+          "kind": "media-no-snapshot"
         },
         {
           "path": "assets/omni_duplex2.mp4",
           "size": 29285216,
           "sha256": "c04eaef27a821e18db3686fdcc9d4b1dafd441e08f6a0e12d4075b81cb04517e",
-          "kind": "snapshot"
+          "kind": "media-no-snapshot"
         },
         {
           "path": "assets/sunwukong.wav",

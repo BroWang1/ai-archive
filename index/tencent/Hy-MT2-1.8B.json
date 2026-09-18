@@ -81,7 +81,7 @@
           "path": "imgs/main_result.png",
           "size": 3840604,
           "sha256": "b87606817fec4fbdaca939de433e4d2a8e92d65493f44222aaaefb381f5a8c6e",
-          "kind": "snapshot"
+          "kind": "media-no-snapshot"
         },
         {
           "path": "model.safetensors",

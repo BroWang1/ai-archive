@@ -2,53 +2,204 @@
   "comment": "Best-per-scenario picks. Evidence-researched 2026-09-18 (Artificial Analysis, lab cards, community adoption); freedom of license used as tiebreaker. Rendered as the 'Find your local AI' section of the catalog.",
   "researched": "2026-09-18",
   "picks": [
-    {"group": "hardware", "label": "Phone / edge (any device)", "pick": "openbmb/MiniCPM5-2B",
-     "runners": ["Qwen/Qwen3.5-4B"],
-     "why": "2.5B that beats 4B-class models (avg 53.9 vs 51.1); official phone builds; Apache-2.0"},
-    {"group": "hardware", "label": "Ordinary 8GB laptop", "pick": "Qwen/Qwen3.5-9B",
-     "runners": ["Qwen/Qwen3.5-4B"],
-     "why": "Most-downloaded model on all of HF (9.2M/mo); ~5GB quantized; multimodal; Apache-2.0"},
-    {"group": "hardware", "label": "16–32GB RAM / small GPU", "pick": "Qwen/Qwen3.6-35B-A3B",
-     "runners": ["tencent/Hy-MT2-30B-A3B"],
-     "why": "Flagship-adjacent coding (SWE-bench 73.4) at 3B-active speed; needs ~21GB quantized"},
-    {"group": "hardware", "label": "Gaming PC, 24–32GB VRAM", "pick": "zai-org/GLM-4.7-Flash",
-     "runners": ["Qwen/Qwen3.8-27B", "Qwen/Qwen3.6-27B"],
-     "why": "MIT; strongest 30B-class for agents/tool use; Qwen3.8-27B the dense raw-intelligence rival"},
-    {"group": "hardware", "label": "Workstation, 64–128GB", "pick": "Qwen/Qwen3.5-122B-A10B",
-     "runners": ["Qwen/Qwen3.8-Flash-Next"],
-     "why": "Frontier-company benchmarks (GPQA 86.6) fitting 96–128GB unified memory; Apache-2.0"},
-    {"group": "hardware", "label": "Mac Studio / 256GB+", "pick": "zai-org/GLM-5.3-Flash",
-     "runners": ["deepseek-ai/DeepSeek-V4-Flash-0731"],
-     "why": "MIT 320B MoE (18B active), 41.9% AA index — best capability-per-byte in class"},
-    {"group": "hardware", "label": "Server / multi-GPU", "pick": "deepseek-ai/DeepSeek-V4-Pro-0813",
-     "runners": ["zai-org/GLM-5.3"],
-     "why": "#1 open-weight model on the Artificial Analysis index (53.2%); MIT"},
-    {"group": "use-case", "label": "Coding assistant", "pick": "Qwen/Qwen3.8-27B",
-     "runners": ["zai-org/GLM-5.3-Flash", "moonshotai/Kimi-K2.7-Code"],
-     "why": "The Sept-2026 local default: 61.7 SWE-bench Pro, 4-bit quant matches full model, fits 24GB"},
-    {"group": "use-case", "label": "Vision / screenshots", "pick": "Qwen/Qwen3.8-27B",
-     "runners": ["openbmb/MiniCPM-V-4", "XiaomiMiMo/MiMo-VL-7B-RL"],
-     "why": "Natively multimodal — same download as the coding pick; MiniCPM-V-4 for 8GB machines"},
-    {"group": "use-case", "label": "OCR / document reading", "pick": "zai-org/GLM-OCR",
-     "runners": ["deepseek-ai/DeepSeek-OCR-2"],
-     "why": "1.3B, MIT, 94.6% OmniDocBench — beats frontier closed models and runs on a CPU"},
-    {"group": "use-case", "label": "Math & reasoning", "pick": "Qwen/Qwen3.8-27B",
-     "runners": ["deepseek-ai/DeepSeek-Math-V2", "deepseek-ai/DeepSeek-V3.2-Speciale"],
-     "why": "Only frontier-adjacent reasoner that fits 24GB; DeepSeek-Math-V2 for max accuracy (server)"},
-    {"group": "use-case", "label": "Long documents (1M tokens)", "pick": "zai-org/GLM-5.3-Flash",
-     "runners": ["deepseek-ai/DeepSeek-V4-Flash"],
-     "why": "Verified 1,048,576-token window from config.json; MIT; Qwen3.8-27B caps at 262K"},
-    {"group": "use-case", "label": "Translation", "pick": "tencent/Hy-MT2-1.8B",
-     "runners": ["Qwen/Qwen3.8-27B"],
-     "why": "Purpose-built 2B translator from the WMT-winning Hunyuan-MT line; Apache-2.0; CPU-friendly"},
-    {"group": "use-case", "label": "Speech-to-text", "pick": "Qwen/Qwen3-ASR-1.7B",
-     "runners": ["FunAudioLLM/Fun-ASR-Nano-2512", "zai-org/GLM-ASR-Nano-2512"],
-     "why": "Top-20 ASR on all of HF by adoption (2.5M/mo); Apache-2.0; 2.3B"},
-    {"group": "use-case", "label": "Text-to-speech", "pick": "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
-     "runners": ["openbmb/VoxCPM2"],
-     "why": "Most-adopted Chinese open TTS (2.6M/mo), voice cloning, Apache-2.0; VoxCPM2 runs on CPU"},
-    {"group": "use-case", "label": "Image generation", "pick": "Qwen/Qwen-Image-Edit-2511",
-     "runners": ["Qwen/Qwen-Image", "zai-org/GLM-Image"],
-     "why": "Only top-tier open image family at a permissive license and consumer VRAM (~16GB FP8)"}
+    {
+      "group": "hardware",
+      "label": "Phone / edge (any device)",
+      "pick": "openbmb/MiniCPM5-2B",
+      "runners": [
+        "Qwen/Qwen3.5-4B"
+      ],
+      "why": "2.5B that beats 4B-class models (avg 53.9 vs 51.1); official phone builds; Apache-2.0"
+    },
+    {
+      "group": "hardware",
+      "label": "Ordinary 8GB laptop",
+      "pick": "Qwen/Qwen3.5-9B",
+      "runners": [
+        "Qwen/Qwen3.5-4B"
+      ],
+      "why": "Most-downloaded model on all of HF (9.2M/mo); ~5GB quantized; multimodal; Apache-2.0"
+    },
+    {
+      "group": "hardware",
+      "label": "16\u201332GB RAM / small GPU",
+      "pick": "Qwen/Qwen3.6-35B-A3B",
+      "runners": [
+        "tencent/Hy-MT2-30B-A3B"
+      ],
+      "why": "Flagship-adjacent coding (SWE-bench 73.4) at 3B-active speed; needs ~21GB quantized"
+    },
+    {
+      "group": "hardware",
+      "label": "Gaming PC, 24\u201332GB VRAM",
+      "pick": "zai-org/GLM-4.7-Flash",
+      "runners": [
+        "Qwen/Qwen3.8-27B",
+        "Qwen/Qwen3.6-27B"
+      ],
+      "why": "MIT; strongest 30B-class for agents/tool use; Qwen3.8-27B the dense raw-intelligence rival"
+    },
+    {
+      "group": "hardware",
+      "label": "Workstation, 64\u2013128GB",
+      "pick": "Qwen/Qwen3.5-122B-A10B",
+      "runners": [
+        "Qwen/Qwen3.8-Flash-Next"
+      ],
+      "why": "Frontier-company benchmarks (GPQA 86.6) fitting 96\u2013128GB unified memory; Apache-2.0"
+    },
+    {
+      "group": "hardware",
+      "label": "Mac Studio / 256GB+",
+      "pick": "zai-org/GLM-5.3-Flash",
+      "runners": [
+        "deepseek-ai/DeepSeek-V4-Flash-0731"
+      ],
+      "why": "MIT 320B MoE (18B active), 41.9% AA index \u2014 best capability-per-byte in class"
+    },
+    {
+      "group": "hardware",
+      "label": "Server / multi-GPU",
+      "pick": "deepseek-ai/DeepSeek-V4-Pro-0813",
+      "runners": [
+        "zai-org/GLM-5.3"
+      ],
+      "why": "#1 open-weight model on the Artificial Analysis index (53.2%); MIT"
+    },
+    {
+      "group": "use-case",
+      "label": "Coding assistant",
+      "pick": "Qwen/Qwen3.8-27B",
+      "runners": [
+        "zai-org/GLM-5.3-Flash",
+        "moonshotai/Kimi-K2.7-Code"
+      ],
+      "why": "The Sept-2026 local default: 61.7 SWE-bench Pro, 4-bit quant matches full model, fits 24GB"
+    },
+    {
+      "group": "use-case",
+      "label": "Vision / screenshots",
+      "pick": "Qwen/Qwen3.8-27B",
+      "runners": [
+        "openbmb/MiniCPM-V-4",
+        "XiaomiMiMo/MiMo-VL-7B-RL"
+      ],
+      "why": "Natively multimodal \u2014 same download as the coding pick; MiniCPM-V-4 for 8GB machines"
+    },
+    {
+      "group": "use-case",
+      "label": "OCR / document reading",
+      "pick": "zai-org/GLM-OCR",
+      "runners": [
+        "deepseek-ai/DeepSeek-OCR-2"
+      ],
+      "why": "1.3B, MIT, 94.6% OmniDocBench \u2014 beats frontier closed models and runs on a CPU"
+    },
+    {
+      "group": "use-case",
+      "label": "Math & reasoning",
+      "pick": "Qwen/Qwen3.8-27B",
+      "runners": [
+        "deepseek-ai/DeepSeek-Math-V2",
+        "deepseek-ai/DeepSeek-V3.2-Speciale"
+      ],
+      "why": "Only frontier-adjacent reasoner that fits 24GB; DeepSeek-Math-V2 for max accuracy (server)"
+    },
+    {
+      "group": "use-case",
+      "label": "Long documents (1M tokens)",
+      "pick": "zai-org/GLM-5.3-Flash",
+      "runners": [
+        "deepseek-ai/DeepSeek-V4-Flash"
+      ],
+      "why": "Verified 1,048,576-token window from config.json; MIT; Qwen3.8-27B caps at 262K"
+    },
+    {
+      "group": "use-case",
+      "label": "Translation",
+      "pick": "tencent/Hy-MT2-1.8B",
+      "runners": [
+        "Qwen/Qwen3.8-27B"
+      ],
+      "why": "Purpose-built 2B translator from the WMT-winning Hunyuan-MT line; Apache-2.0; CPU-friendly"
+    },
+    {
+      "group": "use-case",
+      "label": "Speech-to-text",
+      "pick": "Qwen/Qwen3-ASR-1.7B",
+      "runners": [
+        "FunAudioLLM/Fun-ASR-Nano-2512",
+        "zai-org/GLM-ASR-Nano-2512"
+      ],
+      "why": "Top-20 ASR on all of HF by adoption (2.5M/mo); Apache-2.0; 2.3B"
+    },
+    {
+      "group": "use-case",
+      "label": "Text-to-speech",
+      "pick": "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
+      "runners": [
+        "openbmb/VoxCPM2"
+      ],
+      "why": "Most-adopted Chinese open TTS (2.6M/mo), voice cloning, Apache-2.0; VoxCPM2 runs on CPU"
+    },
+    {
+      "group": "use-case",
+      "label": "Image generation",
+      "pick": "Qwen/Qwen-Image-Edit-2511",
+      "runners": [
+        "Qwen/Qwen-Image",
+        "zai-org/GLM-Image"
+      ],
+      "why": "Only top-tier open image family at a permissive license and consumer VRAM (~16GB FP8)"
+    },
+    {
+      "group": "use-case",
+      "label": "Video generation",
+      "pick": "Wan-AI/Wan2.2-I2V-A14B",
+      "runners": [
+        "Wan-AI/Wan2.2-TI2V-5B",
+        "Wan-AI/Wan2.1-T2V-1.3B"
+      ],
+      "why": "Apache-2.0 Wan family \u2014 the community flagship is image-to-video; 5B runs on 8GB offloaded. Deepest LoRA/workflow ecosystem: civitai.com/ecosystems/wan"
+    },
+    {
+      "group": "use-case",
+      "label": "Search / RAG embeddings",
+      "pick": "Qwen/Qwen3-Embedding-0.6B",
+      "runners": [
+        "Qwen/Qwen3-Embedding-8B",
+        "BAAI/bge-m3"
+      ],
+      "why": "The community default (8.5M dl/mo, Apache); 8B is the open MTEB quality ceiling; BGE-M3 (38M dl, MIT) the most fine-tunable on your own data"
+    },
+    {
+      "group": "use-case",
+      "label": "Reranker",
+      "pick": "Qwen/Qwen3-Reranker-4B",
+      "runners": [
+        "KaLM-Embedding/KaLM-Reranker-V1-Large"
+      ],
+      "why": "Beats the long-standing BGE default by ~12 points across retrieval benchmarks; Apache-2.0"
+    },
+    {
+      "group": "use-case",
+      "label": "Safety filter",
+      "pick": "Qwen/Qwen3Guard-Gen-4B",
+      "runners": [
+        "Qwen/Qwen3Guard-Stream-4B",
+        "openai/gpt-oss-safeguard-20b"
+      ],
+      "why": "Top open guard in independent ICLR 2026 benchmark; Stream variant kills bad output mid-generation; Apache-2.0"
+    },
+    {
+      "group": "use-case",
+      "label": "Instant decisions / classification",
+      "pick": "MoritzLaurer/deberta-v3-large-zeroshot-v2.0",
+      "runners": [
+        "MoritzLaurer/ModernBERT-large-zeroshot-v2.0",
+        "Qwen/Qwen3.5-4B"
+      ],
+      "why": "Label any text against categories you invent, in milliseconds on CPU (MIT). For custom typed outputs: a small Qwen + the Outlines library"
+    }
   ]
 }

@@ -20,8 +20,8 @@
         "obligations": [
           "attribution"
         ],
-        "freedom": "free",
-        "freedom_note": "MIT declared in card metadata and README badge; no standalone LICENSE file \u2014 declaration preserved in snapshot (user-approved mirror)"
+        "freedom": "conditional",
+        "freedom_note": "'mit' card tag but NO license file in repo \u2014 unverifiable, confirm upstream"
       },
       "gate_terms_sha256": null,
       "files": [

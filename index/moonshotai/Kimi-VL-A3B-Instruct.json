@@ -69,7 +69,7 @@
           "path": "figures/instruct_perf.png",
           "size": 2235806,
           "sha256": "52405bbe3e3b0c30a5502c40095241000d4c3dbf9862d7a6c0b6079806292ad4",
-          "kind": "snapshot"
+          "kind": "media-no-snapshot"
         },
         {
           "path": "figures/logo.png",

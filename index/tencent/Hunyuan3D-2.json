@@ -63,13 +63,13 @@
           "path": "assets/images/e2e-1.gif",
           "size": 8786876,
           "sha256": "6c582fdb3f6560b70418d1166a8024640a49f162b6969e03dc1a54ad196a837c",
-          "kind": "snapshot"
+          "kind": "media-no-snapshot"
         },
         {
           "path": "assets/images/e2e-2.gif",
           "size": 9021984,
           "sha256": "074ecb05f60c224f79e35e294ce847a7b77511c355fbcd57d3e82aa253eeb320",
-          "kind": "snapshot"
+          "kind": "media-no-snapshot"
         },
         {
           "path": "assets/images/system.jpg",

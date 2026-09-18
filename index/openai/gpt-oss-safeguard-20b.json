@@ -1,0 +1,138 @@
+{
+  "repo_id": "openai/gpt-oss-safeguard-20b",
+  "canonical_org": "openai",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "8a11e17b25c973a24099d4016bf2e17dd7ec1574",
+      "captured_at": "2026-09-18T06:15:14Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/openai/gpt-oss-safeguard-20b?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"9fb7-VkPbgYpbPwa/JU+qr0bqapRUpys\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "apache-2.0",
+        "file": "LICENSE",
+        "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+        "redistributable": true,
+        "obligations": [],
+        "freedom": "free",
+        "freedom_note": "apache-2.0 with LICENSE file verified in snapshot"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1570,
+          "sha256": "34448b82c17d60fec9b65b1f093c115ddbaadc04beb1b0140b6bfed2e012a930",
+          "kind": "snapshot"
+        },
+        {
+          "path": "LICENSE",
+          "size": 11358,
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 4031,
+          "sha256": "1a3a493bbb99dd2935e6e61c902be60ba326d7627958f5f78279259bb77027e9",
+          "kind": "snapshot"
+        },
+        {
+          "path": "USAGE_POLICY",
+          "size": 236,
+          "sha256": "a48000373022ca5114dc538e01085a3885884f41d4ba5c12dcd30d1e2d21dadf",
+          "kind": "snapshot"
+        },
+        {
+          "path": "chat_template.jinja",
+          "size": 16663,
+          "sha256": "589c73db2f7775c5f946b84bd4695fd3be3612e48ebb69a956dc38b7ec70236d",
+          "kind": "snapshot"
+        },
+        {
+          "path": "chat_template.json",
+          "size": 17461,
+          "sha256": "c8f5c2924c29dc0c6fafb1894863d620b2c0b065a8aef860c79f65b911ef95a7",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 1806,
+          "sha256": "8fc6c94451a1a97bf3080baec34002c75173833164bd8e75f40152e27b31e531",
+          "kind": "snapshot"
+        },
+        {
+          "path": "generation_config.json",
+          "size": 165,
+          "sha256": "97b165839e19bf43309d1e571d1720ebc081dde24e6722cfb644257215ad1e66",
+          "kind": "snapshot"
+        },
+        {
+          "path": "model-00000-of-00002.safetensors",
+          "size": 4792272488,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00001-of-00002.safetensors",
+          "size": 4798702184,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00002-of-00002.safetensors",
+          "size": 4170342232,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model.safetensors.index.json",
+          "size": 36355,
+          "sha256": "0e085b977c4c9942f85938828e8c989ed7d5cdabf852e4da6a67c116cd502cd1",
+          "kind": "snapshot"
+        },
+        {
+          "path": "special_tokens_map.json",
+          "size": 98,
+          "sha256": "dd5e191d20c12d2fee1da5bae14ca1db0f5f4215300af691f23cdee97120a293",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer.json",
+          "size": 27868174,
+          "sha256": "0614fe83cadab421296e664e1f48f4261fa8fef6e03e63bb75c20f38e37d07d3",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 4200,
+          "sha256": "9279e942392b742d633c7adbb89ebe002c98399db8926a7af5125c726f404070",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 13789279021,
+      "weight_bytes": 13761316904,
+      "snapshot_dir": "snapshots/openai/gpt-oss-safeguard-20b/8a11e17b25c973a24099d4016bf2e17dd7ec1574/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

@@ -135,7 +135,7 @@
           "path": "figures/demo_video.mp4",
           "size": 270100,
           "sha256": "09b4d925aa0a7c712feef50765355f0625d8f6d46ea302fd98db9609e9070047",
-          "kind": "snapshot"
+          "kind": "media-no-snapshot"
         },
         {
           "path": "figures/kimi-logo.png",

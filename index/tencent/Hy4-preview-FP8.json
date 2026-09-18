@@ -57,13 +57,13 @@
           "path": "assets/benchmark-appendix.jpg",
           "size": 8135858,
           "sha256": "02c751bf51c52c52cc02094561d7144bbfe3e27084d48d8a405d580da3554e21",
-          "kind": "snapshot"
+          "kind": "media-no-snapshot"
         },
         {
           "path": "assets/benchmark.jpg",
           "size": 16392330,
           "sha256": "1380ff67ebed3be637f0288ba7aa956ba4821ddc002100de44996271478c3fd4",
-          "kind": "snapshot"
+          "kind": "media-no-snapshot"
         },
         {
           "path": "assets/logo-en.png",

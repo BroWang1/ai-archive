@@ -45,7 +45,7 @@
           "path": "assets/Skiing.mp4",
           "size": 8534409,
           "sha256": "479ace116d6ac92487ad90f415b3ef817cd019bba4521043ef0d5faaa1a8415d",
-          "kind": "snapshot"
+          "kind": "media-no-snapshot"
         },
         {
           "path": "assets/Vocos.pt",

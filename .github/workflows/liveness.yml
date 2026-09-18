@@ -4,6 +4,10 @@ on:
     - cron: "17 6 * * *"   # daily
   workflow_dispatch:
 
+concurrency:
+  group: ai-archive-state
+  cancel-in-progress: false
+
 permissions:
   contents: write
   issues: write
@@ -11,8 +15,18 @@ permissions:
 jobs:
   liveness:
     runs-on: ubuntu-latest
+    env:
+      HF_TOKEN: ${{ secrets.HF_TOKEN }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            index
+            config
+            state
+            scripts
+            docs
+          sparse-checkout-cone-mode: true
       - name: Check upstream repos
         id: check
         run: |
@@ -21,13 +35,15 @@ jobs:
           code=$?
           echo "transitions=$([ $code -eq 2 ] && echo yes || echo no)" >> "$GITHUB_OUTPUT"
           [ $code -eq 2 ] || [ $code -eq 0 ] || exit $code
+      - name: Rebuild catalog and news
+        run: python3 scripts/build_catalog.py
       - name: Commit state (heartbeat)
         # An empty commit still resets GitHub's 60-day scheduled-workflow
         # auto-disable clock — silence must never kill the monitor.
         run: |
           git config user.name "ai-archive-bot"
           git config user.email "bot@users.noreply.github.com"
-          git add -A state/ index/
+          git add -A state/ index/ docs/
           git commit -m "heartbeat: liveness $(date -u +%F)" --allow-empty
           git push
       - name: Open issue on takedown

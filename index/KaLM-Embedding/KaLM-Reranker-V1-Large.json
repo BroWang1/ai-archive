@@ -1,0 +1,270 @@
+{
+  "repo_id": "KaLM-Embedding/KaLM-Reranker-V1-Large",
+  "canonical_org": "KaLM-Embedding",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "70b68aee5a3af752cc4425c6a72cf65d4e230042",
+      "captured_at": "2026-09-18T06:14:22Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/KaLM-Embedding/KaLM-Reranker-V1-Large?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"1b46-why5bDnfex97XF8q+Yqt0MAmU7k\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "apache-2.0",
+        "file": null,
+        "sha256": null,
+        "redistributable": null,
+        "obligations": [],
+        "freedom": "conditional",
+        "freedom_note": "'apache-2.0' card tag but NO license file in repo \u2014 unverifiable, confirm upstream"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1897,
+          "sha256": "18a046b26deeaffe0601a2b3742c1a2a50f78dc2166fb1a8ec1e3c203068aad2",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 14983,
+          "sha256": "0741b420cfe935ce7847178aaa1f86e3687b3fe2ecdfdabaac1948a40a2e0e08",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/beir.jpg",
+          "size": 365233,
+          "sha256": "e496b19a15b17327e357091d4f4cd3e9325e11514cf68498e7b47817ecf009a0",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/framework.jpg",
+          "size": 195277,
+          "sha256": "80b5c5a3c6f27ca583ef7d1c61cc95fe680a07da67eb5d92f64dd71959b84bdd",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/lmeb.jpg",
+          "size": 292603,
+          "sha256": "076c0afa6e9a032cd65552385b6ac93e442e5a5ae602d096c7aa44c2bebbb2d3",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/lmeb_emb.jpg",
+          "size": 223876,
+          "sha256": "05b52fbc80c52bbb76fbf05e34cd0173fea0b04afdf9305711359f0315a7877d",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/miracl.jpg",
+          "size": 433050,
+          "sha256": "83180b2115dfcdd298524ac792843ea432afbcc7d49d12f0008d66a68ec6e52e",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/template.jpg",
+          "size": 102631,
+          "sha256": "7db9b2923601781ee8aa0f388e05af5025995a0270b7e64e7fa55cbd7edb0818",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 6996,
+          "sha256": "cb9cd9526c0669c3397e0e332215f9b2b642edca075dea43819002ce6debdfe2",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config_sentence_transformers.json",
+          "size": 341,
+          "sha256": "cc976b42f51468317847c6d5a6ebd1531eeb85c61cf924310d093ee23fec002f",
+          "kind": "snapshot"
+        },
+        {
+          "path": "generation_config.json",
+          "size": 190,
+          "sha256": "43e408f6617d77454167c6c345452ba55d5bc145dcde9ed9ec9db59266756d2d",
+          "kind": "snapshot"
+        },
+        {
+          "path": "kalm_cross_encoder.py",
+          "size": 10752,
+          "sha256": "5307c25736f4be12c063b101d3fb2d3e7d23f6bb2124371412b66d5b26c23e3d",
+          "kind": "snapshot"
+        },
+        {
+          "path": "kalm_cross_encoder_config.json",
+          "size": 263,
+          "sha256": "d3a90bd0b540b0792f32795a7adb327dded2367fdac253c2be2ee457ac2da44c",
+          "kind": "snapshot"
+        },
+        {
+          "path": "kalm_reranker.py",
+          "size": 11253,
+          "sha256": "602784137f45a6b3f111bd89f7ad21719c127773d1a1fdccf63fd89d89dfc8c7",
+          "kind": "snapshot"
+        },
+        {
+          "path": "kalm_reranker_utils.py",
+          "size": 7603,
+          "sha256": "083660647e785f58d73c20680c4e5db7139377101ba07333d6dbf9cafcf20129",
+          "kind": "snapshot"
+        },
+        {
+          "path": "model.safetensors",
+          "size": 15018037032,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "modules.json",
+          "size": 115,
+          "sha256": "ec2633e5f91d4c924a881ae67fdc592dd422b87822b4e8b3e15cd621bc053053",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer.json",
+          "size": 33384387,
+          "sha256": "f5b325224482ec441ec5fbe2a5ac08c3758e0f9605f6e54368e31f736fcfb01d",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 772,
+          "sha256": "91605e4321058aa54733deaab787f60ea6a71a64906bd871fe6973216e6001f3",
+          "kind": "snapshot"
+        },
+        {
+          "path": "vllm_support/README.md",
+          "size": 7197,
+          "sha256": "8e0e5766b57146b57ef343f0bfe7823d1e58aea6b9b69bc1d29410684c69e147",
+          "kind": "snapshot"
+        },
+        {
+          "path": "vllm_support/examples/call_online_api.py",
+          "size": 109,
+          "sha256": "394ed528a459fb123ecb141a98a746848c4c20550d7e0395d92240fb67c0305c",
+          "kind": "snapshot"
+        },
+        {
+          "path": "vllm_support/examples/offline_usage.py",
+          "size": 487,
+          "sha256": "22f4e5f53896fa42cb35420f8c89f53ae9b6d6c8030b04e4a8fd51ea023fcfec",
+          "kind": "snapshot"
+        },
+        {
+          "path": "vllm_support/examples/rerank_request.json",
+          "size": 279,
+          "sha256": "5285f3bf1d91139396c5048b438ea82cc06ab36a7fcf481d9361c632281a1475",
+          "kind": "snapshot"
+        },
+        {
+          "path": "vllm_support/examples/sample_pairs.jsonl",
+          "size": 219,
+          "sha256": "b2b53275d4847c091b1e7f0b64dedb17d96b30b1a04cd317d92250de27934570",
+          "kind": "snapshot"
+        },
+        {
+          "path": "vllm_support/examples/score_request.json",
+          "size": 356,
+          "sha256": "243e0aad4e83fc694cea22d28e3528889d8f5dc978e80d5d57997580774a7946",
+          "kind": "snapshot"
+        },
+        {
+          "path": "vllm_support/examples/start_online_server.sh",
+          "size": 813,
+          "sha256": "06add84fd9b00c7cd6d4e6af1aa639e7570f416cd3d6ea507ccacd9107b88736",
+          "kind": "snapshot"
+        },
+        {
+          "path": "vllm_support/pyproject.toml",
+          "size": 816,
+          "sha256": "8a163c7ee87697bd58b4f4b68d12ef15b47d502d1d53d3530bc52fa6fd28c2be",
+          "kind": "snapshot"
+        },
+        {
+          "path": "vllm_support/src/kalm_t5gemma2_vllm_plugin/__init__.py",
+          "size": 455,
+          "sha256": "dcba604796932275abaf69e2e7095ac4b10d11bf69bc3176a5ab6f29dd0d0057",
+          "kind": "snapshot"
+        },
+        {
+          "path": "vllm_support/src/kalm_t5gemma2_vllm_plugin/cli.py",
+          "size": 6258,
+          "sha256": "fe5efd73c59d9ad8308f1050a7997ed5a1a55adc1fcaf7341f0b86e282a4d906",
+          "kind": "snapshot"
+        },
+        {
+          "path": "vllm_support/src/kalm_t5gemma2_vllm_plugin/client.py",
+          "size": 3918,
+          "sha256": "da4d6670880f3845038af85a01ee2ca004d117c2d3fa873fb53f6d4f747bbecf",
+          "kind": "snapshot"
+        },
+        {
+          "path": "vllm_support/src/kalm_t5gemma2_vllm_plugin/constants.py",
+          "size": 3041,
+          "sha256": "24da0a32c9df2050ee887087325ab5c3ff809ccdc843271302bfca41df00f337",
+          "kind": "snapshot"
+        },
+        {
+          "path": "vllm_support/src/kalm_t5gemma2_vllm_plugin/modeling.py",
+          "size": 9965,
+          "sha256": "03cb14eddc32cbd64798861578b0ebdad46e74319e9d90204331f207c030dd5c",
+          "kind": "snapshot"
+        },
+        {
+          "path": "vllm_support/src/kalm_t5gemma2_vllm_plugin/modeling_score.py",
+          "size": 7536,
+          "sha256": "13925d946f7c0f3ec97400414ea3960bd9399ebf8f5875510e5c04a53562556a",
+          "kind": "snapshot"
+        },
+        {
+          "path": "vllm_support/src/kalm_t5gemma2_vllm_plugin/processing.py",
+          "size": 5396,
+          "sha256": "9198c2bd0ba89f1123efd2b9d5e7cd3548ab0a33265cf0b64ff11c8423ff0952",
+          "kind": "snapshot"
+        },
+        {
+          "path": "vllm_support/src/kalm_t5gemma2_vllm_plugin/register.py",
+          "size": 295,
+          "sha256": "c98381892d6733f2195a730047003391dc873c60cb2ace11baedc6ea21d0cb76",
+          "kind": "snapshot"
+        },
+        {
+          "path": "vllm_support/src/kalm_t5gemma2_vllm_plugin/reranker.py",
+          "size": 12672,
+          "sha256": "2433bda9233f41d1c81fb9362b1dfce276ad5d6794b50d34f8e4de3eab5e8955",
+          "kind": "snapshot"
+        },
+        {
+          "path": "vllm_support/src/kalm_t5gemma2_vllm_plugin/server.py",
+          "size": 7513,
+          "sha256": "561331014426d584d33439050e401d4941f536fe0b93d7b7016df093aa964524",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 15053156579,
+      "weight_bytes": 15018037032,
+      "snapshot_dir": "snapshots/KaLM-Embedding/KaLM-Reranker-V1-Large/70b68aee5a3af752cc4425c6a72cf65d4e230042/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

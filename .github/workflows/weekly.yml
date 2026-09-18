@@ -1,0 +1,61 @@
+name: weekly
+on:
+  schedule:
+    - cron: "47 16 * * 1"   # Mondays
+  workflow_dispatch:
+
+concurrency:
+  group: ai-archive-state
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  weekly:
+    runs-on: ubuntu-latest
+    env:
+      HF_TOKEN: ${{ secrets.HF_TOKEN }}
+      DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Classify any unclassified captures
+        run: python3 scripts/classify.py | tail -1
+      - name: Mirror new redistributable models (only if HF_TOKEN secret is set)
+        if: ${{ env.HF_TOKEN != '' }}
+        run: |
+          pip -q install huggingface_hub
+          timeout 90m python3 scripts/mirror_dup.py --to AIArchiveInfo --pause 300 || true
+      - name: Write weekly digest (DeepSeek-polished if key set, factual otherwise)
+        run: python3 scripts/digest_weekly.py | tee digest.txt
+      - name: Rebuild catalog
+        run: python3 scripts/build_catalog.py
+      - name: Commit and push
+        run: |
+          git config user.name "ai-archive-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add -A state/ index/ docs/
+          git commit -m "weekly: digest $(date -u +%F)" --allow-empty
+          git push
+      - name: Warn on low DeepSeek balance
+        if: ${{ always() }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if grep -q "DEEPSEEK BALANCE LOW" digest.txt 2>/dev/null; then
+            gh issue create \
+              --title "⚠️ DeepSeek balance low — top up to keep AI-polished digests" \
+              --body "$(grep -A1 'DEEPSEEK BALANCE LOW' digest.txt)
+
+If the balance empties, nothing breaks: the weekly digest automatically falls back to the factual no-AI version. Top up at platform.deepseek.com to restore polished prose."
+          fi
+      - name: Post digest as issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh issue create \
+            --title "Weekly digest $(date -u +%F)" \
+            --body "$(cat digest.txt)
+
+Automated weekly run. Anything needing the owner's judgment is in the open issues list."

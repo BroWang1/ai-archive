@@ -69,7 +69,7 @@
           "path": "figures/benchmark.jpeg",
           "size": 4417149,
           "sha256": "b4bc02e54f508f540e71a9286905477c780934bb79c0b17cd5892b6338313e57",
-          "kind": "snapshot"
+          "kind": "media-no-snapshot"
         },
         {
           "path": "figures/efficiency_gqa_vs_msa.png",

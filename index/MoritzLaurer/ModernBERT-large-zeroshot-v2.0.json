@@ -1,0 +1,144 @@
+{
+  "repo_id": "MoritzLaurer/ModernBERT-large-zeroshot-v2.0",
+  "canonical_org": "MoritzLaurer",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "a51e07b524299e309dd2b88d48b0cfa2bd9ec598",
+      "captured_at": "2026-09-18T06:12:52Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/MoritzLaurer/ModernBERT-large-zeroshot-v2.0?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"11b9-sMdVFhOiE5BLzYew+A081Q3SvJs\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "apache-2.0",
+        "file": null,
+        "sha256": null,
+        "redistributable": null,
+        "obligations": [],
+        "freedom": "conditional",
+        "freedom_note": "'apache-2.0' card tag but NO license file in repo \u2014 unverifiable, confirm upstream"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1519,
+          "sha256": "11ad7efa24975ee4b0c3c3a38ed18737f0658a5f75a0a96787b576a78a023361",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 3245,
+          "sha256": "f5edbc9131c60af9e108be1e2ea2d4edfe75e606218114994059cee65e5f4d1b",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 1471,
+          "sha256": "ababd87e19a2c783e08495996e5e32e7d6661ea66686ba41fd02f9e7d46d547f",
+          "kind": "snapshot"
+        },
+        {
+          "path": "model.safetensors",
+          "size": 791684972,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "onnx/model.onnx",
+          "size": 1583815100,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "onnx/model_bnb4.onnx",
+          "size": 400662272,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "onnx/model_fp16.onnx",
+          "size": 792148354,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "onnx/model_int8.onnx",
+          "size": 398075859,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "onnx/model_q4.onnx",
+          "size": 422173532,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "onnx/model_q4f16.onnx",
+          "size": 297384738,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "onnx/model_quantized.onnx",
+          "size": 398075859,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "onnx/model_uint8.onnx",
+          "size": 398075859,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "special_tokens_map.json",
+          "size": 694,
+          "sha256": "ea97ecdbcc73713039d8d64dbb05e3689495c96657fbd9a18f5bed381be81049",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer.json",
+          "size": 3583228,
+          "sha256": "6c8aaa9a542084f2457eab775d4eeb51f92a70c0fd9de28d5edb0ddec3c08d30",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 20839,
+          "sha256": "c5a7dfd44d93c5d7ed9b2ddcd7a6018e935ec7d53f1de45910ea9868e0ff1c17",
+          "kind": "snapshot"
+        },
+        {
+          "path": "training_args.bin",
+          "size": 5496,
+          "sha256": null,
+          "kind": "weights"
+        }
+      ],
+      "total_bytes": 5485713037,
+      "weight_bytes": 5482102041,
+      "snapshot_dir": "snapshots/MoritzLaurer/ModernBERT-large-zeroshot-v2.0/a51e07b524299e309dd2b88d48b0cfa2bd9ec598/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

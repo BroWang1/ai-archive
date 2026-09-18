@@ -22,6 +22,10 @@ TOOL = "ingest.py/0.1"
 HF = "https://huggingface.co"
 ROOT = Path(__file__).resolve().parent.parent
 WEIGHT_EXT = {".safetensors", ".bin", ".pt", ".pth", ".gguf", ".h5", ".msgpack", ".ckpt", ".onnx"}
+# demo media: fingerprint in the manifest, never stored (cards ship GBs of demo clips)
+VIDEO_EXT = {".mp4", ".webm", ".mov", ".avi", ".mkv", ".gif"}
+IMAGE_EXT = {".png", ".jpg", ".jpeg", ".webp"}
+IMAGE_MAX = 2 * 1024 * 1024  # keep small images (benchmark charts); skip demo grids
 # tokenizer.model / tokenizer.json can be tens of MB but are essential context
 ALWAYS_SNAPSHOT = {"tokenizer.json", "tokenizer.model", "vocab.json", "merges.txt"}
 
@@ -100,6 +104,13 @@ def ingest(repo_id, revision=None, max_file_mb=64):
             files.append(entry)
             continue
 
+        ext = "." + path.rsplit(".", 1)[-1].lower() if "." in path else ""
+        if ext in VIDEO_EXT or (ext in IMAGE_EXT and size > IMAGE_MAX):
+            entry["kind"] = "media-no-snapshot"
+            lfs = sib.get("lfs") or {}
+            entry["sha256"] = lfs.get("oid")
+            files.append(entry)
+            continue
         if size > max_file_mb * 1024 * 1024 and path.rsplit("/", 1)[-1] not in ALWAYS_SNAPSHOT:
             entry["kind"] = "skipped-large"
             lfs = sib.get("lfs") or {}

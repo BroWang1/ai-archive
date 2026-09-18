@@ -1,0 +1,240 @@
+{
+  "repo_id": "Wan-AI/Wan2.2-T2V-A14B",
+  "canonical_org": "Wan-AI",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "c8c270b13ee05bfa474194ac9fb07a5868a97cea",
+      "captured_at": "2026-09-18T05:58:48Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/Wan-AI/Wan2.2-T2V-A14B?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"28c9-KCfaq8pvdCHJyDNs6nqGVASIqfs\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "apache-2.0",
+        "file": null,
+        "sha256": null,
+        "redistributable": null,
+        "obligations": [],
+        "freedom": "conditional",
+        "freedom_note": "'apache-2.0' card tag but NO license file in repo \u2014 unverifiable, confirm upstream"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1807,
+          "sha256": "01369ba77d127c65ffca67c40fe3b9bc6941adf37baf351ce80b1f1df3b702bc",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 17169,
+          "sha256": "45aca8eac89096edafa083cd12b4842a696317c318cdfdfd7b1ce4a5840d537f",
+          "kind": "snapshot"
+        },
+        {
+          "path": "Wan2.1_VAE.pth",
+          "size": 507609880,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "assets/comp_effic.png",
+          "size": 202156,
+          "sha256": "75ee012dcfb08365bec67a3ec7afc126fc2817f79b9f80e38711792d4770e32b",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/logo.png",
+          "size": 56322,
+          "sha256": "96cddc0f667293436d0b9f92a299b6346b65b231d38ee49719a33d46c91fe1e3",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/moe_2.png",
+          "size": 527914,
+          "sha256": "4ea471ccb64349bd08bc9a78f336ae000e9ca3b40da9a652b8028b214a8c6093",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/moe_arch.png",
+          "size": 74900,
+          "sha256": "709510625af90bad3f9509c8c9bb6dc779576cd7f80b9bc95d75fe33f2755079",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/performance.png",
+          "size": 306535,
+          "sha256": "97ef99c13c8ae717a8a11c8d8ec927b69077c647cc6689755d08fc38e7fbb830",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/vae.png",
+          "size": 165486,
+          "sha256": "4aaea5e187f1c5908e15ade5bef24c9fb59882986bc3d2ad75f7fe820f3d772f",
+          "kind": "snapshot"
+        },
+        {
+          "path": "configuration.json",
+          "size": 47,
+          "sha256": "5d1cc0f912402522f05f12a681278da402004ad37006c72ecbb461c50065ec6c",
+          "kind": "snapshot"
+        },
+        {
+          "path": "google/umt5-xxl/special_tokens_map.json",
+          "size": 6623,
+          "sha256": "7b8a9f5040adb67b5805abdfd42c1f8d0f3d0e711f10726580eb3789cd0ad61d",
+          "kind": "snapshot"
+        },
+        {
+          "path": "google/umt5-xxl/spiece.model",
+          "size": 4548313,
+          "sha256": "e3909a67b780650b35cf529ac782ad2b6b26e6d1f849d3fbb6a872905f452458",
+          "kind": "snapshot"
+        },
+        {
+          "path": "google/umt5-xxl/tokenizer.json",
+          "size": 16837417,
+          "sha256": "6e197b4d3dbd71da14b4eb255f4fa91c9c1f2068b20a2de2472967ca3d22602b",
+          "kind": "snapshot"
+        },
+        {
+          "path": "google/umt5-xxl/tokenizer_config.json",
+          "size": 61728,
+          "sha256": "ed9a3a8b0faa71a70a32847e0435fe036e6e112d4df4edb7bb48a921e344dc05",
+          "kind": "snapshot"
+        },
+        {
+          "path": "high_noise_model/config.json",
+          "size": 250,
+          "sha256": "691a47e123c3dd41f134836fd9a00e744110c6a812a11b3d95ca70e9485ffe11",
+          "kind": "snapshot"
+        },
+        {
+          "path": "high_noise_model/diffusion_pytorch_model-00001-of-00006.safetensors",
+          "size": 9992481544,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "high_noise_model/diffusion_pytorch_model-00002-of-00006.safetensors",
+          "size": 9943937936,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "high_noise_model/diffusion_pytorch_model-00003-of-00006.safetensors",
+          "size": 9943979184,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "high_noise_model/diffusion_pytorch_model-00004-of-00006.safetensors",
+          "size": 9839059744,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "high_noise_model/diffusion_pytorch_model-00005-of-00006.safetensors",
+          "size": 9839059744,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "high_noise_model/diffusion_pytorch_model-00006-of-00006.safetensors",
+          "size": 7595559224,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "high_noise_model/diffusion_pytorch_model.safetensors.index.json",
+          "size": 96805,
+          "sha256": "f0d2171c391bb73944c3ff3b279b09c599b20bbba62bb45ac3e56282b840a9a6",
+          "kind": "snapshot"
+        },
+        {
+          "path": "low_noise_model/config.json",
+          "size": 250,
+          "sha256": "691a47e123c3dd41f134836fd9a00e744110c6a812a11b3d95ca70e9485ffe11",
+          "kind": "snapshot"
+        },
+        {
+          "path": "low_noise_model/diffusion_pytorch_model-00001-of-00006.safetensors",
+          "size": 9992481544,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "low_noise_model/diffusion_pytorch_model-00002-of-00006.safetensors",
+          "size": 9943937936,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "low_noise_model/diffusion_pytorch_model-00003-of-00006.safetensors",
+          "size": 9943979184,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "low_noise_model/diffusion_pytorch_model-00004-of-00006.safetensors",
+          "size": 9839059744,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "low_noise_model/diffusion_pytorch_model-00005-of-00006.safetensors",
+          "size": 9839059744,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "low_noise_model/diffusion_pytorch_model-00006-of-00006.safetensors",
+          "size": 7595559224,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "low_noise_model/diffusion_pytorch_model.safetensors.index.json",
+          "size": 96805,
+          "sha256": "f0d2171c391bb73944c3ff3b279b09c599b20bbba62bb45ac3e56282b840a9a6",
+          "kind": "snapshot"
+        },
+        {
+          "path": "models_t5_umt5-xxl-enc-bf16.pth",
+          "size": 11361920418,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "nohup.out",
+          "size": 939260,
+          "sha256": "195884e94c146a17a6c7c5b4cdbe8f11936397ed822125aa729004121766ccdf",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 126201624837,
+      "weight_bytes": 126177685050,
+      "snapshot_dir": "snapshots/Wan-AI/Wan2.2-T2V-A14B/c8c270b13ee05bfa474194ac9fb07a5868a97cea/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

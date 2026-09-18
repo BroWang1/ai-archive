@@ -1,0 +1,342 @@
+{
+  "repo_id": "Wan-AI/Wan2.2-S2V-14B",
+  "canonical_org": "Wan-AI",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "dab4e9c55bbe4c8c4d03db1c2c98c7f0ac9c454b",
+      "captured_at": "2026-09-18T06:10:13Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/Wan-AI/Wan2.2-S2V-14B?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"2d87-/05qmZKvmiWYjKXiTcQydE0GkII\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "apache-2.0",
+        "file": null,
+        "sha256": null,
+        "redistributable": null,
+        "obligations": [],
+        "freedom": "conditional",
+        "freedom_note": "'apache-2.0' card tag but NO license file in repo \u2014 unverifiable, confirm upstream"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1300,
+          "sha256": "cf2f54812a21a56d3015315677afa12d72cb0cafca8d029d75814d740900a792",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 18721,
+          "sha256": "b8361d366abbf2b0d211a20ecb0e721e6879a63f2c3bb66dd4bfc153ed870530",
+          "kind": "snapshot"
+        },
+        {
+          "path": "Wan2.1_VAE.pth",
+          "size": 507609880,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "assets/471504690-b63bfa58-d5d7-4de6-a1a2-98970b06d9a7.mp4",
+          "size": 9193286,
+          "sha256": "f33a16fd16b23b108fd585b7ca9463987543a5685b46272c1b534bd8fc4a14de",
+          "kind": "media-no-snapshot"
+        },
+        {
+          "path": "assets/comp_effic.png",
+          "size": 202156,
+          "sha256": "75ee012dcfb08365bec67a3ec7afc126fc2817f79b9f80e38711792d4770e32b",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/logo.png",
+          "size": 56322,
+          "sha256": "96cddc0f667293436d0b9f92a299b6346b65b231d38ee49719a33d46c91fe1e3",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/moe_2.png",
+          "size": 527914,
+          "sha256": "4ea471ccb64349bd08bc9a78f336ae000e9ca3b40da9a652b8028b214a8c6093",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/moe_arch.png",
+          "size": 74900,
+          "sha256": "709510625af90bad3f9509c8c9bb6dc779576cd7f80b9bc95d75fe33f2755079",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/performance.png",
+          "size": 306535,
+          "sha256": "97ef99c13c8ae717a8a11c8d8ec927b69077c647cc6689755d08fc38e7fbb830",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/vae.png",
+          "size": 165486,
+          "sha256": "4aaea5e187f1c5908e15ade5bef24c9fb59882986bc3d2ad75f7fe820f3d772f",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 890,
+          "sha256": "a6da0bd7da5fd43ba04049c625056b512b367d5caa5963623dc9e04252a4c7a6",
+          "kind": "snapshot"
+        },
+        {
+          "path": "configuration.json",
+          "size": 43,
+          "sha256": "a6b66993e9da0feaba8d42d06b21ad9cfaf7d8b591f32fd639ae35b7f5d2d859",
+          "kind": "snapshot"
+        },
+        {
+          "path": "diffusion_pytorch_model-00001-of-00004.safetensors",
+          "size": 9968229352,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "diffusion_pytorch_model-00002-of-00004.safetensors",
+          "size": 9891539248,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "diffusion_pytorch_model-00003-of-00004.safetensors",
+          "size": 9956985634,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "diffusion_pytorch_model-00004-of-00004.safetensors",
+          "size": 2774887624,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "diffusion_pytorch_model.safetensors.index.json",
+          "size": 113150,
+          "sha256": "b5ea0e7789d82c00bd25cfbeb940a1675e048986b1527198251da74d700508d2",
+          "kind": "snapshot"
+        },
+        {
+          "path": "google/umt5-xxl/special_tokens_map.json",
+          "size": 6623,
+          "sha256": "7b8a9f5040adb67b5805abdfd42c1f8d0f3d0e711f10726580eb3789cd0ad61d",
+          "kind": "snapshot"
+        },
+        {
+          "path": "google/umt5-xxl/spiece.model",
+          "size": 4548313,
+          "sha256": "e3909a67b780650b35cf529ac782ad2b6b26e6d1f849d3fbb6a872905f452458",
+          "kind": "snapshot"
+        },
+        {
+          "path": "google/umt5-xxl/tokenizer.json",
+          "size": 16837417,
+          "sha256": "6e197b4d3dbd71da14b4eb255f4fa91c9c1f2068b20a2de2472967ca3d22602b",
+          "kind": "snapshot"
+        },
+        {
+          "path": "google/umt5-xxl/tokenizer_config.json",
+          "size": 61728,
+          "sha256": "ed9a3a8b0faa71a70a32847e0435fe036e6e112d4df4edb7bb48a921e344dc05",
+          "kind": "snapshot"
+        },
+        {
+          "path": "models_t5_umt5-xxl-enc-bf16.pth",
+          "size": 11361920418,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "wav2vec2-large-xlsr-53-english/.msc",
+          "size": 2328,
+          "sha256": "1e0a2437f5c3a05b1890dca324468653d3d26d2e7ecccedde671a8bde1e9df57",
+          "kind": "snapshot"
+        },
+        {
+          "path": "wav2vec2-large-xlsr-53-english/.mv",
+          "size": 36,
+          "sha256": "eed69aba670497d2c58816c7467c42cebc810c4940b61ca4255d80c08a8720da",
+          "kind": "snapshot"
+        },
+        {
+          "path": "wav2vec2-large-xlsr-53-english/README.md",
+          "size": 5327,
+          "sha256": "5b50a1c21a9d7361efb0b336922756057a964b4415b2475fdd0a118257fb929d",
+          "kind": "snapshot"
+        },
+        {
+          "path": "wav2vec2-large-xlsr-53-english/alphabet.json",
+          "size": 200,
+          "sha256": "371e424e32d966e70fd7c0a11ad6bdc419990ba604ea7dd22d8748f11db044bf",
+          "kind": "snapshot"
+        },
+        {
+          "path": "wav2vec2-large-xlsr-53-english/config.json",
+          "size": 1531,
+          "sha256": "ffcc5c417fe11433447975d5053b2279fbeafd6bca03dd2753082e72ad2d36b7",
+          "kind": "snapshot"
+        },
+        {
+          "path": "wav2vec2-large-xlsr-53-english/configuration.json",
+          "size": 86,
+          "sha256": "38a052799e44f23ab0eafcb31ffe9b05d9bca18d56c0a471cd99f788b9ffbbfa",
+          "kind": "snapshot"
+        },
+        {
+          "path": "wav2vec2-large-xlsr-53-english/eval.py",
+          "size": 6198,
+          "sha256": "9873f495d1b1768853bde2bf9f2ebf280a3f5e765e2ab8f67b75421ea4aa525f",
+          "kind": "snapshot"
+        },
+        {
+          "path": "wav2vec2-large-xlsr-53-english/flax_model.msgpack",
+          "size": 1261905572,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "wav2vec2-large-xlsr-53-english/full_eval.sh",
+          "size": 1372,
+          "sha256": "518b83a534d41202ea12589d876a9ba65cc7becab121b5afe2ab5dba497ec330",
+          "kind": "snapshot"
+        },
+        {
+          "path": "wav2vec2-large-xlsr-53-english/language_model/attrs.json",
+          "size": 78,
+          "sha256": "f5ffd02e1ceef6517476e72ebe7997ddef7e92d27cb5a23d6695d64c4317d6ad",
+          "kind": "snapshot"
+        },
+        {
+          "path": "wav2vec2-large-xlsr-53-english/language_model/lm.binary",
+          "size": 862913451,
+          "sha256": null,
+          "kind": "skipped-large"
+        },
+        {
+          "path": "wav2vec2-large-xlsr-53-english/language_model/unigrams.txt",
+          "size": 3509871,
+          "sha256": "6fc518fbbfa10e8ba827925aad2f1cfd0eb85d2a7eb088f88600547916663159",
+          "kind": "snapshot"
+        },
+        {
+          "path": "wav2vec2-large-xlsr-53-english/log_mozilla-foundation_common_voice_6_0_en_test_predictions.txt",
+          "size": 924339,
+          "sha256": "3b4a7587a1b4bdfc4a87cc86c6e675e2966fa7e68a139f5a6a49416ec631f0b1",
+          "kind": "snapshot"
+        },
+        {
+          "path": "wav2vec2-large-xlsr-53-english/log_mozilla-foundation_common_voice_6_0_en_test_predictions_greedy.txt",
+          "size": 925177,
+          "sha256": "07511dab71f2967a11278d30281dd60d5a063cd719814fa771c2bd5d57a8a1c0",
+          "kind": "snapshot"
+        },
+        {
+          "path": "wav2vec2-large-xlsr-53-english/log_mozilla-foundation_common_voice_6_0_en_test_targets.txt",
+          "size": 932146,
+          "sha256": "b9c0b8a326e9322eb9c7f285def5d038603036fe8c3ea0b886b3a8f0b8fb562a",
+          "kind": "snapshot"
+        },
+        {
+          "path": "wav2vec2-large-xlsr-53-english/log_speech-recognition-community-v2_dev_data_en_validation_predictions.txt",
+          "size": 130354,
+          "sha256": "e34a4a81da0b8b7dbe5411484a7f0c40991360a5f64d430d34c0bfa2d177c587",
+          "kind": "snapshot"
+        },
+        {
+          "path": "wav2vec2-large-xlsr-53-english/log_speech-recognition-community-v2_dev_data_en_validation_predictions_greedy.txt",
+          "size": 130796,
+          "sha256": "4f6ad10d5e015ca3aa2dd08cd327ed2deec45fff2140ed1f396df59b9fb89fa4",
+          "kind": "snapshot"
+        },
+        {
+          "path": "wav2vec2-large-xlsr-53-english/log_speech-recognition-community-v2_dev_data_en_validation_targets.txt",
+          "size": 131489,
+          "sha256": "2568daef2db3a01a7f42a9e58b2c6c095301d29b6bdc67984fb8f81ad5459337",
+          "kind": "snapshot"
+        },
+        {
+          "path": "wav2vec2-large-xlsr-53-english/model.safetensors",
+          "size": 1261942732,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "wav2vec2-large-xlsr-53-english/mozilla-foundation_common_voice_6_0_en_test_eval_results.txt",
+          "size": 48,
+          "sha256": "cfbf7ffebbb2315cb769cd88fd9487af480d92a6c8239207aca6f8795736fead",
+          "kind": "snapshot"
+        },
+        {
+          "path": "wav2vec2-large-xlsr-53-english/mozilla-foundation_common_voice_6_0_en_test_eval_results_greedy.txt",
+          "size": 49,
+          "sha256": "d5165a6453337f1e6fd1f67f3946931c185974d97896e46bf0641089950d0fdf",
+          "kind": "snapshot"
+        },
+        {
+          "path": "wav2vec2-large-xlsr-53-english/preprocessor_config.json",
+          "size": 262,
+          "sha256": "ca5999a45e98bb76ea87a461ba28a23ad32a5bb9f733b8e0f6546ff38b6c612d",
+          "kind": "snapshot"
+        },
+        {
+          "path": "wav2vec2-large-xlsr-53-english/pytorch_model.bin",
+          "size": 1262069143,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "wav2vec2-large-xlsr-53-english/special_tokens_map.json",
+          "size": 85,
+          "sha256": "bb7068de1150661a10b55f9e4b12a0e77af8bf91f5e45e1b58afaf1d0e17f675",
+          "kind": "snapshot"
+        },
+        {
+          "path": "wav2vec2-large-xlsr-53-english/speech-recognition-community-v2_dev_data_en_validation_eval_results.txt",
+          "size": 48,
+          "sha256": "7a3f552b55e683b2557f3e981ebad4706ce7d431908b18bc57ceb04cf1a8082b",
+          "kind": "snapshot"
+        },
+        {
+          "path": "wav2vec2-large-xlsr-53-english/speech-recognition-community-v2_dev_data_en_validation_eval_results_greedy.txt",
+          "size": 49,
+          "sha256": "789f4080332e1622dca828014dc800a7abe8388382d32f4e6094ea72356640e9",
+          "kind": "snapshot"
+        },
+        {
+          "path": "wav2vec2-large-xlsr-53-english/vocab.json",
+          "size": 300,
+          "sha256": "1ec5eeced764da0e4a4d2e95c1c3470c3235222db0182088beac3e7c67eda8ff",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 49148820007,
+      "weight_bytes": 48247089603,
+      "snapshot_dir": "snapshots/Wan-AI/Wan2.2-S2V-14B/dab4e9c55bbe4c8c4d03db1c2c98c7f0ac9c454b/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

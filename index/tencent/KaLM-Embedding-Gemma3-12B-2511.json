@@ -1,0 +1,174 @@
+{
+  "repo_id": "tencent/KaLM-Embedding-Gemma3-12B-2511",
+  "canonical_org": "tencent",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "98c19ba34197906fbc93f6f1ef79402ca3a33956",
+      "captured_at": "2026-09-18T06:14:08Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/tencent/KaLM-Embedding-Gemma3-12B-2511?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"1387-M1zc5VQ81cbToHIvnCh5/vzR/A8\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "other",
+        "file": "LICENSE.txt",
+        "sha256": "481823be2fb05dede74d099e9a72ec11508dcf5ac4e84a143a072a0024d6929a",
+        "redistributable": null,
+        "obligations": [],
+        "freedom": "conditional",
+        "freedom_note": "Tencent custom license over a Gemma base \u2014 read before redistributing"
+      },
+      "gate_terms_sha256": "34b77f0e9f8d6dd570f381a6d6c1f237630a747a780227814c50c10fadb10263",
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 153,
+          "sha256": "3f30688456865d6fcff7c18102072ce90022d4180ad6884dd8dea166d6c15efb",
+          "kind": "snapshot"
+        },
+        {
+          "path": "1_Pooling/config.json",
+          "size": 297,
+          "sha256": "d449aaee573a3ed65a2eee8464b8accbd477b351d1a690b51c551b9ee5fceb22",
+          "kind": "snapshot"
+        },
+        {
+          "path": "2_Normalize/.Normalize",
+          "size": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "kind": "snapshot"
+        },
+        {
+          "path": "LICENSE.txt",
+          "size": 11682,
+          "sha256": "481823be2fb05dede74d099e9a72ec11508dcf5ac4e84a143a072a0024d6929a",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 7392,
+          "sha256": "9310866cfa67c20041e97ff0da30bfc3a1a1989be67c6f03fd92d77076846201",
+          "kind": "snapshot"
+        },
+        {
+          "path": "added_tokens.json",
+          "size": 35,
+          "sha256": "50b2f405ba56a26d4913fd772089992252d7f942123cc0a034d96424221ba946",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 2127,
+          "sha256": "652d7d58cd5fed9a1509d3b2e9b984a693ac2f638009abe1f114673917f1415a",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config_sentence_transformers.json",
+          "size": 205,
+          "sha256": "ad5da4996ae41b1fa4054e91c4c52e95f2845da0c93a0d779e15d0a79cd63852",
+          "kind": "snapshot"
+        },
+        {
+          "path": "model-00001-of-00005.safetensors",
+          "size": 4915892480,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00002-of-00005.safetensors",
+          "size": 4931293608,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00003-of-00005.safetensors",
+          "size": 4931293664,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00004-of-00005.safetensors",
+          "size": 4931293664,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00005-of-00005.safetensors",
+          "size": 3822364144,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model.safetensors.index.json",
+          "size": 48869,
+          "sha256": "ae00b34d3e1421029b56970919aa2805e1fe3c9670aa9717727e04c073f9011e",
+          "kind": "snapshot"
+        },
+        {
+          "path": "modules.json",
+          "size": 349,
+          "sha256": "84e40c8e006c9b1d6c122e02cba9b02458120b5fb0c87b746c41e0207cf642cf",
+          "kind": "snapshot"
+        },
+        {
+          "path": "sentence_bert_config.json",
+          "size": 56,
+          "sha256": "edd097645ed1ba6452a1224df6b8d0fa648d0db7d9865e716906e20db36d3ae7",
+          "kind": "snapshot"
+        },
+        {
+          "path": "special_tokens_map.json",
+          "size": 662,
+          "sha256": "2f7b0adf4fb469770bb1490e3e35df87b1dc578246c5e7e6fc76ecf33213a397",
+          "kind": "snapshot"
+        },
+        {
+          "path": "task_prompts.json",
+          "size": 25224,
+          "sha256": "6484be8880429b04d235dd6b7d152021e3e675d059ec872a8d87f53371282021",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer.json",
+          "size": 33384568,
+          "sha256": "4667f2089529e8e7657cfb6d1c19910ae71ff5f28aa7ab2ff2763330affad795",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer.model",
+          "size": 4689074,
+          "sha256": "1299c11d7cf632ef3b4e11937501358ada021bbdf7c47638d13c0ee982f2e79c",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 1155387,
+          "sha256": "983c80895e7b188911f5ccfbb4f780a4e73fb3131ed2080a3e847ef8623cfdca",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 23571463640,
+      "weight_bytes": 23532137560,
+      "snapshot_dir": "snapshots/tencent/KaLM-Embedding-Gemma3-12B-2511/98c19ba34197906fbc93f6f1ef79402ca3a33956/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

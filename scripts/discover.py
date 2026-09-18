@@ -1,12 +1,15 @@
 #!/usr/bin/env python3
 """Scan tracked canonical orgs for new model releases.
 
-Usage: python3 scripts/discover.py
+Usage: python3 scripts/discover.py [--auto-capture [CAP]]
 
 Compares each org's current repo listing against state/known_repos.json.
-Prints new repos (capture candidates — capture-first, curate-later) and
-exits 3 when any were found, so CI can open an issue.
+With --auto-capture, immediately ingests new repos (capture-first,
+curate-later; metadata + code snapshot only, never weights), up to CAP
+per run (default 20). Exits 3 when new repos were found, so CI can open
+an issue listing them.
 """
+import argparse
 import json
 import sys
 import urllib.request
@@ -26,6 +29,9 @@ def org_repos(org):
 
 
 def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--auto-capture", nargs="?", const=20, type=int, default=None)
+    args = ap.parse_args()
     now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     orgs = json.loads((ROOT / "config" / "orgs.json").read_text())["orgs"]
     state = json.loads(STATE.read_text()) if STATE.exists() else {"known": {}, "first_run_done": False}
@@ -57,7 +63,22 @@ def main():
     if new:
         print("NEW RELEASES (capture-first, curate-later):")
         for r in new:
-            print(f"  ++ {r}   -> python3 scripts/ingest.py {r}")
+            print(f"  ++ {r}")
+        if args.auto_capture:
+            import time
+            sys.path.insert(0, str(ROOT / "scripts"))
+            import classify
+            import ingest
+            for r in new[: args.auto_capture]:
+                try:
+                    ingest.ingest(r)
+                    classify.classify_record(ROOT / "index" / f"{r}.json")
+                    print(f"  auto-captured {r}")
+                except Exception as e:
+                    print(f"  !! capture failed {r}: {e}")
+                time.sleep(2)
+            if len(new) > args.auto_capture:
+                print(f"  ({len(new) - args.auto_capture} more left for next run)")
         sys.exit(3)
     print("no new releases")
 
