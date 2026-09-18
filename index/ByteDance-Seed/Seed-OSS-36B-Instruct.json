@@ -195,7 +195,13 @@
       },
       "serving": null,
       "mirrors": {
-        "hf": null,
+        "hf": {
+          "repo": "AIArchiveInfo/Seed-OSS-36B-Instruct",
+          "byte_identical": true,
+          "upstream_revision": "497f1dca95ebdec98e41d517b9f060ee753c902f",
+          "verified_files": 15,
+          "mirrored_at": "2026-09-18T04:48:23Z"
+        },
         "master": null
       }
     }

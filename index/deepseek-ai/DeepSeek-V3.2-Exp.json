@@ -1116,7 +1116,13 @@
       },
       "serving": null,
       "mirrors": {
-        "hf": null,
+        "hf": {
+          "repo": "AIArchiveInfo/DeepSeek-V3.2-Exp",
+          "byte_identical": true,
+          "upstream_revision": "194c67e12b1b0d6df0ef373ddcf215bc84027409",
+          "verified_files": 163,
+          "mirrored_at": "2026-09-18T04:49:54Z"
+        },
         "master": null
       }
     }

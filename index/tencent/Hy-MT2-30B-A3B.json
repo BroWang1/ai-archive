@@ -1,0 +1,660 @@
+{
+  "repo_id": "tencent/Hy-MT2-30B-A3B",
+  "canonical_org": "tencent",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "d3ead4dba61c09aac60a261a96ad1df3e705febb",
+      "captured_at": "2026-09-18T04:54:10Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/tencent/Hy-MT2-30B-A3B?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"7b07-YtKymN5eckqP7ayK688lGUHmzKM\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "apache-2.0",
+        "file": "LICENSE.txt",
+        "sha256": "c739a55bdf480d9fc8a2fe3f60e84363cc9a8a8d7fbb7c7ac6aa715c127ead47",
+        "redistributable": true,
+        "obligations": [],
+        "freedom": "free",
+        "freedom_note": "apache-2.0 with LICENSE file verified in snapshot"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1698,
+          "sha256": "850666ad167f2189a0ae416200c142195d39b3bc0eec7ecb71fb2ee066fbd919",
+          "kind": "snapshot"
+        },
+        {
+          "path": ".ms_upload_cache",
+          "size": 9941,
+          "sha256": "7c8d30692e68a8c5a3da50c5a31acb510e828ef9de94ec8be067cb3ba22f66f9",
+          "kind": "snapshot"
+        },
+        {
+          "path": "LICENSE.txt",
+          "size": 11635,
+          "sha256": "c739a55bdf480d9fc8a2fe3f60e84363cc9a8a8d7fbb7c7ac6aa715c127ead47",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 14833,
+          "sha256": "b5a2b8c368314eeb7c7ad82386b79db31a2e9cfff076474acdcb268e5890884f",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README_CN.md",
+          "size": 13776,
+          "sha256": "9d9b75c637b1d7f1b15c8bacda9d3815b90857cf699a0562ff2b715137d26e1f",
+          "kind": "snapshot"
+        },
+        {
+          "path": "chat_template.jinja",
+          "size": 11259,
+          "sha256": "53e11a67caa40e918de4930d836829024973da39b357cec4f4bf5aa2da96717f",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 1127,
+          "sha256": "a89b1e461fffb2e9a93138e2ada37f98b7fba77fe2159f73ffd8419dc5a5d3ff",
+          "kind": "snapshot"
+        },
+        {
+          "path": "imgs/logo-en.png",
+          "size": 65860,
+          "sha256": "0cd56e2438d4c91a5d529b3102f800de5f17c768f73caaf4848a864e7b741080",
+          "kind": "snapshot"
+        },
+        {
+          "path": "imgs/logo-zh.png",
+          "size": 69906,
+          "sha256": "1e9a9aea04658439e1af23db01c4cd2c6c6765fd1efd1a594c7ffdd312f31bb6",
+          "kind": "snapshot"
+        },
+        {
+          "path": "imgs/main_result.png",
+          "size": 3840604,
+          "sha256": "b87606817fec4fbdaca939de433e4d2a8e92d65493f44222aaaefb381f5a8c6e",
+          "kind": "snapshot"
+        },
+        {
+          "path": "model-00000-of-00051.safetensors",
+          "size": 1208006264,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00001-of-00051.safetensors",
+          "size": 1208006264,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00002-of-00051.safetensors",
+          "size": 1208006648,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00003-of-00051.safetensors",
+          "size": 1208006648,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00004-of-00051.safetensors",
+          "size": 1208006648,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00005-of-00051.safetensors",
+          "size": 1208006648,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00006-of-00051.safetensors",
+          "size": 1022335384,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00007-of-00051.safetensors",
+          "size": 1208006264,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00008-of-00051.safetensors",
+          "size": 1208006648,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00009-of-00051.safetensors",
+          "size": 1208006648,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00010-of-00051.safetensors",
+          "size": 1208006648,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00011-of-00051.safetensors",
+          "size": 1208006648,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00012-of-00051.safetensors",
+          "size": 1208006648,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00013-of-00051.safetensors",
+          "size": 197135040,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00014-of-00051.safetensors",
+          "size": 1208006264,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00015-of-00051.safetensors",
+          "size": 1208006648,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00016-of-00051.safetensors",
+          "size": 1208006648,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00017-of-00051.safetensors",
+          "size": 1208006648,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00018-of-00051.safetensors",
+          "size": 1208006648,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00019-of-00051.safetensors",
+          "size": 1208006648,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00020-of-00051.safetensors",
+          "size": 1208006264,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00021-of-00051.safetensors",
+          "size": 1208006648,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00022-of-00051.safetensors",
+          "size": 1208006648,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00023-of-00051.safetensors",
+          "size": 1208006648,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00024-of-00051.safetensors",
+          "size": 1208006648,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00025-of-00051.safetensors",
+          "size": 1208006648,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00026-of-00051.safetensors",
+          "size": 1208006264,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00027-of-00051.safetensors",
+          "size": 1208006648,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00028-of-00051.safetensors",
+          "size": 1208006648,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00029-of-00051.safetensors",
+          "size": 1208006648,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00030-of-00051.safetensors",
+          "size": 1208006648,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00031-of-00051.safetensors",
+          "size": 1208006648,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00032-of-00051.safetensors",
+          "size": 1208006264,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00033-of-00051.safetensors",
+          "size": 1208006648,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00034-of-00051.safetensors",
+          "size": 1208006648,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00035-of-00051.safetensors",
+          "size": 1208006648,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00036-of-00051.safetensors",
+          "size": 1208006648,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00037-of-00051.safetensors",
+          "size": 1208006648,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00038-of-00051.safetensors",
+          "size": 1208006264,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00039-of-00051.safetensors",
+          "size": 1208006648,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00040-of-00051.safetensors",
+          "size": 1208006648,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00041-of-00051.safetensors",
+          "size": 1208006648,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00042-of-00051.safetensors",
+          "size": 1208006648,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00043-of-00051.safetensors",
+          "size": 1208006648,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00044-of-00051.safetensors",
+          "size": 1208006264,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00045-of-00051.safetensors",
+          "size": 1208006648,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00046-of-00051.safetensors",
+          "size": 1208006648,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00047-of-00051.safetensors",
+          "size": 1208006648,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00048-of-00051.safetensors",
+          "size": 1208006648,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00049-of-00051.safetensors",
+          "size": 1072708800,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00050-of-00051.safetensors",
+          "size": 1063256608,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model.safetensors.index.json",
+          "size": 1607405,
+          "sha256": "c1ec317762cef521f07236d5b81ee02a01c9dd728571e5f9480cc29d3ac63e29",
+          "kind": "snapshot"
+        },
+        {
+          "path": "special_tokens_map.json",
+          "size": 468,
+          "sha256": "687791a9ade35069d6ffdd61eb1863839baf1e5ce235d5d48ff61b40dcb72f1a",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer.json",
+          "size": 9527108,
+          "sha256": "ad96ef9f641b79bb63807bea87cecf1dd0534325b463dad44cccbb3d0c571db7",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 165617,
+          "sha256": "3b5adc69f617f4999e636a53f0024aaded19d0b1830d2c8b4ac43b7af044fd7f",
+          "kind": "snapshot"
+        },
+        {
+          "path": "train/README.md",
+          "size": 15424,
+          "sha256": "52a6e022b7952456beb8bc687421c9ceb7907b20f5e43aa4b4e151f0366e64bb",
+          "kind": "snapshot"
+        },
+        {
+          "path": "train/README_CN.md",
+          "size": 14167,
+          "sha256": "9e63999ed926d666ee7ee70e960ee95727efbe3ca4c2e8c127262a5c6dc923dd",
+          "kind": "snapshot"
+        },
+        {
+          "path": "train/data/example_data.jsonl",
+          "size": 27750,
+          "sha256": "93eb14aa231440026efab2a62d01625ab726f5fc5b05a2a650201c62a6d91919",
+          "kind": "snapshot"
+        },
+        {
+          "path": "train/deepspeed_support/ds_zero2_no_offload.json",
+          "size": 528,
+          "sha256": "2da79dccadac076531b7721ef91705ddac34b4122994a11bd0916187e572049f",
+          "kind": "snapshot"
+        },
+        {
+          "path": "train/deepspeed_support/ds_zero2_offload.json",
+          "size": 676,
+          "sha256": "d9ddffe293c091891c9ac72557830d4fb4c3d9fc941da8497a7f5cf42d0313c6",
+          "kind": "snapshot"
+        },
+        {
+          "path": "train/deepspeed_support/ds_zero3_no_offload.json",
+          "size": 1100,
+          "sha256": "0056413515c3eae7ff997fec33cdff0c942956ddecd153185dc752cd7af417aa",
+          "kind": "snapshot"
+        },
+        {
+          "path": "train/deepspeed_support/ds_zero3_offload.json",
+          "size": 1099,
+          "sha256": "08db577e6e9cc723da661b93a4211ce8f4bb0677f010e8b46a8709d023cc185f",
+          "kind": "snapshot"
+        },
+        {
+          "path": "train/deepspeed_support/ds_zero3_offload_no_auto.json",
+          "size": 944,
+          "sha256": "a2eec2f9714a58126c44444fdc54c7e5deac6d27b495cd3fbd54f3ab25727a43",
+          "kind": "snapshot"
+        },
+        {
+          "path": "train/deepspeed_support/merge_lora_weight.py",
+          "size": 2512,
+          "sha256": "1cccdbfe8986fe033c6ad4a65308bb1127d4aeb1ff09bb8b8f9757f97e998f49",
+          "kind": "snapshot"
+        },
+        {
+          "path": "train/deepspeed_support/merge_lora_weight.sh",
+          "size": 269,
+          "sha256": "309b21db84a2cd041a602809de56fbb3ec94ec74333b9f9d73439f1dc200b595",
+          "kind": "snapshot"
+        },
+        {
+          "path": "train/deepspeed_support/train.py",
+          "size": 25662,
+          "sha256": "0ce02825dec02811aa0ec38464ce5bcd9e13788033a3a42ef663b515ae4e7c5a",
+          "kind": "snapshot"
+        },
+        {
+          "path": "train/deepspeed_support/train.sh",
+          "size": 3471,
+          "sha256": "a907329b71f776bcdd74bc6df0f86bb8561860f0599262ae63d62d4feaac1a8b",
+          "kind": "snapshot"
+        },
+        {
+          "path": "train/deepspeed_support/train_dense.py",
+          "size": 14905,
+          "sha256": "48a8e797ae3787797763b5c8fd7bc711cc131157019184ec91e0712133d42935",
+          "kind": "snapshot"
+        },
+        {
+          "path": "train/deepspeed_support/train_dense.sh",
+          "size": 4853,
+          "sha256": "04255c3287f6facd01a4106d500563abcab281e606f74d2307803f15e698d185",
+          "kind": "snapshot"
+        },
+        {
+          "path": "train/deepspeed_support/train_dense_lora.sh",
+          "size": 5081,
+          "sha256": "de8e8d1f003d10ea434b5ed68d23a257750d06944a606b4956256012debb1ffb",
+          "kind": "snapshot"
+        },
+        {
+          "path": "train/deepspeed_support/train_lora.sh",
+          "size": 3603,
+          "sha256": "e5c97d9f0ac93fc5f5570bb71767c372f004b6b34778209ca1d111bcc52aedf7",
+          "kind": "snapshot"
+        },
+        {
+          "path": "train/llama_factory_support/convert_zero_to_hf.sh",
+          "size": 5925,
+          "sha256": "5777d2f94d2459490355f4a3344f3e98f289641450036d721f0689862f839c2b",
+          "kind": "snapshot"
+        },
+        {
+          "path": "train/llama_factory_support/dataset_info.json",
+          "size": 974,
+          "sha256": "c239efced4c24c867065061b97e52526a400bc1cb947bb563707777bf5062f96",
+          "kind": "snapshot"
+        },
+        {
+          "path": "train/llama_factory_support/ds_zero2_offload.json",
+          "size": 892,
+          "sha256": "903b1d23add89ad81946d7eb4ca37f641a1746abdf5df119197008075ed04ef8",
+          "kind": "snapshot"
+        },
+        {
+          "path": "train/llama_factory_support/ds_zero2_offload_lora.json",
+          "size": 795,
+          "sha256": "f43dd911018ff918b858a9a7fd3a5f8b7cb38d402968d4dc4ad288fea396b892",
+          "kind": "snapshot"
+        },
+        {
+          "path": "train/llama_factory_support/ds_zero3_offload.json",
+          "size": 954,
+          "sha256": "c779017544f9ad21e6d44942267e9b68a7a820bc9cf03b04267e63a30a48ac23",
+          "kind": "snapshot"
+        },
+        {
+          "path": "train/llama_factory_support/hy_dense_1_8b_full_sft.yaml",
+          "size": 1077,
+          "sha256": "266c7eaff7e1c79de70b342684333d8999a71ba5ad1936b8fde9ba2ea7f5ff7b",
+          "kind": "snapshot"
+        },
+        {
+          "path": "train/llama_factory_support/hy_dense_1_8b_lora_sft.yaml",
+          "size": 1193,
+          "sha256": "907b2015f600ed1601de2b9a79b60bc8b52bdddf4fc3b28dc334f483533f3618",
+          "kind": "snapshot"
+        },
+        {
+          "path": "train/llama_factory_support/hy_dense_7b_full_sft.yaml",
+          "size": 1071,
+          "sha256": "db1df982fd808e1dccfdd9df09d274b69ce98827f03f0aa3f9cce4092f9956c8",
+          "kind": "snapshot"
+        },
+        {
+          "path": "train/llama_factory_support/hy_dense_7b_lora_sft.yaml",
+          "size": 1187,
+          "sha256": "2ddd87a6347535945c8494dce69479a345d640088307864a1c0547c4b40afa4d",
+          "kind": "snapshot"
+        },
+        {
+          "path": "train/llama_factory_support/hy_dense_template.py",
+          "size": 3616,
+          "sha256": "270b75167d6918c662aef5eb15d0e17293b1410540df9f9787ba7d06ee646587",
+          "kind": "snapshot"
+        },
+        {
+          "path": "train/llama_factory_support/hy_v3_full_sft.yaml",
+          "size": 1076,
+          "sha256": "7baf1dbb3b71542c354e9e097252500c7499a55272dad87fbb1612c0f897c180",
+          "kind": "snapshot"
+        },
+        {
+          "path": "train/llama_factory_support/hy_v3_lora_sft.yaml",
+          "size": 1231,
+          "sha256": "a4cd7172bfc1aa777f15fcb926b24f1aa6e677569f83bde45cfc3d2ebc21b535",
+          "kind": "snapshot"
+        },
+        {
+          "path": "train/llama_factory_support/hy_v3_patches.py",
+          "size": 8783,
+          "sha256": "7fc1da6e408dc92919097370c52e13794191379dd5c17fa9ef3e0d2766dbcd68",
+          "kind": "snapshot"
+        },
+        {
+          "path": "train/llama_factory_support/hy_v3_template.py",
+          "size": 1933,
+          "sha256": "b69ba86486d51519ee740dc8cec0d594242a253e0208d8461abd82382516d09a",
+          "kind": "snapshot"
+        },
+        {
+          "path": "train/llama_factory_support/train_hy_dense.py",
+          "size": 2982,
+          "sha256": "a76bdd3d8f5b64afa57cdffda18c0af50fc521ea953e56c11ec34856b778af33",
+          "kind": "snapshot"
+        },
+        {
+          "path": "train/llama_factory_support/train_hy_v3.py",
+          "size": 2475,
+          "sha256": "d9a25398a6c8a1cd1f84825214ad1c2bfa6909499b5154fb32807845f3d7ccc2",
+          "kind": "snapshot"
+        },
+        {
+          "path": "train/llama_factory_support/train_lf.sh",
+          "size": 3904,
+          "sha256": "b3fa0a34984979c7bb9022ff9c260e0ea0207d7388515c46db601a97237165d6",
+          "kind": "snapshot"
+        },
+        {
+          "path": "train/llama_factory_support/train_lf_dense.sh",
+          "size": 4197,
+          "sha256": "69cee8af67568cb94396ec9221aa1af215a999a8f50d7d15f970ea24fe333ca3",
+          "kind": "snapshot"
+        },
+        {
+          "path": "train/requirements.txt",
+          "size": 159,
+          "sha256": "9b2a03f384590d189cc798b71baa53c5aebfcf70c7c47123f8019a453aafa885",
+          "kind": "snapshot"
+        },
+        {
+          "path": "train/tools/check_converted.py",
+          "size": 15567,
+          "sha256": "459fe1262a20a63a17a0eeb5b5778703776405c38b17958240c440c2e997cafa",
+          "kind": "snapshot"
+        },
+        {
+          "path": "train/tools/convert_ckpt_to_outer.py",
+          "size": 23540,
+          "sha256": "59dc37a2f5dc93c04ccc64e6550edc2d10ccb5b2e25b4789e657cc2b5a4084fa",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 60147291644,
+      "weight_bytes": 60131744832,
+      "snapshot_dir": "snapshots/tencent/Hy-MT2-30B-A3B/d3ead4dba61c09aac60a261a96ad1df3e705febb/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

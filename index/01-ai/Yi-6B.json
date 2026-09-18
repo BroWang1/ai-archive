@@ -129,7 +129,13 @@
       },
       "serving": null,
       "mirrors": {
-        "hf": null,
+        "hf": {
+          "repo": "AIArchiveInfo/Yi-6B",
+          "byte_identical": true,
+          "upstream_revision": "80080be87ec5a0103f643195f2d9003b8068941b",
+          "verified_files": 4,
+          "mirrored_at": "2026-09-18T04:48:06Z"
+        },
         "master": null
       }
     }

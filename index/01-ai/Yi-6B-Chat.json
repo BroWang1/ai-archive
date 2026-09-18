@@ -111,7 +111,13 @@
       },
       "serving": null,
       "mirrors": {
-        "hf": null,
+        "hf": {
+          "repo": "AIArchiveInfo/Yi-6B-Chat",
+          "byte_identical": true,
+          "upstream_revision": "2dbf63b0cb7bc493c0243502c6e6111a36e3a093",
+          "verified_files": 3,
+          "mirrored_at": "2026-09-18T04:47:57Z"
+        },
         "master": null
       }
     }

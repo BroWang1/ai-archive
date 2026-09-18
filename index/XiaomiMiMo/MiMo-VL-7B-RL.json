@@ -1,0 +1,150 @@
+{
+  "repo_id": "XiaomiMiMo/MiMo-VL-7B-RL",
+  "canonical_org": "XiaomiMiMo",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "460c34be0c6cfe79b6b311647ae9112784f80b73",
+      "captured_at": "2026-09-18T04:55:55Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/XiaomiMiMo/MiMo-VL-7B-RL?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"1d38-sJdoOdu9yw9ZQLXYiXfjUrlaiOE\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "mit",
+        "file": null,
+        "sha256": null,
+        "redistributable": null,
+        "obligations": [],
+        "freedom": "conditional",
+        "freedom_note": "'mit' card tag but NO license file in repo \u2014 unverifiable, confirm upstream"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1519,
+          "sha256": "11ad7efa24975ee4b0c3c3a38ed18737f0658a5f75a0a96787b576a78a023361",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 7391,
+          "sha256": "eee093f16ba533e3826692af7ee21b66912acff41c221136b344b0814deb7b6b",
+          "kind": "snapshot"
+        },
+        {
+          "path": "added_tokens.json",
+          "size": 605,
+          "sha256": "58b54bbe36fc752f79a24a271ef66a0a0830054b4dfad94bde757d851968060b",
+          "kind": "snapshot"
+        },
+        {
+          "path": "chat_template.json",
+          "size": 1072,
+          "sha256": "4757062314f864cf47b9ce6ea4bd921590611c5b90f0860c523831756edc4fa1",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 1398,
+          "sha256": "577c695f5f2fcd9c0d94f01f77f61bc85f5405884f8d38915efd5e80b07a426d",
+          "kind": "snapshot"
+        },
+        {
+          "path": "generation_config.json",
+          "size": 131,
+          "sha256": "91299bcc334095eb7d4352d16bce2500e3ef0b88c731e608f31a98ac8b307096",
+          "kind": "snapshot"
+        },
+        {
+          "path": "merges.txt",
+          "size": 1671839,
+          "sha256": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3",
+          "kind": "snapshot"
+        },
+        {
+          "path": "model-00001-of-00004.safetensors",
+          "size": 4993514528,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00002-of-00004.safetensors",
+          "size": 4995131656,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00003-of-00004.safetensors",
+          "size": 4995953312,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00004-of-00004.safetensors",
+          "size": 1627927288,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model.safetensors.index.json",
+          "size": 65507,
+          "sha256": "bccb0a4d4a06ea7ea709dffb139bb00f713b80613b1fa742f464bd2304c5037d",
+          "kind": "snapshot"
+        },
+        {
+          "path": "preprocessor_config.json",
+          "size": 350,
+          "sha256": "f2058c716eef96ccaed1cc1e2d0c08306b62586d535b28d9d08e691b2fab7ca0",
+          "kind": "snapshot"
+        },
+        {
+          "path": "special_tokens_map.json",
+          "size": 613,
+          "sha256": "76862e765266b85aa9459767e33cbaf13970f327a0e88d1c65846c2ddd3a1ecd",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer.json",
+          "size": 7031645,
+          "sha256": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 7270,
+          "sha256": "cfeae2f7f1c2c2ca25c51d6fe03c0003a2965eb84ed97b405120d84cc73889f4",
+          "kind": "snapshot"
+        },
+        {
+          "path": "vocab.json",
+          "size": 2776833,
+          "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 16624092957,
+      "weight_bytes": 16612526784,
+      "snapshot_dir": "snapshots/XiaomiMiMo/MiMo-VL-7B-RL/460c34be0c6cfe79b6b311647ae9112784f80b73/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

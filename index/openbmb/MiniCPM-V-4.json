@@ -1,0 +1,162 @@
+{
+  "repo_id": "openbmb/MiniCPM-V-4",
+  "canonical_org": "openbmb",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "6f69a8235885be89608f3a71ffd40695b379e1e7",
+      "captured_at": "2026-09-18T04:55:41Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/openbmb/MiniCPM-V-4?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"113b-E90oHZeWNe49P1hKLJsTp9fBleM\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "apache-2.0",
+        "file": null,
+        "sha256": null,
+        "redistributable": null,
+        "obligations": [],
+        "freedom": "conditional",
+        "freedom_note": "'apache-2.0' card tag but NO license file in repo \u2014 unverifiable, confirm upstream"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1519,
+          "sha256": "11ad7efa24975ee4b0c3c3a38ed18737f0658a5f75a0a96787b576a78a023361",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 19808,
+          "sha256": "84855d0af0ce13fbf8ace31dd460f9b4963da3bede548cf16dd9b7a8aafa4575",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 5057,
+          "sha256": "a83a83259378c2684a96ce3a6cb96d418a1d97f46118af3aff2ac1222fc783b8",
+          "kind": "snapshot"
+        },
+        {
+          "path": "configuration_minicpm.py",
+          "size": 4238,
+          "sha256": "ff493a387dbac8bcde4bad93574f74238d4f715808189630c6d1f7ed207e9dfc",
+          "kind": "snapshot"
+        },
+        {
+          "path": "generation_config.json",
+          "size": 153,
+          "sha256": "b3604fc95ad97535c8efa08711e939743fb57cc004fc36ef358684dd2083087f",
+          "kind": "snapshot"
+        },
+        {
+          "path": "image_processing_minicpmv.py",
+          "size": 16600,
+          "sha256": "070fbe746243ce3fd666b48bbf415d9b9b3bf4cddaad15ab3f243733e40a6201",
+          "kind": "snapshot"
+        },
+        {
+          "path": "model-00001-of-00002.safetensors",
+          "size": 4966445072,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00002-of-00002.safetensors",
+          "size": 3152707944,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model.safetensors.index.json",
+          "size": 62812,
+          "sha256": "803b4c6605fd33df8ba4386c787f914e75d4d382f937e4e2c3f640d47e1f6d5c",
+          "kind": "snapshot"
+        },
+        {
+          "path": "modeling_minicpmv.py",
+          "size": 17268,
+          "sha256": "c59f539caf3bab55b4d491cb56449d6267ae07fe1ff25f63a859ea4a3e7f69e2",
+          "kind": "snapshot"
+        },
+        {
+          "path": "modeling_navit_siglip.py",
+          "size": 41835,
+          "sha256": "c71ca316fe7405325b7097364f98f71c317fff8c9f5c8820f30d3362b1ed5bfa",
+          "kind": "snapshot"
+        },
+        {
+          "path": "preprocessor_config.json",
+          "size": 714,
+          "sha256": "1d9513a6613e3919dda231a4ea935073122fd92107ab5342abd8ab3c212ca8f5",
+          "kind": "snapshot"
+        },
+        {
+          "path": "processing_minicpmv.py",
+          "size": 9920,
+          "sha256": "8af1702cc70167e94cb77f0d3a7c387d0923755a22679c7313a8380b72e5a3b2",
+          "kind": "snapshot"
+        },
+        {
+          "path": "resampler.py",
+          "size": 34709,
+          "sha256": "6f4f91977fd409b15fe7d2e7ab2ee3f88b544e71a1209026a937eece6c6c582e",
+          "kind": "snapshot"
+        },
+        {
+          "path": "special_tokens_map.json",
+          "size": 1632,
+          "sha256": "068594063e37662c02b21acf42ebb334ef6a74fb810e68a2368f88f08351de76",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenization_minicpmv_fast.py",
+          "size": 1647,
+          "sha256": "4512e985d4af814747a5c9d81d5f911fcb95c1d714b547282b01dd06639c08d0",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer.json",
+          "size": 3691593,
+          "sha256": "028e74a0efb7bbe99dc7e8b5c216c5fe54da231f80f41bb658e21326883503f3",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer.model",
+          "size": 1181048,
+          "sha256": "63099373ce6901674187ba3d7233c5970a253e8e0874056823bf0d3abc8d96a1",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 2883,
+          "sha256": "c13da6ff468cfed3d14eeccd4198cc304305660281cb91dc280aeb332e4d67e4",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 8124246452,
+      "weight_bytes": 8119153016,
+      "snapshot_dir": "snapshots/openbmb/MiniCPM-V-4/6f69a8235885be89608f3a71ffd40695b379e1e7/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

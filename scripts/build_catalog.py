@@ -56,6 +56,20 @@ header{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;border-bottom:3
 h1{font-family:var(--display);font-weight:600;font-size:clamp(26px,4vw,34px);margin:0;text-wrap:balance}
 h1 .seal{color:var(--seal)}
 .sub{color:var(--muted);font-size:14px}
+.picks{margin:24px 0 8px}
+.picks h2{font-family:var(--display);font-weight:600;font-size:20px;margin:0 0 2px}
+.picks .lede{color:var(--muted);font-size:13.5px;margin:0 0 14px}
+.pickgroup{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--muted);margin:14px 0 8px}
+.pickgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:10px}
+.pick{background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--seal);border-radius:6px;padding:10px 12px;display:flex;flex-direction:column;gap:3px}
+.pick .plabel{font-size:12px;font-weight:600;color:var(--muted)}
+.pick .pname{font-weight:600}
+.pick .pname a{color:inherit;text-decoration:none}
+.pick .pname a:hover{color:var(--seal)}
+.pick .pwhy{font-size:12.5px;color:var(--muted)}
+.pick .pmir{font-family:var(--mono);font-size:11.5px;color:var(--free)}
+.pick .prun{font-size:11.5px;color:var(--muted)}
+.pick .prun a{color:inherit}
 .tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin:22px 0 18px}
 .tile{background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:12px 14px;cursor:pointer;text-align:left;font:inherit;color:inherit}
 .tile[aria-pressed="true"]{outline:2px solid var(--seal);outline-offset:-1px}
@@ -97,6 +111,11 @@ footer a{color:var(--seal)}
   <h1><span class="seal">AI</span>Archive Catalog</h1>
   <span class="sub">Preservation records for frontier open-weight models — filter by license freedom</span>
 </header>
+<section class="picks">
+  <h2>Find your local AI</h2>
+  <p class="lede">The best open Chinese model for your setup — evidence-picked, freedom-first, preserved here.</p>
+  <div id="pickspanel"></div>
+</section>
 <div class="tiles" id="tiles"></div>
 <div class="bar">
   <input type="search" id="q" placeholder="Search model or lab…" aria-label="Search models">
@@ -118,6 +137,27 @@ footer a{color:var(--seal)}
 </div>
 <script>
 const DATA = __DATA__;
+const PICKS = __PICKS__;
+const MIRRORED = new Set(DATA.filter(r=>r.mirrored).map(r=>r.id));
+function renderPicks(){
+  const groups = [["hardware","By your hardware"],["use-case","By the job"]];
+  const el = document.getElementById("pickspanel");
+  el.innerHTML = groups.map(([g,title])=>{
+    const cards = PICKS.filter(p=>p.group===g).map(p=>{
+      const mir = MIRRORED.has(p.pick);
+      const url = mir ? `https://huggingface.co/AIArchiveInfo/${p.pick.split("/")[1]}`
+                      : `https://huggingface.co/${p.pick}`;
+      const runners = (p.runners||[]).map(r=>`<a href="https://huggingface.co/${r}" target="_blank" rel="noopener">${r.split("/")[1]}</a>`).join(", ");
+      return `<div class="pick"><span class="plabel">${p.label}</span>
+        <span class="pname"><a href="${url}" target="_blank" rel="noopener">${p.pick.split("/")[1]}</a></span>
+        ${mir?'<span class="pmir">✓ preserved mirror</span>':""}
+        <span class="pwhy">${p.why}</span>
+        ${runners?`<span class="prun">also: ${runners}</span>`:""}</div>`;
+    }).join("");
+    return `<div class="pickgroup">${title}</div><div class="pickgrid">${cards}</div>`;
+  }).join("");
+}
+renderPicks();
 const TIERS = ["free","conditional","restricted","unlicensed"];
 const TIER_LABEL = {free:"Full freedom", conditional:"Strings attached", restricted:"Restricted", unlicensed:"No license"};
 const state = { tier:null, q:"", sortK:"freedom", asc:true };
@@ -171,8 +211,10 @@ render();
 def main():
     rows = collect()
     tb = sum(r["gb"] for r in rows) / 1000
+    picks = json.loads((ROOT / "config" / "picks.json").read_text())["picks"]
     html = (TEMPLATE
             .replace("__DATA__", json.dumps(rows))
+            .replace("__PICKS__", json.dumps(picks))
             .replace("__DATE__", datetime.now(timezone.utc).strftime("%Y-%m-%d"))
             .replace("__N__", str(len(rows)))
             .replace("__TB__", f"{tb:.1f}"))

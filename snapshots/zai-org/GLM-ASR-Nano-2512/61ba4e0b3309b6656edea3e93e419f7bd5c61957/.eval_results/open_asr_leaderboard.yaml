@@ -1,0 +1,99 @@
+- dataset:
+    id: hf-audio/open-asr-leaderboard
+    task_id: mean_wer
+  value: 7.03
+  date: '2025-12-09'
+  source:
+    url: https://huggingface.co/hf-audio
+    name: open-asr-leaderboard
+    user: hf-audio
+
+- dataset:
+    id: hf-audio/open-asr-leaderboard
+    task_id: rtfx
+  value: 145.28
+  date: '2025-12-09'
+  source:
+    url: https://huggingface.co/hf-audio
+    name: open-asr-leaderboard
+    user: hf-audio
+
+- dataset:
+    id: hf-audio/open-asr-leaderboard
+    task_id: ami_wer
+  value: 16.15
+  date: '2025-12-09'
+  source:
+    url: https://huggingface.co/hf-audio
+    name: open-asr-leaderboard
+    user: hf-audio
+
+- dataset:
+    id: hf-audio/open-asr-leaderboard
+    task_id: earnings22_wer
+  value: 11.08
+  date: '2025-12-09'
+  source:
+    url: https://huggingface.co/hf-audio
+    name: open-asr-leaderboard
+    user: hf-audio
+
+- dataset:
+    id: hf-audio/open-asr-leaderboard
+    task_id: gigaspeech_wer
+  value: 9.73
+  date: '2025-12-09'
+  source:
+    url: https://huggingface.co/hf-audio
+    name: open-asr-leaderboard
+    user: hf-audio
+
+- dataset:
+    id: hf-audio/open-asr-leaderboard
+    task_id: librispeech_clean_wer
+  value: 2.15
+  date: '2025-12-09'
+  source:
+    url: https://huggingface.co/hf-audio
+    name: open-asr-leaderboard
+    user: hf-audio
+
+- dataset:
+    id: hf-audio/open-asr-leaderboard
+    task_id: librispeech_other_wer
+  value: 4.42
+  date: '2025-12-09'
+  source:
+    url: https://huggingface.co/hf-audio
+    name: open-asr-leaderboard
+    user: hf-audio
+
+- dataset:
+    id: hf-audio/open-asr-leaderboard
+    task_id: spgispeech_wer
+  value: 2.08
+  date: '2025-12-09'
+  source:
+    url: https://huggingface.co/hf-audio
+    name: open-asr-leaderboard
+    user: hf-audio
+
+- dataset:
+    id: hf-audio/open-asr-leaderboard
+    task_id: tedlium_wer
+  value: 3.1
+  date: '2025-12-09'
+  source:
+    url: https://huggingface.co/hf-audio
+    name: open-asr-leaderboard
+    user: hf-audio
+
+- dataset:
+    id: hf-audio/open-asr-leaderboard
+    task_id: voxpopuli_wer
+  value: 7.54
+  date: '2025-12-09'
+  source:
+    url: https://huggingface.co/hf-audio
+    name: open-asr-leaderboard
+    user: hf-audio

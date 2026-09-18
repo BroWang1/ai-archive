@@ -207,7 +207,13 @@
       },
       "serving": null,
       "mirrors": {
-        "hf": null,
+        "hf": {
+          "repo": "AIArchiveInfo/Baichuan-M2-32B",
+          "byte_identical": true,
+          "upstream_revision": "360f684d3cd527a4ef986c54071015eb0e6def58",
+          "verified_files": 15,
+          "mirrored_at": "2026-09-18T04:49:13Z"
+        },
         "master": null
       }
     }

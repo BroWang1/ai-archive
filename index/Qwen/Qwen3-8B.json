@@ -123,7 +123,13 @@
       },
       "serving": null,
       "mirrors": {
-        "hf": null,
+        "hf": {
+          "repo": "AIArchiveInfo/Qwen3-8B",
+          "byte_identical": true,
+          "upstream_revision": "b968826d9c46dd6066d109eabc6255188de91218",
+          "verified_files": 5,
+          "mirrored_at": "2026-09-18T04:48:57Z"
+        },
         "master": null
       }
     }

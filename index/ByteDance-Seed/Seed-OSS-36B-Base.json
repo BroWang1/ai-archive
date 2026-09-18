@@ -189,7 +189,13 @@
       },
       "serving": null,
       "mirrors": {
-        "hf": null,
+        "hf": {
+          "repo": "AIArchiveInfo/Seed-OSS-36B-Base",
+          "byte_identical": true,
+          "upstream_revision": "866afe247a1b86c297a2343900a6aa63747d2a67",
+          "verified_files": 15,
+          "mirrored_at": "2026-09-18T04:48:14Z"
+        },
         "master": null
       }
     }

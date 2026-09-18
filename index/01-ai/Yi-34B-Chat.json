@@ -183,7 +183,13 @@
       },
       "serving": null,
       "mirrors": {
-        "hf": null,
+        "hf": {
+          "repo": "AIArchiveInfo/Yi-34B-Chat",
+          "byte_identical": true,
+          "upstream_revision": "cf02cb50f2a03dead2fe205766a1c5598a90bf80",
+          "verified_files": 15,
+          "mirrored_at": "2026-09-18T04:47:39Z"
+        },
         "master": null
       }
     }

@@ -699,7 +699,13 @@
       },
       "serving": null,
       "mirrors": {
-        "hf": null,
+        "hf": {
+          "repo": "AIArchiveInfo/Baichuan-M3-235B",
+          "byte_identical": true,
+          "upstream_revision": "03a1fd5e4d5045b175cd850c576b1f92b335261e",
+          "verified_files": 96,
+          "mirrored_at": "2026-09-18T04:49:27Z"
+        },
         "master": null
       }
     }

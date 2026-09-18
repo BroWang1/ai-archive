@@ -1,0 +1,108 @@
+{
+  "repo_id": "zai-org/GLM-ASR-Nano-2512",
+  "canonical_org": "zai-org",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "61ba4e0b3309b6656edea3e93e419f7bd5c61957",
+      "captured_at": "2026-09-18T04:58:00Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/zai-org/GLM-ASR-Nano-2512?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"d0d-4fCf7lB8Fx60lk0D2zGeWUf3ddY\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "mit",
+        "file": null,
+        "sha256": null,
+        "redistributable": null,
+        "obligations": [],
+        "freedom": "conditional",
+        "freedom_note": "'mit' card tag but NO license file in repo \u2014 unverifiable, confirm upstream"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".eval_results/open_asr_leaderboard.yaml",
+          "size": 2129,
+          "sha256": "9d6b0456b243879c73c9cb30bfe632ee6feeb74a2922b35667ee1d05094ba622",
+          "kind": "snapshot"
+        },
+        {
+          "path": ".gitattributes",
+          "size": 1519,
+          "sha256": "11ad7efa24975ee4b0c3c3a38ed18737f0658a5f75a0a96787b576a78a023361",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 4767,
+          "sha256": "9b959db4a8a0e5cbe79ecfc0939b06cd034ce69a0256de937ec516a1e58408bd",
+          "kind": "snapshot"
+        },
+        {
+          "path": "chat_template.jinja",
+          "size": 851,
+          "sha256": "47effbd6fb4c9dc4b0e813ed19254a3440b744f838e60cfdc47491be83a56301",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 1448,
+          "sha256": "5e410db9ee1000a87e0b0e7bf6c5d91b313887c28f769ace68a07da66613c4c9",
+          "kind": "snapshot"
+        },
+        {
+          "path": "generation_config.json",
+          "size": 151,
+          "sha256": "b703d7ad51784a4b8b7a4ab95f54c166f12e18d88ceb7a8cd307591d7694af17",
+          "kind": "snapshot"
+        },
+        {
+          "path": "model.safetensors",
+          "size": 4515776712,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "processor_config.json",
+          "size": 537,
+          "sha256": "418d55d2f3025f9428c4e23465f1fdef7ad1734f0b595602b395e76c38dadb9b",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer.json",
+          "size": 6834995,
+          "sha256": "6a3ea16b7964ccb586b8ef90b3044470c79a4a7b41968546347de3c04ed3b6eb",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 817,
+          "sha256": "85b10ec24534c28dbf66e9e03a991f780d6e990aa94f352ab28b8ea8ca5831b7",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 4522623926,
+      "weight_bytes": 4515776712,
+      "snapshot_dir": "snapshots/zai-org/GLM-ASR-Nano-2512/61ba4e0b3309b6656edea3e93e419f7bd5c61957/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

@@ -1,0 +1,210 @@
+{
+  "repo_id": "zai-org/GLM-Image",
+  "canonical_org": "zai-org",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "2c433cc0cbc293bde2ac8ca9624f279b5d23fcf4",
+      "captured_at": "2026-09-18T04:59:03Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/zai-org/GLM-Image?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"1a49-he5KBIJJFa1dDFCm4UIsa7f8hG4\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "mit",
+        "file": null,
+        "sha256": null,
+        "redistributable": null,
+        "obligations": [],
+        "freedom": "conditional",
+        "freedom_note": "'mit' card tag but NO license file in repo \u2014 unverifiable, confirm upstream"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1580,
+          "sha256": "2159b96f67a348657f1224be06c151b4a3202ad865cbb4723a61f1f49baa736f",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 31312,
+          "sha256": "fc5861c29cda8b542b0f258a55d9bb8b44d56e9592a021c74f4eeebf7a159ce0",
+          "kind": "snapshot"
+        },
+        {
+          "path": "model_index.json",
+          "size": 619,
+          "sha256": "67b2c0934a43c6821c7862b1999fc10f7d7a1b9b89ccb3a01bd908a46e8035f2",
+          "kind": "snapshot"
+        },
+        {
+          "path": "processor/chat_template.jinja",
+          "size": 435,
+          "sha256": "fc5ffeb5867c85630da91cca05db7c46167189d7f6066a615d435e4ec3154a57",
+          "kind": "snapshot"
+        },
+        {
+          "path": "processor/preprocessor_config.json",
+          "size": 431,
+          "sha256": "bc8b8af6f487435d02a32e8ea4996493457a5ac94f85c16f546ec45ba95f20a5",
+          "kind": "snapshot"
+        },
+        {
+          "path": "processor/tokenizer.json",
+          "size": 23763950,
+          "sha256": "7626ee04802e81cadec0dbb983f2278aa24240b3b5c86a0b7831199ef25c6652",
+          "kind": "snapshot"
+        },
+        {
+          "path": "processor/tokenizer_config.json",
+          "size": 4926,
+          "sha256": "5b212b0fa405480adc080ba1af5b9c5365e54b65d20d65277a93c8178fca5aeb",
+          "kind": "snapshot"
+        },
+        {
+          "path": "scheduler/scheduler_config.json",
+          "size": 482,
+          "sha256": "ed2f73067894ed3d8d9341036ceb7607ad9df1753bd4a0b15ed7cf1c528f758e",
+          "kind": "snapshot"
+        },
+        {
+          "path": "text_encoder/config.json",
+          "size": 781,
+          "sha256": "f63c1c853b48d04e6b4ed28911a320ab8cdd8333399a08571053303eec567411",
+          "kind": "snapshot"
+        },
+        {
+          "path": "text_encoder/model.safetensors",
+          "size": 870643240,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "tokenizer/added_tokens.json",
+          "size": 3018,
+          "sha256": "0004781309423057d33b9edf50d2669253d4347873ea33d4e7755cb866f23883",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer/special_tokens_map.json",
+          "size": 3090,
+          "sha256": "3c2572df5f4ec60a476e5d90a1f52a989f9eefbbf381d358924a44a648bf0edb",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer/tokenizer_config.json",
+          "size": 25602,
+          "sha256": "3be33c710b17ac8686cd2b82ec044b0cd1122ff92c651d7170bfe1af8256ebfb",
+          "kind": "snapshot"
+        },
+        {
+          "path": "transformer/config.json",
+          "size": 349,
+          "sha256": "ed79f81e11e9e485580c8ede7b7a09c8fb6811f5ac0ae4ce748acf6804aa97a0",
+          "kind": "snapshot"
+        },
+        {
+          "path": "transformer/diffusion_pytorch_model-00001-of-00003.safetensors",
+          "size": 4966398856,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "transformer/diffusion_pytorch_model-00002-of-00003.safetensors",
+          "size": 4984743304,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "transformer/diffusion_pytorch_model-00003-of-00003.safetensors",
+          "size": 3902674480,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "transformer/diffusion_pytorch_model.safetensors.index.json",
+          "size": 44596,
+          "sha256": "d957778edf4b6757a2df2a464cae988ebdc35788fe146588a52ec221fa39698d",
+          "kind": "snapshot"
+        },
+        {
+          "path": "vae/config.json",
+          "size": 1246,
+          "sha256": "3dd3fd1e352eb444a5bdaa657946e17af8c2ab2790969b0a63296e383ab81da7",
+          "kind": "snapshot"
+        },
+        {
+          "path": "vae/diffusion_pytorch_model.safetensors",
+          "size": 812234342,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "vision_language_encoder/config.json",
+          "size": 1473,
+          "sha256": "816382abb020842b3ba8f54bd64a54f39455ac80223bdfe732d3c78d831beb6b",
+          "kind": "snapshot"
+        },
+        {
+          "path": "vision_language_encoder/generation_config.json",
+          "size": 201,
+          "sha256": "34a0bb3aae9ef1313ffc06c54b7710273f2c7db1fa90999f4f4438162b84a03a",
+          "kind": "snapshot"
+        },
+        {
+          "path": "vision_language_encoder/model-00001-of-00004.safetensors",
+          "size": 5295710600,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "vision_language_encoder/model-00002-of-00004.safetensors",
+          "size": 5303216664,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "vision_language_encoder/model-00003-of-00004.safetensors",
+          "size": 5303216648,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "vision_language_encoder/model-00004-of-00004.safetensors",
+          "size": 4326469720,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "vision_language_encoder/model.safetensors.index.json",
+          "size": 90283,
+          "sha256": "539e0dc83c362e45b15b2be4f4dc0cdb75631176bf329f95e183e38a32586c4f",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 35789282228,
+      "weight_bytes": 35765307854,
+      "snapshot_dir": "snapshots/zai-org/GLM-Image/2c433cc0cbc293bde2ac8ca9624f279b5d23fcf4/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

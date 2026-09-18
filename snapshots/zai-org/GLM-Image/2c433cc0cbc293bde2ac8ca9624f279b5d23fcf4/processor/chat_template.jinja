@@ -1,0 +1,13 @@
+{%- for m in messages -%}
+    {%- if m.content is string -%}
+        {{ m.content }}
+    {%- else -%}
+        {%- for item in m.content -%}
+            {%- if item.type == 'image' or item.get('image') is not none -%}
+            <|dit_token_16384|><|image|><|dit_token_16385|>
+            {%- elif item.type == 'text' -%}
+                {{ item.text }}
+            {%- endif -%}
+        {%- endfor -%}
+    {%- endif -%}
+{%- endfor -%}

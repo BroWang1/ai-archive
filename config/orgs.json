@@ -18,7 +18,8 @@
     "ByteDance-Seed",
     "Tele-AI",
     "IEITYuan",
-    "OrionStarAI"
+    "OrionStarAI",
+    "FunAudioLLM"
   ],
   "extra_orgs_comment": "Non-Chinese labs tracked only for their top leaderboard models (backup scope), not exhaustively.",
   "extra_orgs": [
