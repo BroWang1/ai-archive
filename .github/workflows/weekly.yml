@@ -37,6 +37,7 @@ jobs:
           git config user.email "bot@users.noreply.github.com"
           git add -A state/ index/ docs/
           git commit -m "weekly: digest $(date -u +%F)" --allow-empty
+          git pull --rebase --autostash origin main
           git push
       - name: Warn on low DeepSeek balance
         if: ${{ always() }}
