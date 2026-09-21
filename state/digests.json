@@ -23,6 +23,12 @@
       "text": "This week aiarchive.info captured 152 open-weight model repos and mirrored 15 of them for long-term preservation. New captures span major Chinese labs including Qwen (Qwen3.5, Qwen3-VL, Qwen3-Embedding, Qwen-Image), DeepSeek (V3.2, V4-Flash, DeepSeek-OCR), Tencent Hunyuan, MiniMax, Moonshot Kimi, and zai-org GLM, alongside international releases from OpenAI, Meta, Mistral, and Google. Mirrored copies include Baichuan-M3-235B, Yi-6B/34B variants, Seed-OSS-36B, and DeepSeek-V3.2-Exp, ensuring these weights remain downloadable independent of their original hosts.",
       "url": "https://github.com/BroWang1/ai-archive/issues",
       "action": "details"
+    },
+    {
+      "at": "2026-09-21T22:07:19Z",
+      "text": "This week aiarchive.info captured 170 open-weight model repos and mirrored 15, including new Baichuan, ByteDance-Seed, Qwen, and DeepSeek entries. Newly captured families span Qwen (Qwen3.5, Qwen3.6, Qwen-Image 2.1), DeepSeek (V4-Flash, V3.2-Speciale, OCR-2), MiniMax (M2.5 through M3), and Tencent (Hunyuan, Hy-MT2, WeVisDoc). No alerts were triggered; radar signals included HN front-page posts on Qwen Image 2.1 and small local models such as Cactus Needle 3.",
+      "url": "https://github.com/BroWang1/ai-archive/issues",
+      "action": "details"
     }
   ]
 }

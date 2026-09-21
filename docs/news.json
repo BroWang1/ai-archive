@@ -1,5 +1,12 @@
 [
  {
+  "at": "2026-09-21T22:07:19Z",
+  "kind": "digest",
+  "text": "This week aiarchive.info captured 170 open-weight model repos and mirrored 15, including new Baichuan, ByteDance-Seed, Qwen, and DeepSeek entries. Newly captured families span Qwen (Qwen3.5, Qwen3.6, Qwen-Image 2.1), DeepSeek (V4-Flash, V3.2-Speciale, OCR-2), MiniMax (M2.5 through M3), and Tencent (Hunyuan, Hy-MT2, WeVisDoc). No alerts were triggered; radar signals included HN front-page posts on Qwen Image 2.1 and small local models such as Cactus Needle 3.",
+  "url": "https://github.com/BroWang1/ai-archive/issues",
+  "action": "details"
+ },
+ {
   "at": "2026-09-21T14:35:18Z",
   "kind": "buzz",
   "text": "HN front-page (231 pts): Show HN: Cactus Needle 3: 8-29MB automation models can match DeepSeek V4 Flash",
@@ -270,13 +277,6 @@
   "kind": "radar",
   "text": "New lab code: ggml-org/security-scan-prompt \u2014 Prompt for LLM security code scan",
   "url": "https://github.com/ggml-org/security-scan-prompt",
-  "action": "view code"
- },
- {
-  "at": "2026-09-21T14:35:09Z",
-  "kind": "radar",
-  "text": "New lab code: ggml-org/convert \u2014 Convert models to GGUF",
-  "url": "https://github.com/ggml-org/convert",
   "action": "view code"
  }
 ]
