@@ -1,0 +1,78 @@
+{
+  "repo_id": "FunAudioLLM/PrismAudio",
+  "canonical_org": "FunAudioLLM",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "d1a33add3f936ba35bf1bd6a86d34ef991ba604f",
+      "captured_at": "2026-09-21T14:34:51Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/FunAudioLLM/PrismAudio?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"6e7-HhPOAk/y85gbo0eipp7EbyMzzgA\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "mit",
+        "file": null,
+        "sha256": null,
+        "redistributable": null,
+        "obligations": [],
+        "freedom": "conditional",
+        "freedom_note": "'mit' card tag but NO license file in repo \u2014 unverifiable, confirm upstream"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1519,
+          "sha256": "11ad7efa24975ee4b0c3c3a38ed18737f0658a5f75a0a96787b576a78a023361",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 3917,
+          "sha256": "a80c77ce666bcfb93ac128967435343eeee4a45a76d6c459a3673355031f0b1f",
+          "kind": "snapshot"
+        },
+        {
+          "path": "prismaudio.ckpt",
+          "size": 2697789718,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "synchformer_state_dict.pth",
+          "size": 950058171,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "vae.ckpt",
+          "size": 2521255758,
+          "sha256": null,
+          "kind": "weights"
+        }
+      ],
+      "total_bytes": 6169109083,
+      "weight_bytes": 6169103647,
+      "snapshot_dir": "snapshots/FunAudioLLM/PrismAudio/d1a33add3f936ba35bf1bd6a86d34ef991ba604f/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

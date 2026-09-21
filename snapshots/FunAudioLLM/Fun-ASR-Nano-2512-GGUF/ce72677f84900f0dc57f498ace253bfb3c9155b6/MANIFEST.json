@@ -1,0 +1,19 @@
+{
+  "source": {
+    "repo": "FunAudioLLM/Fun-ASR-Nano-2512-hf",
+    "revision": "854d88f94205cd17d2afdb24332130d86fbe654a",
+    "model_safetensors_sha256": "335ca3e74917f1156690400e2c344350112950165789cf78ce3d0a367affd821"
+  },
+  "artifacts": [
+    {
+      "file": "fun-asr-nano-2512-q8_0.gguf",
+      "bytes": 1045334432,
+      "sha256": "4d727357574b079b7f43336b2930f39da086ca02f5d8d50872090b4c1c3d5e0a"
+    },
+    {
+      "file": "fun-asr-nano-2512-f16.gguf",
+      "bytes": 1675708832,
+      "sha256": "3d906c3ccfed07efef88ff53d6cc94b788b9d2edf1492a5679d041b43e98c5be"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+# Realtime-Venus-Omni Environment Requirements
+# Python 3.10 | CUDA 12.4 | A100 80G
+# Install: pip install -r requirements.txt
+
+# === PyTorch (CUDA 12.4) ===
+torch>=2.3.0,<=2.8.0
+torchaudio>=2.3.0,<=2.8.0
+torchvision<=0.18.1
+
+# === Core ===
+transformers==4.51.0
+accelerate>=1.2.0
+safetensors>=0.4.3
+minicpmo-utils[all]>=1.0.5
+
+# === Vision ===
+Pillow>=10.1.0
+timm==0.9.10
+decord
+opencv-python-headless
+
+# === Audio / Speech / TTS ===
+librosa>=0.9.0
+soundfile>=0.12.1
+vector-quantize-pytorch==1.18.5
+vocos==0.1.0
+
+# === Tokenizer ===
+sentencepiece>=0.1.99
+
+# === Data / Utils ===
+numpy
+einops
+tqdm
+
+# === Video Processing (install via conda: conda install -c conda-forge ffmpeg) ===
+moviepy
+
+# === Model Download ===
+modelscope
+huggingface_hub
+
+# === Web Demo (optional) ===
+# gradio==4.44.1
+# fastapi
+# uvicorn
+# aiofiles==23.2.1
+# onnxruntime==1.20.1
+# pydantic==2.10.6

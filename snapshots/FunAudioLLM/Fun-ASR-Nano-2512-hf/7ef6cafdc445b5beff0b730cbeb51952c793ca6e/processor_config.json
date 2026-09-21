@@ -1,0 +1,16 @@
+{
+  "audio_token": "<|object_ref_start|>",
+  "feature_extractor": {
+    "feature_extractor_type": "FunAsrNanoFeatureExtractor",
+    "feature_size": 80,
+    "frame_length": 25,
+    "frame_shift": 10,
+    "num_frames_lfr": 7,
+    "padding_side": "right",
+    "padding_value": 0.0,
+    "return_attention_mask": true,
+    "sampling_rate": 16000,
+    "stride_lfr": 6
+  },
+  "processor_class": "FunAsrNanoProcessor"
+}

@@ -37,7 +37,87 @@
     "Comfy-Org/MiniMax-H3",
     "Accio-Lab/occamy-1.0",
     "unsloth/Qwen3.8-Flash-Next-GGUF",
-    "orcarouter/Qwen3.8-27B-Uncensored-FP8"
+    "orcarouter/Qwen3.8-27B-Uncensored-FP8",
+    "prism-ml/Ternary-Bonsai-2-27B-gguf",
+    "XingChen-AGI/Xing4.0-29B-A4B",
+    "Comfy-Org/Qwen-Image-2.1",
+    "abenzerps/Qwen-Image-2.1-GGUF",
+    "prism-ml/Ternary-Bonsai-2-27B-mlx-2bit",
+    "TaichuAI/ZDTaichu5.0-9B",
+    "netease-youdao/Confucius4-R2T2",
+    "Cactus-Compute/needle3",
+    "jinaai/jina-ocr-v1",
+    "bespokelabs/Bespoke-Nimble-9B",
+    "dealignai/Bonsai-2-27B-Ternary-CRACK-GGUF",
+    "empero-ai/Qwen3.8-35B-A3B-Distill-GGUF",
+    "FastVideo/FastVideo-FastH3-Comfy"
   ],
-  "last_run": "2026-09-18T06:12:57Z"
+  "last_run": "2026-09-21T14:35:09Z",
+  "log": [
+    {
+      "id": "prism-ml/Ternary-Bonsai-2-27B-gguf",
+      "at": "2026-09-21T14:35:09Z",
+      "downloads": 2227879
+    },
+    {
+      "id": "XingChen-AGI/Xing4.0-29B-A4B",
+      "at": "2026-09-21T14:35:09Z",
+      "downloads": 18394
+    },
+    {
+      "id": "Comfy-Org/Qwen-Image-2.1",
+      "at": "2026-09-21T14:35:09Z",
+      "downloads": 535365
+    },
+    {
+      "id": "abenzerps/Qwen-Image-2.1-GGUF",
+      "at": "2026-09-21T14:35:09Z",
+      "downloads": 33232
+    },
+    {
+      "id": "prism-ml/Ternary-Bonsai-2-27B-mlx-2bit",
+      "at": "2026-09-21T14:35:09Z",
+      "downloads": 36744
+    },
+    {
+      "id": "TaichuAI/ZDTaichu5.0-9B",
+      "at": "2026-09-21T14:35:09Z",
+      "downloads": 5078
+    },
+    {
+      "id": "netease-youdao/Confucius4-R2T2",
+      "at": "2026-09-21T14:35:09Z",
+      "downloads": 1864
+    },
+    {
+      "id": "Cactus-Compute/needle3",
+      "at": "2026-09-21T14:35:09Z",
+      "downloads": 46399
+    },
+    {
+      "id": "jinaai/jina-ocr-v1",
+      "at": "2026-09-21T14:35:09Z",
+      "downloads": 2615
+    },
+    {
+      "id": "bespokelabs/Bespoke-Nimble-9B",
+      "at": "2026-09-21T14:35:09Z",
+      "downloads": 1138
+    },
+    {
+      "id": "dealignai/Bonsai-2-27B-Ternary-CRACK-GGUF",
+      "at": "2026-09-21T14:35:09Z",
+      "downloads": 33051
+    },
+    {
+      "id": "empero-ai/Qwen3.8-35B-A3B-Distill-GGUF",
+      "at": "2026-09-21T14:35:09Z",
+      "downloads": 64967
+    },
+    {
+      "id": "FastVideo/FastVideo-FastH3-Comfy",
+      "at": "2026-09-21T14:35:09Z",
+      "downloads": 151761
+    }
+  ]
 }

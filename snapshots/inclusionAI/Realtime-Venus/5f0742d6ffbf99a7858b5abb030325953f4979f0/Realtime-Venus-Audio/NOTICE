@@ -1,0 +1,9 @@
+Realtime-Venus-Audio
+Copyright 2026 The Realtime-Venus Team. All rights reserved.
+
+This product includes software derived from MiniCPM-o 4.5
+(https://github.com/OpenBMB/MiniCPM-o), Copyright The OpenBMB Team,
+licensed under the Apache License, Version 2.0.
+
+Modifications focus on audio-only understanding and full-duplex speech
+conversation without visual input.

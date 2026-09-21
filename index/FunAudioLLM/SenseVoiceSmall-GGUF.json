@@ -1,0 +1,78 @@
+{
+  "repo_id": "FunAudioLLM/SenseVoiceSmall-GGUF",
+  "canonical_org": "FunAudioLLM",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "90c1c61912018b70ada0fcc024ea24aca62f2e63",
+      "captured_at": "2026-09-21T14:34:29Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/FunAudioLLM/SenseVoiceSmall-GGUF?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"72c-Wg2jK5jO4sdmJ84RdOKv8RxvDxg\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "apache-2.0",
+        "file": null,
+        "sha256": null,
+        "redistributable": null,
+        "obligations": [],
+        "freedom": "conditional",
+        "freedom_note": "'apache-2.0' card tag but NO license file in repo \u2014 unverifiable, confirm upstream"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1700,
+          "sha256": "7b9b57d9b4a4982f4f885a725a410e2ceb06139509e0749ede87c1430c58c2bc",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 2500,
+          "sha256": "74d21ff2031b8821fa210a8fddbe829a5c7afd191652f7fd91d05f4ecf3830be",
+          "kind": "snapshot"
+        },
+        {
+          "path": "sensevoice-small-f16.gguf",
+          "size": 470197600,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "sensevoice-small-q8.gguf",
+          "size": 254208320,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "sensevoice-small.gguf",
+          "size": 936421216,
+          "sha256": null,
+          "kind": "weights"
+        }
+      ],
+      "total_bytes": 1660831336,
+      "weight_bytes": 1660827136,
+      "snapshot_dir": "snapshots/FunAudioLLM/SenseVoiceSmall-GGUF/90c1c61912018b70ada0fcc024ea24aca62f2e63/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

@@ -1,0 +1,49 @@
+{
+  "audio_pool_step": 5,
+  "auto_map": {
+    "AutoFeatureExtractor": "processing_minicpmo.MiniCPMAAudioProcessor",
+    "AutoImageProcessor": "processing_minicpmo.MiniCPMVImageProcessor",
+    "AutoProcessor": "processing_minicpmo.MiniCPMOProcessor"
+  },
+  "chunk_length": 30,
+  "dither": 0.0,
+  "dynamic_log_norm": true,
+  "dynamic_range_db": 8.0,
+  "feature_extractor_type": "MiniCPMAAudioProcessor",
+  "feature_size": 80,
+  "hop_length": 160,
+  "im_end": "</image>",
+  "im_id_end": "</image_id>",
+  "im_id_start": "<image_id>",
+  "im_start": "<image>",
+  "image_feature_size": 64,
+  "image_processor_type": "MiniCPMVImageProcessor",
+  "log_floor_db": -10.0,
+  "max_slice_nums": 9,
+  "n_fft": 400,
+  "n_samples": 480000,
+  "nb_max_frames": 3000,
+  "norm_mean": [
+    0.5,
+    0.5,
+    0.5
+  ],
+  "norm_std": [
+    0.5,
+    0.5,
+    0.5
+  ],
+  "padding_side": "right",
+  "padding_value": 0.0,
+  "patch_size": 14,
+  "processor_class": "MiniCPMOProcessor",
+  "return_attention_mask": false,
+  "sampling_rate": 16000,
+  "scale_resolution": 448,
+  "slice_end": "</slice>",
+  "slice_mode": true,
+  "slice_start": "<slice>",
+  "unk": "<unk>",
+  "use_image_id": true,
+  "version": 4.5
+}

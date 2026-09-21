@@ -1,0 +1,112 @@
+model: FunCineForgeLM
+model_conf:
+  lsm_weight: 0.0
+  length_normalized_loss: true
+  codec_unit: 6761
+  timespk_unit: 1550
+  face_size: 512
+llm: Qwen2-0.5B
+llm_conf:
+  hub: hf
+  freeze: false
+  llm_dtype: fp32
+  init_param_path: ../tokenizer/Qwen2-0.5B-CosyVoice-BlankEN
+  use_lora: false
+  lora_conf:
+    task_type: CAUSAL_LM
+    r: 16
+    lora_alpha: 32
+    lora_dropout: 0.05
+    bias: none
+    target_modules:
+    - q_proj
+    - v_proj
+train_conf:
+  use_lora: ${llm_conf.use_lora}
+  accum_grad: 1
+  grad_clip: 5
+  max_epoch: 200
+  log_interval: 100
+  effective_save_name_excludes:
+  - none
+  resume: true
+  validate_interval: 5000
+  save_checkpoint_interval: 5000
+  keep_nbest_models: 100000
+  avg_nbest_model: 5
+  use_bf16: false
+  save_init_model: false
+  loss_rescale_by_rank: false
+  use_deepspeed: true
+  deepspeed_config: decode_conf/ds_stage0_fp32.json
+optim: adamw
+optim_conf:
+  lr: 8.0e-05
+scheduler: warmuplr
+scheduler_conf:
+  warmup_steps: 2000
+dataset: FunCineForgeDataset
+dataset_conf:
+  use_emotion_clue: true
+  codebook_size: 6561
+  sos: 6561
+  eos: 6562
+  turn_of_speech: 6563
+  fill_token: 6564
+  ignore_id: -100
+  startofclue_token: 151646
+  endofclue_token: 151647
+  frame_shift: 25
+  timebook_size: 1500
+  pangbai: 1500
+  dubai: 1501
+  duihua: 1502
+  duoren: 1503
+  male: 1504
+  female: 1505
+  child: 1506
+  youth: 1507
+  adult: 1508
+  middle: 1509
+  elderly: 1510
+  speaker_id_start: 1511
+  index_ds: CosyVoice
+  dataloader: DataloaderMapStyle
+  load_meta_data_key: text,clue,token,face,dialogue
+  data_split_num: 1
+  batch_sampler: BatchSampler
+  shuffle: true
+  sort_size: 512
+  face_size: 512
+  batch_type: token
+  batch_size: 3000
+  batch_size_token_max: 20000
+  batch_size_sample_max: 100
+  max_token_length: 5000
+  max_text_length: 300
+  batch_size_scale_threshold: 3000
+  num_workers: 20
+  retry: 100
+  specaug: FunCineForgeSpecAug
+  specaug_conf:
+    apply_time_warp: false
+    apply_freq_mask: false
+    apply_time_mask: true
+    time_mask_width_ratio_range:
+    - 0
+    - 0.05
+    num_time_mask: 10
+    fill_value: -100
+tokenizer: FunCineForgeTokenizer
+tokenizer_conf:
+  init_param_path: ${llm_conf.init_param_path}
+face_encoder: FaceRecIR101
+face_encoder_conf:
+  init_param_path: ../speaker_diarization/pretrained_models/face_recog_ir101.onnx
+enable_tf32: true
+debug: false
+train_data_set_list: /nfs/yanzhang.ljx/workspace/datasets/YingShi/clean/train.jsonl
+valid_data_set_list: /nfs/yanzhang.ljx/workspace/datasets/YingShi/clean/test.jsonl
+output_dir: /cpfs_fundata/yanzhang.ljx/workspace/exps/1m-8gpu/zh_en
+init_param: /nfs/hengwu.zty/exps/4m-8gpu/CosyVoice_MixedAM_5b15_Qwen2_500M_phn_fp32_fsq6561_simple_sys_minmo_l12_merge_cosyvoice3d5_baiyinku_emilia_yodas2_0605/ds-model.pt.ep0.290000/mp_rank_00_model_states.pt
+device: cpu

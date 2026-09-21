@@ -62,7 +62,11 @@
       "QwenLM/qwen-code-action",
       "QwenLM/qwen-code",
       "QwenLM/Qwen3-Embedding",
-      "QwenLM/WorldPM"
+      "QwenLM/WorldPM",
+      "QwenLM/RecreationWorld",
+      "QwenLM/Omnilingua-Bench",
+      "QwenLM/Qwen-Image-2.1",
+      "QwenLM/Qwen-Live-Harness"
     ],
     "zai-org": [
       "zai-org/zcode-plugins",
@@ -94,7 +98,8 @@
       "zai-org/ComplexFuncBench",
       "zai-org/VisionReward",
       "zai-org/MotionBench",
-      "zai-org/GLM-Edge"
+      "zai-org/GLM-Edge",
+      "zai-org/ZCode"
     ],
     "MoonshotAI": [
       "MoonshotAI/Kimi-K3",
@@ -198,7 +203,8 @@
       "MiniMax-AI/One-RL-to-See-Them-All",
       "MiniMax-AI/awesome-minimax-integrations",
       "MiniMax-AI/MiniMax-AI.github.io",
-      "MiniMax-AI/vllm"
+      "MiniMax-AI/vllm",
+      "MiniMax-AI/MiniMax-Code-MiniApps"
     ],
     "InternLM": [
       "InternLM/SciDocBench",
@@ -294,7 +300,8 @@
       "stepfun-ai/Step-Realtime-Console",
       "stepfun-ai/ComfyUI-StepVideo",
       "stepfun-ai/Step-Video-TI2V",
-      "stepfun-ai/vllm"
+      "stepfun-ai/vllm",
+      "stepfun-ai/Step-Code"
     ],
     "baichuan-inc": [
       "baichuan-inc/baichuan-mcp-servers",
@@ -355,10 +362,404 @@
       "XiaomiMiMo/lmms-eval",
       "XiaomiMiMo/MiMo-VL",
       "XiaomiMiMo/vllm",
-      "XiaomiMiMo/MiMo"
+      "XiaomiMiMo/MiMo",
+      "XiaomiMiMo/uni-agent",
+      "XiaomiMiMo/mini-swe-agent",
+      "XiaomiMiMo/verl"
+    ],
+    "ggml-org": [
+      "ggml-org/llama-connect",
+      "ggml-org/security-scan-prompt",
+      "ggml-org/convert",
+      "ggml-org/Llama-Windows",
+      "ggml-org/llama.cpp-dev",
+      "ggml-org/llama.brand",
+      "ggml-org/gha",
+      "ggml-org/llama-install.sh",
+      "ggml-org/setup-xcode",
+      "ggml-org/tmp",
+      "ggml-org/llama.pages",
+      "ggml-org/llama.qtcreator",
+      "ggml-org/ccache-action",
+      "ggml-org/Llama-macOS",
+      "ggml-org/media",
+      "ggml-org/.github",
+      "ggml-org/free-disk-space",
+      "ggml-org/action-create-release",
+      "ggml-org/llama.vscode",
+      "ggml-org/llama.vim",
+      "ggml-org/ci",
+      "ggml-org/p1",
+      "ggml-org/ggml-org.github.io",
+      "ggml-org/llama.cpp",
+      "ggml-org/whisper.cpp",
+      "ggml-org/ggml"
+    ],
+    "vllm-project": [
+      "vllm-project/DeepSelect",
+      "vllm-project/vvm",
+      "vllm-project/tml-fa4",
+      "vllm-project/FlashKDA",
+      "vllm-project/lm-evaluation-harness",
+      "vllm-project/vllm-bench",
+      "vllm-project/MSA",
+      "vllm-project/vllm-bnb-plugin",
+      "vllm-project/vllm-docs",
+      "vllm-project/afd-plugin",
+      "vllm-project/vime",
+      "vllm-project/vllm-dashboard",
+      "vllm-project/perf-eval",
+      "vllm-project/vllm-gguf-plugin",
+      "vllm-project/agentic-api",
+      "vllm-project/dllm-plugin",
+      "vllm-project/humming",
+      "vllm-project/perf-dashboard",
+      "vllm-project/vllm-skills",
+      "vllm-project/vllm-daily",
+      "vllm-project/vllm-metal",
+      "vllm-project/vLLM-in-PyTorch-Conference-2025",
+      "vllm-project/bart-plugin",
+      "vllm-project/DeepGEMM",
+      "vllm-project/vllm-neuron",
+      "vllm-project/vllm-omni",
+      "vllm-project/semantic-router",
+      "vllm-project/router",
+      "vllm-project/recipes",
+      "vllm-project/vllm-xpu-kernels"
     ]
   },
-  "log": [],
+  "log": [
+    {
+      "id": "QwenLM/RecreationWorld",
+      "at": "2026-09-21T14:35:09Z",
+      "desc": ""
+    },
+    {
+      "id": "QwenLM/Omnilingua-Bench",
+      "at": "2026-09-21T14:35:09Z",
+      "desc": ""
+    },
+    {
+      "id": "QwenLM/Qwen-Image-2.1",
+      "at": "2026-09-21T14:35:09Z",
+      "desc": "Qwen's most powerful open-source image generation model"
+    },
+    {
+      "id": "QwenLM/Qwen-Live-Harness",
+      "at": "2026-09-21T14:35:09Z",
+      "desc": "An open-source agent harness powered by the Qwen Omni Realtime API\u2014see, hear, and act, with built-in memory."
+    },
+    {
+      "id": "zai-org/ZCode",
+      "at": "2026-09-21T14:35:09Z",
+      "desc": "Z.ai's coding agent harness. Powerful, intelligent, extensible."
+    },
+    {
+      "id": "MiniMax-AI/MiniMax-Code-MiniApps",
+      "at": "2026-09-21T14:35:09Z",
+      "desc": ""
+    },
+    {
+      "id": "stepfun-ai/Step-Code",
+      "at": "2026-09-21T14:35:09Z",
+      "desc": ""
+    },
+    {
+      "id": "XiaomiMiMo/uni-agent",
+      "at": "2026-09-21T14:35:09Z",
+      "desc": "Uni-Agent is a framework for training long-horizon agents."
+    },
+    {
+      "id": "XiaomiMiMo/mini-swe-agent",
+      "at": "2026-09-21T14:35:09Z",
+      "desc": "The 100 line AI agent that solves GitHub issues or helps you in your command line. Radically simple, no huge configs, no giant monorepo\u2014but "
+    },
+    {
+      "id": "XiaomiMiMo/verl",
+      "at": "2026-09-21T14:35:09Z",
+      "desc": "verl/HybridFlow: A Flexible and Efficient RL Post-Training Framework "
+    },
+    {
+      "id": "ggml-org/llama-connect",
+      "at": "2026-09-21T14:35:09Z",
+      "desc": ""
+    },
+    {
+      "id": "ggml-org/security-scan-prompt",
+      "at": "2026-09-21T14:35:09Z",
+      "desc": "Prompt for LLM security code scan"
+    },
+    {
+      "id": "ggml-org/convert",
+      "at": "2026-09-21T14:35:09Z",
+      "desc": "Convert models to GGUF"
+    },
+    {
+      "id": "ggml-org/Llama-Windows",
+      "at": "2026-09-21T14:35:09Z",
+      "desc": "Windows Llama App Companion"
+    },
+    {
+      "id": "ggml-org/llama.cpp-dev",
+      "at": "2026-09-21T14:35:09Z",
+      "desc": ""
+    },
+    {
+      "id": "ggml-org/llama.brand",
+      "at": "2026-09-21T14:35:09Z",
+      "desc": "Brand assets for llama.app / llama.cpp"
+    },
+    {
+      "id": "ggml-org/gha",
+      "at": "2026-09-21T14:35:09Z",
+      "desc": "self-hosted GHA runners in containers"
+    },
+    {
+      "id": "ggml-org/llama-install.sh",
+      "at": "2026-09-21T14:35:09Z",
+      "desc": "Build and install script for llama.app"
+    },
+    {
+      "id": "ggml-org/setup-xcode",
+      "at": "2026-09-21T14:35:09Z",
+      "desc": " Set up your GitHub Actions workflow with a specific version of Xcode"
+    },
+    {
+      "id": "ggml-org/tmp",
+      "at": "2026-09-21T14:35:09Z",
+      "desc": "Use for testing CI"
+    },
+    {
+      "id": "ggml-org/llama.pages",
+      "at": "2026-09-21T14:35:09Z",
+      "desc": "llama.cpp's official website"
+    },
+    {
+      "id": "ggml-org/llama.qtcreator",
+      "at": "2026-09-21T14:35:09Z",
+      "desc": "Local LLM-assisted text completion for Qt Creator."
+    },
+    {
+      "id": "ggml-org/ccache-action",
+      "at": "2026-09-21T14:35:09Z",
+      "desc": "github action to speedup building using ccache"
+    },
+    {
+      "id": "ggml-org/Llama-macOS",
+      "at": "2026-09-21T14:35:09Z",
+      "desc": "A cosy home for your LLMs."
+    },
+    {
+      "id": "ggml-org/media",
+      "at": "2026-09-21T14:35:09Z",
+      "desc": ""
+    },
+    {
+      "id": "ggml-org/.github",
+      "at": "2026-09-21T14:35:09Z",
+      "desc": ""
+    },
+    {
+      "id": "ggml-org/free-disk-space",
+      "at": "2026-09-21T14:35:09Z",
+      "desc": ":octocat:\u2699\ufe0f\ud83d\uddd1\ufe0f A GitHub Action to free disk space on an Ubuntu runner."
+    },
+    {
+      "id": "ggml-org/action-create-release",
+      "at": "2026-09-21T14:35:09Z",
+      "desc": "Github action to create releases"
+    },
+    {
+      "id": "ggml-org/llama.vscode",
+      "at": "2026-09-21T14:35:09Z",
+      "desc": "VS Code extension for LLM-assisted code/text completion"
+    },
+    {
+      "id": "ggml-org/llama.vim",
+      "at": "2026-09-21T14:35:09Z",
+      "desc": "Vim plugin for LLM-assisted code/text completion"
+    },
+    {
+      "id": "ggml-org/ci",
+      "at": "2026-09-21T14:35:09Z",
+      "desc": "CI for ggml and related projects"
+    },
+    {
+      "id": "ggml-org/p1",
+      "at": "2026-09-21T14:35:09Z",
+      "desc": "LLM-based code completion engine"
+    },
+    {
+      "id": "ggml-org/ggml-org.github.io",
+      "at": "2026-09-21T14:35:09Z",
+      "desc": ""
+    },
+    {
+      "id": "ggml-org/llama.cpp",
+      "at": "2026-09-21T14:35:09Z",
+      "desc": "LLM inference in C/C++"
+    },
+    {
+      "id": "ggml-org/whisper.cpp",
+      "at": "2026-09-21T14:35:09Z",
+      "desc": "Port of OpenAI's Whisper model in C/C++"
+    },
+    {
+      "id": "ggml-org/ggml",
+      "at": "2026-09-21T14:35:09Z",
+      "desc": "Tensor library for machine learning"
+    },
+    {
+      "id": "vllm-project/DeepSelect",
+      "at": "2026-09-21T14:35:09Z",
+      "desc": "DeepSelect: TopK kernels for DeepSeek Sparse Attention (DSA) and Samplers"
+    },
+    {
+      "id": "vllm-project/vvm",
+      "at": "2026-09-21T14:35:09Z",
+      "desc": "Manage multiple vLLM installations with isolated Python virtual environments. Switch between releases, commits, branches, and PRs instantly."
+    },
+    {
+      "id": "vllm-project/tml-fa4",
+      "at": "2026-09-21T14:35:09Z",
+      "desc": "FA4-based Relative Attention Kernel developed by TML and Colfax"
+    },
+    {
+      "id": "vllm-project/FlashKDA",
+      "at": "2026-09-21T14:35:09Z",
+      "desc": ""
+    },
+    {
+      "id": "vllm-project/lm-evaluation-harness",
+      "at": "2026-09-21T14:35:09Z",
+      "desc": "A framework for few-shot evaluation of language models."
+    },
+    {
+      "id": "vllm-project/vllm-bench",
+      "at": "2026-09-21T14:35:09Z",
+      "desc": "High-performance Rust benchmark client for vLLM serving endpoints."
+    },
+    {
+      "id": "vllm-project/MSA",
+      "at": "2026-09-21T14:35:09Z",
+      "desc": ""
+    },
+    {
+      "id": "vllm-project/vllm-bnb-plugin",
+      "at": "2026-09-21T14:35:09Z",
+      "desc": "vLLM Quantization plugin for bitsandbytes"
+    },
+    {
+      "id": "vllm-project/vllm-docs",
+      "at": "2026-09-21T14:35:09Z",
+      "desc": ""
+    },
+    {
+      "id": "vllm-project/afd-plugin",
+      "at": "2026-09-21T14:35:09Z",
+      "desc": "vLLM plugin for attention-ffn disaggregation support"
+    },
+    {
+      "id": "vllm-project/vime",
+      "at": "2026-09-21T14:35:09Z",
+      "desc": "An LLM post-training framework with vLLM for RL Scaling"
+    },
+    {
+      "id": "vllm-project/vllm-dashboard",
+      "at": "2026-09-21T14:35:09Z",
+      "desc": ""
+    },
+    {
+      "id": "vllm-project/perf-eval",
+      "at": "2026-09-21T14:35:09Z",
+      "desc": "Performance benchmark & accuracy evaluation for vLLM"
+    },
+    {
+      "id": "vllm-project/vllm-gguf-plugin",
+      "at": "2026-09-21T14:35:09Z",
+      "desc": "vLLM Quantization plugin for GGUF"
+    },
+    {
+      "id": "vllm-project/agentic-api",
+      "at": "2026-09-21T14:35:09Z",
+      "desc": "Stateful API logic for agentic applications using vLLM"
+    },
+    {
+      "id": "vllm-project/dllm-plugin",
+      "at": "2026-09-21T14:35:09Z",
+      "desc": "vLLM plugin for block-based diffusion language model (dLLM) support"
+    },
+    {
+      "id": "vllm-project/humming",
+      "at": "2026-09-21T14:35:09Z",
+      "desc": "Humming is a high-performance, lightweight, and highly flexible JIT (Just-In-Time) compiled GEMM kernel library specifically designed for qu"
+    },
+    {
+      "id": "vllm-project/perf-dashboard",
+      "at": "2026-09-21T14:35:09Z",
+      "desc": "Performance dashboard for vLLM"
+    },
+    {
+      "id": "vllm-project/vllm-skills",
+      "at": "2026-09-21T14:35:09Z",
+      "desc": "Agent skills for vLLM"
+    },
+    {
+      "id": "vllm-project/vllm-daily",
+      "at": "2026-09-21T14:35:09Z",
+      "desc": "vLLM Daily Summarization of Merged PRs"
+    },
+    {
+      "id": "vllm-project/vllm-metal",
+      "at": "2026-09-21T14:35:09Z",
+      "desc": "Community maintained hardware plugin for vLLM on Apple Silicon"
+    },
+    {
+      "id": "vllm-project/vLLM-in-PyTorch-Conference-2025",
+      "at": "2026-09-21T14:35:09Z",
+      "desc": ""
+    },
+    {
+      "id": "vllm-project/bart-plugin",
+      "at": "2026-09-21T14:35:09Z",
+      "desc": "vLLM Model plugin for the encoder-decoder BART model"
+    },
+    {
+      "id": "vllm-project/DeepGEMM",
+      "at": "2026-09-21T14:35:09Z",
+      "desc": "DeepGEMM: clean and efficient FP8 GEMM kernels with fine-grained scaling"
+    },
+    {
+      "id": "vllm-project/vllm-neuron",
+      "at": "2026-09-21T14:35:09Z",
+      "desc": "Community maintained hardware plugin for vLLM on AWS Neuron"
+    },
+    {
+      "id": "vllm-project/vllm-omni",
+      "at": "2026-09-21T14:35:09Z",
+      "desc": "A framework for efficient model inference with omni-modality models"
+    },
+    {
+      "id": "vllm-project/semantic-router",
+      "at": "2026-09-21T14:35:09Z",
+      "desc": "A programmable Mixture-of-Models router for heterogeneous LLM inference"
+    },
+    {
+      "id": "vllm-project/router",
+      "at": "2026-09-21T14:35:09Z",
+      "desc": "A high-performance and light-weight router for vLLM large scale deployment"
+    },
+    {
+      "id": "vllm-project/recipes",
+      "at": "2026-09-21T14:35:09Z",
+      "desc": "Common recipes to run vLLM"
+    },
+    {
+      "id": "vllm-project/vllm-xpu-kernels",
+      "at": "2026-09-21T14:35:09Z",
+      "desc": "The vLLM XPU kernels for Intel GPU"
+    }
+  ],
   "first_run_done": true,
-  "last_run": "2026-09-18T08:00:09Z"
+  "last_run": "2026-09-21T14:35:09Z"
 }

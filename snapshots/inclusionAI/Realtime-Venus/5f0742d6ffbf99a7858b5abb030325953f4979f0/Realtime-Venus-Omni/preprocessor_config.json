@@ -1,0 +1,35 @@
+{
+  "image_processor_type": "RealtimeVenusOmniImageProcessor",
+  "feature_extractor_type": "RealtimeVenusOmniAudioProcessor",
+  "auto_map": {
+    "AutoProcessor": "processing_realtime_venus_omni.RealtimeVenusOmniProcessor",
+    "AutoImageProcessor": "processing_realtime_venus_omni.RealtimeVenusOmniImageProcessor",
+    "AutoFeatureExtractor": "processing_realtime_venus_omni.RealtimeVenusOmniAudioProcessor"
+  },
+  "processor_class": "RealtimeVenusOmniProcessor",
+  "max_slice_nums": 9,
+  "scale_resolution": 448,
+  "patch_size": 14,
+  "use_image_id": true,
+  "image_feature_size": 64,
+  "im_start": "<image>",
+  "im_end": "</image>",
+  "slice_start": "<slice>",
+  "slice_end": "</slice>",
+  "unk": "<unk>",
+  "im_id_start": "<image_id>",
+  "im_id_end": "</image_id>",
+  "slice_mode": true,
+  "audio_pool_step": 5,
+  "norm_mean": [
+    0.5,
+    0.5,
+    0.5
+  ],
+  "norm_std": [
+    0.5,
+    0.5,
+    0.5
+  ],
+  "version": 4.5
+}

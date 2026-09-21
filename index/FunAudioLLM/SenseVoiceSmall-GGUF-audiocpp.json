@@ -1,0 +1,66 @@
+{
+  "repo_id": "FunAudioLLM/SenseVoiceSmall-GGUF-audiocpp",
+  "canonical_org": "FunAudioLLM",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "5c3fcfe748a8714216bc135476d5863084fddb72",
+      "captured_at": "2026-09-21T14:34:04Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/FunAudioLLM/SenseVoiceSmall-GGUF-audiocpp?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"594-4dwxsXNX6S1+1N5/lHLxiu1RHbA\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "apache-2.0",
+        "file": null,
+        "sha256": null,
+        "redistributable": null,
+        "obligations": [],
+        "freedom": "conditional",
+        "freedom_note": "'apache-2.0' card tag but NO license file in repo \u2014 unverifiable, confirm upstream"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1592,
+          "sha256": "25f5b5a9caff818d8e35994fcf105cb8955ff3506310bb2325452aaaae01d029",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 1847,
+          "sha256": "4ba5edf84a02d245b93de9ff678933f51e9c4ff8b7bd5fa386a39a247d38180e",
+          "kind": "snapshot"
+        },
+        {
+          "path": "sensevoice-small-q8-audiocpp-v1.gguf",
+          "size": 254211200,
+          "sha256": null,
+          "kind": "weights"
+        }
+      ],
+      "total_bytes": 254214639,
+      "weight_bytes": 254211200,
+      "snapshot_dir": "snapshots/FunAudioLLM/SenseVoiceSmall-GGUF-audiocpp/5c3fcfe748a8714216bc135476d5863084fddb72/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

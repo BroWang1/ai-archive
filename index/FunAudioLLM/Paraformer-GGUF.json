@@ -1,0 +1,78 @@
+{
+  "repo_id": "FunAudioLLM/Paraformer-GGUF",
+  "canonical_org": "FunAudioLLM",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "1a5063b305a2b4e418ccffaf7be2c02a3cac6c89",
+      "captured_at": "2026-09-21T14:34:20Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/FunAudioLLM/Paraformer-GGUF?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"708-WRNIt+z7Qt0FYnWqbydkawws1j4\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "apache-2.0",
+        "file": null,
+        "sha256": null,
+        "redistributable": null,
+        "obligations": [],
+        "freedom": "conditional",
+        "freedom_note": "'apache-2.0' card tag but NO license file in repo \u2014 unverifiable, confirm upstream"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1682,
+          "sha256": "10a68e9e813d33b521602724e2d06048ca52d6ec6919e11547bc8b3381f9ab37",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 2099,
+          "sha256": "e46b1dc8c2ccd72b0564b50899a38fe15472127b58115d9c51d0fcb330ab09ab",
+          "kind": "snapshot"
+        },
+        {
+          "path": "paraformer-f16.gguf",
+          "size": 435113344,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "paraformer-q8.gguf",
+          "size": 236929024,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "paraformer.gguf",
+          "size": 863296896,
+          "sha256": null,
+          "kind": "weights"
+        }
+      ],
+      "total_bytes": 1535343045,
+      "weight_bytes": 1535339264,
+      "snapshot_dir": "snapshots/FunAudioLLM/Paraformer-GGUF/1a5063b305a2b4e418ccffaf7be2c02a3cac6c89/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

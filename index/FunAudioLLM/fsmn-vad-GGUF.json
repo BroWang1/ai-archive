@@ -1,0 +1,66 @@
+{
+  "repo_id": "FunAudioLLM/fsmn-vad-GGUF",
+  "canonical_org": "FunAudioLLM",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "6840bae4c5c92ee8c04faaf4db23dd0105098d7f",
+      "captured_at": "2026-09-21T14:34:26Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/FunAudioLLM/fsmn-vad-GGUF?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"51e-5BWm3e2OHOEuCfhfNoI8UONM6K8\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "apache-2.0",
+        "file": null,
+        "sha256": null,
+        "redistributable": null,
+        "obligations": [],
+        "freedom": "conditional",
+        "freedom_note": "'apache-2.0' card tag but NO license file in repo \u2014 unverifiable, confirm upstream"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1569,
+          "sha256": "7e011c34332e537af3acff8a64c5d88fe1a7c2d5a901df6ce901d071d5e6fd25",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 1984,
+          "sha256": "b7237acd3b448363792262b536c5c31f4277c22fad33177b3e95f18cf292ce9b",
+          "kind": "snapshot"
+        },
+        {
+          "path": "fsmn-vad.gguf",
+          "size": 1720512,
+          "sha256": null,
+          "kind": "weights"
+        }
+      ],
+      "total_bytes": 1724065,
+      "weight_bytes": 1720512,
+      "snapshot_dir": "snapshots/FunAudioLLM/fsmn-vad-GGUF/6840bae4c5c92ee8c04faaf4db23dd0105098d7f/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

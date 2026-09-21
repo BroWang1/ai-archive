@@ -1,0 +1,15 @@
+{% for message in messages %}{% if loop.first and message['role'] != 'system' %}<|im_start|>system
+You are a helpful assistant.<|im_end|>
+{% endif %}<|im_start|>{{ message['role'] }}
+{% if message['content'] is string %}{{ message['content'] }}<|im_end|>
+{% else %}{% set audio_items = message['content'] | selectattr('type', 'equalto', 'audio') | list %}{% if message['role'] == 'user' and audio_items %}{% set text_items = message['content'] | selectattr('type', 'equalto', 'text') | list %}{% set keyword_items = message['content'] | selectattr('type', 'equalto', 'keywords') | list %}{% set language_items = message['content'] | selectattr('type', 'equalto', 'language') | list %}{% if text_items or keyword_items %}请结合上下文信息，更加准确地完成语音转写任务。如果没有相关信息，我们会留空。
+
+
+**上下文信息：**
+
+
+{% for item in text_items %}{{ item['text'] }}
+{% endfor %}{% set keyword_namespace = namespace(items=[]) %}{% for item in keyword_items %}{% set keyword_namespace.items = keyword_namespace.items + item['keywords'] %}{% endfor %}{% if keyword_namespace.items %}热词列表：[{{ keyword_namespace.items | join(', ') }}]
+{% endif %}{% endif %}语音转写{% if language_items %}成{{ language_items[0]['language'] }}{% endif %}：{% for content in audio_items %}<|object_ref_start|>{% endfor %}{% else %}{% for content in message['content'] %}{% if content['type'] == 'audio' %}<|object_ref_start|>{% elif content['type'] == 'text' %}{{ content['text'] }}{% endif %}{% endfor %}{% endif %}<|im_end|>
+{% endif %}{% endfor %}{% if add_generation_prompt %}<|im_start|>assistant
+{% endif %}

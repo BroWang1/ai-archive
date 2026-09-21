@@ -1,0 +1,162 @@
+{
+  "repo_id": "tencent/WeVisDoc-2B",
+  "canonical_org": "tencent",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "86ecb7330566296b695d4f91aea807a260cc84a7",
+      "captured_at": "2026-09-21T14:33:09Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/tencent/WeVisDoc-2B?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"3650-ab5a+8iyjLqEuybEUmWyD6impjQ\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "apache-2.0",
+        "file": null,
+        "sha256": null,
+        "redistributable": null,
+        "obligations": [],
+        "freedom": "conditional",
+        "freedom_note": "'apache-2.0' card tag but NO license file in repo \u2014 unverifiable, confirm upstream"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1519,
+          "sha256": "11ad7efa24975ee4b0c3c3a38ed18737f0658a5f75a0a96787b576a78a023361",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 9200,
+          "sha256": "d56cde3b26027708e064f33a2723dd87c4a42beea7060095b7836fa637dc68fe",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.zh-CN.md",
+          "size": 9076,
+          "sha256": "9eab2c0d4efcc7732c0cbedb8cfd73b6d035693b36c28ece41187b7d6f6e8c1e",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/badges/github.svg",
+          "size": 2184,
+          "sha256": "370c45169f9cd7f85e1af261578933cc8de77bf36455e9a138e236ad006c39d1",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/badges/project-page.svg",
+          "size": 1833,
+          "sha256": "9e5cf84403abf1900b811eb5867affd9174d2075c4224490810aab569e9c281a",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/badges/technical-report.svg",
+          "size": 2594,
+          "sha256": "a2ddce6ffd66dde83dd2ce055adf6956c91c9cd8a585a49c28364eac421646c6",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/badges/wevisdoc-2b.svg",
+          "size": 5152,
+          "sha256": "beae625439f11fdd351786a4683f5d02c8e7e9a2377fa3809f19583ed124da22",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/badges/wevisdoc-4b.svg",
+          "size": 5152,
+          "sha256": "e64f10ca50eeac68b48de90f1097df959bada109515100626cd0fcfe0619b674",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/figure1.png",
+          "size": 94948,
+          "sha256": "9dfe54b75b8e57726a9f2ef64160ee66d8d7b33c1d66f32d006c23b9df80fafa",
+          "kind": "snapshot"
+        },
+        {
+          "path": "chat_template.json",
+          "size": 5502,
+          "sha256": "6f8a6a55027e3da5160105556cda5dd69f6423f1c32645f6730d32de7773d0c4",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 1505,
+          "sha256": "bec4b3d446efa05807365c9e1cec03ac590836879d02f3a6da879971154bdd3b",
+          "kind": "snapshot"
+        },
+        {
+          "path": "generation_config.json",
+          "size": 269,
+          "sha256": "1e241830b48b397cb0900101421df5450baddc7adf01e5fc86b5615865f3bae4",
+          "kind": "snapshot"
+        },
+        {
+          "path": "merges.txt",
+          "size": 1671839,
+          "sha256": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3",
+          "kind": "snapshot"
+        },
+        {
+          "path": "model.safetensors",
+          "size": 4877470336,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "preprocessor_config.json",
+          "size": 390,
+          "sha256": "27225450ac9c6529872ee1924fcb0962ff5634834f817040f444118116f4e516",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer.json",
+          "size": 7032403,
+          "sha256": "a5d85b6dcc535e6b93115a9ef287e6132fdbf30270da6218194ba742261173c7",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 10868,
+          "sha256": "c2da771801886ad9ae98181793ffd3dfb7f1af30f6f7c6a4e15d7dbba52e2399",
+          "kind": "snapshot"
+        },
+        {
+          "path": "video_preprocessor_config.json",
+          "size": 385,
+          "sha256": "7768af27c1fafa9cc9011c1dc20067e03f8915e03b63504550e11d5066986d13",
+          "kind": "snapshot"
+        },
+        {
+          "path": "vocab.json",
+          "size": 2776833,
+          "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 4889101988,
+      "weight_bytes": 4877470336,
+      "snapshot_dir": "snapshots/tencent/WeVisDoc-2B/86ecb7330566296b695d4f91aea807a260cc84a7/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

@@ -1,0 +1,10 @@
+Realtime-Venus-Omni
+Copyright 2026 The Realtime-Venus Team. All rights reserved.
+
+This product includes software derived from MiniCPM-o 4.5
+(https://github.com/OpenBMB/MiniCPM-o), Copyright The OpenBMB Team,
+licensed under the Apache License, Version 2.0.
+
+Modifications include the Realtime-Venus identity and system prompts,
+full-duplex delegation output handling, the long-video Memory runtime
+under memory_adapter/, and rebranded module, class, and configuration names.

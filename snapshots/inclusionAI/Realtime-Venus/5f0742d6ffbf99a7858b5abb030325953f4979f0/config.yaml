@@ -1,0 +1,6 @@
+name: Realtime-Venus
+models:
+  omni:
+    path: Realtime-Venus-Omni
+  audio:
+    path: Realtime-Venus-Audio

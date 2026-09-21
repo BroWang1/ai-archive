@@ -1,0 +1,172 @@
+---
+license: apache-2.0
+datasets:
+- FunAudioLLM/CineDub-Example
+language:
+- zh
+- en
+tags:
+- Dubbing-model
+pipeline_tag: text-to-speech
+---
+
+<p align="center">
+<b>🎬 Fun-CineForge: A Unified Dataset Pipeline and Model for Zero-Shot Movie Dubbing in Diverse Cinematic Scenes</b>
+</p>
+
+<div align="center">
+
+![license](https://img.shields.io/github/license/modelscope/modelscope.svg)
+<a href=""><img src="https://img.shields.io/badge/OS-Linux-orange.svg"></a>
+<a href=""><img src="https://img.shields.io/badge/Python->=3.8-aff.svg"></a>
+<a href=""><img src="https://img.shields.io/badge/Pytorch->=2.1-blue"></a>
+</div>
+
+<div align="center">  
+<h4><a href="#Open-Source">Open Source</a>
+｜<a href="#Environment">Environment</a>
+｜<a href="#Dataset-Pipeline">Dataset Pipeline</a>
+｜<a href="#Dubbing-Model">Dubbing Model</a>
+｜<a href="#Recent-Updates">Recent Updates</a>
+｜<a href="#Publication">Publication</a>
+｜<a href="#Comminicate">Comminicate</a>
+</h4>
+</div>
+
+**Fun-CineForge** contains an end-to-end dataset pipeline for producing large-scale dubbing datasets and an MLLM-based dubbing model designed for diverse cinematic scenes. Using this pipeline, we constructed the first large-scale Chinese television dubbing dataset CineDub-CN, which includes rich annotations and diverse scenes. In monologue, narration, dialogue, and multi-speaker scenes, our dubbing model consistently outperforms state-of-the-art methods in terms of audio quality, lip-sync, timbre transition, and instruction following.
+
+<a name="Open-Source"></a>
+## Open Source 🎬
+You can access [https://funcineforge.github.io/](https://funcineforge.github.io/) to get our CineDub-CN dataset samples and demo samples. 
+
+GitHub link: [https://github.com/FunAudioLLM/FunCineForge/](https://github.com/FunAudioLLM/FunCineForge/)
+
+ModelScope link: [https://www.modelscope.cn/models/FunAudioLLM/Fun-CineForge/](https://www.modelscope.cn/models/FunAudioLLM/Fun-CineForge/)
+
+CineDub Samples: 
+[huggingface](https://huggingface.co/datasets/FunAudioLLM/CineDub-Example/)
+[modelscope](https://www.modelscope.cn/datasets/FunAudioLLM/CineDub-Example)
+
+<a name="Environment"></a>
+## Environmental Installation
+
+Fun-CineForge relies on Conda and Python environments. Execute **setup.py** to automatically install the entire project environment and open-source model.
+
+```shell
+# Conda
+git clone git@github.com:FunAudioLLM/FunCineForge.git
+conda create -n FunCineForge python=3.10 -y && conda activate FunCineForge
+sudo apt-get install ffmpeg
+# Initial settings
+python setup.py
+```
+
+<a name="Dataset-Pipeline"></a>
+## Dataset Pipeline 🔨
+
+### Data collection
+If you want to produce your own data, 
+we recommend that you refer to the following requirements to collect the corresponding movies or television series.
+
+1. Video source: TV dramas or movies, non documentaries, with more monologues or dialogue scenes, clear and unobstructed faces (such as without masks and veils).
+2. Speech Requirements: Standard pronunciation, clear articulation, prominent human voice. Avoid materials with strong dialects, excessive background noise, or strong colloquialism.
+3. Image Requirements: High resolution, clear facial details, sufficient lighting, avoiding extremely dark or strong backlit scenes.
+
+### How to use
+
+- [1] Standardize video format and name; trim the beginning and end of long videos; extract the audio from the trimmed video. (default is to trim 10 seconds from both the beginning and end.)
+```shell
+python normalize_trim.py --root datasets/raw_zh --intro 10 --outro 10
+```
+
+- [2] [Speech Separation](./speech_separation/README.md). The audio is used to separate the vocals from the instrumental music.
+```shell
+cd speech_separation
+python run.py --root datasets/clean/zh --gpus 0 1 2 3
+```
+
+- [3] [VideoClipper](./video_clip/README.md). For long videos, VideoClipper is used to obtain sentence-level subtitle files and clip the long video into segments based on timestamps. Now it supports bilingualism in both Chinese and English. Below is an example in Chinese. It is recommended to use gpu acceleration for English.
+```shell
+cd video_clip
+bash run.sh --stage 1 --stop_stage 2 --input datasets/raw_zh --output datasets/clean/zh --lang zh --device cpu
+```
+
+- Video duration limit and check for cleanup. (Without --execute, only pre-deleted files will be printed. After checking, add --execute to confirm the deletion.)
+```shell
+python clean_video.py --root datasets/clean/zh
+python clean_srt.py --root datasets/clean/zh --lang zh
+```
+
+- [4] [Speaker Diarization](./speaker_diarization/README.md). Multimodal active speaker recognition obtains RTTM files; identifies the speaker's facial frames, extracts frame-level speaker face and lip raw data.
+```shell
+cd speaker_diarization
+bash run.sh --stage 1 --stop_stage 4 --hf_access_token hf_xxx --root datasets/clean/zh --gpus "0 1 2 3"
+```
+
+- (Reference) Extract speech tokens based on the CosyVoice3 tokenizer for llm training.
+```shell
+python speech_tokenizer.py --root datasets/clean/zh
+```
+
+- [5] Multimodal CoT Correction. Based on general-purpose MLLMs, the system uses audio, ASR text, and RTTM files as input. It leverages Chain-of-Thought (CoT) reasoning to extract clues and corrects the results of the specialized models. It also annotates character age, gender, and vocal timbre. Experimental results show that this strategy reduces the CER from 4.53% to 0.94% and the speaker diarization error rate from 8.38% to 1.20%, achieving quality comparable to or even better than manual transcription. Adding the --resume enables breakpoint COT inference to prevent wasted resources from repeated COT inferences. Now supports both Chinese and English.
+```shell
+python cot.py --root_dir datasets/clean/zh --lang zh --provider google --model gemini-3-pro-preview --api_key xxx --resume
+python cot.py --root_dir datasets/clean/en --lang en --provider google --model gemini-3-pro-preview --api_key xxx --resume
+```
+
+- The construction of the dataset retrieval file will read all production data, perform bidirectional verification of script content and speaker separation results.
+```shell
+python build_datasets.py --root_zh datasets/clean/zh --root_en datasets/clean/en --out_dir datasets/clean --save
+```
+
+<a name="Dubbing-Model"></a>
+## Dubbing Model ⚙️
+We've open-sourced the inference code and the **infer.sh** script, and provided some test cases in the data folder for your experience. Inference requires a consumer-grade GPU. Run the following command:
+
+```shell
+cd exps
+bash infer.sh
+```
+
+The API for multi-speaker dubbing from raw videos and SRT scripts is under development ...
+
+<a name="Recent-Updates"></a>
+## Recent Updates 🚀
+- 2025/12/18: Fun-CineForge dataset pipeline toolkit is online! 🔥
+- 2026/01/19: Chinese demo samples and CineDub-CN dataset samples released. 🔥
+- 2026/01/25: Fix some environmental and operational issues.
+- 2026/02/09: Optimized the data pipeline and added support for English videos.
+- 2026/03/05: English demo samples and CineDub-EN dataset samples released. 🔥
+- 2026/03/16: Open source inference code and checkpoints. 🔥
+
+<a name="Publication"></a>
+## Publication 📚
+If you use our dataset or code, please cite the following paper:
+<pre>
+@misc{liu2026funcineforgeunifieddatasettoolkit,
+    title={FunCineForge: A Unified Dataset Toolkit and Model for Zero-Shot Movie Dubbing in Diverse Cinematic Scenes}, 
+    author={Jiaxuan Liu and Yang Xiang and Han Zhao and Xiangang Li and Zhenhua Ling},
+    year={2026},
+    eprint={2601.14777},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV},
+}
+</pre>
+
+<a name="Comminicate"></a>
+## Comminicate 🍟
+The Fun-CineForge open-source project is developed and maintained by the Tongyi Lab Speech Team and a student from NERCSLIP, University of Science and Technology of China.
+We welcome you to participate in discussions on Fun-CineForge [GitHub Issues](https://github.com/FunAudioLLM/FunCineForge/issues) or contact us for collaborative development.
+For any questions, you can contact the [developer](mailto:jxliu@mail.ustc.edu.cn).
+
+⭐ Hope you will support Fun-CineForge. Thank you.
+
+### Disclaimer
+
+This repository contains research artifacts:
+
+⚠️ Currently not a commercial product of Tongyi Lab.
+
+⚠️ Released for academic research / cutting-edge exploration purposes
+
+⚠️ CineDub Dataset samples are subject to specific license terms.

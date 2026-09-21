@@ -1,0 +1,300 @@
+{
+  "repo_id": "FunAudioLLM/Fun-CineForge",
+  "canonical_org": "FunAudioLLM",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "b57d93ef30188df5086dd74f26bb768b1b8776b4",
+      "captured_at": "2026-09-21T14:34:54Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/FunAudioLLM/Fun-CineForge?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"1cea-1vQx5OohVJcjVHW9Tu3i/aOIsnI\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "apache-2.0",
+        "file": "Qwen2-0.5B-CosyVoice-BlankEN/LICENSE",
+        "sha256": "c156170b718ec29139d3653d40ed1986fd92fb7e0959b5c71f3c48f62e6636f4",
+        "redistributable": true,
+        "obligations": [],
+        "freedom": "free",
+        "freedom_note": "apache-2.0 with LICENSE file verified in snapshot"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1585,
+          "sha256": "7563b15e8dd508279e16d257818be4cbd1c76496385e2a72f66766399ab411e8",
+          "kind": "snapshot"
+        },
+        {
+          "path": "MelBandRoformer.ckpt",
+          "size": 913106900,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "Qwen2-0.5B-CosyVoice-BlankEN/LICENSE",
+          "size": 11344,
+          "sha256": "c156170b718ec29139d3653d40ed1986fd92fb7e0959b5c71f3c48f62e6636f4",
+          "kind": "snapshot"
+        },
+        {
+          "path": "Qwen2-0.5B-CosyVoice-BlankEN/README.md",
+          "size": 3565,
+          "sha256": "607395093331ab984694ae683241c828ea03b71d965527d7c0d712ef2ec8018f",
+          "kind": "snapshot"
+        },
+        {
+          "path": "Qwen2-0.5B-CosyVoice-BlankEN/config.json",
+          "size": 659,
+          "sha256": "168aa1bd401abc3bc262ba15ba4e499627a8b4e006e9d050b47c22de20660185",
+          "kind": "snapshot"
+        },
+        {
+          "path": "Qwen2-0.5B-CosyVoice-BlankEN/generation_config.json",
+          "size": 242,
+          "sha256": "e558847a8b4402616f1273797b015104dc266fe4b520056fca88823ba8f8ebe6",
+          "kind": "snapshot"
+        },
+        {
+          "path": "Qwen2-0.5B-CosyVoice-BlankEN/merges.txt",
+          "size": 1402109,
+          "sha256": "ac8ff86a72bee70828fbc1119bc4398c6f3a9a6e490d7b0dbe917be025478bd0",
+          "kind": "snapshot"
+        },
+        {
+          "path": "Qwen2-0.5B-CosyVoice-BlankEN/model.safetensors",
+          "size": 988097824,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "Qwen2-0.5B-CosyVoice-BlankEN/tokenizer_config.json",
+          "size": 1287,
+          "sha256": "482bd979881423375ca5414e4e0d94cd7c5349dbb17fffd46b4d36d71e62a1bc",
+          "kind": "snapshot"
+        },
+        {
+          "path": "Qwen2-0.5B-CosyVoice-BlankEN/vocab.json",
+          "size": 2776833,
+          "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 8382,
+          "sha256": "6e7722cd3d225e665a759d3f33790c20b86d0d85195c7985e579b1b51889be20",
+          "kind": "snapshot"
+        },
+        {
+          "path": "asd.onnx",
+          "size": 63208524,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "config.json",
+          "size": 2,
+          "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "kind": "snapshot"
+        },
+        {
+          "path": "face_recog_ir101.onnx",
+          "size": 260698833,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "fqa.onnx",
+          "size": 406114,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "fun_2d.pth",
+          "size": 89843225,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "fun_2d.zip",
+          "size": 96316515,
+          "sha256": null,
+          "kind": "skipped-large"
+        },
+        {
+          "path": "funcineforge_zh_en/camplus.onnx",
+          "size": 28303423,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "funcineforge_zh_en/flow/config.yaml",
+          "size": 2138,
+          "sha256": "ba3a0a4237940b07aac7347ec04debca652b6c621e722f6cb9d018d738d4a037",
+          "kind": "snapshot"
+        },
+        {
+          "path": "funcineforge_zh_en/flow/ds-model.pt.best/mp_rank_00_model_states.pt",
+          "size": 3987933779,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "funcineforge_zh_en/llm/config.yaml",
+          "size": 2767,
+          "sha256": "754b7ea8e50f1254e74ac9a1baa5830ff42f84a8256fdd0d89897c4ab19f3617",
+          "kind": "snapshot"
+        },
+        {
+          "path": "funcineforge_zh_en/llm/ds-model.pt.best/mp_rank_00_model_states.pt",
+          "size": 6096417415,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "funcineforge_zh_en/vocoder/config.yaml",
+          "size": 805,
+          "sha256": "3e95fa204f573d12abcd98cb8ac63440d6fba0de14e9a6d373e61af69aceda49",
+          "kind": "snapshot"
+        },
+        {
+          "path": "funcineforge_zh_en/vocoder/ds-model.pt.best/avg_5_removewn.pt",
+          "size": 83141596,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "funcineforge_zh_en/vocoder/hift_causal.hyper.yaml",
+          "size": 1345,
+          "sha256": "fbecab95b2ffaa5d712731c4e4e5aea284982a3fd812a81bcbb58d3e836f9a37",
+          "kind": "snapshot"
+        },
+        {
+          "path": "speech_campplus/.mdl",
+          "size": 71,
+          "sha256": "650c0b8f82229131bc0b12e95456623fa3fc993eaa8a828bdfd69ca721496308",
+          "kind": "snapshot"
+        },
+        {
+          "path": "speech_campplus/.msc",
+          "size": 760,
+          "sha256": "a4770416619a9dcf3fd8da3cf33ec95b50ab0cc44f584e71f730f8495775e818",
+          "kind": "snapshot"
+        },
+        {
+          "path": "speech_campplus/.mv",
+          "size": 36,
+          "sha256": "3ae049cb283de1ba48992cd8f424d55c85ee5e50c1e27c8e60328bb770a602a4",
+          "kind": "snapshot"
+        },
+        {
+          "path": "speech_campplus/campplus_cn_en_common.pt",
+          "size": 28044640,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "speech_campplus/config.yaml",
+          "size": 537,
+          "sha256": "17342041bd5b22f6fd7e32f6e7a267b0bf65f018c0a721bada6547e3d28fbfc9",
+          "kind": "snapshot"
+        },
+        {
+          "path": "speech_campplus/configuration.json",
+          "size": 587,
+          "sha256": "d1ae364ff71e84ef5918ba30b0f8c2f28d2fdfdac4003b60ce0877b3f4630048",
+          "kind": "snapshot"
+        },
+        {
+          "path": "speech_campplus/structure.png",
+          "size": 286018,
+          "sha256": "1ff916275cbfe40e1e5584ef66f81b776ef992e9997d8658328394d023dba1b8",
+          "kind": "snapshot"
+        },
+        {
+          "path": "speech_fsmn_vad/.mdl",
+          "size": 67,
+          "sha256": "35198ab97c6bc86b2d7f1c5549573d7a3c1794cdce355d5f6609dff99121845f",
+          "kind": "snapshot"
+        },
+        {
+          "path": "speech_fsmn_vad/.msc",
+          "size": 511,
+          "sha256": "02fb63367fefec8d7a48db6353b2a65493280af95405cc0f6927209e6d1a2125",
+          "kind": "snapshot"
+        },
+        {
+          "path": "speech_fsmn_vad/.mv",
+          "size": 36,
+          "sha256": "7f66c8826d9ac09f08931324854a662cd769b92b7171b07a125aa9b493ab5c54",
+          "kind": "snapshot"
+        },
+        {
+          "path": "speech_fsmn_vad/am.mvn",
+          "size": 8040,
+          "sha256": "6820fef9687708c4fc3fab2530179c8fcea6262daa25514380056cd8f6eb1754",
+          "kind": "snapshot"
+        },
+        {
+          "path": "speech_fsmn_vad/config.yaml",
+          "size": 1215,
+          "sha256": "486861ca26ddb79081663b6179cb204c6bfae71c52f04aafc48a9e9d8dde1e93",
+          "kind": "snapshot"
+        },
+        {
+          "path": "speech_fsmn_vad/configuration.json",
+          "size": 365,
+          "sha256": "7bce8867e37d55c3dd8f672695ced18077a2be199ea529a5d432d5350fc0acba",
+          "kind": "snapshot"
+        },
+        {
+          "path": "speech_fsmn_vad/model.pt",
+          "size": 1721366,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "speech_fsmn_vad/struct.png",
+          "size": 27914,
+          "sha256": "c745bcc2fd4952fb1fe5a0f7f9fdabda510c3771e7a47dd22be605e26db4ee2c",
+          "kind": "snapshot"
+        },
+        {
+          "path": "speech_tokenizer_v3.onnx",
+          "size": 969451503,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "version-RFB-320.onnx",
+          "size": 1231013,
+          "sha256": null,
+          "kind": "weights"
+        }
+      ],
+      "total_bytes": 13612461890,
+      "weight_bytes": 13511606155,
+      "snapshot_dir": "snapshots/FunAudioLLM/Fun-CineForge/b57d93ef30188df5086dd74f26bb768b1b8776b4/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

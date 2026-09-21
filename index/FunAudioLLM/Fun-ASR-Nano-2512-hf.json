@@ -1,0 +1,114 @@
+{
+  "repo_id": "FunAudioLLM/Fun-ASR-Nano-2512-hf",
+  "canonical_org": "FunAudioLLM",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "7ef6cafdc445b5beff0b730cbeb51952c793ca6e",
+      "captured_at": "2026-09-21T14:33:50Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/FunAudioLLM/Fun-ASR-Nano-2512-hf?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"1125-TWqmg4SpHvEdIykkoQnIsVkcyOw\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "apache-2.0",
+        "file": null,
+        "sha256": null,
+        "redistributable": null,
+        "obligations": [],
+        "freedom": "conditional",
+        "freedom_note": "'apache-2.0' card tag but NO license file in repo \u2014 unverifiable, confirm upstream"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1570,
+          "sha256": "34448b82c17d60fec9b65b1f093c115ddbaadc04beb1b0140b6bfed2e012a930",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 9988,
+          "sha256": "13015672722e0a8298a60cb78673c004e519d17f9a43868a82f76fcc38db42b9",
+          "kind": "snapshot"
+        },
+        {
+          "path": "chat_template.jinja",
+          "size": 1648,
+          "sha256": "05fef6e90fcdcb879cebcf5d337d9df41668c9d341abad088ea4958b133c29fe",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 2603,
+          "sha256": "a2179cec35f10675fca8ac0ed37019fb5a6a158c9d7daa60c62971d0bf589f80",
+          "kind": "snapshot"
+        },
+        {
+          "path": "generation_config.json",
+          "size": 210,
+          "sha256": "77f266dab07ab57806fd5734f9ee5be6621155b5287e0ce42bd8787f2cde3f31",
+          "kind": "snapshot"
+        },
+        {
+          "path": "merges.txt",
+          "size": 1671853,
+          "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5",
+          "kind": "snapshot"
+        },
+        {
+          "path": "model.safetensors",
+          "size": 1659773320,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "processor_config.json",
+          "size": 412,
+          "sha256": "4bbe26c6109b27e4b7fd68008a4e8f60e519b326b59dadba00725ea5678a6b93",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer.json",
+          "size": 11422650,
+          "sha256": "be75606093db2094d7cd20f3c2f385c212750648bd6ea4fb2bf507a6a4c55506",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 781,
+          "sha256": "1d8065984f39c1d9dd8aaf754bbeda44f270110563a1afc729e183739cda8d12",
+          "kind": "snapshot"
+        },
+        {
+          "path": "vocab.json",
+          "size": 2776833,
+          "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 1675661868,
+      "weight_bytes": 1659773320,
+      "snapshot_dir": "snapshots/FunAudioLLM/Fun-ASR-Nano-2512-hf/7ef6cafdc445b5beff0b730cbeb51952c793ca6e/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

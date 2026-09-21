@@ -69,9 +69,108 @@
     "49712278",
     "49706708",
     "49705868",
-    "49688391"
+    "49688391",
+    "49748553",
+    "49783999",
+    "49776960",
+    "49775499",
+    "49785397",
+    "49783495",
+    "49783133",
+    "49778022",
+    "49776729",
+    "49765354",
+    "49749369",
+    "49769676",
+    "49749656",
+    "49748041"
   ],
-  "log": [],
+  "log": [
+    {
+      "kind": "buzz",
+      "at": "2026-09-21T14:35:18Z",
+      "text": "HN front-page (231 pts): Show HN: Cactus Needle 3: 8-29MB automation models can match DeepSeek V4 Flash",
+      "url": "https://news.ycombinator.com/item?id=49748553"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-09-21T14:35:18Z",
+      "text": "HN front-page (233 pts): Kev: Tiny Jev-like family of decision models built on top of Qwen3.5",
+      "url": "https://news.ycombinator.com/item?id=49783999"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-09-21T14:35:18Z",
+      "text": "HN front-page (84 pts): Custom home server built from spare parts",
+      "url": "https://news.ycombinator.com/item?id=49776960"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-09-21T14:35:18Z",
+      "text": "HN front-page (687 pts): Qwen Image 2.1",
+      "url": "https://news.ycombinator.com/item?id=49775499"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-09-21T14:35:18Z",
+      "text": "HN front-page (264 pts): ZuckOff Is a Free App That Sees Meta Glasses Before They See You",
+      "url": "https://news.ycombinator.com/item?id=49785397"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-09-21T14:35:18Z",
+      "text": "HN front-page (276 pts): Grim Fandango Puzzle Document (1996) [pdf]",
+      "url": "https://news.ycombinator.com/item?id=49783495"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-09-21T14:35:18Z",
+      "text": "HN front-page (195 pts): Show HN: Mini-AGI \u2013 Dynamic continual learning model trained on 8GB VRAM",
+      "url": "https://news.ycombinator.com/item?id=49783133"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-09-21T14:35:18Z",
+      "text": "HN front-page (129 pts): Resident Evil 4 (GameCube) \u2013 complete byte-identical decompilation to C/C++",
+      "url": "https://news.ycombinator.com/item?id=49778022"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-09-21T14:35:18Z",
+      "text": "HN front-page (734 pts): ChatGPT now knows what you do on other websites via ad collector",
+      "url": "https://news.ycombinator.com/item?id=49776729"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-09-21T14:35:18Z",
+      "text": "HN front-page (76 pts): Show HN: Sigabrt.dev \u2013 cronjob monitor with an SSH TUI",
+      "url": "https://news.ycombinator.com/item?id=49765354"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-09-21T14:35:18Z",
+      "text": "HN front-page (325 pts): Minimal Phone 2",
+      "url": "https://news.ycombinator.com/item?id=49749369"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-09-21T14:35:18Z",
+      "text": "HN front-page (216 pts): Measure internet censorship",
+      "url": "https://news.ycombinator.com/item?id=49769676"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-09-21T14:35:18Z",
+      "text": "HN front-page (487 pts): A heap overflow and SSO misconfiguration to compromise OpenAI internal repos",
+      "url": "https://news.ycombinator.com/item?id=49749656"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-09-21T14:35:18Z",
+      "text": "HN front-page (60 pts): Show HN: Scry, programmable internet search w/ congestion pricing",
+      "url": "https://news.ycombinator.com/item?id=49748041"
+    }
+  ],
   "first_run_done": true,
-  "last_run": "2026-09-18T08:07:09Z"
+  "last_run": "2026-09-21T14:35:18Z"
 }

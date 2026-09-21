@@ -1,0 +1,84 @@
+{
+  "repo_id": "FunAudioLLM/Fun-ASR-Nano-GGUF",
+  "canonical_org": "FunAudioLLM",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "46e849502a867080d66d351b8dfb1018b607e509",
+      "captured_at": "2026-09-21T14:34:23Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/FunAudioLLM/Fun-ASR-Nano-GGUF?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"838-nOoAwA7QcSbPXnv7pW/qIuGYeIw\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "apache-2.0",
+        "file": null,
+        "sha256": null,
+        "redistributable": null,
+        "obligations": [],
+        "freedom": "conditional",
+        "freedom_note": "'apache-2.0' card tag but NO license file in repo \u2014 unverifiable, confirm upstream"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1750,
+          "sha256": "bcd40a3c2702e94512c2584a648fb900ea6c0b0c126bf8bd579633817a070d42",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 2649,
+          "sha256": "7358d7de671a9d9d5f51aeb49a73084bdd34e3d45ce4b7b26bc1b9386e0de97a",
+          "kind": "snapshot"
+        },
+        {
+          "path": "funasr-encoder-f16.gguf",
+          "size": 469331008,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "qwen3-0.6b-q4km.gguf",
+          "size": 484219776,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "qwen3-0.6b-q5km.gguf",
+          "size": 551377792,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "qwen3-0.6b-q8_0.gguf",
+          "size": 804753280,
+          "sha256": null,
+          "kind": "weights"
+        }
+      ],
+      "total_bytes": 2309686255,
+      "weight_bytes": 2309681856,
+      "snapshot_dir": "snapshots/FunAudioLLM/Fun-ASR-Nano-GGUF/46e849502a867080d66d351b8dfb1018b607e509/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

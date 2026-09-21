@@ -1,0 +1,78 @@
+{
+  "repo_id": "FunAudioLLM/Fun-ASR-Nano-2512-GGUF",
+  "canonical_org": "FunAudioLLM",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "ce72677f84900f0dc57f498ace253bfb3c9155b6",
+      "captured_at": "2026-09-21T14:34:17Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/FunAudioLLM/Fun-ASR-Nano-2512-GGUF?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"734-YutjlpqtdlsDR+UA1l329WSCEzk\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "other",
+        "file": null,
+        "sha256": null,
+        "redistributable": null,
+        "obligations": [],
+        "freedom": "conditional",
+        "freedom_note": "Custom license ('other') \u2014 read before redistributing"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1646,
+          "sha256": "70291854c22a1baa72f89e2ca6887bb8c4bd08f04c893907e7b9f383641660f6",
+          "kind": "snapshot"
+        },
+        {
+          "path": "MANIFEST.json",
+          "size": 585,
+          "sha256": "6b797b3b4a124e61abe1495b99916c33c03282dca36254622f629651195638f9",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 2296,
+          "sha256": "5b8174dd691c0c7281a5431f78bc0fe9323248c75f6223656040418b90e35670",
+          "kind": "snapshot"
+        },
+        {
+          "path": "fun-asr-nano-2512-f16.gguf",
+          "size": 1675708832,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "fun-asr-nano-2512-q8_0.gguf",
+          "size": 1045334432,
+          "sha256": null,
+          "kind": "weights"
+        }
+      ],
+      "total_bytes": 2721047791,
+      "weight_bytes": 2721043264,
+      "snapshot_dir": "snapshots/FunAudioLLM/Fun-ASR-Nano-2512-GGUF/ce72677f84900f0dc57f498ace253bfb3c9155b6/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}
