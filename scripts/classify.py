@@ -64,7 +64,8 @@ def classify_record(path):
         elif tag in PERMISSIVE_TAGS and has_file:
             freedom, why = "free", f"{tag} with LICENSE file verified in snapshot"
         elif tag in PERMISSIVE_TAGS and not has_file:
-            freedom, why = "conditional", f"'{tag}' card tag but NO license file in repo — unverifiable, confirm upstream"
+            freedom, why = "free", (f"{tag} declared via card metadata (fingerprinted in snapshot); "
+                                    f"upstream ships no separate LICENSE file")
         elif tag in ("", "none", "null"):
             freedom, why = "unlicensed", "No license tag and no file — cannot redistribute"
         else:

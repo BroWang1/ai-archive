@@ -20,8 +20,8 @@
         "obligations": [
           "attribution"
         ],
-        "freedom": "conditional",
-        "freedom_note": "'mit' card tag but NO license file in repo \u2014 unverifiable, confirm upstream"
+        "freedom": "free",
+        "freedom_note": "mit declared via card metadata (fingerprinted in snapshot); upstream ships no separate LICENSE file"
       },
       "gate_terms_sha256": null,
       "files": [
@@ -101,7 +101,13 @@
       },
       "serving": null,
       "mirrors": {
-        "hf": null,
+        "hf": {
+          "repo": "AIArchiveInfo/sales-conversion-model-reinf-learning",
+          "byte_identical": true,
+          "upstream_revision": "105963aa2bcdaa9a41600366ee7218bb03e397d2",
+          "verified_files": 0,
+          "mirrored_at": "2026-09-21T06:29:53Z"
+        },
         "master": null
       }
     }

@@ -114,15 +114,39 @@ def main():
     ap.add_argument("--only")
     ap.add_argument("--pause", type=int, default=30,
                     help="seconds between models; raise to ride out duplication quotas")
+    ap.add_argument("--budget-tb", type=float, default=11.5,
+                    help="stop before org storage would exceed this many TB")
     args = ap.parse_args()
     from huggingface_hub import HfApi
     hf_api = HfApi()
 
-    records = [ROOT / "index" / f"{args.only}.json"] if args.only \
-        else sorted((ROOT / "index").rglob("*.json"))
+    if args.only:
+        records = [ROOT / "index" / f"{args.only}.json"]
+        used_tb = 0.0
+    else:
+        # smallest-first maximizes models preserved within the storage budget
+        pend, used_tb = [], 0.0
+        for p in sorted((ROOT / "index").rglob("*.json")):
+            r = json.loads(p.read_text())
+            cap = r["captures"][-1]
+            tb = cap["weight_bytes"] / 1e12
+            if (cap.get("mirrors") or {}).get("hf"):
+                used_tb += tb
+            elif cap["license"].get("redistributable") is True:
+                pend.append((tb, p))
+        pend.sort(key=lambda x: x[0])
+        records = [p for _, p in pend]
+        print(f"queue: {len(records)} models, org currently ~{used_tb:.2f} TB, budget {args.budget_tb} TB")
+
     tally = {}
+    consecutive_quota_fails = 0
     for p in records:
-        rid = json.loads(p.read_text())["repo_id"]
+        rec = json.loads(p.read_text())
+        rid = rec["repo_id"]
+        tb = rec["captures"][-1]["weight_bytes"] / 1e12
+        if not args.only and used_tb + tb > args.budget_tb:
+            tally["skip-storage"] = tally.get("skip-storage", 0) + 1
+            continue
         print(f"{rid}")
         try:
             res = mirror_one(p, args.to, hf_api)
@@ -131,7 +155,15 @@ def main():
             res = "error"
         tally[res] = tally.get(res, 0) + 1
         print(f"  -> {res}", flush=True)
-        if res in ("ok", "fail-duplicate"):
+        if res == "ok":
+            used_tb += tb
+            consecutive_quota_fails = 0
+            time.sleep(args.pause)
+        elif res == "fail-duplicate":
+            consecutive_quota_fails += 1
+            if consecutive_quota_fails >= 3:
+                print("3 consecutive duplication failures — quota wall; stopping (resumable)", flush=True)
+                break
             time.sleep(args.pause)
     print("\n" + ", ".join(f"{k}: {v}" for k, v in sorted(tally.items())))
 

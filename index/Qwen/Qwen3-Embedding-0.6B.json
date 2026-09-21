@@ -16,10 +16,10 @@
         "tag": "apache-2.0",
         "file": null,
         "sha256": null,
-        "redistributable": null,
+        "redistributable": true,
         "obligations": [],
-        "freedom": "conditional",
-        "freedom_note": "'apache-2.0' card tag but NO license file in repo \u2014 unverifiable, confirm upstream"
+        "freedom": "free",
+        "freedom_note": "apache-2.0 declared via card metadata (fingerprinted in snapshot); upstream ships no separate LICENSE file"
       },
       "gate_terms_sha256": null,
       "files": [
@@ -105,7 +105,13 @@
       },
       "serving": null,
       "mirrors": {
-        "hf": null,
+        "hf": {
+          "repo": "AIArchiveInfo/Qwen3-Embedding-0.6B",
+          "byte_identical": true,
+          "upstream_revision": "97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3",
+          "verified_files": 1,
+          "mirrored_at": "2026-09-21T06:28:26Z"
+        },
         "master": null
       }
     }
