@@ -1182,6 +1182,7 @@
       "01-ai/Yi-VL-6B"
     ],
     "inclusionAI": [
+      "inclusionAI/AI-Transparency",
       "inclusionAI/ARGenSeg-8B",
       "inclusionAI/AReaL-1.5B-Preview-Stage-1",
       "inclusionAI/AReaL-1.5B-Preview-Stage-2",
@@ -1298,6 +1299,8 @@
       "inclusionAI/Llama-3.1-8B-Instruct-singprobe",
       "inclusionAI/Llama-3.2-1B-Instruct-singprobe",
       "inclusionAI/M2-Reasoning",
+      "inclusionAI/Ming-Image-0.1-Design",
+      "inclusionAI/Ming-Image-0.1-Design-Layer",
       "inclusionAI/Ming-Lite-Omni",
       "inclusionAI/Ming-Lite-Omni-1.5",
       "inclusionAI/Ming-Lite-Uni",
@@ -1412,6 +1415,9 @@
       "XiaomiMiMo/MiMo-V2.5-Pro",
       "XiaomiMiMo/MiMo-V2.5-Pro-Base",
       "XiaomiMiMo/MiMo-V2.5-Pro-FP4-DFlash",
+      "XiaomiMiMo/MiMo-V2.6-Distill-Qwen-9B",
+      "XiaomiMiMo/MiMo-V2.6-Flash-RL",
+      "XiaomiMiMo/MiMo-V2.6-Pro-RL",
       "XiaomiMiMo/MiMo-VL-7B-RL",
       "XiaomiMiMo/MiMo-VL-7B-RL-2508",
       "XiaomiMiMo/MiMo-VL-7B-RL-GGUF",
@@ -2046,5 +2052,5 @@
     ]
   },
   "first_run_done": true,
-  "last_run": "2026-09-21T14:32:42Z"
+  "last_run": "2026-09-24T12:53:54Z"
 }

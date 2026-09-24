@@ -50,9 +50,19 @@
     "bespokelabs/Bespoke-Nimble-9B",
     "dealignai/Bonsai-2-27B-Ternary-CRACK-GGUF",
     "empero-ai/Qwen3.8-35B-A3B-Distill-GGUF",
-    "FastVideo/FastVideo-FastH3-Comfy"
+    "FastVideo/FastVideo-FastH3-Comfy",
+    "abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
+    "Altworld/Hemmingway-1",
+    "yandex/AliceAI-Foundation-80B-A3B-Base",
+    "pottokao/Qwen-Image-2.1-Text-Encoder-Heretic-GGUF",
+    "nvidia/Nemotron-3-Diarization",
+    "unsloth/Qwen-Image-2.1-GGUF",
+    "StarDoc-AI/TeleOCR",
+    "Viggle/Qwen-Image-2.1-viggle-turbo",
+    "AikidoSec/altar-1",
+    "DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF"
   ],
-  "last_run": "2026-09-21T14:35:09Z",
+  "last_run": "2026-09-24T12:54:46Z",
   "log": [
     {
       "id": "prism-ml/Ternary-Bonsai-2-27B-gguf",
@@ -118,6 +128,56 @@
       "id": "FastVideo/FastVideo-FastH3-Comfy",
       "at": "2026-09-21T14:35:09Z",
       "downloads": 151761
+    },
+    {
+      "id": "abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
+      "at": "2026-09-24T12:54:46Z",
+      "downloads": 575697
+    },
+    {
+      "id": "Altworld/Hemmingway-1",
+      "at": "2026-09-24T12:54:46Z",
+      "downloads": 4541
+    },
+    {
+      "id": "yandex/AliceAI-Foundation-80B-A3B-Base",
+      "at": "2026-09-24T12:54:46Z",
+      "downloads": 2678
+    },
+    {
+      "id": "pottokao/Qwen-Image-2.1-Text-Encoder-Heretic-GGUF",
+      "at": "2026-09-24T12:54:46Z",
+      "downloads": 103226
+    },
+    {
+      "id": "nvidia/Nemotron-3-Diarization",
+      "at": "2026-09-24T12:54:46Z",
+      "downloads": 4282
+    },
+    {
+      "id": "unsloth/Qwen-Image-2.1-GGUF",
+      "at": "2026-09-24T12:54:46Z",
+      "downloads": 94368
+    },
+    {
+      "id": "StarDoc-AI/TeleOCR",
+      "at": "2026-09-24T12:54:46Z",
+      "downloads": 31575
+    },
+    {
+      "id": "Viggle/Qwen-Image-2.1-viggle-turbo",
+      "at": "2026-09-24T12:54:46Z",
+      "downloads": 12425
+    },
+    {
+      "id": "AikidoSec/altar-1",
+      "at": "2026-09-24T12:54:46Z",
+      "downloads": 1198
+    },
+    {
+      "id": "DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF",
+      "at": "2026-09-24T12:54:46Z",
+      "downloads": 1674898
     }
   ]
 }

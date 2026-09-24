@@ -1,0 +1,17 @@
+{
+  "use_identity_mlp": true,
+  "use_vlm_directvlm_condition": true,
+  "use_learnable_token_condition": true,
+  "diffusion_c_input_dim": 2560,
+  "text_encoder_norm": false,
+  "connector_norm": false,
+  "img_gen_scales": [
+    16
+  ],
+  "selected_hidden_states_layers": [
+    5,
+    12,
+    20
+  ],
+  "diffusion_inner_dim": 3840
+}

@@ -301,7 +301,8 @@
       "stepfun-ai/ComfyUI-StepVideo",
       "stepfun-ai/Step-Video-TI2V",
       "stepfun-ai/vllm",
-      "stepfun-ai/Step-Code"
+      "stepfun-ai/Step-Code",
+      "stepfun-ai/Step-Cookbook"
     ],
     "baichuan-inc": [
       "baichuan-inc/baichuan-mcp-servers",
@@ -365,7 +366,8 @@
       "XiaomiMiMo/MiMo",
       "XiaomiMiMo/uni-agent",
       "XiaomiMiMo/mini-swe-agent",
-      "XiaomiMiMo/verl"
+      "XiaomiMiMo/verl",
+      "XiaomiMiMo/mimoagent"
     ],
     "ggml-org": [
       "ggml-org/llama-connect",
@@ -758,8 +760,18 @@
       "id": "vllm-project/vllm-xpu-kernels",
       "at": "2026-09-21T14:35:09Z",
       "desc": "The vLLM XPU kernels for Intel GPU"
+    },
+    {
+      "id": "stepfun-ai/Step-Cookbook",
+      "at": "2026-09-24T12:54:46Z",
+      "desc": ""
+    },
+    {
+      "id": "XiaomiMiMo/mimoagent",
+      "at": "2026-09-24T12:54:46Z",
+      "desc": "The 100 line AI agent that solves GitHub issues or helps you in your command line. Radically simple, no huge configs, no giant monorepo\u2014but "
     }
   ],
   "first_run_done": true,
-  "last_run": "2026-09-21T14:35:09Z"
+  "last_run": "2026-09-24T12:54:46Z"
 }

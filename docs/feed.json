@@ -6,284 +6,284 @@
  "description": "Captures, mirrors, takedown alerts and radar signals for open-weight AI models",
  "items": [
   {
-   "id": "2026-09-21T22:07:19Z-2405306880",
+   "id": "2026-09-24T12:54:57Z-4009333999",
+   "title": "HN front-page (67 pts): Show HN: Training a model to identify AI web content from structure alone",
+   "date_published": "2026-09-24T12:54:57Z",
+   "url": "https://news.ycombinator.com/item?id=49800566",
+   "content_text": "HN front-page (67 pts): Show HN: Training a model to identify AI web content from structure alone"
+  },
+  {
+   "id": "2026-09-24T12:54:57Z-422705471",
+   "title": "HN front-page (305 pts): Meta takes down a critical video about meta AI Glasses after filming at Meta",
+   "date_published": "2026-09-24T12:54:57Z",
+   "url": "https://news.ycombinator.com/item?id=49827794",
+   "content_text": "HN front-page (305 pts): Meta takes down a critical video about meta AI Glasses after filming at Meta"
+  },
+  {
+   "id": "2026-09-24T12:54:57Z-2562421396",
+   "title": "HN front-page (99 pts): Contrastive Language Models",
+   "date_published": "2026-09-24T12:54:57Z",
+   "url": "https://news.ycombinator.com/item?id=49826221",
+   "content_text": "HN front-page (99 pts): Contrastive Language Models"
+  },
+  {
+   "id": "2026-09-24T12:54:57Z-2745011460",
+   "title": "HN front-page (438 pts): Meta VR Glasses",
+   "date_published": "2026-09-24T12:54:57Z",
+   "url": "https://news.ycombinator.com/item?id=49824268",
+   "content_text": "HN front-page (438 pts): Meta VR Glasses"
+  },
+  {
+   "id": "2026-09-24T12:54:57Z-2700865543",
+   "title": "HN front-page (126 pts): Mercury 2.5 LLM hits 770 tokens per second",
+   "date_published": "2026-09-24T12:54:57Z",
+   "url": "https://news.ycombinator.com/item?id=49823348",
+   "content_text": "HN front-page (126 pts): Mercury 2.5 LLM hits 770 tokens per second"
+  },
+  {
+   "id": "2026-09-24T12:54:57Z-3920974272",
+   "title": "HN front-page (313 pts): Gemini 3.8 text-to-speech",
+   "date_published": "2026-09-24T12:54:57Z",
+   "url": "https://news.ycombinator.com/item?id=49817615",
+   "content_text": "HN front-page (313 pts): Gemini 3.8 text-to-speech"
+  },
+  {
+   "id": "2026-09-24T12:54:57Z-3523319425",
+   "title": "HN front-page (112 pts): Writing Rust code that's fast by asking agents to make the code faster",
+   "date_published": "2026-09-24T12:54:57Z",
+   "url": "https://news.ycombinator.com/item?id=49803085",
+   "content_text": "HN front-page (112 pts): Writing Rust code that's fast by asking agents to make the code faster"
+  },
+  {
+   "id": "2026-09-24T12:54:57Z-2160423223",
+   "title": "HN front-page (186 pts): Show HN: Drop \u2013 A rootless Linux sandbox with gVisor support",
+   "date_published": "2026-09-24T12:54:57Z",
+   "url": "https://news.ycombinator.com/item?id=49801329",
+   "content_text": "HN front-page (186 pts): Show HN: Drop \u2013 A rootless Linux sandbox with gVisor support"
+  },
+  {
+   "id": "2026-09-24T12:54:57Z-696812280",
+   "title": "HN front-page (161 pts): Suspension of the de minimis administrative exemption for imports $800 or less",
+   "date_published": "2026-09-24T12:54:57Z",
+   "url": "https://news.ycombinator.com/item?id=49793322",
+   "content_text": "HN front-page (161 pts): Suspension of the de minimis administrative exemption for imports $800 or less"
+  },
+  {
+   "id": "2026-09-24T12:54:57Z-1933508840",
+   "title": "HN front-page (52 pts): Launch HN: Coverage Cat (YC S22) \u2013 Umbrella insurance via your personal agent",
+   "date_published": "2026-09-24T12:54:57Z",
+   "url": "https://news.ycombinator.com/item?id=49804931",
+   "content_text": "HN front-page (52 pts): Launch HN: Coverage Cat (YC S22) \u2013 Umbrella insurance via your personal agent"
+  },
+  {
+   "id": "2026-09-24T12:54:46Z-2575036161",
+   "title": "Trending outside tracked labs: abenzerps/Qwen-Image-2.1-Uncensored-GGUF (575,697 downloads)",
+   "date_published": "2026-09-24T12:54:46Z",
+   "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
+   "content_text": "Trending outside tracked labs: abenzerps/Qwen-Image-2.1-Uncensored-GGUF (575,697 downloads)"
+  },
+  {
+   "id": "2026-09-24T12:54:46Z-3941637824",
+   "title": "Trending outside tracked labs: Altworld/Hemmingway-1 (4,541 downloads)",
+   "date_published": "2026-09-24T12:54:46Z",
+   "url": "https://huggingface.co/Altworld/Hemmingway-1",
+   "content_text": "Trending outside tracked labs: Altworld/Hemmingway-1 (4,541 downloads)"
+  },
+  {
+   "id": "2026-09-24T12:54:46Z-3118398674",
+   "title": "Trending outside tracked labs: yandex/AliceAI-Foundation-80B-A3B-Base (2,678 downloads)",
+   "date_published": "2026-09-24T12:54:46Z",
+   "url": "https://huggingface.co/yandex/AliceAI-Foundation-80B-A3B-Base",
+   "content_text": "Trending outside tracked labs: yandex/AliceAI-Foundation-80B-A3B-Base (2,678 downloads)"
+  },
+  {
+   "id": "2026-09-24T12:54:46Z-1719666981",
+   "title": "Trending outside tracked labs: pottokao/Qwen-Image-2.1-Text-Encoder-Heretic-GGUF (103,226 downloads)",
+   "date_published": "2026-09-24T12:54:46Z",
+   "url": "https://huggingface.co/pottokao/Qwen-Image-2.1-Text-Encoder-Heretic-GGUF",
+   "content_text": "Trending outside tracked labs: pottokao/Qwen-Image-2.1-Text-Encoder-Heretic-GGUF (103,226 downloads)"
+  },
+  {
+   "id": "2026-09-24T12:54:46Z-102854128",
+   "title": "Trending outside tracked labs: nvidia/Nemotron-3-Diarization (4,282 downloads)",
+   "date_published": "2026-09-24T12:54:46Z",
+   "url": "https://huggingface.co/nvidia/Nemotron-3-Diarization",
+   "content_text": "Trending outside tracked labs: nvidia/Nemotron-3-Diarization (4,282 downloads)"
+  },
+  {
+   "id": "2026-09-24T12:54:46Z-2236171961",
+   "title": "Trending outside tracked labs: unsloth/Qwen-Image-2.1-GGUF (94,368 downloads)",
+   "date_published": "2026-09-24T12:54:46Z",
+   "url": "https://huggingface.co/unsloth/Qwen-Image-2.1-GGUF",
+   "content_text": "Trending outside tracked labs: unsloth/Qwen-Image-2.1-GGUF (94,368 downloads)"
+  },
+  {
+   "id": "2026-09-24T12:54:46Z-3760054521",
+   "title": "Trending outside tracked labs: StarDoc-AI/TeleOCR (31,575 downloads)",
+   "date_published": "2026-09-24T12:54:46Z",
+   "url": "https://huggingface.co/StarDoc-AI/TeleOCR",
+   "content_text": "Trending outside tracked labs: StarDoc-AI/TeleOCR (31,575 downloads)"
+  },
+  {
+   "id": "2026-09-24T12:54:46Z-1247122114",
+   "title": "Trending outside tracked labs: Viggle/Qwen-Image-2.1-viggle-turbo (12,425 downloads)",
+   "date_published": "2026-09-24T12:54:46Z",
+   "url": "https://huggingface.co/Viggle/Qwen-Image-2.1-viggle-turbo",
+   "content_text": "Trending outside tracked labs: Viggle/Qwen-Image-2.1-viggle-turbo (12,425 downloads)"
+  },
+  {
+   "id": "2026-09-24T12:54:46Z-4069491905",
+   "title": "Trending outside tracked labs: AikidoSec/altar-1 (1,198 downloads)",
+   "date_published": "2026-09-24T12:54:46Z",
+   "url": "https://huggingface.co/AikidoSec/altar-1",
+   "content_text": "Trending outside tracked labs: AikidoSec/altar-1 (1,198 downloads)"
+  },
+  {
+   "id": "2026-09-24T12:54:46Z-1192839057",
+   "title": "Trending outside tracked labs: DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF (1,674,898 downloads)",
+   "date_published": "2026-09-24T12:54:46Z",
+   "url": "https://huggingface.co/DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF",
+   "content_text": "Trending outside tracked labs: DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF (1,674,898 downloads)"
+  },
+  {
+   "id": "2026-09-24T12:54:46Z-3980813850",
+   "title": "New lab code: stepfun-ai/Step-Cookbook",
+   "date_published": "2026-09-24T12:54:46Z",
+   "url": "https://github.com/stepfun-ai/Step-Cookbook",
+   "content_text": "New lab code: stepfun-ai/Step-Cookbook"
+  },
+  {
+   "id": "2026-09-24T12:54:46Z-3040143014",
+   "title": "New lab code: XiaomiMiMo/mimoagent \u2014 The 100 line AI agent that solves GitHub issues or helps you in your command line. Radically simple, no huge configs, no giant monorepo\u2014but",
+   "date_published": "2026-09-24T12:54:46Z",
+   "url": "https://github.com/XiaomiMiMo/mimoagent",
+   "content_text": "New lab code: XiaomiMiMo/mimoagent \u2014 The 100 line AI agent that solves GitHub issues or helps you in your command line. Radically simple, no huge configs, no giant monorepo\u2014but"
+  },
+  {
+   "id": "2026-09-24T12:54:37Z-2231275559",
+   "title": "Captured XiaomiMiMo/MiMo-V2.6-Pro-RL \u2014 573 GB manifested, license: conditional",
+   "date_published": "2026-09-24T12:54:37Z",
+   "url": "https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Pro-RL",
+   "content_text": "Captured XiaomiMiMo/MiMo-V2.6-Pro-RL \u2014 573 GB manifested, license: conditional"
+  },
+  {
+   "id": "2026-09-24T12:54:28Z-1939458771",
+   "title": "Captured XiaomiMiMo/MiMo-V2.6-Flash-RL \u2014 178 GB manifested, license: conditional",
+   "date_published": "2026-09-24T12:54:28Z",
+   "url": "https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Flash-RL",
+   "content_text": "Captured XiaomiMiMo/MiMo-V2.6-Flash-RL \u2014 178 GB manifested, license: conditional"
+  },
+  {
+   "id": "2026-09-24T12:54:22Z-2407214749",
+   "title": "Captured XiaomiMiMo/MiMo-V2.6-Distill-Qwen-9B \u2014 19 GB manifested, license: conditional",
+   "date_published": "2026-09-24T12:54:22Z",
+   "url": "https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Distill-Qwen-9B",
+   "content_text": "Captured XiaomiMiMo/MiMo-V2.6-Distill-Qwen-9B \u2014 19 GB manifested, license: conditional"
+  },
+  {
+   "id": "2026-09-24T12:54:14Z-60880212",
+   "title": "Captured inclusionAI/Ming-Image-0.1-Design \u2014 53 GB manifested, license: free",
+   "date_published": "2026-09-24T12:54:14Z",
+   "url": "https://huggingface.co/inclusionAI/Ming-Image-0.1-Design",
+   "content_text": "Captured inclusionAI/Ming-Image-0.1-Design \u2014 53 GB manifested, license: free"
+  },
+  {
+   "id": "2026-09-24T12:54:06Z-92766233",
+   "title": "Captured inclusionAI/Ming-Image-0.1-Design-Layer \u2014 65 GB manifested, license: free",
+   "date_published": "2026-09-24T12:54:06Z",
+   "url": "https://huggingface.co/inclusionAI/Ming-Image-0.1-Design-Layer",
+   "content_text": "Captured inclusionAI/Ming-Image-0.1-Design-Layer \u2014 65 GB manifested, license: free"
+  },
+  {
+   "id": "2026-09-24T12:53:57Z-1340627022",
+   "title": "Captured inclusionAI/AI-Transparency \u2014 0 GB manifested, license: unlicensed",
+   "date_published": "2026-09-24T12:53:57Z",
+   "url": "https://huggingface.co/inclusionAI/AI-Transparency",
+   "content_text": "Captured inclusionAI/AI-Transparency \u2014 0 GB manifested, license: unlicensed"
+  },
+  {
+   "id": "2026-09-21T22:07:19Z-2627327989",
    "title": "This week aiarchive.info captured 170 open-weight model repos and mirrored 15, including new Baichuan, ByteDance-Seed, Qwen, and DeepSeek entries. Newly captured families span Qwen (Qwen3.5, Qwen3.6, Qwen-Image 2.1), DeepSeek (V4-Flash, V3.2-Speciale, OCR-2), MiniMax (M2.5 through M3), and Tencent (Hunyuan, Hy-MT2, WeVisDoc). No alerts were triggered; radar signals included HN front-page posts on Qwen Image 2.1 and small local models such as Cactus Needle 3.",
    "date_published": "2026-09-21T22:07:19Z",
    "url": "https://github.com/BroWang1/ai-archive/issues",
    "content_text": "This week aiarchive.info captured 170 open-weight model repos and mirrored 15, including new Baichuan, ByteDance-Seed, Qwen, and DeepSeek entries. Newly captured families span Qwen (Qwen3.5, Qwen3.6, Qwen-Image 2.1), DeepSeek (V4-Flash, V3.2-Speciale, OCR-2), MiniMax (M2.5 through M3), and Tencent (Hunyuan, Hy-MT2, WeVisDoc). No alerts were triggered; radar signals included HN front-page posts on Qwen Image 2.1 and small local models such as Cactus Needle 3."
   },
   {
-   "id": "2026-09-21T14:35:18Z-1093241659",
+   "id": "2026-09-21T14:35:18Z-955212880",
    "title": "HN front-page (231 pts): Show HN: Cactus Needle 3: 8-29MB automation models can match DeepSeek V4 Flash",
    "date_published": "2026-09-21T14:35:18Z",
    "url": "https://news.ycombinator.com/item?id=49748553",
    "content_text": "HN front-page (231 pts): Show HN: Cactus Needle 3: 8-29MB automation models can match DeepSeek V4 Flash"
   },
   {
-   "id": "2026-09-21T14:35:18Z-1814565542",
+   "id": "2026-09-21T14:35:18Z-2271645420",
    "title": "HN front-page (233 pts): Kev: Tiny Jev-like family of decision models built on top of Qwen3.5",
    "date_published": "2026-09-21T14:35:18Z",
    "url": "https://news.ycombinator.com/item?id=49783999",
    "content_text": "HN front-page (233 pts): Kev: Tiny Jev-like family of decision models built on top of Qwen3.5"
   },
   {
-   "id": "2026-09-21T14:35:18Z-3316345437",
+   "id": "2026-09-21T14:35:18Z-3891796890",
    "title": "HN front-page (84 pts): Custom home server built from spare parts",
    "date_published": "2026-09-21T14:35:18Z",
    "url": "https://news.ycombinator.com/item?id=49776960",
    "content_text": "HN front-page (84 pts): Custom home server built from spare parts"
   },
   {
-   "id": "2026-09-21T14:35:18Z-3158022380",
+   "id": "2026-09-21T14:35:18Z-923527563",
    "title": "HN front-page (687 pts): Qwen Image 2.1",
    "date_published": "2026-09-21T14:35:18Z",
    "url": "https://news.ycombinator.com/item?id=49775499",
    "content_text": "HN front-page (687 pts): Qwen Image 2.1"
   },
   {
-   "id": "2026-09-21T14:35:18Z-1016004516",
+   "id": "2026-09-21T14:35:18Z-790354567",
    "title": "HN front-page (264 pts): ZuckOff Is a Free App That Sees Meta Glasses Before They See You",
    "date_published": "2026-09-21T14:35:18Z",
    "url": "https://news.ycombinator.com/item?id=49785397",
    "content_text": "HN front-page (264 pts): ZuckOff Is a Free App That Sees Meta Glasses Before They See You"
   },
   {
-   "id": "2026-09-21T14:35:18Z-1349794076",
+   "id": "2026-09-21T14:35:18Z-382858553",
    "title": "HN front-page (276 pts): Grim Fandango Puzzle Document (1996) [pdf]",
    "date_published": "2026-09-21T14:35:18Z",
    "url": "https://news.ycombinator.com/item?id=49783495",
    "content_text": "HN front-page (276 pts): Grim Fandango Puzzle Document (1996) [pdf]"
   },
   {
-   "id": "2026-09-21T14:35:18Z-3541482548",
+   "id": "2026-09-21T14:35:18Z-4078854414",
    "title": "HN front-page (195 pts): Show HN: Mini-AGI \u2013 Dynamic continual learning model trained on 8GB VRAM",
    "date_published": "2026-09-21T14:35:18Z",
    "url": "https://news.ycombinator.com/item?id=49783133",
    "content_text": "HN front-page (195 pts): Show HN: Mini-AGI \u2013 Dynamic continual learning model trained on 8GB VRAM"
   },
   {
-   "id": "2026-09-21T14:35:18Z-3861517576",
+   "id": "2026-09-21T14:35:18Z-1525635223",
    "title": "HN front-page (129 pts): Resident Evil 4 (GameCube) \u2013 complete byte-identical decompilation to C/C++",
    "date_published": "2026-09-21T14:35:18Z",
    "url": "https://news.ycombinator.com/item?id=49778022",
    "content_text": "HN front-page (129 pts): Resident Evil 4 (GameCube) \u2013 complete byte-identical decompilation to C/C++"
   },
   {
-   "id": "2026-09-21T14:35:18Z-2232509109",
+   "id": "2026-09-21T14:35:18Z-1763161451",
    "title": "HN front-page (734 pts): ChatGPT now knows what you do on other websites via ad collector",
    "date_published": "2026-09-21T14:35:18Z",
    "url": "https://news.ycombinator.com/item?id=49776729",
    "content_text": "HN front-page (734 pts): ChatGPT now knows what you do on other websites via ad collector"
   },
   {
-   "id": "2026-09-21T14:35:18Z-341825468",
+   "id": "2026-09-21T14:35:18Z-1050359652",
    "title": "HN front-page (76 pts): Show HN: Sigabrt.dev \u2013 cronjob monitor with an SSH TUI",
    "date_published": "2026-09-21T14:35:18Z",
    "url": "https://news.ycombinator.com/item?id=49765354",
    "content_text": "HN front-page (76 pts): Show HN: Sigabrt.dev \u2013 cronjob monitor with an SSH TUI"
   },
   {
-   "id": "2026-09-21T14:35:18Z-916715318",
+   "id": "2026-09-21T14:35:18Z-3626040413",
    "title": "HN front-page (325 pts): Minimal Phone 2",
    "date_published": "2026-09-21T14:35:18Z",
    "url": "https://news.ycombinator.com/item?id=49749369",
    "content_text": "HN front-page (325 pts): Minimal Phone 2"
-  },
-  {
-   "id": "2026-09-21T14:35:18Z-8156724",
-   "title": "HN front-page (216 pts): Measure internet censorship",
-   "date_published": "2026-09-21T14:35:18Z",
-   "url": "https://news.ycombinator.com/item?id=49769676",
-   "content_text": "HN front-page (216 pts): Measure internet censorship"
-  },
-  {
-   "id": "2026-09-21T14:35:18Z-981594666",
-   "title": "HN front-page (487 pts): A heap overflow and SSO misconfiguration to compromise OpenAI internal repos",
-   "date_published": "2026-09-21T14:35:18Z",
-   "url": "https://news.ycombinator.com/item?id=49749656",
-   "content_text": "HN front-page (487 pts): A heap overflow and SSO misconfiguration to compromise OpenAI internal repos"
-  },
-  {
-   "id": "2026-09-21T14:35:18Z-2997365037",
-   "title": "HN front-page (60 pts): Show HN: Scry, programmable internet search w/ congestion pricing",
-   "date_published": "2026-09-21T14:35:18Z",
-   "url": "https://news.ycombinator.com/item?id=49748041",
-   "content_text": "HN front-page (60 pts): Show HN: Scry, programmable internet search w/ congestion pricing"
-  },
-  {
-   "id": "2026-09-21T14:35:09Z-4157539817",
-   "title": "Trending outside tracked labs: prism-ml/Ternary-Bonsai-2-27B-gguf (2,227,879 downloads)",
-   "date_published": "2026-09-21T14:35:09Z",
-   "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf",
-   "content_text": "Trending outside tracked labs: prism-ml/Ternary-Bonsai-2-27B-gguf (2,227,879 downloads)"
-  },
-  {
-   "id": "2026-09-21T14:35:09Z-1316082408",
-   "title": "Trending outside tracked labs: XingChen-AGI/Xing4.0-29B-A4B (18,394 downloads)",
-   "date_published": "2026-09-21T14:35:09Z",
-   "url": "https://huggingface.co/XingChen-AGI/Xing4.0-29B-A4B",
-   "content_text": "Trending outside tracked labs: XingChen-AGI/Xing4.0-29B-A4B (18,394 downloads)"
-  },
-  {
-   "id": "2026-09-21T14:35:09Z-654530711",
-   "title": "Trending outside tracked labs: Comfy-Org/Qwen-Image-2.1 (535,365 downloads)",
-   "date_published": "2026-09-21T14:35:09Z",
-   "url": "https://huggingface.co/Comfy-Org/Qwen-Image-2.1",
-   "content_text": "Trending outside tracked labs: Comfy-Org/Qwen-Image-2.1 (535,365 downloads)"
-  },
-  {
-   "id": "2026-09-21T14:35:09Z-1542822799",
-   "title": "Trending outside tracked labs: abenzerps/Qwen-Image-2.1-GGUF (33,232 downloads)",
-   "date_published": "2026-09-21T14:35:09Z",
-   "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-GGUF",
-   "content_text": "Trending outside tracked labs: abenzerps/Qwen-Image-2.1-GGUF (33,232 downloads)"
-  },
-  {
-   "id": "2026-09-21T14:35:09Z-3019539722",
-   "title": "Trending outside tracked labs: prism-ml/Ternary-Bonsai-2-27B-mlx-2bit (36,744 downloads)",
-   "date_published": "2026-09-21T14:35:09Z",
-   "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-mlx-2bit",
-   "content_text": "Trending outside tracked labs: prism-ml/Ternary-Bonsai-2-27B-mlx-2bit (36,744 downloads)"
-  },
-  {
-   "id": "2026-09-21T14:35:09Z-1543674539",
-   "title": "Trending outside tracked labs: TaichuAI/ZDTaichu5.0-9B (5,078 downloads)",
-   "date_published": "2026-09-21T14:35:09Z",
-   "url": "https://huggingface.co/TaichuAI/ZDTaichu5.0-9B",
-   "content_text": "Trending outside tracked labs: TaichuAI/ZDTaichu5.0-9B (5,078 downloads)"
-  },
-  {
-   "id": "2026-09-21T14:35:09Z-1044658765",
-   "title": "Trending outside tracked labs: netease-youdao/Confucius4-R2T2 (1,864 downloads)",
-   "date_published": "2026-09-21T14:35:09Z",
-   "url": "https://huggingface.co/netease-youdao/Confucius4-R2T2",
-   "content_text": "Trending outside tracked labs: netease-youdao/Confucius4-R2T2 (1,864 downloads)"
-  },
-  {
-   "id": "2026-09-21T14:35:09Z-893501630",
-   "title": "Trending outside tracked labs: Cactus-Compute/needle3 (46,399 downloads)",
-   "date_published": "2026-09-21T14:35:09Z",
-   "url": "https://huggingface.co/Cactus-Compute/needle3",
-   "content_text": "Trending outside tracked labs: Cactus-Compute/needle3 (46,399 downloads)"
-  },
-  {
-   "id": "2026-09-21T14:35:09Z-1481406734",
-   "title": "Trending outside tracked labs: jinaai/jina-ocr-v1 (2,615 downloads)",
-   "date_published": "2026-09-21T14:35:09Z",
-   "url": "https://huggingface.co/jinaai/jina-ocr-v1",
-   "content_text": "Trending outside tracked labs: jinaai/jina-ocr-v1 (2,615 downloads)"
-  },
-  {
-   "id": "2026-09-21T14:35:09Z-2994517010",
-   "title": "Trending outside tracked labs: bespokelabs/Bespoke-Nimble-9B (1,138 downloads)",
-   "date_published": "2026-09-21T14:35:09Z",
-   "url": "https://huggingface.co/bespokelabs/Bespoke-Nimble-9B",
-   "content_text": "Trending outside tracked labs: bespokelabs/Bespoke-Nimble-9B (1,138 downloads)"
-  },
-  {
-   "id": "2026-09-21T14:35:09Z-2593973927",
-   "title": "Trending outside tracked labs: dealignai/Bonsai-2-27B-Ternary-CRACK-GGUF (33,051 downloads)",
-   "date_published": "2026-09-21T14:35:09Z",
-   "url": "https://huggingface.co/dealignai/Bonsai-2-27B-Ternary-CRACK-GGUF",
-   "content_text": "Trending outside tracked labs: dealignai/Bonsai-2-27B-Ternary-CRACK-GGUF (33,051 downloads)"
-  },
-  {
-   "id": "2026-09-21T14:35:09Z-2454925173",
-   "title": "Trending outside tracked labs: empero-ai/Qwen3.8-35B-A3B-Distill-GGUF (64,967 downloads)",
-   "date_published": "2026-09-21T14:35:09Z",
-   "url": "https://huggingface.co/empero-ai/Qwen3.8-35B-A3B-Distill-GGUF",
-   "content_text": "Trending outside tracked labs: empero-ai/Qwen3.8-35B-A3B-Distill-GGUF (64,967 downloads)"
-  },
-  {
-   "id": "2026-09-21T14:35:09Z-1791260760",
-   "title": "Trending outside tracked labs: FastVideo/FastVideo-FastH3-Comfy (151,761 downloads)",
-   "date_published": "2026-09-21T14:35:09Z",
-   "url": "https://huggingface.co/FastVideo/FastVideo-FastH3-Comfy",
-   "content_text": "Trending outside tracked labs: FastVideo/FastVideo-FastH3-Comfy (151,761 downloads)"
-  },
-  {
-   "id": "2026-09-21T14:35:09Z-3533195755",
-   "title": "New lab code: QwenLM/RecreationWorld",
-   "date_published": "2026-09-21T14:35:09Z",
-   "url": "https://github.com/QwenLM/RecreationWorld",
-   "content_text": "New lab code: QwenLM/RecreationWorld"
-  },
-  {
-   "id": "2026-09-21T14:35:09Z-991193347",
-   "title": "New lab code: QwenLM/Omnilingua-Bench",
-   "date_published": "2026-09-21T14:35:09Z",
-   "url": "https://github.com/QwenLM/Omnilingua-Bench",
-   "content_text": "New lab code: QwenLM/Omnilingua-Bench"
-  },
-  {
-   "id": "2026-09-21T14:35:09Z-3411315711",
-   "title": "New lab code: QwenLM/Qwen-Image-2.1 \u2014 Qwen's most powerful open-source image generation model",
-   "date_published": "2026-09-21T14:35:09Z",
-   "url": "https://github.com/QwenLM/Qwen-Image-2.1",
-   "content_text": "New lab code: QwenLM/Qwen-Image-2.1 \u2014 Qwen's most powerful open-source image generation model"
-  },
-  {
-   "id": "2026-09-21T14:35:09Z-3855911336",
-   "title": "New lab code: QwenLM/Qwen-Live-Harness \u2014 An open-source agent harness powered by the Qwen Omni Realtime API\u2014see, hear, and act, with built-in memory.",
-   "date_published": "2026-09-21T14:35:09Z",
-   "url": "https://github.com/QwenLM/Qwen-Live-Harness",
-   "content_text": "New lab code: QwenLM/Qwen-Live-Harness \u2014 An open-source agent harness powered by the Qwen Omni Realtime API\u2014see, hear, and act, with built-in memory."
-  },
-  {
-   "id": "2026-09-21T14:35:09Z-3390935875",
-   "title": "New lab code: zai-org/ZCode \u2014 Z.ai's coding agent harness. Powerful, intelligent, extensible.",
-   "date_published": "2026-09-21T14:35:09Z",
-   "url": "https://github.com/zai-org/ZCode",
-   "content_text": "New lab code: zai-org/ZCode \u2014 Z.ai's coding agent harness. Powerful, intelligent, extensible."
-  },
-  {
-   "id": "2026-09-21T14:35:09Z-2994050008",
-   "title": "New lab code: MiniMax-AI/MiniMax-Code-MiniApps",
-   "date_published": "2026-09-21T14:35:09Z",
-   "url": "https://github.com/MiniMax-AI/MiniMax-Code-MiniApps",
-   "content_text": "New lab code: MiniMax-AI/MiniMax-Code-MiniApps"
-  },
-  {
-   "id": "2026-09-21T14:35:09Z-3630943622",
-   "title": "New lab code: stepfun-ai/Step-Code",
-   "date_published": "2026-09-21T14:35:09Z",
-   "url": "https://github.com/stepfun-ai/Step-Code",
-   "content_text": "New lab code: stepfun-ai/Step-Code"
-  },
-  {
-   "id": "2026-09-21T14:35:09Z-2309048329",
-   "title": "New lab code: XiaomiMiMo/uni-agent \u2014 Uni-Agent is a framework for training long-horizon agents.",
-   "date_published": "2026-09-21T14:35:09Z",
-   "url": "https://github.com/XiaomiMiMo/uni-agent",
-   "content_text": "New lab code: XiaomiMiMo/uni-agent \u2014 Uni-Agent is a framework for training long-horizon agents."
-  },
-  {
-   "id": "2026-09-21T14:35:09Z-2738969721",
-   "title": "New lab code: XiaomiMiMo/mini-swe-agent \u2014 The 100 line AI agent that solves GitHub issues or helps you in your command line. Radically simple, no huge configs, no giant monorepo\u2014but",
-   "date_published": "2026-09-21T14:35:09Z",
-   "url": "https://github.com/XiaomiMiMo/mini-swe-agent",
-   "content_text": "New lab code: XiaomiMiMo/mini-swe-agent \u2014 The 100 line AI agent that solves GitHub issues or helps you in your command line. Radically simple, no huge configs, no giant monorepo\u2014but"
-  },
-  {
-   "id": "2026-09-21T14:35:09Z-3346819942",
-   "title": "New lab code: XiaomiMiMo/verl \u2014 verl/HybridFlow: A Flexible and Efficient RL Post-Training Framework",
-   "date_published": "2026-09-21T14:35:09Z",
-   "url": "https://github.com/XiaomiMiMo/verl",
-   "content_text": "New lab code: XiaomiMiMo/verl \u2014 verl/HybridFlow: A Flexible and Efficient RL Post-Training Framework"
-  },
-  {
-   "id": "2026-09-21T14:35:09Z-2069051059",
-   "title": "New lab code: ggml-org/llama-connect",
-   "date_published": "2026-09-21T14:35:09Z",
-   "url": "https://github.com/ggml-org/llama-connect",
-   "content_text": "New lab code: ggml-org/llama-connect"
-  },
-  {
-   "id": "2026-09-21T14:35:09Z-4028931733",
-   "title": "New lab code: ggml-org/security-scan-prompt \u2014 Prompt for LLM security code scan",
-   "date_published": "2026-09-21T14:35:09Z",
-   "url": "https://github.com/ggml-org/security-scan-prompt",
-   "content_text": "New lab code: ggml-org/security-scan-prompt \u2014 Prompt for LLM security code scan"
   }
  ]
 }

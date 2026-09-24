@@ -83,7 +83,17 @@
     "49749369",
     "49769676",
     "49749656",
-    "49748041"
+    "49748041",
+    "49800566",
+    "49827794",
+    "49826221",
+    "49824268",
+    "49823348",
+    "49817615",
+    "49803085",
+    "49801329",
+    "49793322",
+    "49804931"
   ],
   "log": [
     {
@@ -169,8 +179,68 @@
       "at": "2026-09-21T14:35:18Z",
       "text": "HN front-page (60 pts): Show HN: Scry, programmable internet search w/ congestion pricing",
       "url": "https://news.ycombinator.com/item?id=49748041"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-09-24T12:54:57Z",
+      "text": "HN front-page (67 pts): Show HN: Training a model to identify AI web content from structure alone",
+      "url": "https://news.ycombinator.com/item?id=49800566"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-09-24T12:54:57Z",
+      "text": "HN front-page (305 pts): Meta takes down a critical video about meta AI Glasses after filming at Meta",
+      "url": "https://news.ycombinator.com/item?id=49827794"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-09-24T12:54:57Z",
+      "text": "HN front-page (99 pts): Contrastive Language Models",
+      "url": "https://news.ycombinator.com/item?id=49826221"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-09-24T12:54:57Z",
+      "text": "HN front-page (438 pts): Meta VR Glasses",
+      "url": "https://news.ycombinator.com/item?id=49824268"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-09-24T12:54:57Z",
+      "text": "HN front-page (126 pts): Mercury 2.5 LLM hits 770 tokens per second",
+      "url": "https://news.ycombinator.com/item?id=49823348"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-09-24T12:54:57Z",
+      "text": "HN front-page (313 pts): Gemini 3.8 text-to-speech",
+      "url": "https://news.ycombinator.com/item?id=49817615"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-09-24T12:54:57Z",
+      "text": "HN front-page (112 pts): Writing Rust code that's fast by asking agents to make the code faster",
+      "url": "https://news.ycombinator.com/item?id=49803085"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-09-24T12:54:57Z",
+      "text": "HN front-page (186 pts): Show HN: Drop \u2013 A rootless Linux sandbox with gVisor support",
+      "url": "https://news.ycombinator.com/item?id=49801329"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-09-24T12:54:57Z",
+      "text": "HN front-page (161 pts): Suspension of the de minimis administrative exemption for imports $800 or less",
+      "url": "https://news.ycombinator.com/item?id=49793322"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-09-24T12:54:57Z",
+      "text": "HN front-page (52 pts): Launch HN: Coverage Cat (YC S22) \u2013 Umbrella insurance via your personal agent",
+      "url": "https://news.ycombinator.com/item?id=49804931"
     }
   ],
   "first_run_done": true,
-  "last_run": "2026-09-21T14:35:18Z"
+  "last_run": "2026-09-24T12:54:57Z"
 }

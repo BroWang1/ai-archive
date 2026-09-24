@@ -1,0 +1,23 @@
+{
+  "min_pixels": 451584,
+  "max_pixels": 451584,
+  "patch_size": 14,
+  "temporal_patch_size": 2,
+  "merge_size": 2,
+  "image_mean": [
+    0.48145466,
+    0.4578275,
+    0.40821073
+  ],
+  "image_std": [
+    0.26862954,
+    0.26130258,
+    0.27577711
+  ],
+  "image_token": "<image>",
+  "video_token": "<video>",
+  "image_processor_type": "BailingMM2ImageProcessor",
+  "return_attention_mask": true,
+  "padding_side": "right",
+  "padding_value": 0.0
+}

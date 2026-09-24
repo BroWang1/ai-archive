@@ -1,0 +1,126 @@
+{
+  "repo_id": "inclusionAI/AI-Transparency",
+  "canonical_org": "inclusionAI",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "72cd4c56a832ffd5754f65dd67ea73e89fcf6d6a",
+      "captured_at": "2026-09-24T12:53:57Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/inclusionAI/AI-Transparency?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"c86-lIDViqiT3VkqZYT2tmmeGHt0OxU\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": null,
+        "file": null,
+        "sha256": null,
+        "redistributable": false,
+        "obligations": [],
+        "freedom": "unlicensed",
+        "freedom_note": "No license tag and no file \u2014 cannot redistribute"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 2209,
+          "sha256": "1b88c93798dbad1f6feac1c0ac0fe76d7ac547ea4fb1c6eb320de0971af77741",
+          "kind": "snapshot"
+        },
+        {
+          "path": "Ling-2.0_TDS-Summary.pdf",
+          "size": 298186,
+          "sha256": "392de673493acbb27008906bfd905edc180d51ebde19f0447d3b96dfd8c0b358",
+          "kind": "snapshot"
+        },
+        {
+          "path": "Ling-2.5_TDS-Summary.pdf",
+          "size": 297488,
+          "sha256": "85e1b8be78f5e8ecbae4507a745004f785ee8a3d00f60a2d00e9301ef4dbf6fd",
+          "kind": "snapshot"
+        },
+        {
+          "path": "Ling-2.6_TDS-Summary.pdf",
+          "size": 298423,
+          "sha256": "c5bbbd3b7c3153e821fb6f34138d5c199b5275e7f31da002a36ffa2b02578dc7",
+          "kind": "snapshot"
+        },
+        {
+          "path": "Ling-3.0-LLM_TDS-Summary.pdf",
+          "size": 299025,
+          "sha256": "f96683ae4590f965fdf096e159f2276bf0ccc2c142840dc9922af3d47d2416ab",
+          "kind": "snapshot"
+        },
+        {
+          "path": "Ling-3.0-VL_TDS-Summary.pdf",
+          "size": 311385,
+          "sha256": "04b8e50ef469e78d3189ac45a84b88b6aee5c510f4bbbe51fe253d5cda2510cc",
+          "kind": "snapshot"
+        },
+        {
+          "path": "Ming-Omni_TDS-Summary.pdf",
+          "size": 311325,
+          "sha256": "63082d9233c063c0cfc966c5610e675f48aa743f92adb43d29967324ffcf5afa",
+          "kind": "snapshot"
+        },
+        {
+          "path": "Ming-UniAudio_TDS-Summary.pdf",
+          "size": 305532,
+          "sha256": "3d59ce610d3b9d56c83d5100be043ca8f4b4689244c6c8471d5594970fd1aedd",
+          "kind": "snapshot"
+        },
+        {
+          "path": "Ming-UniVision_TDS-Summary.pdf",
+          "size": 309523,
+          "sha256": "6e7c80bdcca88eb747422adc88c03be353af0444b67f73b367189f68150e2857",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 2785,
+          "sha256": "ab28f129e7a77ade78b71e3057f6080a2ea907f77513647f791f30bbe55f5b6d",
+          "kind": "snapshot"
+        },
+        {
+          "path": "Ring-2.0_TDS-Summary.pdf",
+          "size": 299169,
+          "sha256": "a627f04811c323eadca48ca80940cf830c708640cda55b1995d3897fa91f9157",
+          "kind": "snapshot"
+        },
+        {
+          "path": "Ring-2.5_TDS-Summary.pdf",
+          "size": 298580,
+          "sha256": "acd2a71e00e0b8c37ce50510d07752003324c6ea029bc12c41054858b572f7f8",
+          "kind": "snapshot"
+        },
+        {
+          "path": "Ring-2.6_TDS-Summary.pdf",
+          "size": 298315,
+          "sha256": "9a9e74b0b943b342ec530d50dfee5038a7a14e1cc8a384783a47cea08d1bed50",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 3331945,
+      "weight_bytes": 0,
+      "snapshot_dir": "snapshots/inclusionAI/AI-Transparency/72cd4c56a832ffd5754f65dd67ea73e89fcf6d6a/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

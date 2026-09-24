@@ -1,0 +1,288 @@
+{
+  "repo_id": "inclusionAI/Ming-Image-0.1-Design-Layer",
+  "canonical_org": "inclusionAI",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "9fabca8b62a67f1f53a957d46389c00451c11e52",
+      "captured_at": "2026-09-24T12:54:06Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/inclusionAI/Ming-Image-0.1-Design-Layer?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"219c-Az/28EPTesQOT0K2sT8lIBw77tg\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "mit",
+        "file": "LICENSE",
+        "sha256": "b772c54f1f150a680e7c083a92431c518cf62821a407f6cccdf53f6a07bcf702",
+        "redistributable": true,
+        "obligations": [],
+        "freedom": "free",
+        "freedom_note": "mit with LICENSE file verified in snapshot"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1748,
+          "sha256": "f27ea6c46e75592d54094613a9be3517528c2c60b1fe83b2dfbcfc0cddad9554",
+          "kind": "snapshot"
+        },
+        {
+          "path": "LICENSE",
+          "size": 1068,
+          "sha256": "b772c54f1f150a680e7c083a92431c518cf62821a407f6cccdf53f6a07bcf702",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 3660,
+          "sha256": "5220c37c6955ab7bd0f84fb83ca330ffa189881dbf9aeb962341a280f240371b",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/gallery.webp",
+          "size": 3714860,
+          "sha256": null,
+          "kind": "media-no-snapshot"
+        },
+        {
+          "path": "assets/performance.webp",
+          "size": 105414,
+          "sha256": "b5a14d246ba3e1f3f9e22aa19a429094408e17f3f8e2b34330ef56b19b5ffa8a",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/showcase.webp",
+          "size": 806690,
+          "sha256": "a5e243217323e4233e6c7fd427814794739e0d3de44b0dbdcb1c55ca00399c1b",
+          "kind": "snapshot"
+        },
+        {
+          "path": "connector/config.json",
+          "size": 1315,
+          "sha256": "d77f626989d10af81a3293735c1a4d1885ca2f8d72d88cfd05481113187bbc51",
+          "kind": "snapshot"
+        },
+        {
+          "path": "connector/generation_config.json",
+          "size": 242,
+          "sha256": "cd5866254bd02b52464b75af06818afa882298a64d30a3819343a4fa4ed16ca9",
+          "kind": "snapshot"
+        },
+        {
+          "path": "connector/model-00001-of-00002.safetensors",
+          "size": 4996670464,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "connector/model-00002-of-00002.safetensors",
+          "size": 1178224960,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "connector/model.safetensors.index.json",
+          "size": 27729,
+          "sha256": "f004b386e07101ea27aebc7eda98f92a88e41c45fa8f51fc49edcb12d6fd199f",
+          "kind": "snapshot"
+        },
+        {
+          "path": "mllm/config.json",
+          "size": 5557,
+          "sha256": "f797c39adcd1624e5bfc94f60d2a86095dc40978f8cf230fcd11ada877c597ea",
+          "kind": "snapshot"
+        },
+        {
+          "path": "mllm/model-00001-of-00007.safetensors",
+          "size": 4998661520,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "mllm/model-00002-of-00007.safetensors",
+          "size": 4998900968,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "mllm/model-00003-of-00007.safetensors",
+          "size": 4998900968,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "mllm/model-00004-of-00007.safetensors",
+          "size": 4998902480,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "mllm/model-00005-of-00007.safetensors",
+          "size": 4998903352,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "mllm/model-00006-of-00007.safetensors",
+          "size": 4998903352,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "mllm/model-00007-of-00007.safetensors",
+          "size": 4011054224,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "mllm/model.safetensors.index.json",
+          "size": 1464333,
+          "sha256": "ed43fe42536f78c6178a134db1a83f5f424cb3e39f188699b527055c3288a773",
+          "kind": "snapshot"
+        },
+        {
+          "path": "mllm/preprocessor_config.json",
+          "size": 450,
+          "sha256": "e63066dde0329df1642c8dd9a269d613307804084d12e0787ccc887839339091",
+          "kind": "snapshot"
+        },
+        {
+          "path": "mllm/special_tokens_map.json",
+          "size": 879,
+          "sha256": "8c383d444e75b12f2643b4695bece7f3dd1d43725d8a26deeb019aa40a8f891d",
+          "kind": "snapshot"
+        },
+        {
+          "path": "mllm/tokenizer.json",
+          "size": 12210708,
+          "sha256": "e4f5fe09e7484071da5fa93cfb82f7db15c0ebf9b6ee9821599c5a997563ee96",
+          "kind": "snapshot"
+        },
+        {
+          "path": "mllm/tokenizer_config.json",
+          "size": 58759,
+          "sha256": "861c20bea04c2057362f226658ad9209978ff294b8a95591a0d32f69dbd3fc28",
+          "kind": "snapshot"
+        },
+        {
+          "path": "mlp/config.json",
+          "size": 330,
+          "sha256": "682c34c6c39173b396aa24f444098e495c7b731247d935552dc7d6714154adce",
+          "kind": "snapshot"
+        },
+        {
+          "path": "mlp/model.safetensors",
+          "size": 124837576,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "scheduler/scheduler_config.json",
+          "size": 173,
+          "sha256": "79bd98cddf1a60d365f3072d713ffad832239f57c837bba0e9da3cff40bfafc5",
+          "kind": "snapshot"
+        },
+        {
+          "path": "transformer/config.json",
+          "size": 584,
+          "sha256": "e3851ddff548a845cb94b99b4889070e845ac47787f3b3a0c54b70a374aeba17",
+          "kind": "snapshot"
+        },
+        {
+          "path": "transformer/diffusion_pytorch_model-00001-of-00009.safetensors",
+          "size": 2969386176,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "transformer/diffusion_pytorch_model-00002-of-00009.safetensors",
+          "size": 2953554248,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "transformer/diffusion_pytorch_model-00003-of-00009.safetensors",
+          "size": 2953554248,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "transformer/diffusion_pytorch_model-00004-of-00009.safetensors",
+          "size": 2953554280,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "transformer/diffusion_pytorch_model-00005-of-00009.safetensors",
+          "size": 2894571800,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "transformer/diffusion_pytorch_model-00006-of-00009.safetensors",
+          "size": 2894571800,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "transformer/diffusion_pytorch_model-00007-of-00009.safetensors",
+          "size": 2894571800,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "transformer/diffusion_pytorch_model-00008-of-00009.safetensors",
+          "size": 2894571800,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "transformer/diffusion_pytorch_model-00009-of-00009.safetensors",
+          "size": 1211354616,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "transformer/diffusion_pytorch_model.safetensors.index.json",
+          "size": 48969,
+          "sha256": "ea67bb11167bb94124d2d3fc357716299c5a79dc57fc5fc4d0f13c240ac243f5",
+          "kind": "snapshot"
+        },
+        {
+          "path": "vae/config.json",
+          "size": 411,
+          "sha256": "8db67ee46bb5810ed819d698a8acfc95936d157fe68b66c9ed16b2d5ea04413e",
+          "kind": "snapshot"
+        },
+        {
+          "path": "vae/diffusion_pytorch_model.safetensors",
+          "size": 253817336,
+          "sha256": null,
+          "kind": "weights"
+        }
+      ],
+      "total_bytes": 65195921847,
+      "weight_bytes": 65177467968,
+      "snapshot_dir": "snapshots/inclusionAI/Ming-Image-0.1-Design-Layer/9fabca8b62a67f1f53a957d46389c00451c11e52/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}
