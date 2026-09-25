@@ -291,6 +291,7 @@ footer a{color:var(--seal)}
   <span>Generated __DATE__ · __N__ models · __TB__ TB manifested</span>
   <a href="https://github.com/BroWang1/ai-archive">catalog source &amp; fingerprints</a>
   <a href="https://huggingface.co/AIArchiveInfo">mirror org</a>
+  <a href="/takedown.html">takedown policy</a>
 </footer>
 </div>
 <script>
