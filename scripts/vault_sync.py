@@ -54,6 +54,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--workdir", default="/tmp/vault-stage")
     ap.add_argument("--limit", type=int, default=0, help="stop after N models (0 = all)")
+    ap.add_argument("--max-gb", type=float, default=0, help="skip models larger than this (staging disk cap; 0 = no cap)")
     args = ap.parse_args()
     dest = os.environ.get("VAULT_DEST")
     if not dest:
@@ -68,6 +69,8 @@ def main():
             continue
         if args.limit and done >= args.limit:
             break
+        if args.max_gb and size > args.max_gb * 1e9:
+            continue
         print(f"== {rid} ({size/1e9:.1f} GB) from {mirror}", flush=True)
         stage = Path(args.workdir) / rid.replace("/", "__")
         try:
