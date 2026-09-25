@@ -38,15 +38,21 @@ def sha256_file(path):
 
 
 def queue():
+    """All redistributable models: from our mirror when one exists, else straight
+    from the original repo at the captured revision. The vault outruns HF's
+    duplication quota because plain downloads aren't capped the same way."""
     items = []
     for p in sorted((ROOT / "index").rglob("*.json")):
         r = json.loads(p.read_text())
         cap = r["captures"][-1]
-        hf = (cap.get("mirrors") or {}).get("hf")
-        if not hf:
+        if cap["license"].get("redistributable") is not True:
             continue
-        items.append((cap["weight_bytes"], r["repo_id"], hf["repo"], cap))
-    items.sort()
+        hf = (cap.get("mirrors") or {}).get("hf")
+        if hf:
+            items.append((cap["weight_bytes"], r["repo_id"], hf["repo"], None, cap))
+        else:
+            items.append((cap["weight_bytes"], r["repo_id"], r["repo_id"], cap["revision"], cap))
+    items.sort(key=lambda x: x[0])
     return items
 
 
@@ -64,17 +70,17 @@ def main():
 
     state = json.loads(STATE.read_text()) if STATE.exists() else {"vaulted": {}}
     done = 0
-    for size, rid, mirror, cap in queue():
+    for size, rid, source, revision, cap in queue():
         if rid in state["vaulted"]:
             continue
         if args.limit and done >= args.limit:
             break
         if args.max_gb and size > args.max_gb * 1e9:
             continue
-        print(f"== {rid} ({size/1e9:.1f} GB) from {mirror}", flush=True)
+        print(f"== {rid} ({size/1e9:.1f} GB) from {source}" + (f"@{revision[:12]}" if revision else ""), flush=True)
         stage = Path(args.workdir) / rid.replace("/", "__")
         try:
-            snapshot_download(repo_id=mirror, local_dir=stage)
+            snapshot_download(repo_id=source, revision=revision, local_dir=stage)
             manifest = {f["path"]: f["sha256"] for f in cap["files"]
                         if f["kind"] == "weights" and f["sha256"]}
             bad = [p for p, want in manifest.items()
