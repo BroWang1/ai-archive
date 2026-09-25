@@ -1,0 +1,34 @@
+name: mirror
+on:
+  schedule:
+    - cron: "23 5 * * *"   # daily — drains the mirror queue at ~15/day
+  workflow_dispatch:
+
+concurrency:
+  group: ai-archive-state
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    env:
+      HF_TOKEN: ${{ secrets.HF_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Mirror pending redistributable models (smallest first, quota breaker)
+        if: ${{ env.HF_TOKEN != '' }}
+        run: |
+          pip -q install huggingface_hub
+          timeout 80m python3 scripts/mirror_dup.py --to AIArchiveInfo --pause 120 || true
+      - name: Commit results
+        run: |
+          git config user.name "ai-archive-bot"
+          git config user.email "bot@users.noreply.github.com"
+          python3 scripts/build_catalog.py
+          git add -A state/ index/ docs/
+          git commit -m "mirror: daily drain $(date -u +%F)" --allow-empty
+          git pull --rebase --autostash origin main
+          git push
