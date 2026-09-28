@@ -236,7 +236,8 @@
       "InternLM/Intern-S1",
       "InternLM/POLAR",
       "InternLM/InternBootcamp",
-      "InternLM/OREAL"
+      "InternLM/OREAL",
+      "InternLM/Intern-Decision"
     ],
     "OpenBMB": [
       "OpenBMB/Meshy",
@@ -427,7 +428,8 @@
       "vllm-project/semantic-router",
       "vllm-project/router",
       "vllm-project/recipes",
-      "vllm-project/vllm-xpu-kernels"
+      "vllm-project/vllm-xpu-kernels",
+      "vllm-project/vmon"
     ]
   },
   "log": [
@@ -770,8 +772,18 @@
       "id": "XiaomiMiMo/mimoagent",
       "at": "2026-09-24T12:54:46Z",
       "desc": "The 100 line AI agent that solves GitHub issues or helps you in your command line. Radically simple, no huge configs, no giant monorepo\u2014but "
+    },
+    {
+      "id": "InternLM/Intern-Decision",
+      "at": "2026-09-28T15:57:32Z",
+      "desc": "Fast multi-modal decision model"
+    },
+    {
+      "id": "vllm-project/vmon",
+      "at": "2026-09-28T15:57:32Z",
+      "desc": ""
     }
   ],
   "first_run_done": true,
-  "last_run": "2026-09-24T12:54:46Z"
+  "last_run": "2026-09-28T15:57:32Z"
 }

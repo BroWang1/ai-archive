@@ -957,6 +957,9 @@
       "internlm/CapRL-Video-4B",
       "internlm/ETCHR-FLUX.2-klein-9B",
       "internlm/EndoCoT",
+      "internlm/Intern-Decision-0.8B",
+      "internlm/Intern-Decision-2B",
+      "internlm/Intern-Decision-4B",
       "internlm/Intern-MemDec-4B",
       "internlm/Intern-S1",
       "internlm/Intern-S1-FP8",
@@ -1416,7 +1419,9 @@
       "XiaomiMiMo/MiMo-V2.5-Pro-Base",
       "XiaomiMiMo/MiMo-V2.5-Pro-FP4-DFlash",
       "XiaomiMiMo/MiMo-V2.6-Distill-Qwen-9B",
+      "XiaomiMiMo/MiMo-V2.6-Flash-MOPD",
       "XiaomiMiMo/MiMo-V2.6-Flash-RL",
+      "XiaomiMiMo/MiMo-V2.6-Pro-MOPD",
       "XiaomiMiMo/MiMo-V2.6-Pro-RL",
       "XiaomiMiMo/MiMo-VL-7B-RL",
       "XiaomiMiMo/MiMo-VL-7B-RL-2508",
@@ -2052,5 +2057,5 @@
     ]
   },
   "first_run_done": true,
-  "last_run": "2026-09-24T12:53:54Z"
+  "last_run": "2026-09-28T15:56:47Z"
 }

@@ -93,7 +93,23 @@
     "49803085",
     "49801329",
     "49793322",
-    "49804931"
+    "49804931",
+    "49859112",
+    "49866597",
+    "49861047",
+    "49851355",
+    "49845172",
+    "49831175",
+    "49872883",
+    "49870417",
+    "49868830",
+    "49867775",
+    "49866988",
+    "49857899",
+    "49851032",
+    "49863600",
+    "49860074",
+    "49837006"
   ],
   "log": [
     {
@@ -239,8 +255,104 @@
       "at": "2026-09-24T12:54:57Z",
       "text": "HN front-page (52 pts): Launch HN: Coverage Cat (YC S22) \u2013 Umbrella insurance via your personal agent",
       "url": "https://news.ycombinator.com/item?id=49804931"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-09-28T15:57:44Z",
+      "text": "HN front-page (320 pts): DeepSeek Elastic Compute (DSec)",
+      "url": "https://news.ycombinator.com/item?id=49859112"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-09-28T15:57:44Z",
+      "text": "HN front-page (68 pts): Show HN: Building a Markdown editor for Mac, iOS and web",
+      "url": "https://news.ycombinator.com/item?id=49866597"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-09-28T15:57:44Z",
+      "text": "HN front-page (81 pts): OpenAI Codex agents go rogue and consumes USD 78,000 without authorization",
+      "url": "https://news.ycombinator.com/item?id=49861047"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-09-28T15:57:44Z",
+      "text": "HN front-page (62 pts): OpenAI\u2019s Systems Went Rogue and Meddled With U.S. Government Websites",
+      "url": "https://news.ycombinator.com/item?id=49851355"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-09-28T15:57:44Z",
+      "text": "HN front-page (276 pts): Show HN: Jev Plays Pok\u00e9mon Red",
+      "url": "https://news.ycombinator.com/item?id=49845172"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-09-28T15:57:44Z",
+      "text": "HN front-page (105 pts): Unknown number of Texas voter registrations went unprocessed due to DPS error",
+      "url": "https://news.ycombinator.com/item?id=49831175"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-09-28T15:57:44Z",
+      "text": "HN front-page (126 pts): Nissan's third generation e-POWER powertrain",
+      "url": "https://news.ycombinator.com/item?id=49872883"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-09-28T15:57:44Z",
+      "text": "HN front-page (62 pts): Allegations of US interference in Quebec election",
+      "url": "https://news.ycombinator.com/item?id=49870417"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-09-28T15:57:44Z",
+      "text": "HN front-page (550 pts): Ember-1",
+      "url": "https://news.ycombinator.com/item?id=49868830"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-09-28T15:57:44Z",
+      "text": "HN front-page (115 pts): Show HN: TinyAIArena watch AI agents battle it out",
+      "url": "https://news.ycombinator.com/item?id=49867775"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-09-28T15:57:44Z",
+      "text": "HN front-page (92 pts): Fragment of oldest known peace treaty found in Turkey",
+      "url": "https://news.ycombinator.com/item?id=49866988"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-09-28T15:57:44Z",
+      "text": "HN front-page (594 pts): I'm the mom in that viral Giants clip. Let me tell you about my husband",
+      "url": "https://news.ycombinator.com/item?id=49857899"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-09-28T15:57:44Z",
+      "text": "HN front-page (65 pts): Tell HN: Codex Is Down [fixed]",
+      "url": "https://news.ycombinator.com/item?id=49851032"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-09-28T15:57:44Z",
+      "text": "HN front-page (125 pts): The internet discovers TLA+. Now what?",
+      "url": "https://news.ycombinator.com/item?id=49863600"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-09-28T15:57:44Z",
+      "text": "HN front-page (83 pts): Welcome to the Medical Clinic at the Interplanetary Relay Station",
+      "url": "https://news.ycombinator.com/item?id=49860074"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-09-28T15:57:44Z",
+      "text": "HN front-page (226 pts): Show HN: Koi.rest \u2013 watch some fish and regain your balance",
+      "url": "https://news.ycombinator.com/item?id=49837006"
     }
   ],
   "first_run_done": true,
-  "last_run": "2026-09-24T12:54:57Z"
+  "last_run": "2026-09-28T15:57:44Z"
 }
