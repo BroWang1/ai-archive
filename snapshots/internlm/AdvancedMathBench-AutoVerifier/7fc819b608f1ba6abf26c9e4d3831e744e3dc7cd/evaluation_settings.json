@@ -1,0 +1,27 @@
+{
+  "purpose": "Describe settings separately; not an executable evaluation config",
+  "explicit_historical_evaluation_settings": {
+    "verifier_repeats_per_proof": 8,
+    "max_new_tokens": 65536,
+    "temperature": 1.0,
+    "top_p": null,
+    "top_k": null
+  },
+  "unchanged_checkpoint_generation_defaults": {
+    "do_sample": true,
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "top_k": 20,
+    "eos_token_id": [248046, 248044],
+    "pad_token_id": 248044
+  },
+  "step_index_base": 0,
+  "no_error_sentinel": -1,
+  "verifier_prompt": "prompts/proof_verifier.md",
+  "notes": [
+    "Historical API configuration did not explicitly fix top_p/top_k; runtime defaults require confirmation for exact reproduction.",
+    "Checkpoint default sampling values are not asserted to be the historical serving parameters.",
+    "The bundled full model includes MTP and vision tensors; this staging step does not convert weights or strip model components.",
+    "The intended pessimistic decision requires eight valid no-error judgments; legacy parse-failure handling belongs to the separately versioned evaluator."
+  ]
+}

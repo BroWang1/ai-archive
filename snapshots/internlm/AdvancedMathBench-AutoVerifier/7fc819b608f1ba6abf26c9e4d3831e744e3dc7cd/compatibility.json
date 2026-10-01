@@ -1,0 +1,44 @@
+{
+  "validation_kind": "offline CPU metadata, tokenizer, and optional meta-device shape checks",
+  "python": "3.10.18",
+  "versions": {
+    "transformers": "5.8.0",
+    "torch": "2.8.0",
+    "datasets": "3.6.0",
+    "huggingface_hub": "1.14.0",
+    "sentencepiece": "0.2.1",
+    "tokenizers": "0.22.1",
+    "safetensors": "0.6.2",
+    "regex": "2026.4.4",
+    "packaging": "25.0",
+    "jsonschema": "4.25.1"
+  },
+  "config": {
+    "class": "Qwen3_5MoeConfig",
+    "model_type": "qwen3_5_moe",
+    "architecture": [
+      "Qwen3_5MoeForConditionalGeneration"
+    ],
+    "loaded_without_internal_packages": true
+  },
+  "tokenizer": {
+    "class": "InternS1Tokenizer",
+    "vocab_size": 251174,
+    "roundtrip": "passed",
+    "chat_template": "passed",
+    "chat_tokens": 20,
+    "prompt_tail": "<|im_start|>user\n证明群元素与其逆元具有相同的阶。<|im_end|>\n<|im_start|>assistant\n<think>\n"
+  },
+  "public_architecture_shape_check": {
+    "expected_core_tensors": 1026,
+    "checkpoint_tensors": 1811,
+    "missing_core_keys": 0,
+    "shape_mismatches": 0,
+    "unexpected_keys": 785,
+    "all_unexpected_keys_are_mtp": true,
+    "core_parameters_match": true
+  },
+  "full_weight_loading": "not_run",
+  "generation": "not_run",
+  "mtp_note": "All original MTP tensors are retained; the tested public architecture has no matching parameters for them. Shape compatibility alone does not validate from_pretrained loading or inference."
+}

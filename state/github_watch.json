@@ -30,7 +30,12 @@
       "deepseek-ai/Janus",
       "deepseek-ai/DeepSeek-Prover-V1.5",
       "deepseek-ai/ESFT",
-      "deepseek-ai/DeepSeek-Coder-V2"
+      "deepseek-ai/DeepSeek-Coder-V2",
+      "deepseek-ai/dsh-libreoffice-kit",
+      "deepseek-ai/dsh-node-addon-require-builtin",
+      "deepseek-ai/DeepEP-Ascend",
+      "deepseek-ai/DeepGEMM-Ascend",
+      "deepseek-ai/clangd-ascend"
     ],
     "QwenLM": [
       "QwenLM/qwen-mm-plugins-hub",
@@ -131,7 +136,8 @@
       "MoonshotAI/Kimi-Dev",
       "MoonshotAI/CombiBench",
       "MoonshotAI/Kimi-Audio-Evalkit",
-      "MoonshotAI/Kimi-Audio"
+      "MoonshotAI/Kimi-Audio",
+      "MoonshotAI/Kimina-Prover-Preview"
     ],
     "Tencent-Hunyuan": [
       "Tencent-Hunyuan/Simple-Attention-Sparsification",
@@ -204,7 +210,8 @@
       "MiniMax-AI/awesome-minimax-integrations",
       "MiniMax-AI/MiniMax-AI.github.io",
       "MiniMax-AI/vllm",
-      "MiniMax-AI/MiniMax-Code-MiniApps"
+      "MiniMax-AI/MiniMax-Code-MiniApps",
+      "MiniMax-AI/OpenAgentCore"
     ],
     "InternLM": [
       "InternLM/SciDocBench",
@@ -237,7 +244,8 @@
       "InternLM/POLAR",
       "InternLM/InternBootcamp",
       "InternLM/OREAL",
-      "InternLM/Intern-Decision"
+      "InternLM/Intern-Decision",
+      "InternLM/AdvancedMathBench"
     ],
     "OpenBMB": [
       "OpenBMB/Meshy",
@@ -269,7 +277,8 @@
       "OpenBMB/AgentCPM",
       "OpenBMB/SciCore-Mol",
       "OpenBMB/DeepThinkVLA",
-      "OpenBMB/Scicore-Omics"
+      "OpenBMB/Scicore-Omics",
+      "OpenBMB/EC2-Bench"
     ],
     "stepfun-ai": [
       "stepfun-ai/Step-Realtime-CLI",
@@ -782,8 +791,53 @@
       "id": "vllm-project/vmon",
       "at": "2026-09-28T15:57:32Z",
       "desc": ""
+    },
+    {
+      "id": "deepseek-ai/dsh-libreoffice-kit",
+      "at": "2026-10-01T14:46:26Z",
+      "desc": "An internal component used by DeepSeek Harness"
+    },
+    {
+      "id": "deepseek-ai/dsh-node-addon-require-builtin",
+      "at": "2026-10-01T14:46:26Z",
+      "desc": "An internal component used by DeepSeek Harness"
+    },
+    {
+      "id": "deepseek-ai/DeepEP-Ascend",
+      "at": "2026-10-01T14:46:26Z",
+      "desc": "A high-performance communication library for machine learning training and inference on Huawei Ascend NPUs."
+    },
+    {
+      "id": "deepseek-ai/DeepGEMM-Ascend",
+      "at": "2026-10-01T14:46:26Z",
+      "desc": "DeepGEMM-Ascend: clean and efficient matrix multiplication kernel library for Huawei Ascend NPUs"
+    },
+    {
+      "id": "deepseek-ai/clangd-ascend",
+      "at": "2026-10-01T14:46:26Z",
+      "desc": "Clangd for Ascend for Code Lint & Code Completion"
+    },
+    {
+      "id": "MoonshotAI/Kimina-Prover-Preview",
+      "at": "2026-10-01T14:46:26Z",
+      "desc": "Technical report of Kimina-Prover Preview."
+    },
+    {
+      "id": "MiniMax-AI/OpenAgentCore",
+      "at": "2026-10-01T14:46:26Z",
+      "desc": "Open-source, self-hosted implementation of the OpenAI Agents API with multiple native harnesses."
+    },
+    {
+      "id": "InternLM/AdvancedMathBench",
+      "at": "2026-10-01T14:46:26Z",
+      "desc": ""
+    },
+    {
+      "id": "OpenBMB/EC2-Bench",
+      "at": "2026-10-01T14:46:26Z",
+      "desc": ""
     }
   ],
   "first_run_done": true,
-  "last_run": "2026-09-28T15:57:32Z"
+  "last_run": "2026-10-01T14:46:26Z"
 }
