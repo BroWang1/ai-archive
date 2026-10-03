@@ -6,280 +6,280 @@
  "description": "Captures, mirrors, takedown alerts and radar signals for open-weight AI models",
  "items": [
   {
-   "id": "2026-10-01T14:46:38Z-1754958187",
+   "id": "2026-10-01T14:46:38Z-2498879369",
    "title": "New paper mentioning DeepSeek: WorkGenesis: Building the Worlds That Teach Agents to Work",
    "date_published": "2026-10-01T14:46:38Z",
    "url": "http://arxiv.org/abs/2609.39325",
    "content_text": "New paper mentioning DeepSeek: WorkGenesis: Building the Worlds That Teach Agents to Work"
   },
   {
-   "id": "2026-10-01T14:46:38Z-33412120",
+   "id": "2026-10-01T14:46:38Z-3826284583",
    "title": "New paper mentioning DeepSeek: Fyan: A Human--AI Harness with Semantic Auditing for Document-Level Formalization",
    "date_published": "2026-10-01T14:46:38Z",
    "url": "http://arxiv.org/abs/2609.39228",
    "content_text": "New paper mentioning DeepSeek: Fyan: A Human--AI Harness with Semantic Auditing for Document-Level Formalization"
   },
   {
-   "id": "2026-10-01T14:46:38Z-2672884491",
+   "id": "2026-10-01T14:46:38Z-2712382123",
    "title": "New paper mentioning DeepSeek: ID Balancing: Stable Training of Extremely Sparse MoE via PID-Based Load Control",
    "date_published": "2026-10-01T14:46:38Z",
    "url": "http://arxiv.org/abs/2609.39137",
    "content_text": "New paper mentioning DeepSeek: ID Balancing: Stable Training of Extremely Sparse MoE via PID-Based Load Control"
   },
   {
-   "id": "2026-10-01T14:46:38Z-3298301125",
+   "id": "2026-10-01T14:46:38Z-1905238313",
    "title": "New paper mentioning DeepSeek: Covert Assistance: Helpful LLM Agents Evade Oversight in Multi-Agent Systems",
    "date_published": "2026-10-01T14:46:38Z",
    "url": "http://arxiv.org/abs/2609.39050",
    "content_text": "New paper mentioning DeepSeek: Covert Assistance: Helpful LLM Agents Evade Oversight in Multi-Agent Systems"
   },
   {
-   "id": "2026-10-01T14:46:38Z-2052263320",
+   "id": "2026-10-01T14:46:38Z-1841315730",
    "title": "New paper mentioning DeepSeek: Make Code as Policy Great Again: Frontier Agents Write, Call, and Evolve Robot Tools",
    "date_published": "2026-10-01T14:46:38Z",
    "url": "http://arxiv.org/abs/2609.39018",
    "content_text": "New paper mentioning DeepSeek: Make Code as Policy Great Again: Frontier Agents Write, Call, and Evolve Robot Tools"
   },
   {
-   "id": "2026-10-01T14:46:38Z-3575635915",
+   "id": "2026-10-01T14:46:38Z-290910553",
    "title": "New paper mentioning Qwen: Decision-Oriented Recommendation Reranking: An Empirical Study of Jev",
    "date_published": "2026-10-01T14:46:38Z",
    "url": "http://arxiv.org/abs/2609.40241",
    "content_text": "New paper mentioning Qwen: Decision-Oriented Recommendation Reranking: An Empirical Study of Jev"
   },
   {
-   "id": "2026-10-01T14:46:38Z-4167592844",
+   "id": "2026-10-01T14:46:38Z-2742440988",
    "title": "New paper mentioning Qwen: PhantomEnvironments: Training LLM Agents in Fictional Worlds",
    "date_published": "2026-10-01T14:46:38Z",
    "url": "http://arxiv.org/abs/2609.40221",
    "content_text": "New paper mentioning Qwen: PhantomEnvironments: Training LLM Agents in Fictional Worlds"
   },
   {
-   "id": "2026-10-01T14:46:38Z-41310266",
+   "id": "2026-10-01T14:46:38Z-2992624902",
    "title": "New paper mentioning Qwen: OverdoseMoE: A Multi-Expert Framework for Opioid Overdose Risk Prediction",
    "date_published": "2026-10-01T14:46:38Z",
    "url": "http://arxiv.org/abs/2609.40108",
    "content_text": "New paper mentioning Qwen: OverdoseMoE: A Multi-Expert Framework for Opioid Overdose Risk Prediction"
   },
   {
-   "id": "2026-10-01T14:46:38Z-130623986",
+   "id": "2026-10-01T14:46:38Z-4269522535",
    "title": "New paper mentioning Qwen: CAST: Causal Advantage-Structured Training with Spatially Grounded Compositional Rewards for Diffusion Models",
    "date_published": "2026-10-01T14:46:38Z",
    "url": "http://arxiv.org/abs/2609.39441",
    "content_text": "New paper mentioning Qwen: CAST: Causal Advantage-Structured Training with Spatially Grounded Compositional Rewards for Diffusion Models"
   },
   {
-   "id": "2026-10-01T14:46:38Z-3455833865",
+   "id": "2026-10-01T14:46:38Z-145740092",
    "title": "New paper mentioning Qwen: Network-based Spatial Context Retrieval for Open-weight LLMs: A Faithfulness Benchmark for Grounded Geographic Reasoning",
    "date_published": "2026-10-01T14:46:38Z",
    "url": "http://arxiv.org/abs/2609.39437",
    "content_text": "New paper mentioning Qwen: Network-based Spatial Context Retrieval for Open-weight LLMs: A Faithfulness Benchmark for Grounded Geographic Reasoning"
   },
   {
-   "id": "2026-10-01T14:46:38Z-3530041021",
+   "id": "2026-10-01T14:46:38Z-3195388900",
    "title": "HN front-page (178 pts): Launch HN: Magnitude (YC S25) \u2013 Self-optimizing inference engine for agents",
    "date_published": "2026-10-01T14:46:38Z",
    "url": "https://news.ycombinator.com/item?id=49911995",
    "content_text": "HN front-page (178 pts): Launch HN: Magnitude (YC S25) \u2013 Self-optimizing inference engine for agents"
   },
   {
-   "id": "2026-10-01T14:46:38Z-2484953877",
+   "id": "2026-10-01T14:46:38Z-2947689495",
    "title": "HN front-page (95 pts): The End of a Fair Price: Dynamic Pricing and the Normalization of Gouging",
    "date_published": "2026-10-01T14:46:38Z",
    "url": "https://news.ycombinator.com/item?id=49897826",
    "content_text": "HN front-page (95 pts): The End of a Fair Price: Dynamic Pricing and the Normalization of Gouging"
   },
   {
-   "id": "2026-10-01T14:46:38Z-1880011444",
+   "id": "2026-10-01T14:46:38Z-147991732",
    "title": "HN front-page (101 pts): Show HN: A working 3D model of an Enigma machine",
    "date_published": "2026-10-01T14:46:38Z",
    "url": "https://news.ycombinator.com/item?id=49896757",
    "content_text": "HN front-page (101 pts): Show HN: A working 3D model of an Enigma machine"
   },
   {
-   "id": "2026-10-01T14:46:38Z-1594484150",
+   "id": "2026-10-01T14:46:38Z-4100908625",
    "title": "New paper mentioning GLM-: Discrete Score Matching Enables Causal Discovery from Count Data",
    "date_published": "2026-10-01T14:46:38Z",
    "url": "http://arxiv.org/abs/2609.39326",
    "content_text": "New paper mentioning GLM-: Discrete Score Matching Enables Causal Discovery from Count Data"
   },
   {
-   "id": "2026-10-01T14:46:38Z-1029150655",
+   "id": "2026-10-01T14:46:38Z-2209810035",
    "title": "New paper mentioning GLM-: LeapQuant: Efficient Linear Attention with Accurate Recurrent State Quantization",
    "date_published": "2026-10-01T14:46:38Z",
    "url": "http://arxiv.org/abs/2609.38166",
    "content_text": "New paper mentioning GLM-: LeapQuant: Efficient Linear Attention with Accurate Recurrent State Quantization"
   },
   {
-   "id": "2026-10-01T14:46:38Z-3241945115",
+   "id": "2026-10-01T14:46:38Z-2593490863",
    "title": "New paper mentioning GLM-: On the use of G-computation in small randomized controlled trials with many covariates",
    "date_published": "2026-10-01T14:46:38Z",
    "url": "http://arxiv.org/abs/2609.37630",
    "content_text": "New paper mentioning GLM-: On the use of G-computation in small randomized controlled trials with many covariates"
   },
   {
-   "id": "2026-10-01T14:46:38Z-3117286557",
+   "id": "2026-10-01T14:46:38Z-2187726291",
    "title": "New paper mentioning GLM-: SPLASH: Switching Parallel Layouts of Attention with Seamless Handoff for LLM Serving",
    "date_published": "2026-10-01T14:46:38Z",
    "url": "http://arxiv.org/abs/2609.37626",
    "content_text": "New paper mentioning GLM-: SPLASH: Switching Parallel Layouts of Attention with Seamless Handoff for LLM Serving"
   },
   {
-   "id": "2026-10-01T14:46:38Z-2884556099",
+   "id": "2026-10-01T14:46:38Z-3970202097",
    "title": "New paper mentioning GLM-: CRJudgeBench: Can AI Detect Plausible but Invalid Code Reviews?",
    "date_published": "2026-10-01T14:46:38Z",
    "url": "http://arxiv.org/abs/2609.37216",
    "content_text": "New paper mentioning GLM-: CRJudgeBench: Can AI Detect Plausible but Invalid Code Reviews?"
   },
   {
-   "id": "2026-10-01T14:46:38Z-4155338002",
+   "id": "2026-10-01T14:46:38Z-2451061098",
    "title": "HN front-page (90 pts): Meta Uses A.I. Data Centers to Avoid Billions in Federal Taxes",
    "date_published": "2026-10-01T14:46:38Z",
    "url": "https://news.ycombinator.com/item?id=49921118",
    "content_text": "HN front-page (90 pts): Meta Uses A.I. Data Centers to Avoid Billions in Federal Taxes"
   },
   {
-   "id": "2026-10-01T14:46:38Z-1521330081",
+   "id": "2026-10-01T14:46:38Z-1891453416",
    "title": "HN front-page (108 pts): Gemini 4 Argon (High): Intelligence, Performance and Price Analysis",
    "date_published": "2026-10-01T14:46:38Z",
    "url": "https://news.ycombinator.com/item?id=49914236",
    "content_text": "HN front-page (108 pts): Gemini 4 Argon (High): Intelligence, Performance and Price Analysis"
   },
   {
-   "id": "2026-10-01T14:46:38Z-2812989901",
+   "id": "2026-10-01T14:46:38Z-3596066234",
    "title": "HN front-page (1527 pts): Gemini 4 Argon",
    "date_published": "2026-10-01T14:46:38Z",
    "url": "https://news.ycombinator.com/item?id=49913571",
    "content_text": "HN front-page (1527 pts): Gemini 4 Argon"
   },
   {
-   "id": "2026-10-01T14:46:38Z-3893615336",
+   "id": "2026-10-01T14:46:38Z-2283790258",
    "title": "HN front-page (52 pts): Show HN: Lathoa, a math app for kids where the AI is wrong on purpose",
    "date_published": "2026-10-01T14:46:38Z",
    "url": "https://news.ycombinator.com/item?id=49909648",
    "content_text": "HN front-page (52 pts): Show HN: Lathoa, a math app for kids where the AI is wrong on purpose"
   },
   {
-   "id": "2026-10-01T14:46:38Z-51803533",
+   "id": "2026-10-01T14:46:38Z-886533700",
    "title": "HN front-page (56 pts): Strange Parodies of Atari 2600 Video Game Box Cover Art (2008)",
    "date_published": "2026-10-01T14:46:38Z",
    "url": "https://news.ycombinator.com/item?id=49903383",
    "content_text": "HN front-page (56 pts): Strange Parodies of Atari 2600 Video Game Box Cover Art (2008)"
   },
   {
-   "id": "2026-10-01T14:46:38Z-3240467105",
+   "id": "2026-10-01T14:46:38Z-2436017381",
    "title": "New paper mentioning MiniMax: Cheap to Draw, Expensive to Trust: Certifying Test-Time Scaling Curves",
    "date_published": "2026-10-01T14:46:38Z",
    "url": "http://arxiv.org/abs/2609.40190",
    "content_text": "New paper mentioning MiniMax: Cheap to Draw, Expensive to Trust: Certifying Test-Time Scaling Curves"
   },
   {
-   "id": "2026-10-01T14:46:38Z-1503334812",
+   "id": "2026-10-01T14:46:38Z-4025859924",
    "title": "New paper mentioning MiniMax: A mixing time method for estimating the sample complexity of quantum state discrimination",
    "date_published": "2026-10-01T14:46:38Z",
    "url": "http://arxiv.org/abs/2609.40182",
    "content_text": "New paper mentioning MiniMax: A mixing time method for estimating the sample complexity of quantum state discrimination"
   },
   {
-   "id": "2026-10-01T14:46:38Z-2989327309",
+   "id": "2026-10-01T14:46:38Z-3671725494",
    "title": "New paper mentioning MiniMax: Robust and Learned Online Matching in Growing Trees",
    "date_published": "2026-10-01T14:46:38Z",
    "url": "http://arxiv.org/abs/2609.40077",
    "content_text": "New paper mentioning MiniMax: Robust and Learned Online Matching in Growing Trees"
   },
   {
-   "id": "2026-10-01T14:46:38Z-200361955",
+   "id": "2026-10-01T14:46:38Z-2401313245",
    "title": "New paper mentioning MiniMax: WEIRDO: WEak resIdual Regularized DOob's h-transform diffusion alignment",
    "date_published": "2026-10-01T14:46:38Z",
    "url": "http://arxiv.org/abs/2609.39531",
    "content_text": "New paper mentioning MiniMax: WEIRDO: WEak resIdual Regularized DOob's h-transform diffusion alignment"
   },
   {
-   "id": "2026-10-01T14:46:38Z-3546420319",
+   "id": "2026-10-01T14:46:38Z-3147666681",
    "title": "New paper mentioning MiniMax: Minimax Additive Regression under Unknown Dependent Designs",
    "date_published": "2026-10-01T14:46:38Z",
    "url": "http://arxiv.org/abs/2609.39212",
    "content_text": "New paper mentioning MiniMax: Minimax Additive Regression under Unknown Dependent Designs"
   },
   {
-   "id": "2026-10-01T14:46:38Z-1730215569",
+   "id": "2026-10-01T14:46:38Z-3891674006",
    "title": "HN front-page (166 pts): Book of Shapes \u2013 Collection of minimal, generative and customizable SVG-patterns",
    "date_published": "2026-10-01T14:46:38Z",
    "url": "https://news.ycombinator.com/item?id=49894430",
    "content_text": "HN front-page (166 pts): Book of Shapes \u2013 Collection of minimal, generative and customizable SVG-patterns"
   },
   {
-   "id": "2026-10-01T14:46:38Z-1824074959",
+   "id": "2026-10-01T14:46:38Z-70129841",
    "title": "New paper mentioning Hunyuan: Hunyuan-A13B Technical Report",
    "date_published": "2026-10-01T14:46:38Z",
    "url": "http://arxiv.org/abs/2609.27284",
    "content_text": "New paper mentioning Hunyuan: Hunyuan-A13B Technical Report"
   },
   {
-   "id": "2026-10-01T14:46:38Z-173281424",
+   "id": "2026-10-01T14:46:38Z-1676903080",
    "title": "New paper mentioning Hunyuan: A Multi-View and Confusion-Guided Ensemble Framework for Robust Synthetic Image Attribution",
    "date_published": "2026-10-01T14:46:38Z",
    "url": "http://arxiv.org/abs/2609.11188",
    "content_text": "New paper mentioning Hunyuan: A Multi-View and Confusion-Guided Ensemble Framework for Robust Synthetic Image Attribution"
   },
   {
-   "id": "2026-10-01T14:46:38Z-2711613302",
+   "id": "2026-10-01T14:46:38Z-3044910356",
    "title": "New paper mentioning Hunyuan: AIGC Video Detection based on the fusion of spatial-frequency-optical flow multimodal features",
    "date_published": "2026-10-01T14:46:38Z",
    "url": "http://arxiv.org/abs/2609.26274",
    "content_text": "New paper mentioning Hunyuan: AIGC Video Detection based on the fusion of spatial-frequency-optical flow multimodal features"
   },
   {
-   "id": "2026-10-01T14:46:38Z-3511635929",
+   "id": "2026-10-01T14:46:38Z-1606160553",
    "title": "New paper mentioning Hunyuan: Benchmarking Frontier Text-to-Image Models on Image-Description Prompts",
    "date_published": "2026-10-01T14:46:38Z",
    "url": "http://arxiv.org/abs/2608.14976",
    "content_text": "New paper mentioning Hunyuan: Benchmarking Frontier Text-to-Image Models on Image-Description Prompts"
   },
   {
-   "id": "2026-10-01T14:46:38Z-2429303089",
+   "id": "2026-10-01T14:46:38Z-2148752755",
    "title": "New paper mentioning Hunyuan: SPADE: An Input-Adaptive Sparse Attention Engine for Fast Video Diffusion Models Inference",
    "date_published": "2026-10-01T14:46:38Z",
    "url": "http://arxiv.org/abs/2608.03335",
    "content_text": "New paper mentioning Hunyuan: SPADE: An Input-Adaptive Sparse Attention Engine for Fast Video Diffusion Models Inference"
   },
   {
-   "id": "2026-10-01T14:46:38Z-2430242955",
+   "id": "2026-10-01T14:46:38Z-238557499",
    "title": "New paper mentioning MiniCPM: LEAP: Learned Block-wise Evidence Retrieval for Long Audio-Video Perception",
    "date_published": "2026-10-01T14:46:38Z",
    "url": "http://arxiv.org/abs/2609.39938",
    "content_text": "New paper mentioning MiniCPM: LEAP: Learned Block-wise Evidence Retrieval for Long Audio-Video Perception"
   },
   {
-   "id": "2026-10-01T14:46:38Z-2792328782",
+   "id": "2026-10-01T14:46:38Z-3467460528",
    "title": "New paper mentioning MiniCPM: MultiTalk: Scaling Full-Duplex Speech Models to Long, Multi-Party, Bilingual Conversation",
    "date_published": "2026-10-01T14:46:38Z",
    "url": "http://arxiv.org/abs/2609.36903",
    "content_text": "New paper mentioning MiniCPM: MultiTalk: Scaling Full-Duplex Speech Models to Long, Multi-Party, Bilingual Conversation"
   },
   {
-   "id": "2026-10-01T14:46:38Z-2135336312",
+   "id": "2026-10-01T14:46:38Z-1312112461",
    "title": "New paper mentioning MiniCPM: Duplex-MPE: Benchmarking Multi-Party Interaction in Full-Duplex Dialogue",
    "date_published": "2026-10-01T14:46:38Z",
    "url": "http://arxiv.org/abs/2609.31948",
    "content_text": "New paper mentioning MiniCPM: Duplex-MPE: Benchmarking Multi-Party Interaction in Full-Duplex Dialogue"
   },
   {
-   "id": "2026-10-01T14:46:38Z-52362124",
+   "id": "2026-10-01T14:46:38Z-1352623242",
    "title": "New paper mentioning MiniCPM: Acoustic-to-Text KV Compression for Full-Duplex Speech Models",
    "date_published": "2026-10-01T14:46:38Z",
    "url": "http://arxiv.org/abs/2609.31224",
    "content_text": "New paper mentioning MiniCPM: Acoustic-to-Text KV Compression for Full-Duplex Speech Models"
   },
   {
-   "id": "2026-10-01T14:46:38Z-1314186185",
+   "id": "2026-10-01T14:46:38Z-2819868434",
    "title": "New paper mentioning MiniCPM: AdaptDuplex: from static to adaptive full-duplex spoken dialogue",
    "date_published": "2026-10-01T14:46:38Z",
    "url": "http://arxiv.org/abs/2609.29217",
    "content_text": "New paper mentioning MiniCPM: AdaptDuplex: from static to adaptive full-duplex spoken dialogue"
   },
   {
-   "id": "2026-10-01T14:46:38Z-2190171445",
+   "id": "2026-10-01T14:46:38Z-3431708657",
    "title": "New paper mentioning InternLM: Think Visually, Reason Textually: Vision-Language Synergy in ARC",
    "date_published": "2026-10-01T14:46:38Z",
    "url": "http://arxiv.org/abs/2511.15703",
