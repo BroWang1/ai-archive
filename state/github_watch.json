@@ -71,7 +71,8 @@
       "QwenLM/RecreationWorld",
       "QwenLM/Omnilingua-Bench",
       "QwenLM/Qwen-Image-2.1",
-      "QwenLM/Qwen-Live-Harness"
+      "QwenLM/Qwen-Live-Harness",
+      "QwenLM/D2K-Bench"
     ],
     "zai-org": [
       "zai-org/zcode-plugins",
@@ -211,7 +212,8 @@
       "MiniMax-AI/MiniMax-AI.github.io",
       "MiniMax-AI/vllm",
       "MiniMax-AI/MiniMax-Code-MiniApps",
-      "MiniMax-AI/OpenAgentCore"
+      "MiniMax-AI/OpenAgentCore",
+      "MiniMax-AI/homebrew-tap"
     ],
     "InternLM": [
       "InternLM/SciDocBench",
@@ -405,7 +407,8 @@
       "ggml-org/ggml-org.github.io",
       "ggml-org/llama.cpp",
       "ggml-org/whisper.cpp",
-      "ggml-org/ggml"
+      "ggml-org/ggml",
+      "ggml-org/llama-pages"
     ],
     "vllm-project": [
       "vllm-project/DeepSelect",
@@ -836,8 +839,23 @@
       "id": "OpenBMB/EC2-Bench",
       "at": "2026-10-01T14:46:26Z",
       "desc": ""
+    },
+    {
+      "id": "QwenLM/D2K-Bench",
+      "at": "2026-10-05T16:22:40Z",
+      "desc": ""
+    },
+    {
+      "id": "MiniMax-AI/homebrew-tap",
+      "at": "2026-10-05T16:22:40Z",
+      "desc": ""
+    },
+    {
+      "id": "ggml-org/llama-pages",
+      "at": "2026-10-05T16:22:40Z",
+      "desc": "llama.cpp's official website"
     }
   ],
   "first_run_done": true,
-  "last_run": "2026-10-01T14:46:26Z"
+  "last_run": "2026-10-05T16:22:40Z"
 }

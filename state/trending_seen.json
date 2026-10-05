@@ -87,9 +87,27 @@
     "pablodawson/MiniMax-H3-360-Orbit-LoRA",
     "madebyollin/texture-fix-vae-for-qwen-image-2.1",
     "Hikari07jp/Ternary-Bonsai-2-27B-Abliterated-GGUF",
-    "JonathanColetti/Qwen3.8-27B-Uncensored-GGUF"
+    "JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
+    "Cloudflare/clef",
+    "convaiinnovations/laya",
+    "Aleph-Alpha/Kolibri-1",
+    "Cloudflare/clef-flash",
+    "Venastine-Research/Xing4.0-29B-A4B-GGUF",
+    "PSRben/VisionHOPE",
+    "autotrust/JEV-27B-VL",
+    "Infatoshi/GLM-5.3-UNCENSORED-EXL3-3.0bpw",
+    "autotrust/GEV-26B-Decide",
+    "jialinyyzz/humanizer",
+    "orcarouter/Qwen3.8-Flash-Next-Uncensored-GGUF",
+    "audnai/penclaw-GLM-5.3-abliterated",
+    "Cactus-Compute/whistle",
+    "isichan-ai/Mitsuba_and_HiMitsuba-27B-GGUF",
+    "autotrust/JEV-9B",
+    "SC117/Qwen3.8-Flash-Next-GSQ-RCO-abliterated-GGUF",
+    "speach1sdef178/MiniMax-H3-X2-Detail-VAE",
+    "IQuestLab/IQuest-Q1"
   ],
-  "last_run": "2026-10-01T14:46:26Z",
+  "last_run": "2026-10-05T16:22:40Z",
   "log": [
     {
       "id": "prism-ml/Ternary-Bonsai-2-27B-gguf",
@@ -340,6 +358,96 @@
       "id": "JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
       "at": "2026-10-01T14:46:26Z",
       "downloads": 2206373
+    },
+    {
+      "id": "Cloudflare/clef",
+      "at": "2026-10-05T16:22:40Z",
+      "downloads": 5416
+    },
+    {
+      "id": "convaiinnovations/laya",
+      "at": "2026-10-05T16:22:40Z",
+      "downloads": 11733
+    },
+    {
+      "id": "Aleph-Alpha/Kolibri-1",
+      "at": "2026-10-05T16:22:40Z",
+      "downloads": 2453
+    },
+    {
+      "id": "Cloudflare/clef-flash",
+      "at": "2026-10-05T16:22:40Z",
+      "downloads": 8075
+    },
+    {
+      "id": "Venastine-Research/Xing4.0-29B-A4B-GGUF",
+      "at": "2026-10-05T16:22:40Z",
+      "downloads": 18863
+    },
+    {
+      "id": "PSRben/VisionHOPE",
+      "at": "2026-10-05T16:22:40Z",
+      "downloads": 1654
+    },
+    {
+      "id": "autotrust/JEV-27B-VL",
+      "at": "2026-10-05T16:22:40Z",
+      "downloads": 1278569
+    },
+    {
+      "id": "Infatoshi/GLM-5.3-UNCENSORED-EXL3-3.0bpw",
+      "at": "2026-10-05T16:22:40Z",
+      "downloads": 1342
+    },
+    {
+      "id": "autotrust/GEV-26B-Decide",
+      "at": "2026-10-05T16:22:40Z",
+      "downloads": 446527
+    },
+    {
+      "id": "jialinyyzz/humanizer",
+      "at": "2026-10-05T16:22:40Z",
+      "downloads": 10329
+    },
+    {
+      "id": "orcarouter/Qwen3.8-Flash-Next-Uncensored-GGUF",
+      "at": "2026-10-05T16:22:40Z",
+      "downloads": 264966
+    },
+    {
+      "id": "audnai/penclaw-GLM-5.3-abliterated",
+      "at": "2026-10-05T16:22:40Z",
+      "downloads": 1550
+    },
+    {
+      "id": "Cactus-Compute/whistle",
+      "at": "2026-10-05T16:22:40Z",
+      "downloads": 1404
+    },
+    {
+      "id": "isichan-ai/Mitsuba_and_HiMitsuba-27B-GGUF",
+      "at": "2026-10-05T16:22:40Z",
+      "downloads": 10041
+    },
+    {
+      "id": "autotrust/JEV-9B",
+      "at": "2026-10-05T16:22:40Z",
+      "downloads": 305502
+    },
+    {
+      "id": "SC117/Qwen3.8-Flash-Next-GSQ-RCO-abliterated-GGUF",
+      "at": "2026-10-05T16:22:40Z",
+      "downloads": 291404
+    },
+    {
+      "id": "speach1sdef178/MiniMax-H3-X2-Detail-VAE",
+      "at": "2026-10-05T16:22:40Z",
+      "downloads": 9399
+    },
+    {
+      "id": "IQuestLab/IQuest-Q1",
+      "at": "2026-10-05T16:22:40Z",
+      "downloads": 1047
     }
   ]
 }

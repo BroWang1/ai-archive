@@ -1,282 +1,282 @@
 [
  {
-  "at": "2026-10-01T14:46:38Z",
+  "at": "2026-10-05T16:22:52Z",
   "kind": "paper",
-  "text": "New paper mentioning DeepSeek: WorkGenesis: Building the Worlds That Teach Agents to Work",
-  "url": "http://arxiv.org/abs/2609.39325",
+  "text": "New paper mentioning DeepSeek: A Kinetic Theory of the Gated Self-Evolving LLM Agent",
+  "url": "http://arxiv.org/abs/2610.03243",
   "action": "read"
  },
  {
-  "at": "2026-10-01T14:46:38Z",
+  "at": "2026-10-05T16:22:52Z",
   "kind": "paper",
-  "text": "New paper mentioning DeepSeek: Fyan: A Human--AI Harness with Semantic Auditing for Document-Level Formalization",
-  "url": "http://arxiv.org/abs/2609.39228",
+  "text": "New paper mentioning DeepSeek: EvoRiskBench: An Evolving Benchmark for Runtime Security Risks in Workspace Agents",
+  "url": "http://arxiv.org/abs/2610.03153",
   "action": "read"
  },
  {
-  "at": "2026-10-01T14:46:38Z",
+  "at": "2026-10-05T16:22:52Z",
   "kind": "paper",
-  "text": "New paper mentioning DeepSeek: ID Balancing: Stable Training of Extremely Sparse MoE via PID-Based Load Control",
-  "url": "http://arxiv.org/abs/2609.39137",
+  "text": "New paper mentioning DeepSeek: iS-KV: Online Low-Rank KV Cache Compression via Block-Incremental SVD",
+  "url": "http://arxiv.org/abs/2610.02815",
   "action": "read"
  },
  {
-  "at": "2026-10-01T14:46:38Z",
+  "at": "2026-10-05T16:22:52Z",
   "kind": "paper",
-  "text": "New paper mentioning DeepSeek: Covert Assistance: Helpful LLM Agents Evade Oversight in Multi-Agent Systems",
-  "url": "http://arxiv.org/abs/2609.39050",
+  "text": "New paper mentioning DeepSeek: MoE-CORE: Coordinated Expert Offloading and Residency for Memory-Constrained MoE Inference",
+  "url": "http://arxiv.org/abs/2610.01950",
   "action": "read"
  },
  {
-  "at": "2026-10-01T14:46:38Z",
+  "at": "2026-10-05T16:22:52Z",
   "kind": "paper",
-  "text": "New paper mentioning DeepSeek: Make Code as Policy Great Again: Frontier Agents Write, Call, and Evolve Robot Tools",
-  "url": "http://arxiv.org/abs/2609.39018",
+  "text": "New paper mentioning DeepSeek: Invent a Dataset: Measuring dataset generation abilities with zero seed",
+  "url": "http://arxiv.org/abs/2610.01674",
   "action": "read"
  },
  {
-  "at": "2026-10-01T14:46:38Z",
-  "kind": "paper",
-  "text": "New paper mentioning Qwen: Decision-Oriented Recommendation Reranking: An Empirical Study of Jev",
-  "url": "http://arxiv.org/abs/2609.40241",
-  "action": "read"
- },
- {
-  "at": "2026-10-01T14:46:38Z",
-  "kind": "paper",
-  "text": "New paper mentioning Qwen: PhantomEnvironments: Training LLM Agents in Fictional Worlds",
-  "url": "http://arxiv.org/abs/2609.40221",
-  "action": "read"
- },
- {
-  "at": "2026-10-01T14:46:38Z",
-  "kind": "paper",
-  "text": "New paper mentioning Qwen: OverdoseMoE: A Multi-Expert Framework for Opioid Overdose Risk Prediction",
-  "url": "http://arxiv.org/abs/2609.40108",
-  "action": "read"
- },
- {
-  "at": "2026-10-01T14:46:38Z",
-  "kind": "paper",
-  "text": "New paper mentioning Qwen: CAST: Causal Advantage-Structured Training with Spatially Grounded Compositional Rewards for Diffusion Models",
-  "url": "http://arxiv.org/abs/2609.39441",
-  "action": "read"
- },
- {
-  "at": "2026-10-01T14:46:38Z",
-  "kind": "paper",
-  "text": "New paper mentioning Qwen: Network-based Spatial Context Retrieval for Open-weight LLMs: A Faithfulness Benchmark for Grounded Geographic Reasoning",
-  "url": "http://arxiv.org/abs/2609.39437",
-  "action": "read"
- },
- {
-  "at": "2026-10-01T14:46:38Z",
+  "at": "2026-10-05T16:22:52Z",
   "kind": "buzz",
-  "text": "HN front-page (178 pts): Launch HN: Magnitude (YC S25) \u2013 Self-optimizing inference engine for agents",
-  "url": "https://news.ycombinator.com/item?id=49911995",
+  "text": "HN front-page (415 pts): DeepSeek Harness Desktop for macOS and Windows",
+  "url": "https://news.ycombinator.com/item?id=49929489",
   "action": "discussion"
  },
  {
-  "at": "2026-10-01T14:46:38Z",
+  "at": "2026-10-05T16:22:52Z",
   "kind": "buzz",
-  "text": "HN front-page (95 pts): The End of a Fair Price: Dynamic Pricing and the Normalization of Gouging",
-  "url": "https://news.ycombinator.com/item?id=49897826",
+  "text": "HN front-page (121 pts): Show HN: Open-source model routing for coding agents at Astra-level performance",
+  "url": "https://news.ycombinator.com/item?id=49911500",
   "action": "discussion"
  },
  {
-  "at": "2026-10-01T14:46:38Z",
+  "at": "2026-10-05T16:22:52Z",
+  "kind": "paper",
+  "text": "New paper mentioning Qwen: All Work And No Play Makes Jack a Dull Boy: Understanding and Preventing Catastrophic Strategy Collapse in RLVR",
+  "url": "http://arxiv.org/abs/2610.02835",
+  "action": "read"
+ },
+ {
+  "at": "2026-10-05T16:22:52Z",
+  "kind": "paper",
+  "text": "New paper mentioning Qwen: Scaling Trajectories for Complex Tasks through Recursive Self-Rewrite",
+  "url": "http://arxiv.org/abs/2610.02826",
+  "action": "read"
+ },
+ {
+  "at": "2026-10-05T16:22:52Z",
+  "kind": "paper",
+  "text": "New paper mentioning Qwen: Localized Conformal Safety Monitoring with Vision-Language Models for Autonomous Driving",
+  "url": "http://arxiv.org/abs/2610.02765",
+  "action": "read"
+ },
+ {
+  "at": "2026-10-05T16:22:52Z",
+  "kind": "paper",
+  "text": "New paper mentioning Qwen: A Controlled Audit of Personal AI Memory for Rating Prediction",
+  "url": "http://arxiv.org/abs/2610.02764",
+  "action": "read"
+ },
+ {
+  "at": "2026-10-05T16:22:52Z",
+  "kind": "paper",
+  "text": "New paper mentioning Qwen: Ego2World: Compiling Egocentric Cooking Videos into Executable Worlds for Belief-State Planning",
+  "url": "http://arxiv.org/abs/2610.02715",
+  "action": "read"
+ },
+ {
+  "at": "2026-10-05T16:22:52Z",
   "kind": "buzz",
-  "text": "HN front-page (101 pts): Show HN: A working 3D model of an Enigma machine",
-  "url": "https://news.ycombinator.com/item?id=49896757",
+  "text": "HN front-page (881 pts): Run Qwen 3.8 Flash Next (125B) on consumer hardware (RTX 4090) at 100T/s",
+  "url": "https://news.ycombinator.com/item?id=49953495",
   "action": "discussion"
  },
  {
-  "at": "2026-10-01T14:46:38Z",
+  "at": "2026-10-05T16:22:52Z",
   "kind": "paper",
-  "text": "New paper mentioning GLM-: Discrete Score Matching Enables Causal Discovery from Count Data",
-  "url": "http://arxiv.org/abs/2609.39326",
+  "text": "New paper mentioning GLM-: FrugalEvo: Towards Cost-Aware LLM-Guided Program Evolution",
+  "url": "http://arxiv.org/abs/2610.03675",
   "action": "read"
  },
  {
-  "at": "2026-10-01T14:46:38Z",
+  "at": "2026-10-05T16:22:52Z",
   "kind": "paper",
-  "text": "New paper mentioning GLM-: LeapQuant: Efficient Linear Attention with Accurate Recurrent State Quantization",
-  "url": "http://arxiv.org/abs/2609.38166",
+  "text": "New paper mentioning GLM-: RailWave: Adaptive Spatial and Temporal Scheduling for Expert-Parallel Communication",
+  "url": "http://arxiv.org/abs/2610.03415",
   "action": "read"
  },
  {
-  "at": "2026-10-01T14:46:38Z",
+  "at": "2026-10-05T16:22:52Z",
   "kind": "paper",
-  "text": "New paper mentioning GLM-: On the use of G-computation in small randomized controlled trials with many covariates",
-  "url": "http://arxiv.org/abs/2609.37630",
+  "text": "New paper mentioning GLM-: ParaGeo: Decomposing Paralinguistic Variation into a Shared Latent Geometry",
+  "url": "http://arxiv.org/abs/2610.03125",
   "action": "read"
  },
  {
-  "at": "2026-10-01T14:46:38Z",
+  "at": "2026-10-05T16:22:52Z",
   "kind": "paper",
-  "text": "New paper mentioning GLM-: SPLASH: Switching Parallel Layouts of Attention with Seamless Handoff for LLM Serving",
-  "url": "http://arxiv.org/abs/2609.37626",
+  "text": "New paper mentioning GLM-: Hob-VL: A Benchmark for Visually Grounded Boolean Reasoning",
+  "url": "http://arxiv.org/abs/2610.01605",
   "action": "read"
  },
  {
-  "at": "2026-10-01T14:46:38Z",
-  "kind": "paper",
-  "text": "New paper mentioning GLM-: CRJudgeBench: Can AI Detect Plausible but Invalid Code Reviews?",
-  "url": "http://arxiv.org/abs/2609.37216",
-  "action": "read"
- },
- {
-  "at": "2026-10-01T14:46:38Z",
+  "at": "2026-10-05T16:22:52Z",
   "kind": "buzz",
-  "text": "HN front-page (90 pts): Meta Uses A.I. Data Centers to Avoid Billions in Federal Taxes",
-  "url": "https://news.ycombinator.com/item?id=49921118",
+  "text": "HN front-page (269 pts): Powerless F1 drivers frustrated by Bahrain F1 software glitch",
+  "url": "https://news.ycombinator.com/item?id=49959869",
   "action": "discussion"
  },
  {
-  "at": "2026-10-01T14:46:38Z",
+  "at": "2026-10-05T16:22:52Z",
   "kind": "buzz",
-  "text": "HN front-page (108 pts): Gemini 4 Argon (High): Intelligence, Performance and Price Analysis",
-  "url": "https://news.ycombinator.com/item?id=49914236",
+  "text": "HN front-page (107 pts): VGHF Digital Archive passes 5000 magazines. Here's what's next",
+  "url": "https://news.ycombinator.com/item?id=49952029",
   "action": "discussion"
  },
  {
-  "at": "2026-10-01T14:46:38Z",
+  "at": "2026-10-05T16:22:52Z",
   "kind": "buzz",
-  "text": "HN front-page (1527 pts): Gemini 4 Argon",
-  "url": "https://news.ycombinator.com/item?id=49913571",
+  "text": "HN front-page (95 pts): How to scale intent, quality, and artistry with AI [video]",
+  "url": "https://news.ycombinator.com/item?id=49951891",
   "action": "discussion"
  },
  {
-  "at": "2026-10-01T14:46:38Z",
+  "at": "2026-10-05T16:22:52Z",
   "kind": "buzz",
-  "text": "HN front-page (52 pts): Show HN: Lathoa, a math app for kids where the AI is wrong on purpose",
-  "url": "https://news.ycombinator.com/item?id=49909648",
+  "text": "HN front-page (167 pts): City building games have a Soul Problem pt.2",
+  "url": "https://news.ycombinator.com/item?id=49945323",
   "action": "discussion"
  },
  {
-  "at": "2026-10-01T14:46:38Z",
+  "at": "2026-10-05T16:22:52Z",
   "kind": "buzz",
-  "text": "HN front-page (56 pts): Strange Parodies of Atari 2600 Video Game Box Cover Art (2008)",
-  "url": "https://news.ycombinator.com/item?id=49903383",
+  "text": "HN front-page (420 pts): Aleph Alpha Kolibri: How the sovereign German LLM works",
+  "url": "https://news.ycombinator.com/item?id=49943034",
   "action": "discussion"
  },
  {
-  "at": "2026-10-01T14:46:38Z",
+  "at": "2026-10-05T16:22:52Z",
   "kind": "paper",
-  "text": "New paper mentioning MiniMax: Cheap to Draw, Expensive to Trust: Certifying Test-Time Scaling Curves",
-  "url": "http://arxiv.org/abs/2609.40190",
+  "text": "New paper mentioning MiniMax: Bayesian Operator Learning: Posterior Existence and Convergence of Point Estimates for Gaussian Priors",
+  "url": "http://arxiv.org/abs/2610.03666",
   "action": "read"
  },
  {
-  "at": "2026-10-01T14:46:38Z",
+  "at": "2026-10-05T16:22:52Z",
   "kind": "paper",
-  "text": "New paper mentioning MiniMax: A mixing time method for estimating the sample complexity of quantum state discrimination",
-  "url": "http://arxiv.org/abs/2609.40182",
+  "text": "New paper mentioning MiniMax: The Minimax Cost of Smoothness in Fully First-Order Stochastic Bilevel Optimization",
+  "url": "http://arxiv.org/abs/2610.03638",
   "action": "read"
  },
  {
-  "at": "2026-10-01T14:46:38Z",
+  "at": "2026-10-05T16:22:52Z",
   "kind": "paper",
-  "text": "New paper mentioning MiniMax: Robust and Learned Online Matching in Growing Trees",
-  "url": "http://arxiv.org/abs/2609.40077",
+  "text": "New paper mentioning MiniMax: World Embedding Benchmark",
+  "url": "http://arxiv.org/abs/2610.03632",
   "action": "read"
  },
  {
-  "at": "2026-10-01T14:46:38Z",
+  "at": "2026-10-05T16:22:52Z",
   "kind": "paper",
-  "text": "New paper mentioning MiniMax: WEIRDO: WEak resIdual Regularized DOob's h-transform diffusion alignment",
-  "url": "http://arxiv.org/abs/2609.39531",
+  "text": "New paper mentioning MiniMax: Multiplicity of Finsler geodesics and electromagnetic trajectories via localized deformations",
+  "url": "http://arxiv.org/abs/2610.03533",
   "action": "read"
  },
  {
-  "at": "2026-10-01T14:46:38Z",
+  "at": "2026-10-05T16:22:52Z",
   "kind": "paper",
-  "text": "New paper mentioning MiniMax: Minimax Additive Regression under Unknown Dependent Designs",
-  "url": "http://arxiv.org/abs/2609.39212",
+  "text": "New paper mentioning MiniMax: Minimax entropy production for arbitrary processes",
+  "url": "http://arxiv.org/abs/2610.03478",
   "action": "read"
  },
  {
-  "at": "2026-10-01T14:46:38Z",
+  "at": "2026-10-05T16:22:52Z",
   "kind": "buzz",
-  "text": "HN front-page (166 pts): Book of Shapes \u2013 Collection of minimal, generative and customizable SVG-patterns",
-  "url": "https://news.ycombinator.com/item?id=49894430",
+  "text": "HN front-page (437 pts): FLUX 3 Image",
+  "url": "https://news.ycombinator.com/item?id=49925974",
   "action": "discussion"
  },
  {
-  "at": "2026-10-01T14:46:38Z",
-  "kind": "paper",
-  "text": "New paper mentioning Hunyuan: Hunyuan-A13B Technical Report",
-  "url": "http://arxiv.org/abs/2609.27284",
-  "action": "read"
+  "at": "2026-10-05T16:22:52Z",
+  "kind": "buzz",
+  "text": "HN front-page (54 pts): Functional Ultrasound Imaging (fUSI) from scratch",
+  "url": "https://news.ycombinator.com/item?id=49913604",
+  "action": "discussion"
  },
  {
-  "at": "2026-10-01T14:46:38Z",
-  "kind": "paper",
-  "text": "New paper mentioning Hunyuan: A Multi-View and Confusion-Guided Ensemble Framework for Robust Synthetic Image Attribution",
-  "url": "http://arxiv.org/abs/2609.11188",
-  "action": "read"
+  "at": "2026-10-05T16:22:52Z",
+  "kind": "buzz",
+  "text": "HN front-page (551 pts): Pi's Minimalism Is Its Advantage",
+  "url": "https://news.ycombinator.com/item?id=49176038",
+  "action": "discussion"
  },
  {
-  "at": "2026-10-01T14:46:38Z",
-  "kind": "paper",
-  "text": "New paper mentioning Hunyuan: AIGC Video Detection based on the fusion of spatial-frequency-optical flow multimodal features",
-  "url": "http://arxiv.org/abs/2609.26274",
-  "action": "read"
+  "at": "2026-10-05T16:22:52Z",
+  "kind": "buzz",
+  "text": "HN front-page (119 pts): A brief tour of the PDP-11, the most influential minicomputer of all time (2022)",
+  "url": "https://news.ycombinator.com/item?id=48536660",
+  "action": "discussion"
  },
  {
-  "at": "2026-10-01T14:46:38Z",
-  "kind": "paper",
-  "text": "New paper mentioning Hunyuan: Benchmarking Frontier Text-to-Image Models on Image-Description Prompts",
-  "url": "http://arxiv.org/abs/2608.14976",
-  "action": "read"
+  "at": "2026-10-05T16:22:52Z",
+  "kind": "buzz",
+  "text": "HN front-page (75 pts): The evolution of effective altruism",
+  "url": "https://news.ycombinator.com/item?id=49953777",
+  "action": "discussion"
  },
  {
-  "at": "2026-10-01T14:46:38Z",
-  "kind": "paper",
-  "text": "New paper mentioning Hunyuan: SPADE: An Input-Adaptive Sparse Attention Engine for Fast Video Diffusion Models Inference",
-  "url": "http://arxiv.org/abs/2608.03335",
-  "action": "read"
+  "at": "2026-10-05T16:22:52Z",
+  "kind": "buzz",
+  "text": "HN front-page (157 pts): Show HN: Made an open-source Lego AI generator",
+  "url": "https://news.ycombinator.com/item?id=49937916",
+  "action": "discussion"
  },
  {
-  "at": "2026-10-01T14:46:38Z",
-  "kind": "paper",
-  "text": "New paper mentioning MiniCPM: LEAP: Learned Block-wise Evidence Retrieval for Long Audio-Video Perception",
-  "url": "http://arxiv.org/abs/2609.39938",
-  "action": "read"
+  "at": "2026-10-05T16:22:52Z",
+  "kind": "buzz",
+  "text": "HN front-page (89 pts): The first packet sent via RFC1149 avian carrier is up for auction at Christie's",
+  "url": "https://news.ycombinator.com/item?id=49932911",
+  "action": "discussion"
  },
  {
-  "at": "2026-10-01T14:46:38Z",
-  "kind": "paper",
-  "text": "New paper mentioning MiniCPM: MultiTalk: Scaling Full-Duplex Speech Models to Long, Multi-Party, Bilingual Conversation",
-  "url": "http://arxiv.org/abs/2609.36903",
-  "action": "read"
+  "at": "2026-10-05T16:22:40Z",
+  "kind": "trending",
+  "text": "Trending outside tracked labs: Cloudflare/clef (5,416 downloads)",
+  "url": "https://huggingface.co/Cloudflare/clef",
+  "action": "view"
  },
  {
-  "at": "2026-10-01T14:46:38Z",
-  "kind": "paper",
-  "text": "New paper mentioning MiniCPM: Duplex-MPE: Benchmarking Multi-Party Interaction in Full-Duplex Dialogue",
-  "url": "http://arxiv.org/abs/2609.31948",
-  "action": "read"
+  "at": "2026-10-05T16:22:40Z",
+  "kind": "trending",
+  "text": "Trending outside tracked labs: convaiinnovations/laya (11,733 downloads)",
+  "url": "https://huggingface.co/convaiinnovations/laya",
+  "action": "view"
  },
  {
-  "at": "2026-10-01T14:46:38Z",
-  "kind": "paper",
-  "text": "New paper mentioning MiniCPM: Acoustic-to-Text KV Compression for Full-Duplex Speech Models",
-  "url": "http://arxiv.org/abs/2609.31224",
-  "action": "read"
+  "at": "2026-10-05T16:22:40Z",
+  "kind": "trending",
+  "text": "Trending outside tracked labs: Aleph-Alpha/Kolibri-1 (2,453 downloads)",
+  "url": "https://huggingface.co/Aleph-Alpha/Kolibri-1",
+  "action": "view"
  },
  {
-  "at": "2026-10-01T14:46:38Z",
-  "kind": "paper",
-  "text": "New paper mentioning MiniCPM: AdaptDuplex: from static to adaptive full-duplex spoken dialogue",
-  "url": "http://arxiv.org/abs/2609.29217",
-  "action": "read"
+  "at": "2026-10-05T16:22:40Z",
+  "kind": "trending",
+  "text": "Trending outside tracked labs: Cloudflare/clef-flash (8,075 downloads)",
+  "url": "https://huggingface.co/Cloudflare/clef-flash",
+  "action": "view"
  },
  {
-  "at": "2026-10-01T14:46:38Z",
-  "kind": "paper",
-  "text": "New paper mentioning InternLM: Think Visually, Reason Textually: Vision-Language Synergy in ARC",
-  "url": "http://arxiv.org/abs/2511.15703",
-  "action": "read"
+  "at": "2026-10-05T16:22:40Z",
+  "kind": "trending",
+  "text": "Trending outside tracked labs: Venastine-Research/Xing4.0-29B-A4B-GGUF (18,863 downloads)",
+  "url": "https://huggingface.co/Venastine-Research/Xing4.0-29B-A4B-GGUF",
+  "action": "view"
+ },
+ {
+  "at": "2026-10-05T16:22:40Z",
+  "kind": "trending",
+  "text": "Trending outside tracked labs: PSRben/VisionHOPE (1,654 downloads)",
+  "url": "https://huggingface.co/PSRben/VisionHOPE",
+  "action": "view"
  }
 ]
