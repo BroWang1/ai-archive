@@ -166,7 +166,17 @@
           "verified_files": 1,
           "mirrored_at": "2026-09-18T04:49:36Z"
         },
-        "master": null
+        "master": null,
+        "vault": {
+          "at": "2026-09-25T20:54:53Z",
+          "revision": "9f30c71f441d010e5429c532364a86705536c53a",
+          "box_path": "ai-archive/deepseek-ai/DeepSeek-OCR/9f30c71f441d010e5429c532364a86705536c53a/"
+        },
+        "torrent": {
+          "file": "torrents/deepseek-ai__DeepSeek-OCR.torrent",
+          "infohash": "e40798f2f41226a13b75053afbff1185231460ca",
+          "magnet": "magnet:?xt=urn:btih:e40798f2f41226a13b75053afbff1185231460ca&dn=deepseek-ai__DeepSeek-OCR&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce"
+        }
       }
     }
   ],

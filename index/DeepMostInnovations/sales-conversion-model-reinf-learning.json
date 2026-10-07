@@ -108,7 +108,17 @@
           "verified_files": 0,
           "mirrored_at": "2026-09-21T06:29:53Z"
         },
-        "master": null
+        "master": null,
+        "vault": {
+          "at": "2026-09-25T20:26:27Z",
+          "revision": "105963aa2bcdaa9a41600366ee7218bb03e397d2",
+          "box_path": "ai-archive/DeepMostInnovations/sales-conversion-model-reinf-learning/105963aa2bcdaa9a41600366ee7218bb03e397d2/"
+        },
+        "torrent": {
+          "file": "torrents/DeepMostInnovations__sales-conversion-model-reinf-learning.torrent",
+          "infohash": "49f99a1595ed4484636d8562f1def991414b0bea",
+          "magnet": "magnet:?xt=urn:btih:49f99a1595ed4484636d8562f1def991414b0bea&dn=DeepMostInnovations__sales-conversion-model-reinf-learning&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce"
+        }
       }
     }
   ],

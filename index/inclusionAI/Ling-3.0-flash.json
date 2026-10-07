@@ -268,7 +268,17 @@
       "serving": null,
       "mirrors": {
         "hf": null,
-        "master": null
+        "master": null,
+        "vault": {
+          "at": "2026-09-26T19:03:18Z",
+          "revision": "e0dfe7cd0f6e3b572bbbc0a8a84947469e428cc3",
+          "box_path": "ai-archive/inclusionAI/Ling-3.0-flash/e0dfe7cd0f6e3b572bbbc0a8a84947469e428cc3/"
+        },
+        "torrent": {
+          "file": "torrents/inclusionAI__Ling-3.0-flash.torrent",
+          "infohash": "0dd8fb94a571d9dff9efe593589ce901b5300fa0",
+          "magnet": "magnet:?xt=urn:btih:0dd8fb94a571d9dff9efe593589ce901b5300fa0&dn=inclusionAI__Ling-3.0-flash&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce"
+        }
       }
     }
   ],

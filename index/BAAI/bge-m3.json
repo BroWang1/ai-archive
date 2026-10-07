@@ -214,7 +214,17 @@
       "serving": null,
       "mirrors": {
         "hf": null,
-        "master": null
+        "master": null,
+        "vault": {
+          "at": "2026-09-25T21:59:35Z",
+          "revision": "5617a9f61b028005a4858fdac845db406aefb181",
+          "box_path": "ai-archive/BAAI/bge-m3/5617a9f61b028005a4858fdac845db406aefb181/"
+        },
+        "torrent": {
+          "file": "torrents/BAAI__bge-m3.torrent",
+          "infohash": "d18ec00794d8531f7dfe9cf9c2b217fa3a6957c1",
+          "magnet": "magnet:?xt=urn:btih:d18ec00794d8531f7dfe9cf9c2b217fa3a6957c1&dn=BAAI__bge-m3&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce"
+        }
       }
     }
   ],

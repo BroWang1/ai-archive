@@ -148,7 +148,17 @@
       "serving": null,
       "mirrors": {
         "hf": null,
-        "master": null
+        "master": null,
+        "vault": {
+          "at": "2026-09-25T23:50:33Z",
+          "revision": "574e6a744642ce3bee319afc31496b88bde8aac4",
+          "box_path": "ai-archive/Wan-AI/Wan2.1-VACE-1.3B/574e6a744642ce3bee319afc31496b88bde8aac4/"
+        },
+        "torrent": {
+          "file": "torrents/Wan-AI__Wan2.1-VACE-1.3B.torrent",
+          "infohash": "d287eb7de44c72f69da97c0a0fcdc42400d6fcc8",
+          "magnet": "magnet:?xt=urn:btih:d287eb7de44c72f69da97c0a0fcdc42400d6fcc8&dn=Wan-AI__Wan2.1-VACE-1.3B&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce"
+        }
       }
     }
   ],

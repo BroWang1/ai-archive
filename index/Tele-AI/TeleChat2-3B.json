@@ -130,7 +130,17 @@
       "serving": null,
       "mirrors": {
         "hf": null,
-        "master": null
+        "master": null,
+        "vault": {
+          "at": "2026-09-25T22:19:32Z",
+          "revision": "b364de9538e146f7a99519d5ed6c9855f76bfdf0",
+          "box_path": "ai-archive/Tele-AI/TeleChat2-3B/b364de9538e146f7a99519d5ed6c9855f76bfdf0/"
+        },
+        "torrent": {
+          "file": "torrents/Tele-AI__TeleChat2-3B.torrent",
+          "infohash": "bb7c166eebc421e7e756e1d0438994fcae79669a",
+          "magnet": "magnet:?xt=urn:btih:bb7c166eebc421e7e756e1d0438994fcae79669a&dn=Tele-AI__TeleChat2-3B&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce"
+        }
       }
     }
   ],

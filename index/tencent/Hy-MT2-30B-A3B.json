@@ -646,7 +646,17 @@
       "serving": null,
       "mirrors": {
         "hf": null,
-        "master": null
+        "master": null,
+        "vault": {
+          "at": "2026-09-26T04:10:33Z",
+          "revision": "d3ead4dba61c09aac60a261a96ad1df3e705febb",
+          "box_path": "ai-archive/tencent/Hy-MT2-30B-A3B/d3ead4dba61c09aac60a261a96ad1df3e705febb/"
+        },
+        "torrent": {
+          "file": "torrents/tencent__Hy-MT2-30B-A3B.torrent",
+          "infohash": "a18a2c2a675647a48b558e217f401d9d2a3719e7",
+          "magnet": "magnet:?xt=urn:btih:a18a2c2a675647a48b558e217f401d9d2a3719e7&dn=tencent__Hy-MT2-30B-A3B&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce"
+        }
       }
     }
   ],

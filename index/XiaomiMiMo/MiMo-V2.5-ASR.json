@@ -166,7 +166,17 @@
       "serving": null,
       "mirrors": {
         "hf": null,
-        "master": null
+        "master": null,
+        "vault": {
+          "at": "2026-09-26T00:43:15Z",
+          "revision": "98641d537df521ac6df05f74090475694d9510b7",
+          "box_path": "ai-archive/XiaomiMiMo/MiMo-V2.5-ASR/98641d537df521ac6df05f74090475694d9510b7/"
+        },
+        "torrent": {
+          "file": "torrents/XiaomiMiMo__MiMo-V2.5-ASR.torrent",
+          "infohash": "077fb7351d33eaae8129fa65214a65402379833d",
+          "magnet": "magnet:?xt=urn:btih:077fb7351d33eaae8129fa65214a65402379833d&dn=XiaomiMiMo__MiMo-V2.5-ASR&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce"
+        }
       }
     }
   ],

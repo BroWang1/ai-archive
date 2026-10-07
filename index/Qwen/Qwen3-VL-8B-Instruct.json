@@ -130,7 +130,17 @@
       "serving": null,
       "mirrors": {
         "hf": null,
-        "master": null
+        "master": null,
+        "vault": {
+          "at": "2026-09-25T23:28:53Z",
+          "revision": "0c351dd01ed87e9c1b53cbc748cba10e6187ff3b",
+          "box_path": "ai-archive/Qwen/Qwen3-VL-8B-Instruct/0c351dd01ed87e9c1b53cbc748cba10e6187ff3b/"
+        },
+        "torrent": {
+          "file": "torrents/Qwen__Qwen3-VL-8B-Instruct.torrent",
+          "infohash": "a0595dbe1d83cd59c00531e6383b30d7dde06d9e",
+          "magnet": "magnet:?xt=urn:btih:a0595dbe1d83cd59c00531e6383b30d7dde06d9e&dn=Qwen__Qwen3-VL-8B-Instruct&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce"
+        }
       }
     }
   ],

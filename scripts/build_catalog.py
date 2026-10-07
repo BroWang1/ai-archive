@@ -21,6 +21,9 @@ def collect():
             "freedom": lic.get("freedom", "conditional"),
             "note": lic.get("freedom_note", ""),
             "mirrored": bool((cap.get("mirrors") or {}).get("hf")),
+            "vaulted": bool((cap.get("mirrors") or {}).get("vault")),
+            "torrent": ((cap.get("mirrors") or {}).get("torrent") or {}).get("file", ""),
+            "magnet": ((cap.get("mirrors") or {}).get("torrent") or {}).get("magnet", ""),
             "gated": bool(cap.get("gate_terms_sha256")),
             "rev": cap["revision"][:12],
             "captured": cap["captured_at"][:10],
@@ -223,6 +226,11 @@ tr:last-child td{border-bottom:none}
 .mir{font-family:var(--mono);font-size:12px;color:var(--free);white-space:nowrap}
 .mir a{color:inherit}
 .not{font-family:var(--mono);font-size:12px;color:var(--muted);white-space:nowrap}
+.dl{display:inline-block;font-family:var(--mono);font-size:12px;font-weight:600;color:#fff;background:var(--seal);padding:2px 10px;border-radius:99px;text-decoration:none;white-space:nowrap}
+.dl:hover{opacity:.85}
+.dl2{font-family:var(--mono);font-size:11.5px;color:var(--seal);text-decoration:none;white-space:nowrap}
+.dlrow{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-top:6px}
+.dlnote{font-size:12.5px;color:var(--muted)}
 footer{margin-top:16px;color:var(--muted);font-size:12.5px;display:flex;gap:16px;flex-wrap:wrap}
 footer a{color:var(--seal)}
 @media (max-width:640px){ .model .note{max-width:none} }
@@ -230,7 +238,9 @@ footer a{color:var(--seal)}
 <div class="wrap">
 <header>
   <h1><span class="seal">AI</span>Archive Catalog</h1>
-  <span class="sub">Preservation records for frontier open-weight models — filter by license freedom</span>
+  <span class="sub">Preservation records for frontier open-weight models — every preserved model has a
+  <b>torrent</b> download that works without Hugging Face (open .torrent files with any free app,
+  e.g. qBittorrent or Transmission)</span>
 </header>
 <section class="news">
   <h2>Latest from the archive <a href="/news.xml">RSS</a></h2>
@@ -283,12 +293,13 @@ footer a{color:var(--seal)}
   <thead><tr>
     <th data-k="id">Model</th><th data-k="org">Lab</th>
     <th data-k="gb" class="num">Weights</th><th data-k="freedom">Freedom</th>
-    <th data-k="mirrored">Backup</th>
+    <th data-k="mirrored">Download</th>
   </tr></thead>
   <tbody id="rows"></tbody>
 </table></div>
 <footer>
-  <span>Generated __DATE__ · __N__ models · __TB__ TB manifested</span>
+  <span>Generated __DATE__ · __N__ models · __TB__ TB manifested · torrent links are fully
+  independent of Hugging Face — they keep working even if a model is removed there</span>
   <a href="https://github.com/BroWang1/ai-archive">catalog source &amp; fingerprints</a>
   <a href="https://huggingface.co/AIArchiveInfo">mirror org</a>
   <a href="/takedown.html">takedown policy</a>
@@ -304,6 +315,7 @@ document.getElementById("newslist").innerHTML = NEWS.map(e=>
   (e.url ? `<a class="na" href="${e.url}" target="_blank" rel="noopener">${e.action} →</a>` : "")
   ).join("");
 const MIRRORED = new Set(DATA.filter(r=>r.mirrored).map(r=>r.id));
+const TORRENTS = Object.fromEntries(DATA.filter(r=>r.torrent).map(r=>[r.id, r]));
 const LADDERS = {
   general: [[0,"openbmb/MiniCPM5-2B","2.5B that beats 4B-class models; official phone builds"],
             [1,"Qwen/Qwen3.5-9B","The most-downloaded model on Hugging Face; multimodal"],
@@ -365,6 +377,7 @@ function renderWizard(){
   el.innerHTML = `
     <span class="wname"><a href="${url}" target="_blank" rel="noopener">${name}</a></span>
     <span class="wmeta">${repo} · original weights ${size} · quantized versions are typically ¼–½ of that${row && row.mirrored ? " · ✓ preserved in this archive" : ""}</span>
+    ${row && row.torrent ? `<span class="dlrow"><a class="dl" href="${row.torrent}">⬇ Download torrent — no Hugging Face needed</a> <a class="dl2" href="${row.magnet}">magnet</a> <a class="dl2" href="${url}" target="_blank" rel="noopener">HF mirror</a></span>` : ""}
     <span class="wwhy">${note}.</span>
     <span class="wrun"><b>Run it:</b> 1) install <b>LM Studio</b> (lmstudio.ai) or <b>Ollama</b> (ollama.com) —
     both free · 2) search for “${name}” inside the app · 3) pick the largest quantized version that fits your
@@ -385,6 +398,7 @@ function renderPicks(){
       return `<div class="pick"><span class="plabel">${p.label}</span>
         <span class="pname"><a href="${url}" target="_blank" rel="noopener">${p.pick.split("/")[1]}</a></span>
         ${mir?'<span class="pmir">✓ preserved mirror</span>':""}
+        ${TORRENTS[p.pick]?`<span class="dlrow"><a class="dl" href="${TORRENTS[p.pick].torrent}" title="direct download, no Hugging Face involved">⬇ torrent</a> <a class="dl2" href="${TORRENTS[p.pick].magnet}">magnet</a></span>`:""}
         <span class="pwhy">${p.why}</span>
         ${runners?`<span class="prun">also: ${runners}</span>`:""}</div>`;
     }).join("");
@@ -429,8 +443,8 @@ function render(){
     <td class="org">${r.org}</td>
     <td class="gb">${fmt(r.gb)}</td>
     <td><span class="badge b-${r.freedom}">${TIER_LABEL[r.freedom]}</span>${r.gated?' <span class="not">gated</span>':""}</td>
-    <td>${r.mirrored?`<span class="mir">✓ <a href="https://huggingface.co/AIArchiveInfo/${r.id.split("/")[1]}" target="_blank" rel="noopener">mirrored</a></span>`
-                    :`<span class="not">catalog only</span>`}</td>
+    <td>${r.torrent?`<a class="dl" href="${r.torrent}" title="direct download — works even if the model vanishes from Hugging Face">⬇ torrent</a> <a class="dl2" href="${r.magnet}" title="magnet link">🧲</a> `:""}${r.mirrored?`<span class="mir">✓ <a href="https://huggingface.co/AIArchiveInfo/${r.id.split("/")[1]}" target="_blank" rel="noopener">mirror</a></span>`
+                    :(r.torrent?"":`<span class="not">catalog only</span>`)}${r.vaulted?` <span class="mir" title="independent copy held off Hugging Face">✓ vault</span>`:""}</td>
   </tr>`).join("");
 }
 document.getElementById("q").addEventListener("input", e=>{state.q=e.target.value; render();});

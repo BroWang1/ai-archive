@@ -124,7 +124,17 @@
       "serving": null,
       "mirrors": {
         "hf": null,
-        "master": null
+        "master": null,
+        "vault": {
+          "at": "2026-09-25T23:12:10Z",
+          "revision": "6299b5a2c45daf0c429285c92b8e61a5bd011c0d",
+          "box_path": "ai-archive/XiaomiMiMo/MiMo-7B-RL/6299b5a2c45daf0c429285c92b8e61a5bd011c0d/"
+        },
+        "torrent": {
+          "file": "torrents/XiaomiMiMo__MiMo-7B-RL.torrent",
+          "infohash": "0fd42117659dbcd2b3f807f961e730cabcefeab9",
+          "magnet": "magnet:?xt=urn:btih:0fd42117659dbcd2b3f807f961e730cabcefeab9&dn=XiaomiMiMo__MiMo-7B-RL&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce"
+        }
       }
     }
   ],

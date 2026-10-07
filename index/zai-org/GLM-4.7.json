@@ -658,7 +658,17 @@
       "serving": null,
       "mirrors": {
         "hf": null,
-        "master": null
+        "master": null,
+        "vault": {
+          "at": "2026-09-28T15:36:13Z",
+          "revision": "602d01efcdd332c5238ca4bcede555defbe83eb7",
+          "box_path": "ai-archive/zai-org/GLM-4.7/602d01efcdd332c5238ca4bcede555defbe83eb7/"
+        },
+        "torrent": {
+          "file": "torrents/zai-org__GLM-4.7.torrent",
+          "infohash": "86ac559533f82f24abfd8d57bbf33166152eb4a5",
+          "magnet": "magnet:?xt=urn:btih:86ac559533f82f24abfd8d57bbf33166152eb4a5&dn=zai-org__GLM-4.7&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce"
+        }
       }
     }
   ],

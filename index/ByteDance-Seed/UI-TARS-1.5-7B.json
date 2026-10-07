@@ -148,7 +148,17 @@
       "serving": null,
       "mirrors": {
         "hf": null,
-        "master": null
+        "master": null,
+        "vault": {
+          "at": "2026-09-26T01:17:22Z",
+          "revision": "683d002dd99d8f95104d31e70391a39348857f4e",
+          "box_path": "ai-archive/ByteDance-Seed/UI-TARS-1.5-7B/683d002dd99d8f95104d31e70391a39348857f4e/"
+        },
+        "torrent": {
+          "file": "torrents/ByteDance-Seed__UI-TARS-1.5-7B.torrent",
+          "infohash": "e5b494edc440c86dc99e2d4a11c1cb99620ebce8",
+          "magnet": "magnet:?xt=urn:btih:e5b494edc440c86dc99e2d4a11c1cb99620ebce8&dn=ByteDance-Seed__UI-TARS-1.5-7B&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce"
+        }
       }
     }
   ],

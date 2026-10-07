@@ -406,7 +406,17 @@
       "serving": null,
       "mirrors": {
         "hf": null,
-        "master": null
+        "master": null,
+        "vault": {
+          "at": "2026-09-27T01:58:04Z",
+          "revision": "ab446a3de5e171ea341227e24bb1f090e1b771f7",
+          "box_path": "ai-archive/stepfun-ai/Step-3.5-Flash/ab446a3de5e171ea341227e24bb1f090e1b771f7/"
+        },
+        "torrent": {
+          "file": "torrents/stepfun-ai__Step-3.5-Flash.torrent",
+          "infohash": "807d781ae14e8be25eb5caefe0c6fd8317ba0084",
+          "magnet": "magnet:?xt=urn:btih:807d781ae14e8be25eb5caefe0c6fd8317ba0084&dn=stepfun-ai__Step-3.5-Flash&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce"
+        }
       }
     }
   ],

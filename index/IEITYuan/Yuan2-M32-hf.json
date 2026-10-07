@@ -154,7 +154,17 @@
       "serving": null,
       "mirrors": {
         "hf": null,
-        "master": null
+        "master": null,
+        "vault": {
+          "at": "2026-09-26T10:09:41Z",
+          "revision": "3f5371ba89e7468ea91a7d596371f8e4c6a63003",
+          "box_path": "ai-archive/IEITYuan/Yuan2-M32-hf/3f5371ba89e7468ea91a7d596371f8e4c6a63003/"
+        },
+        "torrent": {
+          "file": "torrents/IEITYuan__Yuan2-M32-hf.torrent",
+          "infohash": "a791d12c2acbc91cdb83499bdec13d9165219e85",
+          "magnet": "magnet:?xt=urn:btih:a791d12c2acbc91cdb83499bdec13d9165219e85&dn=IEITYuan__Yuan2-M32-hf&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce"
+        }
       }
     }
   ],

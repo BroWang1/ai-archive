@@ -706,7 +706,17 @@
           "verified_files": 96,
           "mirrored_at": "2026-09-18T04:49:27Z"
         },
-        "master": null
+        "master": null,
+        "vault": {
+          "at": "2026-09-27T12:00:41Z",
+          "revision": "03a1fd5e4d5045b175cd850c576b1f92b335261e",
+          "box_path": "ai-archive/baichuan-inc/Baichuan-M3-235B/03a1fd5e4d5045b175cd850c576b1f92b335261e/"
+        },
+        "torrent": {
+          "file": "torrents/baichuan-inc__Baichuan-M3-235B.torrent",
+          "infohash": "b7c31cc84758d7c1f36d1cd6745bd0db988fdca1",
+          "magnet": "magnet:?xt=urn:btih:b7c31cc84758d7c1f36d1cd6745bd0db988fdca1&dn=baichuan-inc__Baichuan-M3-235B&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce"
+        }
       }
     }
   ],

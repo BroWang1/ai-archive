@@ -136,7 +136,17 @@
       "serving": null,
       "mirrors": {
         "hf": null,
-        "master": null
+        "master": null,
+        "vault": {
+          "at": "2026-09-25T23:03:33Z",
+          "revision": "1d8ad4ca9b3dd8059ad90a75d4983776a23d44af",
+          "box_path": "ai-archive/Qwen/Qwen3-Embedding-8B/1d8ad4ca9b3dd8059ad90a75d4983776a23d44af/"
+        },
+        "torrent": {
+          "file": "torrents/Qwen__Qwen3-Embedding-8B.torrent",
+          "infohash": "fc2e3670c86de450f4270b09cee582a972db0e73",
+          "magnet": "magnet:?xt=urn:btih:fc2e3670c86de450f4270b09cee582a972db0e73&dn=Qwen__Qwen3-Embedding-8B&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce"
+        }
       }
     }
   ],

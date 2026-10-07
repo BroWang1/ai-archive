@@ -784,7 +784,17 @@
       "serving": null,
       "mirrors": {
         "hf": null,
-        "master": null
+        "master": null,
+        "vault": {
+          "at": "2026-09-26T01:46:47Z",
+          "revision": "5f0742d6ffbf99a7858b5abb030325953f4979f0",
+          "box_path": "ai-archive/inclusionAI/Realtime-Venus/5f0742d6ffbf99a7858b5abb030325953f4979f0/"
+        },
+        "torrent": {
+          "file": "torrents/inclusionAI__Realtime-Venus.torrent",
+          "infohash": "3983e4c3773f3307ce545b42c98ff0371a4af214",
+          "magnet": "magnet:?xt=urn:btih:3983e4c3773f3307ce545b42c98ff0371a4af214&dn=inclusionAI__Realtime-Venus&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce"
+        }
       }
     }
   ],

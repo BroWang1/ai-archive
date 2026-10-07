@@ -136,7 +136,17 @@
           "verified_files": 4,
           "mirrored_at": "2026-09-18T04:49:06Z"
         },
-        "master": null
+        "master": null,
+        "vault": {
+          "at": "2026-09-25T23:53:08Z",
+          "revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+          "box_path": "ai-archive/Qwen/Qwen3.5-9B/c202236235762e1c871ad0ccb60c8ee5ba337b9a/"
+        },
+        "torrent": {
+          "file": "torrents/Qwen__Qwen3.5-9B.torrent",
+          "infohash": "2ac71f3f87485c2b719a9f9e39fc8f529b2e5d48",
+          "magnet": "magnet:?xt=urn:btih:2ac71f3f87485c2b719a9f9e39fc8f529b2e5d48&dn=Qwen__Qwen3.5-9B&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce"
+        }
       }
     }
   ],

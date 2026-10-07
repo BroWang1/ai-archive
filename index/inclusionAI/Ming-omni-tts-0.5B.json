@@ -106,7 +106,17 @@
       "serving": null,
       "mirrors": {
         "hf": null,
-        "master": null
+        "master": null,
+        "vault": {
+          "at": "2026-09-25T22:07:41Z",
+          "revision": "9154772e7fbc585907b6237e3190790676f28975",
+          "box_path": "ai-archive/inclusionAI/Ming-omni-tts-0.5B/9154772e7fbc585907b6237e3190790676f28975/"
+        },
+        "torrent": {
+          "file": "torrents/inclusionAI__Ming-omni-tts-0.5B.torrent",
+          "infohash": "e7aa98e9bff37e58ce37b183eadac6fe6a16bea9",
+          "magnet": "magnet:?xt=urn:btih:e7aa98e9bff37e58ce37b183eadac6fe6a16bea9&dn=inclusionAI__Ming-omni-tts-0.5B&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce"
+        }
       }
     }
   ],

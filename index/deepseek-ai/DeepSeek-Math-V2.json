@@ -1108,7 +1108,17 @@
       "serving": null,
       "mirrors": {
         "hf": null,
-        "master": null
+        "master": null,
+        "vault": {
+          "at": "2026-09-28T00:41:55Z",
+          "revision": "6ea7c60b42df79beac8cfa51ccb7e19b9e7b6e95",
+          "box_path": "ai-archive/deepseek-ai/DeepSeek-Math-V2/6ea7c60b42df79beac8cfa51ccb7e19b9e7b6e95/"
+        },
+        "torrent": {
+          "file": "torrents/deepseek-ai__DeepSeek-Math-V2.torrent",
+          "infohash": "acfca2b4a5702cd6ca5bc7114c38baba68cef547",
+          "magnet": "magnet:?xt=urn:btih:acfca2b4a5702cd6ca5bc7114c38baba68cef547&dn=deepseek-ai__DeepSeek-Math-V2&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce"
+        }
       }
     }
   ],

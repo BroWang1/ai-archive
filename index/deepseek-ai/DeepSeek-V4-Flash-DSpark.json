@@ -478,7 +478,17 @@
       "serving": null,
       "mirrors": {
         "hf": null,
-        "master": null
+        "master": null,
+        "vault": {
+          "at": "2026-09-26T15:24:16Z",
+          "revision": "62af8fffb2f7030cac4de2f0169f5b8d1101b646",
+          "box_path": "ai-archive/deepseek-ai/DeepSeek-V4-Flash-DSpark/62af8fffb2f7030cac4de2f0169f5b8d1101b646/"
+        },
+        "torrent": {
+          "file": "torrents/deepseek-ai__DeepSeek-V4-Flash-DSpark.torrent",
+          "infohash": "9c9b69a65048b9ac225666a7ef681094bfcc1ff1",
+          "magnet": "magnet:?xt=urn:btih:9c9b69a65048b9ac225666a7ef681094bfcc1ff1&dn=deepseek-ai__DeepSeek-V4-Flash-DSpark&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce"
+        }
       }
     }
   ],

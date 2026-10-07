@@ -5,21 +5,1634 @@
       "revision": "105963aa2bcdaa9a41600366ee7218bb03e397d2",
       "bytes": 0,
       "verified_files": 0,
-      "box_path": "ai-archive/DeepMostInnovations/sales-conversion-model-reinf-learning/105963aa2bcdaa9a41600366ee7218bb03e397d2/"
+      "box_path": "ai-archive/DeepMostInnovations/sales-conversion-model-reinf-learning/105963aa2bcdaa9a41600366ee7218bb03e397d2/",
+      "torrent": {
+        "file": "DeepMostInnovations__sales-conversion-model-reinf-learning.torrent",
+        "infohash": "49f99a1595ed4484636d8562f1def991414b0bea",
+        "magnet": "magnet:?xt=urn:btih:49f99a1595ed4484636d8562f1def991414b0bea&dn=DeepMostInnovations__sales-conversion-model-reinf-learning&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 4194304
+      }
     },
     "Qwen/Qwen3-Embedding-0.6B": {
       "at": "2026-09-25T20:29:23Z",
       "revision": "97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3",
       "bytes": 1191586416,
       "verified_files": 0,
-      "box_path": "ai-archive/Qwen/Qwen3-Embedding-0.6B/97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3/"
+      "box_path": "ai-archive/Qwen/Qwen3-Embedding-0.6B/97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3/",
+      "torrent": {
+        "file": "Qwen__Qwen3-Embedding-0.6B.torrent",
+        "infohash": "5601a80965174388bcd17f7bbbf88586ce84a61d",
+        "magnet": "magnet:?xt=urn:btih:5601a80965174388bcd17f7bbbf88586ce84a61d&dn=Qwen__Qwen3-Embedding-0.6B&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 4194304
+      }
     },
     "Qwen/Qwen3-0.6B": {
       "at": "2026-09-25T20:33:11Z",
       "revision": "c1899de289a04d12100db370d81485cdf75e47ca",
       "bytes": 1503300328,
       "verified_files": 0,
-      "box_path": "ai-archive/Qwen/Qwen3-0.6B/c1899de289a04d12100db370d81485cdf75e47ca/"
+      "box_path": "ai-archive/Qwen/Qwen3-0.6B/c1899de289a04d12100db370d81485cdf75e47ca/",
+      "torrent": {
+        "file": "Qwen__Qwen3-0.6B.torrent",
+        "infohash": "9d08f06e406c506a1714db2a5e5ad234d5ee2424",
+        "magnet": "magnet:?xt=urn:btih:9d08f06e406c506a1714db2a5e5ad234d5ee2424&dn=Qwen__Qwen3-0.6B&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 4194304
+      }
+    },
+    "deepseek-ai/DeepSeek-OCR": {
+      "at": "2026-09-25T20:54:53Z",
+      "revision": "9f30c71f441d010e5429c532364a86705536c53a",
+      "bytes": 6672547120,
+      "verified_files": 0,
+      "box_path": "ai-archive/deepseek-ai/DeepSeek-OCR/9f30c71f441d010e5429c532364a86705536c53a/",
+      "torrent": {
+        "file": "deepseek-ai__DeepSeek-OCR.torrent",
+        "infohash": "e40798f2f41226a13b75053afbff1185231460ca",
+        "magnet": "magnet:?xt=urn:btih:e40798f2f41226a13b75053afbff1185231460ca&dn=deepseek-ai__DeepSeek-OCR&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 4194304
+      }
+    },
+    "01-ai/Yi-6B-Chat": {
+      "at": "2026-09-25T20:58:44Z",
+      "revision": "2dbf63b0cb7bc493c0243502c6e6111a36e3a093",
+      "bytes": 12122104808,
+      "verified_files": 0,
+      "box_path": "ai-archive/01-ai/Yi-6B-Chat/2dbf63b0cb7bc493c0243502c6e6111a36e3a093/",
+      "torrent": {
+        "file": "01-ai__Yi-6B-Chat.torrent",
+        "infohash": "62b171dfba94480313585cef9031ea1ca10a6702",
+        "magnet": "magnet:?xt=urn:btih:62b171dfba94480313585cef9031ea1ca10a6702&dn=01-ai__Yi-6B-Chat&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 4194304
+      }
+    },
+    "Qwen/Qwen2.5-7B-Instruct": {
+      "at": "2026-09-25T21:04:58Z",
+      "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+      "bytes": 15231271888,
+      "verified_files": 0,
+      "box_path": "ai-archive/Qwen/Qwen2.5-7B-Instruct/a09a35458c702b33eeacc393d103063234e8bc28/",
+      "torrent": {
+        "file": "Qwen__Qwen2.5-7B-Instruct.torrent",
+        "infohash": "0c9c058eedbcc78a60b87adda7249a2a3e9263f8",
+        "magnet": "magnet:?xt=urn:btih:0c9c058eedbcc78a60b87adda7249a2a3e9263f8&dn=Qwen__Qwen2.5-7B-Instruct&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 4194304
+      }
+    },
+    "Qwen/Qwen3-8B": {
+      "at": "2026-09-25T21:09:51Z",
+      "revision": "b968826d9c46dd6066d109eabc6255188de91218",
+      "bytes": 16381516776,
+      "verified_files": 0,
+      "box_path": "ai-archive/Qwen/Qwen3-8B/b968826d9c46dd6066d109eabc6255188de91218/",
+      "torrent": {
+        "file": "Qwen__Qwen3-8B.torrent",
+        "infohash": "7eff9c260d87c52c80e8c29938410dd9cd318af6",
+        "magnet": "magnet:?xt=urn:btih:7eff9c260d87c52c80e8c29938410dd9cd318af6&dn=Qwen__Qwen3-8B&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 4194304
+      }
+    },
+    "ByteDance-Seed/academic-ds-9B": {
+      "at": "2026-09-25T21:16:13Z",
+      "revision": "2a205727f616995ad4aba57806f8e2d0d2f28743",
+      "bytes": 18733381272,
+      "verified_files": 0,
+      "box_path": "ai-archive/ByteDance-Seed/academic-ds-9B/2a205727f616995ad4aba57806f8e2d0d2f28743/",
+      "torrent": {
+        "file": "ByteDance-Seed__academic-ds-9B.torrent",
+        "infohash": "9ee8aa960dc7f3ca0a1695c44b4a8f01756e17cb",
+        "magnet": "magnet:?xt=urn:btih:9ee8aa960dc7f3ca0a1695c44b4a8f01756e17cb&dn=ByteDance-Seed__academic-ds-9B&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 4194304
+      }
+    },
+    "meta-models/Muse-Glimmer-30B-ExecuTorch-PTE": {
+      "at": "2026-09-25T22:00:00Z",
+      "revision": "skipped",
+      "bytes": 0,
+      "verified_files": 0,
+      "box_path": null,
+      "note": "SKIPPED: ExecuTorch export OOMs 2GB worker; derivative format, native repo vaulted separately"
+    },
+    "stepfun-ai/GOT-OCR-2.0-hf": {
+      "at": "2026-09-25T21:55:07Z",
+      "revision": "d3017ef2c2c1395888c8d635c5e0508bcb0ac78d",
+      "bytes": 1121114488,
+      "verified_files": 0,
+      "box_path": "ai-archive/stepfun-ai/GOT-OCR-2.0-hf/d3017ef2c2c1395888c8d635c5e0508bcb0ac78d/",
+      "torrent": {
+        "file": "stepfun-ai__GOT-OCR-2.0-hf.torrent",
+        "infohash": "e3b3fe62026cc05037c48adf70a55d47117f8a8d",
+        "magnet": "magnet:?xt=urn:btih:e3b3fe62026cc05037c48adf70a55d47117f8a8d&dn=stepfun-ai__GOT-OCR-2.0-hf&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 4194304
+      }
+    },
+    "IEITYuan/Yuan-embedding-2.0-en": {
+      "at": "2026-09-25T21:55:25Z",
+      "revision": "78cf57002fc6dce8050ae52f64d56a60992cf689",
+      "bytes": 1191598232,
+      "verified_files": 0,
+      "box_path": "ai-archive/IEITYuan/Yuan-embedding-2.0-en/78cf57002fc6dce8050ae52f64d56a60992cf689/",
+      "torrent": {
+        "file": "IEITYuan__Yuan-embedding-2.0-en.torrent",
+        "infohash": "a2afd28101b04a304b40f89bd91e1fabade630b2",
+        "magnet": "magnet:?xt=urn:btih:a2afd28101b04a304b40f89bd91e1fabade630b2&dn=IEITYuan__Yuan-embedding-2.0-en&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 4194304
+      }
+    },
+    "Skywork/Skywork-Reward-V2-Qwen3-0.6B": {
+      "at": "2026-09-25T21:55:40Z",
+      "revision": "8c14a4e9e6321deaf572544339b16b8d6bbe8886",
+      "bytes": 1192137232,
+      "verified_files": 0,
+      "box_path": "ai-archive/Skywork/Skywork-Reward-V2-Qwen3-0.6B/8c14a4e9e6321deaf572544339b16b8d6bbe8886/",
+      "torrent": {
+        "file": "Skywork__Skywork-Reward-V2-Qwen3-0.6B.torrent",
+        "infohash": "c4a6c0be3ea7d661affcb87e3b3354420fa8bb8e",
+        "magnet": "magnet:?xt=urn:btih:c4a6c0be3ea7d661affcb87e3b3354420fa8bb8e&dn=Skywork__Skywork-Reward-V2-Qwen3-0.6B&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 4194304
+      }
+    },
+    "google/electra-base-discriminator": {
+      "at": "2026-09-25T21:56:00Z",
+      "revision": "1ae76a97c7e84a4e640876a07453fccd636f0667",
+      "bytes": 1316483004,
+      "verified_files": 0,
+      "box_path": "ai-archive/google/electra-base-discriminator/1ae76a97c7e84a4e640876a07453fccd636f0667/",
+      "torrent": {
+        "file": "google__electra-base-discriminator.torrent",
+        "infohash": "83069de47c70aeaf436866f3a4b952576c8ebb51",
+        "magnet": "magnet:?xt=urn:btih:83069de47c70aeaf436866f3a4b952576c8ebb51&dn=google__electra-base-discriminator&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 4194304
+      }
+    },
+    "stepfun-ai/GOT-OCR2_0": {
+      "at": "2026-09-25T21:56:20Z",
+      "revision": "979938bf89ccdc949c0131ddd3841e24578a4742",
+      "bytes": 1432121416,
+      "verified_files": 0,
+      "box_path": "ai-archive/stepfun-ai/GOT-OCR2_0/979938bf89ccdc949c0131ddd3841e24578a4742/",
+      "torrent": {
+        "file": "stepfun-ai__GOT-OCR2_0.torrent",
+        "infohash": "e543b6ff54ba828b44aada1395faa27a3731b115",
+        "magnet": "magnet:?xt=urn:btih:e543b6ff54ba828b44aada1395faa27a3731b115&dn=stepfun-ai__GOT-OCR2_0&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 4194304
+      }
+    },
+    "openai/whisper-large-v3-turbo": {
+      "at": "2026-09-25T21:56:41Z",
+      "revision": "41f01f3fe87f28c78e2fbf8b568835947dd65ed9",
+      "bytes": 1617824864,
+      "verified_files": 0,
+      "box_path": "ai-archive/openai/whisper-large-v3-turbo/41f01f3fe87f28c78e2fbf8b568835947dd65ed9/",
+      "torrent": {
+        "file": "openai__whisper-large-v3-turbo.torrent",
+        "infohash": "be514a271736bfedbc59b18fc8429232ae6acfd4",
+        "magnet": "magnet:?xt=urn:btih:be514a271736bfedbc59b18fc8429232ae6acfd4&dn=openai__whisper-large-v3-turbo&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 4194304
+      }
+    },
+    "FunAudioLLM/Fun-ASR-Nano-2512-vllm": {
+      "at": "2026-09-25T21:57:28Z",
+      "revision": "a4362c943d48951f98ca2a62181cc028970270c5",
+      "bytes": 1970899072,
+      "verified_files": 0,
+      "box_path": "ai-archive/FunAudioLLM/Fun-ASR-Nano-2512-vllm/a4362c943d48951f98ca2a62181cc028970270c5/",
+      "torrent": {
+        "file": "FunAudioLLM__Fun-ASR-Nano-2512-vllm.torrent",
+        "infohash": "97f556cc0a2c8ffe19228fce129e71e193ba73bb",
+        "magnet": "magnet:?xt=urn:btih:97f556cc0a2c8ffe19228fce129e71e193ba73bb&dn=FunAudioLLM__Fun-ASR-Nano-2512-vllm&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 4194304
+      }
+    },
+    "FunAudioLLM/Fun-ASR-Nano-2512": {
+      "at": "2026-09-25T21:58:02Z",
+      "revision": "272c57b82523ada6fd87095e955f8e29100979ab",
+      "bytes": 1971149431,
+      "verified_files": 0,
+      "box_path": "ai-archive/FunAudioLLM/Fun-ASR-Nano-2512/272c57b82523ada6fd87095e955f8e29100979ab/",
+      "torrent": {
+        "file": "FunAudioLLM__Fun-ASR-Nano-2512.torrent",
+        "infohash": "17abc469cbabb24df2627495800863b41bb5f1fd",
+        "magnet": "magnet:?xt=urn:btih:17abc469cbabb24df2627495800863b41bb5f1fd&dn=FunAudioLLM__Fun-ASR-Nano-2512&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 4194304
+      }
+    },
+    "openbmb/MiniCPM5-1B": {
+      "at": "2026-09-25T21:58:39Z",
+      "revision": "87179e5c1f455ef22e6223592d2d61351b525bfc",
+      "bytes": 2161290912,
+      "verified_files": 0,
+      "box_path": "ai-archive/openbmb/MiniCPM5-1B/87179e5c1f455ef22e6223592d2d61351b525bfc/",
+      "torrent": {
+        "file": "openbmb__MiniCPM5-1B.torrent",
+        "infohash": "d085e447fa9bcd35be07a8386e07fb0c80a98cc7",
+        "magnet": "magnet:?xt=urn:btih:d085e447fa9bcd35be07a8386e07fb0c80a98cc7&dn=openbmb__MiniCPM5-1B&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 4194304
+      }
+    },
+    "BAAI/bge-m3": {
+      "at": "2026-09-25T21:59:35Z",
+      "revision": "5617a9f61b028005a4858fdac845db406aefb181",
+      "bytes": 2273974943,
+      "verified_files": 0,
+      "box_path": "ai-archive/BAAI/bge-m3/5617a9f61b028005a4858fdac845db406aefb181/",
+      "torrent": {
+        "file": "BAAI__bge-m3.torrent",
+        "infohash": "d18ec00794d8531f7dfe9cf9c2b217fa3a6957c1",
+        "magnet": "magnet:?xt=urn:btih:d18ec00794d8531f7dfe9cf9c2b217fa3a6957c1&dn=BAAI__bge-m3&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 4194304
+      }
+    },
+    "Tele-AI/TeleChat-1B": {
+      "at": "2026-09-25T22:01:08Z",
+      "revision": "7d6191165af093e74f3398a8074a56f732155af0",
+      "bytes": 2593711876,
+      "verified_files": 0,
+      "box_path": "ai-archive/Tele-AI/TeleChat-1B/7d6191165af093e74f3398a8074a56f732155af0/",
+      "torrent": {
+        "file": "Tele-AI__TeleChat-1B.torrent",
+        "infohash": "898382c1f0d9e4597931a260ecf24231a62164fa",
+        "magnet": "magnet:?xt=urn:btih:898382c1f0d9e4597931a260ecf24231a62164fa&dn=Tele-AI__TeleChat-1B&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 4194304
+      }
+    },
+    "openbmb/MiniCPM-V-4.6": {
+      "at": "2026-09-25T22:02:04Z",
+      "revision": "36f34a661a4bd35d0dc2294cb044d2584646c7d3",
+      "bytes": 2600957528,
+      "verified_files": 0,
+      "box_path": "ai-archive/openbmb/MiniCPM-V-4.6/36f34a661a4bd35d0dc2294cb044d2584646c7d3/",
+      "torrent": {
+        "file": "openbmb__MiniCPM-V-4.6.torrent",
+        "infohash": "e7e895671598cc13bb7daa983e0938db12b5149e",
+        "magnet": "magnet:?xt=urn:btih:e7e895671598cc13bb7daa983e0938db12b5149e&dn=openbmb__MiniCPM-V-4.6&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 4194304
+      }
+    },
+    "MoritzLaurer/deberta-v3-large-zeroshot-v2.0": {
+      "at": "2026-09-25T22:02:37Z",
+      "revision": "cf44676c28ba7312e5c5f8f8d2c22b3e0c9cdae2",
+      "bytes": 2612166677,
+      "verified_files": 0,
+      "box_path": "ai-archive/MoritzLaurer/deberta-v3-large-zeroshot-v2.0/cf44676c28ba7312e5c5f8f8d2c22b3e0c9cdae2/",
+      "torrent": {
+        "file": "MoritzLaurer__deberta-v3-large-zeroshot-v2.0.torrent",
+        "infohash": "e13c9ff3434dde8e2cf85cdec865b2f576faedb2",
+        "magnet": "magnet:?xt=urn:btih:e13c9ff3434dde8e2cf85cdec865b2f576faedb2&dn=MoritzLaurer__deberta-v3-large-zeroshot-v2.0&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 4194304
+      }
+    },
+    "IEITYuan/Yuan-embedding-2.0-zh": {
+      "at": "2026-09-25T22:03:28Z",
+      "revision": "fb4ab1ed9d3447b64c79e305c8913340327668b5",
+      "bytes": 2619047306,
+      "verified_files": 0,
+      "box_path": "ai-archive/IEITYuan/Yuan-embedding-2.0-zh/fb4ab1ed9d3447b64c79e305c8913340327668b5/",
+      "torrent": {
+        "file": "IEITYuan__Yuan-embedding-2.0-zh.torrent",
+        "infohash": "8db117b6c163088299255f1e04a87208da3a6d45",
+        "magnet": "magnet:?xt=urn:btih:8db117b6c163088299255f1e04a87208da3a6d45&dn=IEITYuan__Yuan-embedding-2.0-zh&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 4194304
+      }
+    },
+    "zai-org/GLM-OCR": {
+      "at": "2026-09-25T22:04:16Z",
+      "revision": "2e85a62840ccac27daa451df36c736c4636b8628",
+      "bytes": 2650579464,
+      "verified_files": 0,
+      "box_path": "ai-archive/zai-org/GLM-OCR/2e85a62840ccac27daa451df36c736c4636b8628/",
+      "torrent": {
+        "file": "zai-org__GLM-OCR.torrent",
+        "infohash": "bcce69e5a0e8e0c3467a8849566268565867151b",
+        "magnet": "magnet:?xt=urn:btih:bcce69e5a0e8e0c3467a8849566268565867151b&dn=zai-org__GLM-OCR&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 4194304
+      }
+    },
+    "inclusionAI/Ming-omni-tts-0.5B": {
+      "at": "2026-09-25T22:07:41Z",
+      "revision": "9154772e7fbc585907b6237e3190790676f28975",
+      "bytes": 3259628343,
+      "verified_files": 0,
+      "box_path": "ai-archive/inclusionAI/Ming-omni-tts-0.5B/9154772e7fbc585907b6237e3190790676f28975/",
+      "torrent": {
+        "file": "inclusionAI__Ming-omni-tts-0.5B.torrent",
+        "infohash": "e7aa98e9bff37e58ce37b183eadac6fe6a16bea9",
+        "magnet": "magnet:?xt=urn:btih:e7aa98e9bff37e58ce37b183eadac6fe6a16bea9&dn=inclusionAI__Ming-omni-tts-0.5B&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 4194304
+      }
+    },
+    "tencent/Hy-MT2-1.8B": {
+      "at": "2026-09-25T22:08:54Z",
+      "revision": "9a341cd1b679d3efd23b46e847b01745a71ed792",
+      "bytes": 4077072784,
+      "verified_files": 0,
+      "box_path": "ai-archive/tencent/Hy-MT2-1.8B/9a341cd1b679d3efd23b46e847b01745a71ed792/",
+      "torrent": {
+        "file": "tencent__Hy-MT2-1.8B.torrent",
+        "infohash": "f5d31c30f6314d5d45e1115aaf9b30f19d63d71d",
+        "magnet": "magnet:?xt=urn:btih:f5d31c30f6314d5d45e1115aaf9b30f19d63d71d&dn=tencent__Hy-MT2-1.8B&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 4194304
+      }
+    },
+    "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice": {
+      "at": "2026-09-25T22:09:54Z",
+      "revision": "0c0e3051f131929182e2c023b9537f8b1c68adfe",
+      "bytes": 4515695644,
+      "verified_files": 0,
+      "box_path": "ai-archive/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice/0c0e3051f131929182e2c023b9537f8b1c68adfe/",
+      "torrent": {
+        "file": "Qwen__Qwen3-TTS-12Hz-1.7B-CustomVoice.torrent",
+        "infohash": "ed3aa2e5995f7d931d15af50f9f56f4028ae8146",
+        "magnet": "magnet:?xt=urn:btih:ed3aa2e5995f7d931d15af50f9f56f4028ae8146&dn=Qwen__Qwen3-TTS-12Hz-1.7B-CustomVoice&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 4194304
+      }
+    },
+    "zai-org/GLM-ASR-Nano-2512": {
+      "at": "2026-09-25T22:11:36Z",
+      "revision": "61ba4e0b3309b6656edea3e93e419f7bd5c61957",
+      "bytes": 4515776712,
+      "verified_files": 0,
+      "box_path": "ai-archive/zai-org/GLM-ASR-Nano-2512/61ba4e0b3309b6656edea3e93e419f7bd5c61957/",
+      "torrent": {
+        "file": "zai-org__GLM-ASR-Nano-2512.torrent",
+        "infohash": "428cecc1b7660442be8be4a3a0280e9a44419b58",
+        "magnet": "magnet:?xt=urn:btih:428cecc1b7660442be8be4a3a0280e9a44419b58&dn=zai-org__GLM-ASR-Nano-2512&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 4194304
+      }
+    },
+    "Qwen/Qwen3-ASR-1.7B": {
+      "at": "2026-09-25T22:12:40Z",
+      "revision": "7278e1e70fe206f11671096ffdd38061171dd6e5",
+      "bytes": 4698521512,
+      "verified_files": 0,
+      "box_path": "ai-archive/Qwen/Qwen3-ASR-1.7B/7278e1e70fe206f11671096ffdd38061171dd6e5/",
+      "torrent": {
+        "file": "Qwen__Qwen3-ASR-1.7B.torrent",
+        "infohash": "bc5823598590c5d9398f7dbe4a21f45853a7a26a",
+        "magnet": "magnet:?xt=urn:btih:bc5823598590c5d9398f7dbe4a21f45853a7a26a&dn=Qwen__Qwen3-ASR-1.7B&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 4194304
+      }
+    },
+    "openbmb/VoxCPM2": {
+      "at": "2026-09-25T22:13:50Z",
+      "revision": "32279effe8c19989596f05d353d1447f51d9e915",
+      "bytes": 4957031714,
+      "verified_files": 0,
+      "box_path": "ai-archive/openbmb/VoxCPM2/32279effe8c19989596f05d353d1447f51d9e915/",
+      "torrent": {
+        "file": "openbmb__VoxCPM2.torrent",
+        "infohash": "3a153b119b763ff0b30ee594293144d70d54ef98",
+        "magnet": "magnet:?xt=urn:btih:3a153b119b763ff0b30ee594293144d70d54ef98&dn=openbmb__VoxCPM2&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 4194304
+      }
+    },
+    "openbmb/MiniCPM5-2B": {
+      "at": "2026-09-25T22:15:13Z",
+      "revision": "12a3808a956f869c767195e9266b59c4d21d92e2",
+      "bytes": 5033557096,
+      "verified_files": 0,
+      "box_path": "ai-archive/openbmb/MiniCPM5-2B/12a3808a956f869c767195e9266b59c4d21d92e2/",
+      "torrent": {
+        "file": "openbmb__MiniCPM5-2B.torrent",
+        "infohash": "45c18882637ce62338976cdeb65378950c00c36c",
+        "magnet": "magnet:?xt=urn:btih:45c18882637ce62338976cdeb65378950c00c36c&dn=openbmb__MiniCPM5-2B&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 4194304
+      }
+    },
+    "meta-models/Muse-Glimmer-30B-assistant": {
+      "at": "2026-09-25T22:16:30Z",
+      "revision": "e8192f3a8f617f74be2ce220360c89ef4789f39f",
+      "bytes": 5111976608,
+      "verified_files": 0,
+      "box_path": "ai-archive/meta-models/Muse-Glimmer-30B-assistant/e8192f3a8f617f74be2ce220360c89ef4789f39f/",
+      "torrent": {
+        "file": "meta-models__Muse-Glimmer-30B-assistant.torrent",
+        "infohash": "e37320bd862e589e491218ab7880c0c7c066c797",
+        "magnet": "magnet:?xt=urn:btih:e37320bd862e589e491218ab7880c0c7c066c797&dn=meta-models__Muse-Glimmer-30B-assistant&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 4194304
+      }
+    },
+    "MoritzLaurer/ModernBERT-large-zeroshot-v2.0": {
+      "at": "2026-09-25T22:17:47Z",
+      "revision": "a51e07b524299e309dd2b88d48b0cfa2bd9ec598",
+      "bytes": 5482102041,
+      "verified_files": 0,
+      "box_path": "ai-archive/MoritzLaurer/ModernBERT-large-zeroshot-v2.0/a51e07b524299e309dd2b88d48b0cfa2bd9ec598/",
+      "torrent": {
+        "file": "MoritzLaurer__ModernBERT-large-zeroshot-v2.0.torrent",
+        "infohash": "520430bf67958dbd050f23af8efa8f8da6fbc436",
+        "magnet": "magnet:?xt=urn:btih:520430bf67958dbd050f23af8efa8f8da6fbc436&dn=MoritzLaurer__ModernBERT-large-zeroshot-v2.0&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 4194304
+      }
+    },
+    "Tele-AI/TeleChat2-3B": {
+      "at": "2026-09-25T22:19:32Z",
+      "revision": "b364de9538e146f7a99519d5ed6c9855f76bfdf0",
+      "bytes": 6141138642,
+      "verified_files": 0,
+      "box_path": "ai-archive/Tele-AI/TeleChat2-3B/b364de9538e146f7a99519d5ed6c9855f76bfdf0/",
+      "torrent": {
+        "file": "Tele-AI__TeleChat2-3B.torrent",
+        "infohash": "bb7c166eebc421e7e756e1d0438994fcae79669a",
+        "magnet": "magnet:?xt=urn:btih:bb7c166eebc421e7e756e1d0438994fcae79669a&dn=Tele-AI__TeleChat2-3B&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 4194304
+      }
+    },
+    "deepseek-ai/DeepSeek-OCR-2": {
+      "at": "2026-09-25T22:21:34Z",
+      "revision": "aaa02f3811945a91062062994c5c4a3f4c0af2b0",
+      "bytes": 6778573880,
+      "verified_files": 0,
+      "box_path": "ai-archive/deepseek-ai/DeepSeek-OCR-2/aaa02f3811945a91062062994c5c4a3f4c0af2b0/",
+      "torrent": {
+        "file": "deepseek-ai__DeepSeek-OCR-2.torrent",
+        "infohash": "a42b37878beb7de14ab3fbbd5364fa714282a4d5",
+        "magnet": "magnet:?xt=urn:btih:a42b37878beb7de14ab3fbbd5364fa714282a4d5&dn=deepseek-ai__DeepSeek-OCR-2&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 4194304
+      }
+    },
+    "Qwen/Qwen3-Reranker-4B": {
+      "at": "2026-09-25T22:23:12Z",
+      "revision": "22e683669bc0f0bd69640a1354a6d0aebcfeede5",
+      "bytes": 8043614960,
+      "verified_files": 0,
+      "box_path": "ai-archive/Qwen/Qwen3-Reranker-4B/22e683669bc0f0bd69640a1354a6d0aebcfeede5/",
+      "torrent": {
+        "file": "Qwen__Qwen3-Reranker-4B.torrent",
+        "infohash": "7de06d223cdead8f66543fef22a52f792224a863",
+        "magnet": "magnet:?xt=urn:btih:7de06d223cdead8f66543fef22a52f792224a863&dn=Qwen__Qwen3-Reranker-4B&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 4194304
+      }
+    },
+    "Qwen/Qwen3Guard-Stream-4B": {
+      "at": "2026-09-25T22:26:27Z",
+      "revision": "27a8f4e52e66dc01a03d20f41e362bb9c9bda7bf",
+      "bytes": 8050251304,
+      "verified_files": 0,
+      "box_path": "ai-archive/Qwen/Qwen3Guard-Stream-4B/27a8f4e52e66dc01a03d20f41e362bb9c9bda7bf/",
+      "torrent": {
+        "file": "Qwen__Qwen3Guard-Stream-4B.torrent",
+        "infohash": "688196827acacb3e2bd64c9e11a8ec546c5bc122",
+        "magnet": "magnet:?xt=urn:btih:688196827acacb3e2bd64c9e11a8ec546c5bc122&dn=Qwen__Qwen3Guard-Stream-4B&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 4194304
+      }
+    },
+    "openbmb/MiniCPM-V-4": {
+      "at": "2026-09-25T22:28:41Z",
+      "revision": "6f69a8235885be89608f3a71ffd40695b379e1e7",
+      "bytes": 8119153016,
+      "verified_files": 0,
+      "box_path": "ai-archive/openbmb/MiniCPM-V-4/6f69a8235885be89608f3a71ffd40695b379e1e7/",
+      "torrent": {
+        "file": "openbmb__MiniCPM-V-4.torrent",
+        "infohash": "cc00adedf3bfc909a69268b541f79b9b46d31e20",
+        "magnet": "magnet:?xt=urn:btih:cc00adedf3bfc909a69268b541f79b9b46d31e20&dn=openbmb__MiniCPM-V-4&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 4194304
+      }
+    },
+    "Qwen/Qwen3Guard-Gen-4B": {
+      "at": "2026-09-25T22:30:28Z",
+      "revision": "6ec42827da0c1ff11e7a49dc269d2e810d27e108",
+      "bytes": 8822894432,
+      "verified_files": 0,
+      "box_path": "ai-archive/Qwen/Qwen3Guard-Gen-4B/6ec42827da0c1ff11e7a49dc269d2e810d27e108/",
+      "torrent": {
+        "file": "Qwen__Qwen3Guard-Gen-4B.torrent",
+        "infohash": "7f330a9a6732120aaec79d6e4441e334be23305a",
+        "magnet": "magnet:?xt=urn:btih:7f330a9a6732120aaec79d6e4441e334be23305a&dn=Qwen__Qwen3Guard-Gen-4B&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 4194304
+      }
+    },
+    "Qwen/Qwen3.5-4B": {
+      "at": "2026-09-25T22:32:23Z",
+      "revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+      "bytes": 9319828096,
+      "verified_files": 0,
+      "box_path": "ai-archive/Qwen/Qwen3.5-4B/851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a/",
+      "torrent": {
+        "file": "Qwen__Qwen3.5-4B.torrent",
+        "infohash": "7b0718ead8002de29e0a2513704a28dd69620c00",
+        "magnet": "magnet:?xt=urn:btih:7b0718ead8002de29e0a2513704a28dd69620c00&dn=Qwen__Qwen3.5-4B&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 4194304
+      }
+    },
+    "FunAudioLLM/Fun-CineForge": {
+      "at": "2026-09-25T22:37:39Z",
+      "revision": "b57d93ef30188df5086dd74f26bb768b1b8776b4",
+      "bytes": 13511606155,
+      "verified_files": 0,
+      "box_path": "ai-archive/FunAudioLLM/Fun-CineForge/b57d93ef30188df5086dd74f26bb768b1b8776b4/",
+      "torrent": {
+        "file": "FunAudioLLM__Fun-CineForge.torrent",
+        "infohash": "f51f95fd473d61a73a9f9f4942f7a61a15d86fab",
+        "magnet": "magnet:?xt=urn:btih:f51f95fd473d61a73a9f9f4942f7a61a15d86fab&dn=FunAudioLLM__Fun-CineForge&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 4194304
+      }
+    },
+    "openai/gpt-oss-safeguard-20b": {
+      "at": "2026-09-25T22:41:49Z",
+      "revision": "8a11e17b25c973a24099d4016bf2e17dd7ec1574",
+      "bytes": 13761316904,
+      "verified_files": 0,
+      "box_path": "ai-archive/openai/gpt-oss-safeguard-20b/8a11e17b25c973a24099d4016bf2e17dd7ec1574/",
+      "torrent": {
+        "file": "openai__gpt-oss-safeguard-20b.torrent",
+        "infohash": "c749df462432585023345fba5e73731ef77856a0",
+        "magnet": "magnet:?xt=urn:btih:c749df462432585023345fba5e73731ef77856a0&dn=openai__gpt-oss-safeguard-20b&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 4194304
+      }
+    },
+    "Tele-AI/telechat-7B": {
+      "at": "2026-09-25T22:45:41Z",
+      "revision": "0c33078695dff4d41bed535c1d9d9c89db947a4c",
+      "bytes": 14400148270,
+      "verified_files": 0,
+      "box_path": "ai-archive/Tele-AI/telechat-7B/0c33078695dff4d41bed535c1d9d9c89db947a4c/",
+      "torrent": {
+        "file": "Tele-AI__telechat-7B.torrent",
+        "infohash": "b9c98d59e1bc0ec445ade166738ac238cf4b6f42",
+        "magnet": "magnet:?xt=urn:btih:b9c98d59e1bc0ec445ade166738ac238cf4b6f42&dn=Tele-AI__telechat-7B&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 4194304
+      }
+    },
+    "ByteDance-Seed/SeedVR2-3B": {
+      "at": "2026-09-25T22:50:35Z",
+      "revision": "37255ff8cccfb01071b87f635a5948ca8d53117c",
+      "bytes": 14570033770,
+      "verified_files": 0,
+      "box_path": "ai-archive/ByteDance-Seed/SeedVR2-3B/37255ff8cccfb01071b87f635a5948ca8d53117c/",
+      "torrent": {
+        "file": "ByteDance-Seed__SeedVR2-3B.torrent",
+        "infohash": "ab6db47b70c4e612e9e4fd5837b384791bac65e3",
+        "magnet": "magnet:?xt=urn:btih:ab6db47b70c4e612e9e4fd5837b384791bac65e3&dn=ByteDance-Seed__SeedVR2-3B&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 4194304
+      }
+    },
+    "KaLM-Embedding/KaLM-Reranker-V1-Large": {
+      "at": "2026-09-25T22:59:48Z",
+      "revision": "70b68aee5a3af752cc4425c6a72cf65d4e230042",
+      "bytes": 15018037032,
+      "verified_files": 0,
+      "box_path": "ai-archive/KaLM-Embedding/KaLM-Reranker-V1-Large/70b68aee5a3af752cc4425c6a72cf65d4e230042/",
+      "torrent": {
+        "file": "KaLM-Embedding__KaLM-Reranker-V1-Large.torrent",
+        "infohash": "0572760ba4996b1904ffe25428eb547d12b15e21",
+        "magnet": "magnet:?xt=urn:btih:0572760ba4996b1904ffe25428eb547d12b15e21&dn=KaLM-Embedding__KaLM-Reranker-V1-Large&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 4194304
+      }
+    },
+    "Qwen/Qwen3-Embedding-8B": {
+      "at": "2026-09-25T23:03:33Z",
+      "revision": "1d8ad4ca9b3dd8059ad90a75d4983776a23d44af",
+      "bytes": 15134634568,
+      "verified_files": 0,
+      "box_path": "ai-archive/Qwen/Qwen3-Embedding-8B/1d8ad4ca9b3dd8059ad90a75d4983776a23d44af/",
+      "torrent": {
+        "file": "Qwen__Qwen3-Embedding-8B.torrent",
+        "infohash": "fc2e3670c86de450f4270b09cee582a972db0e73",
+        "magnet": "magnet:?xt=urn:btih:fc2e3670c86de450f4270b09cee582a972db0e73&dn=Qwen__Qwen3-Embedding-8B&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 4194304
+      }
+    },
+    "XiaomiMiMo/MiMo-7B-Base": {
+      "at": "2026-09-25T23:08:13Z",
+      "revision": "c72df4586cb8bdeebd65f36929cd3385a6566fbe",
+      "bytes": 15666870936,
+      "verified_files": 0,
+      "box_path": "ai-archive/XiaomiMiMo/MiMo-7B-Base/c72df4586cb8bdeebd65f36929cd3385a6566fbe/",
+      "torrent": {
+        "file": "XiaomiMiMo__MiMo-7B-Base.torrent",
+        "infohash": "4f7398686e6592408dfc7e1ee8ecf88cfd75837f",
+        "magnet": "magnet:?xt=urn:btih:4f7398686e6592408dfc7e1ee8ecf88cfd75837f&dn=XiaomiMiMo__MiMo-7B-Base&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 4194304
+      }
+    },
+    "XiaomiMiMo/MiMo-7B-RL": {
+      "at": "2026-09-25T23:12:10Z",
+      "revision": "6299b5a2c45daf0c429285c92b8e61a5bd011c0d",
+      "bytes": 15666870936,
+      "verified_files": 0,
+      "box_path": "ai-archive/XiaomiMiMo/MiMo-7B-RL/6299b5a2c45daf0c429285c92b8e61a5bd011c0d/",
+      "torrent": {
+        "file": "XiaomiMiMo__MiMo-7B-RL.torrent",
+        "infohash": "0fd42117659dbcd2b3f807f961e730cabcefeab9",
+        "magnet": "magnet:?xt=urn:btih:0fd42117659dbcd2b3f807f961e730cabcefeab9&dn=XiaomiMiMo__MiMo-7B-RL&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 4194304
+      }
+    },
+    "inclusionAI/Ling-3.0-tiny": {
+      "at": "2026-09-25T23:16:11Z",
+      "revision": "e3a47d5b986e7141b6efd62597d598ebb392060d",
+      "bytes": 15787992416,
+      "verified_files": 0,
+      "box_path": "ai-archive/inclusionAI/Ling-3.0-tiny/e3a47d5b986e7141b6efd62597d598ebb392060d/",
+      "torrent": {
+        "file": "inclusionAI__Ling-3.0-tiny.torrent",
+        "infohash": "b0b19ed9ec3d52551a47b53531caf49a03a28c30",
+        "magnet": "magnet:?xt=urn:btih:b0b19ed9ec3d52551a47b53531caf49a03a28c30&dn=inclusionAI__Ling-3.0-tiny&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 4194304
+      }
+    },
+    "XiaomiMiMo/MiMo-VL-7B-RL": {
+      "at": "2026-09-25T23:20:18Z",
+      "revision": "460c34be0c6cfe79b6b311647ae9112784f80b73",
+      "bytes": 16612526784,
+      "verified_files": 0,
+      "box_path": "ai-archive/XiaomiMiMo/MiMo-VL-7B-RL/460c34be0c6cfe79b6b311647ae9112784f80b73/",
+      "torrent": {
+        "file": "XiaomiMiMo__MiMo-VL-7B-RL.torrent",
+        "infohash": "7b53273468b8d296ed2af7b9094fd591385df914",
+        "magnet": "magnet:?xt=urn:btih:7b53273468b8d296ed2af7b9094fd591385df914&dn=XiaomiMiMo__MiMo-VL-7B-RL&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 4194304
+      }
+    },
+    "openbmb/MiniCPM-o-2_6": {
+      "at": "2026-09-25T23:24:36Z",
+      "revision": "06849bfd36da94da1f5a88fa17e8ba63f08a4c4d",
+      "bytes": 17404540719,
+      "verified_files": 0,
+      "box_path": "ai-archive/openbmb/MiniCPM-o-2_6/06849bfd36da94da1f5a88fa17e8ba63f08a4c4d/",
+      "torrent": {
+        "file": "openbmb__MiniCPM-o-2_6.torrent",
+        "infohash": "8c6aebb6ec9903b3970f47e409316298dd0b55a6",
+        "magnet": "magnet:?xt=urn:btih:8c6aebb6ec9903b3970f47e409316298dd0b55a6&dn=openbmb__MiniCPM-o-2_6&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 4194304
+      }
+    },
+    "Qwen/Qwen3-VL-8B-Instruct": {
+      "at": "2026-09-25T23:28:53Z",
+      "revision": "0c351dd01ed87e9c1b53cbc748cba10e6187ff3b",
+      "bytes": 17534339512,
+      "verified_files": 0,
+      "box_path": "ai-archive/Qwen/Qwen3-VL-8B-Instruct/0c351dd01ed87e9c1b53cbc748cba10e6187ff3b/",
+      "torrent": {
+        "file": "Qwen__Qwen3-VL-8B-Instruct.torrent",
+        "infohash": "a0595dbe1d83cd59c00531e6383b30d7dde06d9e",
+        "magnet": "magnet:?xt=urn:btih:a0595dbe1d83cd59c00531e6383b30d7dde06d9e&dn=Qwen__Qwen3-VL-8B-Instruct&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 4194304
+      }
+    },
+    "Wan-AI/Wan2.1-T2V-1.3B": {
+      "at": "2026-09-25T23:33:36Z",
+      "revision": "37ec512624d61f7aa208f7ea8140a131f93afc9a",
+      "bytes": 17545600722,
+      "verified_files": 0,
+      "box_path": "ai-archive/Wan-AI/Wan2.1-T2V-1.3B/37ec512624d61f7aa208f7ea8140a131f93afc9a/",
+      "torrent": {
+        "file": "Wan-AI__Wan2.1-T2V-1.3B.torrent",
+        "infohash": "ae61b8949b2626e6cc6927637a47ca93fa642eb0",
+        "magnet": "magnet:?xt=urn:btih:ae61b8949b2626e6cc6927637a47ca93fa642eb0&dn=Wan-AI__Wan2.1-T2V-1.3B&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 4194304
+      }
+    },
+    "internlm/internlm3-8b-instruct": {
+      "at": "2026-09-25T23:41:06Z",
+      "revision": "28c99415adaf61767bd1c619f4f99f308fdfd223",
+      "bytes": 17608533440,
+      "verified_files": 0,
+      "box_path": "ai-archive/internlm/internlm3-8b-instruct/28c99415adaf61767bd1c619f4f99f308fdfd223/",
+      "torrent": {
+        "file": "internlm__internlm3-8b-instruct.torrent",
+        "infohash": "75be6b87f50b94b8f97d55be6690e4eccb6dd567",
+        "magnet": "magnet:?xt=urn:btih:75be6b87f50b94b8f97d55be6690e4eccb6dd567&dn=internlm__internlm3-8b-instruct&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 4194304
+      }
+    },
+    "01-ai/Yi-1.5-9B-Chat": {
+      "at": "2026-09-25T23:45:28Z",
+      "revision": "1a0fc698cf883c4f5c325f026ca79f0ebd9955a5",
+      "bytes": 17658864984,
+      "verified_files": 0,
+      "box_path": "ai-archive/01-ai/Yi-1.5-9B-Chat/1a0fc698cf883c4f5c325f026ca79f0ebd9955a5/",
+      "torrent": {
+        "file": "01-ai__Yi-1.5-9B-Chat.torrent",
+        "infohash": "ca85011f842fba6e8f36e187610200c40b2bcd7d",
+        "magnet": "magnet:?xt=urn:btih:ca85011f842fba6e8f36e187610200c40b2bcd7d&dn=01-ai__Yi-1.5-9B-Chat&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 4194304
+      }
+    },
+    "Wan-AI/Wan2.1-VACE-1.3B": {
+      "at": "2026-09-25T23:50:33Z",
+      "revision": "574e6a744642ce3bee319afc31496b88bde8aac4",
+      "bytes": 19015598146,
+      "verified_files": 0,
+      "box_path": "ai-archive/Wan-AI/Wan2.1-VACE-1.3B/574e6a744642ce3bee319afc31496b88bde8aac4/",
+      "torrent": {
+        "file": "Wan-AI__Wan2.1-VACE-1.3B.torrent",
+        "infohash": "d287eb7de44c72f69da97c0a0fcdc42400d6fcc8",
+        "magnet": "magnet:?xt=urn:btih:d287eb7de44c72f69da97c0a0fcdc42400d6fcc8&dn=Wan-AI__Wan2.1-VACE-1.3B&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 4194304
+      }
+    },
+    "Qwen/Qwen3.5-9B": {
+      "at": "2026-09-25T23:53:08Z",
+      "revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "bytes": 19306310880,
+      "verified_files": 0,
+      "box_path": "ai-archive/Qwen/Qwen3.5-9B/c202236235762e1c871ad0ccb60c8ee5ba337b9a/",
+      "torrent": {
+        "file": "Qwen__Qwen3.5-9B.torrent",
+        "infohash": "2ac71f3f87485c2b719a9f9e39fc8f529b2e5d48",
+        "magnet": "magnet:?xt=urn:btih:2ac71f3f87485c2b719a9f9e39fc8f529b2e5d48&dn=Qwen__Qwen3.5-9B&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 4194304
+      }
+    },
+    "openbmb/MiniCPM-o-4_5": {
+      "at": "2026-09-25T23:58:06Z",
+      "revision": "503e754207c94da6bb26850b4469f367c9ea3582",
+      "bytes": 19974980481,
+      "verified_files": 0,
+      "box_path": "ai-archive/openbmb/MiniCPM-o-4_5/503e754207c94da6bb26850b4469f367c9ea3582/",
+      "torrent": {
+        "file": "openbmb__MiniCPM-o-4_5.torrent",
+        "infohash": "a4ec2d69f590899eea84b56855f72e3ff2795cc8",
+        "magnet": "magnet:?xt=urn:btih:a4ec2d69f590899eea84b56855f72e3ff2795cc8&dn=openbmb__MiniCPM-o-4_5&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 4194304
+      }
+    },
+    "stepfun-ai/Step3-VL-10B": {
+      "at": "2026-09-26T00:03:59Z",
+      "revision": "5026053b0c2f5dfaa08fc2d149384162c3c8bca1",
+      "bytes": 20343630808,
+      "verified_files": 0,
+      "box_path": "ai-archive/stepfun-ai/Step3-VL-10B/5026053b0c2f5dfaa08fc2d149384162c3c8bca1/",
+      "torrent": {
+        "file": "stepfun-ai__Step3-VL-10B.torrent",
+        "infohash": "f39c6e9aaea73c48fa38d317f8c2b2778f0f5e70",
+        "magnet": "magnet:?xt=urn:btih:f39c6e9aaea73c48fa38d317f8c2b2778f0f5e70&dn=stepfun-ai__Step3-VL-10B&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 4194304
+      }
+    },
+    "zai-org/GLM-4.1V-9B-Thinking": {
+      "at": "2026-09-26T00:09:11Z",
+      "revision": "3c1471e51dc811b589d4d12b1c1c7c1c941267c2",
+      "bytes": 20585644104,
+      "verified_files": 0,
+      "box_path": "ai-archive/zai-org/GLM-4.1V-9B-Thinking/3c1471e51dc811b589d4d12b1c1c7c1c941267c2/",
+      "torrent": {
+        "file": "zai-org__GLM-4.1V-9B-Thinking.torrent",
+        "infohash": "00e9a5a5bc3dee1ed5ecb8860de6ddd4f9afd789",
+        "magnet": "magnet:?xt=urn:btih:00e9a5a5bc3dee1ed5ecb8860de6ddd4f9afd789&dn=zai-org__GLM-4.1V-9B-Thinking&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 4194304
+      }
+    },
+    "01-ai/Yi-6B": {
+      "at": "2026-09-26T00:18:03Z",
+      "revision": "80080be87ec5a0103f643195f2d9003b8068941b",
+      "bytes": 24244275896,
+      "verified_files": 0,
+      "box_path": "ai-archive/01-ai/Yi-6B/80080be87ec5a0103f643195f2d9003b8068941b/",
+      "torrent": {
+        "file": "01-ai__Yi-6B.torrent",
+        "infohash": "68de83d9f18bd1a707c1f024504dd22779f527d4",
+        "magnet": "magnet:?xt=urn:btih:68de83d9f18bd1a707c1f024504dd22779f527d4&dn=01-ai__Yi-6B&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 4194304
+      }
+    },
+    "01-ai/Yi-6B-200K": {
+      "at": "2026-09-26T00:27:10Z",
+      "revision": "46b2762d8a78344292598f3ced6af746cec84bec",
+      "bytes": 24244299694,
+      "verified_files": 0,
+      "box_path": "ai-archive/01-ai/Yi-6B-200K/46b2762d8a78344292598f3ced6af746cec84bec/",
+      "torrent": {
+        "file": "01-ai__Yi-6B-200K.torrent",
+        "infohash": "3046f1260b7b0d8d0466e5cf5f6dd871515f780d",
+        "magnet": "magnet:?xt=urn:btih:3046f1260b7b0d8d0466e5cf5f6dd871515f780d&dn=01-ai__Yi-6B-200K&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 4194304
+      }
+    },
+    "Tele-AI/TeleChat-12B": {
+      "at": "2026-09-26T00:35:07Z",
+      "revision": "85a78d4716b16bef8d4363adba8e2f8bac0dfedf",
+      "bytes": 24772994370,
+      "verified_files": 0,
+      "box_path": "ai-archive/Tele-AI/TeleChat-12B/85a78d4716b16bef8d4363adba8e2f8bac0dfedf/",
+      "torrent": {
+        "file": "Tele-AI__TeleChat-12B.torrent",
+        "infohash": "53393978efd7e4adb54f5bae494aa184ae6e867c",
+        "magnet": "magnet:?xt=urn:btih:53393978efd7e4adb54f5bae494aa184ae6e867c&dn=Tele-AI__TeleChat-12B&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 4194304
+      }
+    },
+    "XiaomiMiMo/MiMo-V2.5-ASR": {
+      "at": "2026-09-26T00:43:15Z",
+      "revision": "98641d537df521ac6df05f74090475694d9510b7",
+      "bytes": 32074435744,
+      "verified_files": 0,
+      "box_path": "ai-archive/XiaomiMiMo/MiMo-V2.5-ASR/98641d537df521ac6df05f74090475694d9510b7/",
+      "torrent": {
+        "file": "XiaomiMiMo__MiMo-V2.5-ASR.torrent",
+        "infohash": "077fb7351d33eaae8129fa65214a65402379833d",
+        "magnet": "magnet:?xt=urn:btih:077fb7351d33eaae8129fa65214a65402379833d&dn=XiaomiMiMo__MiMo-V2.5-ASR&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 4194304
+      }
+    },
+    "inclusionAI/LLaDA2.0-mini": {
+      "at": "2026-09-26T00:51:42Z",
+      "revision": "dad945cac317da394b390f82c7b40691d8a881ed",
+      "bytes": 32513122504,
+      "verified_files": 0,
+      "box_path": "ai-archive/inclusionAI/LLaDA2.0-mini/dad945cac317da394b390f82c7b40691d8a881ed/",
+      "torrent": {
+        "file": "inclusionAI__LLaDA2.0-mini.torrent",
+        "infohash": "6c617796ec59b74e1a95e3404be9aacdab97185d",
+        "magnet": "magnet:?xt=urn:btih:6c617796ec59b74e1a95e3404be9aacdab97185d&dn=inclusionAI__LLaDA2.0-mini&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 4194304
+      }
+    },
+    "inclusionAI/LLaDA2.1-mini": {
+      "at": "2026-09-26T01:00:24Z",
+      "revision": "20e64e2ad21644d0e5248586ed9c942cdd45de0f",
+      "bytes": 32513130952,
+      "verified_files": 0,
+      "box_path": "ai-archive/inclusionAI/LLaDA2.1-mini/20e64e2ad21644d0e5248586ed9c942cdd45de0f/",
+      "torrent": {
+        "file": "inclusionAI__LLaDA2.1-mini.torrent",
+        "infohash": "f1f6af747b7f9f40c580b541c40628bc3275b857",
+        "magnet": "magnet:?xt=urn:btih:f1f6af747b7f9f40c580b541c40628bc3275b857&dn=inclusionAI__LLaDA2.1-mini&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 4194304
+      }
+    },
+    "moonshotai/Kimi-VL-A3B-Instruct": {
+      "at": "2026-09-26T01:08:54Z",
+      "revision": "398eede0903cd983a2bfa0cc634e9ac1d843f375",
+      "bytes": 32816098528,
+      "verified_files": 0,
+      "box_path": "ai-archive/moonshotai/Kimi-VL-A3B-Instruct/398eede0903cd983a2bfa0cc634e9ac1d843f375/",
+      "torrent": {
+        "file": "moonshotai__Kimi-VL-A3B-Instruct.torrent",
+        "infohash": "eccda5406a2d970c2dc3ad3e8006f3dfc3daa6d9",
+        "magnet": "magnet:?xt=urn:btih:eccda5406a2d970c2dc3ad3e8006f3dfc3daa6d9&dn=moonshotai__Kimi-VL-A3B-Instruct&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 4194304
+      }
+    },
+    "ByteDance-Seed/UI-TARS-1.5-7B": {
+      "at": "2026-09-26T01:17:22Z",
+      "revision": "683d002dd99d8f95104d31e70391a39348857f4e",
+      "bytes": 33168747240,
+      "verified_files": 0,
+      "box_path": "ai-archive/ByteDance-Seed/UI-TARS-1.5-7B/683d002dd99d8f95104d31e70391a39348857f4e/",
+      "torrent": {
+        "file": "ByteDance-Seed__UI-TARS-1.5-7B.torrent",
+        "infohash": "e5b494edc440c86dc99e2d4a11c1cb99620ebce8",
+        "magnet": "magnet:?xt=urn:btih:e5b494edc440c86dc99e2d4a11c1cb99620ebce8&dn=ByteDance-Seed__UI-TARS-1.5-7B&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 4194304
+      }
+    },
+    "Wan-AI/Wan2.2-TI2V-5B": {
+      "at": "2026-09-26T01:26:03Z",
+      "revision": "921dbaf3f1674a56f47e83fb80a34bac8a8f203e",
+      "bytes": 34179993972,
+      "verified_files": 0,
+      "box_path": "ai-archive/Wan-AI/Wan2.2-TI2V-5B/921dbaf3f1674a56f47e83fb80a34bac8a8f203e/",
+      "torrent": {
+        "file": "Wan-AI__Wan2.2-TI2V-5B.torrent",
+        "infohash": "cefe5e7699a73b259f778914bab59dedbcbea801",
+        "magnet": "magnet:?xt=urn:btih:cefe5e7699a73b259f778914bab59dedbcbea801&dn=Wan-AI__Wan2.2-TI2V-5B&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 4194304
+      }
+    },
+    "zai-org/GLM-Image": {
+      "at": "2026-09-26T01:36:30Z",
+      "revision": "2c433cc0cbc293bde2ac8ca9624f279b5d23fcf4",
+      "bytes": 35765307854,
+      "verified_files": 0,
+      "box_path": "ai-archive/zai-org/GLM-Image/2c433cc0cbc293bde2ac8ca9624f279b5d23fcf4/",
+      "torrent": {
+        "file": "zai-org__GLM-Image.torrent",
+        "infohash": "fd37c3ccf3fe83c20da54484e2d9828dd2d571fd",
+        "magnet": "magnet:?xt=urn:btih:fd37c3ccf3fe83c20da54484e2d9828dd2d571fd&dn=zai-org__GLM-Image&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 4194304
+      }
+    },
+    "inclusionAI/Realtime-Venus": {
+      "at": "2026-09-26T01:46:47Z",
+      "revision": "5f0742d6ffbf99a7858b5abb030325953f4979f0",
+      "bytes": 39950092370,
+      "verified_files": 0,
+      "box_path": "ai-archive/inclusionAI/Realtime-Venus/5f0742d6ffbf99a7858b5abb030325953f4979f0/",
+      "torrent": {
+        "file": "inclusionAI__Realtime-Venus.torrent",
+        "infohash": "3983e4c3773f3307ce545b42c98ff0371a4af214",
+        "magnet": "magnet:?xt=urn:btih:3983e4c3773f3307ce545b42c98ff0371a4af214&dn=inclusionAI__Realtime-Venus&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 4194304
+      }
+    },
+    "Wan-AI/Wan2.2-S2V-14B": {
+      "at": "2026-09-26T01:59:18Z",
+      "revision": "dab4e9c55bbe4c8c4d03db1c2c98c7f0ac9c454b",
+      "bytes": 48247089603,
+      "verified_files": 0,
+      "box_path": "ai-archive/Wan-AI/Wan2.2-S2V-14B/dab4e9c55bbe4c8c4d03db1c2c98c7f0ac9c454b/",
+      "torrent": {
+        "file": "Wan-AI__Wan2.2-S2V-14B.torrent",
+        "infohash": "755171c5c98fe4be18b06792477d3d9ec3c2b1a7",
+        "magnet": "magnet:?xt=urn:btih:755171c5c98fe4be18b06792477d3d9ec3c2b1a7&dn=Wan-AI__Wan2.2-S2V-14B&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 4194304
+      }
+    },
+    "google/gemma-4-26B-A4B-it": {
+      "at": "2026-09-26T02:17:09Z",
+      "revision": "4d7ae4984b7db7de8f8457170b3f1a419ee76d52",
+      "bytes": 51612009916,
+      "verified_files": 0,
+      "box_path": "ai-archive/google/gemma-4-26B-A4B-it/4d7ae4984b7db7de8f8457170b3f1a419ee76d52/",
+      "torrent": {
+        "file": "google__gemma-4-26B-A4B-it.torrent",
+        "infohash": "f85197e4170aaa146a4ce634fa27dc2bb59905dd",
+        "magnet": "magnet:?xt=urn:btih:f85197e4170aaa146a4ce634fa27dc2bb59905dd&dn=google__gemma-4-26B-A4B-it&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 16777216
+      }
+    },
+    "inclusionAI/Ming-Image-0.1-Design": {
+      "at": "2026-09-26T02:31:39Z",
+      "revision": "208087ada1486931692c1896f38d4cd16ff3df82",
+      "bytes": 52867635344,
+      "verified_files": 0,
+      "box_path": "ai-archive/inclusionAI/Ming-Image-0.1-Design/208087ada1486931692c1896f38d4cd16ff3df82/",
+      "torrent": {
+        "file": "inclusionAI__Ming-Image-0.1-Design.torrent",
+        "infohash": "92bd809950787e27ad22944c72f5a9ca68a1039e",
+        "magnet": "magnet:?xt=urn:btih:92bd809950787e27ad22944c72f5a9ca68a1039e&dn=inclusionAI__Ming-Image-0.1-Design&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 16777216
+      }
+    },
+    "Qwen/Qwen3.6-27B": {
+      "at": "2026-09-26T02:46:55Z",
+      "revision": "6a9e13bd6fc8f0983b9b99948120bc37f49c13e9",
+      "bytes": 55563006400,
+      "verified_files": 0,
+      "box_path": "ai-archive/Qwen/Qwen3.6-27B/6a9e13bd6fc8f0983b9b99948120bc37f49c13e9/",
+      "torrent": {
+        "file": "Qwen__Qwen3.6-27B.torrent",
+        "infohash": "e9e8acc53823ee62eb1e21dbc475c24be09b0e5a",
+        "magnet": "magnet:?xt=urn:btih:e9e8acc53823ee62eb1e21dbc475c24be09b0e5a&dn=Qwen__Qwen3.6-27B&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 16777216
+      }
+    },
+    "Qwen/Qwen3.8-27B": {
+      "at": "2026-09-26T03:02:18Z",
+      "revision": "1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0",
+      "bytes": 55563006776,
+      "verified_files": 0,
+      "box_path": "ai-archive/Qwen/Qwen3.8-27B/1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0/",
+      "torrent": {
+        "file": "Qwen__Qwen3.8-27B.torrent",
+        "infohash": "039265be980810afeb625807034c9b39858bb89d",
+        "magnet": "magnet:?xt=urn:btih:039265be980810afeb625807034c9b39858bb89d&dn=Qwen__Qwen3.8-27B&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 16777216
+      }
+    },
+    "Qwen/Qwen-Image": {
+      "at": "2026-09-26T03:18:08Z",
+      "revision": "75e0b4be04f60ec59a75f475837eced720f823b6",
+      "bytes": 57699249390,
+      "verified_files": 0,
+      "box_path": "ai-archive/Qwen/Qwen-Image/75e0b4be04f60ec59a75f475837eced720f823b6/",
+      "torrent": {
+        "file": "Qwen__Qwen-Image.torrent",
+        "infohash": "957bfc2a85322909b0685a9d30c49d9c34e9bb3a",
+        "magnet": "magnet:?xt=urn:btih:957bfc2a85322909b0685a9d30c49d9c34e9bb3a&dn=Qwen__Qwen-Image&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 16777216
+      }
+    },
+    "Qwen/Qwen-Image-Edit-2511": {
+      "at": "2026-09-26T03:34:02Z",
+      "revision": "6f3ccc0b56e431dc6a0c2b2039706d7d26f22cb9",
+      "bytes": 57699249798,
+      "verified_files": 0,
+      "box_path": "ai-archive/Qwen/Qwen-Image-Edit-2511/6f3ccc0b56e431dc6a0c2b2039706d7d26f22cb9/",
+      "torrent": {
+        "file": "Qwen__Qwen-Image-Edit-2511.torrent",
+        "infohash": "7833893d380aa02bc9065e63ec90394a3b33f708",
+        "magnet": "magnet:?xt=urn:btih:7833893d380aa02bc9065e63ec90394a3b33f708&dn=Qwen__Qwen-Image-Edit-2511&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 16777216
+      }
+    },
+    "meta-models/Muse-Glimmer-30B": {
+      "at": "2026-09-26T03:53:39Z",
+      "revision": "a4e59da52a7bc87ae7251dd5545c0dd437c44b68",
+      "bytes": 59553435272,
+      "verified_files": 0,
+      "box_path": "ai-archive/meta-models/Muse-Glimmer-30B/a4e59da52a7bc87ae7251dd5545c0dd437c44b68/",
+      "torrent": {
+        "file": "meta-models__Muse-Glimmer-30B.torrent",
+        "infohash": "8dfdf6efec0774209bdd00d2ea99a60d2538b9be",
+        "magnet": "magnet:?xt=urn:btih:8dfdf6efec0774209bdd00d2ea99a60d2538b9be&dn=meta-models__Muse-Glimmer-30B&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 16777216
+      }
+    },
+    "tencent/Hy-MT2-30B-A3B": {
+      "at": "2026-09-26T04:10:33Z",
+      "revision": "d3ead4dba61c09aac60a261a96ad1df3e705febb",
+      "bytes": 60131744832,
+      "verified_files": 0,
+      "box_path": "ai-archive/tencent/Hy-MT2-30B-A3B/d3ead4dba61c09aac60a261a96ad1df3e705febb/",
+      "torrent": {
+        "file": "tencent__Hy-MT2-30B-A3B.torrent",
+        "infohash": "a18a2c2a675647a48b558e217f401d9d2a3719e7",
+        "magnet": "magnet:?xt=urn:btih:a18a2c2a675647a48b558e217f401d9d2a3719e7&dn=tencent__Hy-MT2-30B-A3B&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 16777216
+      }
+    },
+    "zai-org/GLM-4.7-Flash": {
+      "at": "2026-09-26T04:27:52Z",
+      "revision": "7dd20894a642a0aa287e9827cb1a1f7f91386b67",
+      "bytes": 62444175504,
+      "verified_files": 0,
+      "box_path": "ai-archive/zai-org/GLM-4.7-Flash/7dd20894a642a0aa287e9827cb1a1f7f91386b67/",
+      "torrent": {
+        "file": "zai-org__GLM-4.7-Flash.torrent",
+        "infohash": "984cd63a071bf9c5059234f2518c3b65879dc34b",
+        "magnet": "magnet:?xt=urn:btih:984cd63a071bf9c5059234f2518c3b65879dc34b&dn=zai-org__GLM-4.7-Flash&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 16777216
+      }
+    },
+    "google/gemma-4-31B-it": {
+      "at": "2026-09-26T04:47:05Z",
+      "revision": "842da3794eaa0b77d5f08bae87a17459d91ff475",
+      "bytes": 62546338248,
+      "verified_files": 0,
+      "box_path": "ai-archive/google/gemma-4-31B-it/842da3794eaa0b77d5f08bae87a17459d91ff475/",
+      "torrent": {
+        "file": "google__gemma-4-31B-it.torrent",
+        "infohash": "a12d683245d73accd4115373ed64f0d5ba71062a",
+        "magnet": "magnet:?xt=urn:btih:a12d683245d73accd4115373ed64f0d5ba71062a&dn=google__gemma-4-31B-it&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 16777216
+      }
+    },
+    "inclusionAI/Ming-Image-0.1-Design-Layer": {
+      "at": "2026-09-26T05:05:29Z",
+      "revision": "9fabca8b62a67f1f53a957d46389c00451c11e52",
+      "bytes": 65177467968,
+      "verified_files": 0,
+      "box_path": "ai-archive/inclusionAI/Ming-Image-0.1-Design-Layer/9fabca8b62a67f1f53a957d46389c00451c11e52/",
+      "torrent": {
+        "file": "inclusionAI__Ming-Image-0.1-Design-Layer.torrent",
+        "infohash": "88a72d006b9b61cfbd7993c0802d40d661c55338",
+        "magnet": "magnet:?xt=urn:btih:88a72d006b9b61cfbd7993c0802d40d661c55338&dn=inclusionAI__Ming-Image-0.1-Design-Layer&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 16777216
+      }
+    },
+    "ByteDance-Seed/SeedVR2-7B": {
+      "at": "2026-09-26T05:25:09Z",
+      "revision": "eb0c4281d41ba3767d4f14370f0e37e9e9180c16",
+      "bytes": 66920241114,
+      "verified_files": 0,
+      "box_path": "ai-archive/ByteDance-Seed/SeedVR2-7B/eb0c4281d41ba3767d4f14370f0e37e9e9180c16/",
+      "torrent": {
+        "file": "ByteDance-Seed__SeedVR2-7B.torrent",
+        "infohash": "0527a55a1e507428c86225faefc6ea2b48a172d3",
+        "magnet": "magnet:?xt=urn:btih:0527a55a1e507428c86225faefc6ea2b48a172d3&dn=ByteDance-Seed__SeedVR2-7B&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 16777216
+      }
+    },
+    "baichuan-inc/Baichuan-M2-32B": {
+      "at": "2026-09-26T05:45:14Z",
+      "revision": "360f684d3cd527a4ef986c54071015eb0e6def58",
+      "bytes": 67061853500,
+      "verified_files": 0,
+      "box_path": "ai-archive/baichuan-inc/Baichuan-M2-32B/360f684d3cd527a4ef986c54071015eb0e6def58/",
+      "torrent": {
+        "file": "baichuan-inc__Baichuan-M2-32B.torrent",
+        "infohash": "b1fe65db977c13dd75f983ca314690a1341d3253",
+        "magnet": "magnet:?xt=urn:btih:b1fe65db977c13dd75f983ca314690a1341d3253&dn=baichuan-inc__Baichuan-M2-32B&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 16777216
+      }
+    },
+    "Wan-AI/Wan2.2-Animate-14B": {
+      "at": "2026-09-26T06:21:13Z",
+      "revision": "cb93a225fbaf1ca100f54e79da8f994995b689b3",
+      "bytes": 67532944613,
+      "verified_files": 0,
+      "box_path": "ai-archive/Wan-AI/Wan2.2-Animate-14B/cb93a225fbaf1ca100f54e79da8f994995b689b3/",
+      "torrent": {
+        "file": "Wan-AI__Wan2.2-Animate-14B.torrent",
+        "infohash": "cbd8a40ab71d23eb99d5477feed4f8e3e810fc9b",
+        "magnet": "magnet:?xt=urn:btih:cbd8a40ab71d23eb99d5477feed4f8e3e810fc9b&dn=Wan-AI__Wan2.2-Animate-14B&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 16777216
+      }
+    },
+    "OrionStarAI/OrionStar-Yi-34B-Chat-Llama": {
+      "at": "2026-09-26T06:41:26Z",
+      "revision": "ad91c09c174b39100fd512789774950525477180",
+      "bytes": 68777897344,
+      "verified_files": 0,
+      "box_path": "ai-archive/OrionStarAI/OrionStar-Yi-34B-Chat-Llama/ad91c09c174b39100fd512789774950525477180/",
+      "torrent": {
+        "file": "OrionStarAI__OrionStar-Yi-34B-Chat-Llama.torrent",
+        "infohash": "2d53327c65cbc372360abed9b5e3f70322353a93",
+        "magnet": "magnet:?xt=urn:btih:2d53327c65cbc372360abed9b5e3f70322353a93&dn=OrionStarAI__OrionStar-Yi-34B-Chat-Llama&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 16777216
+      }
+    },
+    "01-ai/Yi-1.5-34B-Chat": {
+      "at": "2026-09-26T07:01:13Z",
+      "revision": "fa4ffba162f20948bf77c2a30eca952bf0812b7f",
+      "bytes": 68777898032,
+      "verified_files": 0,
+      "box_path": "ai-archive/01-ai/Yi-1.5-34B-Chat/fa4ffba162f20948bf77c2a30eca952bf0812b7f/",
+      "torrent": {
+        "file": "01-ai__Yi-1.5-34B-Chat.torrent",
+        "infohash": "951ae81f740e1b44491ba31fd0b2836c50ca5961",
+        "magnet": "magnet:?xt=urn:btih:951ae81f740e1b44491ba31fd0b2836c50ca5961&dn=01-ai__Yi-1.5-34B-Chat&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 16777216
+      }
+    },
+    "01-ai/Yi-34B-Chat": {
+      "at": "2026-09-26T07:21:29Z",
+      "revision": "cf02cb50f2a03dead2fe205766a1c5598a90bf80",
+      "bytes": 68777898032,
+      "verified_files": 0,
+      "box_path": "ai-archive/01-ai/Yi-34B-Chat/cf02cb50f2a03dead2fe205766a1c5598a90bf80/",
+      "torrent": {
+        "file": "01-ai__Yi-34B-Chat.torrent",
+        "infohash": "825126b3e300a3794a205dc273d2c4953aebb87a",
+        "magnet": "magnet:?xt=urn:btih:825126b3e300a3794a205dc273d2c4953aebb87a&dn=01-ai__Yi-34B-Chat&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 16777216
+      }
+    },
+    "Wan-AI/Wan2.1-T2V-14B": {
+      "at": "2026-09-26T07:41:20Z",
+      "revision": "a064a6c71f5be440641209c07bf2a5ce7a2ff5e4",
+      "bytes": 69023607690,
+      "verified_files": 0,
+      "box_path": "ai-archive/Wan-AI/Wan2.1-T2V-14B/a064a6c71f5be440641209c07bf2a5ce7a2ff5e4/",
+      "torrent": {
+        "file": "Wan-AI__Wan2.1-T2V-14B.torrent",
+        "infohash": "48dc5ed0377827a5b249650845181896bd18b4d3",
+        "magnet": "magnet:?xt=urn:btih:48dc5ed0377827a5b249650845181896bd18b4d3&dn=Wan-AI__Wan2.1-T2V-14B&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 16777216
+      }
+    },
+    "inclusionAI/Ling-3.0-flash-fp4": {
+      "at": "2026-09-26T08:01:39Z",
+      "revision": "3bae1cf4011b48475b2cc038fff283af49053ebc",
+      "bytes": 70373959248,
+      "verified_files": 0,
+      "box_path": "ai-archive/inclusionAI/Ling-3.0-flash-fp4/3bae1cf4011b48475b2cc038fff283af49053ebc/",
+      "torrent": {
+        "file": "inclusionAI__Ling-3.0-flash-fp4.torrent",
+        "infohash": "cd0d0b64ff28e5bd7fe1d18bae68751c847866de",
+        "magnet": "magnet:?xt=urn:btih:cd0d0b64ff28e5bd7fe1d18bae68751c847866de&dn=inclusionAI__Ling-3.0-flash-fp4&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 16777216
+      }
+    },
+    "Qwen/Qwen3.6-35B-A3B": {
+      "at": "2026-09-26T08:22:38Z",
+      "revision": "995ad96eacd98c81ed38be0c5b274b04031597b0",
+      "bytes": 71903776776,
+      "verified_files": 0,
+      "box_path": "ai-archive/Qwen/Qwen3.6-35B-A3B/995ad96eacd98c81ed38be0c5b274b04031597b0/",
+      "torrent": {
+        "file": "Qwen__Qwen3.6-35B-A3B.torrent",
+        "infohash": "a3d71334195c5a93b0985988f4cea0e81bc01cae",
+        "magnet": "magnet:?xt=urn:btih:a3d71334195c5a93b0985988f4cea0e81bc01cae&dn=Qwen__Qwen3.6-35B-A3B&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 16777216
+      }
+    },
+    "ByteDance-Seed/Seed-OSS-36B-Base": {
+      "at": "2026-09-26T08:43:07Z",
+      "revision": "866afe247a1b86c297a2343900a6aa63747d2a67",
+      "bytes": 72302298216,
+      "verified_files": 0,
+      "box_path": "ai-archive/ByteDance-Seed/Seed-OSS-36B-Base/866afe247a1b86c297a2343900a6aa63747d2a67/",
+      "torrent": {
+        "file": "ByteDance-Seed__Seed-OSS-36B-Base.torrent",
+        "infohash": "9380834b8712d8e034a53f698ed4c6bdf806603d",
+        "magnet": "magnet:?xt=urn:btih:9380834b8712d8e034a53f698ed4c6bdf806603d&dn=ByteDance-Seed__Seed-OSS-36B-Base&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 16777216
+      }
+    },
+    "ByteDance-Seed/Seed-OSS-36B-Instruct": {
+      "at": "2026-09-26T09:03:41Z",
+      "revision": "497f1dca95ebdec98e41d517b9f060ee753c902f",
+      "bytes": 72302298216,
+      "verified_files": 0,
+      "box_path": "ai-archive/ByteDance-Seed/Seed-OSS-36B-Instruct/497f1dca95ebdec98e41d517b9f060ee753c902f/",
+      "torrent": {
+        "file": "ByteDance-Seed__Seed-OSS-36B-Instruct.torrent",
+        "infohash": "f76a44e0d7ca361317143335ed5dc5a34c4cc541",
+        "magnet": "magnet:?xt=urn:btih:f76a44e0d7ca361317143335ed5dc5a34c4cc541&dn=ByteDance-Seed__Seed-OSS-36B-Instruct&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 16777216
+      }
+    },
+    "Wan-AI/Wan2.1-VACE-14B": {
+      "at": "2026-09-26T09:24:53Z",
+      "revision": "539c162b1387eac9dc4c20bd3f74671309e76a4c",
+      "bytes": 75121835450,
+      "verified_files": 0,
+      "box_path": "ai-archive/Wan-AI/Wan2.1-VACE-14B/539c162b1387eac9dc4c20bd3f74671309e76a4c/",
+      "torrent": {
+        "file": "Wan-AI__Wan2.1-VACE-14B.torrent",
+        "infohash": "df3fd99df6045cb3e65bf831755d49b1574c5186",
+        "magnet": "magnet:?xt=urn:btih:df3fd99df6045cb3e65bf831755d49b1574c5186&dn=Wan-AI__Wan2.1-VACE-14B&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 16777216
+      }
+    },
+    "Skywork/Skywork-R1V-38B": {
+      "at": "2026-09-26T09:46:35Z",
+      "revision": "363f7c8e12c537b1ef468193597f9e58f998eab9",
+      "bytes": 76784488184,
+      "verified_files": 0,
+      "box_path": "ai-archive/Skywork/Skywork-R1V-38B/363f7c8e12c537b1ef468193597f9e58f998eab9/",
+      "torrent": {
+        "file": "Skywork__Skywork-R1V-38B.torrent",
+        "infohash": "f9ab7bd491ff24a08ea7fe5db2c004b483610789",
+        "magnet": "magnet:?xt=urn:btih:f9ab7bd491ff24a08ea7fe5db2c004b483610789&dn=Skywork__Skywork-R1V-38B&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 16777216
+      }
+    },
+    "IEITYuan/Yuan2-M32-hf": {
+      "at": "2026-09-26T10:09:41Z",
+      "revision": "3f5371ba89e7468ea91a7d596371f8e4c6a63003",
+      "bytes": 79886364747,
+      "verified_files": 0,
+      "box_path": "ai-archive/IEITYuan/Yuan2-M32-hf/3f5371ba89e7468ea91a7d596371f8e4c6a63003/",
+      "torrent": {
+        "file": "IEITYuan__Yuan2-M32-hf.torrent",
+        "infohash": "a791d12c2acbc91cdb83499bdec13d9165219e85",
+        "magnet": "magnet:?xt=urn:btih:a791d12c2acbc91cdb83499bdec13d9165219e85&dn=IEITYuan__Yuan2-M32-hf&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 16777216
+      }
+    },
+    "moonshotai/Kimi-Linear-48B-A3B-Base": {
+      "at": "2026-09-26T10:37:48Z",
+      "revision": "3b171c17bfc4ee348599b6781a2ca8715c21c8dc",
+      "bytes": 98248224120,
+      "verified_files": 0,
+      "box_path": "ai-archive/moonshotai/Kimi-Linear-48B-A3B-Base/3b171c17bfc4ee348599b6781a2ca8715c21c8dc/",
+      "torrent": {
+        "file": "moonshotai__Kimi-Linear-48B-A3B-Base.torrent",
+        "infohash": "30bd8b0319f023cd1bc3c9c07391ad18c5aaae79",
+        "magnet": "magnet:?xt=urn:btih:30bd8b0319f023cd1bc3c9c07391ad18c5aaae79&dn=moonshotai__Kimi-Linear-48B-A3B-Base&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 16777216
+      }
+    },
+    "moonshotai/Kimi-Linear-48B-A3B-Instruct": {
+      "at": "2026-09-26T11:06:21Z",
+      "revision": "e1df551a447157d4658b573f9a695d57658590e9",
+      "bytes": 98248224120,
+      "verified_files": 0,
+      "box_path": "ai-archive/moonshotai/Kimi-Linear-48B-A3B-Instruct/e1df551a447157d4658b573f9a695d57658590e9/",
+      "torrent": {
+        "file": "moonshotai__Kimi-Linear-48B-A3B-Instruct.torrent",
+        "infohash": "44ea31a7c241a1433cf0d58c42ec758ea331c2ff",
+        "magnet": "magnet:?xt=urn:btih:44ea31a7c241a1433cf0d58c42ec758ea331c2ff&dn=moonshotai__Kimi-Linear-48B-A3B-Instruct&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 16777216
+      }
+    },
+    "Wan-AI/Wan2.2-T2V-A14B": {
+      "at": "2026-09-26T11:41:25Z",
+      "revision": "c8c270b13ee05bfa474194ac9fb07a5868a97cea",
+      "bytes": 126177685050,
+      "verified_files": 0,
+      "box_path": "ai-archive/Wan-AI/Wan2.2-T2V-A14B/c8c270b13ee05bfa474194ac9fb07a5868a97cea/",
+      "torrent": {
+        "file": "Wan-AI__Wan2.2-T2V-A14B.torrent",
+        "infohash": "0aa3e4f8292a2d0e96c6c9786d0308f5c1e5689e",
+        "magnet": "magnet:?xt=urn:btih:0aa3e4f8292a2d0e96c6c9786d0308f5c1e5689e&dn=Wan-AI__Wan2.2-T2V-A14B&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 16777216
+      }
+    },
+    "Wan-AI/Wan2.2-I2V-A14B": {
+      "at": "2026-09-26T12:19:03Z",
+      "revision": "206a9ee1b7bfaaf8f7e4d81335650533490646a3",
+      "bytes": 126180961850,
+      "verified_files": 0,
+      "box_path": "ai-archive/Wan-AI/Wan2.2-I2V-A14B/206a9ee1b7bfaaf8f7e4d81335650533490646a3/",
+      "torrent": {
+        "file": "Wan-AI__Wan2.2-I2V-A14B.torrent",
+        "infohash": "cd7e13c28ff572c3eb25abe0ed5017cbd97d8f9d",
+        "magnet": "magnet:?xt=urn:btih:cd7e13c28ff572c3eb25abe0ed5017cbd97d8f9d&dn=Wan-AI__Wan2.2-I2V-A14B&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 16777216
+      }
+    },
+    "stepfun-ai/Step-3.7-Flash-NVFP4": {
+      "at": "2026-09-26T12:58:35Z",
+      "revision": "4275532ffd9a9496ff36b7a2dc4a9db1048da438",
+      "bytes": 129241604232,
+      "verified_files": 0,
+      "box_path": "ai-archive/stepfun-ai/Step-3.7-Flash-NVFP4/4275532ffd9a9496ff36b7a2dc4a9db1048da438/",
+      "torrent": {
+        "file": "stepfun-ai__Step-3.7-Flash-NVFP4.torrent",
+        "infohash": "cf53a4902e07cb79aad48ca958f6bc3f1ecdcd7c",
+        "magnet": "magnet:?xt=urn:btih:cf53a4902e07cb79aad48ca958f6bc3f1ecdcd7c&dn=stepfun-ai__Step-3.7-Flash-NVFP4&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 16777216
+      }
+    },
+    "deepseek-ai/DeepSeek-V4-Flash": {
+      "at": "2026-09-26T13:44:26Z",
+      "revision": "60d8d70770c6776ff598c94bb586a859a38244f1",
+      "bytes": 159617149040,
+      "verified_files": 0,
+      "box_path": "ai-archive/deepseek-ai/DeepSeek-V4-Flash/60d8d70770c6776ff598c94bb586a859a38244f1/",
+      "torrent": {
+        "file": "deepseek-ai__DeepSeek-V4-Flash.torrent",
+        "infohash": "ae85c05c3329500fe169bfe3bc876663c1e70f10",
+        "magnet": "magnet:?xt=urn:btih:ae85c05c3329500fe169bfe3bc876663c1e70f10&dn=deepseek-ai__DeepSeek-V4-Flash&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 16777216
+      }
+    },
+    "deepseek-ai/DeepSeek-V4-Flash-0731": {
+      "at": "2026-09-26T14:34:07Z",
+      "revision": "7872f01b1d1fe23eabc4c98b48bffcef5a386062",
+      "bytes": 166886535336,
+      "verified_files": 0,
+      "box_path": "ai-archive/deepseek-ai/DeepSeek-V4-Flash-0731/7872f01b1d1fe23eabc4c98b48bffcef5a386062/",
+      "torrent": {
+        "file": "deepseek-ai__DeepSeek-V4-Flash-0731.torrent",
+        "infohash": "92a2e8dcb301a55cd7d4b240e9cb8b5f3f629614",
+        "magnet": "magnet:?xt=urn:btih:92a2e8dcb301a55cd7d4b240e9cb8b5f3f629614&dn=deepseek-ai__DeepSeek-V4-Flash-0731&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 16777216
+      }
+    },
+    "deepseek-ai/DeepSeek-V4-Flash-DSpark": {
+      "at": "2026-09-26T15:24:16Z",
+      "revision": "62af8fffb2f7030cac4de2f0169f5b8d1101b646",
+      "bytes": 166886535336,
+      "verified_files": 0,
+      "box_path": "ai-archive/deepseek-ai/DeepSeek-V4-Flash-DSpark/62af8fffb2f7030cac4de2f0169f5b8d1101b646/",
+      "torrent": {
+        "file": "deepseek-ai__DeepSeek-V4-Flash-DSpark.torrent",
+        "infohash": "9c9b69a65048b9ac225666a7ef681094bfcc1ff1",
+        "magnet": "magnet:?xt=urn:btih:9c9b69a65048b9ac225666a7ef681094bfcc1ff1&dn=deepseek-ai__DeepSeek-V4-Flash-DSpark&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 16777216
+      }
+    },
+    "zai-org/GLM-4.5-Air": {
+      "at": "2026-09-26T16:31:13Z",
+      "revision": "a24ceef6ce4f3536971efe9b778bdaa1bab18daa",
+      "bytes": 220939943456,
+      "verified_files": 0,
+      "box_path": "ai-archive/zai-org/GLM-4.5-Air/a24ceef6ce4f3536971efe9b778bdaa1bab18daa/",
+      "torrent": {
+        "file": "zai-org__GLM-4.5-Air.torrent",
+        "infohash": "90e16e390f9790c1ba5dd86abc991fb5c3613b7c",
+        "magnet": "magnet:?xt=urn:btih:90e16e390f9790c1ba5dd86abc991fb5c3613b7c&dn=zai-org__GLM-4.5-Air&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 16777216
+      }
+    },
+    "Qwen/Qwen3.5-122B-A10B": {
+      "at": "2026-09-26T17:45:29Z",
+      "revision": "dc4d348443bc740c68e2d77492492c11606384d5",
+      "bytes": 250173250864,
+      "verified_files": 0,
+      "box_path": "ai-archive/Qwen/Qwen3.5-122B-A10B/dc4d348443bc740c68e2d77492492c11606384d5/",
+      "torrent": {
+        "file": "Qwen__Qwen3.5-122B-A10B.torrent",
+        "infohash": "97e0dc08ca26ade15dfae4d83519ebc8656817bb",
+        "magnet": "magnet:?xt=urn:btih:97e0dc08ca26ade15dfae4d83519ebc8656817bb&dn=Qwen__Qwen3.5-122B-A10B&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 16777216
+      }
+    },
+    "inclusionAI/Ling-3.0-flash": {
+      "at": "2026-09-26T19:03:18Z",
+      "revision": "e0dfe7cd0f6e3b572bbbc0a8a84947469e428cc3",
+      "bytes": 254981097642,
+      "verified_files": 0,
+      "box_path": "ai-archive/inclusionAI/Ling-3.0-flash/e0dfe7cd0f6e3b572bbbc0a8a84947469e428cc3/",
+      "torrent": {
+        "file": "inclusionAI__Ling-3.0-flash.torrent",
+        "infohash": "0dd8fb94a571d9dff9efe593589ce901b5300fa0",
+        "magnet": "magnet:?xt=urn:btih:0dd8fb94a571d9dff9efe593589ce901b5300fa0&dn=inclusionAI__Ling-3.0-flash&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 16777216
+      }
+    },
+    "XiaomiMiMo/MiMo-V2-Flash": {
+      "at": "2026-09-26T20:35:58Z",
+      "revision": "1afd314a2406c282e0956375c34a676501c78649",
+      "bytes": 313060774832,
+      "verified_files": 0,
+      "box_path": "ai-archive/XiaomiMiMo/MiMo-V2-Flash/1afd314a2406c282e0956375c34a676501c78649/",
+      "torrent": {
+        "file": "XiaomiMiMo__MiMo-V2-Flash.torrent",
+        "infohash": "90b94e31c8b0cd1cd22d8e7ad63d2cefd19d0157",
+        "magnet": "magnet:?xt=urn:btih:90b94e31c8b0cd1cd22d8e7ad63d2cefd19d0157&dn=XiaomiMiMo__MiMo-V2-Flash&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 16777216
+      }
+    },
+    "XiaomiMiMo/MiMo-V2.5": {
+      "at": "2026-09-26T22:19:27Z",
+      "revision": "63651580ca774f8504f676040460aed3e1244ac1",
+      "bytes": 315693004496,
+      "verified_files": 0,
+      "box_path": "ai-archive/XiaomiMiMo/MiMo-V2.5/63651580ca774f8504f676040460aed3e1244ac1/",
+      "torrent": {
+        "file": "XiaomiMiMo__MiMo-V2.5.torrent",
+        "infohash": "4536eaea2075e6542b14866705980c4cf7794304",
+        "magnet": "magnet:?xt=urn:btih:4536eaea2075e6542b14866705980c4cf7794304&dn=XiaomiMiMo__MiMo-V2.5&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 16777216
+      }
+    },
+    "zai-org/GLM-5.3-Flash": {
+      "at": "2026-09-26T23:59:49Z",
+      "revision": "eb9eb208eb0d988989d07a6a12d0fdeb5f52574a",
+      "bytes": 328337455672,
+      "verified_files": 0,
+      "box_path": "ai-archive/zai-org/GLM-5.3-Flash/eb9eb208eb0d988989d07a6a12d0fdeb5f52574a/",
+      "torrent": {
+        "file": "zai-org__GLM-5.3-Flash.torrent",
+        "infohash": "1162f756d1f18f7c815cefe8d65f83440766ec57",
+        "magnet": "magnet:?xt=urn:btih:1162f756d1f18f7c815cefe8d65f83440766ec57&dn=zai-org__GLM-5.3-Flash&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 16777216
+      }
+    },
+    "stepfun-ai/Step-3.5-Flash": {
+      "at": "2026-09-27T01:58:04Z",
+      "revision": "ab446a3de5e171ea341227e24bb1f090e1b771f7",
+      "bytes": 398768720200,
+      "verified_files": 0,
+      "box_path": "ai-archive/stepfun-ai/Step-3.5-Flash/ab446a3de5e171ea341227e24bb1f090e1b771f7/",
+      "torrent": {
+        "file": "stepfun-ai__Step-3.5-Flash.torrent",
+        "infohash": "807d781ae14e8be25eb5caefe0c6fd8317ba0084",
+        "magnet": "magnet:?xt=urn:btih:807d781ae14e8be25eb5caefe0c6fd8317ba0084&dn=stepfun-ai__Step-3.5-Flash&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 16777216
+      }
+    },
+    "stepfun-ai/Step-3.7-Flash": {
+      "at": "2026-09-27T04:04:10Z",
+      "revision": "5f6244077ac62e04eec3f320501ff8c2b293373a",
+      "bytes": 402730833632,
+      "verified_files": 0,
+      "box_path": "ai-archive/stepfun-ai/Step-3.7-Flash/5f6244077ac62e04eec3f320501ff8c2b293373a/",
+      "torrent": {
+        "file": "stepfun-ai__Step-3.7-Flash.torrent",
+        "infohash": "0a13f8efec154ed0110ea53417e271364106a9be",
+        "magnet": "magnet:?xt=urn:btih:0a13f8efec154ed0110ea53417e271364106a9be&dn=stepfun-ai__Step-3.7-Flash&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 16777216
+      }
+    },
+    "openai/gpt-oss-120b": {
+      "at": "2026-09-27T08:11:10Z",
+      "revision": "b5c939de8f754692c1647ca79fbf85e8c1e70f8a",
+      "bytes": 195736016552,
+      "verified_files": 0,
+      "box_path": "ai-archive/openai/gpt-oss-120b/b5c939de8f754692c1647ca79fbf85e8c1e70f8a/",
+      "torrent": {
+        "file": "openai__gpt-oss-120b.torrent",
+        "infohash": "faffdd7ce9edbe0925e29d78661b6aa675023f42",
+        "magnet": "magnet:?xt=urn:btih:faffdd7ce9edbe0925e29d78661b6aa675023f42&dn=openai__gpt-oss-120b&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 16777216
+      }
+    },
+    "internlm/Intern-S2-Preview-397B-FP8": {
+      "at": "2026-09-27T10:02:56Z",
+      "revision": "b9b98067e5a0cea541b9e4a2739c0aa7a5ddb667",
+      "bytes": 408310232736,
+      "verified_files": 0,
+      "box_path": "ai-archive/internlm/Intern-S2-Preview-397B-FP8/b9b98067e5a0cea541b9e4a2739c0aa7a5ddb667/",
+      "torrent": {
+        "file": "internlm__Intern-S2-Preview-397B-FP8.torrent",
+        "infohash": "ddf1b6bfddd2093c087c9c722f8a8eb0e4eeff49",
+        "magnet": "magnet:?xt=urn:btih:ddf1b6bfddd2093c087c9c722f8a8eb0e4eeff49&dn=internlm__Intern-S2-Preview-397B-FP8&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 16777216
+      }
+    },
+    "baichuan-inc/Baichuan-M3-235B": {
+      "at": "2026-09-27T12:00:41Z",
+      "revision": "03a1fd5e4d5045b175cd850c576b1f92b335261e",
+      "bytes": 471511429248,
+      "verified_files": 0,
+      "box_path": "ai-archive/baichuan-inc/Baichuan-M3-235B/03a1fd5e4d5045b175cd850c576b1f92b335261e/",
+      "torrent": {
+        "file": "baichuan-inc__Baichuan-M3-235B.torrent",
+        "infohash": "b7c31cc84758d7c1f36d1cd6745bd0db988fdca1",
+        "magnet": "magnet:?xt=urn:btih:b7c31cc84758d7c1f36d1cd6745bd0db988fdca1&dn=baichuan-inc__Baichuan-M3-235B&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 16777216
+      }
+    },
+    "internlm/Intern-S1": {
+      "at": "2026-09-27T15:31:47Z",
+      "revision": "4ecad381e28293c4825793f113327cc016cdcbda",
+      "bytes": 481424965184,
+      "verified_files": 0,
+      "box_path": "ai-archive/internlm/Intern-S1/4ecad381e28293c4825793f113327cc016cdcbda/",
+      "torrent": {
+        "file": "internlm__Intern-S1.torrent",
+        "infohash": "45e1630868540c5ffe667b97d605538516cc1eeb",
+        "magnet": "magnet:?xt=urn:btih:45e1630868540c5ffe667b97d605538516cc1eeb&dn=internlm__Intern-S1&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 16777216
+      }
+    },
+    "stepfun-ai/step3": {
+      "at": "2026-09-27T19:53:17Z",
+      "revision": "e2d67fc936dc60f8f606f2429728f1dea503e10d",
+      "bytes": 641940029760,
+      "verified_files": 0,
+      "box_path": "ai-archive/stepfun-ai/step3/e2d67fc936dc60f8f606f2429728f1dea503e10d/",
+      "torrent": {
+        "file": "stepfun-ai__step3.torrent",
+        "infohash": "67ed61fd6c39367f28c66aa8ac823674ff2ba685",
+        "magnet": "magnet:?xt=urn:btih:67ed61fd6c39367f28c66aa8ac823674ff2ba685&dn=stepfun-ai__step3&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 16777216
+      }
+    },
+    "deepseek-ai/DeepSeek-Math-V2": {
+      "at": "2026-09-28T00:41:55Z",
+      "revision": "6ea7c60b42df79beac8cfa51ccb7e19b9e7b6e95",
+      "bytes": 689483049129,
+      "verified_files": 0,
+      "box_path": "ai-archive/deepseek-ai/DeepSeek-Math-V2/6ea7c60b42df79beac8cfa51ccb7e19b9e7b6e95/",
+      "torrent": {
+        "file": "deepseek-ai__DeepSeek-Math-V2.torrent",
+        "infohash": "acfca2b4a5702cd6ca5bc7114c38baba68cef547",
+        "magnet": "magnet:?xt=urn:btih:acfca2b4a5702cd6ca5bc7114c38baba68cef547&dn=deepseek-ai__DeepSeek-Math-V2&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 16777216
+      }
+    },
+    "deepseek-ai/DeepSeek-V3.2-Exp": {
+      "at": "2026-09-28T05:20:33Z",
+      "revision": "194c67e12b1b0d6df0ef373ddcf215bc84027409",
+      "bytes": 689483049129,
+      "verified_files": 0,
+      "box_path": "ai-archive/deepseek-ai/DeepSeek-V3.2-Exp/194c67e12b1b0d6df0ef373ddcf215bc84027409/",
+      "torrent": {
+        "file": "deepseek-ai__DeepSeek-V3.2-Exp.torrent",
+        "infohash": "df17e2a02874c378669430a612accfed09109e8d",
+        "magnet": "magnet:?xt=urn:btih:df17e2a02874c378669430a612accfed09109e8d&dn=deepseek-ai__DeepSeek-V3.2-Exp&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 16777216
+      }
+    },
+    "zai-org/GLM-4.6": {
+      "at": "2026-09-28T10:22:22Z",
+      "revision": "be72194883d968d7923a07e2f61681ea9a2826d1",
+      "bytes": 713577411472,
+      "verified_files": 0,
+      "box_path": "ai-archive/zai-org/GLM-4.6/be72194883d968d7923a07e2f61681ea9a2826d1/",
+      "torrent": {
+        "file": "zai-org__GLM-4.6.torrent",
+        "infohash": "d8489292633f81f7fd7736e6a0b4d43a680cbf41",
+        "magnet": "magnet:?xt=urn:btih:d8489292633f81f7fd7736e6a0b4d43a680cbf41&dn=zai-org__GLM-4.6&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 16777216
+      }
+    },
+    "zai-org/GLM-4.7": {
+      "at": "2026-09-28T15:36:13Z",
+      "revision": "602d01efcdd332c5238ca4bcede555defbe83eb7",
+      "bytes": 716681196792,
+      "verified_files": 0,
+      "box_path": "ai-archive/zai-org/GLM-4.7/602d01efcdd332c5238ca4bcede555defbe83eb7/",
+      "torrent": {
+        "file": "zai-org__GLM-4.7.torrent",
+        "infohash": "86ac559533f82f24abfd8d57bbf33166152eb4a5",
+        "magnet": "magnet:?xt=urn:btih:86ac559533f82f24abfd8d57bbf33166152eb4a5&dn=zai-org__GLM-4.7&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 16777216
+      }
+    },
+    "deepseek-ai/DeepSeek-V4-Pro": {
+      "at": "2026-09-28T23:20:16Z",
+      "revision": "b5968e9190ef611bbf34a7229255be88a0e937c1",
+      "bytes": 864721029744,
+      "verified_files": 0,
+      "box_path": "ai-archive/deepseek-ai/DeepSeek-V4-Pro/b5968e9190ef611bbf34a7229255be88a0e937c1/",
+      "torrent": {
+        "file": "deepseek-ai__DeepSeek-V4-Pro.torrent",
+        "infohash": "3b0f6e814a39adbbf11aba7b4683c491ce844924",
+        "magnet": "magnet:?xt=urn:btih:3b0f6e814a39adbbf11aba7b4683c491ce844924&dn=deepseek-ai__DeepSeek-V4-Pro&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 16777216
+      }
+    },
+    "deepseek-ai/DeepSeek-V4-Pro-0813": {
+      "at": "2026-09-29T05:19:32Z",
+      "revision": "72e1d3230f6c080a530b0a1d46f8eb4602340597",
+      "bytes": 892744322880,
+      "verified_files": 0,
+      "box_path": "ai-archive/deepseek-ai/DeepSeek-V4-Pro-0813/72e1d3230f6c080a530b0a1d46f8eb4602340597/",
+      "torrent": {
+        "file": "deepseek-ai__DeepSeek-V4-Pro-0813.torrent",
+        "infohash": "a9f0fc191caf5c1e1b888476c8fdd70959118b07",
+        "magnet": "magnet:?xt=urn:btih:a9f0fc191caf5c1e1b888476c8fdd70959118b07&dn=deepseek-ai__DeepSeek-V4-Pro-0813&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 16777216
+      }
+    },
+    "XiaomiMiMo/MiMo-V2.5-Pro": {
+      "at": "2026-09-29T12:42:18Z",
+      "revision": "21d1ecfecd7bd70f31be25ca49d7edd21f003659",
+      "bytes": 1033389872152,
+      "verified_files": 0,
+      "box_path": "ai-archive/XiaomiMiMo/MiMo-V2.5-Pro/21d1ecfecd7bd70f31be25ca49d7edd21f003659/",
+      "torrent": {
+        "file": "XiaomiMiMo__MiMo-V2.5-Pro.torrent",
+        "infohash": "48c5052511fb2ab3d325953a70c6df598b7a182a",
+        "magnet": "magnet:?xt=urn:btih:48c5052511fb2ab3d325953a70c6df598b7a182a&dn=XiaomiMiMo__MiMo-V2.5-Pro&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 16777216
+      }
+    },
+    "zai-org/GLM-5.2": {
+      "at": "2026-09-30T03:29:09Z",
+      "revision": "cf457fa734ab149ffef225f80893eb38c6ff5cdc",
+      "bytes": 1506667387408,
+      "streamed": true,
+      "verified_files": 0,
+      "box_path": "ai-archive/zai-org/GLM-5.2/cf457fa734ab149ffef225f80893eb38c6ff5cdc/",
+      "torrent": {
+        "file": "zai-org__GLM-5.2.torrent",
+        "infohash": "4187cdcd8e315e129b36989f70629448278b54e1",
+        "magnet": "magnet:?xt=urn:btih:4187cdcd8e315e129b36989f70629448278b54e1&dn=zai-org__GLM-5.2&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce",
+        "piece_length": 16777216
+      }
     }
   }
 }

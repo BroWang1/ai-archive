@@ -172,7 +172,17 @@
       "serving": null,
       "mirrors": {
         "hf": null,
-        "master": null
+        "master": null,
+        "vault": {
+          "at": "2026-09-25T21:57:28Z",
+          "revision": "a4362c943d48951f98ca2a62181cc028970270c5",
+          "box_path": "ai-archive/FunAudioLLM/Fun-ASR-Nano-2512-vllm/a4362c943d48951f98ca2a62181cc028970270c5/"
+        },
+        "torrent": {
+          "file": "torrents/FunAudioLLM__Fun-ASR-Nano-2512-vllm.torrent",
+          "infohash": "97f556cc0a2c8ffe19228fce129e71e193ba73bb",
+          "magnet": "magnet:?xt=urn:btih:97f556cc0a2c8ffe19228fce129e71e193ba73bb&dn=FunAudioLLM__Fun-ASR-Nano-2512-vllm&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce"
+        }
       }
     }
   ],

@@ -1,12 +1,5 @@
 [
  {
-  "at": "2026-10-05T23:14:29Z",
-  "kind": "digest",
-  "text": "This week aiarchive.info captured two new open-weight models: internlm/AdvancedMathBench-AutoVerifier and BAAI/AREX-2. No models were mirrored and no alerts were issued. Radar picked up new papers referencing DeepSeek (including work on sparse MoE load balancing and multi-agent oversight) and Qwen (including a benchmark for spatial context retrieval in open-weight LLMs).",
-  "url": "https://github.com/BroWang1/ai-archive/issues",
-  "action": "details"
- },
- {
   "at": "2026-10-05T16:22:52Z",
   "kind": "paper",
   "text": "New paper mentioning DeepSeek: A Kinetic Theory of the Gated Self-Evolving LLM Agent",
@@ -277,6 +270,13 @@
   "kind": "trending",
   "text": "Trending outside tracked labs: Venastine-Research/Xing4.0-29B-A4B-GGUF (18,863 downloads)",
   "url": "https://huggingface.co/Venastine-Research/Xing4.0-29B-A4B-GGUF",
+  "action": "view"
+ },
+ {
+  "at": "2026-10-05T16:22:40Z",
+  "kind": "trending",
+  "text": "Trending outside tracked labs: PSRben/VisionHOPE (1,654 downloads)",
+  "url": "https://huggingface.co/PSRben/VisionHOPE",
   "action": "view"
  }
 ]

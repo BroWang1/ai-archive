@@ -76,7 +76,17 @@
       "serving": null,
       "mirrors": {
         "hf": null,
-        "master": null
+        "master": null,
+        "vault": {
+          "at": "2026-09-26T05:25:09Z",
+          "revision": "eb0c4281d41ba3767d4f14370f0e37e9e9180c16",
+          "box_path": "ai-archive/ByteDance-Seed/SeedVR2-7B/eb0c4281d41ba3767d4f14370f0e37e9e9180c16/"
+        },
+        "torrent": {
+          "file": "torrents/ByteDance-Seed__SeedVR2-7B.torrent",
+          "infohash": "0527a55a1e507428c86225faefc6ea2b48a172d3",
+          "magnet": "magnet:?xt=urn:btih:0527a55a1e507428c86225faefc6ea2b48a172d3&dn=ByteDance-Seed__SeedVR2-7B&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce"
+        }
       }
     }
   ],

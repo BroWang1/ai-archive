@@ -2698,7 +2698,17 @@
       "serving": null,
       "mirrors": {
         "hf": null,
-        "master": null
+        "master": null,
+        "vault": {
+          "at": "2026-09-26T06:21:13Z",
+          "revision": "cb93a225fbaf1ca100f54e79da8f994995b689b3",
+          "box_path": "ai-archive/Wan-AI/Wan2.2-Animate-14B/cb93a225fbaf1ca100f54e79da8f994995b689b3/"
+        },
+        "torrent": {
+          "file": "torrents/Wan-AI__Wan2.2-Animate-14B.torrent",
+          "infohash": "cbd8a40ab71d23eb99d5477feed4f8e3e810fc9b",
+          "magnet": "magnet:?xt=urn:btih:cbd8a40ab71d23eb99d5477feed4f8e3e810fc9b&dn=Wan-AI__Wan2.2-Animate-14B&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce"
+        }
       }
     }
   ],

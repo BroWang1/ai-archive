@@ -268,7 +268,12 @@
       "serving": null,
       "mirrors": {
         "hf": null,
-        "master": null
+        "master": null,
+        "vault": {
+          "at": "2026-09-25T22:00:00Z",
+          "revision": "skipped",
+          "box_path": null
+        }
       }
     }
   ],

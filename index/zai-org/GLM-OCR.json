@@ -106,7 +106,17 @@
       "serving": null,
       "mirrors": {
         "hf": null,
-        "master": null
+        "master": null,
+        "vault": {
+          "at": "2026-09-25T22:04:16Z",
+          "revision": "2e85a62840ccac27daa451df36c736c4636b8628",
+          "box_path": "ai-archive/zai-org/GLM-OCR/2e85a62840ccac27daa451df36c736c4636b8628/"
+        },
+        "torrent": {
+          "file": "torrents/zai-org__GLM-OCR.torrent",
+          "infohash": "bcce69e5a0e8e0c3467a8849566268565867151b",
+          "magnet": "magnet:?xt=urn:btih:bcce69e5a0e8e0c3467a8849566268565867151b&dn=zai-org__GLM-OCR&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce"
+        }
       }
     }
   ],

@@ -106,7 +106,17 @@
       "serving": null,
       "mirrors": {
         "hf": null,
-        "master": null
+        "master": null,
+        "vault": {
+          "at": "2026-09-26T04:47:05Z",
+          "revision": "842da3794eaa0b77d5f08bae87a17459d91ff475",
+          "box_path": "ai-archive/google/gemma-4-31B-it/842da3794eaa0b77d5f08bae87a17459d91ff475/"
+        },
+        "torrent": {
+          "file": "torrents/google__gemma-4-31B-it.torrent",
+          "infohash": "a12d683245d73accd4115373ed64f0d5ba71062a",
+          "magnet": "magnet:?xt=urn:btih:a12d683245d73accd4115373ed64f0d5ba71062a&dn=google__gemma-4-31B-it&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce"
+        }
       }
     }
   ],

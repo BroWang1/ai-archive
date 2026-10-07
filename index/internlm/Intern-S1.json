@@ -748,7 +748,17 @@
       "serving": null,
       "mirrors": {
         "hf": null,
-        "master": null
+        "master": null,
+        "vault": {
+          "at": "2026-09-27T15:31:47Z",
+          "revision": "4ecad381e28293c4825793f113327cc016cdcbda",
+          "box_path": "ai-archive/internlm/Intern-S1/4ecad381e28293c4825793f113327cc016cdcbda/"
+        },
+        "torrent": {
+          "file": "torrents/internlm__Intern-S1.torrent",
+          "infohash": "45e1630868540c5ffe667b97d605538516cc1eeb",
+          "magnet": "magnet:?xt=urn:btih:45e1630868540c5ffe667b97d605538516cc1eeb&dn=internlm__Intern-S1&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce"
+        }
       }
     }
   ],

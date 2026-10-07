@@ -1,0 +1,366 @@
+{
+  "repo_id": "meta-llama/Llama-3.3-70B-Instruct",
+  "canonical_org": "meta-llama",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "6f6073b423013f6a7d4d9f39144961bfbfbc386b",
+      "captured_at": "2026-09-27T06:59:11Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/meta-llama/Llama-3.3-70B-Instruct?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"88ad-V2AU0UrqTEhhpKFvyMW4b3iqugQ\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "llama3.3",
+        "file": "LICENSE",
+        "sha256": "fb58d9a630ccc1dc0d08f8c00232de56bc73309020f59c8181d0c12ef28d9f8c",
+        "redistributable": null,
+        "obligations": [],
+        "freedom": "restricted",
+        "freedom_note": "Gated repo: access requires accepting the author's terms"
+      },
+      "gate_terms_sha256": "cc7b4d477193ed8d706a3fd973f516dc4eeef0d952e139fa0ea7969bddd22f7e",
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1570,
+          "sha256": null,
+          "kind": "gated-no-snapshot"
+        },
+        {
+          "path": "LICENSE",
+          "size": 7909,
+          "sha256": "fb58d9a630ccc1dc0d08f8c00232de56bc73309020f59c8181d0c12ef28d9f8c",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 36544,
+          "sha256": "83bfcf4ac40ab3f4d30577e669599e94955b26d6926861410e75e43a07772dad",
+          "kind": "snapshot"
+        },
+        {
+          "path": "USE_POLICY.md",
+          "size": 6021,
+          "sha256": null,
+          "kind": "gated-no-snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 879,
+          "sha256": null,
+          "kind": "gated-no-snapshot"
+        },
+        {
+          "path": "generation_config.json",
+          "size": 189,
+          "sha256": null,
+          "kind": "gated-no-snapshot"
+        },
+        {
+          "path": "model-00001-of-00030.safetensors",
+          "size": 4584408808,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00002-of-00030.safetensors",
+          "size": 4664167376,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00003-of-00030.safetensors",
+          "size": 4999711704,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00004-of-00030.safetensors",
+          "size": 4966157032,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00005-of-00030.safetensors",
+          "size": 4664134408,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00006-of-00030.safetensors",
+          "size": 4664167408,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00007-of-00030.safetensors",
+          "size": 4664167408,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00008-of-00030.safetensors",
+          "size": 4999711728,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00009-of-00030.safetensors",
+          "size": 4966157056,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00010-of-00030.safetensors",
+          "size": 4664134408,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00011-of-00030.safetensors",
+          "size": 4664167408,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00012-of-00030.safetensors",
+          "size": 4664167408,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00013-of-00030.safetensors",
+          "size": 4999711728,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00014-of-00030.safetensors",
+          "size": 4966157056,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00015-of-00030.safetensors",
+          "size": 4664134408,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00016-of-00030.safetensors",
+          "size": 4664167408,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00017-of-00030.safetensors",
+          "size": 4664167408,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00018-of-00030.safetensors",
+          "size": 4999711728,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00019-of-00030.safetensors",
+          "size": 4966157056,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00020-of-00030.safetensors",
+          "size": 4664134408,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00021-of-00030.safetensors",
+          "size": 4664167408,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00022-of-00030.safetensors",
+          "size": 4664167408,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00023-of-00030.safetensors",
+          "size": 4999711728,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00024-of-00030.safetensors",
+          "size": 4966157056,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00025-of-00030.safetensors",
+          "size": 4664134408,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00026-of-00030.safetensors",
+          "size": 4664167408,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00027-of-00030.safetensors",
+          "size": 4664167408,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00028-of-00030.safetensors",
+          "size": 4999711728,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00029-of-00030.safetensors",
+          "size": 4966173536,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00030-of-00030.safetensors",
+          "size": 2101346432,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model.safetensors.index.json",
+          "size": 59615,
+          "sha256": null,
+          "kind": "gated-no-snapshot"
+        },
+        {
+          "path": "original/.gitattributes",
+          "size": 1519,
+          "sha256": null,
+          "kind": "gated-no-snapshot"
+        },
+        {
+          "path": "original/README.md",
+          "size": 433,
+          "sha256": null,
+          "kind": "gated-no-snapshot"
+        },
+        {
+          "path": "original/checklist.chk",
+          "size": 528,
+          "sha256": null,
+          "kind": "gated-no-snapshot"
+        },
+        {
+          "path": "original/consolidated.00.pth",
+          "size": 17640971024,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "original/consolidated.01.pth",
+          "size": 17640971024,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "original/consolidated.02.pth",
+          "size": 17640971024,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "original/consolidated.03.pth",
+          "size": 17640971024,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "original/consolidated.04.pth",
+          "size": 17640971024,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "original/consolidated.05.pth",
+          "size": 17640971024,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "original/consolidated.06.pth",
+          "size": 17640971024,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "original/consolidated.07.pth",
+          "size": 17640971024,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "original/params.json",
+          "size": 221,
+          "sha256": null,
+          "kind": "gated-no-snapshot"
+        },
+        {
+          "path": "original/tokenizer.model",
+          "size": 2183982,
+          "sha256": null,
+          "kind": "gated-no-snapshot"
+        },
+        {
+          "path": "special_tokens_map.json",
+          "size": 68,
+          "sha256": null,
+          "kind": "gated-no-snapshot"
+        },
+        {
+          "path": "tokenizer.json",
+          "size": 17209920,
+          "sha256": null,
+          "kind": "gated-no-snapshot"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 55425,
+          "sha256": null,
+          "kind": "gated-no-snapshot"
+        }
+      ],
+      "total_bytes": 282254830887,
+      "weight_bytes": 282235266064,
+      "snapshot_dir": "snapshots/meta-llama/Llama-3.3-70B-Instruct/6f6073b423013f6a7d4d9f39144961bfbfbc386b/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

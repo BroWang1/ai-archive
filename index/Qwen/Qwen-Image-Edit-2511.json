@@ -244,7 +244,17 @@
       "serving": null,
       "mirrors": {
         "hf": null,
-        "master": null
+        "master": null,
+        "vault": {
+          "at": "2026-09-26T03:34:02Z",
+          "revision": "6f3ccc0b56e431dc6a0c2b2039706d7d26f22cb9",
+          "box_path": "ai-archive/Qwen/Qwen-Image-Edit-2511/6f3ccc0b56e431dc6a0c2b2039706d7d26f22cb9/"
+        },
+        "torrent": {
+          "file": "torrents/Qwen__Qwen-Image-Edit-2511.torrent",
+          "infohash": "7833893d380aa02bc9065e63ec90394a3b33f708",
+          "magnet": "magnet:?xt=urn:btih:7833893d380aa02bc9065e63ec90394a3b33f708&dn=Qwen__Qwen-Image-Edit-2511&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce"
+        }
       }
     }
   ],

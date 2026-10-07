@@ -214,7 +214,17 @@
           "verified_files": 15,
           "mirrored_at": "2026-09-18T04:49:13Z"
         },
-        "master": null
+        "master": null,
+        "vault": {
+          "at": "2026-09-26T05:45:14Z",
+          "revision": "360f684d3cd527a4ef986c54071015eb0e6def58",
+          "box_path": "ai-archive/baichuan-inc/Baichuan-M2-32B/360f684d3cd527a4ef986c54071015eb0e6def58/"
+        },
+        "torrent": {
+          "file": "torrents/baichuan-inc__Baichuan-M2-32B.torrent",
+          "infohash": "b1fe65db977c13dd75f983ca314690a1341d3253",
+          "magnet": "magnet:?xt=urn:btih:b1fe65db977c13dd75f983ca314690a1341d3253&dn=baichuan-inc__Baichuan-M2-32B&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce"
+        }
       }
     }
   ],

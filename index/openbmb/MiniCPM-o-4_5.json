@@ -358,7 +358,17 @@
       "serving": null,
       "mirrors": {
         "hf": null,
-        "master": null
+        "master": null,
+        "vault": {
+          "at": "2026-09-25T23:58:06Z",
+          "revision": "503e754207c94da6bb26850b4469f367c9ea3582",
+          "box_path": "ai-archive/openbmb/MiniCPM-o-4_5/503e754207c94da6bb26850b4469f367c9ea3582/"
+        },
+        "torrent": {
+          "file": "torrents/openbmb__MiniCPM-o-4_5.torrent",
+          "infohash": "a4ec2d69f590899eea84b56855f72e3ff2795cc8",
+          "magnet": "magnet:?xt=urn:btih:a4ec2d69f590899eea84b56855f72e3ff2795cc8&dn=openbmb__MiniCPM-o-4_5&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce"
+        }
       }
     }
   ],

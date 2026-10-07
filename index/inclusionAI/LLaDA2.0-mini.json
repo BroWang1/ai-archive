@@ -130,7 +130,17 @@
       "serving": null,
       "mirrors": {
         "hf": null,
-        "master": null
+        "master": null,
+        "vault": {
+          "at": "2026-09-26T00:51:42Z",
+          "revision": "dad945cac317da394b390f82c7b40691d8a881ed",
+          "box_path": "ai-archive/inclusionAI/LLaDA2.0-mini/dad945cac317da394b390f82c7b40691d8a881ed/"
+        },
+        "torrent": {
+          "file": "torrents/inclusionAI__LLaDA2.0-mini.torrent",
+          "infohash": "6c617796ec59b74e1a95e3404be9aacdab97185d",
+          "magnet": "magnet:?xt=urn:btih:6c617796ec59b74e1a95e3404be9aacdab97185d&dn=inclusionAI__LLaDA2.0-mini&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce"
+        }
       }
     }
   ],

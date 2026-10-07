@@ -94,7 +94,17 @@
       "serving": null,
       "mirrors": {
         "hf": null,
-        "master": null
+        "master": null,
+        "vault": {
+          "at": "2026-09-25T22:11:36Z",
+          "revision": "61ba4e0b3309b6656edea3e93e419f7bd5c61957",
+          "box_path": "ai-archive/zai-org/GLM-ASR-Nano-2512/61ba4e0b3309b6656edea3e93e419f7bd5c61957/"
+        },
+        "torrent": {
+          "file": "torrents/zai-org__GLM-ASR-Nano-2512.torrent",
+          "infohash": "428cecc1b7660442be8be4a3a0280e9a44419b58",
+          "magnet": "magnet:?xt=urn:btih:428cecc1b7660442be8be4a3a0280e9a44419b58&dn=zai-org__GLM-ASR-Nano-2512&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce"
+        }
       }
     }
   ],

@@ -118,7 +118,17 @@
           "verified_files": 3,
           "mirrored_at": "2026-09-18T04:47:57Z"
         },
-        "master": null
+        "master": null,
+        "vault": {
+          "at": "2026-09-25T20:58:44Z",
+          "revision": "2dbf63b0cb7bc493c0243502c6e6111a36e3a093",
+          "box_path": "ai-archive/01-ai/Yi-6B-Chat/2dbf63b0cb7bc493c0243502c6e6111a36e3a093/"
+        },
+        "torrent": {
+          "file": "torrents/01-ai__Yi-6B-Chat.torrent",
+          "infohash": "62b171dfba94480313585cef9031ea1ca10a6702",
+          "magnet": "magnet:?xt=urn:btih:62b171dfba94480313585cef9031ea1ca10a6702&dn=01-ai__Yi-6B-Chat&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce"
+        }
       }
     }
   ],

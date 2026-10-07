@@ -184,7 +184,17 @@
       "serving": null,
       "mirrors": {
         "hf": null,
-        "master": null
+        "master": null,
+        "vault": {
+          "at": "2026-09-26T01:08:54Z",
+          "revision": "398eede0903cd983a2bfa0cc634e9ac1d843f375",
+          "box_path": "ai-archive/moonshotai/Kimi-VL-A3B-Instruct/398eede0903cd983a2bfa0cc634e9ac1d843f375/"
+        },
+        "torrent": {
+          "file": "torrents/moonshotai__Kimi-VL-A3B-Instruct.torrent",
+          "infohash": "eccda5406a2d970c2dc3ad3e8006f3dfc3daa6d9",
+          "magnet": "magnet:?xt=urn:btih:eccda5406a2d970c2dc3ad3e8006f3dfc3daa6d9&dn=moonshotai__Kimi-VL-A3B-Instruct&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce"
+        }
       }
     }
   ],

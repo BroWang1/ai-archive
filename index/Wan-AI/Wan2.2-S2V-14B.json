@@ -328,7 +328,17 @@
       "serving": null,
       "mirrors": {
         "hf": null,
-        "master": null
+        "master": null,
+        "vault": {
+          "at": "2026-09-26T01:59:18Z",
+          "revision": "dab4e9c55bbe4c8c4d03db1c2c98c7f0ac9c454b",
+          "box_path": "ai-archive/Wan-AI/Wan2.2-S2V-14B/dab4e9c55bbe4c8c4d03db1c2c98c7f0ac9c454b/"
+        },
+        "torrent": {
+          "file": "torrents/Wan-AI__Wan2.2-S2V-14B.torrent",
+          "infohash": "755171c5c98fe4be18b06792477d3d9ec3c2b1a7",
+          "magnet": "magnet:?xt=urn:btih:755171c5c98fe4be18b06792477d3d9ec3c2b1a7&dn=Wan-AI__Wan2.2-S2V-14B&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce"
+        }
       }
     }
   ],

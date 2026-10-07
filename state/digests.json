@@ -29,12 +29,6 @@
       "text": "This week aiarchive.info captured 170 open-weight model repos and mirrored 15, including new Baichuan, ByteDance-Seed, Qwen, and DeepSeek entries. Newly captured families span Qwen (Qwen3.5, Qwen3.6, Qwen-Image 2.1), DeepSeek (V4-Flash, V3.2-Speciale, OCR-2), MiniMax (M2.5 through M3), and Tencent (Hunyuan, Hy-MT2, WeVisDoc). No alerts were triggered; radar signals included HN front-page posts on Qwen Image 2.1 and small local models such as Cactus Needle 3.",
       "url": "https://github.com/BroWang1/ai-archive/issues",
       "action": "details"
-    },
-    {
-      "at": "2026-10-05T23:14:29Z",
-      "text": "This week aiarchive.info captured two new open-weight models: internlm/AdvancedMathBench-AutoVerifier and BAAI/AREX-2. No models were mirrored and no alerts were issued. Radar picked up new papers referencing DeepSeek (including work on sparse MoE load balancing and multi-agent oversight) and Qwen (including a benchmark for spatial context retrieval in open-weight LLMs).",
-      "url": "https://github.com/BroWang1/ai-archive/issues",
-      "action": "details"
     }
   ]
 }

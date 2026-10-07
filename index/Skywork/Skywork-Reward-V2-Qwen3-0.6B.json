@@ -106,7 +106,17 @@
       "serving": null,
       "mirrors": {
         "hf": null,
-        "master": null
+        "master": null,
+        "vault": {
+          "at": "2026-09-25T21:55:40Z",
+          "revision": "8c14a4e9e6321deaf572544339b16b8d6bbe8886",
+          "box_path": "ai-archive/Skywork/Skywork-Reward-V2-Qwen3-0.6B/8c14a4e9e6321deaf572544339b16b8d6bbe8886/"
+        },
+        "torrent": {
+          "file": "torrents/Skywork__Skywork-Reward-V2-Qwen3-0.6B.torrent",
+          "infohash": "c4a6c0be3ea7d661affcb87e3b3354420fa8bb8e",
+          "magnet": "magnet:?xt=urn:btih:c4a6c0be3ea7d661affcb87e3b3354420fa8bb8e&dn=Skywork__Skywork-Reward-V2-Qwen3-0.6B&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce"
+        }
       }
     }
   ],

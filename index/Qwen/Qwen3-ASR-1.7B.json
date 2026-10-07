@@ -106,7 +106,17 @@
       "serving": null,
       "mirrors": {
         "hf": null,
-        "master": null
+        "master": null,
+        "vault": {
+          "at": "2026-09-25T22:12:40Z",
+          "revision": "7278e1e70fe206f11671096ffdd38061171dd6e5",
+          "box_path": "ai-archive/Qwen/Qwen3-ASR-1.7B/7278e1e70fe206f11671096ffdd38061171dd6e5/"
+        },
+        "torrent": {
+          "file": "torrents/Qwen__Qwen3-ASR-1.7B.torrent",
+          "infohash": "bc5823598590c5d9398f7dbe4a21f45853a7a26a",
+          "magnet": "magnet:?xt=urn:btih:bc5823598590c5d9398f7dbe4a21f45853a7a26a&dn=Qwen__Qwen3-ASR-1.7B&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce"
+        }
       }
     }
   ],

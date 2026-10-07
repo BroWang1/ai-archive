@@ -262,7 +262,17 @@
       "serving": null,
       "mirrors": {
         "hf": null,
-        "master": null
+        "master": null,
+        "vault": {
+          "at": "2026-09-26T11:06:21Z",
+          "revision": "e1df551a447157d4658b573f9a695d57658590e9",
+          "box_path": "ai-archive/moonshotai/Kimi-Linear-48B-A3B-Instruct/e1df551a447157d4658b573f9a695d57658590e9/"
+        },
+        "torrent": {
+          "file": "torrents/moonshotai__Kimi-Linear-48B-A3B-Instruct.torrent",
+          "infohash": "44ea31a7c241a1433cf0d58c42ec758ea331c2ff",
+          "magnet": "magnet:?xt=urn:btih:44ea31a7c241a1433cf0d58c42ec758ea331c2ff&dn=moonshotai__Kimi-Linear-48B-A3B-Instruct&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce"
+        }
       }
     }
   ],
