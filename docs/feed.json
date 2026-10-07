@@ -6,280 +6,280 @@
  "description": "Captures, mirrors, takedown alerts and radar signals for open-weight AI models",
  "items": [
   {
-   "id": "2026-10-05T23:14:29Z-791972629",
+   "id": "2026-10-05T23:14:29Z-2686567431",
    "title": "This week aiarchive.info captured two new open-weight models: internlm/AdvancedMathBench-AutoVerifier and BAAI/AREX-2. No models were mirrored and no alerts were issued. Radar picked up new papers referencing DeepSeek (including work on sparse MoE load balancing and multi-agent oversight) and Qwen (including a benchmark for spatial context retrieval in open-weight LLMs).",
    "date_published": "2026-10-05T23:14:29Z",
    "url": "https://github.com/BroWang1/ai-archive/issues",
    "content_text": "This week aiarchive.info captured two new open-weight models: internlm/AdvancedMathBench-AutoVerifier and BAAI/AREX-2. No models were mirrored and no alerts were issued. Radar picked up new papers referencing DeepSeek (including work on sparse MoE load balancing and multi-agent oversight) and Qwen (including a benchmark for spatial context retrieval in open-weight LLMs)."
   },
   {
-   "id": "2026-10-05T16:22:52Z-2170968306",
+   "id": "2026-10-05T16:22:52Z-3071812071",
    "title": "New paper mentioning DeepSeek: A Kinetic Theory of the Gated Self-Evolving LLM Agent",
    "date_published": "2026-10-05T16:22:52Z",
    "url": "http://arxiv.org/abs/2610.03243",
    "content_text": "New paper mentioning DeepSeek: A Kinetic Theory of the Gated Self-Evolving LLM Agent"
   },
   {
-   "id": "2026-10-05T16:22:52Z-3587907184",
+   "id": "2026-10-05T16:22:52Z-1415598768",
    "title": "New paper mentioning DeepSeek: EvoRiskBench: An Evolving Benchmark for Runtime Security Risks in Workspace Agents",
    "date_published": "2026-10-05T16:22:52Z",
    "url": "http://arxiv.org/abs/2610.03153",
    "content_text": "New paper mentioning DeepSeek: EvoRiskBench: An Evolving Benchmark for Runtime Security Risks in Workspace Agents"
   },
   {
-   "id": "2026-10-05T16:22:52Z-3626881159",
+   "id": "2026-10-05T16:22:52Z-1535792315",
    "title": "New paper mentioning DeepSeek: iS-KV: Online Low-Rank KV Cache Compression via Block-Incremental SVD",
    "date_published": "2026-10-05T16:22:52Z",
    "url": "http://arxiv.org/abs/2610.02815",
    "content_text": "New paper mentioning DeepSeek: iS-KV: Online Low-Rank KV Cache Compression via Block-Incremental SVD"
   },
   {
-   "id": "2026-10-05T16:22:52Z-3372159686",
+   "id": "2026-10-05T16:22:52Z-349298795",
    "title": "New paper mentioning DeepSeek: MoE-CORE: Coordinated Expert Offloading and Residency for Memory-Constrained MoE Inference",
    "date_published": "2026-10-05T16:22:52Z",
    "url": "http://arxiv.org/abs/2610.01950",
    "content_text": "New paper mentioning DeepSeek: MoE-CORE: Coordinated Expert Offloading and Residency for Memory-Constrained MoE Inference"
   },
   {
-   "id": "2026-10-05T16:22:52Z-4242998147",
+   "id": "2026-10-05T16:22:52Z-3896731749",
    "title": "New paper mentioning DeepSeek: Invent a Dataset: Measuring dataset generation abilities with zero seed",
    "date_published": "2026-10-05T16:22:52Z",
    "url": "http://arxiv.org/abs/2610.01674",
    "content_text": "New paper mentioning DeepSeek: Invent a Dataset: Measuring dataset generation abilities with zero seed"
   },
   {
-   "id": "2026-10-05T16:22:52Z-2532423571",
+   "id": "2026-10-05T16:22:52Z-413152869",
    "title": "HN front-page (415 pts): DeepSeek Harness Desktop for macOS and Windows",
    "date_published": "2026-10-05T16:22:52Z",
    "url": "https://news.ycombinator.com/item?id=49929489",
    "content_text": "HN front-page (415 pts): DeepSeek Harness Desktop for macOS and Windows"
   },
   {
-   "id": "2026-10-05T16:22:52Z-1508995885",
+   "id": "2026-10-05T16:22:52Z-856881825",
    "title": "HN front-page (121 pts): Show HN: Open-source model routing for coding agents at Astra-level performance",
    "date_published": "2026-10-05T16:22:52Z",
    "url": "https://news.ycombinator.com/item?id=49911500",
    "content_text": "HN front-page (121 pts): Show HN: Open-source model routing for coding agents at Astra-level performance"
   },
   {
-   "id": "2026-10-05T16:22:52Z-4079334617",
+   "id": "2026-10-05T16:22:52Z-3269505215",
    "title": "New paper mentioning Qwen: All Work And No Play Makes Jack a Dull Boy: Understanding and Preventing Catastrophic Strategy Collapse in RLVR",
    "date_published": "2026-10-05T16:22:52Z",
    "url": "http://arxiv.org/abs/2610.02835",
    "content_text": "New paper mentioning Qwen: All Work And No Play Makes Jack a Dull Boy: Understanding and Preventing Catastrophic Strategy Collapse in RLVR"
   },
   {
-   "id": "2026-10-05T16:22:52Z-4277968975",
+   "id": "2026-10-05T16:22:52Z-3470853360",
    "title": "New paper mentioning Qwen: Scaling Trajectories for Complex Tasks through Recursive Self-Rewrite",
    "date_published": "2026-10-05T16:22:52Z",
    "url": "http://arxiv.org/abs/2610.02826",
    "content_text": "New paper mentioning Qwen: Scaling Trajectories for Complex Tasks through Recursive Self-Rewrite"
   },
   {
-   "id": "2026-10-05T16:22:52Z-2412130328",
+   "id": "2026-10-05T16:22:52Z-1077015391",
    "title": "New paper mentioning Qwen: Localized Conformal Safety Monitoring with Vision-Language Models for Autonomous Driving",
    "date_published": "2026-10-05T16:22:52Z",
    "url": "http://arxiv.org/abs/2610.02765",
    "content_text": "New paper mentioning Qwen: Localized Conformal Safety Monitoring with Vision-Language Models for Autonomous Driving"
   },
   {
-   "id": "2026-10-05T16:22:52Z-612427494",
+   "id": "2026-10-05T16:22:52Z-3507727108",
    "title": "New paper mentioning Qwen: A Controlled Audit of Personal AI Memory for Rating Prediction",
    "date_published": "2026-10-05T16:22:52Z",
    "url": "http://arxiv.org/abs/2610.02764",
    "content_text": "New paper mentioning Qwen: A Controlled Audit of Personal AI Memory for Rating Prediction"
   },
   {
-   "id": "2026-10-05T16:22:52Z-89748691",
+   "id": "2026-10-05T16:22:52Z-236924965",
    "title": "New paper mentioning Qwen: Ego2World: Compiling Egocentric Cooking Videos into Executable Worlds for Belief-State Planning",
    "date_published": "2026-10-05T16:22:52Z",
    "url": "http://arxiv.org/abs/2610.02715",
    "content_text": "New paper mentioning Qwen: Ego2World: Compiling Egocentric Cooking Videos into Executable Worlds for Belief-State Planning"
   },
   {
-   "id": "2026-10-05T16:22:52Z-802369569",
+   "id": "2026-10-05T16:22:52Z-363081787",
    "title": "HN front-page (881 pts): Run Qwen 3.8 Flash Next (125B) on consumer hardware (RTX 4090) at 100T/s",
    "date_published": "2026-10-05T16:22:52Z",
    "url": "https://news.ycombinator.com/item?id=49953495",
    "content_text": "HN front-page (881 pts): Run Qwen 3.8 Flash Next (125B) on consumer hardware (RTX 4090) at 100T/s"
   },
   {
-   "id": "2026-10-05T16:22:52Z-3295290775",
+   "id": "2026-10-05T16:22:52Z-2651767248",
    "title": "New paper mentioning GLM-: FrugalEvo: Towards Cost-Aware LLM-Guided Program Evolution",
    "date_published": "2026-10-05T16:22:52Z",
    "url": "http://arxiv.org/abs/2610.03675",
    "content_text": "New paper mentioning GLM-: FrugalEvo: Towards Cost-Aware LLM-Guided Program Evolution"
   },
   {
-   "id": "2026-10-05T16:22:52Z-475596574",
+   "id": "2026-10-05T16:22:52Z-2297153666",
    "title": "New paper mentioning GLM-: RailWave: Adaptive Spatial and Temporal Scheduling for Expert-Parallel Communication",
    "date_published": "2026-10-05T16:22:52Z",
    "url": "http://arxiv.org/abs/2610.03415",
    "content_text": "New paper mentioning GLM-: RailWave: Adaptive Spatial and Temporal Scheduling for Expert-Parallel Communication"
   },
   {
-   "id": "2026-10-05T16:22:52Z-3844938577",
+   "id": "2026-10-05T16:22:52Z-3546442932",
    "title": "New paper mentioning GLM-: ParaGeo: Decomposing Paralinguistic Variation into a Shared Latent Geometry",
    "date_published": "2026-10-05T16:22:52Z",
    "url": "http://arxiv.org/abs/2610.03125",
    "content_text": "New paper mentioning GLM-: ParaGeo: Decomposing Paralinguistic Variation into a Shared Latent Geometry"
   },
   {
-   "id": "2026-10-05T16:22:52Z-3937068253",
+   "id": "2026-10-05T16:22:52Z-2429101525",
    "title": "New paper mentioning GLM-: Hob-VL: A Benchmark for Visually Grounded Boolean Reasoning",
    "date_published": "2026-10-05T16:22:52Z",
    "url": "http://arxiv.org/abs/2610.01605",
    "content_text": "New paper mentioning GLM-: Hob-VL: A Benchmark for Visually Grounded Boolean Reasoning"
   },
   {
-   "id": "2026-10-05T16:22:52Z-2178583633",
+   "id": "2026-10-05T16:22:52Z-933302050",
    "title": "HN front-page (269 pts): Powerless F1 drivers frustrated by Bahrain F1 software glitch",
    "date_published": "2026-10-05T16:22:52Z",
    "url": "https://news.ycombinator.com/item?id=49959869",
    "content_text": "HN front-page (269 pts): Powerless F1 drivers frustrated by Bahrain F1 software glitch"
   },
   {
-   "id": "2026-10-05T16:22:52Z-3111186643",
+   "id": "2026-10-05T16:22:52Z-153169350",
    "title": "HN front-page (107 pts): VGHF Digital Archive passes 5000 magazines. Here's what's next",
    "date_published": "2026-10-05T16:22:52Z",
    "url": "https://news.ycombinator.com/item?id=49952029",
    "content_text": "HN front-page (107 pts): VGHF Digital Archive passes 5000 magazines. Here's what's next"
   },
   {
-   "id": "2026-10-05T16:22:52Z-2712228883",
+   "id": "2026-10-05T16:22:52Z-502713832",
    "title": "HN front-page (95 pts): How to scale intent, quality, and artistry with AI [video]",
    "date_published": "2026-10-05T16:22:52Z",
    "url": "https://news.ycombinator.com/item?id=49951891",
    "content_text": "HN front-page (95 pts): How to scale intent, quality, and artistry with AI [video]"
   },
   {
-   "id": "2026-10-05T16:22:52Z-2919343291",
+   "id": "2026-10-05T16:22:52Z-3859733597",
    "title": "HN front-page (167 pts): City building games have a Soul Problem pt.2",
    "date_published": "2026-10-05T16:22:52Z",
    "url": "https://news.ycombinator.com/item?id=49945323",
    "content_text": "HN front-page (167 pts): City building games have a Soul Problem pt.2"
   },
   {
-   "id": "2026-10-05T16:22:52Z-2479949178",
+   "id": "2026-10-05T16:22:52Z-3392191489",
    "title": "HN front-page (420 pts): Aleph Alpha Kolibri: How the sovereign German LLM works",
    "date_published": "2026-10-05T16:22:52Z",
    "url": "https://news.ycombinator.com/item?id=49943034",
    "content_text": "HN front-page (420 pts): Aleph Alpha Kolibri: How the sovereign German LLM works"
   },
   {
-   "id": "2026-10-05T16:22:52Z-3696074003",
+   "id": "2026-10-05T16:22:52Z-1427482697",
    "title": "New paper mentioning MiniMax: Bayesian Operator Learning: Posterior Existence and Convergence of Point Estimates for Gaussian Priors",
    "date_published": "2026-10-05T16:22:52Z",
    "url": "http://arxiv.org/abs/2610.03666",
    "content_text": "New paper mentioning MiniMax: Bayesian Operator Learning: Posterior Existence and Convergence of Point Estimates for Gaussian Priors"
   },
   {
-   "id": "2026-10-05T16:22:52Z-318112939",
+   "id": "2026-10-05T16:22:52Z-1410831303",
    "title": "New paper mentioning MiniMax: The Minimax Cost of Smoothness in Fully First-Order Stochastic Bilevel Optimization",
    "date_published": "2026-10-05T16:22:52Z",
    "url": "http://arxiv.org/abs/2610.03638",
    "content_text": "New paper mentioning MiniMax: The Minimax Cost of Smoothness in Fully First-Order Stochastic Bilevel Optimization"
   },
   {
-   "id": "2026-10-05T16:22:52Z-3526503151",
+   "id": "2026-10-05T16:22:52Z-3693020155",
    "title": "New paper mentioning MiniMax: World Embedding Benchmark",
    "date_published": "2026-10-05T16:22:52Z",
    "url": "http://arxiv.org/abs/2610.03632",
    "content_text": "New paper mentioning MiniMax: World Embedding Benchmark"
   },
   {
-   "id": "2026-10-05T16:22:52Z-871544313",
+   "id": "2026-10-05T16:22:52Z-3542396881",
    "title": "New paper mentioning MiniMax: Multiplicity of Finsler geodesics and electromagnetic trajectories via localized deformations",
    "date_published": "2026-10-05T16:22:52Z",
    "url": "http://arxiv.org/abs/2610.03533",
    "content_text": "New paper mentioning MiniMax: Multiplicity of Finsler geodesics and electromagnetic trajectories via localized deformations"
   },
   {
-   "id": "2026-10-05T16:22:52Z-2648168290",
+   "id": "2026-10-05T16:22:52Z-2685873581",
    "title": "New paper mentioning MiniMax: Minimax entropy production for arbitrary processes",
    "date_published": "2026-10-05T16:22:52Z",
    "url": "http://arxiv.org/abs/2610.03478",
    "content_text": "New paper mentioning MiniMax: Minimax entropy production for arbitrary processes"
   },
   {
-   "id": "2026-10-05T16:22:52Z-2611793499",
+   "id": "2026-10-05T16:22:52Z-1020492835",
    "title": "HN front-page (437 pts): FLUX 3 Image",
    "date_published": "2026-10-05T16:22:52Z",
    "url": "https://news.ycombinator.com/item?id=49925974",
    "content_text": "HN front-page (437 pts): FLUX 3 Image"
   },
   {
-   "id": "2026-10-05T16:22:52Z-1140413223",
+   "id": "2026-10-05T16:22:52Z-4108229416",
    "title": "HN front-page (54 pts): Functional Ultrasound Imaging (fUSI) from scratch",
    "date_published": "2026-10-05T16:22:52Z",
    "url": "https://news.ycombinator.com/item?id=49913604",
    "content_text": "HN front-page (54 pts): Functional Ultrasound Imaging (fUSI) from scratch"
   },
   {
-   "id": "2026-10-05T16:22:52Z-4129863219",
+   "id": "2026-10-05T16:22:52Z-3449068679",
    "title": "HN front-page (551 pts): Pi's Minimalism Is Its Advantage",
    "date_published": "2026-10-05T16:22:52Z",
    "url": "https://news.ycombinator.com/item?id=49176038",
    "content_text": "HN front-page (551 pts): Pi's Minimalism Is Its Advantage"
   },
   {
-   "id": "2026-10-05T16:22:52Z-2683884510",
+   "id": "2026-10-05T16:22:52Z-283484665",
    "title": "HN front-page (119 pts): A brief tour of the PDP-11, the most influential minicomputer of all time (2022)",
    "date_published": "2026-10-05T16:22:52Z",
    "url": "https://news.ycombinator.com/item?id=48536660",
    "content_text": "HN front-page (119 pts): A brief tour of the PDP-11, the most influential minicomputer of all time (2022)"
   },
   {
-   "id": "2026-10-05T16:22:52Z-2581318552",
+   "id": "2026-10-05T16:22:52Z-131066643",
    "title": "HN front-page (75 pts): The evolution of effective altruism",
    "date_published": "2026-10-05T16:22:52Z",
    "url": "https://news.ycombinator.com/item?id=49953777",
    "content_text": "HN front-page (75 pts): The evolution of effective altruism"
   },
   {
-   "id": "2026-10-05T16:22:52Z-1873511533",
+   "id": "2026-10-05T16:22:52Z-1398673490",
    "title": "HN front-page (157 pts): Show HN: Made an open-source Lego AI generator",
    "date_published": "2026-10-05T16:22:52Z",
    "url": "https://news.ycombinator.com/item?id=49937916",
    "content_text": "HN front-page (157 pts): Show HN: Made an open-source Lego AI generator"
   },
   {
-   "id": "2026-10-05T16:22:52Z-1814354559",
+   "id": "2026-10-05T16:22:52Z-796091513",
    "title": "HN front-page (89 pts): The first packet sent via RFC1149 avian carrier is up for auction at Christie's",
    "date_published": "2026-10-05T16:22:52Z",
    "url": "https://news.ycombinator.com/item?id=49932911",
    "content_text": "HN front-page (89 pts): The first packet sent via RFC1149 avian carrier is up for auction at Christie's"
   },
   {
-   "id": "2026-10-05T16:22:40Z-3644303385",
+   "id": "2026-10-05T16:22:40Z-1764780696",
    "title": "Trending outside tracked labs: Cloudflare/clef (5,416 downloads)",
    "date_published": "2026-10-05T16:22:40Z",
    "url": "https://huggingface.co/Cloudflare/clef",
    "content_text": "Trending outside tracked labs: Cloudflare/clef (5,416 downloads)"
   },
   {
-   "id": "2026-10-05T16:22:40Z-1332465996",
+   "id": "2026-10-05T16:22:40Z-901088235",
    "title": "Trending outside tracked labs: convaiinnovations/laya (11,733 downloads)",
    "date_published": "2026-10-05T16:22:40Z",
    "url": "https://huggingface.co/convaiinnovations/laya",
    "content_text": "Trending outside tracked labs: convaiinnovations/laya (11,733 downloads)"
   },
   {
-   "id": "2026-10-05T16:22:40Z-3595996930",
+   "id": "2026-10-05T16:22:40Z-424682610",
    "title": "Trending outside tracked labs: Aleph-Alpha/Kolibri-1 (2,453 downloads)",
    "date_published": "2026-10-05T16:22:40Z",
    "url": "https://huggingface.co/Aleph-Alpha/Kolibri-1",
    "content_text": "Trending outside tracked labs: Aleph-Alpha/Kolibri-1 (2,453 downloads)"
   },
   {
-   "id": "2026-10-05T16:22:40Z-327294779",
+   "id": "2026-10-05T16:22:40Z-1175950566",
    "title": "Trending outside tracked labs: Cloudflare/clef-flash (8,075 downloads)",
    "date_published": "2026-10-05T16:22:40Z",
    "url": "https://huggingface.co/Cloudflare/clef-flash",
    "content_text": "Trending outside tracked labs: Cloudflare/clef-flash (8,075 downloads)"
   },
   {
-   "id": "2026-10-05T16:22:40Z-4240188817",
+   "id": "2026-10-05T16:22:40Z-3959712774",
    "title": "Trending outside tracked labs: Venastine-Research/Xing4.0-29B-A4B-GGUF (18,863 downloads)",
    "date_published": "2026-10-05T16:22:40Z",
    "url": "https://huggingface.co/Venastine-Research/Xing4.0-29B-A4B-GGUF",
