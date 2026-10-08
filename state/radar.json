@@ -85,7 +85,28 @@
     "http://arxiv.org/abs/2610.03638",
     "http://arxiv.org/abs/2610.03632",
     "http://arxiv.org/abs/2610.03533",
-    "http://arxiv.org/abs/2610.03478"
+    "http://arxiv.org/abs/2610.03478",
+    "http://arxiv.org/abs/2610.10533",
+    "http://arxiv.org/abs/2610.10258",
+    "http://arxiv.org/abs/2610.09590",
+    "http://arxiv.org/abs/2610.09112",
+    "http://arxiv.org/abs/2610.08514",
+    "http://arxiv.org/abs/2610.10304",
+    "http://arxiv.org/abs/2610.10163",
+    "http://arxiv.org/abs/2610.10058",
+    "http://arxiv.org/abs/2610.09894",
+    "http://arxiv.org/abs/2610.09835",
+    "http://arxiv.org/abs/2610.08967",
+    "http://arxiv.org/abs/2610.08586",
+    "http://arxiv.org/abs/2610.08414",
+    "http://arxiv.org/abs/2610.07792",
+    "http://arxiv.org/abs/2610.07639",
+    "http://arxiv.org/abs/2610.10340",
+    "http://arxiv.org/abs/2610.10167",
+    "http://arxiv.org/abs/2610.10080",
+    "http://arxiv.org/abs/2610.09813",
+    "http://arxiv.org/abs/2610.09577",
+    "http://arxiv.org/abs/2610.09307"
   ],
   "hn_seen": [
     "49735410",
@@ -190,7 +211,15 @@
     "48536660",
     "49953777",
     "49937916",
-    "49932911"
+    "49932911",
+    "49995539",
+    "50000676",
+    "49998066",
+    "49998006",
+    "49996406",
+    "49977351",
+    "50002494",
+    "49954015"
   ],
   "log": [
     {
@@ -918,8 +947,182 @@
       "at": "2026-10-05T16:22:52Z",
       "text": "HN front-page (89 pts): The first packet sent via RFC1149 avian carrier is up for auction at Christie's",
       "url": "https://news.ycombinator.com/item?id=49932911"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-10-08T14:56:08Z",
+      "text": "New paper mentioning DeepSeek: EngramEdit: Decoupled Knowledge Updates in LLMs through Conditional Memory",
+      "url": "http://arxiv.org/abs/2610.10533"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-10-08T14:56:08Z",
+      "text": "New paper mentioning DeepSeek: QuSema: Detecting Silent Bugs in Quantum Libraries via Quantum-knowledge-enhanced Agents",
+      "url": "http://arxiv.org/abs/2610.10258"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-10-08T14:56:08Z",
+      "text": "New paper mentioning DeepSeek: Learning Situation-Conditioned Thinking Policies for Long-Term LLM Agents",
+      "url": "http://arxiv.org/abs/2610.09590"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-10-08T14:56:08Z",
+      "text": "New paper mentioning DeepSeek: GeoNatureAgent (GNA): A Framework and Benchmark for Pre-Production Evaluation of Tool-Using Agents on Geospatial and Environmental Tasks",
+      "url": "http://arxiv.org/abs/2610.09112"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-10-08T14:56:08Z",
+      "text": "New paper mentioning DeepSeek: How Much Evidence Should a Coding Agent's Self-Correction Carry? Adaptive Dirichlet Evidence for Self-Distillation",
+      "url": "http://arxiv.org/abs/2610.08514"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-10-08T14:56:08Z",
+      "text": "New paper mentioning Qwen: SemanticFold: Latent Sequence Compression SeparatesLanguage Modeling, Decodability, and Reasoning",
+      "url": "http://arxiv.org/abs/2610.10304"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-10-08T14:56:08Z",
+      "text": "New paper mentioning Qwen: Beyond Anonymous Captions: Grounding Character Identity in Video Captioning and Question Answering",
+      "url": "http://arxiv.org/abs/2610.10163"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-10-08T14:56:08Z",
+      "text": "New paper mentioning Qwen: Cache the Encoder Within:Compact, Reusable Memory across LLM Queries",
+      "url": "http://arxiv.org/abs/2610.10058"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-10-08T14:56:08Z",
+      "text": "New paper mentioning Qwen: QCATS: Query Context-Aware Transformer Slicing for Efficient Predictive Query Processing",
+      "url": "http://arxiv.org/abs/2610.09894"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-10-08T14:56:08Z",
+      "text": "New paper mentioning Qwen: A Deafening Silence: Catastrophic Forgetting Lives in the Output Embeddings of Tokens the Data Never Speaks",
+      "url": "http://arxiv.org/abs/2610.09835"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-10-08T14:56:08Z",
+      "text": "HN front-page (63 pts): Show HN: Agent.reviews \u2013 Where AI agents read and write reviews on tools",
+      "url": "https://news.ycombinator.com/item?id=49995539"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-10-08T14:56:08Z",
+      "text": "New paper mentioning GLM-: Socio-Foundation: A Model for Generalizable Individual Behavior Simulation via Hierarchical Capability Distillation",
+      "url": "http://arxiv.org/abs/2610.08967"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-10-08T14:56:08Z",
+      "text": "New paper mentioning GLM-: MINDSET: Energy-based Schema Evolution for Long Conversational Agent Memory",
+      "url": "http://arxiv.org/abs/2610.08586"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-10-08T14:56:08Z",
+      "text": "New paper mentioning GLM-: Image Bitstream Fine-grained Understanding for Privacy-Friendly AIoT",
+      "url": "http://arxiv.org/abs/2610.08414"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-10-08T14:56:08Z",
+      "text": "New paper mentioning GLM-: ServeLearnBench: How Well Can Agents Self-Improve from Serving Experience?",
+      "url": "http://arxiv.org/abs/2610.07792"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-10-08T14:56:08Z",
+      "text": "New paper mentioning GLM-: HarnessSecurity-Bench: Do Security Mechanisms Really Protect Coding Agent Harnesses?",
+      "url": "http://arxiv.org/abs/2610.07639"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-10-08T14:56:08Z",
+      "text": "HN front-page (94 pts): Port of the TypeScript compiler, checker and lsp to Rust, by LLM",
+      "url": "https://news.ycombinator.com/item?id=50000676"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-10-08T14:56:08Z",
+      "text": "HN front-page (212 pts): 'Jonathan' is the oldest land animal on Earth",
+      "url": "https://news.ycombinator.com/item?id=49998066"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-10-08T14:56:08Z",
+      "text": "HN front-page (87 pts): Photograph 49 is the key to understanding Rosalind Franklin\u2019s DNA Photograph 51",
+      "url": "https://news.ycombinator.com/item?id=49998006"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-10-08T14:56:08Z",
+      "text": "HN front-page (133 pts): In Vienna and Beijing, the first (thorium) nuclear clocks begin to tick",
+      "url": "https://news.ycombinator.com/item?id=49996406"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-10-08T14:56:08Z",
+      "text": "New paper mentioning MiniMax: Data Reuse in Non-Stationary Learning",
+      "url": "http://arxiv.org/abs/2610.10340"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-10-08T14:56:08Z",
+      "text": "New paper mentioning MiniMax: Policy Learning with Weak Signals",
+      "url": "http://arxiv.org/abs/2610.10167"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-10-08T14:56:08Z",
+      "text": "New paper mentioning MiniMax: Sharp Asymptotic Theory of Maximum Likelihood Estimation for Gaussian Processes with an RBF Kernel",
+      "url": "http://arxiv.org/abs/2610.10080"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-10-08T14:56:08Z",
+      "text": "New paper mentioning MiniMax: Drift Estimation for a Multi-Dimensional L\u00e9vy-Driven Stochastic Differential Equation Using Deep Neural Networks",
+      "url": "http://arxiv.org/abs/2610.09813"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-10-08T14:56:08Z",
+      "text": "New paper mentioning MiniMax: Online Resource Allocation with an Endogenous Markov State: Fewer LP Solves Earn More",
+      "url": "http://arxiv.org/abs/2610.09577"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-10-08T14:56:08Z",
+      "text": "HN front-page (98 pts): A minimal kernel in Swift, running in QEMU",
+      "url": "https://news.ycombinator.com/item?id=49977351"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-10-08T14:56:08Z",
+      "text": "New paper mentioning MiniCPM: vLLM-Omni Technical Report: A Unified Serving Runtime for Omni-Modality Generation",
+      "url": "http://arxiv.org/abs/2610.09307"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-10-08T14:56:08Z",
+      "text": "HN front-page (146 pts): The people holding up the internet",
+      "url": "https://news.ycombinator.com/item?id=50002494"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-10-08T14:56:08Z",
+      "text": "HN front-page (93 pts): Show HN: AstroHelm \u2013 Use your phone camera to aim a telescope or telephoto lens",
+      "url": "https://news.ycombinator.com/item?id=49954015"
     }
   ],
   "first_run_done": true,
-  "last_run": "2026-10-05T16:22:52Z"
+  "last_run": "2026-10-08T14:56:08Z"
 }

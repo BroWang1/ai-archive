@@ -105,9 +105,16 @@
     "autotrust/JEV-9B",
     "SC117/Qwen3.8-Flash-Next-GSQ-RCO-abliterated-GGUF",
     "speach1sdef178/MiniMax-H3-X2-Detail-VAE",
-    "IQuestLab/IQuest-Q1"
+    "IQuestLab/IQuest-Q1",
+    "canberkkkkkk/ema-lightning",
+    "autotrust/GLM5.3-Flash-E224-DGX-Spark",
+    "unsloth/embeddinggemma-2-GGUF",
+    "LiquidAI/d1-3B",
+    "autotrust/GEV-26B-Decide-NVFP4",
+    "Lightricks/LTX-2.5-22b-IC-LoRA-Alpha-Gen",
+    "perplexity-ai/pplx-decider-v1-27b"
   ],
-  "last_run": "2026-10-05T16:22:40Z",
+  "last_run": "2026-10-08T14:55:56Z",
   "log": [
     {
       "id": "prism-ml/Ternary-Bonsai-2-27B-gguf",
@@ -448,6 +455,41 @@
       "id": "IQuestLab/IQuest-Q1",
       "at": "2026-10-05T16:22:40Z",
       "downloads": 1047
+    },
+    {
+      "id": "canberkkkkkk/ema-lightning",
+      "at": "2026-10-08T14:55:56Z",
+      "downloads": 9467
+    },
+    {
+      "id": "autotrust/GLM5.3-Flash-E224-DGX-Spark",
+      "at": "2026-10-08T14:55:56Z",
+      "downloads": 5422
+    },
+    {
+      "id": "unsloth/embeddinggemma-2-GGUF",
+      "at": "2026-10-08T14:55:56Z",
+      "downloads": 29692
+    },
+    {
+      "id": "LiquidAI/d1-3B",
+      "at": "2026-10-08T14:55:56Z",
+      "downloads": 5370
+    },
+    {
+      "id": "autotrust/GEV-26B-Decide-NVFP4",
+      "at": "2026-10-08T14:55:56Z",
+      "downloads": 19655
+    },
+    {
+      "id": "Lightricks/LTX-2.5-22b-IC-LoRA-Alpha-Gen",
+      "at": "2026-10-08T14:55:56Z",
+      "downloads": 6405
+    },
+    {
+      "id": "perplexity-ai/pplx-decider-v1-27b",
+      "at": "2026-10-08T14:55:56Z",
+      "downloads": 2000
     }
   ]
 }

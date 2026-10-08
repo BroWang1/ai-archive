@@ -170,7 +170,9 @@
       "Tencent-Hunyuan/DisCa",
       "Tencent-Hunyuan/HY-World-2.0",
       "Tencent-Hunyuan/HY-Embodied",
-      "Tencent-Hunyuan/OmniWeaving"
+      "Tencent-Hunyuan/OmniWeaving",
+      "Tencent-Hunyuan/ExplorationBench",
+      "Tencent-Hunyuan/Prism"
     ],
     "Wan-Video": [
       "Wan-Video/Wan-Animate-2",
@@ -854,8 +856,18 @@
       "id": "ggml-org/llama-pages",
       "at": "2026-10-05T16:22:40Z",
       "desc": "llama.cpp's official website"
+    },
+    {
+      "id": "Tencent-Hunyuan/ExplorationBench",
+      "at": "2026-10-08T14:55:56Z",
+      "desc": ""
+    },
+    {
+      "id": "Tencent-Hunyuan/Prism",
+      "at": "2026-10-08T14:55:56Z",
+      "desc": "We propose Prism, a dynamic sparse attention framework for natively training joint video-audio generation models at 2K."
     }
   ],
   "first_run_done": true,
-  "last_run": "2026-10-05T16:22:40Z"
+  "last_run": "2026-10-08T14:55:56Z"
 }
