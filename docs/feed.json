@@ -6,280 +6,280 @@
  "description": "Captures, mirrors, takedown alerts and radar signals for open-weight AI models",
  "items": [
   {
-   "id": "2026-10-08T14:56:08Z-2250879335",
+   "id": "2026-10-08T14:56:08Z-1844495351",
    "title": "New paper mentioning DeepSeek: EngramEdit: Decoupled Knowledge Updates in LLMs through Conditional Memory",
    "date_published": "2026-10-08T14:56:08Z",
    "url": "http://arxiv.org/abs/2610.10533",
    "content_text": "New paper mentioning DeepSeek: EngramEdit: Decoupled Knowledge Updates in LLMs through Conditional Memory"
   },
   {
-   "id": "2026-10-08T14:56:08Z-1982984472",
+   "id": "2026-10-08T14:56:08Z-3370730871",
    "title": "New paper mentioning DeepSeek: QuSema: Detecting Silent Bugs in Quantum Libraries via Quantum-knowledge-enhanced Agents",
    "date_published": "2026-10-08T14:56:08Z",
    "url": "http://arxiv.org/abs/2610.10258",
    "content_text": "New paper mentioning DeepSeek: QuSema: Detecting Silent Bugs in Quantum Libraries via Quantum-knowledge-enhanced Agents"
   },
   {
-   "id": "2026-10-08T14:56:08Z-1366731410",
+   "id": "2026-10-08T14:56:08Z-1121251006",
    "title": "New paper mentioning DeepSeek: Learning Situation-Conditioned Thinking Policies for Long-Term LLM Agents",
    "date_published": "2026-10-08T14:56:08Z",
    "url": "http://arxiv.org/abs/2610.09590",
    "content_text": "New paper mentioning DeepSeek: Learning Situation-Conditioned Thinking Policies for Long-Term LLM Agents"
   },
   {
-   "id": "2026-10-08T14:56:08Z-3474655969",
+   "id": "2026-10-08T14:56:08Z-1006593978",
    "title": "New paper mentioning DeepSeek: GeoNatureAgent (GNA): A Framework and Benchmark for Pre-Production Evaluation of Tool-Using Agents on Geospatial and Environmental Tasks",
    "date_published": "2026-10-08T14:56:08Z",
    "url": "http://arxiv.org/abs/2610.09112",
    "content_text": "New paper mentioning DeepSeek: GeoNatureAgent (GNA): A Framework and Benchmark for Pre-Production Evaluation of Tool-Using Agents on Geospatial and Environmental Tasks"
   },
   {
-   "id": "2026-10-08T14:56:08Z-1693625591",
+   "id": "2026-10-08T14:56:08Z-582409604",
    "title": "New paper mentioning DeepSeek: How Much Evidence Should a Coding Agent's Self-Correction Carry? Adaptive Dirichlet Evidence for Self-Distillation",
    "date_published": "2026-10-08T14:56:08Z",
    "url": "http://arxiv.org/abs/2610.08514",
    "content_text": "New paper mentioning DeepSeek: How Much Evidence Should a Coding Agent's Self-Correction Carry? Adaptive Dirichlet Evidence for Self-Distillation"
   },
   {
-   "id": "2026-10-08T14:56:08Z-4202541497",
+   "id": "2026-10-08T14:56:08Z-2736984914",
    "title": "New paper mentioning Qwen: SemanticFold: Latent Sequence Compression SeparatesLanguage Modeling, Decodability, and Reasoning",
    "date_published": "2026-10-08T14:56:08Z",
    "url": "http://arxiv.org/abs/2610.10304",
    "content_text": "New paper mentioning Qwen: SemanticFold: Latent Sequence Compression SeparatesLanguage Modeling, Decodability, and Reasoning"
   },
   {
-   "id": "2026-10-08T14:56:08Z-1668254760",
+   "id": "2026-10-08T14:56:08Z-2967794122",
    "title": "New paper mentioning Qwen: Beyond Anonymous Captions: Grounding Character Identity in Video Captioning and Question Answering",
    "date_published": "2026-10-08T14:56:08Z",
    "url": "http://arxiv.org/abs/2610.10163",
    "content_text": "New paper mentioning Qwen: Beyond Anonymous Captions: Grounding Character Identity in Video Captioning and Question Answering"
   },
   {
-   "id": "2026-10-08T14:56:08Z-795168744",
+   "id": "2026-10-08T14:56:08Z-1493676576",
    "title": "New paper mentioning Qwen: Cache the Encoder Within:Compact, Reusable Memory across LLM Queries",
    "date_published": "2026-10-08T14:56:08Z",
    "url": "http://arxiv.org/abs/2610.10058",
    "content_text": "New paper mentioning Qwen: Cache the Encoder Within:Compact, Reusable Memory across LLM Queries"
   },
   {
-   "id": "2026-10-08T14:56:08Z-1937615089",
+   "id": "2026-10-08T14:56:08Z-2308496604",
    "title": "New paper mentioning Qwen: QCATS: Query Context-Aware Transformer Slicing for Efficient Predictive Query Processing",
    "date_published": "2026-10-08T14:56:08Z",
    "url": "http://arxiv.org/abs/2610.09894",
    "content_text": "New paper mentioning Qwen: QCATS: Query Context-Aware Transformer Slicing for Efficient Predictive Query Processing"
   },
   {
-   "id": "2026-10-08T14:56:08Z-3967692084",
+   "id": "2026-10-08T14:56:08Z-241094015",
    "title": "New paper mentioning Qwen: A Deafening Silence: Catastrophic Forgetting Lives in the Output Embeddings of Tokens the Data Never Speaks",
    "date_published": "2026-10-08T14:56:08Z",
    "url": "http://arxiv.org/abs/2610.09835",
    "content_text": "New paper mentioning Qwen: A Deafening Silence: Catastrophic Forgetting Lives in the Output Embeddings of Tokens the Data Never Speaks"
   },
   {
-   "id": "2026-10-08T14:56:08Z-3677241988",
+   "id": "2026-10-08T14:56:08Z-1077489223",
    "title": "HN front-page (63 pts): Show HN: Agent.reviews \u2013 Where AI agents read and write reviews on tools",
    "date_published": "2026-10-08T14:56:08Z",
    "url": "https://news.ycombinator.com/item?id=49995539",
    "content_text": "HN front-page (63 pts): Show HN: Agent.reviews \u2013 Where AI agents read and write reviews on tools"
   },
   {
-   "id": "2026-10-08T14:56:08Z-1128452022",
+   "id": "2026-10-08T14:56:08Z-2047830198",
    "title": "New paper mentioning GLM-: Socio-Foundation: A Model for Generalizable Individual Behavior Simulation via Hierarchical Capability Distillation",
    "date_published": "2026-10-08T14:56:08Z",
    "url": "http://arxiv.org/abs/2610.08967",
    "content_text": "New paper mentioning GLM-: Socio-Foundation: A Model for Generalizable Individual Behavior Simulation via Hierarchical Capability Distillation"
   },
   {
-   "id": "2026-10-08T14:56:08Z-2296508014",
+   "id": "2026-10-08T14:56:08Z-2385642440",
    "title": "New paper mentioning GLM-: MINDSET: Energy-based Schema Evolution for Long Conversational Agent Memory",
    "date_published": "2026-10-08T14:56:08Z",
    "url": "http://arxiv.org/abs/2610.08586",
    "content_text": "New paper mentioning GLM-: MINDSET: Energy-based Schema Evolution for Long Conversational Agent Memory"
   },
   {
-   "id": "2026-10-08T14:56:08Z-1501222699",
+   "id": "2026-10-08T14:56:08Z-235696412",
    "title": "New paper mentioning GLM-: Image Bitstream Fine-grained Understanding for Privacy-Friendly AIoT",
    "date_published": "2026-10-08T14:56:08Z",
    "url": "http://arxiv.org/abs/2610.08414",
    "content_text": "New paper mentioning GLM-: Image Bitstream Fine-grained Understanding for Privacy-Friendly AIoT"
   },
   {
-   "id": "2026-10-08T14:56:08Z-3307065587",
+   "id": "2026-10-08T14:56:08Z-3939113171",
    "title": "New paper mentioning GLM-: ServeLearnBench: How Well Can Agents Self-Improve from Serving Experience?",
    "date_published": "2026-10-08T14:56:08Z",
    "url": "http://arxiv.org/abs/2610.07792",
    "content_text": "New paper mentioning GLM-: ServeLearnBench: How Well Can Agents Self-Improve from Serving Experience?"
   },
   {
-   "id": "2026-10-08T14:56:08Z-1501334120",
+   "id": "2026-10-08T14:56:08Z-2559240997",
    "title": "New paper mentioning GLM-: HarnessSecurity-Bench: Do Security Mechanisms Really Protect Coding Agent Harnesses?",
    "date_published": "2026-10-08T14:56:08Z",
    "url": "http://arxiv.org/abs/2610.07639",
    "content_text": "New paper mentioning GLM-: HarnessSecurity-Bench: Do Security Mechanisms Really Protect Coding Agent Harnesses?"
   },
   {
-   "id": "2026-10-08T14:56:08Z-44445446",
+   "id": "2026-10-08T14:56:08Z-456203826",
    "title": "HN front-page (94 pts): Port of the TypeScript compiler, checker and lsp to Rust, by LLM",
    "date_published": "2026-10-08T14:56:08Z",
    "url": "https://news.ycombinator.com/item?id=50000676",
    "content_text": "HN front-page (94 pts): Port of the TypeScript compiler, checker and lsp to Rust, by LLM"
   },
   {
-   "id": "2026-10-08T14:56:08Z-1601107843",
+   "id": "2026-10-08T14:56:08Z-2252428407",
    "title": "HN front-page (212 pts): 'Jonathan' is the oldest land animal on Earth",
    "date_published": "2026-10-08T14:56:08Z",
    "url": "https://news.ycombinator.com/item?id=49998066",
    "content_text": "HN front-page (212 pts): 'Jonathan' is the oldest land animal on Earth"
   },
   {
-   "id": "2026-10-08T14:56:08Z-237433085",
+   "id": "2026-10-08T14:56:08Z-3859834495",
    "title": "HN front-page (87 pts): Photograph 49 is the key to understanding Rosalind Franklin\u2019s DNA Photograph 51",
    "date_published": "2026-10-08T14:56:08Z",
    "url": "https://news.ycombinator.com/item?id=49998006",
    "content_text": "HN front-page (87 pts): Photograph 49 is the key to understanding Rosalind Franklin\u2019s DNA Photograph 51"
   },
   {
-   "id": "2026-10-08T14:56:08Z-3349208899",
+   "id": "2026-10-08T14:56:08Z-2936162116",
    "title": "HN front-page (133 pts): In Vienna and Beijing, the first (thorium) nuclear clocks begin to tick",
    "date_published": "2026-10-08T14:56:08Z",
    "url": "https://news.ycombinator.com/item?id=49996406",
    "content_text": "HN front-page (133 pts): In Vienna and Beijing, the first (thorium) nuclear clocks begin to tick"
   },
   {
-   "id": "2026-10-08T14:56:08Z-136418945",
+   "id": "2026-10-08T14:56:08Z-59525127",
    "title": "New paper mentioning MiniMax: Data Reuse in Non-Stationary Learning",
    "date_published": "2026-10-08T14:56:08Z",
    "url": "http://arxiv.org/abs/2610.10340",
    "content_text": "New paper mentioning MiniMax: Data Reuse in Non-Stationary Learning"
   },
   {
-   "id": "2026-10-08T14:56:08Z-3127932514",
+   "id": "2026-10-08T14:56:08Z-1389004184",
    "title": "New paper mentioning MiniMax: Policy Learning with Weak Signals",
    "date_published": "2026-10-08T14:56:08Z",
    "url": "http://arxiv.org/abs/2610.10167",
    "content_text": "New paper mentioning MiniMax: Policy Learning with Weak Signals"
   },
   {
-   "id": "2026-10-08T14:56:08Z-3998148609",
+   "id": "2026-10-08T14:56:08Z-1168425176",
    "title": "New paper mentioning MiniMax: Sharp Asymptotic Theory of Maximum Likelihood Estimation for Gaussian Processes with an RBF Kernel",
    "date_published": "2026-10-08T14:56:08Z",
    "url": "http://arxiv.org/abs/2610.10080",
    "content_text": "New paper mentioning MiniMax: Sharp Asymptotic Theory of Maximum Likelihood Estimation for Gaussian Processes with an RBF Kernel"
   },
   {
-   "id": "2026-10-08T14:56:08Z-405592491",
+   "id": "2026-10-08T14:56:08Z-2268080912",
    "title": "New paper mentioning MiniMax: Drift Estimation for a Multi-Dimensional L\u00e9vy-Driven Stochastic Differential Equation Using Deep Neural Networks",
    "date_published": "2026-10-08T14:56:08Z",
    "url": "http://arxiv.org/abs/2610.09813",
    "content_text": "New paper mentioning MiniMax: Drift Estimation for a Multi-Dimensional L\u00e9vy-Driven Stochastic Differential Equation Using Deep Neural Networks"
   },
   {
-   "id": "2026-10-08T14:56:08Z-4066525159",
+   "id": "2026-10-08T14:56:08Z-2855819638",
    "title": "New paper mentioning MiniMax: Online Resource Allocation with an Endogenous Markov State: Fewer LP Solves Earn More",
    "date_published": "2026-10-08T14:56:08Z",
    "url": "http://arxiv.org/abs/2610.09577",
    "content_text": "New paper mentioning MiniMax: Online Resource Allocation with an Endogenous Markov State: Fewer LP Solves Earn More"
   },
   {
-   "id": "2026-10-08T14:56:08Z-1436533848",
+   "id": "2026-10-08T14:56:08Z-590199693",
    "title": "HN front-page (98 pts): A minimal kernel in Swift, running in QEMU",
    "date_published": "2026-10-08T14:56:08Z",
    "url": "https://news.ycombinator.com/item?id=49977351",
    "content_text": "HN front-page (98 pts): A minimal kernel in Swift, running in QEMU"
   },
   {
-   "id": "2026-10-08T14:56:08Z-3844985342",
+   "id": "2026-10-08T14:56:08Z-3309569694",
    "title": "New paper mentioning MiniCPM: vLLM-Omni Technical Report: A Unified Serving Runtime for Omni-Modality Generation",
    "date_published": "2026-10-08T14:56:08Z",
    "url": "http://arxiv.org/abs/2610.09307",
    "content_text": "New paper mentioning MiniCPM: vLLM-Omni Technical Report: A Unified Serving Runtime for Omni-Modality Generation"
   },
   {
-   "id": "2026-10-08T14:56:08Z-2080008643",
+   "id": "2026-10-08T14:56:08Z-2153456429",
    "title": "HN front-page (146 pts): The people holding up the internet",
    "date_published": "2026-10-08T14:56:08Z",
    "url": "https://news.ycombinator.com/item?id=50002494",
    "content_text": "HN front-page (146 pts): The people holding up the internet"
   },
   {
-   "id": "2026-10-08T14:56:08Z-2651458423",
+   "id": "2026-10-08T14:56:08Z-4146919999",
    "title": "HN front-page (93 pts): Show HN: AstroHelm \u2013 Use your phone camera to aim a telescope or telephoto lens",
    "date_published": "2026-10-08T14:56:08Z",
    "url": "https://news.ycombinator.com/item?id=49954015",
    "content_text": "HN front-page (93 pts): Show HN: AstroHelm \u2013 Use your phone camera to aim a telescope or telephoto lens"
   },
   {
-   "id": "2026-10-08T14:55:56Z-2837793403",
+   "id": "2026-10-08T14:55:56Z-1908524091",
    "title": "Trending outside tracked labs: canberkkkkkk/ema-lightning (9,467 downloads)",
    "date_published": "2026-10-08T14:55:56Z",
    "url": "https://huggingface.co/canberkkkkkk/ema-lightning",
    "content_text": "Trending outside tracked labs: canberkkkkkk/ema-lightning (9,467 downloads)"
   },
   {
-   "id": "2026-10-08T14:55:56Z-3502013622",
+   "id": "2026-10-08T14:55:56Z-3520959486",
    "title": "Trending outside tracked labs: autotrust/GLM5.3-Flash-E224-DGX-Spark (5,422 downloads)",
    "date_published": "2026-10-08T14:55:56Z",
    "url": "https://huggingface.co/autotrust/GLM5.3-Flash-E224-DGX-Spark",
    "content_text": "Trending outside tracked labs: autotrust/GLM5.3-Flash-E224-DGX-Spark (5,422 downloads)"
   },
   {
-   "id": "2026-10-08T14:55:56Z-2839413557",
+   "id": "2026-10-08T14:55:56Z-2411539293",
    "title": "Trending outside tracked labs: unsloth/embeddinggemma-2-GGUF (29,692 downloads)",
    "date_published": "2026-10-08T14:55:56Z",
    "url": "https://huggingface.co/unsloth/embeddinggemma-2-GGUF",
    "content_text": "Trending outside tracked labs: unsloth/embeddinggemma-2-GGUF (29,692 downloads)"
   },
   {
-   "id": "2026-10-08T14:55:56Z-1603106437",
+   "id": "2026-10-08T14:55:56Z-4004209811",
    "title": "Trending outside tracked labs: LiquidAI/d1-3B (5,370 downloads)",
    "date_published": "2026-10-08T14:55:56Z",
    "url": "https://huggingface.co/LiquidAI/d1-3B",
    "content_text": "Trending outside tracked labs: LiquidAI/d1-3B (5,370 downloads)"
   },
   {
-   "id": "2026-10-08T14:55:56Z-3163378682",
+   "id": "2026-10-08T14:55:56Z-1737302561",
    "title": "Trending outside tracked labs: autotrust/GEV-26B-Decide-NVFP4 (19,655 downloads)",
    "date_published": "2026-10-08T14:55:56Z",
    "url": "https://huggingface.co/autotrust/GEV-26B-Decide-NVFP4",
    "content_text": "Trending outside tracked labs: autotrust/GEV-26B-Decide-NVFP4 (19,655 downloads)"
   },
   {
-   "id": "2026-10-08T14:55:56Z-3353699205",
+   "id": "2026-10-08T14:55:56Z-1811894073",
    "title": "Trending outside tracked labs: Lightricks/LTX-2.5-22b-IC-LoRA-Alpha-Gen (6,405 downloads)",
    "date_published": "2026-10-08T14:55:56Z",
    "url": "https://huggingface.co/Lightricks/LTX-2.5-22b-IC-LoRA-Alpha-Gen",
    "content_text": "Trending outside tracked labs: Lightricks/LTX-2.5-22b-IC-LoRA-Alpha-Gen (6,405 downloads)"
   },
   {
-   "id": "2026-10-08T14:55:56Z-2912743931",
+   "id": "2026-10-08T14:55:56Z-698745570",
    "title": "Trending outside tracked labs: perplexity-ai/pplx-decider-v1-27b (2,000 downloads)",
    "date_published": "2026-10-08T14:55:56Z",
    "url": "https://huggingface.co/perplexity-ai/pplx-decider-v1-27b",
    "content_text": "Trending outside tracked labs: perplexity-ai/pplx-decider-v1-27b (2,000 downloads)"
   },
   {
-   "id": "2026-10-08T14:55:56Z-2040804816",
+   "id": "2026-10-08T14:55:56Z-3466384791",
    "title": "New lab code: Tencent-Hunyuan/ExplorationBench",
    "date_published": "2026-10-08T14:55:56Z",
    "url": "https://github.com/Tencent-Hunyuan/ExplorationBench",
    "content_text": "New lab code: Tencent-Hunyuan/ExplorationBench"
   },
   {
-   "id": "2026-10-08T14:55:56Z-3748321256",
+   "id": "2026-10-08T14:55:56Z-2427905784",
    "title": "New lab code: Tencent-Hunyuan/Prism \u2014 We propose Prism, a dynamic sparse attention framework for natively training joint video-audio generation models at 2K.",
    "date_published": "2026-10-08T14:55:56Z",
    "url": "https://github.com/Tencent-Hunyuan/Prism",
    "content_text": "New lab code: Tencent-Hunyuan/Prism \u2014 We propose Prism, a dynamic sparse attention framework for natively training joint video-audio generation models at 2K."
   },
   {
-   "id": "2026-10-05T16:22:52Z-3534801239",
+   "id": "2026-10-05T16:22:52Z-3123308381",
    "title": "New paper mentioning DeepSeek: A Kinetic Theory of the Gated Self-Evolving LLM Agent",
    "date_published": "2026-10-05T16:22:52Z",
    "url": "http://arxiv.org/abs/2610.03243",
    "content_text": "New paper mentioning DeepSeek: A Kinetic Theory of the Gated Self-Evolving LLM Agent"
   },
   {
-   "id": "2026-10-05T16:22:52Z-3669099269",
+   "id": "2026-10-05T16:22:52Z-2608969740",
    "title": "New paper mentioning DeepSeek: EvoRiskBench: An Evolving Benchmark for Runtime Security Risks in Workspace Agents",
    "date_published": "2026-10-05T16:22:52Z",
    "url": "http://arxiv.org/abs/2610.03153",
