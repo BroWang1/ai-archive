@@ -172,7 +172,8 @@
       "Tencent-Hunyuan/HY-Embodied",
       "Tencent-Hunyuan/OmniWeaving",
       "Tencent-Hunyuan/ExplorationBench",
-      "Tencent-Hunyuan/Prism"
+      "Tencent-Hunyuan/Prism",
+      "Tencent-Hunyuan/OmniCapBench"
     ],
     "Wan-Video": [
       "Wan-Video/Wan-Animate-2",
@@ -249,7 +250,10 @@
       "InternLM/InternBootcamp",
       "InternLM/OREAL",
       "InternLM/Intern-Decision",
-      "InternLM/AdvancedMathBench"
+      "InternLM/AdvancedMathBench",
+      "InternLM/SpatialASM",
+      "InternLM/InstantFusion",
+      "InternLM/ResOPD"
     ],
     "OpenBMB": [
       "OpenBMB/Meshy",
@@ -282,7 +286,9 @@
       "OpenBMB/SciCore-Mol",
       "OpenBMB/DeepThinkVLA",
       "OpenBMB/Scicore-Omics",
-      "OpenBMB/EC2-Bench"
+      "OpenBMB/EC2-Bench",
+      "OpenBMB/Trident",
+      "OpenBMB/T2Mem"
     ],
     "stepfun-ai": [
       "stepfun-ai/Step-Realtime-CLI",
@@ -866,8 +872,38 @@
       "id": "Tencent-Hunyuan/Prism",
       "at": "2026-10-08T14:55:56Z",
       "desc": "We propose Prism, a dynamic sparse attention framework for natively training joint video-audio generation models at 2K."
+    },
+    {
+      "id": "Tencent-Hunyuan/OmniCapBench",
+      "at": "2026-10-12T17:00:30Z",
+      "desc": "[NeurIPS 2026] OmniCapBench: A Deep-Structured Evaluation Framework for Fine-Grained Audio-Visual Captioning"
+    },
+    {
+      "id": "InternLM/SpatialASM",
+      "at": "2026-10-12T17:00:30Z",
+      "desc": ""
+    },
+    {
+      "id": "InternLM/InstantFusion",
+      "at": "2026-10-12T17:00:30Z",
+      "desc": "An official implementation of \"InstantFusion: A Shared Latent Interface for Heterogeneous Image Generators\""
+    },
+    {
+      "id": "InternLM/ResOPD",
+      "at": "2026-10-12T17:00:30Z",
+      "desc": "ResOPD: Tail Residualization for Sparse On-Policy Distillation. Core implementation built on verl."
+    },
+    {
+      "id": "OpenBMB/Trident",
+      "at": "2026-10-12T17:00:30Z",
+      "desc": ""
+    },
+    {
+      "id": "OpenBMB/T2Mem",
+      "at": "2026-10-12T17:00:30Z",
+      "desc": "Experiment code for T2Mem: Test-Time Memory Construction."
     }
   ],
   "first_run_done": true,
-  "last_run": "2026-10-08T14:55:56Z"
+  "last_run": "2026-10-12T17:00:30Z"
 }

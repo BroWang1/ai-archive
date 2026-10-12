@@ -1,0 +1,119 @@
+ {%- if enable_parsing is defined and enable_parsing is true -%}
+
+    {%- for message in messages -%}
+        {%- if message.role == 'user' -%}
+            {%- if message.content is string -%}
+                {{- message.content -}}
+            {%- else -%}
+                {%- for item in message.content -%}
+                    {%- if item.type == 'video' or item.type == 'video_url' or 'video' in item or 'video_url' in item -%}
+                        {{- '<|video|>' -}}
+                    {%- elif item.type == 'image' or item.type == 'image_url' or 'image' in item or 'image_url' in item -%}
+                        {{- '<|image|>' -}}
+                    {%- elif item.type == 'audio' or item.type == 'audio_url' or 'audio' in item or 'audio_url' in item -%}
+                        {{- '<|audio|>' -}}
+                    {%- elif item.type == 'text' -%}
+                        {{- item.text -}}
+                    {%- endif -%}
+                {%- endfor -%}
+            {%- endif -%}
+        {%- elif message.role == 'assistant' -%}
+            {%- if message.content is string -%}
+                {{- message.content -}}
+            {%- else -%}
+                {%- for item in message.content -%}
+                    {%- if item.type == 'video' or item.type == 'video_url' or 'video' in item or 'video_url' in item -%}
+                        {{- '<|video|>' -}}
+                    {%- elif item.type == 'image' or item.type == 'image_url' or 'image' in item or 'image_url' in item -%}
+                        {{- '<|image|>' -}}
+                    {%- elif item.type == 'audio' or item.type == 'audio_url' or 'audio' in item or 'audio_url' in item -%}
+                        {{- '<|audio|>' -}}
+                    {%- elif item.type == 'text' -%}
+                        {{- item.text -}}
+                    {%- endif -%}
+                {%- endfor -%}
+            {%- endif -%}
+        {%- elif message.role == 'system' -%}
+            {%- if message.content is string -%}
+                {{- message.content -}}
+            {%- else -%}
+                {%- for item in message.content -%}
+                    {%- if item.type == 'video' or item.type == 'video_url' or 'video' in item or 'video_url' in item -%}
+                        {{- '<|video|>' -}}
+                    {%- elif item.type == 'image' or item.type == 'image_url' or 'image' in item or 'image_url' in item -%}
+                        {{- '<|image|>' -}}
+                    {%- elif item.type == 'audio' or item.type == 'audio_url' or 'audio' in item or 'audio_url' in item -%}
+                        {{- '<|audio|>' -}}
+                    {%- elif item.type == 'text' -%}
+                        {{- item.text -}}
+                    {%- endif -%}
+                {%- endfor -%}
+            {%- endif -%}
+        {%- endif -%}
+    {%- endfor -%}
+
+{%- else -%}
+
+    {%- for message in messages -%}
+        {%- if message.role == 'user' -%}
+            {{- '<|begin_of_text|>user\n' -}}
+            {%- if message.content is string -%}
+                {{- message.content -}}
+            {%- else -%}
+                {%- for item in message.content -%}
+                    {%- if item.type == 'video' or item.type == 'video_url' or 'video' in item or 'video_url' in item -%}
+                        {{- '<|video|>' -}}
+                    {%- elif item.type == 'image' or item.type == 'image_url' or 'image' in item or 'image_url' in item -%}
+                        {{- '<|image|>' -}}
+                    {%- elif item.type == 'audio' or item.type == 'audio_url' or 'audio' in item or 'audio_url' in item -%}
+                        {{- '<|audio|>' -}}
+                    {%- elif item.type == 'text' -%}
+                        {{- item.text -}}
+                    {%- endif -%}
+                {%- endfor -%}
+            {%- endif -%}
+        {%- elif message.role == 'assistant' -%}
+            {{- '<|begin_of_text|>assistant\n' -}}
+            {%- if message.content is string -%}
+                {{- message.content -}}
+            {%- else -%}
+                {%- for item in message.content -%}
+                    {%- if item.type == 'video' or item.type == 'video_url' or 'video' in item or 'video_url' in item -%}
+                        {{- '<|video|>' -}}
+                    {%- elif item.type == 'image' or item.type == 'image_url' or 'image' in item or 'image_url' in item -%}
+                        {{- '<|image|>' -}}
+                    {%- elif item.type == 'audio' or item.type == 'audio_url' or 'audio' in item or 'audio_url' in item -%}
+                        {{- '<|audio|>' -}}
+                    {%- elif item.type == 'text' -%}
+                        {{- item.text -}}
+                    {%- endif -%}
+                {%- endfor -%}
+            {%- endif -%}
+        {%- elif message.role == 'system' -%}
+            {{- '<|begin_of_text|>system\n' -}}
+            {%- if message.content is string -%}
+                {{- message.content -}}
+            {%- else -%}
+                {%- for item in message.content -%}
+                    {%- if item.type == 'video' or item.type == 'video_url' or 'video' in item or 'video_url' in item -%}
+                        {{- '<|video|>' -}}
+                    {%- elif item.type == 'image' or item.type == 'image_url' or 'image' in item or 'image_url' in item -%}
+                        {{- '<|image|>' -}}
+                    {%- elif item.type == 'audio' or item.type == 'audio_url' or 'audio' in item or 'audio_url' in item -%}
+                        {{- '<|audio|>' -}}
+                    {%- elif item.type == 'text' -%}
+                        {{- item.text -}}
+                    {%- endif -%}
+                {%- endfor -%}
+            {%- endif -%}
+        {%- endif -%}
+        {{- '<|end_of_text|>\n' -}}
+    {%- endfor -%}
+    {%- if add_generation_prompt -%}
+        {{- '<|begin_of_text|>assistant\n' -}}
+        {%- if enable_thinking is defined and enable_thinking is false -%}
+            {{- '<think>\n\n</think>\n\n' -}}
+        {%- endif -%}
+    {%- endif -%}
+
+{%- endif -%}

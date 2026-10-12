@@ -1,0 +1,240 @@
+{
+  "repo_id": "Qwen/Qwen-Image-2.1-Turbo",
+  "canonical_org": "Qwen",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "fc13ba1986fcb905854dc8de2f52eee395f49b5b",
+      "captured_at": "2026-10-12T17:00:11Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/Qwen/Qwen-Image-2.1-Turbo?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"1d08-1PpbqGZXRRK7q5z6PRlc0uoSMJQ\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "other",
+        "file": "LICENSE",
+        "sha256": "8dc973f024ff95966bea25866efa443fd16776dcb1001e681e3d467ea572b28d",
+        "redistributable": null,
+        "obligations": [],
+        "freedom": "conditional",
+        "freedom_note": "Custom license ('other') \u2014 read before redistributing"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 2463,
+          "sha256": "aacf7c087ca029f114c7086a841c92aef81780275e90ed7507de8106bec4aa15",
+          "kind": "snapshot"
+        },
+        {
+          "path": "LICENSE",
+          "size": 7831,
+          "sha256": "8dc973f024ff95966bea25866efa443fd16776dcb1001e681e3d467ea572b28d",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 15116,
+          "sha256": "9a262724d564444f1fd41a1a3fc1aae75bfb7873cd623abb3acd3d59f02ee4c5",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/edit-preview.png",
+          "size": 867046,
+          "sha256": "ab8bea3ec5e5456ccaf5e225a79b60c02e743785fd5bffed5ed31f2a5b225334",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/t2i-preview.png",
+          "size": 850319,
+          "sha256": "32c84b89d31e2c62f1e8feb62e7dc88941945d2a622e1784984e7272bc5f428a",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/turbo-ballet.png",
+          "size": 4509235,
+          "sha256": null,
+          "kind": "media-no-snapshot"
+        },
+        {
+          "path": "assets/turbo-boat-input.png",
+          "size": 1878998,
+          "sha256": "903f87e2553cbae5b400469a95aac46ea3068f7525d98cab448b4564aee5ab05",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/turbo-composition-input-grid.png",
+          "size": 726912,
+          "sha256": "61f86f317d9114ea5ecfcb879fcc83c848919682930da8a84aa8c430cfded991",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/turbo-composition.png",
+          "size": 4153287,
+          "sha256": null,
+          "kind": "media-no-snapshot"
+        },
+        {
+          "path": "assets/turbo-figure-input-1.png",
+          "size": 550642,
+          "sha256": "e3c3c75bc05a1740b22b09653022c0e6077d626f3f94df0ff6e3e8d1eeab7728",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/turbo-figure.png",
+          "size": 4477801,
+          "sha256": null,
+          "kind": "media-no-snapshot"
+        },
+        {
+          "path": "assets/turbo-interior-input-grid.png",
+          "size": 847488,
+          "sha256": "dcfd59fe3eacdabab99d5a077e0c6a149a8634261f40d0e9a035fc5cf5f17612",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/turbo-interior.png",
+          "size": 4486660,
+          "sha256": null,
+          "kind": "media-no-snapshot"
+        },
+        {
+          "path": "assets/turbo-portrait.png",
+          "size": 6273797,
+          "sha256": null,
+          "kind": "media-no-snapshot"
+        },
+        {
+          "path": "assets/turbo-poster.png",
+          "size": 5771548,
+          "sha256": null,
+          "kind": "media-no-snapshot"
+        },
+        {
+          "path": "assets/turbo-rgba.png",
+          "size": 2615160,
+          "sha256": null,
+          "kind": "media-no-snapshot"
+        },
+        {
+          "path": "assets/turbo-ui.png",
+          "size": 3693778,
+          "sha256": null,
+          "kind": "media-no-snapshot"
+        },
+        {
+          "path": "model_index.json",
+          "size": 578,
+          "sha256": "97e2febeb19d93cb41fa44807cde8bd42757950b5dffeacdb0331fb2d390cf20",
+          "kind": "snapshot"
+        },
+        {
+          "path": "processor/chat_template.jinja",
+          "size": 5292,
+          "sha256": "3636d0f0bd6bef02654cdffdc447b79cb2cef8ab02cc75267345946291a489e4",
+          "kind": "snapshot"
+        },
+        {
+          "path": "processor/processor_config.json",
+          "size": 1300,
+          "sha256": "14932921ca485d458a04dafd8069fbb0a4505622a48208d19ed247115801385b",
+          "kind": "snapshot"
+        },
+        {
+          "path": "processor/tokenizer.json",
+          "size": 11422650,
+          "sha256": "be75606093db2094d7cd20f3c2f385c212750648bd6ea4fb2bf507a6a4c55506",
+          "kind": "snapshot"
+        },
+        {
+          "path": "processor/tokenizer_config.json",
+          "size": 705,
+          "sha256": "fd42a0b35a8d13cd473e88e310b50cbf1bccaa9eb60ed0fd873af5f8f0c59307",
+          "kind": "snapshot"
+        },
+        {
+          "path": "scheduler/scheduler_config.json",
+          "size": 486,
+          "sha256": "16c948c71f9152a34cce6e3a2f309e97ad2dca32beecbe5e2fd3a7925b7eb4bb",
+          "kind": "snapshot"
+        },
+        {
+          "path": "text_encoder/config.json",
+          "size": 1542,
+          "sha256": "89050cba6b66c4f68f52305b54fc37efe28d95232246b94aa8dc0cfa36f3b734",
+          "kind": "snapshot"
+        },
+        {
+          "path": "text_encoder/generation_config.json",
+          "size": 241,
+          "sha256": "d04d0c6fdd1dc056cf68178425a3ecf17a0b9e848cf1a8378ad31c623263472c",
+          "kind": "snapshot"
+        },
+        {
+          "path": "text_encoder/model.safetensors",
+          "size": 17534340584,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "transformer/config.json",
+          "size": 370,
+          "sha256": "2c567038ca190824728844b8d06d94ae02360e668707afd9734e789a7eb58ce3",
+          "kind": "snapshot"
+        },
+        {
+          "path": "transformer/diffusion_pytorch_model-00001-of-00002.safetensors",
+          "size": 9968332504,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "transformer/diffusion_pytorch_model-00002-of-00002.safetensors",
+          "size": 4261951904,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "transformer/diffusion_pytorch_model.safetensors.index.json",
+          "size": 30283,
+          "sha256": "17987f6623b1c814d0ef55a137d99142b7b3b040eb1bf241b5575dd35af803a2",
+          "kind": "snapshot"
+        },
+        {
+          "path": "vae/config.json",
+          "size": 2172,
+          "sha256": "42bfdec412459bbb7bc38a0617ab70edcfc873f84ec47e0c7d01c53ba09885a5",
+          "kind": "snapshot"
+        },
+        {
+          "path": "vae/diffusion_pytorch_model.safetensors",
+          "size": 675508656,
+          "sha256": null,
+          "kind": "weights"
+        }
+      ],
+      "total_bytes": 32493327348,
+      "weight_bytes": 32440133648,
+      "snapshot_dir": "snapshots/Qwen/Qwen-Image-2.1-Turbo/fc13ba1986fcb905854dc8de2f52eee395f49b5b/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

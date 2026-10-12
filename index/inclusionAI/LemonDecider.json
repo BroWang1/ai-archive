@@ -1,0 +1,150 @@
+{
+  "repo_id": "inclusionAI/LemonDecider",
+  "canonical_org": "inclusionAI",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "6930d153625642f21824a7bd523f163f2caa2213",
+      "captured_at": "2026-10-12T17:00:20Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/inclusionAI/LemonDecider?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"2d71-Lthgd/iDG16Xj53i2yVpwasrTcM\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "apache-2.0",
+        "file": "LICENSE.code",
+        "sha256": "bdb5d45a5736702104f43f47f0d7dd2fbdd52295e81d20951131b06a319c693b",
+        "redistributable": true,
+        "obligations": [],
+        "freedom": "free",
+        "freedom_note": "apache-2.0 with LICENSE file verified in snapshot"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1570,
+          "sha256": "34448b82c17d60fec9b65b1f093c115ddbaadc04beb1b0140b6bfed2e012a930",
+          "kind": "snapshot"
+        },
+        {
+          "path": "LICENSE",
+          "size": 11343,
+          "sha256": "50cbab8a892c5f2993b8c7351a99182507472def3b1374558308605d99b86b32",
+          "kind": "snapshot"
+        },
+        {
+          "path": "LICENSE.code",
+          "size": 1069,
+          "sha256": "bdb5d45a5736702104f43f47f0d7dd2fbdd52295e81d20951131b06a319c693b",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 5573,
+          "sha256": "d9ad478059fc015ff04ab0f5601554184f800f1336be86ac4cc6eea540fb63da",
+          "kind": "snapshot"
+        },
+        {
+          "path": "chat_template.jinja",
+          "size": 7756,
+          "sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 8573,
+          "sha256": "6933db584c3118e7998be0c776e62902cfad1b34ae7294e72759a994f620d2a1",
+          "kind": "snapshot"
+        },
+        {
+          "path": "configuration_autojev.py",
+          "size": 1697,
+          "sha256": "043e498c16cdddcc6dd5470c871833b271f96329bb458f785f22f45235044ff3",
+          "kind": "snapshot"
+        },
+        {
+          "path": "decision_utils.py",
+          "size": 10341,
+          "sha256": "83bce9896d2ef4fbafeb17497d8462d5d6d76d77da3b4a103c111b07f3dae29d",
+          "kind": "snapshot"
+        },
+        {
+          "path": "model-00001-of-00002.safetensors",
+          "size": 4973336472,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00002-of-00002.safetensors",
+          "size": 4106591800,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model.py",
+          "size": 2063,
+          "sha256": "ab45f5b64b4a3cefe7ff4111b1b17fdce5799eaf7143eaf4a58faf9349700abd",
+          "kind": "snapshot"
+        },
+        {
+          "path": "model.safetensors.index.json",
+          "size": 68426,
+          "sha256": "36d3602491b49476adb37e188abe44d6ba161dc03970023683cfb4d9ff4d3dde",
+          "kind": "snapshot"
+        },
+        {
+          "path": "modeling_autojev.py",
+          "size": 4548,
+          "sha256": "d317761b4272a5664b7bc2414645f9f14c13414d6f41fdc687cfb6c7a0c748ce",
+          "kind": "snapshot"
+        },
+        {
+          "path": "processor_config.json",
+          "size": 1218,
+          "sha256": "abb488b9a03a53407dc9c8e43c0a2caec9142e5fc7a1203807fdf54b2149cc8f",
+          "kind": "snapshot"
+        },
+        {
+          "path": "sft_receipt.json",
+          "size": 651,
+          "sha256": "44e82550cba3bbaca5c90103280a97cb2583d0afabbc1e5ebd78b79dea62bd8a",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer.json",
+          "size": 19989492,
+          "sha256": "6f32ce20dc35f57a7f9ad1eac03525bd7d30f9df8cea6507e958279cc3657706",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 1268,
+          "sha256": "188cf0b9db5cfd6e92f1b63c646f5975be6f8383c6c9a2fa5dc2b48a8b229402",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 9100043860,
+      "weight_bytes": 9079928272,
+      "snapshot_dir": "snapshots/inclusionAI/LemonDecider/6930d153625642f21824a7bd523f163f2caa2213/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

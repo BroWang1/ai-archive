@@ -1,0 +1,81 @@
+{
+  "feature_extractor": {
+    "audio_chunk_max_second": 30,
+    "audio_chunk_min_second": 2,
+    "audio_tokenizer_path": [
+      "/workspace/models/openai/whisper-large-v3/"
+    ],
+    "audio_tokenizer_type": [
+      "melfilterbank"
+    ],
+    "dither": 0.0,
+    "feature_extractor_type": "YoutuVITAFeatureExtractor",
+    "feature_size": 128,
+    "hop_length": 160,
+    "n_fft": 400,
+    "n_samples": 4800000,
+    "nb_max_frames": 30000,
+    "padding_side": "right",
+    "padding_value": 0.0,
+    "return_attention_mask": true,
+    "sampling_rate": 16000,
+    "temporal_merge_size": 1,
+    "text_audio_interval_ratio": null,
+    "auto_map": {
+      "AutoFeatureExtractor": "feature_extraction_youtu_vita.YoutuVITAFeatureExtractor"
+    }
+  },
+  "image_processor": {
+    "image_max_num_tokens": 32768,
+    "image_min_num_tokens": 1,
+    "image_processor_type": "YoutuVITAImageProcessor",
+    "image_size": 448,
+    "max_pixels": 33554432,
+    "mean": [
+      0.5,
+      0.5,
+      0.5
+    ],
+    "min_pixels": 1024,
+    "patch_size": 16,
+    "spatial_merge_size": 2,
+    "std": [
+      0.5,
+      0.5,
+      0.5
+    ],
+    "temporal_patch_size": 1,
+    "vision_normalize_type": "siglip",
+    "auto_map": {
+      "AutoImageProcessor": "image_processing_youtu_vita.YoutuVITAImageProcessor"
+    }
+  },
+  "processor_class": "YoutuVITAProcessor",
+  "video_processor": {
+    "patch_size": 16,
+    "rescale_factor": 0.00392156862745098,
+    "return_metadata": false,
+    "sampling_rate": 16000,
+    "spatial_merge_size": 2,
+    "temporal_merge_size": 1,
+    "temporal_patch_size": 1,
+    "use_audio_in_video": true,
+    "use_vision_in_video": true,
+    "video_audio_chunk_max_second": 29.5,
+    "video_audio_chunk_min_second": 1.5,
+    "video_image_max_num_tokens": 1024,
+    "video_image_min_num_tokens": 1,
+    "video_key_frame": false,
+    "video_max_fps": 1,
+    "video_max_num_frames": 128,
+    "video_max_num_tokens": 32768,
+    "video_min_num_tokens": 1,
+    "video_processor_type": "YoutuVITAVideoProcessor",
+    "auto_map": {
+      "AutoVideoProcessor": "video_processing_youtu_vita.YoutuVITAVideoProcessor"
+    }
+  },
+  "auto_map": {
+    "AutoProcessor": "processing_youtu_vita.YoutuVITAProcessor"
+  }
+}

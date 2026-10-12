@@ -34,6 +34,7 @@
       "Qwen/Qwen-Image-2.1",
       "Qwen/Qwen-Image-2.1-PE-I2I",
       "Qwen/Qwen-Image-2.1-PE-T2I",
+      "Qwen/Qwen-Image-2.1-Turbo",
       "Qwen/Qwen-Image-2512",
       "Qwen/Qwen-Image-Bench",
       "Qwen/Qwen-Image-Edit",
@@ -913,6 +914,7 @@
       "tencent/Youtu-LLM-2B-Base",
       "tencent/Youtu-LLM-2B-GGUF",
       "tencent/Youtu-Parsing",
+      "tencent/Youtu-Parsing-Omni",
       "tencent/Youtu-VL-4B-Instruct",
       "tencent/Youtu-VL-4B-Instruct-GGUF"
     ],
@@ -1246,6 +1248,7 @@
       "inclusionAI/LLaDA2.1-mini",
       "inclusionAI/LLaDA2.2-flash",
       "inclusionAI/LLaDA2.2-mini",
+      "inclusionAI/LemonDecider",
       "inclusionAI/Ling-1T",
       "inclusionAI/Ling-2.5-1T",
       "inclusionAI/Ling-2.6-1T",
@@ -1436,6 +1439,7 @@
       "Skywork/Matrix-Game",
       "Skywork/Matrix-Game-2.0",
       "Skywork/Matrix-Game-3.0",
+      "Skywork/Matrix-Game-4.0",
       "Skywork/MindLink-32B-0801",
       "Skywork/MindLink-72B-0801",
       "Skywork/R1V4",
@@ -1668,6 +1672,7 @@
       "openbmb/RLPR-Qwen2.5-7B-Base",
       "openbmb/SciCore-Mol",
       "openbmb/SciCore-Omics",
+      "openbmb/Trident-Qwen3VL-2B",
       "openbmb/Ultra-FineWeb-classifier",
       "openbmb/UltraCM-13b",
       "openbmb/UltraData-Code-L2-Classifier",
@@ -2059,5 +2064,5 @@
     ]
   },
   "first_run_done": true,
-  "last_run": "2026-10-08T14:55:54Z"
+  "last_run": "2026-10-12T17:00:09Z"
 }

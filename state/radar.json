@@ -106,7 +106,24 @@
     "http://arxiv.org/abs/2610.10080",
     "http://arxiv.org/abs/2610.09813",
     "http://arxiv.org/abs/2610.09577",
-    "http://arxiv.org/abs/2610.09307"
+    "http://arxiv.org/abs/2610.09307",
+    "http://arxiv.org/abs/2610.13948",
+    "http://arxiv.org/abs/2610.13925",
+    "http://arxiv.org/abs/2610.13708",
+    "http://arxiv.org/abs/2610.13563",
+    "http://arxiv.org/abs/2610.13325",
+    "http://arxiv.org/abs/2610.13895",
+    "http://arxiv.org/abs/2610.13767",
+    "http://arxiv.org/abs/2610.13078",
+    "http://arxiv.org/abs/2610.13075",
+    "http://arxiv.org/abs/2610.12812",
+    "http://arxiv.org/abs/2610.11773",
+    "http://arxiv.org/abs/2610.11761",
+    "http://arxiv.org/abs/2610.13692",
+    "http://arxiv.org/abs/2610.13412",
+    "http://arxiv.org/abs/2610.12963",
+    "http://arxiv.org/abs/2610.12915",
+    "http://arxiv.org/abs/2610.12740"
   ],
   "hn_seen": [
     "49735410",
@@ -219,7 +236,19 @@
     "49996406",
     "49977351",
     "50002494",
-    "49954015"
+    "49954015",
+    "50000488",
+    "50038634",
+    "50027167",
+    "50058507",
+    "50052251",
+    "50047422",
+    "50043682",
+    "50039536",
+    "50039291",
+    "50021403",
+    "50021066",
+    "50019090"
   ],
   "log": [
     {
@@ -1121,8 +1150,182 @@
       "at": "2026-10-08T14:56:08Z",
       "text": "HN front-page (93 pts): Show HN: AstroHelm \u2013 Use your phone camera to aim a telescope or telephoto lens",
       "url": "https://news.ycombinator.com/item?id=49954015"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-10-12T17:00:40Z",
+      "text": "New paper mentioning DeepSeek: Can Language Models Play the Wikipedia Game?",
+      "url": "http://arxiv.org/abs/2610.13948"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-10-12T17:00:40Z",
+      "text": "New paper mentioning DeepSeek: Can machines reason non-verbally?",
+      "url": "http://arxiv.org/abs/2610.13925"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-10-12T17:00:40Z",
+      "text": "New paper mentioning DeepSeek: Adaptive DHiSparse: Speculative Decoding over a Load-Adaptive KV Hierarchy",
+      "url": "http://arxiv.org/abs/2610.13708"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-10-12T17:00:40Z",
+      "text": "New paper mentioning DeepSeek: Not All Correct Fixes Run Alike: An Empirical Study of Patch Performance in Repository-Level Issue Resolution",
+      "url": "http://arxiv.org/abs/2610.13563"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-10-12T17:00:40Z",
+      "text": "New paper mentioning DeepSeek: Taking Tokenization off the Host for Agentic LLM Serving",
+      "url": "http://arxiv.org/abs/2610.13325"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-10-12T17:00:40Z",
+      "text": "HN front-page (1123 pts): Why isn't the industry freaking out about DeepSeek 4.1 Flash?",
+      "url": "https://news.ycombinator.com/item?id=50000488"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-10-12T17:00:40Z",
+      "text": "New paper mentioning Qwen: Task Context Shapes Component Roles in Language Models",
+      "url": "http://arxiv.org/abs/2610.13895"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-10-12T17:00:40Z",
+      "text": "New paper mentioning Qwen: DualQuant: Dual-scale Calibration-free Weight-and-Activation Quantization for LLMs",
+      "url": "http://arxiv.org/abs/2610.13767"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-10-12T17:00:40Z",
+      "text": "New paper mentioning Qwen: Attention Sees, MLP Refuses: Tracing the Attention-to-MLP Safety Pathway in LLMs",
+      "url": "http://arxiv.org/abs/2610.13078"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-10-12T17:00:40Z",
+      "text": "HN front-page (278 pts): Show HN: WallHop \u2013 12ft.io is gone, so I built a replacement",
+      "url": "https://news.ycombinator.com/item?id=50038634"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-10-12T17:00:40Z",
+      "text": "HN front-page (64 pts): Japan's most famous tuna buyer says he turned Somali pirates into fishermen",
+      "url": "https://news.ycombinator.com/item?id=50027167"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-10-12T17:00:40Z",
+      "text": "New paper mentioning GLM-: LongHarness: Advancing Agentic Reasoning over 100M-Token Corpora via Stateful Evidence Management",
+      "url": "http://arxiv.org/abs/2610.13075"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-10-12T17:00:40Z",
+      "text": "New paper mentioning GLM-: Semiparametric Regression Based on Zero Altered Models",
+      "url": "http://arxiv.org/abs/2610.12812"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-10-12T17:00:40Z",
+      "text": "New paper mentioning GLM-: Safe Actions Alone Do Not Ensure Safe Agents: Identifying Unfulfilled Obligations with Guard Models",
+      "url": "http://arxiv.org/abs/2610.11773"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-10-12T17:00:40Z",
+      "text": "New paper mentioning GLM-: RAGenome: Scaling Retrieval-Based Genomic Language Models to Long Contexts",
+      "url": "http://arxiv.org/abs/2610.11761"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-10-12T17:00:40Z",
+      "text": "HN front-page (93 pts): GLM-Legal: Advancing Agentic Legal Intelligence",
+      "url": "https://news.ycombinator.com/item?id=50058507"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-10-12T17:00:40Z",
+      "text": "HN front-page (187 pts): Show HN: PS2 games statically recompiled to WebAssembly",
+      "url": "https://news.ycombinator.com/item?id=50052251"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-10-12T17:00:40Z",
+      "text": "HN front-page (613 pts): The gap in shared understanding of LLM capability is widening",
+      "url": "https://news.ycombinator.com/item?id=50047422"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-10-12T17:00:40Z",
+      "text": "HN front-page (399 pts): Documents add to evidence in climate deception case against ExxonMobil",
+      "url": "https://news.ycombinator.com/item?id=50043682"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-10-12T17:00:40Z",
+      "text": "HN front-page (145 pts): GameBoy on E-Paper ESP32 at 30FPS [video]",
+      "url": "https://news.ycombinator.com/item?id=50039536"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-10-12T17:00:40Z",
+      "text": "New paper mentioning MiniMax: Variance-Reduced Policy Gradient is Nearly Minimax-Optimal",
+      "url": "http://arxiv.org/abs/2610.13692"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-10-12T17:00:40Z",
+      "text": "New paper mentioning MiniMax: TextVBench: Evaluating Text Rendering and Preservation in Video Generation",
+      "url": "http://arxiv.org/abs/2610.13412"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-10-12T17:00:40Z",
+      "text": "New paper mentioning MiniMax: MotionCoach: Constructing Multimodal Guidance for Video Professional Motion Editing",
+      "url": "http://arxiv.org/abs/2610.12963"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-10-12T17:00:40Z",
+      "text": "New paper mentioning MiniMax: Controlled-Minimax: Stabilizing Adversarial Optimization via Control Theory",
+      "url": "http://arxiv.org/abs/2610.12915"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-10-12T17:00:40Z",
+      "text": "New paper mentioning MiniMax: Minimax Rates for Estimating Powered Sliced Wasserstein Functionals",
+      "url": "http://arxiv.org/abs/2610.12740"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-10-12T17:00:40Z",
+      "text": "HN front-page (111 pts): Ask HN: Do you want a router that has DD-WRT pre-installed?",
+      "url": "https://news.ycombinator.com/item?id=50039291"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-10-12T17:00:40Z",
+      "text": "HN front-page (180 pts): Imposing Sanctions on the International Criminal Court",
+      "url": "https://news.ycombinator.com/item?id=50021403"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-10-12T17:00:40Z",
+      "text": "HN front-page (520 pts): US imposes sanctions on ICC hours after former judge wins Nobel Peace Prize",
+      "url": "https://news.ycombinator.com/item?id=50021066"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-10-12T17:00:40Z",
+      "text": "HN front-page (83 pts): US proposes $100k charge for international students to do post-graduate work",
+      "url": "https://news.ycombinator.com/item?id=50019090"
     }
   ],
   "first_run_done": true,
-  "last_run": "2026-10-08T14:56:08Z"
+  "last_run": "2026-10-12T17:00:40Z"
 }

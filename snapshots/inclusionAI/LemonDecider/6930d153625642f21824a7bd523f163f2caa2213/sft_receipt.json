@@ -1,0 +1,18 @@
+{
+  "step": 24,
+  "dev_accuracy_t1": 0.7735191583633423,
+  "best_step": 3,
+  "best_dev_accuracy_t1": 0.7804877758026123,
+  "lr": 2.2827515498423204e-07,
+  "examples_seen": 6144,
+  "temperature_fit": {
+    "method": "NLL scan on dev 574 under fork _known() semantics, T grid [0.30,5.00]x0.05 (from cached T=1 probs)",
+    "best_T": 0.6,
+    "dev_nll_at_T": 0.56265,
+    "dev_brier_at_T": 0.28261,
+    "dev_nll_at_1": 0.6016,
+    "dev_brier_at_1": 0.29885,
+    "bound": false,
+    "reason": "best_T=0.60 != serving T=1.0; NOT applied — public-set re-eval required before adoption (dev acc unchanged at T*, argmax-invariant except noul boundary)"
+  }
+}

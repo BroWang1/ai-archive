@@ -112,9 +112,21 @@
     "LiquidAI/d1-3B",
     "autotrust/GEV-26B-Decide-NVFP4",
     "Lightricks/LTX-2.5-22b-IC-LoRA-Alpha-Gen",
-    "perplexity-ai/pplx-decider-v1-27b"
+    "perplexity-ai/pplx-decider-v1-27b",
+    "abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
+    "ConwayResearch/Underdog-Saluki-27B-1.0",
+    "AtomicChat/Qwen-Image-2.1-Turbo-Uncensored-GGUF",
+    "nerkyor/Qwen3.8-27B-Coder390-EfficientThink-Opus5.5-GPT6Astra-Grok4.7-DSV4Pro-K3-SFT-RLOO-MTP-DFlash2",
+    "baidu/Unlimited-OCR",
+    "perplexity-ai/pplx-decider-v1.1-27b",
+    "LiquidAI/d1-omni-600M",
+    "JetBrains/Mellum2.1-12B-A2.5B-Thinking",
+    "autotrust/JEV-35B",
+    "facebook/dinov3-vitl16-pretrain-lvd1689m",
+    "autotrust/GLM5.3-Flash-E192-DGX-Spark",
+    "lightonai/LightOnOCR-3-4B"
   ],
-  "last_run": "2026-10-08T14:55:56Z",
+  "last_run": "2026-10-12T17:00:30Z",
   "log": [
     {
       "id": "prism-ml/Ternary-Bonsai-2-27B-gguf",
@@ -490,6 +502,66 @@
       "id": "perplexity-ai/pplx-decider-v1-27b",
       "at": "2026-10-08T14:55:56Z",
       "downloads": 2000
+    },
+    {
+      "id": "abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
+      "at": "2026-10-12T17:00:30Z",
+      "downloads": 2188658
+    },
+    {
+      "id": "ConwayResearch/Underdog-Saluki-27B-1.0",
+      "at": "2026-10-12T17:00:30Z",
+      "downloads": 242329
+    },
+    {
+      "id": "AtomicChat/Qwen-Image-2.1-Turbo-Uncensored-GGUF",
+      "at": "2026-10-12T17:00:30Z",
+      "downloads": 161715
+    },
+    {
+      "id": "nerkyor/Qwen3.8-27B-Coder390-EfficientThink-Opus5.5-GPT6Astra-Grok4.7-DSV4Pro-K3-SFT-RLOO-MTP-DFlash2",
+      "at": "2026-10-12T17:00:30Z",
+      "downloads": 75302
+    },
+    {
+      "id": "baidu/Unlimited-OCR",
+      "at": "2026-10-12T17:00:30Z",
+      "downloads": 1205646
+    },
+    {
+      "id": "perplexity-ai/pplx-decider-v1.1-27b",
+      "at": "2026-10-12T17:00:30Z",
+      "downloads": 2480
+    },
+    {
+      "id": "LiquidAI/d1-omni-600M",
+      "at": "2026-10-12T17:00:30Z",
+      "downloads": 10942
+    },
+    {
+      "id": "JetBrains/Mellum2.1-12B-A2.5B-Thinking",
+      "at": "2026-10-12T17:00:30Z",
+      "downloads": 1068
+    },
+    {
+      "id": "autotrust/JEV-35B",
+      "at": "2026-10-12T17:00:30Z",
+      "downloads": 6262
+    },
+    {
+      "id": "facebook/dinov3-vitl16-pretrain-lvd1689m",
+      "at": "2026-10-12T17:00:30Z",
+      "downloads": 739905
+    },
+    {
+      "id": "autotrust/GLM5.3-Flash-E192-DGX-Spark",
+      "at": "2026-10-12T17:00:30Z",
+      "downloads": 2982
+    },
+    {
+      "id": "lightonai/LightOnOCR-3-4B",
+      "at": "2026-10-12T17:00:30Z",
+      "downloads": 3222
     }
   ]
 }

@@ -1,0 +1,60 @@
+{
+  "repo_id": "Skywork/Matrix-Game-4.0",
+  "canonical_org": "Skywork",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "cf8fc877ae3f57d5e75d820c0aaa67cbaba0ac60",
+      "captured_at": "2026-10-12T17:00:24Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/Skywork/Matrix-Game-4.0?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"280-0eBYX2CXwtT5pQKGXs87WGU+0QI\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "mit",
+        "file": null,
+        "sha256": null,
+        "redistributable": true,
+        "obligations": [],
+        "freedom": "free",
+        "freedom_note": "mit declared via card metadata (fingerprinted in snapshot); upstream ships no separate LICENSE file"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1519,
+          "sha256": "11ad7efa24975ee4b0c3c3a38ed18737f0658a5f75a0a96787b576a78a023361",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 21,
+          "sha256": "3e0e15fa0c5cc81675bd69af8eb469d128a725c1a7bfc71f03b7877b7b650567",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 1540,
+      "weight_bytes": 0,
+      "snapshot_dir": "snapshots/Skywork/Matrix-Game-4.0/cf8fc877ae3f57d5e75d820c0aaa67cbaba0ac60/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}
