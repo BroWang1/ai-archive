@@ -48,6 +48,380 @@
         "hf": null,
         "master": null
       }
+    },
+    {
+      "revision": "4419accdb7bb7881234c5914de8cd915266e0325",
+      "captured_at": "2026-10-15T10:09:05Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/Skywork/Matrix-Game-4.0?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"2538-iq7ZeGPX3Y4TBoRJOjw7+O2g0Nw\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "apache-2.0",
+        "file": "LICENSE",
+        "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+        "redistributable": null,
+        "obligations": []
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1983,
+          "sha256": "499e7d052daae8d567422cc1a266d2c181283b428e69119de8f8ee75db4cda04",
+          "kind": "snapshot"
+        },
+        {
+          "path": "GAME_ASSETS.md",
+          "size": 1192,
+          "sha256": "568080b478715814d9451f57f1faff1894b363c831d04db9111215ec8d72d359",
+          "kind": "snapshot"
+        },
+        {
+          "path": "LICENSE",
+          "size": 11357,
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 4702,
+          "sha256": "029ffeb292bc7924e1f9990d06d64d63c0b24eea9e563e63c329ae606ac5c063",
+          "kind": "snapshot"
+        },
+        {
+          "path": "THIRD_PARTY_NOTICES.md",
+          "size": 2614,
+          "sha256": "d25466469581d8ab4342203796d88d2bfcfbddc284dec7a8bfc6ca56afe1a8e1",
+          "kind": "snapshot"
+        },
+        {
+          "path": "base/taew2_2.pth",
+          "size": 22884021,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "driving_game/inference.json",
+          "size": 894,
+          "sha256": "c755765f9e6fb245cd57220a87cc6cb7fa39a91114ef30f2bfe1615209e8d13c",
+          "kind": "snapshot"
+        },
+        {
+          "path": "driving_game/model.json",
+          "size": 213,
+          "sha256": "d55ed95cf1878071a2a9ba4473f4f536bb6a36e4fb38669cea160ccae9252623",
+          "kind": "snapshot"
+        },
+        {
+          "path": "driving_game/model.safetensors",
+          "size": 10002122224,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "driving_game/sink.png",
+          "size": 1223549,
+          "sha256": "f95803ae01868567d4b1822da3a027bd5fc573c6d650d03c13ea3dab0b263d37",
+          "kind": "snapshot"
+        },
+        {
+          "path": "driving_game/vae_decoder/decoder.pth",
+          "size": 22874815,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "fps-castle/inference.json",
+          "size": 807,
+          "sha256": "3be7e4065a9257a45fe6a89587ab23338697d40207b7649c24dc904bfc270d51",
+          "kind": "snapshot"
+        },
+        {
+          "path": "fps-castle/model.json",
+          "size": 213,
+          "sha256": "b7347751e629a0579a68f13e0294d378f51078cfc787630f63f8e24c84ca9dee",
+          "kind": "snapshot"
+        },
+        {
+          "path": "fps-castle/model.safetensors",
+          "size": 10002122256,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "fps-castle/sink.png",
+          "size": 1753604,
+          "sha256": "3ebfd83095f2bf159d17ce2e71e50238a78c2080dd147db28e79fabc5a7b73b7",
+          "kind": "snapshot"
+        },
+        {
+          "path": "fps-egypt/inference.json",
+          "size": 828,
+          "sha256": "2de27644e1cbee2e51fea0d580528bbadf7aafda07885ac62483beb18360918e",
+          "kind": "snapshot"
+        },
+        {
+          "path": "fps-egypt/model.json",
+          "size": 213,
+          "sha256": "e143529f582976ca63a9d4d2ef9fee4e6b71de32fcb098f3c5e176d15e5e31a0",
+          "kind": "snapshot"
+        },
+        {
+          "path": "fps-egypt/model.safetensors",
+          "size": 10002122256,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "fps-egypt/sink.png",
+          "size": 1490954,
+          "sha256": "94e03c1a951467475f120746f71a30afd555176ea3a3d120e4d5ef6d3f8645f6",
+          "kind": "snapshot"
+        },
+        {
+          "path": "game/assets/castle-map.bin",
+          "size": 6519376,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "game/assets/combat-audio/0.wav",
+          "size": 15404,
+          "sha256": "9338eb4eba478cc7c9a493c0e52bc332843163f285fdbc75da962accc67c3687",
+          "kind": "snapshot"
+        },
+        {
+          "path": "game/assets/combat-audio/1.wav",
+          "size": 28844,
+          "sha256": "7060b921792ce38e9c215398e894328d876ee680292c0c1aedb386d5a0010254",
+          "kind": "snapshot"
+        },
+        {
+          "path": "game/assets/combat-audio/2.wav",
+          "size": 30764,
+          "sha256": "79365689fb9302733cb80e8412cf76a258aad0f1d33f174943208f997b788460",
+          "kind": "snapshot"
+        },
+        {
+          "path": "game/assets/combat-audio/3.wav",
+          "size": 81644,
+          "sha256": "b8a5de65598ca3c3bead2fe8016402124414f78c16ff700d7fbdc68f0db1101c",
+          "kind": "snapshot"
+        },
+        {
+          "path": "game/assets/combat-audio/4.wav",
+          "size": 9644,
+          "sha256": "62711f02e834274f4214b2684f82966b767b9a96317a02e7c4da713b271a48ee",
+          "kind": "snapshot"
+        },
+        {
+          "path": "game/assets/combat-audio/5.wav",
+          "size": 7724,
+          "sha256": "881bf5a9481425662180ae503e6a533023ac3722b4b61a4e879d6d398e2222b8",
+          "kind": "snapshot"
+        },
+        {
+          "path": "game/assets/combat-audio/6.wav",
+          "size": 19244,
+          "sha256": "958b111d7eeaf9b31044f42c7622b2dea98f19ceb3db5bd006be6e9c344d3f2e",
+          "kind": "snapshot"
+        },
+        {
+          "path": "game/assets/manifest.json",
+          "size": 180254,
+          "sha256": "34bbf84f6188450c4c146d35b1f76c851afbc7c0e19876c8bfb9a2e056355032",
+          "kind": "snapshot"
+        },
+        {
+          "path": "game/assets/maps/ancient-egypt/castle-map.bin",
+          "size": 88812920,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "game/assets/maps/ancient-egypt/manifest.json",
+          "size": 18573233,
+          "sha256": "20b6dbeb49bc7a0f01c1654a7cb58560e2b430dc91098bfac1fde03fa35beefc",
+          "kind": "snapshot"
+        },
+        {
+          "path": "game/assets/maps/ancient-egypt/map.json",
+          "size": 671,
+          "sha256": "55d30d59f1ee873d0cf4dab777955653d255e49172bcbed36542251a4fad81ec",
+          "kind": "snapshot"
+        },
+        {
+          "path": "game/assets/maps/ancient-egypt/road-surface-overrides.json",
+          "size": 208,
+          "sha256": "9032f94f4a37c8f309edb19ceec823c8275d913fc241974509508dd9683e1f68",
+          "kind": "snapshot"
+        },
+        {
+          "path": "game/assets/maps/ancient-egypt/shooter/CatalogManifest.json",
+          "size": 50091,
+          "sha256": "47ba02040e41d799ce29d2c8552ce81d261f827aef48ad0646e6bc330554b30e",
+          "kind": "snapshot"
+        },
+        {
+          "path": "game/assets/maps/ancient-egypt/shooter/StaticMeshCatalog.csv",
+          "size": 35669,
+          "sha256": "e6e4c626bd56a6daff87c81d8e719a5aedacbe19d32a37608efc1f0514b27a9e",
+          "kind": "snapshot"
+        },
+        {
+          "path": "game/assets/shooter/CatalogManifest.json",
+          "size": 12431,
+          "sha256": "5d4cd5a251fb590fbac59689ce12c160b2ef4fb3655f1c7ef9c872a95b38739d",
+          "kind": "snapshot"
+        },
+        {
+          "path": "game/assets/shooter/StaticMeshCatalog.csv",
+          "size": 9219,
+          "sha256": "3b21a5b222bcd640eb949d4f05418d15a0b4a3ed18c93a58b8294fbad7c7a1b0",
+          "kind": "snapshot"
+        },
+        {
+          "path": "game/assets/shooter/arm-reference.json",
+          "size": 21117,
+          "sha256": "ac90fe385f84f4baabc0198b06756a359bd2c9e8888b8f496d08e43c43142bac",
+          "kind": "snapshot"
+        },
+        {
+          "path": "game/assets/shooter/cover.json",
+          "size": 59967,
+          "sha256": "7a37b7a352fc644591910b0c507927fa08c3338921166567157f26c328fa4e26",
+          "kind": "snapshot"
+        },
+        {
+          "path": "game/assets/shooter/source.json",
+          "size": 21756499,
+          "sha256": "53fc09a67c8356da289c3429208e6fb89fe991d649ed442be7f850d3e97ab1bf",
+          "kind": "snapshot"
+        },
+        {
+          "path": "game/assets/shooter/ue-bbox-parts.json",
+          "size": 74623,
+          "sha256": "2c3793bbd23a92693514066444f606101c2aa714beaf4ba099f8b645aa8e2359",
+          "kind": "snapshot"
+        },
+        {
+          "path": "licenses/MG4CF-LICENSE",
+          "size": 11357,
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+          "kind": "snapshot"
+        },
+        {
+          "path": "licenses/TAEHV-LICENSE",
+          "size": 1073,
+          "sha256": "532f9e394518ffddecd294a517d5b41d79d3d3866c3fb95a6cb0e8bcc02370bf",
+          "kind": "snapshot"
+        },
+        {
+          "path": "racing/assets/audio/CREDITS.md",
+          "size": 2665,
+          "sha256": "f67618caf9379c643b340515d279ea5edce07052be3e017caf12d4a8e5864ca5",
+          "kind": "snapshot"
+        },
+        {
+          "path": "racing/assets/audio/engine-loop.wav",
+          "size": 83030,
+          "sha256": "6c6f23592774ca5afb7a99c9d68c00deb8d262a397ed8345f3bb5603dcadb2c6",
+          "kind": "snapshot"
+        },
+        {
+          "path": "racing/assets/audio/impact-heavy.wav",
+          "size": 15896,
+          "sha256": "01b98448eecfa5b49004d677033b13aeb292d1926ea799aa031c0ec6cf7135ff",
+          "kind": "snapshot"
+        },
+        {
+          "path": "racing/assets/audio/impact-medium.wav",
+          "size": 13572,
+          "sha256": "e64cbcd58aad02138e7927a3eff4ae76bb94507b079c60396a092c3b623f81dd",
+          "kind": "snapshot"
+        },
+        {
+          "path": "racing/assets/audio/tire-front-loop.wav",
+          "size": 432078,
+          "sha256": "2d2c83fd6a1906a18f9823aa53ff40b2a3ebf29c56365289ad3f86cd81481bb4",
+          "kind": "snapshot"
+        },
+        {
+          "path": "racing/assets/audio/tire-loop.wav",
+          "size": 288078,
+          "sha256": "6ab89592e20c1f05db116c3272ec2287b40a5a8e2927021e71c05f495f131e87",
+          "kind": "snapshot"
+        },
+        {
+          "path": "racing/assets/bbox-assets.bin",
+          "size": 59064,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "racing/assets/caption-catalog.json",
+          "size": 240436,
+          "sha256": "cd724962fe8ab6fb0a5d49c973ca32f1d85f7391cc2fb21fbeed7f874a39c4c3",
+          "kind": "snapshot"
+        },
+        {
+          "path": "racing/assets/caption-labels.bin",
+          "size": 7590560,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "racing/assets/race-routes.json",
+          "size": 55989,
+          "sha256": "8804dd0fefb525b2d87051be73a335f3b297f96103a271ceef41a660c56d9fed",
+          "kind": "snapshot"
+        },
+        {
+          "path": "racing/assets/reference-building-stripes.bin",
+          "size": 2584744,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "racing/assets/reference-junction-surfaces.bin",
+          "size": 5588,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "racing/assets/small-city.bin",
+          "size": 44771892,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "releases/game-assets.json",
+          "size": 6443,
+          "sha256": "c4931f203e8668f15dc73f69d3efc57e7e8c6344bf105ead8668eb76ba6ea1a4",
+          "kind": "snapshot"
+        },
+        {
+          "path": "releases/models.json",
+          "size": 6031,
+          "sha256": "44f23435f06f3497fb6377b0e1dd73b2c5a691bd79a963126c86792b1bfc4309",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 30249086737,
+      "weight_bytes": 30202469716,
+      "snapshot_dir": "snapshots/Skywork/Matrix-Game-4.0/4419accdb7bb7881234c5914de8cd915266e0325/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
     }
   ],
   "errata": [],

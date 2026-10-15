@@ -1,5 +1,12 @@
 [
  {
+  "at": "2026-10-15T10:09:05Z",
+  "kind": "capture",
+  "text": "Captured Skywork/Matrix-Game-4.0 \u2014 30 GB manifested, license: unclassified",
+  "url": "https://huggingface.co/Skywork/Matrix-Game-4.0",
+  "action": "view / download"
+ },
+ {
   "at": "2026-10-12T17:00:40Z",
   "kind": "paper",
   "text": "New paper mentioning DeepSeek: Can Language Models Play the Wikipedia Game?",
@@ -270,13 +277,6 @@
   "kind": "trending",
   "text": "Trending outside tracked labs: facebook/dinov3-vitl16-pretrain-lvd1689m (739,905 downloads)",
   "url": "https://huggingface.co/facebook/dinov3-vitl16-pretrain-lvd1689m",
-  "action": "view"
- },
- {
-  "at": "2026-10-12T17:00:30Z",
-  "kind": "trending",
-  "text": "Trending outside tracked labs: autotrust/GLM5.3-Flash-E192-DGX-Spark (2,982 downloads)",
-  "url": "https://huggingface.co/autotrust/GLM5.3-Flash-E192-DGX-Spark",
   "action": "view"
  }
 ]
