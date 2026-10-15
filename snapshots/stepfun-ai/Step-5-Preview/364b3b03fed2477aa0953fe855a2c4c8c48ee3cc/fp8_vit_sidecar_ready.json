@@ -1,0 +1,47 @@
+{
+  "ready": true,
+  "export_load_path": "/mnt/step-release/liujunfeng/checkpoints/steptron-sft/step4_dsa_1m_stage2v4full_stage3_0913_rft_k3refusald_cp64_gbs96_lr1p5e-5_0915/ckpt/it105",
+  "export_save_path": "/mnt/posttrain-release/liujunfeng/checkpoints/steptron-sft/step4_dsa_1m_stage2v4full_stage3_0913_rft_k3refusald_cp64_gbs96_lr1p5e-5_0915/it105/hf_fp8",
+  "created_at_epoch": 1789486949.658093,
+  "fp8_only": true,
+  "sparse_indexer_suffix_counts": {
+    ".self_attn.sparse_indexer_q.weight": 23,
+    ".self_attn.sparse_indexer_w.weight": 23,
+    ".self_attn.sparse_indexer_k.weight": 23,
+    ".self_attn.sparse_indexer_z.weight": 23,
+    ".self_attn.sparse_indexer_q_norm.weight": 23,
+    ".self_attn.sparse_indexer_k_norm.weight": 23,
+    ".self_attn.sparse_indexer_k_norm.bias": 23
+  },
+  "sparse_config": {
+    "enabled": true,
+    "proxy_dim": 256,
+    "sparse_indexer_rope_dim": 32,
+    "sparse_indexer_use_rope": true,
+    "sparse_indexer_num_heads": 16,
+    "sparse_indexer_num_k_heads": 1,
+    "sparse_indexer_q_norm_type": "rmsnorm",
+    "sparse_indexer_k_norm_type": "layernorm",
+    "sparse_indexer_csa_z_norm_type": "none",
+    "sparse_indexer_softmax_variant": "ssmax",
+    "sparse_indexer_ssmax_s_granularity": "q_head",
+    "num_provider_groups": 4,
+    "topk": 512,
+    "region_block_size": 8,
+    "compression_method": "csa_block_compress",
+    "attention_impl": "sparse_gqa",
+    "apply_to_layer_types": [
+      "full_attention"
+    ]
+  },
+  "vit_in_model_index": false,
+  "vit_sidecar": {
+    "filename": "vit.safetensors",
+    "size_bytes": 3962113752,
+    "tensor_count": 667,
+    "dtype_counts": {
+      "BF16": 667
+    }
+  },
+  "mtp_weight_count": 17
+}

@@ -1,0 +1,126 @@
+{
+  "repo_id": "openbmb/MiniCPM-V-4.7-35B-A3B-DSpark-gguf",
+  "canonical_org": "openbmb",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "ffa464b22facd6107c6682c63ccf3f4a9267bfc5",
+      "captured_at": "2026-10-15T12:52:19Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/openbmb/MiniCPM-V-4.7-35B-A3B-DSpark-gguf?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"2ea5-2jP6thRMsrDGWax3PEbIxweDvAM\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "apache-2.0",
+        "file": null,
+        "sha256": null,
+        "redistributable": true,
+        "obligations": [],
+        "freedom": "free",
+        "freedom_note": "apache-2.0 declared via card metadata (fingerprinted in snapshot); upstream ships no separate LICENSE file"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 2351,
+          "sha256": "be5606a739de8dff1257fb28d17f3fd6cb19092281cc8f135184aff59b7c0b42",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 6164,
+          "sha256": "eb1aaffe9c9391e95ef95b9e33e5d9fbed090e76bf0fee20a86407981f9f1cc4",
+          "kind": "snapshot"
+        },
+        {
+          "path": "dspark-MiniCPM-V-4_7-35B-A3B-F16.gguf",
+          "size": 789442080,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "dspark-MiniCPM-V-4_7-35B-A3B-Q4_0.gguf",
+          "size": 229976064,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "dspark-MiniCPM-V-4_7-35B-A3B-Q4_1.gguf",
+          "size": 254300672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "dspark-MiniCPM-V-4_7-35B-A3B-Q4_K_M.gguf",
+          "size": 237004800,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "dspark-MiniCPM-V-4_7-35B-A3B-Q4_K_S.gguf",
+          "size": 230500352,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "dspark-MiniCPM-V-4_7-35B-A3B-Q5_0.gguf",
+          "size": 278625280,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "dspark-MiniCPM-V-4_7-35B-A3B-Q5_1.gguf",
+          "size": 302949888,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "dspark-MiniCPM-V-4_7-35B-A3B-Q5_K_M.gguf",
+          "size": 282246144,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "dspark-MiniCPM-V-4_7-35B-A3B-Q5_K_S.gguf",
+          "size": 278625280,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "dspark-MiniCPM-V-4_7-35B-A3B-Q6_K.gguf",
+          "size": 330315072,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "dspark-MiniCPM-V-4_7-35B-A3B-Q8_0.gguf",
+          "size": 424572928,
+          "sha256": null,
+          "kind": "weights"
+        }
+      ],
+      "total_bytes": 3638567075,
+      "weight_bytes": 3638558560,
+      "snapshot_dir": "snapshots/openbmb/MiniCPM-V-4.7-35B-A3B-DSpark-gguf/ffa464b22facd6107c6682c63ccf3f4a9267bfc5/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

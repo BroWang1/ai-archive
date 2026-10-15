@@ -123,7 +123,27 @@
     "http://arxiv.org/abs/2610.13412",
     "http://arxiv.org/abs/2610.12963",
     "http://arxiv.org/abs/2610.12915",
-    "http://arxiv.org/abs/2610.12740"
+    "http://arxiv.org/abs/2610.12740",
+    "http://arxiv.org/abs/2610.20424",
+    "http://arxiv.org/abs/2610.20417",
+    "http://arxiv.org/abs/2610.20003",
+    "http://arxiv.org/abs/2610.19951",
+    "http://arxiv.org/abs/2610.19920",
+    "http://arxiv.org/abs/2610.19981",
+    "http://arxiv.org/abs/2610.19872",
+    "http://arxiv.org/abs/2610.19855",
+    "http://arxiv.org/abs/2610.19819",
+    "http://arxiv.org/abs/2610.19452",
+    "http://arxiv.org/abs/2610.18868",
+    "http://arxiv.org/abs/2610.18330",
+    "http://arxiv.org/abs/2610.18043",
+    "http://arxiv.org/abs/2610.17820",
+    "http://arxiv.org/abs/2610.20345",
+    "http://arxiv.org/abs/2610.20187",
+    "http://arxiv.org/abs/2610.20007",
+    "http://arxiv.org/abs/2610.19948",
+    "http://arxiv.org/abs/2610.19925",
+    "http://arxiv.org/abs/2610.20172"
   ],
   "hn_seen": [
     "49735410",
@@ -248,7 +268,21 @@
     "50039291",
     "50021403",
     "50021066",
-    "50019090"
+    "50019090",
+    "50077619",
+    "50080275",
+    "50068508",
+    "50098570",
+    "50097369",
+    "50095034",
+    "50094994",
+    "50093612",
+    "50063104",
+    "50092730",
+    "50090084",
+    "50084757",
+    "50071466",
+    "50070010"
   ],
   "log": [
     {
@@ -1324,8 +1358,212 @@
       "at": "2026-10-12T17:00:40Z",
       "text": "HN front-page (83 pts): US proposes $100k charge for international students to do post-graduate work",
       "url": "https://news.ycombinator.com/item?id=50019090"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-10-15T12:53:24Z",
+      "text": "New paper mentioning DeepSeek: BizBench: Unveiling Hidden Challenges in Deploying Long-Horizon Agents for Real-World Business",
+      "url": "http://arxiv.org/abs/2610.20424"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-10-15T12:53:24Z",
+      "text": "New paper mentioning DeepSeek: From Unreliable to Usable: Decomposing Failure Modes and Confidence Signals in LLM Entity Extraction - Evidence from Cyber Threat Intelligence",
+      "url": "http://arxiv.org/abs/2610.20417"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-10-15T12:53:24Z",
+      "text": "New paper mentioning DeepSeek: What Coding Agents Leave Unsaid: Measuring Task-State Gaps Between Execution and Reports",
+      "url": "http://arxiv.org/abs/2610.20003"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-10-15T12:53:24Z",
+      "text": "New paper mentioning DeepSeek: AtomSearch: Evidence-Grounded Tree Search for Agent Skill Optimization",
+      "url": "http://arxiv.org/abs/2610.19951"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-10-15T12:53:24Z",
+      "text": "New paper mentioning DeepSeek: MolHop: Scaffold-Hopping Molecular Design with Agentic Reinforcement Learning",
+      "url": "http://arxiv.org/abs/2610.19920"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-10-15T12:53:24Z",
+      "text": "HN front-page (77 pts): Show HN: Parsimony \u2013 an open-source benchmark for how much code AI models add",
+      "url": "https://news.ycombinator.com/item?id=50077619"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-10-15T12:53:24Z",
+      "text": "New paper mentioning Qwen: Shared Sentiment Evidence from Frozen Multimodal Models for Continuous Sentiment Prediction",
+      "url": "http://arxiv.org/abs/2610.19981"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-10-15T12:53:24Z",
+      "text": "New paper mentioning Qwen: RCCM: Diagnosing Gains and Harms in Reasoning-Prompt Transfer",
+      "url": "http://arxiv.org/abs/2610.19872"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-10-15T12:53:24Z",
+      "text": "New paper mentioning Qwen: Energy Consumption Analysis of Discrete Diffusion and Autoregressive Language Models",
+      "url": "http://arxiv.org/abs/2610.19855"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-10-15T12:53:24Z",
+      "text": "New paper mentioning Qwen: The Cost of Context: Profiling the Energy Footprint of Input Tokens in Large Language Models",
+      "url": "http://arxiv.org/abs/2610.19819"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-10-15T12:53:24Z",
+      "text": "New paper mentioning Qwen: Are You Reading the Right Thing? Rethinking Internal Signals for Prompt-Injection Detection",
+      "url": "http://arxiv.org/abs/2610.19452"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-10-15T12:53:24Z",
+      "text": "HN front-page (118 pts): Show HN: Pulse Local, a Mac budgeting app whose AI models run on your machine",
+      "url": "https://news.ycombinator.com/item?id=50080275"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-10-15T12:53:24Z",
+      "text": "HN front-page (110 pts): Crypto thieves sell hardware wallets with secret eSIM",
+      "url": "https://news.ycombinator.com/item?id=50068508"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-10-15T12:53:24Z",
+      "text": "New paper mentioning GLM-: Tev: Scaling Long-Horizon Agentic Environments with Dense Progress Rewards",
+      "url": "http://arxiv.org/abs/2610.18868"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-10-15T12:53:24Z",
+      "text": "New paper mentioning GLM-: AssetForge: Asset-Augmented Task Synthesis for Business Automation Agents",
+      "url": "http://arxiv.org/abs/2610.18330"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-10-15T12:53:24Z",
+      "text": "New paper mentioning GLM-: How to Train Your Intercept: A Comparison of Intercept Update Strategies in Coordinate Descent",
+      "url": "http://arxiv.org/abs/2610.18043"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-10-15T12:53:24Z",
+      "text": "New paper mentioning GLM-: Same Attack, Different Judge: A First Controlled Adversarial Comparison of Jev, LLM Judges, and Purpose-Built Safety Classifiers",
+      "url": "http://arxiv.org/abs/2610.17820"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-10-15T12:53:24Z",
+      "text": "HN front-page (68 pts): One in ten people are older than 65. Three in four live under a leader who is",
+      "url": "https://news.ycombinator.com/item?id=50098570"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-10-15T12:53:24Z",
+      "text": "HN front-page (248 pts): LFM2.5-24B-A2B: Built for fast on-device agents",
+      "url": "https://news.ycombinator.com/item?id=50097369"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-10-15T12:53:24Z",
+      "text": "HN front-page (59 pts): Sally Rooney can no longer sell books in UK due to Palestine Action support",
+      "url": "https://news.ycombinator.com/item?id=50095034"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-10-15T12:53:24Z",
+      "text": "HN front-page (702 pts): OpenCode 2.0",
+      "url": "https://news.ycombinator.com/item?id=50094994"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-10-15T12:53:24Z",
+      "text": "HN front-page (132 pts): Fancy Curl Sites",
+      "url": "https://news.ycombinator.com/item?id=50093612"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-10-15T12:53:24Z",
+      "text": "New paper mentioning MiniMax: Envelope Cubic Regularized Newton Method for Nonconvex-Strongly-Concave Minimax Optimization",
+      "url": "http://arxiv.org/abs/2610.20345"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-10-15T12:53:24Z",
+      "text": "New paper mentioning MiniMax: Dimension-Optimal Dynamic Regret in Exp-Concave Online Learning",
+      "url": "http://arxiv.org/abs/2610.20187"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-10-15T12:53:24Z",
+      "text": "New paper mentioning MiniMax: Minimax estimation of the pseudo-spectral gap of continuous Markov chains, with applications to empirical concentration bounds",
+      "url": "http://arxiv.org/abs/2610.20007"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-10-15T12:53:24Z",
+      "text": "New paper mentioning MiniMax: When Protection Overrides Consequences: Understanding Protection Mode in Large Language Model Decision-Making",
+      "url": "http://arxiv.org/abs/2610.19948"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-10-15T12:53:24Z",
+      "text": "New paper mentioning MiniMax: Convergence Rates of Gaussian Process Thompson Sampling for Efficient Global Optimization",
+      "url": "http://arxiv.org/abs/2610.19925"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-10-15T12:53:24Z",
+      "text": "HN front-page (82 pts): Kcgi \u2013 minimal CGI and FastCGI library for C/C++",
+      "url": "https://news.ycombinator.com/item?id=50063104"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-10-15T12:53:24Z",
+      "text": "New paper mentioning MiniCPM: MultiPartyTurnBench: Benchmarking Floor Control in Multi-Party Spoken Dialogue",
+      "url": "http://arxiv.org/abs/2610.20172"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-10-15T12:53:24Z",
+      "text": "HN front-page (368 pts): Fire at Starlink site in Bulgaria after suspected sabotage in Poland",
+      "url": "https://news.ycombinator.com/item?id=50092730"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-10-15T12:53:24Z",
+      "text": "HN front-page (165 pts): Amsterdam police confiscates server left-wing ISP A/I at American request",
+      "url": "https://news.ycombinator.com/item?id=50090084"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-10-15T12:53:24Z",
+      "text": "HN front-page (875 pts): How Amazon pushes up prices all across the Internet",
+      "url": "https://news.ycombinator.com/item?id=50084757"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-10-15T12:53:24Z",
+      "text": "HN front-page (61 pts): Same Job, Two Engines: InnoDB and Iceberg Internals",
+      "url": "https://news.ycombinator.com/item?id=50071466"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-10-15T12:53:24Z",
+      "text": "HN front-page (89 pts): Show HN: Spotatui, a Spotify TUI/GUI without web API rate limits",
+      "url": "https://news.ycombinator.com/item?id=50070010"
     }
   ],
   "first_run_done": true,
-  "last_run": "2026-10-12T17:00:40Z"
+  "last_run": "2026-10-15T12:53:24Z"
 }

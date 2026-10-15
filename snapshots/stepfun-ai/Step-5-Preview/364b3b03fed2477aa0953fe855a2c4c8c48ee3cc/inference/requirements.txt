@@ -1,0 +1,5 @@
+# Install a CUDA-enabled PyTorch build that matches the host driver.
+torch>=2.10,<2.14
+transformers>=4.57.6,<6
+safetensors>=0.7,<1
+triton>=3.6,<3.8

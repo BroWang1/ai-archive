@@ -1,0 +1,690 @@
+{
+  "repo_id": "stepfun-ai/Step-5-Preview-NVFP4",
+  "canonical_org": "stepfun-ai",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "bc246cc2848e17b37f377eda8fd825c5b3018d1f",
+      "captured_at": "2026-10-15T12:51:59Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/stepfun-ai/Step-5-Preview-NVFP4?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"9d5c-lsZLtq/GrPDfVNPXv7lcFVNd+2E\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "other",
+        "file": "LICENSE.txt",
+        "sha256": "01aa781a1a68a9007cb01dadf93ead44a31ee0dcd49e13c854c4129b4a894b83",
+        "redistributable": null,
+        "obligations": [],
+        "freedom": "conditional",
+        "freedom_note": "Custom license ('other') \u2014 read before redistributing"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1519,
+          "sha256": "11ad7efa24975ee4b0c3c3a38ed18737f0658a5f75a0a96787b576a78a023361",
+          "kind": "snapshot"
+        },
+        {
+          "path": "LICENSE-CN.txt",
+          "size": 6504,
+          "sha256": "58089c5fbd35603027dba5863d82630b661ca9987d8f02b7abc3a86de6bf2a08",
+          "kind": "snapshot"
+        },
+        {
+          "path": "LICENSE.txt",
+          "size": 7616,
+          "sha256": "01aa781a1a68a9007cb01dadf93ead44a31ee0dcd49e13c854c4129b4a894b83",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 21042,
+          "sha256": "29a15abd700542f470935dcd0e109a18e2bba64185f0e370c5b997b492319249",
+          "kind": "snapshot"
+        },
+        {
+          "path": "SHA256SUMS",
+          "size": 9533,
+          "sha256": "0f5e94b6bc359006c83194a190201649152acf767404c38305acdc1365ae4069",
+          "kind": "snapshot"
+        },
+        {
+          "path": "chat_template.jinja",
+          "size": 6004,
+          "sha256": "9d459a466e9648721ef6dda4cd168d921c2b6b4e7c0a82e032d261ea9854ef2e",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 24301,
+          "sha256": "a20799ec92a0dec2a425dc6c64d28c280a945f37166bb331d30c2a1b4a448b0e",
+          "kind": "snapshot"
+        },
+        {
+          "path": "hf_quant_config.json",
+          "size": 12386,
+          "sha256": "f56bf6dd15b5b5675ff75bcc7dd271ef3353ad3ff0f68360e71389e3f5d03a8b",
+          "kind": "snapshot"
+        },
+        {
+          "path": "model-extra-000.safetensors",
+          "size": 5466397616,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-extra-001.safetensors",
+          "size": 1677299136,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-layer-000.safetensors",
+          "size": 554208072,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-layer-001.safetensors",
+          "size": 554208072,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-layer-002.safetensors",
+          "size": 554208072,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-layer-003.safetensors",
+          "size": 4030253168,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-layer-004.safetensors",
+          "size": 3992238032,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-layer-005.safetensors",
+          "size": 3992238032,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-layer-006.safetensors",
+          "size": 3992238032,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-layer-007.safetensors",
+          "size": 4030253168,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-layer-008.safetensors",
+          "size": 3992238032,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-layer-009.safetensors",
+          "size": 3992238032,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-layer-010.safetensors",
+          "size": 3992238056,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-layer-011.safetensors",
+          "size": 4030253200,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-layer-012.safetensors",
+          "size": 3992238056,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-layer-013.safetensors",
+          "size": 3992238056,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-layer-014.safetensors",
+          "size": 3992238056,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-layer-015.safetensors",
+          "size": 4030253200,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-layer-016.safetensors",
+          "size": 3992238056,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-layer-017.safetensors",
+          "size": 3992238056,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-layer-018.safetensors",
+          "size": 3992238056,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-layer-019.safetensors",
+          "size": 4030253200,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-layer-020.safetensors",
+          "size": 3992238056,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-layer-021.safetensors",
+          "size": 3992238056,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-layer-022.safetensors",
+          "size": 3992238056,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-layer-023.safetensors",
+          "size": 4030253200,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-layer-024.safetensors",
+          "size": 3992238056,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-layer-025.safetensors",
+          "size": 3992238056,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-layer-026.safetensors",
+          "size": 3992238056,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-layer-027.safetensors",
+          "size": 4030253200,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-layer-028.safetensors",
+          "size": 3992238056,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-layer-029.safetensors",
+          "size": 3992238056,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-layer-030.safetensors",
+          "size": 3992238056,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-layer-031.safetensors",
+          "size": 4030253200,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-layer-032.safetensors",
+          "size": 3992238056,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-layer-033.safetensors",
+          "size": 3992238056,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-layer-034.safetensors",
+          "size": 3992238056,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-layer-035.safetensors",
+          "size": 4030253200,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-layer-036.safetensors",
+          "size": 3992238056,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-layer-037.safetensors",
+          "size": 3992238056,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-layer-038.safetensors",
+          "size": 3992238056,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-layer-039.safetensors",
+          "size": 4030253200,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-layer-040.safetensors",
+          "size": 3992238056,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-layer-041.safetensors",
+          "size": 3992238056,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-layer-042.safetensors",
+          "size": 3992238056,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-layer-043.safetensors",
+          "size": 4030253200,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-layer-044.safetensors",
+          "size": 3992238056,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-layer-045.safetensors",
+          "size": 3992238056,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-layer-046.safetensors",
+          "size": 3992238056,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-layer-047.safetensors",
+          "size": 4030253200,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-layer-048.safetensors",
+          "size": 3992238056,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-layer-049.safetensors",
+          "size": 3992238056,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-layer-050.safetensors",
+          "size": 3992238056,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-layer-051.safetensors",
+          "size": 4030253200,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-layer-052.safetensors",
+          "size": 3992238056,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-layer-053.safetensors",
+          "size": 3992238056,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-layer-054.safetensors",
+          "size": 3992238056,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-layer-055.safetensors",
+          "size": 4030253200,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-layer-056.safetensors",
+          "size": 3992238056,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-layer-057.safetensors",
+          "size": 3992238056,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-layer-058.safetensors",
+          "size": 3992238056,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-layer-059.safetensors",
+          "size": 4030253200,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-layer-060.safetensors",
+          "size": 3992238056,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-layer-061.safetensors",
+          "size": 3992238056,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-layer-062.safetensors",
+          "size": 3992238056,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-layer-063.safetensors",
+          "size": 4030253200,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-layer-064.safetensors",
+          "size": 3992238056,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-layer-065.safetensors",
+          "size": 3992238056,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-layer-066.safetensors",
+          "size": 3992238056,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-layer-067.safetensors",
+          "size": 4030253200,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-layer-068.safetensors",
+          "size": 3992238056,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-layer-069.safetensors",
+          "size": 3992238056,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-layer-070.safetensors",
+          "size": 3992238056,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-layer-071.safetensors",
+          "size": 4030253200,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-layer-072.safetensors",
+          "size": 3992238056,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-layer-073.safetensors",
+          "size": 3992238056,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-layer-074.safetensors",
+          "size": 3992238056,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-layer-075.safetensors",
+          "size": 4030253200,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-layer-076.safetensors",
+          "size": 3992238056,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-layer-077.safetensors",
+          "size": 3992238056,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-layer-078.safetensors",
+          "size": 3992238056,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-layer-079.safetensors",
+          "size": 4030253200,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-layer-080.safetensors",
+          "size": 3992238056,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-layer-081.safetensors",
+          "size": 3992238056,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-layer-082.safetensors",
+          "size": 3992238056,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-layer-083.safetensors",
+          "size": 4030253200,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-layer-084.safetensors",
+          "size": 3992238056,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-layer-085.safetensors",
+          "size": 3992238056,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-layer-086.safetensors",
+          "size": 3992238056,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-layer-087.safetensors",
+          "size": 4030253200,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-layer-088.safetensors",
+          "size": 13542658872,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-layer-089.safetensors",
+          "size": 13542658872,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-layer-090.safetensors",
+          "size": 13542658872,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-layer-091.safetensors",
+          "size": 592223232,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-vit-000.safetensors",
+          "size": 3962113752,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model.safetensors.index.json",
+          "size": 260799,
+          "sha256": "bec6dd828b32297ea75fa6a28c23c2fb9e125f542c0c865b7c852739894e1053",
+          "kind": "snapshot"
+        },
+        {
+          "path": "special_tokens_map.json",
+          "size": 468,
+          "sha256": "d47424bda11df4cedc3f9458915c465a28e601d3b7df0e78f6dff4d7727006c4",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer.json",
+          "size": 9976972,
+          "sha256": "b564c620eb77fa11d0926011c2202347d6cfc358d79724ee04ae7007e13636f0",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 163405,
+          "sha256": "78202af487f4d4360e8d15cb0506d60718f8599770599c6f28f7f1fa045a591f",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 394175692861,
+      "weight_bytes": 394165202312,
+      "snapshot_dir": "snapshots/stepfun-ai/Step-5-Preview-NVFP4/bc246cc2848e17b37f377eda8fd825c5b3018d1f/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

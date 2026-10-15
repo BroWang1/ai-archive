@@ -1,0 +1,20 @@
+{
+  "image_processor_type": "MiniCPMV4_7ImageProcessor",
+  "processor_class": "MiniCPMV4_7Processor",
+  "max_slice_nums": 9,
+  "image_mean": [
+    0.5,
+    0.5,
+    0.5
+  ],
+  "image_std": [
+    0.5,
+    0.5,
+    0.5
+  ],
+  "mrope_mode": "canvas",
+  "auto_map": {
+    "AutoImageProcessor": "image_processing_minicpmv4_7.MiniCPMV4_7ImageProcessor",
+    "AutoVideoProcessor": "video_processing_minicpmv4_7.MiniCPMV4_7VideoProcessor"
+  }
+}

@@ -6,284 +6,284 @@
  "description": "Captures, mirrors, takedown alerts and radar signals for open-weight AI models",
  "items": [
   {
-   "id": "2026-10-15T10:09:05Z-1731429121",
-   "title": "Captured Skywork/Matrix-Game-4.0 \u2014 30 GB manifested, license: unclassified",
-   "date_published": "2026-10-15T10:09:05Z",
-   "url": "https://huggingface.co/Skywork/Matrix-Game-4.0",
-   "content_text": "Captured Skywork/Matrix-Game-4.0 \u2014 30 GB manifested, license: unclassified"
+   "id": "2026-10-15T12:53:24Z-3882333131",
+   "title": "New paper mentioning DeepSeek: BizBench: Unveiling Hidden Challenges in Deploying Long-Horizon Agents for Real-World Business",
+   "date_published": "2026-10-15T12:53:24Z",
+   "url": "http://arxiv.org/abs/2610.20424",
+   "content_text": "New paper mentioning DeepSeek: BizBench: Unveiling Hidden Challenges in Deploying Long-Horizon Agents for Real-World Business"
   },
   {
-   "id": "2026-10-12T17:00:40Z-61996991",
-   "title": "New paper mentioning DeepSeek: Can Language Models Play the Wikipedia Game?",
-   "date_published": "2026-10-12T17:00:40Z",
-   "url": "http://arxiv.org/abs/2610.13948",
-   "content_text": "New paper mentioning DeepSeek: Can Language Models Play the Wikipedia Game?"
+   "id": "2026-10-15T12:53:24Z-894825304",
+   "title": "New paper mentioning DeepSeek: From Unreliable to Usable: Decomposing Failure Modes and Confidence Signals in LLM Entity Extraction - Evidence from Cyber Threat Intelligence",
+   "date_published": "2026-10-15T12:53:24Z",
+   "url": "http://arxiv.org/abs/2610.20417",
+   "content_text": "New paper mentioning DeepSeek: From Unreliable to Usable: Decomposing Failure Modes and Confidence Signals in LLM Entity Extraction - Evidence from Cyber Threat Intelligence"
   },
   {
-   "id": "2026-10-12T17:00:40Z-1747956159",
-   "title": "New paper mentioning DeepSeek: Can machines reason non-verbally?",
-   "date_published": "2026-10-12T17:00:40Z",
-   "url": "http://arxiv.org/abs/2610.13925",
-   "content_text": "New paper mentioning DeepSeek: Can machines reason non-verbally?"
+   "id": "2026-10-15T12:53:24Z-3457255128",
+   "title": "New paper mentioning DeepSeek: What Coding Agents Leave Unsaid: Measuring Task-State Gaps Between Execution and Reports",
+   "date_published": "2026-10-15T12:53:24Z",
+   "url": "http://arxiv.org/abs/2610.20003",
+   "content_text": "New paper mentioning DeepSeek: What Coding Agents Leave Unsaid: Measuring Task-State Gaps Between Execution and Reports"
   },
   {
-   "id": "2026-10-12T17:00:40Z-1209320694",
-   "title": "New paper mentioning DeepSeek: Adaptive DHiSparse: Speculative Decoding over a Load-Adaptive KV Hierarchy",
-   "date_published": "2026-10-12T17:00:40Z",
-   "url": "http://arxiv.org/abs/2610.13708",
-   "content_text": "New paper mentioning DeepSeek: Adaptive DHiSparse: Speculative Decoding over a Load-Adaptive KV Hierarchy"
+   "id": "2026-10-15T12:53:24Z-2838730590",
+   "title": "New paper mentioning DeepSeek: AtomSearch: Evidence-Grounded Tree Search for Agent Skill Optimization",
+   "date_published": "2026-10-15T12:53:24Z",
+   "url": "http://arxiv.org/abs/2610.19951",
+   "content_text": "New paper mentioning DeepSeek: AtomSearch: Evidence-Grounded Tree Search for Agent Skill Optimization"
   },
   {
-   "id": "2026-10-12T17:00:40Z-933430479",
-   "title": "New paper mentioning DeepSeek: Not All Correct Fixes Run Alike: An Empirical Study of Patch Performance in Repository-Level Issue Resolution",
-   "date_published": "2026-10-12T17:00:40Z",
-   "url": "http://arxiv.org/abs/2610.13563",
-   "content_text": "New paper mentioning DeepSeek: Not All Correct Fixes Run Alike: An Empirical Study of Patch Performance in Repository-Level Issue Resolution"
+   "id": "2026-10-15T12:53:24Z-1609677688",
+   "title": "New paper mentioning DeepSeek: MolHop: Scaffold-Hopping Molecular Design with Agentic Reinforcement Learning",
+   "date_published": "2026-10-15T12:53:24Z",
+   "url": "http://arxiv.org/abs/2610.19920",
+   "content_text": "New paper mentioning DeepSeek: MolHop: Scaffold-Hopping Molecular Design with Agentic Reinforcement Learning"
   },
   {
-   "id": "2026-10-12T17:00:40Z-980680271",
-   "title": "New paper mentioning DeepSeek: Taking Tokenization off the Host for Agentic LLM Serving",
-   "date_published": "2026-10-12T17:00:40Z",
-   "url": "http://arxiv.org/abs/2610.13325",
-   "content_text": "New paper mentioning DeepSeek: Taking Tokenization off the Host for Agentic LLM Serving"
+   "id": "2026-10-15T12:53:24Z-2468948094",
+   "title": "HN front-page (77 pts): Show HN: Parsimony \u2013 an open-source benchmark for how much code AI models add",
+   "date_published": "2026-10-15T12:53:24Z",
+   "url": "https://news.ycombinator.com/item?id=50077619",
+   "content_text": "HN front-page (77 pts): Show HN: Parsimony \u2013 an open-source benchmark for how much code AI models add"
   },
   {
-   "id": "2026-10-12T17:00:40Z-4151778148",
-   "title": "HN front-page (1123 pts): Why isn't the industry freaking out about DeepSeek 4.1 Flash?",
-   "date_published": "2026-10-12T17:00:40Z",
-   "url": "https://news.ycombinator.com/item?id=50000488",
-   "content_text": "HN front-page (1123 pts): Why isn't the industry freaking out about DeepSeek 4.1 Flash?"
+   "id": "2026-10-15T12:53:24Z-2622439833",
+   "title": "New paper mentioning Qwen: Shared Sentiment Evidence from Frozen Multimodal Models for Continuous Sentiment Prediction",
+   "date_published": "2026-10-15T12:53:24Z",
+   "url": "http://arxiv.org/abs/2610.19981",
+   "content_text": "New paper mentioning Qwen: Shared Sentiment Evidence from Frozen Multimodal Models for Continuous Sentiment Prediction"
   },
   {
-   "id": "2026-10-12T17:00:40Z-3930896272",
-   "title": "New paper mentioning Qwen: Task Context Shapes Component Roles in Language Models",
-   "date_published": "2026-10-12T17:00:40Z",
-   "url": "http://arxiv.org/abs/2610.13895",
-   "content_text": "New paper mentioning Qwen: Task Context Shapes Component Roles in Language Models"
+   "id": "2026-10-15T12:53:24Z-1073623091",
+   "title": "New paper mentioning Qwen: RCCM: Diagnosing Gains and Harms in Reasoning-Prompt Transfer",
+   "date_published": "2026-10-15T12:53:24Z",
+   "url": "http://arxiv.org/abs/2610.19872",
+   "content_text": "New paper mentioning Qwen: RCCM: Diagnosing Gains and Harms in Reasoning-Prompt Transfer"
   },
   {
-   "id": "2026-10-12T17:00:40Z-3521995305",
-   "title": "New paper mentioning Qwen: DualQuant: Dual-scale Calibration-free Weight-and-Activation Quantization for LLMs",
-   "date_published": "2026-10-12T17:00:40Z",
-   "url": "http://arxiv.org/abs/2610.13767",
-   "content_text": "New paper mentioning Qwen: DualQuant: Dual-scale Calibration-free Weight-and-Activation Quantization for LLMs"
+   "id": "2026-10-15T12:53:24Z-2327146916",
+   "title": "New paper mentioning Qwen: Energy Consumption Analysis of Discrete Diffusion and Autoregressive Language Models",
+   "date_published": "2026-10-15T12:53:24Z",
+   "url": "http://arxiv.org/abs/2610.19855",
+   "content_text": "New paper mentioning Qwen: Energy Consumption Analysis of Discrete Diffusion and Autoregressive Language Models"
   },
   {
-   "id": "2026-10-12T17:00:40Z-3456354283",
-   "title": "New paper mentioning Qwen: Attention Sees, MLP Refuses: Tracing the Attention-to-MLP Safety Pathway in LLMs",
-   "date_published": "2026-10-12T17:00:40Z",
-   "url": "http://arxiv.org/abs/2610.13078",
-   "content_text": "New paper mentioning Qwen: Attention Sees, MLP Refuses: Tracing the Attention-to-MLP Safety Pathway in LLMs"
+   "id": "2026-10-15T12:53:24Z-1314425164",
+   "title": "New paper mentioning Qwen: The Cost of Context: Profiling the Energy Footprint of Input Tokens in Large Language Models",
+   "date_published": "2026-10-15T12:53:24Z",
+   "url": "http://arxiv.org/abs/2610.19819",
+   "content_text": "New paper mentioning Qwen: The Cost of Context: Profiling the Energy Footprint of Input Tokens in Large Language Models"
   },
   {
-   "id": "2026-10-12T17:00:40Z-1404892449",
-   "title": "HN front-page (278 pts): Show HN: WallHop \u2013 12ft.io is gone, so I built a replacement",
-   "date_published": "2026-10-12T17:00:40Z",
-   "url": "https://news.ycombinator.com/item?id=50038634",
-   "content_text": "HN front-page (278 pts): Show HN: WallHop \u2013 12ft.io is gone, so I built a replacement"
+   "id": "2026-10-15T12:53:24Z-3731888856",
+   "title": "New paper mentioning Qwen: Are You Reading the Right Thing? Rethinking Internal Signals for Prompt-Injection Detection",
+   "date_published": "2026-10-15T12:53:24Z",
+   "url": "http://arxiv.org/abs/2610.19452",
+   "content_text": "New paper mentioning Qwen: Are You Reading the Right Thing? Rethinking Internal Signals for Prompt-Injection Detection"
   },
   {
-   "id": "2026-10-12T17:00:40Z-671459408",
-   "title": "HN front-page (64 pts): Japan's most famous tuna buyer says he turned Somali pirates into fishermen",
-   "date_published": "2026-10-12T17:00:40Z",
-   "url": "https://news.ycombinator.com/item?id=50027167",
-   "content_text": "HN front-page (64 pts): Japan's most famous tuna buyer says he turned Somali pirates into fishermen"
+   "id": "2026-10-15T12:53:24Z-3011888311",
+   "title": "HN front-page (118 pts): Show HN: Pulse Local, a Mac budgeting app whose AI models run on your machine",
+   "date_published": "2026-10-15T12:53:24Z",
+   "url": "https://news.ycombinator.com/item?id=50080275",
+   "content_text": "HN front-page (118 pts): Show HN: Pulse Local, a Mac budgeting app whose AI models run on your machine"
   },
   {
-   "id": "2026-10-12T17:00:40Z-2454854462",
-   "title": "New paper mentioning GLM-: LongHarness: Advancing Agentic Reasoning over 100M-Token Corpora via Stateful Evidence Management",
-   "date_published": "2026-10-12T17:00:40Z",
-   "url": "http://arxiv.org/abs/2610.13075",
-   "content_text": "New paper mentioning GLM-: LongHarness: Advancing Agentic Reasoning over 100M-Token Corpora via Stateful Evidence Management"
+   "id": "2026-10-15T12:53:24Z-2625987822",
+   "title": "HN front-page (110 pts): Crypto thieves sell hardware wallets with secret eSIM",
+   "date_published": "2026-10-15T12:53:24Z",
+   "url": "https://news.ycombinator.com/item?id=50068508",
+   "content_text": "HN front-page (110 pts): Crypto thieves sell hardware wallets with secret eSIM"
   },
   {
-   "id": "2026-10-12T17:00:40Z-1113867853",
-   "title": "New paper mentioning GLM-: Semiparametric Regression Based on Zero Altered Models",
-   "date_published": "2026-10-12T17:00:40Z",
-   "url": "http://arxiv.org/abs/2610.12812",
-   "content_text": "New paper mentioning GLM-: Semiparametric Regression Based on Zero Altered Models"
+   "id": "2026-10-15T12:53:24Z-2210565599",
+   "title": "New paper mentioning GLM-: Tev: Scaling Long-Horizon Agentic Environments with Dense Progress Rewards",
+   "date_published": "2026-10-15T12:53:24Z",
+   "url": "http://arxiv.org/abs/2610.18868",
+   "content_text": "New paper mentioning GLM-: Tev: Scaling Long-Horizon Agentic Environments with Dense Progress Rewards"
   },
   {
-   "id": "2026-10-12T17:00:40Z-3645589182",
-   "title": "New paper mentioning GLM-: Safe Actions Alone Do Not Ensure Safe Agents: Identifying Unfulfilled Obligations with Guard Models",
-   "date_published": "2026-10-12T17:00:40Z",
-   "url": "http://arxiv.org/abs/2610.11773",
-   "content_text": "New paper mentioning GLM-: Safe Actions Alone Do Not Ensure Safe Agents: Identifying Unfulfilled Obligations with Guard Models"
+   "id": "2026-10-15T12:53:24Z-373161597",
+   "title": "New paper mentioning GLM-: AssetForge: Asset-Augmented Task Synthesis for Business Automation Agents",
+   "date_published": "2026-10-15T12:53:24Z",
+   "url": "http://arxiv.org/abs/2610.18330",
+   "content_text": "New paper mentioning GLM-: AssetForge: Asset-Augmented Task Synthesis for Business Automation Agents"
   },
   {
-   "id": "2026-10-12T17:00:40Z-673160344",
-   "title": "New paper mentioning GLM-: RAGenome: Scaling Retrieval-Based Genomic Language Models to Long Contexts",
-   "date_published": "2026-10-12T17:00:40Z",
-   "url": "http://arxiv.org/abs/2610.11761",
-   "content_text": "New paper mentioning GLM-: RAGenome: Scaling Retrieval-Based Genomic Language Models to Long Contexts"
+   "id": "2026-10-15T12:53:24Z-1039177169",
+   "title": "New paper mentioning GLM-: How to Train Your Intercept: A Comparison of Intercept Update Strategies in Coordinate Descent",
+   "date_published": "2026-10-15T12:53:24Z",
+   "url": "http://arxiv.org/abs/2610.18043",
+   "content_text": "New paper mentioning GLM-: How to Train Your Intercept: A Comparison of Intercept Update Strategies in Coordinate Descent"
   },
   {
-   "id": "2026-10-12T17:00:40Z-373463834",
-   "title": "HN front-page (93 pts): GLM-Legal: Advancing Agentic Legal Intelligence",
-   "date_published": "2026-10-12T17:00:40Z",
-   "url": "https://news.ycombinator.com/item?id=50058507",
-   "content_text": "HN front-page (93 pts): GLM-Legal: Advancing Agentic Legal Intelligence"
+   "id": "2026-10-15T12:53:24Z-3836132373",
+   "title": "New paper mentioning GLM-: Same Attack, Different Judge: A First Controlled Adversarial Comparison of Jev, LLM Judges, and Purpose-Built Safety Classifiers",
+   "date_published": "2026-10-15T12:53:24Z",
+   "url": "http://arxiv.org/abs/2610.17820",
+   "content_text": "New paper mentioning GLM-: Same Attack, Different Judge: A First Controlled Adversarial Comparison of Jev, LLM Judges, and Purpose-Built Safety Classifiers"
   },
   {
-   "id": "2026-10-12T17:00:40Z-2905969132",
-   "title": "HN front-page (187 pts): Show HN: PS2 games statically recompiled to WebAssembly",
-   "date_published": "2026-10-12T17:00:40Z",
-   "url": "https://news.ycombinator.com/item?id=50052251",
-   "content_text": "HN front-page (187 pts): Show HN: PS2 games statically recompiled to WebAssembly"
+   "id": "2026-10-15T12:53:24Z-1736343663",
+   "title": "HN front-page (68 pts): One in ten people are older than 65. Three in four live under a leader who is",
+   "date_published": "2026-10-15T12:53:24Z",
+   "url": "https://news.ycombinator.com/item?id=50098570",
+   "content_text": "HN front-page (68 pts): One in ten people are older than 65. Three in four live under a leader who is"
   },
   {
-   "id": "2026-10-12T17:00:40Z-3451023815",
-   "title": "HN front-page (613 pts): The gap in shared understanding of LLM capability is widening",
-   "date_published": "2026-10-12T17:00:40Z",
-   "url": "https://news.ycombinator.com/item?id=50047422",
-   "content_text": "HN front-page (613 pts): The gap in shared understanding of LLM capability is widening"
+   "id": "2026-10-15T12:53:24Z-157484187",
+   "title": "HN front-page (248 pts): LFM2.5-24B-A2B: Built for fast on-device agents",
+   "date_published": "2026-10-15T12:53:24Z",
+   "url": "https://news.ycombinator.com/item?id=50097369",
+   "content_text": "HN front-page (248 pts): LFM2.5-24B-A2B: Built for fast on-device agents"
   },
   {
-   "id": "2026-10-12T17:00:40Z-3157603273",
-   "title": "HN front-page (399 pts): Documents add to evidence in climate deception case against ExxonMobil",
-   "date_published": "2026-10-12T17:00:40Z",
-   "url": "https://news.ycombinator.com/item?id=50043682",
-   "content_text": "HN front-page (399 pts): Documents add to evidence in climate deception case against ExxonMobil"
+   "id": "2026-10-15T12:53:24Z-3160630192",
+   "title": "HN front-page (59 pts): Sally Rooney can no longer sell books in UK due to Palestine Action support",
+   "date_published": "2026-10-15T12:53:24Z",
+   "url": "https://news.ycombinator.com/item?id=50095034",
+   "content_text": "HN front-page (59 pts): Sally Rooney can no longer sell books in UK due to Palestine Action support"
   },
   {
-   "id": "2026-10-12T17:00:40Z-157209998",
-   "title": "HN front-page (145 pts): GameBoy on E-Paper ESP32 at 30FPS [video]",
-   "date_published": "2026-10-12T17:00:40Z",
-   "url": "https://news.ycombinator.com/item?id=50039536",
-   "content_text": "HN front-page (145 pts): GameBoy on E-Paper ESP32 at 30FPS [video]"
+   "id": "2026-10-15T12:53:24Z-156028405",
+   "title": "HN front-page (702 pts): OpenCode 2.0",
+   "date_published": "2026-10-15T12:53:24Z",
+   "url": "https://news.ycombinator.com/item?id=50094994",
+   "content_text": "HN front-page (702 pts): OpenCode 2.0"
   },
   {
-   "id": "2026-10-12T17:00:40Z-1773605460",
-   "title": "New paper mentioning MiniMax: Variance-Reduced Policy Gradient is Nearly Minimax-Optimal",
-   "date_published": "2026-10-12T17:00:40Z",
-   "url": "http://arxiv.org/abs/2610.13692",
-   "content_text": "New paper mentioning MiniMax: Variance-Reduced Policy Gradient is Nearly Minimax-Optimal"
+   "id": "2026-10-15T12:53:24Z-3457952985",
+   "title": "HN front-page (132 pts): Fancy Curl Sites",
+   "date_published": "2026-10-15T12:53:24Z",
+   "url": "https://news.ycombinator.com/item?id=50093612",
+   "content_text": "HN front-page (132 pts): Fancy Curl Sites"
   },
   {
-   "id": "2026-10-12T17:00:40Z-2972691551",
-   "title": "New paper mentioning MiniMax: TextVBench: Evaluating Text Rendering and Preservation in Video Generation",
-   "date_published": "2026-10-12T17:00:40Z",
-   "url": "http://arxiv.org/abs/2610.13412",
-   "content_text": "New paper mentioning MiniMax: TextVBench: Evaluating Text Rendering and Preservation in Video Generation"
+   "id": "2026-10-15T12:53:24Z-820314029",
+   "title": "New paper mentioning MiniMax: Envelope Cubic Regularized Newton Method for Nonconvex-Strongly-Concave Minimax Optimization",
+   "date_published": "2026-10-15T12:53:24Z",
+   "url": "http://arxiv.org/abs/2610.20345",
+   "content_text": "New paper mentioning MiniMax: Envelope Cubic Regularized Newton Method for Nonconvex-Strongly-Concave Minimax Optimization"
   },
   {
-   "id": "2026-10-12T17:00:40Z-1976027887",
-   "title": "New paper mentioning MiniMax: MotionCoach: Constructing Multimodal Guidance for Video Professional Motion Editing",
-   "date_published": "2026-10-12T17:00:40Z",
-   "url": "http://arxiv.org/abs/2610.12963",
-   "content_text": "New paper mentioning MiniMax: MotionCoach: Constructing Multimodal Guidance for Video Professional Motion Editing"
+   "id": "2026-10-15T12:53:24Z-1614304138",
+   "title": "New paper mentioning MiniMax: Dimension-Optimal Dynamic Regret in Exp-Concave Online Learning",
+   "date_published": "2026-10-15T12:53:24Z",
+   "url": "http://arxiv.org/abs/2610.20187",
+   "content_text": "New paper mentioning MiniMax: Dimension-Optimal Dynamic Regret in Exp-Concave Online Learning"
   },
   {
-   "id": "2026-10-12T17:00:40Z-1469838428",
-   "title": "New paper mentioning MiniMax: Controlled-Minimax: Stabilizing Adversarial Optimization via Control Theory",
-   "date_published": "2026-10-12T17:00:40Z",
-   "url": "http://arxiv.org/abs/2610.12915",
-   "content_text": "New paper mentioning MiniMax: Controlled-Minimax: Stabilizing Adversarial Optimization via Control Theory"
+   "id": "2026-10-15T12:53:24Z-1863751846",
+   "title": "New paper mentioning MiniMax: Minimax estimation of the pseudo-spectral gap of continuous Markov chains, with applications to empirical concentration bounds",
+   "date_published": "2026-10-15T12:53:24Z",
+   "url": "http://arxiv.org/abs/2610.20007",
+   "content_text": "New paper mentioning MiniMax: Minimax estimation of the pseudo-spectral gap of continuous Markov chains, with applications to empirical concentration bounds"
   },
   {
-   "id": "2026-10-12T17:00:40Z-2671285719",
-   "title": "New paper mentioning MiniMax: Minimax Rates for Estimating Powered Sliced Wasserstein Functionals",
-   "date_published": "2026-10-12T17:00:40Z",
-   "url": "http://arxiv.org/abs/2610.12740",
-   "content_text": "New paper mentioning MiniMax: Minimax Rates for Estimating Powered Sliced Wasserstein Functionals"
+   "id": "2026-10-15T12:53:24Z-3085690728",
+   "title": "New paper mentioning MiniMax: When Protection Overrides Consequences: Understanding Protection Mode in Large Language Model Decision-Making",
+   "date_published": "2026-10-15T12:53:24Z",
+   "url": "http://arxiv.org/abs/2610.19948",
+   "content_text": "New paper mentioning MiniMax: When Protection Overrides Consequences: Understanding Protection Mode in Large Language Model Decision-Making"
   },
   {
-   "id": "2026-10-12T17:00:40Z-4115373334",
-   "title": "HN front-page (111 pts): Ask HN: Do you want a router that has DD-WRT pre-installed?",
-   "date_published": "2026-10-12T17:00:40Z",
-   "url": "https://news.ycombinator.com/item?id=50039291",
-   "content_text": "HN front-page (111 pts): Ask HN: Do you want a router that has DD-WRT pre-installed?"
+   "id": "2026-10-15T12:53:24Z-1466227052",
+   "title": "New paper mentioning MiniMax: Convergence Rates of Gaussian Process Thompson Sampling for Efficient Global Optimization",
+   "date_published": "2026-10-15T12:53:24Z",
+   "url": "http://arxiv.org/abs/2610.19925",
+   "content_text": "New paper mentioning MiniMax: Convergence Rates of Gaussian Process Thompson Sampling for Efficient Global Optimization"
   },
   {
-   "id": "2026-10-12T17:00:40Z-175253191",
-   "title": "HN front-page (180 pts): Imposing Sanctions on the International Criminal Court",
-   "date_published": "2026-10-12T17:00:40Z",
-   "url": "https://news.ycombinator.com/item?id=50021403",
-   "content_text": "HN front-page (180 pts): Imposing Sanctions on the International Criminal Court"
+   "id": "2026-10-15T12:53:24Z-2770597282",
+   "title": "HN front-page (82 pts): Kcgi \u2013 minimal CGI and FastCGI library for C/C++",
+   "date_published": "2026-10-15T12:53:24Z",
+   "url": "https://news.ycombinator.com/item?id=50063104",
+   "content_text": "HN front-page (82 pts): Kcgi \u2013 minimal CGI and FastCGI library for C/C++"
   },
   {
-   "id": "2026-10-12T17:00:40Z-3653985339",
-   "title": "HN front-page (520 pts): US imposes sanctions on ICC hours after former judge wins Nobel Peace Prize",
-   "date_published": "2026-10-12T17:00:40Z",
-   "url": "https://news.ycombinator.com/item?id=50021066",
-   "content_text": "HN front-page (520 pts): US imposes sanctions on ICC hours after former judge wins Nobel Peace Prize"
+   "id": "2026-10-15T12:53:24Z-1503671666",
+   "title": "New paper mentioning MiniCPM: MultiPartyTurnBench: Benchmarking Floor Control in Multi-Party Spoken Dialogue",
+   "date_published": "2026-10-15T12:53:24Z",
+   "url": "http://arxiv.org/abs/2610.20172",
+   "content_text": "New paper mentioning MiniCPM: MultiPartyTurnBench: Benchmarking Floor Control in Multi-Party Spoken Dialogue"
   },
   {
-   "id": "2026-10-12T17:00:40Z-3349299429",
-   "title": "HN front-page (83 pts): US proposes $100k charge for international students to do post-graduate work",
-   "date_published": "2026-10-12T17:00:40Z",
-   "url": "https://news.ycombinator.com/item?id=50019090",
-   "content_text": "HN front-page (83 pts): US proposes $100k charge for international students to do post-graduate work"
+   "id": "2026-10-15T12:53:24Z-1525361366",
+   "title": "HN front-page (368 pts): Fire at Starlink site in Bulgaria after suspected sabotage in Poland",
+   "date_published": "2026-10-15T12:53:24Z",
+   "url": "https://news.ycombinator.com/item?id=50092730",
+   "content_text": "HN front-page (368 pts): Fire at Starlink site in Bulgaria after suspected sabotage in Poland"
   },
   {
-   "id": "2026-10-12T17:00:30Z-315309981",
-   "title": "Trending outside tracked labs: abenzerps/Qwen-Image-2.1-Uncensored-Quantized (2,188,658 downloads)",
-   "date_published": "2026-10-12T17:00:30Z",
-   "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
-   "content_text": "Trending outside tracked labs: abenzerps/Qwen-Image-2.1-Uncensored-Quantized (2,188,658 downloads)"
+   "id": "2026-10-15T12:53:24Z-329151364",
+   "title": "HN front-page (165 pts): Amsterdam police confiscates server left-wing ISP A/I at American request",
+   "date_published": "2026-10-15T12:53:24Z",
+   "url": "https://news.ycombinator.com/item?id=50090084",
+   "content_text": "HN front-page (165 pts): Amsterdam police confiscates server left-wing ISP A/I at American request"
   },
   {
-   "id": "2026-10-12T17:00:30Z-505383260",
-   "title": "Trending outside tracked labs: ConwayResearch/Underdog-Saluki-27B-1.0 (242,329 downloads)",
-   "date_published": "2026-10-12T17:00:30Z",
-   "url": "https://huggingface.co/ConwayResearch/Underdog-Saluki-27B-1.0",
-   "content_text": "Trending outside tracked labs: ConwayResearch/Underdog-Saluki-27B-1.0 (242,329 downloads)"
+   "id": "2026-10-15T12:53:24Z-2459702570",
+   "title": "HN front-page (875 pts): How Amazon pushes up prices all across the Internet",
+   "date_published": "2026-10-15T12:53:24Z",
+   "url": "https://news.ycombinator.com/item?id=50084757",
+   "content_text": "HN front-page (875 pts): How Amazon pushes up prices all across the Internet"
   },
   {
-   "id": "2026-10-12T17:00:30Z-135414246",
-   "title": "Trending outside tracked labs: AtomicChat/Qwen-Image-2.1-Turbo-Uncensored-GGUF (161,715 downloads)",
-   "date_published": "2026-10-12T17:00:30Z",
-   "url": "https://huggingface.co/AtomicChat/Qwen-Image-2.1-Turbo-Uncensored-GGUF",
-   "content_text": "Trending outside tracked labs: AtomicChat/Qwen-Image-2.1-Turbo-Uncensored-GGUF (161,715 downloads)"
+   "id": "2026-10-15T12:53:24Z-1596830725",
+   "title": "HN front-page (61 pts): Same Job, Two Engines: InnoDB and Iceberg Internals",
+   "date_published": "2026-10-15T12:53:24Z",
+   "url": "https://news.ycombinator.com/item?id=50071466",
+   "content_text": "HN front-page (61 pts): Same Job, Two Engines: InnoDB and Iceberg Internals"
   },
   {
-   "id": "2026-10-12T17:00:30Z-4162699758",
-   "title": "Trending outside tracked labs: nerkyor/Qwen3.8-27B-Coder390-EfficientThink-Opus5.5-GPT6Astra-Grok4.7-DSV4Pro-K3-SFT-RLOO-MTP-DFlash2 (75,302 downloads)",
-   "date_published": "2026-10-12T17:00:30Z",
-   "url": "https://huggingface.co/nerkyor/Qwen3.8-27B-Coder390-EfficientThink-Opus5.5-GPT6Astra-Grok4.7-DSV4Pro-K3-SFT-RLOO-MTP-DFlash2",
-   "content_text": "Trending outside tracked labs: nerkyor/Qwen3.8-27B-Coder390-EfficientThink-Opus5.5-GPT6Astra-Grok4.7-DSV4Pro-K3-SFT-RLOO-MTP-DFlash2 (75,302 downloads)"
+   "id": "2026-10-15T12:53:24Z-3570536142",
+   "title": "HN front-page (89 pts): Show HN: Spotatui, a Spotify TUI/GUI without web API rate limits",
+   "date_published": "2026-10-15T12:53:24Z",
+   "url": "https://news.ycombinator.com/item?id=50070010",
+   "content_text": "HN front-page (89 pts): Show HN: Spotatui, a Spotify TUI/GUI without web API rate limits"
   },
   {
-   "id": "2026-10-12T17:00:30Z-2594244849",
-   "title": "Trending outside tracked labs: baidu/Unlimited-OCR (1,205,646 downloads)",
-   "date_published": "2026-10-12T17:00:30Z",
-   "url": "https://huggingface.co/baidu/Unlimited-OCR",
-   "content_text": "Trending outside tracked labs: baidu/Unlimited-OCR (1,205,646 downloads)"
+   "id": "2026-10-15T12:53:13Z-846613858",
+   "title": "Trending outside tracked labs: fishaudio/drama-3 (4,048 downloads)",
+   "date_published": "2026-10-15T12:53:13Z",
+   "url": "https://huggingface.co/fishaudio/drama-3",
+   "content_text": "Trending outside tracked labs: fishaudio/drama-3 (4,048 downloads)"
   },
   {
-   "id": "2026-10-12T17:00:30Z-84279797",
-   "title": "Trending outside tracked labs: perplexity-ai/pplx-decider-v1.1-27b (2,480 downloads)",
-   "date_published": "2026-10-12T17:00:30Z",
-   "url": "https://huggingface.co/perplexity-ai/pplx-decider-v1.1-27b",
-   "content_text": "Trending outside tracked labs: perplexity-ai/pplx-decider-v1.1-27b (2,480 downloads)"
+   "id": "2026-10-15T12:53:13Z-3855662011",
+   "title": "Trending outside tracked labs: LiquidAI/LFM2.5-24B-A2B (6,286 downloads)",
+   "date_published": "2026-10-15T12:53:13Z",
+   "url": "https://huggingface.co/LiquidAI/LFM2.5-24B-A2B",
+   "content_text": "Trending outside tracked labs: LiquidAI/LFM2.5-24B-A2B (6,286 downloads)"
   },
   {
-   "id": "2026-10-12T17:00:30Z-1352252840",
-   "title": "Trending outside tracked labs: LiquidAI/d1-omni-600M (10,942 downloads)",
-   "date_published": "2026-10-12T17:00:30Z",
-   "url": "https://huggingface.co/LiquidAI/d1-omni-600M",
-   "content_text": "Trending outside tracked labs: LiquidAI/d1-omni-600M (10,942 downloads)"
+   "id": "2026-10-15T12:53:13Z-2528151737",
+   "title": "Trending outside tracked labs: speridlabs/iris-3b (1,257 downloads)",
+   "date_published": "2026-10-15T12:53:13Z",
+   "url": "https://huggingface.co/speridlabs/iris-3b",
+   "content_text": "Trending outside tracked labs: speridlabs/iris-3b (1,257 downloads)"
   },
   {
-   "id": "2026-10-12T17:00:30Z-2834118603",
-   "title": "Trending outside tracked labs: JetBrains/Mellum2.1-12B-A2.5B-Thinking (1,068 downloads)",
-   "date_published": "2026-10-12T17:00:30Z",
-   "url": "https://huggingface.co/JetBrains/Mellum2.1-12B-A2.5B-Thinking",
-   "content_text": "Trending outside tracked labs: JetBrains/Mellum2.1-12B-A2.5B-Thinking (1,068 downloads)"
+   "id": "2026-10-15T12:53:13Z-421131182",
+   "title": "Trending outside tracked labs: autotrust/JEV-35B-NVFP4 (46,826 downloads)",
+   "date_published": "2026-10-15T12:53:13Z",
+   "url": "https://huggingface.co/autotrust/JEV-35B-NVFP4",
+   "content_text": "Trending outside tracked labs: autotrust/JEV-35B-NVFP4 (46,826 downloads)"
   },
   {
-   "id": "2026-10-12T17:00:30Z-537658741",
-   "title": "Trending outside tracked labs: autotrust/JEV-35B (6,262 downloads)",
-   "date_published": "2026-10-12T17:00:30Z",
-   "url": "https://huggingface.co/autotrust/JEV-35B",
-   "content_text": "Trending outside tracked labs: autotrust/JEV-35B (6,262 downloads)"
+   "id": "2026-10-15T12:53:13Z-1732086817",
+   "title": "Trending outside tracked labs: vllm-sr/d3 (2,747 downloads)",
+   "date_published": "2026-10-15T12:53:13Z",
+   "url": "https://huggingface.co/vllm-sr/d3",
+   "content_text": "Trending outside tracked labs: vllm-sr/d3 (2,747 downloads)"
   },
   {
-   "id": "2026-10-12T17:00:30Z-1131845987",
-   "title": "Trending outside tracked labs: facebook/dinov3-vitl16-pretrain-lvd1689m (739,905 downloads)",
-   "date_published": "2026-10-12T17:00:30Z",
-   "url": "https://huggingface.co/facebook/dinov3-vitl16-pretrain-lvd1689m",
-   "content_text": "Trending outside tracked labs: facebook/dinov3-vitl16-pretrain-lvd1689m (739,905 downloads)"
+   "id": "2026-10-15T12:53:13Z-44466070",
+   "title": "Trending outside tracked labs: LiquidAI/LFM2.5-24B-A2B-GGUF (45,676 downloads)",
+   "date_published": "2026-10-15T12:53:13Z",
+   "url": "https://huggingface.co/LiquidAI/LFM2.5-24B-A2B-GGUF",
+   "content_text": "Trending outside tracked labs: LiquidAI/LFM2.5-24B-A2B-GGUF (45,676 downloads)"
   }
  ]
 }

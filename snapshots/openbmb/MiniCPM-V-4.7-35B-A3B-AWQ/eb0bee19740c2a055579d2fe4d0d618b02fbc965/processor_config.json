@@ -1,0 +1,72 @@
+{
+  "auto_map": {
+    "AutoProcessor": "processing_minicpmv4_7.MiniCPMV4_7Processor"
+  },
+  "image_processor": {
+    "auto_map": {
+      "AutoImageProcessor": "image_processing_minicpmv4_7.MiniCPMV4_7ImageProcessor",
+      "AutoProcessor": "processing_minicpmv4_7.MiniCPMV4_7Processor",
+      "AutoVideoProcessor": "video_processing_minicpmv4_7.MiniCPMV4_7VideoProcessor"
+    },
+    "do_convert_rgb": true,
+    "do_normalize": true,
+    "do_rescale": true,
+    "do_resize": true,
+    "downsample_mode": "16x",
+    "image_mean": [
+      0.5,
+      0.5,
+      0.5
+    ],
+    "image_processor_type": "MiniCPMV4_7ImageProcessor",
+    "image_std": [
+      0.5,
+      0.5,
+      0.5
+    ],
+    "max_slice_nums": 9,
+    "mrope_mode": "canvas",
+    "patch_size": 14,
+    "resample": 3,
+    "rescale_factor": 0.00392156862745098,
+    "scale_resolution": 448,
+    "slice_mode": true,
+    "use_image_id": true
+  },
+  "processor_class": "MiniCPMV4_7Processor",
+  "video_processor": {
+    "auto_map": {
+      "AutoImageProcessor": "image_processing_minicpmv4_7.MiniCPMV4_7ImageProcessor",
+      "AutoProcessor": "processing_minicpmv4_7.MiniCPMV4_7Processor",
+      "AutoVideoProcessor": "video_processing_minicpmv4_7.MiniCPMV4_7VideoProcessor"
+    },
+    "do_convert_rgb": true,
+    "do_normalize": true,
+    "do_rescale": true,
+    "do_resize": true,
+    "do_sample_frames": true,
+    "downsample_mode": "16x",
+    "image_mean": [
+      0.5,
+      0.5,
+      0.5
+    ],
+    "image_std": [
+      0.5,
+      0.5,
+      0.5
+    ],
+    "max_num_frames": 128,
+    "max_slice_nums": 9,
+    "mrope_mode": "canvas",
+    "patch_size": 14,
+    "resample": 3,
+    "rescale_factor": 0.00392156862745098,
+    "return_metadata": false,
+    "scale_resolution": 448,
+    "slice_mode": true,
+    "stack_frames": 1,
+    "use_image_id": true,
+    "video_processor_type": "MiniCPMV4_7VideoProcessor"
+  }
+}

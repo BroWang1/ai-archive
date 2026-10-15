@@ -72,7 +72,8 @@
       "QwenLM/Omnilingua-Bench",
       "QwenLM/Qwen-Image-2.1",
       "QwenLM/Qwen-Live-Harness",
-      "QwenLM/D2K-Bench"
+      "QwenLM/D2K-Bench",
+      "QwenLM/BlenderWorld"
     ],
     "zai-org": [
       "zai-org/zcode-plugins",
@@ -173,7 +174,8 @@
       "Tencent-Hunyuan/OmniWeaving",
       "Tencent-Hunyuan/ExplorationBench",
       "Tencent-Hunyuan/Prism",
-      "Tencent-Hunyuan/OmniCapBench"
+      "Tencent-Hunyuan/OmniCapBench",
+      "Tencent-Hunyuan/HYDRA"
     ],
     "Wan-Video": [
       "Wan-Video/Wan-Animate-2",
@@ -288,7 +290,9 @@
       "OpenBMB/Scicore-Omics",
       "OpenBMB/EC2-Bench",
       "OpenBMB/Trident",
-      "OpenBMB/T2Mem"
+      "OpenBMB/T2Mem",
+      "OpenBMB/llama.cpp-omni",
+      "OpenBMB/SPARK"
     ],
     "stepfun-ai": [
       "stepfun-ai/Step-Realtime-CLI",
@@ -322,7 +326,8 @@
       "stepfun-ai/Step-Video-TI2V",
       "stepfun-ai/vllm",
       "stepfun-ai/Step-Code",
-      "stepfun-ai/Step-Cookbook"
+      "stepfun-ai/Step-Cookbook",
+      "stepfun-ai/Step-5-Preview"
     ],
     "baichuan-inc": [
       "baichuan-inc/baichuan-mcp-servers",
@@ -902,8 +907,33 @@
       "id": "OpenBMB/T2Mem",
       "at": "2026-10-12T17:00:30Z",
       "desc": "Experiment code for T2Mem: Test-Time Memory Construction."
+    },
+    {
+      "id": "QwenLM/BlenderWorld",
+      "at": "2026-10-15T12:53:13Z",
+      "desc": ""
+    },
+    {
+      "id": "Tencent-Hunyuan/HYDRA",
+      "at": "2026-10-15T12:53:13Z",
+      "desc": "[NeurIPS 2026] HYDRA: Representation Harmonized Tokenization for Multimodal Generation and Understanding "
+    },
+    {
+      "id": "OpenBMB/llama.cpp-omni",
+      "at": "2026-10-15T12:53:13Z",
+      "desc": "Omni inference in C/C++"
+    },
+    {
+      "id": "OpenBMB/SPARK",
+      "at": "2026-10-15T12:53:13Z",
+      "desc": "Souce code for paper \"SPARK: Adaptive Parametric Knowledge Participation for Faithful Retrieval-Augmented Generation\""
+    },
+    {
+      "id": "stepfun-ai/Step-5-Preview",
+      "at": "2026-10-15T12:53:13Z",
+      "desc": "StepFun's flagship model for agentic work"
     }
   ],
   "first_run_done": true,
-  "last_run": "2026-10-12T17:00:30Z"
+  "last_run": "2026-10-15T12:53:13Z"
 }

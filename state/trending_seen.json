@@ -124,9 +124,17 @@
     "autotrust/JEV-35B",
     "facebook/dinov3-vitl16-pretrain-lvd1689m",
     "autotrust/GLM5.3-Flash-E192-DGX-Spark",
-    "lightonai/LightOnOCR-3-4B"
+    "lightonai/LightOnOCR-3-4B",
+    "fishaudio/drama-3",
+    "LiquidAI/LFM2.5-24B-A2B",
+    "speridlabs/iris-3b",
+    "autotrust/JEV-35B-NVFP4",
+    "vllm-sr/d3",
+    "LiquidAI/LFM2.5-24B-A2B-GGUF",
+    "Cloudflare/clef-omni",
+    "JetBrains/Mellum2.1-12B-A2.5B-Thinking-GGUF"
   ],
-  "last_run": "2026-10-12T17:00:30Z",
+  "last_run": "2026-10-15T12:53:13Z",
   "log": [
     {
       "id": "prism-ml/Ternary-Bonsai-2-27B-gguf",
@@ -562,6 +570,46 @@
       "id": "lightonai/LightOnOCR-3-4B",
       "at": "2026-10-12T17:00:30Z",
       "downloads": 3222
+    },
+    {
+      "id": "fishaudio/drama-3",
+      "at": "2026-10-15T12:53:13Z",
+      "downloads": 4048
+    },
+    {
+      "id": "LiquidAI/LFM2.5-24B-A2B",
+      "at": "2026-10-15T12:53:13Z",
+      "downloads": 6286
+    },
+    {
+      "id": "speridlabs/iris-3b",
+      "at": "2026-10-15T12:53:13Z",
+      "downloads": 1257
+    },
+    {
+      "id": "autotrust/JEV-35B-NVFP4",
+      "at": "2026-10-15T12:53:13Z",
+      "downloads": 46826
+    },
+    {
+      "id": "vllm-sr/d3",
+      "at": "2026-10-15T12:53:13Z",
+      "downloads": 2747
+    },
+    {
+      "id": "LiquidAI/LFM2.5-24B-A2B-GGUF",
+      "at": "2026-10-15T12:53:13Z",
+      "downloads": 45676
+    },
+    {
+      "id": "Cloudflare/clef-omni",
+      "at": "2026-10-15T12:53:13Z",
+      "downloads": 2949
+    },
+    {
+      "id": "JetBrains/Mellum2.1-12B-A2.5B-Thinking-GGUF",
+      "at": "2026-10-15T12:53:13Z",
+      "downloads": 65852
     }
   ]
 }

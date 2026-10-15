@@ -1,0 +1,10 @@
+default_stage:
+  default_modifiers:
+    QuantizationModifier:
+      targets: [Linear]
+      ignore: ['re:.*lm_head.*', 're:.*vision_tower.*', 're:.*vit_merger.*', 're:.*merger.*',
+        're:.*self_attn.*', 're:.*linear_attn.*', 're:.*mlp\.gate$', 're:.*shared_expert.*',
+        're:.*embed_tokens.*']
+      scheme: W4A16
+      bypass_divisibility_checks: false
+      requires_calibration_data: false

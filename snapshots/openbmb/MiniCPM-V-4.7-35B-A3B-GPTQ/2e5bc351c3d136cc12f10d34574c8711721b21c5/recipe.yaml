@@ -1,0 +1,14 @@
+default_stage:
+  default_modifiers:
+    GPTQModifier:
+      targets: [Linear]
+      ignore: ['re:.*lm_head.*', 're:.*vision_tower.*', 're:.*vit_merger.*', 're:.*merger.*',
+        're:.*self_attn.*', 're:.*linear_attn.*', 're:.*mlp\.gate$', 're:.*shared_expert.*',
+        're:.*embed_tokens.*']
+      scheme: W4A16
+      bypass_divisibility_checks: false
+      requires_calibration_data: true
+      block_size: 128
+      dampening_frac: 0.01
+      actorder: static
+      offload_hessians: false

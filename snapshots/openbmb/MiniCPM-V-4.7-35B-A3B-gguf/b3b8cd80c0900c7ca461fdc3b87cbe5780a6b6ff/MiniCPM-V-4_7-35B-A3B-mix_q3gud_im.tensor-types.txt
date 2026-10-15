@@ -1,0 +1,1 @@
+ffn_(gate|up|down)_exps=Q3_K

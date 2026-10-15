@@ -1,0 +1,156 @@
+{
+  "repo_id": "openbmb/MiniCPM-V-4.7-35B-A3B-gguf",
+  "canonical_org": "openbmb",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "b3b8cd80c0900c7ca461fdc3b87cbe5780a6b6ff",
+      "captured_at": "2026-10-15T12:52:11Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/openbmb/MiniCPM-V-4.7-35B-A3B-gguf?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"3231-14GUbyCk9oJv/1uS2bcaaJo3HQg\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "apache-2.0",
+        "file": null,
+        "sha256": null,
+        "redistributable": true,
+        "obligations": [],
+        "freedom": "free",
+        "freedom_note": "apache-2.0 declared via card metadata (fingerprinted in snapshot); upstream ships no separate LICENSE file"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 2543,
+          "sha256": "74f3d28459f471fb165f81ea7fb5c9c839971a50fd105dd8162fccd9654185d7",
+          "kind": "snapshot"
+        },
+        {
+          "path": "MiniCPM-V-4_7-35B-A3B-F16.gguf",
+          "size": 69375191008,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "MiniCPM-V-4_7-35B-A3B-Q4_0.gguf",
+          "size": 19714550688,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "MiniCPM-V-4_7-35B-A3B-Q4_1.gguf",
+          "size": 21847643040,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "MiniCPM-V-4_7-35B-A3B-Q4_K_M.gguf",
+          "size": 21166255008,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "MiniCPM-V-4_7-35B-A3B-Q4_K_S.gguf",
+          "size": 19889400736,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "MiniCPM-V-4_7-35B-A3B-Q5_0.gguf",
+          "size": 23980735392,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "MiniCPM-V-4_7-35B-A3B-Q5_1.gguf",
+          "size": 26113827744,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "MiniCPM-V-4_7-35B-A3B-Q5_K_M.gguf",
+          "size": 24728583072,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "MiniCPM-V-4_7-35B-A3B-Q5_K_S.gguf",
+          "size": 23980735392,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "MiniCPM-V-4_7-35B-A3B-Q6_K.gguf",
+          "size": 28513556640,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "MiniCPM-V-4_7-35B-A3B-Q8_0.gguf",
+          "size": 36902368928,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "MiniCPM-V-4_7-35B-A3B-mix_q3gud_im.gguf",
+          "size": 15503944896,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "MiniCPM-V-4_7-35B-A3B-mix_q3gud_im.tensor-types.txt",
+          "size": 29,
+          "sha256": "6b6ba99ec66f91fa3f7dab73775146481169705c1394abfed92e4833e23e8f45",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 23579,
+          "sha256": "fc8bc060798e6a3f42fe8c5a634edba4d24c50d4ec038ffb32efd7c8af4886a5",
+          "kind": "snapshot"
+        },
+        {
+          "path": "dspark-MiniCPM-V-4_7-35B-A3B-F16.gguf",
+          "size": 789442368,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "mmproj-model-f16-4x.gguf",
+          "size": 910491648,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "mmproj-model-f16.gguf",
+          "size": 1119575840,
+          "sha256": null,
+          "kind": "weights"
+        }
+      ],
+      "total_bytes": 334536328551,
+      "weight_bytes": 334536302400,
+      "snapshot_dir": "snapshots/openbmb/MiniCPM-V-4.7-35B-A3B-gguf/b3b8cd80c0900c7ca461fdc3b87cbe5780a6b6ff/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}
