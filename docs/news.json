@@ -1,5 +1,19 @@
 [
  {
+  "at": "2026-10-16T10:06:15Z",
+  "kind": "capture",
+  "text": "Captured openbmb/MiniCPM-V-4.7-1B-GPTQ \u2014 2 GB manifested, license: unclassified",
+  "url": "https://huggingface.co/openbmb/MiniCPM-V-4.7-1B-GPTQ",
+  "action": "view / download"
+ },
+ {
+  "at": "2026-10-16T09:56:09Z",
+  "kind": "capture",
+  "text": "Captured openbmb/MiniCPM-V-4.7-1B-int4 \u2014 2 GB manifested, license: unclassified",
+  "url": "https://huggingface.co/openbmb/MiniCPM-V-4.7-1B-int4",
+  "action": "view / download"
+ },
+ {
   "at": "2026-10-15T12:53:24Z",
   "kind": "paper",
   "text": "New paper mentioning DeepSeek: BizBench: Unveiling Hidden Challenges in Deploying Long-Horizon Agents for Real-World Business",
@@ -263,20 +277,6 @@
   "kind": "trending",
   "text": "Trending outside tracked labs: autotrust/JEV-35B-NVFP4 (46,826 downloads)",
   "url": "https://huggingface.co/autotrust/JEV-35B-NVFP4",
-  "action": "view"
- },
- {
-  "at": "2026-10-15T12:53:13Z",
-  "kind": "trending",
-  "text": "Trending outside tracked labs: vllm-sr/d3 (2,747 downloads)",
-  "url": "https://huggingface.co/vllm-sr/d3",
-  "action": "view"
- },
- {
-  "at": "2026-10-15T12:53:13Z",
-  "kind": "trending",
-  "text": "Trending outside tracked labs: LiquidAI/LFM2.5-24B-A2B-GGUF (45,676 downloads)",
-  "url": "https://huggingface.co/LiquidAI/LFM2.5-24B-A2B-GGUF",
   "action": "view"
  }
 ]
