@@ -1,0 +1,444 @@
+{
+  "repo_id": "tencent/Hy-Memory-30B-A3B",
+  "canonical_org": "tencent",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "64a460a94d5498b7316fb02395c72d01c47a7347",
+      "captured_at": "2026-10-19T14:58:21Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/tencent/Hy-Memory-30B-A3B?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"692c-FohU9t5QHcfKtd1J0vL574ozDBs\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "apache-2.0",
+        "file": "LICENSE",
+        "sha256": "a3927ec9759fe47b8b1895ce05b2fa2ee5ec09efd8edbc02267957789241583c",
+        "redistributable": true,
+        "obligations": [],
+        "freedom": "free",
+        "freedom_note": "apache-2.0 with LICENSE file verified in snapshot"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1642,
+          "sha256": "94563ba260319726132e47fe9e7efc1da45dc5313800454c564ee1c564776b6a",
+          "kind": "snapshot"
+        },
+        {
+          "path": "LICENSE",
+          "size": 9676,
+          "sha256": "a3927ec9759fe47b8b1895ce05b2fa2ee5ec09efd8edbc02267957789241583c",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 9184,
+          "sha256": "71d069f780c6f31fc551be75cba25709d8f80421a1fa1dac5b488b7d4d0648c0",
+          "kind": "snapshot"
+        },
+        {
+          "path": "chat_template.jinja",
+          "size": 11258,
+          "sha256": "8759492d33deb19b2f58855f62d3e431276da89d698b2800d1e353fbb12d5320",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 1953,
+          "sha256": "3d549a8cfc66128f761c8d6108bd2bcdbb8e57555f2d1b259544a5902511b04a",
+          "kind": "snapshot"
+        },
+        {
+          "path": "figures/fig1_training_process.png",
+          "size": 281838,
+          "sha256": "014c5907be8da3a559c3b5f8242349de6d1e92e966cc1de8545c230d1c7a0579",
+          "kind": "snapshot"
+        },
+        {
+          "path": "figures/fig1_training_process.svg",
+          "size": 181052,
+          "sha256": "ee184408f7cbade55e7cf45e69593677c53028fb65b85773b0b2bff8e397d261",
+          "kind": "snapshot"
+        },
+        {
+          "path": "figures/fig3_cross_harness_colm.png",
+          "size": 79459,
+          "sha256": "0820aef27a70c87506e1f83babb8c0372d9341acb46cf34c0ec8f6d9fb6c7006",
+          "kind": "snapshot"
+        },
+        {
+          "path": "figures/fig3_cross_harness_colm.svg",
+          "size": 78086,
+          "sha256": "50629e479d4efcaaf0f52fe892a6b1826b80d7c8ce90c772f4e6a27f9796d9e9",
+          "kind": "snapshot"
+        },
+        {
+          "path": "logo/github.png",
+          "size": 14886,
+          "sha256": "dffbc59a295439cec0226fa8a4038ffb7dbc6eb898212f8c69a02718e6f52b45",
+          "kind": "snapshot"
+        },
+        {
+          "path": "logo/hugging.png",
+          "size": 241973,
+          "sha256": "04f9255592663fea76eebc0be34c7f7a2d3d2c7329c500d856443df894cbcef0",
+          "kind": "snapshot"
+        },
+        {
+          "path": "logo/hunyuanlogo.png",
+          "size": 14414,
+          "sha256": "8f745827078673d878b46aef6fefeae93eb61a8532d1bf0e70550baab9e61385",
+          "kind": "snapshot"
+        },
+        {
+          "path": "model-00000-of-00051.safetensors",
+          "size": 1208006264,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00001-of-00051.safetensors",
+          "size": 1208006264,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00002-of-00051.safetensors",
+          "size": 1208006648,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00003-of-00051.safetensors",
+          "size": 1208006648,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00004-of-00051.safetensors",
+          "size": 1208006648,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00005-of-00051.safetensors",
+          "size": 1208006648,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00006-of-00051.safetensors",
+          "size": 1046479272,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00007-of-00051.safetensors",
+          "size": 1208006264,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00008-of-00051.safetensors",
+          "size": 1208006648,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00009-of-00051.safetensors",
+          "size": 1208006648,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00010-of-00051.safetensors",
+          "size": 1208006648,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00011-of-00051.safetensors",
+          "size": 1208006648,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00012-of-00051.safetensors",
+          "size": 1208006648,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00013-of-00051.safetensors",
+          "size": 166681504,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00014-of-00051.safetensors",
+          "size": 1208006264,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00015-of-00051.safetensors",
+          "size": 1208006648,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00016-of-00051.safetensors",
+          "size": 1208006648,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00017-of-00051.safetensors",
+          "size": 1208006648,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00018-of-00051.safetensors",
+          "size": 1208006648,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00019-of-00051.safetensors",
+          "size": 1208006648,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00020-of-00051.safetensors",
+          "size": 1208006264,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00021-of-00051.safetensors",
+          "size": 1208006648,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00022-of-00051.safetensors",
+          "size": 1208006648,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00023-of-00051.safetensors",
+          "size": 1208006648,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00024-of-00051.safetensors",
+          "size": 1208006648,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00025-of-00051.safetensors",
+          "size": 1208006648,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00026-of-00051.safetensors",
+          "size": 1208006264,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00027-of-00051.safetensors",
+          "size": 1208006648,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00028-of-00051.safetensors",
+          "size": 1208006648,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00029-of-00051.safetensors",
+          "size": 1208006648,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00030-of-00051.safetensors",
+          "size": 1208006648,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00031-of-00051.safetensors",
+          "size": 1208006648,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00032-of-00051.safetensors",
+          "size": 1208006264,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00033-of-00051.safetensors",
+          "size": 1208006648,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00034-of-00051.safetensors",
+          "size": 1208006648,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00035-of-00051.safetensors",
+          "size": 1208006648,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00036-of-00051.safetensors",
+          "size": 1208006648,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00037-of-00051.safetensors",
+          "size": 1208006648,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00038-of-00051.safetensors",
+          "size": 1208006264,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00039-of-00051.safetensors",
+          "size": 1208006648,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00040-of-00051.safetensors",
+          "size": 1208006648,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00041-of-00051.safetensors",
+          "size": 1208006648,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00042-of-00051.safetensors",
+          "size": 1208006648,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00043-of-00051.safetensors",
+          "size": 1208006648,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00044-of-00051.safetensors",
+          "size": 1208006264,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00045-of-00051.safetensors",
+          "size": 1208006648,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00046-of-00051.safetensors",
+          "size": 1208006648,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00047-of-00051.safetensors",
+          "size": 1208006648,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00048-of-00051.safetensors",
+          "size": 1208006648,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00049-of-00051.safetensors",
+          "size": 1073758856,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00050-of-00051.safetensors",
+          "size": 1068515872,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model.safetensors.index.json",
+          "size": 1607405,
+          "sha256": "b5d3d09f494368a71210291f1e40a625963c0c794324b3a536f22a929a091e41",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer.json",
+          "size": 9527108,
+          "sha256": "ad96ef9f641b79bb63807bea87cecf1dd0534325b463dad44cccbb3d0c571db7",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 295,
+          "sha256": "eb5b3c220423c254911058959222600c621bd41d9c8383a02d00db6405d5420d",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 60143804733,
+      "weight_bytes": 60131744504,
+      "snapshot_dir": "snapshots/tencent/Hy-Memory-30B-A3B/64a460a94d5498b7316fb02395c72d01c47a7347/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

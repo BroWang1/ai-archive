@@ -1,0 +1,283 @@
+{
+  "source_checkpoint": "/pcache-mnt/ro/checkpoint/854014/duleilei.dll/ckpts/tiny_old_sft2_plus_v6_0914_64gpu_muon_8task_nowall_oldemo_pt1_36k_alias100_20b_seq4096_all_12p5hz/iter_0039000",
+  "source_common_metadata": "/pcache-mnt/ro/checkpoint/854014/duleilei.dll/ckpts/tiny_old_sft2_plus_v6_0914_64gpu_muon_8task_nowall_oldemo_pt1_36k_alias100_20b_seq4096_all_12p5hz/iter_0039000/for_infer/pure_common.pt",
+  "source_metadata_sha256": "71b4d63075f127b8d1fd73c3a814dbab9427b6752470ecd94bfce83b201cc64c",
+  "source_iteration": 39000,
+  "conversion": "Megatron DCP global model tensors to LingV3 TTS HF safetensors; optimizer excluded; MTP=0",
+  "schema": {
+    "checkpoint_path": "/pcache-mnt/ro/checkpoint/854014/duleilei.dll/ckpts/tiny_old_sft2_plus_v6_0914_64gpu_muon_8task_nowall_oldemo_pt1_36k_alias100_20b_seq4096_all_12p5hz/iter_0039000",
+    "iteration": 39000,
+    "source_tensor_count": 1475,
+    "source_component_counts": {
+      "audio": 643,
+      "flowloss": 236,
+      "linear_proj_audio": 119,
+      "model": 473,
+      "spk_head": 2,
+      "stop_head": 2
+    },
+    "excluded_tensor_count": 2421,
+    "excluded_component_counts": {
+      "chained_0": 2283,
+      "chained_1": 138
+    },
+    "source_dtype_counts": {
+      "bfloat16": 1416,
+      "float32": 59
+    },
+    "target_tensor_count": 10285,
+    "target_component_counts": {
+      "audio": 643,
+      "flowloss": 236,
+      "linear_proj_audio": 119,
+      "model": 9283,
+      "spk_head": 2,
+      "stop_head": 2
+    },
+    "target_dtype_counts": {
+      "bfloat16": 10226,
+      "float32": 59
+    },
+    "target_parameter_count": 8981004468,
+    "target_total_bytes": 17962089128,
+    "target_schema_sha256": "627a6b3a872b210e38d5c30778305155b9a0f6710924a33558226e85aaf58fa3",
+    "groups": [
+      {
+        "name": "model-base",
+        "source_tensor_count": 3,
+        "target_tensor_count": 3
+      },
+      {
+        "name": "model-layer-00",
+        "source_tensor_count": 17,
+        "target_tensor_count": 18
+      },
+      {
+        "name": "model-layer-01",
+        "source_tensor_count": 21,
+        "target_tensor_count": 404
+      },
+      {
+        "name": "model-layer-02",
+        "source_tensor_count": 21,
+        "target_tensor_count": 404
+      },
+      {
+        "name": "model-layer-03",
+        "source_tensor_count": 16,
+        "target_tensor_count": 399
+      },
+      {
+        "name": "model-layer-04",
+        "source_tensor_count": 21,
+        "target_tensor_count": 404
+      },
+      {
+        "name": "model-layer-05",
+        "source_tensor_count": 21,
+        "target_tensor_count": 404
+      },
+      {
+        "name": "model-layer-06",
+        "source_tensor_count": 21,
+        "target_tensor_count": 404
+      },
+      {
+        "name": "model-layer-07",
+        "source_tensor_count": 16,
+        "target_tensor_count": 399
+      },
+      {
+        "name": "model-layer-08",
+        "source_tensor_count": 21,
+        "target_tensor_count": 404
+      },
+      {
+        "name": "model-layer-09",
+        "source_tensor_count": 21,
+        "target_tensor_count": 404
+      },
+      {
+        "name": "model-layer-10",
+        "source_tensor_count": 21,
+        "target_tensor_count": 404
+      },
+      {
+        "name": "model-layer-11",
+        "source_tensor_count": 16,
+        "target_tensor_count": 399
+      },
+      {
+        "name": "model-layer-12",
+        "source_tensor_count": 21,
+        "target_tensor_count": 404
+      },
+      {
+        "name": "model-layer-13",
+        "source_tensor_count": 21,
+        "target_tensor_count": 404
+      },
+      {
+        "name": "model-layer-14",
+        "source_tensor_count": 21,
+        "target_tensor_count": 404
+      },
+      {
+        "name": "model-layer-15",
+        "source_tensor_count": 16,
+        "target_tensor_count": 399
+      },
+      {
+        "name": "model-layer-16",
+        "source_tensor_count": 21,
+        "target_tensor_count": 404
+      },
+      {
+        "name": "model-layer-17",
+        "source_tensor_count": 21,
+        "target_tensor_count": 404
+      },
+      {
+        "name": "model-layer-18",
+        "source_tensor_count": 21,
+        "target_tensor_count": 404
+      },
+      {
+        "name": "model-layer-19",
+        "source_tensor_count": 16,
+        "target_tensor_count": 399
+      },
+      {
+        "name": "model-layer-20",
+        "source_tensor_count": 21,
+        "target_tensor_count": 404
+      },
+      {
+        "name": "model-layer-21",
+        "source_tensor_count": 21,
+        "target_tensor_count": 404
+      },
+      {
+        "name": "model-layer-22",
+        "source_tensor_count": 21,
+        "target_tensor_count": 404
+      },
+      {
+        "name": "model-layer-23",
+        "source_tensor_count": 16,
+        "target_tensor_count": 399
+      },
+      {
+        "name": "audio",
+        "source_tensor_count": 643,
+        "target_tensor_count": 643
+      },
+      {
+        "name": "flowloss",
+        "source_tensor_count": 236,
+        "target_tensor_count": 236
+      },
+      {
+        "name": "linear-proj-audio",
+        "source_tensor_count": 119,
+        "target_tensor_count": 119
+      },
+      {
+        "name": "spk-head",
+        "source_tensor_count": 2,
+        "target_tensor_count": 2
+      },
+      {
+        "name": "stop-head",
+        "source_tensor_count": 2,
+        "target_tensor_count": 2
+      }
+    ],
+    "independent_target_schema": "/workspace/bin/moe-model-convert/schemas/lingv3_moe_tts_8b.json",
+    "independent_target_schema_validated": true
+  },
+  "audio_config_source": "embedded-inference-architecture",
+  "campplus_source": "/workspace/bin/moe-model-convert/assets/campplus.onnx",
+  "campplus_sha256": "a6ac6a63997761ae2997373e2ee1c47040854b4b759ea41ec48e4e42df0f4d73",
+  "tts_config": {
+    "protocol_version": "thinking_v1",
+    "prompt_format": "legacy_antmmf",
+    "tokenizer_contract": "legacy_antmmf",
+    "sampling_contract": "native_fp32",
+    "enable_tts_target_language": true,
+    "infer_tts_language_from_text": true,
+    "conditioning_mode": "speaker_only",
+    "sampling_temperature": 1.5,
+    "prompt_eos_token_id": 156895,
+    "sample_rate": 44100,
+    "speaker_embedding_dim": 192,
+    "latent_dim": 64,
+    "patch_size": 1,
+    "history_size": 1,
+    "audio_patch_token_id": 157164,
+    "audio_start_token_id": 157165,
+    "audio_end_token_id": 157166,
+    "speaker_start_token_id": 157175,
+    "speaker_end_token_id": 157176,
+    "stop_threshold": 0.5,
+    "minimum_decode_steps": 13,
+    "maximum_decode_steps": 250,
+    "decode_alignment": "old_shift",
+    "task_contract": "lingv3_sft_multitask_v1",
+    "task_decode_alignment": {
+      "podcast": "old_shift"
+    },
+    "with_rml": true
+  },
+  "tokenizer": {
+    "source": "/pcache-mnt/ro/checkpoint/854014/duleilei.dll/ckpts/tiny_old_sft2_plus_v6_0914_64gpu_muon_8task_nowall_oldemo_pt1_36k_alias100_20b_seq4096_all_12p5hz/iter_0039000/for_infer",
+    "contract": "legacy_antmmf",
+    "prompt_eos_token_id": 156895,
+    "tts_token_ids": {
+      "<audioPatch>": 157164,
+      "<audio>": 157165,
+      "</audio>": 157166,
+      "<spk>": 157175,
+      "</spk>": 157176
+    },
+    "source_files_sha256": {
+      "tokenizer.json": "7e831c9b79b2cc4af0d3c7c7878a073371a5cbbaf1f4cb33f6fbce20417722f2",
+      "tokenizer_config.json": "7368e7cb06ef86c782f959b9796e21622aae4aace075c2cd5356604277ee2dee",
+      "special_tokens_map.json": "97cb54787ce5ed537fe2b0211768bfce371defabe8241d39459493de9f23b1fc"
+    },
+    "portable_wrapper": "PreTrainedTokenizerFast",
+    "multimodal_token_count": 24
+  },
+  "inference_contract": {
+    "training_recipe": "rc1.6",
+    "runtime_protocol": "thinking_v1",
+    "prompt_protocol": "legacy_antmmf",
+    "tokenizer_contract": "legacy_antmmf",
+    "sampling_contract": "native_fp32",
+    "decode_alignment": "old_shift",
+    "task_decode_alignment": {
+      "podcast": "old_shift"
+    },
+    "decode_policy": {
+      "minimum_decode_steps": 13,
+      "maximum_decode_steps": 250,
+      "stop_threshold": 0.5,
+      "basis": "1--20 second training filter at 12.5 latent Hz"
+    },
+    "llm_hidden_source": "24-layer main decoder final hidden (MTP=0)",
+    "autoregressive_feedback": "Flow latent -> Aggregator -> LLM KV cache",
+    "flow": {
+      "latent_dim": 64,
+      "patch_size": 1,
+      "history_size": 1,
+      "depth": 16
+    }
+  },
+  "topology": {
+    "world_size": 64,
+    "tensor_parallel": 1,
+    "pipeline_parallel": 1,
+    "expert_parallel": 8,
+    "context_parallel": 1
+  }
+}

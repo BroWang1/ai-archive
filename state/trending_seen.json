@@ -132,9 +132,26 @@
     "vllm-sr/d3",
     "LiquidAI/LFM2.5-24B-A2B-GGUF",
     "Cloudflare/clef-omni",
-    "JetBrains/Mellum2.1-12B-A2.5B-Thinking-GGUF"
+    "JetBrains/Mellum2.1-12B-A2.5B-Thinking-GGUF",
+    "black-forest-labs/flux-3-image-klein-comfy",
+    "black-forest-labs/flux-3-image-klein",
+    "OpenMOSS-Team/MOSS-Image-SFT",
+    "OpenMOSS-Team/MOSS-Image-Base",
+    "nvidia/Qwen3.8-Flash-Next-FP4-Local",
+    "Comfy-Org/MOSS-Image",
+    "datalab-to/indra-ocr",
+    "nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4",
+    "reflection/Beam-1.0-501B-A23B",
+    "lodestones/MOSS-Image-SFT-8-steps-dmd",
+    "black-forest-labs/flux-3-image-klein-base",
+    "nvidia/NVIDIA-Nemotron-Labs-Dory1.0-4B-BF16",
+    "nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB",
+    "orcarouter/OrcaCyber-Nano-1.0",
+    "dealignai/DeepSeek-V4.1-Flash-1017-UNCENSORED-FP8",
+    "prism-ml/Ternary-Bonsai-2-9B-gguf",
+    "nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB-GGUF"
   ],
-  "last_run": "2026-10-15T12:53:13Z",
+  "last_run": "2026-10-19T14:59:47Z",
   "log": [
     {
       "id": "prism-ml/Ternary-Bonsai-2-27B-gguf",
@@ -610,6 +627,91 @@
       "id": "JetBrains/Mellum2.1-12B-A2.5B-Thinking-GGUF",
       "at": "2026-10-15T12:53:13Z",
       "downloads": 65852
+    },
+    {
+      "id": "black-forest-labs/flux-3-image-klein-comfy",
+      "at": "2026-10-19T14:59:47Z",
+      "downloads": 393062
+    },
+    {
+      "id": "black-forest-labs/flux-3-image-klein",
+      "at": "2026-10-19T14:59:47Z",
+      "downloads": 62006
+    },
+    {
+      "id": "OpenMOSS-Team/MOSS-Image-SFT",
+      "at": "2026-10-19T14:59:47Z",
+      "downloads": 3336
+    },
+    {
+      "id": "OpenMOSS-Team/MOSS-Image-Base",
+      "at": "2026-10-19T14:59:47Z",
+      "downloads": 2774
+    },
+    {
+      "id": "nvidia/Qwen3.8-Flash-Next-FP4-Local",
+      "at": "2026-10-19T14:59:47Z",
+      "downloads": 6047
+    },
+    {
+      "id": "Comfy-Org/MOSS-Image",
+      "at": "2026-10-19T14:59:47Z",
+      "downloads": 673110
+    },
+    {
+      "id": "datalab-to/indra-ocr",
+      "at": "2026-10-19T14:59:47Z",
+      "downloads": 2433
+    },
+    {
+      "id": "nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4",
+      "at": "2026-10-19T14:59:47Z",
+      "downloads": 9322
+    },
+    {
+      "id": "reflection/Beam-1.0-501B-A23B",
+      "at": "2026-10-19T14:59:47Z",
+      "downloads": 2097
+    },
+    {
+      "id": "lodestones/MOSS-Image-SFT-8-steps-dmd",
+      "at": "2026-10-19T14:59:47Z",
+      "downloads": 45070
+    },
+    {
+      "id": "black-forest-labs/flux-3-image-klein-base",
+      "at": "2026-10-19T14:59:47Z",
+      "downloads": 56807
+    },
+    {
+      "id": "nvidia/NVIDIA-Nemotron-Labs-Dory1.0-4B-BF16",
+      "at": "2026-10-19T14:59:47Z",
+      "downloads": 1779
+    },
+    {
+      "id": "nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB",
+      "at": "2026-10-19T14:59:47Z",
+      "downloads": 6060
+    },
+    {
+      "id": "orcarouter/OrcaCyber-Nano-1.0",
+      "at": "2026-10-19T14:59:47Z",
+      "downloads": 10383
+    },
+    {
+      "id": "dealignai/DeepSeek-V4.1-Flash-1017-UNCENSORED-FP8",
+      "at": "2026-10-19T14:59:47Z",
+      "downloads": 1813
+    },
+    {
+      "id": "prism-ml/Ternary-Bonsai-2-9B-gguf",
+      "at": "2026-10-19T14:59:47Z",
+      "downloads": 77791
+    },
+    {
+      "id": "nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB-GGUF",
+      "at": "2026-10-19T14:59:47Z",
+      "downloads": 77409
     }
   ]
 }

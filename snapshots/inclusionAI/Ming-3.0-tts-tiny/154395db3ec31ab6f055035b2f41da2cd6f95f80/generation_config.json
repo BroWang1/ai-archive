@@ -1,0 +1,6 @@
+{
+  "temperature": 1.5,
+  "lingv3_conditioning": "speaker_only",
+  "lingv3_min_decode_steps": 13,
+  "lingv3_max_decode_steps": 250
+}

@@ -1,0 +1,16 @@
+model-00001-of-00002.safetensors filter=lfs diff=lfs merge=lfs -text
+model-00002-of-00002.safetensors filter=lfs diff=lfs merge=lfs -text
+talker/campplus.onnx filter=lfs diff=lfs merge=lfs -text
+talker/data/lid.176.ftz filter=lfs diff=lfs merge=lfs -text
+talker/llm/tokenizer.json filter=lfs diff=lfs merge=lfs -text
+talker/model.safetensors filter=lfs diff=lfs merge=lfs -text
+talker/talker_tn/en_tn_tagger.fst filter=lfs diff=lfs merge=lfs -text
+talker/talker_tn/en_tn_verbalizer.fst filter=lfs diff=lfs merge=lfs -text
+talker/talker_tn/zh_tn_tagger.fst filter=lfs diff=lfs merge=lfs -text
+talker/vae/model.safetensors filter=lfs diff=lfs merge=lfs -text
+voice_presets/voice_audio/lingguang.wav filter=lfs diff=lfs merge=lfs -text
+voice_presets/voice_audio/US_James.wav filter=lfs diff=lfs merge=lfs -text
+voice_presets/voice_audio/灵楷.wav filter=lfs diff=lfs merge=lfs -text
+assets/benchmark-asr.png filter=lfs diff=lfs merge=lfs -text
+assets/benchmark-audio-intelligence.png filter=lfs diff=lfs merge=lfs -text
+assets/benchmark-text.png filter=lfs diff=lfs merge=lfs -text

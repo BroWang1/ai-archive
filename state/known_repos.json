@@ -523,6 +523,7 @@
       "deepseek-ai/DeepSeek-V4-Pro-Base",
       "deepseek-ai/DeepSeek-V4-Pro-DSpark",
       "deepseek-ai/DeepSeek-V4.1-Flash",
+      "deepseek-ai/DeepSeek-V4.1-Flash-1017",
       "deepseek-ai/ESFT-gate-code-lite",
       "deepseek-ai/ESFT-gate-intent-lite",
       "deepseek-ai/ESFT-gate-law-lite",
@@ -864,6 +865,9 @@
       "tencent/Hy-MT2-7B",
       "tencent/Hy-MT2-7B-FP8",
       "tencent/Hy-MT2-7B-GGUF",
+      "tencent/Hy-Memory-30B-A3B",
+      "tencent/Hy-Memory-30B-A3B-FP8",
+      "tencent/Hy-Memory-30B-A3B-GGUF",
       "tencent/Hy3",
       "tencent/Hy3-FP8",
       "tencent/Hy3-preview",
@@ -879,6 +883,7 @@
       "tencent/Penguin-Encoder",
       "tencent/Penguin-VL-2B",
       "tencent/Penguin-VL-8B",
+      "tencent/Qwen3-8B-DSpine-b16",
       "tencent/R3-embedding-0.6b",
       "tencent/R3-rerank-0.6b",
       "tencent/Rosetta-inference",
@@ -1310,6 +1315,11 @@
       "inclusionAI/Llama-3.1-8B-Instruct-singprobe",
       "inclusionAI/Llama-3.2-1B-Instruct-singprobe",
       "inclusionAI/M2-Reasoning",
+      "inclusionAI/Ming-3.0-asr-tiny",
+      "inclusionAI/Ming-3.0-audio-flash",
+      "inclusionAI/Ming-3.0-audio-tiny",
+      "inclusionAI/Ming-3.0-tts-0.5B",
+      "inclusionAI/Ming-3.0-tts-tiny",
       "inclusionAI/Ming-Image-0.1-Design",
       "inclusionAI/Ming-Image-0.1-Design-Layer",
       "inclusionAI/Ming-Lite-Omni",
@@ -2083,5 +2093,5 @@
     ]
   },
   "first_run_done": true,
-  "last_run": "2026-10-15T12:51:45Z"
+  "last_run": "2026-10-19T14:57:58Z"
 }

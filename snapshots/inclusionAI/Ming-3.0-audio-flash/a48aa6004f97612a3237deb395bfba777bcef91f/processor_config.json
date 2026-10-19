@@ -1,0 +1,6 @@
+{
+  "processor_class": "BailingMoeV3AudioProcessor",
+  "auto_map": {
+    "AutoProcessor": "processing_bailing_moe_v3_audio.BailingMoeV3AudioProcessor"
+  }
+}

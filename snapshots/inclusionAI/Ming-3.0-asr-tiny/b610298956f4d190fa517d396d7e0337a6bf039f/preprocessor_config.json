@@ -1,0 +1,28 @@
+{
+  "feature_extractor_type": "MingV3ASRFeatureExtractor",
+  "processor_class": "MingV3ASRProcessor",
+  "feature_size": 128,
+  "sampling_rate": 16000,
+  "padding_value": 0.0,
+  "audio_config": {
+    "n_mels": 128,
+    "n_audio_ctx": 3000,
+    "n_audio_state": 1280,
+    "n_audio_head": 20,
+    "n_audio_layer": 32,
+    "downsampler_kernel_size_list": [
+      3
+    ],
+    "downsampler_stride_list": [
+      2
+    ],
+    "chunk_frames": 3000,
+    "downsampler_padding_list": [
+      1
+    ]
+  },
+  "auto_map": {
+    "AutoFeatureExtractor": "feature_extraction_ming_v3_asr.MingV3ASRFeatureExtractor",
+    "AutoProcessor": "processing_ming_v3_asr.MingV3ASRProcessor"
+  }
+}

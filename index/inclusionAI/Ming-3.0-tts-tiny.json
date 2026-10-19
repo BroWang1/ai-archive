@@ -1,0 +1,432 @@
+{
+  "repo_id": "inclusionAI/Ming-3.0-tts-tiny",
+  "canonical_org": "inclusionAI",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "154395db3ec31ab6f055035b2f41da2cd6f95f80",
+      "captured_at": "2026-10-19T14:59:32Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/inclusionAI/Ming-3.0-tts-tiny?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"614d-1LQCKi2tfayCuHsNh/RDxZVYD6A\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "mit",
+        "file": null,
+        "sha256": null,
+        "redistributable": true,
+        "obligations": [],
+        "freedom": "free",
+        "freedom_note": "mit declared via card metadata (fingerprinted in snapshot); upstream ships no separate LICENSE file"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1710,
+          "sha256": "523f9f0c180c3f6d86b76d4531cc883d6beeb95bdf685460f1f7dc77f2dc424c",
+          "kind": "snapshot"
+        },
+        {
+          "path": "CFM.py",
+          "size": 7414,
+          "sha256": "521b4e6989a635fb06e34778674c3b2045e35b404efb234a366ac7acbc19a572",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 59082,
+          "sha256": "2748f7cda8fae2517c33597fa9a41115a3ed844385359e8d4284d959dfa604df",
+          "kind": "snapshot"
+        },
+        {
+          "path": "__init__.py",
+          "size": 563,
+          "sha256": "8107587369b43fb796f98b3a8a034a3a7540416f06a9f119fafac41212a6cf11",
+          "kind": "snapshot"
+        },
+        {
+          "path": "aggregator.py",
+          "size": 3259,
+          "sha256": "ef49c58c92a61975274b2909bb821afe867a5a36d359cabf4bba767d38638ebb",
+          "kind": "snapshot"
+        },
+        {
+          "path": "campplus.onnx",
+          "size": 28303423,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "chat_template.jinja",
+          "size": 5984,
+          "sha256": "e09aa078bed51073b54103ff6476f47f3b68783e593aaf6e36a61bf0d1f5b90a",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 5873,
+          "sha256": "751c41848f024c5774d839fd5830d624639d9d982b0f2f73128c99b80fdbd33c",
+          "kind": "snapshot"
+        },
+        {
+          "path": "configuration_audio_vae.py",
+          "size": 1182,
+          "sha256": "9d4f25c6a14310fc00ba3e84aaadcda8be5e8de5a67a39afda674fd54ed44702",
+          "kind": "snapshot"
+        },
+        {
+          "path": "configuration_bailing_moe_v3.py",
+          "size": 4725,
+          "sha256": "f2c048966aec8a2f042cfeb1351f74d51a28589b409c55baae7d24e841c1f6c4",
+          "kind": "snapshot"
+        },
+        {
+          "path": "configuration_lingv3_tts.py",
+          "size": 5378,
+          "sha256": "5da3c373029c04e848799f2f6bd630f0c5d6172c8f0c316351ecc629e1be2036",
+          "kind": "snapshot"
+        },
+        {
+          "path": "conversion_manifest.json",
+          "size": 8475,
+          "sha256": "66fa519928e6dab8b55843d32485c8b61f5674ab6cc00424e813a42c69802c15",
+          "kind": "snapshot"
+        },
+        {
+          "path": "dit.py",
+          "size": 7148,
+          "sha256": "5c839c51cd5233df616cdf3038502ad0aa220f582323c9fb55a07e443919c42f",
+          "kind": "snapshot"
+        },
+        {
+          "path": "figures/ant-bailing.png",
+          "size": 58712,
+          "sha256": "206b4b04b4bcc0b35e6fd394da1bc203cc55ce4facce8f2d39b322bd820e374a",
+          "kind": "snapshot"
+        },
+        {
+          "path": "figures/icons/github-color.svg",
+          "size": 837,
+          "sha256": "476ba7aa67b86da7d6e7567b08a4bf0eb1a2fd28da5fc243f8ee39a2f1ea6773",
+          "kind": "snapshot"
+        },
+        {
+          "path": "figures/icons/modelscope-color.svg",
+          "size": 423,
+          "sha256": "a291071c092984f2a5960dd2e1c015a88a6f4109fb586dd37d643f4184b8465b",
+          "kind": "snapshot"
+        },
+        {
+          "path": "figures/icons/technical-report.svg",
+          "size": 414,
+          "sha256": "ac2598f7a5b3f36ab30fc192d1f396c3cd1ee4557ecb71bbb8ec574a0fbefc74",
+          "kind": "snapshot"
+        },
+        {
+          "path": "figures/ming-3.0-tts-tiny-architecture.png",
+          "size": 629806,
+          "sha256": "8ccb87480ca0d3b5a852cd69c0e4974c9330733685afc87e155fa37dd8b2d55a",
+          "kind": "snapshot"
+        },
+        {
+          "path": "figures/ming_3.0_tts.png",
+          "size": 629806,
+          "sha256": "8ccb87480ca0d3b5a852cd69c0e4974c9330733685afc87e155fa37dd8b2d55a",
+          "kind": "snapshot"
+        },
+        {
+          "path": "flowloss.py",
+          "size": 2221,
+          "sha256": "f2a25c119256671ecb8ac0fdde8225cfdf0f8606f490cdb2906cf8e4cbf8d71f",
+          "kind": "snapshot"
+        },
+        {
+          "path": "fm_utils.py",
+          "size": 240,
+          "sha256": "f9763eb057ccbb2c87cef42cd5f3438a832298cfdc0226cd6a5e7063184be0c8",
+          "kind": "snapshot"
+        },
+        {
+          "path": "generation_config.json",
+          "size": 133,
+          "sha256": "fdede64f07be6d6b1c5d2547fa3101cc8bdc033291efcd38c13784fb0e0611e1",
+          "kind": "snapshot"
+        },
+        {
+          "path": "istft.py",
+          "size": 7530,
+          "sha256": "de1e5f569e34a5cb05d088310a78d1dba60ef4f2ed403b37b21238c188f6d252",
+          "kind": "snapshot"
+        },
+        {
+          "path": "mlp.py",
+          "size": 11971,
+          "sha256": "c2c173fb33f02ace52e71d44e7a5a659d8f95bc83c641585ccbdc63c8421edb5",
+          "kind": "snapshot"
+        },
+        {
+          "path": "model-00001-of-00030.safetensors",
+          "size": 965741912,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00002-of-00030.safetensors",
+          "size": 80331128,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00003-of-00030.safetensors",
+          "size": 647005032,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00004-of-00030.safetensors",
+          "size": 647005032,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00005-of-00030.safetensors",
+          "size": 623814136,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00006-of-00030.safetensors",
+          "size": 647005032,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00007-of-00030.safetensors",
+          "size": 647005032,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00008-of-00030.safetensors",
+          "size": 647005032,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00009-of-00030.safetensors",
+          "size": 623814136,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00010-of-00030.safetensors",
+          "size": 647005032,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00011-of-00030.safetensors",
+          "size": 647005032,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00012-of-00030.safetensors",
+          "size": 647005432,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00013-of-00030.safetensors",
+          "size": 623814536,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00014-of-00030.safetensors",
+          "size": 647005432,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00015-of-00030.safetensors",
+          "size": 647005432,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00016-of-00030.safetensors",
+          "size": 647005432,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00017-of-00030.safetensors",
+          "size": 623814536,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00018-of-00030.safetensors",
+          "size": 647005432,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00019-of-00030.safetensors",
+          "size": 647005432,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00020-of-00030.safetensors",
+          "size": 647005432,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00021-of-00030.safetensors",
+          "size": 623814536,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00022-of-00030.safetensors",
+          "size": 647005432,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00023-of-00030.safetensors",
+          "size": 647005432,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00024-of-00030.safetensors",
+          "size": 647005432,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00025-of-00030.safetensors",
+          "size": 623814536,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00026-of-00030.safetensors",
+          "size": 1560859924,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00027-of-00030.safetensors",
+          "size": 409081040,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00028-of-00030.safetensors",
+          "size": 204806616,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00029-of-00030.safetensors",
+          "size": 593096,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00030-of-00030.safetensors",
+          "size": 6332,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model.safetensors.index.json",
+          "size": 983055,
+          "sha256": "81c4f438901705ddea66bc14efc5bdbc985fae5891b788a4cc3ac0925f796347",
+          "kind": "snapshot"
+        },
+        {
+          "path": "modeling_audio_vae.py",
+          "size": 6699,
+          "sha256": "71eee4dae57c041e0adb542eeb0e6dd3efa7224d7e0c42a9ee807daa0aec338d",
+          "kind": "snapshot"
+        },
+        {
+          "path": "modeling_bailing_moe_v3.py",
+          "size": 96060,
+          "sha256": "c212543640e02c04f96853f3863afe8334ad60f5e006fbfcd70e48246f704216",
+          "kind": "snapshot"
+        },
+        {
+          "path": "modeling_lingv3_tts.py",
+          "size": 27186,
+          "sha256": "476951f7102a88f48a715dfd6c5053c047e7cf7699c917bea03d8a1e042a3083",
+          "kind": "snapshot"
+        },
+        {
+          "path": "modules.py",
+          "size": 8834,
+          "sha256": "4f2f9209c7385f92209cbf50f1dcee106737db6c6c0cd9f0164c3e84043f7183",
+          "kind": "snapshot"
+        },
+        {
+          "path": "prompt_contract.py",
+          "size": 16993,
+          "sha256": "085e660dbcbb6ca2748db522de488deff457a1033e3451fe2915d2fd8fcc9be9",
+          "kind": "snapshot"
+        },
+        {
+          "path": "special_tokens_map.json",
+          "size": 722,
+          "sha256": "97cb54787ce5ed537fe2b0211768bfce371defabe8241d39459493de9f23b1fc",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer.json",
+          "size": 12210216,
+          "sha256": "7e831c9b79b2cc4af0d3c7c7878a073371a5cbbaf1f4cb33f6fbce20417722f2",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 60134,
+          "sha256": "23b25d6e0fa85152cb3f3136a29e3d7787ecff7d3e6b224beabda9a4d10e4b31",
+          "kind": "snapshot"
+        },
+        {
+          "path": "vae_modules.py",
+          "size": 8912,
+          "sha256": "75da8960213a60cae68667b89561d6d40e8ae254d8ecbe210264f3a1b99ba5de",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 18006571128,
+      "weight_bytes": 17991699431,
+      "snapshot_dir": "snapshots/inclusionAI/Ming-3.0-tts-tiny/154395db3ec31ab6f055035b2f41da2cd6f95f80/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

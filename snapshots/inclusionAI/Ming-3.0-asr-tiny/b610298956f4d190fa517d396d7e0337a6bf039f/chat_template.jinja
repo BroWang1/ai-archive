@@ -1,0 +1,57 @@
+{#- Tiny checkpoint template: preserve audio/text rendering exactly. -#}
+{%- for message in messages %}
+    {%- if message.content is iterable and message.content is not string %}
+        {%- for part in message.content %}
+            {%- if part is mapping and (part.type in ['image', 'image_url', 'video', 'video_url'] or 'image' in part or 'image_url' in part or 'video' in part or 'video_url' in part) %}
+                {{- raise_exception('Ming-ASR-Tiny supports audio/text content only.') }}
+            {%- endif %}
+        {%- endfor %}
+    {%- endif %}
+{%- endfor %}
+{{- '<role>SYSTEM</role>' }}
+{%- if messages and messages[0].role == 'system' and messages[0].content is string %}
+    {{- messages[0].content }}
+{%- else %}
+    {{- '你是一个友好的AI助手。' }}
+{%- endif %}
+
+{{- '
+
+detailed thinking ' }}
+{{- 'on' if enable_thinking else 'off' }}
+{{- '<|role_end|>' }}
+
+{%- for message in messages %}
+    {%- set role_lower = message.role | lower %}
+
+    {%- if role_lower in ['user', 'human'] -%}
+        <role>HUMAN</role>
+        {%- set contents = message.content if message.content is iterable and message.content is not string else [message.content] %}
+        {%- for part in contents %}
+            {%- if part.type is defined %}
+                {%- if part.type == 'audio' or 'audio_url' in part -%}
+                    <AUDIO>
+                {%- elif part.type == 'text' %}
+                    {{- part.text }}
+                {%- endif %}
+            {%- else %}
+                {{- part }}
+            {%- endif %}
+        {%- endfor %}
+        {{- '<|role_end|>' }}
+
+    {%- elif role_lower in ['assistant'] -%}
+        <role>ASSISTANT</role>
+        {%- set contents = message.content if message.content is iterable and message.content is not string else [message.content] %}
+        {%- for part in contents %}
+            {%- if part.type is defined and part.type == 'text' %}
+                {{- part.text }}
+            {%- elif part is string %}
+                {{- part }}
+            {%- endif %}
+        {%- endfor %}
+        {{- '<|role_end|>' }}
+    {%- endif %}
+{%- endfor %}
+
+{{- '<role>ASSISTANT</role>' -}}

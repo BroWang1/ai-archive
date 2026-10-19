@@ -175,7 +175,8 @@
       "Tencent-Hunyuan/ExplorationBench",
       "Tencent-Hunyuan/Prism",
       "Tencent-Hunyuan/OmniCapBench",
-      "Tencent-Hunyuan/HYDRA"
+      "Tencent-Hunyuan/HYDRA",
+      "Tencent-Hunyuan/Hy-Memory"
     ],
     "Wan-Video": [
       "Wan-Video/Wan-Animate-2",
@@ -932,8 +933,13 @@
       "id": "stepfun-ai/Step-5-Preview",
       "at": "2026-10-15T12:53:13Z",
       "desc": "StepFun's flagship model for agentic work"
+    },
+    {
+      "id": "Tencent-Hunyuan/Hy-Memory",
+      "at": "2026-10-19T14:59:47Z",
+      "desc": ""
     }
   ],
   "first_run_done": true,
-  "last_run": "2026-10-15T12:53:13Z"
+  "last_run": "2026-10-19T14:59:47Z"
 }

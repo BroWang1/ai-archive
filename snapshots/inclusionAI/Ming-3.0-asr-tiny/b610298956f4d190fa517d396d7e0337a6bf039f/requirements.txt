@@ -1,0 +1,11 @@
+# Python 3.12, Linux, CUDA 13.0 (NVIDIA L20Y).
+# For another CUDA version, install matching PyTorch 2.11.0 wheels first.
+torch==2.11.0
+torchaudio==2.11.0
+transformers==5.12.1
+fla-core==0.5.2
+accelerate==1.15.0
+einops==0.8.2
+safetensors==0.8.0
+numpy==2.5.4
+soundfile==0.14.0

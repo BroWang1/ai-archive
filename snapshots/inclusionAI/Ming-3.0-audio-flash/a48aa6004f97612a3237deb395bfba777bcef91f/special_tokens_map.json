@@ -1,0 +1,57 @@
+{
+  "additional_special_tokens": [
+    "<role>",
+    "</role>",
+    "<|role_end|>",
+    "<tool_call>",
+    "</tool_call>",
+    "<tool_response>",
+    "</tool_response>",
+    "<|vision_start|>",
+    "<|vision_end|>",
+    "<|image_pad|>",
+    "<|video_start|>",
+    "<|video_end|>",
+    "<|video_pad|>",
+    "<|audio_start|>",
+    "<|audio_end|>",
+    "<|audio_pad|>"
+  ],
+  "audio_bos_token": "<|audio_start|>",
+  "audio_eos_token": "<|audio_end|>",
+  "audio_token": "<|audio_pad|>",
+  "bos_token": {
+    "content": "<|startoftext|>",
+    "lstrip": false,
+    "normalized": false,
+    "rstrip": false,
+    "single_word": false
+  },
+  "cls_token": {
+    "content": "[CLS]",
+    "lstrip": false,
+    "normalized": false,
+    "rstrip": false,
+    "single_word": false
+  },
+  "eos_token": {
+    "content": "<|endoftext|>",
+    "lstrip": false,
+    "normalized": false,
+    "rstrip": false,
+    "single_word": false
+  },
+  "image_token": "<|image_pad|>",
+  "pad_token": {
+    "content": "<|endoftext|>",
+    "lstrip": false,
+    "normalized": false,
+    "rstrip": false,
+    "single_word": false
+  },
+  "video_bos_token": "<|video_start|>",
+  "video_eos_token": "<|video_end|>",
+  "video_token": "<|video_pad|>",
+  "vision_bos_token": "<|vision_start|>",
+  "vision_eos_token": "<|vision_end|>"
+}

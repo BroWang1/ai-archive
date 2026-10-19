@@ -1,0 +1,126 @@
+{
+  "repo_id": "tencent/Hy-Memory-30B-A3B-GGUF",
+  "canonical_org": "tencent",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "7778309f5109ec6e86820c687e638b9589b541a9",
+      "captured_at": "2026-10-19T14:58:09Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/tencent/Hy-Memory-30B-A3B-GGUF?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"3a2e-LNxcixt5BFelscguBEJvQlJrsDA\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "apache-2.0",
+        "file": "LICENSE",
+        "sha256": "93d6f6763a2cf9a0f6f97fb13873ae900368a528dce8a346cd317f989402dc88",
+        "redistributable": true,
+        "obligations": [],
+        "freedom": "free",
+        "freedom_note": "apache-2.0 with LICENSE file verified in snapshot"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1860,
+          "sha256": "31f6355cfd9ea0f9fc6090e2b625fcec67b9396a9999de1ccedc3ba420dc5399",
+          "kind": "snapshot"
+        },
+        {
+          "path": "Hy-Memory-Step250-Q8_0.gguf",
+          "size": 31985728896,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "LICENSE",
+          "size": 9695,
+          "sha256": "93d6f6763a2cf9a0f6f97fb13873ae900368a528dce8a346cd317f989402dc88",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 12132,
+          "sha256": "a883ebf3203b481af4b1d872faf16ebaf4e94e66c4886904f196ef13f2b87929",
+          "kind": "snapshot"
+        },
+        {
+          "path": "figures/fig1_training_process.png",
+          "size": 281838,
+          "sha256": "014c5907be8da3a559c3b5f8242349de6d1e92e966cc1de8545c230d1c7a0579",
+          "kind": "snapshot"
+        },
+        {
+          "path": "figures/fig1_training_process.svg",
+          "size": 181052,
+          "sha256": "ee184408f7cbade55e7cf45e69593677c53028fb65b85773b0b2bff8e397d261",
+          "kind": "snapshot"
+        },
+        {
+          "path": "figures/fig3_cross_harness_colm.png",
+          "size": 79459,
+          "sha256": "0820aef27a70c87506e1f83babb8c0372d9341acb46cf34c0ec8f6d9fb6c7006",
+          "kind": "snapshot"
+        },
+        {
+          "path": "figures/fig3_cross_harness_colm.svg",
+          "size": 78086,
+          "sha256": "50629e479d4efcaaf0f52fe892a6b1826b80d7c8ce90c772f4e6a27f9796d9e9",
+          "kind": "snapshot"
+        },
+        {
+          "path": "hy3a3b-memrl1009-step250-Q4_K_M-imat.gguf",
+          "size": 18236702464,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "hy3a3b-memrl1009-step250-Q6_K-imat.gguf",
+          "size": 24707464960,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "logo/github.png",
+          "size": 14886,
+          "sha256": "dffbc59a295439cec0226fa8a4038ffb7dbc6eb898212f8c69a02718e6f52b45",
+          "kind": "snapshot"
+        },
+        {
+          "path": "logo/hugging.png",
+          "size": 241973,
+          "sha256": "04f9255592663fea76eebc0be34c7f7a2d3d2c7329c500d856443df894cbcef0",
+          "kind": "snapshot"
+        },
+        {
+          "path": "logo/hunyuanlogo.png",
+          "size": 14414,
+          "sha256": "8f745827078673d878b46aef6fefeae93eb61a8532d1bf0e70550baab9e61385",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 74930811715,
+      "weight_bytes": 74929896320,
+      "snapshot_dir": "snapshots/tencent/Hy-Memory-30B-A3B-GGUF/7778309f5109ec6e86820c687e638b9589b541a9/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

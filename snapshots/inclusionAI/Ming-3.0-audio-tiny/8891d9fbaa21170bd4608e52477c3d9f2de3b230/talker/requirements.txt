@@ -1,0 +1,13 @@
+# Native Talker dependencies; use the existing Thinker-compatible torch/transformers.
+torch
+torchaudio
+transformers
+safetensors
+numpy
+soundfile
+x-transformers
+diffusers
+inflect
+onnxruntime
+pynini==2.1.7
+fasttext-wheel==0.9.2
