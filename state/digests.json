@@ -29,6 +29,12 @@
       "text": "This week aiarchive.info captured 170 open-weight model repos and mirrored 15, including new Baichuan, ByteDance-Seed, Qwen, and DeepSeek entries. Newly captured families span Qwen (Qwen3.5, Qwen3.6, Qwen-Image 2.1), DeepSeek (V4-Flash, V3.2-Speciale, OCR-2), MiniMax (M2.5 through M3), and Tencent (Hunyuan, Hy-MT2, WeVisDoc). No alerts were triggered; radar signals included HN front-page posts on Qwen Image 2.1 and small local models such as Cactus Needle 3.",
       "url": "https://github.com/BroWang1/ai-archive/issues",
       "action": "details"
+    },
+    {
+      "at": "2026-10-19T21:34:26Z",
+      "text": "This week the archive captured 32 new open-weight model repos, led by the MiniCPM-V-4.7 family from openbmb: the 1B and 35B-A3B variants landed in base, GGUF, AWQ, GPTQ, int4, FP8, and DSpark builds. Other additions include stepfun-ai's Step-5-Preview in BF16 and NVFP4, tencent's Hy-Memory-30B-A3B (base, FP8, GGUF), inclusionAI's Ming-3.0 audio/ASR/TTS and Ling-3.1-flash, deepseek-ai's DeepSeek-V4.1-Flash-1017, and Skywork's Matrix-Game-4.0. No mirrors or alerts were recorded this week; radar signals were mostly new papers referencing DeepSeek and Qwen, plus an HN front-page post on Parsimony, an open-source benchmark for how",
+      "url": "https://github.com/BroWang1/ai-archive/issues",
+      "action": "details"
     }
   ]
 }
