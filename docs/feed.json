@@ -6,280 +6,280 @@
  "description": "Captures, mirrors, takedown alerts and radar signals for open-weight AI models",
  "items": [
   {
-   "id": "2026-10-19T21:34:26Z-2233404359",
+   "id": "2026-10-19T21:34:26Z-2808882909",
    "title": "This week the archive captured 32 new open-weight model repos, led by the MiniCPM-V-4.7 family from openbmb: the 1B and 35B-A3B variants landed in base, GGUF, AWQ, GPTQ, int4, FP8, and DSpark builds. Other additions include stepfun-ai's Step-5-Preview in BF16 and NVFP4, tencent's Hy-Memory-30B-A3B (base, FP8, GGUF), inclusionAI's Ming-3.0 audio/ASR/TTS and Ling-3.1-flash, deepseek-ai's DeepSeek-V4.1-Flash-1017, and Skywork's Matrix-Game-4.0. No mirrors or alerts were recorded this week; radar signals were mostly new papers referencing DeepSeek and Qwen, plus an HN front-page post on Parsimony, an open-source benchmark for how",
    "date_published": "2026-10-19T21:34:26Z",
    "url": "https://github.com/BroWang1/ai-archive/issues",
    "content_text": "This week the archive captured 32 new open-weight model repos, led by the MiniCPM-V-4.7 family from openbmb: the 1B and 35B-A3B variants landed in base, GGUF, AWQ, GPTQ, int4, FP8, and DSpark builds. Other additions include stepfun-ai's Step-5-Preview in BF16 and NVFP4, tencent's Hy-Memory-30B-A3B (base, FP8, GGUF), inclusionAI's Ming-3.0 audio/ASR/TTS and Ling-3.1-flash, deepseek-ai's DeepSeek-V4.1-Flash-1017, and Skywork's Matrix-Game-4.0. No mirrors or alerts were recorded this week; radar signals were mostly new papers referencing DeepSeek and Qwen, plus an HN front-page post on Parsimony, an open-source benchmark for how"
   },
   {
-   "id": "2026-10-19T14:59:58Z-3191913919",
+   "id": "2026-10-19T14:59:58Z-2716699208",
    "title": "New paper mentioning DeepSeek: PresenceBench: An Exploratory Evaluation of Large Language Model Adaptation to User State",
    "date_published": "2026-10-19T14:59:58Z",
    "url": "http://arxiv.org/abs/2610.23625",
    "content_text": "New paper mentioning DeepSeek: PresenceBench: An Exploratory Evaluation of Large Language Model Adaptation to User State"
   },
   {
-   "id": "2026-10-19T14:59:58Z-254230080",
+   "id": "2026-10-19T14:59:58Z-2181284851",
    "title": "New paper mentioning DeepSeek: Rethinking GRPO for Large Reasoning Model Safety Alignment",
    "date_published": "2026-10-19T14:59:58Z",
    "url": "http://arxiv.org/abs/2610.23085",
    "content_text": "New paper mentioning DeepSeek: Rethinking GRPO for Large Reasoning Model Safety Alignment"
   },
   {
-   "id": "2026-10-19T14:59:58Z-3467967515",
+   "id": "2026-10-19T14:59:58Z-1840634622",
    "title": "New paper mentioning DeepSeek: Repair, Retry, and the Cost of Hindsight: Verifier Feedback in Formal Theorem Proving",
    "date_published": "2026-10-19T14:59:58Z",
    "url": "http://arxiv.org/abs/2610.22698",
    "content_text": "New paper mentioning DeepSeek: Repair, Retry, and the Cost of Hindsight: Verifier Feedback in Formal Theorem Proving"
   },
   {
-   "id": "2026-10-19T14:59:58Z-3375649736",
+   "id": "2026-10-19T14:59:58Z-1010133197",
    "title": "New paper mentioning DeepSeek: HTN-Orchestrate: A Hierarchical Task Network Framework for Multi-Agent Orchestration",
    "date_published": "2026-10-19T14:59:58Z",
    "url": "http://arxiv.org/abs/2610.22195",
    "content_text": "New paper mentioning DeepSeek: HTN-Orchestrate: A Hierarchical Task Network Framework for Multi-Agent Orchestration"
   },
   {
-   "id": "2026-10-19T14:59:58Z-3465455829",
+   "id": "2026-10-19T14:59:58Z-888358250",
    "title": "New paper mentioning DeepSeek: Where Prefill Expert Reduction Hurts MoE Models: A Few Prompt Tokens Carry Most of the Short-Answer F1 Loss",
    "date_published": "2026-10-19T14:59:58Z",
    "url": "http://arxiv.org/abs/2610.22454",
    "content_text": "New paper mentioning DeepSeek: Where Prefill Expert Reduction Hurts MoE Models: A Few Prompt Tokens Carry Most of the Short-Answer F1 Loss"
   },
   {
-   "id": "2026-10-19T14:59:58Z-854230167",
+   "id": "2026-10-19T14:59:58Z-759736787",
    "title": "HN front-page (172 pts): DeepSeek V4.1 Flash 1017 (Max)",
    "date_published": "2026-10-19T14:59:58Z",
    "url": "https://news.ycombinator.com/item?id=50148452",
    "content_text": "HN front-page (172 pts): DeepSeek V4.1 Flash 1017 (Max)"
   },
   {
-   "id": "2026-10-19T14:59:58Z-297051798",
+   "id": "2026-10-19T14:59:58Z-1001099300",
    "title": "HN front-page (585 pts): DeepSeek search and fetch \u2013 $0.75 per 1000 successful requests",
    "date_published": "2026-10-19T14:59:58Z",
    "url": "https://news.ycombinator.com/item?id=50138531",
    "content_text": "HN front-page (585 pts): DeepSeek search and fetch \u2013 $0.75 per 1000 successful requests"
   },
   {
-   "id": "2026-10-19T14:59:58Z-716069389",
+   "id": "2026-10-19T14:59:58Z-1291256117",
    "title": "HN front-page (519 pts): DeepSeek: DeepSeek v4.1 Flash 1017",
    "date_published": "2026-10-19T14:59:58Z",
    "url": "https://news.ycombinator.com/item?id=50129121",
    "content_text": "HN front-page (519 pts): DeepSeek: DeepSeek v4.1 Flash 1017"
   },
   {
-   "id": "2026-10-19T14:59:58Z-2323954429",
+   "id": "2026-10-19T14:59:58Z-1232345389",
    "title": "HN front-page (949 pts): DeepSeek-v4.1-Flash-1017",
    "date_published": "2026-10-19T14:59:58Z",
    "url": "https://news.ycombinator.com/item?id=50129045",
    "content_text": "HN front-page (949 pts): DeepSeek-v4.1-Flash-1017"
   },
   {
-   "id": "2026-10-19T14:59:58Z-4110887496",
+   "id": "2026-10-19T14:59:58Z-1903646943",
    "title": "New paper mentioning Qwen: Jarvis: Coordination Deserves a Brain of Its Own in Agentic Interactive Models",
    "date_published": "2026-10-19T14:59:58Z",
    "url": "http://arxiv.org/abs/2610.23804",
    "content_text": "New paper mentioning Qwen: Jarvis: Coordination Deserves a Brain of Its Own in Agentic Interactive Models"
   },
   {
-   "id": "2026-10-19T14:59:58Z-2950495883",
+   "id": "2026-10-19T14:59:58Z-1733642483",
    "title": "New paper mentioning Qwen: DrugHarness: An Evolvable Agent Harness for Computational Drug Discovery",
    "date_published": "2026-10-19T14:59:58Z",
    "url": "http://arxiv.org/abs/2610.23791",
    "content_text": "New paper mentioning Qwen: DrugHarness: An Evolvable Agent Harness for Computational Drug Discovery"
   },
   {
-   "id": "2026-10-19T14:59:58Z-862162458",
+   "id": "2026-10-19T14:59:58Z-15750782",
    "title": "New paper mentioning Qwen: MTEdit: Packed Trajectories Beat Rollouts for Multi-Turn Image Editing",
    "date_published": "2026-10-19T14:59:58Z",
    "url": "http://arxiv.org/abs/2610.23751",
    "content_text": "New paper mentioning Qwen: MTEdit: Packed Trajectories Beat Rollouts for Multi-Turn Image Editing"
   },
   {
-   "id": "2026-10-19T14:59:58Z-2002641892",
+   "id": "2026-10-19T14:59:58Z-737679846",
    "title": "New paper mentioning Qwen: LocalIntent: Outcome-Specific Structured Generation for Backend-Compatible Smart Building Automation with Local LLMs",
    "date_published": "2026-10-19T14:59:58Z",
    "url": "http://arxiv.org/abs/2610.23511",
    "content_text": "New paper mentioning Qwen: LocalIntent: Outcome-Specific Structured Generation for Backend-Compatible Smart Building Automation with Local LLMs"
   },
   {
-   "id": "2026-10-19T14:59:58Z-3593095927",
+   "id": "2026-10-19T14:59:58Z-1573472027",
    "title": "New paper mentioning Qwen: MuninAI: A Self-Hosted Agentic Framework for Independent Research Groups",
    "date_published": "2026-10-19T14:59:58Z",
    "url": "http://arxiv.org/abs/2610.23480",
    "content_text": "New paper mentioning Qwen: MuninAI: A Self-Hosted Agentic Framework for Independent Research Groups"
   },
   {
-   "id": "2026-10-19T14:59:58Z-1351792708",
+   "id": "2026-10-19T14:59:58Z-3313981081",
    "title": "HN front-page (79 pts): Show HN: Qwen3-4B with the AI writing tics trained out",
    "date_published": "2026-10-19T14:59:58Z",
    "url": "https://news.ycombinator.com/item?id=50151928",
    "content_text": "HN front-page (79 pts): Show HN: Qwen3-4B with the AI writing tics trained out"
   },
   {
-   "id": "2026-10-19T14:59:58Z-1479375943",
+   "id": "2026-10-19T14:59:58Z-4031904532",
    "title": "HN front-page (90 pts): One parser, two bugs, many routers: Exploiting Broadcom WiFi across eCos, Linux",
    "date_published": "2026-10-19T14:59:58Z",
    "url": "https://news.ycombinator.com/item?id=50122058",
    "content_text": "HN front-page (90 pts): One parser, two bugs, many routers: Exploiting Broadcom WiFi across eCos, Linux"
   },
   {
-   "id": "2026-10-19T14:59:58Z-3385363115",
+   "id": "2026-10-19T14:59:58Z-3676904684",
    "title": "HN front-page (305 pts): Dogs seem to agree with humans that 'bouba' is round and 'kiki' is spiky",
    "date_published": "2026-10-19T14:59:58Z",
    "url": "https://news.ycombinator.com/item?id=50136979",
    "content_text": "HN front-page (305 pts): Dogs seem to agree with humans that 'bouba' is round and 'kiki' is spiky"
   },
   {
-   "id": "2026-10-19T14:59:58Z-3264179557",
+   "id": "2026-10-19T14:59:58Z-1111986049",
    "title": "New paper mentioning GLM-: AlphaBet: Reinforcement Learning for LLM Event Forecasting Agents",
    "date_published": "2026-10-19T14:59:58Z",
    "url": "http://arxiv.org/abs/2610.22684",
    "content_text": "New paper mentioning GLM-: AlphaBet: Reinforcement Learning for LLM Event Forecasting Agents"
   },
   {
-   "id": "2026-10-19T14:59:58Z-3481258969",
+   "id": "2026-10-19T14:59:58Z-1889973789",
    "title": "New paper mentioning GLM-: Can LLMs predict the outcomes of machine learning experiments?",
    "date_published": "2026-10-19T14:59:58Z",
    "url": "http://arxiv.org/abs/2610.22599",
    "content_text": "New paper mentioning GLM-: Can LLMs predict the outcomes of machine learning experiments?"
   },
   {
-   "id": "2026-10-19T14:59:58Z-359814346",
+   "id": "2026-10-19T14:59:58Z-2276450110",
    "title": "New paper mentioning GLM-: MLExpert: Towards a Generalist Agentic Model for Autonomous Machine Learning Engineering",
    "date_published": "2026-10-19T14:59:58Z",
    "url": "http://arxiv.org/abs/2610.22344",
    "content_text": "New paper mentioning GLM-: MLExpert: Towards a Generalist Agentic Model for Autonomous Machine Learning Engineering"
   },
   {
-   "id": "2026-10-19T14:59:58Z-2876340922",
+   "id": "2026-10-19T14:59:58Z-2394175098",
    "title": "New paper mentioning GLM-: When the KV Cache Is Slower Than the GPU: Scaling Remote KV Tiers for Context-Parallel Prefill",
    "date_published": "2026-10-19T14:59:58Z",
    "url": "http://arxiv.org/abs/2610.21500",
    "content_text": "New paper mentioning GLM-: When the KV Cache Is Slower Than the GPU: Scaling Remote KV Tiers for Context-Parallel Prefill"
   },
   {
-   "id": "2026-10-19T14:59:58Z-1004924665",
+   "id": "2026-10-19T14:59:58Z-810745592",
    "title": "New paper mentioning GLM-: How to Train Your Little Dragon: Teaching a Small Language Model to Construct and Refine GPU Optimization Scripts",
    "date_published": "2026-10-19T14:59:58Z",
    "url": "http://arxiv.org/abs/2610.20980",
    "content_text": "New paper mentioning GLM-: How to Train Your Little Dragon: Teaching a Small Language Model to Construct and Refine GPU Optimization Scripts"
   },
   {
-   "id": "2026-10-19T14:59:58Z-1578231922",
+   "id": "2026-10-19T14:59:58Z-572829672",
    "title": "HN front-page (121 pts): Harness Engineering 101: The LLM is the brain, the harness is the body",
    "date_published": "2026-10-19T14:59:58Z",
    "url": "https://news.ycombinator.com/item?id=50151390",
    "content_text": "HN front-page (121 pts): Harness Engineering 101: The LLM is the brain, the harness is the body"
   },
   {
-   "id": "2026-10-19T14:59:58Z-2884088463",
+   "id": "2026-10-19T14:59:58Z-3897394290",
    "title": "HN front-page (111 pts): How Quickly Can the DoD Rebuild and Recast the Munitions Industrial Base?",
    "date_published": "2026-10-19T14:59:58Z",
    "url": "https://news.ycombinator.com/item?id=50146624",
    "content_text": "HN front-page (111 pts): How Quickly Can the DoD Rebuild and Recast the Munitions Industrial Base?"
   },
   {
-   "id": "2026-10-19T14:59:58Z-3341671457",
+   "id": "2026-10-19T14:59:58Z-672406328",
    "title": "HN front-page (253 pts): If you don't run your own LLM proxy, how do you know whats going on?",
    "date_published": "2026-10-19T14:59:58Z",
    "url": "https://news.ycombinator.com/item?id=50145507",
    "content_text": "HN front-page (253 pts): If you don't run your own LLM proxy, how do you know whats going on?"
   },
   {
-   "id": "2026-10-19T14:59:58Z-3100366216",
+   "id": "2026-10-19T14:59:58Z-3810556577",
    "title": "HN front-page (468 pts): Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
    "date_published": "2026-10-19T14:59:58Z",
    "url": "https://news.ycombinator.com/item?id=50145337",
    "content_text": "HN front-page (468 pts): Hybrid Reasoning Agents: LLM agents that think in latent space, act through text"
   },
   {
-   "id": "2026-10-19T14:59:58Z-3017297844",
+   "id": "2026-10-19T14:59:58Z-2518028279",
    "title": "HN front-page (93 pts): British Airways: Filming Crew W Meta Glasses Could Get Your Tickets Cancelled",
    "date_published": "2026-10-19T14:59:58Z",
    "url": "https://news.ycombinator.com/item?id=50143218",
    "content_text": "HN front-page (93 pts): British Airways: Filming Crew W Meta Glasses Could Get Your Tickets Cancelled"
   },
   {
-   "id": "2026-10-19T14:59:58Z-4142096160",
+   "id": "2026-10-19T14:59:58Z-3990530106",
    "title": "New paper mentioning MiniMax: Robust Local Fr\u00e9chet Regression: Nonasymptotic Theory and Minimax Optimality",
    "date_published": "2026-10-19T14:59:58Z",
    "url": "http://arxiv.org/abs/2610.23757",
    "content_text": "New paper mentioning MiniMax: Robust Local Fr\u00e9chet Regression: Nonasymptotic Theory and Minimax Optimality"
   },
   {
-   "id": "2026-10-19T14:59:58Z-1901209789",
+   "id": "2026-10-19T14:59:58Z-2738773866",
    "title": "New paper mentioning MiniMax: No-Regret Language Generation",
    "date_published": "2026-10-19T14:59:58Z",
    "url": "http://arxiv.org/abs/2610.23641",
    "content_text": "New paper mentioning MiniMax: No-Regret Language Generation"
   },
   {
-   "id": "2026-10-19T14:59:58Z-2811155873",
+   "id": "2026-10-19T14:59:58Z-586129013",
    "title": "New paper mentioning MiniMax: Accelerated Born series for high-frequency strong scattering by weakly non-radial media",
    "date_published": "2026-10-19T14:59:58Z",
    "url": "http://arxiv.org/abs/2610.23428",
    "content_text": "New paper mentioning MiniMax: Accelerated Born series for high-frequency strong scattering by weakly non-radial media"
   },
   {
-   "id": "2026-10-19T14:59:58Z-2693178902",
+   "id": "2026-10-19T14:59:58Z-4033761454",
    "title": "New paper mentioning MiniMax: Minimax-optimal Scaling Laws in Ridge Regression via Transfer Learning",
    "date_published": "2026-10-19T14:59:58Z",
    "url": "http://arxiv.org/abs/2610.23337",
    "content_text": "New paper mentioning MiniMax: Minimax-optimal Scaling Laws in Ridge Regression via Transfer Learning"
   },
   {
-   "id": "2026-10-19T14:59:58Z-2841504225",
+   "id": "2026-10-19T14:59:58Z-3403356610",
    "title": "New paper mentioning MiniMax: Sieve-free ReLU Bayesian priors with near-minimax posterior contraction",
    "date_published": "2026-10-19T14:59:58Z",
    "url": "http://arxiv.org/abs/2610.23308",
    "content_text": "New paper mentioning MiniMax: Sieve-free ReLU Bayesian priors with near-minimax posterior contraction"
   },
   {
-   "id": "2026-10-19T14:59:58Z-3816184542",
+   "id": "2026-10-19T14:59:58Z-244614860",
    "title": "HN front-page (74 pts): Show HN: Ito \u2013 Build Terminal UIs in Lua",
    "date_published": "2026-10-19T14:59:58Z",
    "url": "https://news.ycombinator.com/item?id=50096300",
    "content_text": "HN front-page (74 pts): Show HN: Ito \u2013 Build Terminal UIs in Lua"
   },
   {
-   "id": "2026-10-19T14:59:58Z-604993236",
+   "id": "2026-10-19T14:59:58Z-1003547209",
    "title": "New paper mentioning Hunyuan: When to Forget: Risk-Controlled Context Adaptation for Long-Horizon Agents",
    "date_published": "2026-10-19T14:59:58Z",
    "url": "http://arxiv.org/abs/2610.22897",
    "content_text": "New paper mentioning Hunyuan: When to Forget: Risk-Controlled Context Adaptation for Long-Horizon Agents"
   },
   {
-   "id": "2026-10-19T14:59:58Z-2176813213",
+   "id": "2026-10-19T14:59:58Z-1367957941",
    "title": "New paper mentioning MiniCPM: BD-HazardVLM: Probing Vision-Language Models for Latent Defensive-Driving Hazards in Bangladesh Road Scenes",
    "date_published": "2026-10-19T14:59:58Z",
    "url": "http://arxiv.org/abs/2610.20627",
    "content_text": "New paper mentioning MiniCPM: BD-HazardVLM: Probing Vision-Language Models for Latent Defensive-Driving Hazards in Bangladesh Road Scenes"
   },
   {
-   "id": "2026-10-19T14:59:58Z-2229007654",
+   "id": "2026-10-19T14:59:58Z-2584773393",
    "title": "HN front-page (152 pts): Israeli settlers attack European diplomatic cars in West Bank beat French mayor",
    "date_published": "2026-10-19T14:59:58Z",
    "url": "https://news.ycombinator.com/item?id=50133274",
    "content_text": "HN front-page (152 pts): Israeli settlers attack European diplomatic cars in West Bank beat French mayor"
   },
   {
-   "id": "2026-10-19T14:59:58Z-128827491",
+   "id": "2026-10-19T14:59:58Z-853311701",
    "title": "HN front-page (87 pts): GifCities",
    "date_published": "2026-10-19T14:59:58Z",
    "url": "https://news.ycombinator.com/item?id=50121601",
    "content_text": "HN front-page (87 pts): GifCities"
   },
   {
-   "id": "2026-10-19T14:59:58Z-3166135899",
+   "id": "2026-10-19T14:59:58Z-2575374380",
    "title": "HN front-page (89 pts): Anthropic Console overcharged my card 100x due to internationalization input bug",
    "date_published": "2026-10-19T14:59:58Z",
    "url": "https://news.ycombinator.com/item?id=50121562",
    "content_text": "HN front-page (89 pts): Anthropic Console overcharged my card 100x due to internationalization input bug"
   },
   {
-   "id": "2026-10-19T14:59:58Z-148485967",
+   "id": "2026-10-19T14:59:58Z-218573213",
    "title": "HN front-page (230 pts): RPKI now protects 70% of internet routes",
    "date_published": "2026-10-19T14:59:58Z",
    "url": "https://news.ycombinator.com/item?id=50112330",
