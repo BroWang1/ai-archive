@@ -1,5 +1,19 @@
 [
  {
+  "at": "2026-10-21T10:28:37Z",
+  "kind": "capture",
+  "text": "Captured openbmb/MiniCPM-V-4.7-1B-GPTQ \u2014 2 GB manifested, license: unclassified",
+  "url": "https://huggingface.co/openbmb/MiniCPM-V-4.7-1B-GPTQ",
+  "action": "view / download"
+ },
+ {
+  "at": "2026-10-21T10:18:31Z",
+  "kind": "capture",
+  "text": "Captured openbmb/MiniCPM-V-4.7-1B-int4 \u2014 2 GB manifested, license: unclassified",
+  "url": "https://huggingface.co/openbmb/MiniCPM-V-4.7-1B-int4",
+  "action": "view / download"
+ },
+ {
   "at": "2026-10-19T21:34:26Z",
   "kind": "digest",
   "text": "This week the archive captured 32 new open-weight model repos, led by the MiniCPM-V-4.7 family from openbmb: the 1B and 35B-A3B variants landed in base, GGUF, AWQ, GPTQ, int4, FP8, and DSpark builds. Other additions include stepfun-ai's Step-5-Preview in BF16 and NVFP4, tencent's Hy-Memory-30B-A3B (base, FP8, GGUF), inclusionAI's Ming-3.0 audio/ASR/TTS and Ling-3.1-flash, deepseek-ai's DeepSeek-V4.1-Flash-1017, and Skywork's Matrix-Game-4.0. No mirrors or alerts were recorded this week; radar signals were mostly new papers referencing DeepSeek and Qwen, plus an HN front-page post on Parsimony, an open-source benchmark for how",
@@ -263,20 +277,6 @@
   "kind": "buzz",
   "text": "HN front-page (87 pts): GifCities",
   "url": "https://news.ycombinator.com/item?id=50121601",
-  "action": "discussion"
- },
- {
-  "at": "2026-10-19T14:59:58Z",
-  "kind": "buzz",
-  "text": "HN front-page (89 pts): Anthropic Console overcharged my card 100x due to internationalization input bug",
-  "url": "https://news.ycombinator.com/item?id=50121562",
-  "action": "discussion"
- },
- {
-  "at": "2026-10-19T14:59:58Z",
-  "kind": "buzz",
-  "text": "HN front-page (230 pts): RPKI now protects 70% of internet routes",
-  "url": "https://news.ycombinator.com/item?id=50112330",
   "action": "discussion"
  }
 ]
