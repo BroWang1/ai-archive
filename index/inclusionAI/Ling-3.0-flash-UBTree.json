@@ -1,0 +1,78 @@
+{
+  "repo_id": "inclusionAI/Ling-3.0-flash-UBTree",
+  "canonical_org": "inclusionAI",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "59ced6e1e8fa434570be038e262c3e62552cf9a4",
+      "captured_at": "2026-10-22T13:12:14Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/inclusionAI/Ling-3.0-flash-UBTree?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"754-RZ5UWPk1HxxDrG+LDwziqaKbng8\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "mit",
+        "file": null,
+        "sha256": null,
+        "redistributable": true,
+        "obligations": [],
+        "freedom": "free",
+        "freedom_note": "mit declared via card metadata (fingerprinted in snapshot); upstream ships no separate LICENSE file"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1575,
+          "sha256": "df45b17b4e0ca8bb46a22afb7f99a2e3449b59bc64e5bd658653e8db16f02792",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 4517,
+          "sha256": "23667aa41792d9ac7ae293e27ce3d4a749c7566d128384822a2041e9b3b5820f",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/ubtree_pipeline.png",
+          "size": 230591,
+          "sha256": "3233e0c7a3d9be0edf8e93a303f662a97d0b5f6eb92fa4fe3857eca11a4225e7",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 2359,
+          "sha256": "eecd3a20bc12db87cb4005bc92d6c3ed516ca43966aa815e85268ae4c06436dd",
+          "kind": "snapshot"
+        },
+        {
+          "path": "model.safetensors",
+          "size": 963974788,
+          "sha256": null,
+          "kind": "weights"
+        }
+      ],
+      "total_bytes": 964213830,
+      "weight_bytes": 963974788,
+      "snapshot_dir": "snapshots/inclusionAI/Ling-3.0-flash-UBTree/59ced6e1e8fa434570be038e262c3e62552cf9a4/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

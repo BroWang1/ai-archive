@@ -149,9 +149,16 @@
     "orcarouter/OrcaCyber-Nano-1.0",
     "dealignai/DeepSeek-V4.1-Flash-1017-UNCENSORED-FP8",
     "prism-ml/Ternary-Bonsai-2-9B-gguf",
-    "nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB-GGUF"
+    "nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB-GGUF",
+    "lodestones/Kromoss",
+    "Comfy-Org/Fibo-2.0",
+    "ornith-ai/Ornith-1.5-122B",
+    "unsloth/flint-GGUF",
+    "unsloth/DeepSeek-V4.1-Flash-1017-GGUF",
+    "nvidia/GLM-5.3-Flash-FP4-Local",
+    "FastVideo/FastH3-Omni-Comfy"
   ],
-  "last_run": "2026-10-19T14:59:47Z",
+  "last_run": "2026-10-22T13:12:17Z",
   "log": [
     {
       "id": "prism-ml/Ternary-Bonsai-2-27B-gguf",
@@ -712,6 +719,41 @@
       "id": "nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB-GGUF",
       "at": "2026-10-19T14:59:47Z",
       "downloads": 77409
+    },
+    {
+      "id": "lodestones/Kromoss",
+      "at": "2026-10-22T13:12:17Z",
+      "downloads": 14415
+    },
+    {
+      "id": "Comfy-Org/Fibo-2.0",
+      "at": "2026-10-22T13:12:17Z",
+      "downloads": 56780
+    },
+    {
+      "id": "ornith-ai/Ornith-1.5-122B",
+      "at": "2026-10-22T13:12:17Z",
+      "downloads": 4828
+    },
+    {
+      "id": "unsloth/flint-GGUF",
+      "at": "2026-10-22T13:12:17Z",
+      "downloads": 7401
+    },
+    {
+      "id": "unsloth/DeepSeek-V4.1-Flash-1017-GGUF",
+      "at": "2026-10-22T13:12:17Z",
+      "downloads": 24733
+    },
+    {
+      "id": "nvidia/GLM-5.3-Flash-FP4-Local",
+      "at": "2026-10-22T13:12:17Z",
+      "downloads": 3929
+    },
+    {
+      "id": "FastVideo/FastH3-Omni-Comfy",
+      "at": "2026-10-22T13:12:17Z",
+      "downloads": 63092
     }
   ]
 }

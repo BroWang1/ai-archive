@@ -1,0 +1,235 @@
+{{- bos_token -}}
+{%- set dsml = '｜DSML｜' -%}
+
+{%- macro visible_text(content) -%}
+    {%- if content is none -%}
+    {%- elif content is string -%}
+        {{- content }}
+    {%- elif content is iterable and content is not mapping -%}
+        {%- for item in content -%}
+            {%- if item is mapping and item.type == 'text' -%}
+                {{- item.text }}
+            {%- elif item is string -%}
+                {{- item }}
+            {%- endif -%}
+        {%- endfor -%}
+    {%- else -%}
+        {{- content }}
+    {%- endif -%}
+{%- endmacro -%}
+
+{%- macro render_tools(tools_list) -%}
+    {{- '## Tools\n\n' }}
+    {{- 'You have access to a set of tools to help answer the user\'s question. You can invoke tools by writing a "<' + dsml + 'tool_calls>" block like the following:\n\n' }}
+    {{- '<' + dsml + 'tool_calls>\n' }}
+    {{- '<' + dsml + 'invoke name="$TOOL_NAME">\n' }}
+    {{- '<' + dsml + 'parameter name="$PARAMETER_NAME" string="true|false">$PARAMETER_VALUE</' + dsml + 'parameter>\n' }}
+    {{- '...\n' }}
+    {{- '</' + dsml + 'invoke>\n' }}
+    {{- '<' + dsml + 'invoke name="$TOOL_NAME2">\n' }}
+    {{- '...\n' }}
+    {{- '</' + dsml + 'invoke>\n' }}
+    {{- '</' + dsml + 'tool_calls>\n\n' }}
+    {{- 'String parameters should be specified as is and set `string="true"`. For all other types (numbers, booleans, arrays, objects), pass the value in JSON format and set `string="false"`.\n\n' }}
+    {{- 'If thinking_mode is enabled (triggered by <think>), you MUST output your complete reasoning inside <think>...</think> BEFORE any tool calls or final response.\n\n' }}
+    {{- 'Otherwise, output directly after </think> with tool calls or final response.\n\n' }}
+    {{- '### Available Tool Schemas\n\n' }}
+    {%- for tool in tools_list -%}
+        {{- tool | tojson(ensure_ascii=False) }}
+        {%- if not loop.last -%}{{- '\n' }}{%- endif -%}
+    {%- endfor -%}
+    {{- '\n\nYou MUST strictly follow the above defined tool name and parameter schemas to invoke tool calls.\n' }}
+{%- endmacro -%}
+
+{%- macro render_response_format(response_format) -%}
+    {{- '## Response Format:\n\nYou MUST strictly adhere to the following schema to reply:\n' }}
+    {{- response_format | tojson(ensure_ascii=False) }}
+{%- endmacro -%}
+
+{%- macro encode_arguments_dsml(args_dict) -%}
+    {%- for k, v in args_dict.items() -%}
+        {{- '<' + dsml + 'parameter name="' + k + '" string="' + ('true' if v is string else 'false') + '">' }}
+        {{- v if v is string else (v | tojson(ensure_ascii=False)) }}
+        {{- '</' + dsml + 'parameter>' }}
+        {%- if not loop.last -%}{{- '\n' }}{%- endif -%}
+    {%- endfor -%}
+{%- endmacro -%}
+
+{%- set ns = namespace(last_user_index=-1, found_user_message=false, has_tools=false, tool_block_owner_has_task=false) -%}
+
+{%- if (tools is defined and tools and tools | length > 0) -%}
+    {%- set ns.has_tools = true -%}
+{%- else -%}
+    {%- for m in messages if m.tools is defined and m.tools and m.tools | length > 0 -%}
+        {%- set ns.has_tools = true -%}
+    {%- endfor -%}
+{%- endif -%}
+
+{%- set thinking_mode = 'chat' if (enable_thinking is defined and not enable_thinking) else 'thinking' -%}
+
+{%- set drop_thinking = true -%}
+{%- if ns.has_tools or (preserve_thinking is defined and preserve_thinking) -%}
+    {%- set drop_thinking = false -%}
+{%- endif -%}
+
+{%- set _total = messages | length -%}
+{%- for m in messages[::-1] -%}
+    {%- if not ns.found_user_message and (m.role == 'user' or m.role == 'developer') -%}
+        {%- set ns.last_user_index = _total - 1 - loop.index0 -%}
+        {%- set ns.found_user_message = true -%}
+    {%- endif -%}
+{%- endfor -%}
+
+{%- set task_sp_tokens = {
+    'action': '<｜action｜>',
+    'query': '<｜query｜>',
+    'authority': '<｜authority｜>',
+    'domain': '<｜domain｜>',
+    'title': '<｜title｜>',
+    'read_url': '<｜read_url｜>'
+} -%}
+
+{%- set ns_top_tools = namespace(list=[]) -%}
+{%- if (tools is defined and tools and tools | length > 0) -%}
+    {%- for tool in tools -%}
+        {%- if tool.function is defined -%}
+            {%- set ns_top_tools.list = ns_top_tools.list + [tool.function] -%}
+        {%- else -%}
+            {%- set ns_top_tools.list = ns_top_tools.list + [tool] -%}
+        {%- endif -%}
+    {%- endfor -%}
+{%- endif -%}
+
+{%- if reasoning_effort is defined and reasoning_effort == 'max' and thinking_mode == 'thinking' -%}
+    {{- 'Reasoning Effort: Absolute maximum with no shortcuts permitted.\n' }}
+    {{- 'You MUST be very thorough in your thinking and comprehensively decompose the problem to resolve the root cause, rigorously stress-testing your logic against all potential paths, edge cases, and adversarial scenarios.\n' }}
+    {{- 'Explicitly write out your entire deliberation process, documenting every intermediate step, considered alternative, and rejected hypothesis to ensure absolutely no assumption is left unchecked.\n\n' }}
+{%- endif -%}
+
+{%- if ns_top_tools.list | length > 0 and messages[0].role != 'system' and messages[0].role != 'developer' -%}
+    {{- '\n\n' + render_tools(ns_top_tools.list) }}
+{%- endif -%}
+
+{%- for m in messages -%}
+    {%- if drop_thinking and thinking_mode == 'thinking' and m.role == 'developer' and loop.index0 < ns.last_user_index -%}
+        {#- drop_thinking: skip developer messages before the last user/developer message -#}
+    {%- elif m.role == 'system' or m.role == 'developer' -%}
+        {%- if m.role == 'system' -%}
+            {{- visible_text(m.content) }}
+        {%- else -%}
+            {{- '<｜User｜>' + visible_text(m.content) }}
+        {%- endif -%}
+        {%- if ns_top_tools.list | length > 0 and loop.first -%}
+            {{- '\n\n' + render_tools(ns_top_tools.list) }}
+        {%- elif m.tools is defined and m.tools and m.tools | length > 0 -%}
+            {%- set ns_msg_tools = namespace(list=[]) -%}
+            {%- for tool in m.tools -%}
+                {%- if tool.function is defined -%}
+                    {%- set ns_msg_tools.list = ns_msg_tools.list + [tool.function] -%}
+                {%- else -%}
+                    {%- set ns_msg_tools.list = ns_msg_tools.list + [tool] -%}
+                {%- endif -%}
+            {%- endfor -%}
+            {{- '\n\n' + render_tools(ns_msg_tools.list) }}
+        {%- endif -%}
+        {%- if m.response_format is defined and m.response_format -%}
+            {{- '\n\n' + render_response_format(m.response_format) }}
+        {%- endif -%}
+
+    {%- elif m.role == 'user' -%}
+        {%- set prev_role = messages[loop.index0 - 1].role if loop.index0 > 0 else '' -%}
+        {%- set should_merge = (prev_role == 'tool' and not ns.tool_block_owner_has_task) or
+            (prev_role == 'user' and (messages[loop.index0 - 1].task is not defined or messages[loop.index0 - 1].task is none)) -%}
+        {%- if should_merge -%}
+            {{- '\n\n' + visible_text(m.content) }}
+        {%- else -%}
+            {{- '<｜User｜>' + visible_text(m.content) }}
+        {%- endif -%}
+
+    {%- elif m.role == 'latest_reminder' -%}
+        {{- '<｜latest_reminder｜>' + visible_text(m.content) }}
+
+    {%- elif m.role == 'assistant' -%}
+        {%- set prev_has_task = false -%}
+        {%- if loop.index0 > 0 and messages[loop.index0 - 1].task is defined and messages[loop.index0 - 1].task is not none -%}
+            {%- set prev_has_task = true -%}
+        {%- endif -%}
+
+        {%- set reasoning_content = '' -%}
+        {%- set content = visible_text(m.content) if m.content is defined else '' -%}
+        {%- if m.reasoning_content is defined and m.reasoning_content is string -%}
+            {%- set reasoning_content = m.reasoning_content -%}
+        {%- else -%}
+            {%- if '</think>' in content -%}
+                {%- set reasoning_content = content.split('</think>')[0].rstrip('\n').split('<think>')[-1].lstrip('\n') -%}
+                {%- set content = content.split('</think>')[-1].lstrip('\n') -%}
+            {%- elif content.startswith('<think>') -%}
+                {%- set reasoning_content = content.split('<think>', 1)[1].lstrip('\n') -%}
+                {%- set content = '' -%}
+            {%- endif -%}
+        {%- endif -%}
+
+        {%- set render_thinking = false -%}
+        {%- if thinking_mode == 'thinking' and not prev_has_task -%}
+            {%- if not drop_thinking or loop.index0 > ns.last_user_index -%}
+                {%- set render_thinking = true -%}
+            {%- endif -%}
+        {%- endif -%}
+
+        {%- if render_thinking -%}
+            {{- reasoning_content + '</think>' }}
+        {%- endif -%}
+        {{- content }}
+        {%- if m.tool_calls is defined and m.tool_calls and m.tool_calls is iterable and m.tool_calls is not mapping -%}
+            {{- '\n\n<' + dsml + 'tool_calls>\n' }}
+            {%- for tc in m.tool_calls -%}
+                {%- set func = tc.function if tc.function is defined else tc -%}
+                {%- set args = func.arguments -%}
+                {%- if args is string -%}
+                    {%- set args = args | fromjson -%}
+                {%- endif -%}
+                {{- '<' + dsml + 'invoke name="' + func.name + '">\n' }}
+                {{- encode_arguments_dsml(args) }}
+                {{- '\n</' + dsml + 'invoke>' }}
+                {%- if not loop.last -%}{{- '\n' }}{%- endif -%}
+            {%- endfor -%}
+            {{- '\n</' + dsml + 'tool_calls>' }}
+        {%- endif -%}
+        {{- '<｜end▁of▁sentence｜>' }}
+
+    {%- elif m.role == 'tool' -%}
+        {%- if not loop.first and (messages[loop.index0 - 1].role == 'tool' or messages[loop.index0 - 1].role == 'user') -%}
+            {%- if messages[loop.index0 - 1].role == 'user' -%}
+                {%- set ns.tool_block_owner_has_task = (messages[loop.index0 - 1].task is defined and messages[loop.index0 - 1].task is not none) -%}
+            {%- endif -%}
+            {{- '\n\n<tool_result>' }}
+        {%- else -%}
+            {{- '<｜User｜><tool_result>' }}
+        {%- endif -%}
+        {%- if m.content is string -%}
+            {{- m.content }}
+        {%- else -%}
+            {{- m.content | tojson(ensure_ascii=False) }}
+        {%- endif -%}
+        {{- '</tool_result>' }}
+    {%- endif -%}
+
+    {%- set next_is_assistant_or_end = (loop.index0 + 1 >= messages | length) or (messages[loop.index0 + 1].role == 'assistant') or (messages[loop.index0 + 1].role == 'latest_reminder') -%}
+
+    {%- if m.task is defined and m.task is not none and m.task in task_sp_tokens and next_is_assistant_or_end -%}
+        {%- if m.task != 'action' -%}
+            {{- task_sp_tokens[m.task] }}
+        {%- else -%}
+            {{- '<｜Assistant｜>' }}
+            {{- '</think>' if thinking_mode != 'thinking' else '<think>' }}
+            {{- task_sp_tokens[m.task] }}
+        {%- endif -%}
+    {%- elif m.role in ['user', 'developer', 'tool'] and next_is_assistant_or_end -%}
+        {{- '<｜Assistant｜>' }}
+        {%- if thinking_mode == 'thinking' and (not drop_thinking or loop.index0 >= ns.last_user_index) -%}
+            {{- '<think>' }}
+        {%- else -%}
+            {{- '</think>' }}
+        {%- endif -%}
+    {%- endif -%}
+{%- endfor -%}

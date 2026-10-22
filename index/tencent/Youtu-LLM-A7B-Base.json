@@ -1,0 +1,360 @@
+{
+  "repo_id": "tencent/Youtu-LLM-A7B-Base",
+  "canonical_org": "tencent",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "a4fe6c899679a4c66da0d6e52cdbfd2f1814b0fb",
+      "captured_at": "2026-10-22T13:12:01Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/tencent/Youtu-LLM-A7B-Base?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"8384-KgoUc+AEEqLblly+vq2uXpHlo+c\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "other",
+        "file": "LICENSE.txt",
+        "sha256": "7ddac658d03c167cfc4af9f80759cd9519aee048a42ff94bcc1465fdbd01c17f",
+        "redistributable": null,
+        "obligations": [],
+        "freedom": "conditional",
+        "freedom_note": "Custom license ('other') \u2014 read before redistributing"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1747,
+          "sha256": "0e81317bdab3625a9e15848c5490ceff623c3de1ad37cf7794e35f960e75b5f8",
+          "kind": "snapshot"
+        },
+        {
+          "path": "LICENSE.txt",
+          "size": 10298,
+          "sha256": "7ddac658d03c167cfc4af9f80759cd9519aee048a42ff94bcc1465fdbd01c17f",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 7016,
+          "sha256": "c7bf2cd9f97f4fdf5a855696ebc8a7781c4eefbfe9577566eb0c94d0e4fb148c",
+          "kind": "snapshot"
+        },
+        {
+          "path": "__init__.py",
+          "size": 397,
+          "sha256": "4dadfec462fa1870711518e9318879ecd958acbcf939f8af8a89c36b31d53987",
+          "kind": "snapshot"
+        },
+        {
+          "path": "chat_template.jinja",
+          "size": 11135,
+          "sha256": "d779337967b73cb49d1fd9bf8d3e07d455264796e127382047aafb984cbae72f",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 3448,
+          "sha256": "60d33b46e954d6f87076b79ab42fd0774ee4de18c4fb4f86bd9e6f51879248d3",
+          "kind": "snapshot"
+        },
+        {
+          "path": "configuration_youtu_vl_moe.py",
+          "size": 11474,
+          "sha256": "9224ac573046ec83dcbb93f4a4ab8cecb6b28dd6a673589d52b1790da606ba44",
+          "kind": "snapshot"
+        },
+        {
+          "path": "model-00001-of-00024.safetensors",
+          "size": 9994349096,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00002-of-00024.safetensors",
+          "size": 9995918680,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00003-of-00024.safetensors",
+          "size": 9998519704,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00004-of-00024.safetensors",
+          "size": 9995918672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00005-of-00024.safetensors",
+          "size": 9998520368,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00006-of-00024.safetensors",
+          "size": 9995920256,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00007-of-00024.safetensors",
+          "size": 9998521272,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00008-of-00024.safetensors",
+          "size": 9995920256,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00009-of-00024.safetensors",
+          "size": 9998521272,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00010-of-00024.safetensors",
+          "size": 9995920264,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00011-of-00024.safetensors",
+          "size": 9998521272,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00012-of-00024.safetensors",
+          "size": 9995920256,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00013-of-00024.safetensors",
+          "size": 9998521272,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00014-of-00024.safetensors",
+          "size": 9995920256,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00015-of-00024.safetensors",
+          "size": 9998521272,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00016-of-00024.safetensors",
+          "size": 9991233096,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00017-of-00024.safetensors",
+          "size": 9991757512,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00018-of-00024.safetensors",
+          "size": 9998520840,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00019-of-00024.safetensors",
+          "size": 9995920232,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00020-of-00024.safetensors",
+          "size": 9998521264,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00021-of-00024.safetensors",
+          "size": 9995920240,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00022-of-00024.safetensors",
+          "size": 9998521272,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00023-of-00024.safetensors",
+          "size": 9995920248,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00024-of-00024.safetensors",
+          "size": 6140377304,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model.safetensors.index.json",
+          "size": 3934836,
+          "sha256": "abdabe4f34f38dc1a7258b4e6b9dcf694d6dc3f3153e8d41852cdeb5c83c6e90",
+          "kind": "snapshot"
+        },
+        {
+          "path": "modeling_youtu_vl_moe.py",
+          "size": 103468,
+          "sha256": "9b5dc77938a5582d7b5133a717fb83f923b3b2ba1925a9ebfc55c9e42beb1ddc",
+          "kind": "snapshot"
+        },
+        {
+          "path": "mtp_params.safetensors",
+          "size": 719966512,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "preprocessor_config.json",
+          "size": 337,
+          "sha256": "4853c55a53afd135aa8d0f1ecbdbf96852e8497ddb3a2c081e7f5f84ce7a029c",
+          "kind": "snapshot"
+        },
+        {
+          "path": "processing_youtu_vl_moe.py",
+          "size": 1785,
+          "sha256": "589be958e9704fd99c9ba9a166fd0d1ae511c0ca5bf91e32f0baaa66cd2f54c7",
+          "kind": "snapshot"
+        },
+        {
+          "path": "processor_config.json",
+          "size": 240,
+          "sha256": "1dddffa12ac0327efb8587b5615119e8d5d7e4054cd25c917de949728aca18c0",
+          "kind": "snapshot"
+        },
+        {
+          "path": "sglang_adapt/__init__.py",
+          "size": 121,
+          "sha256": "0d2c62ca657cc83e83c70e44a6c59c9dcd418fd65d1cb3fca0970b79dd08742f",
+          "kind": "snapshot"
+        },
+        {
+          "path": "sglang_adapt/fa3_dcp.py",
+          "size": 10403,
+          "sha256": "1218397d4c63f880a58a8c6cc05c401461eca02985e843f11e5ce5e6253b1172",
+          "kind": "snapshot"
+        },
+        {
+          "path": "sglang_adapt/fused_ops.py",
+          "size": 5854,
+          "sha256": "661e1028785ecbfceb01338c7d6266ac5839a107efeb84e170ed742c10547032",
+          "kind": "snapshot"
+        },
+        {
+          "path": "sglang_adapt/kda_decode.py",
+          "size": 3272,
+          "sha256": "6b751c501a0f85976e3023746767aae0da1c186e337fe0bcf08c71472e7d5ec3",
+          "kind": "snapshot"
+        },
+        {
+          "path": "sglang_adapt/launch.py",
+          "size": 8148,
+          "sha256": "bb85c2a77be8da89fb39cd87006d37406cce9dd671efbf623aea2fcb078d8055",
+          "kind": "snapshot"
+        },
+        {
+          "path": "sglang_adapt/linear_attn_registry.py",
+          "size": 10142,
+          "sha256": "8b2ba13740fbf2c0f5fc2b6b38ceb8c8202b08236d13d34d6e91b786d92b4b54",
+          "kind": "snapshot"
+        },
+        {
+          "path": "sglang_adapt/qb_routing.py",
+          "size": 12595,
+          "sha256": "52c6cbe6c8d1d9ae5b56b28a8b62cd1f455f6e9074a7b02e51ddd0142fcf6c8c",
+          "kind": "snapshot"
+        },
+        {
+          "path": "sglang_adapt/serve_youtu_vl_moe_sglang.sh",
+          "size": 13044,
+          "sha256": "9adbccd1e36a3dd848a374626c43fb829a4ff7ddebcdc39a9ab48829b9e9e87b",
+          "kind": "snapshot"
+        },
+        {
+          "path": "sglang_adapt/vl_modality.py",
+          "size": 10917,
+          "sha256": "d75360f688d396d6f29017d249d20db194a259316338124450b389d6bf846d0b",
+          "kind": "snapshot"
+        },
+        {
+          "path": "sglang_adapt/youtu_vl_moe.py",
+          "size": 84733,
+          "sha256": "7d8abe47f603e6ced77fe63641ccd31ececf3ba63b861bcc8239d52c8bf7f3e2",
+          "kind": "snapshot"
+        },
+        {
+          "path": "sglang_adapt/youtu_vl_moe_processor.py",
+          "size": 904,
+          "sha256": "d506854a83615cadb8cf6e829afd6a30d4e185657bd80b263e4f9208d2b6ae57",
+          "kind": "snapshot"
+        },
+        {
+          "path": "special_tokens_map.json",
+          "size": 487,
+          "sha256": "2cba40a56d099e576e60d209734d1f0d0b07123d734eb255d5a7ba15e0158313",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer.json",
+          "size": 9976589,
+          "sha256": "f4e38b82c499ccef8dd5ccc021d2ace144739bc5efb56141acf86a325ea14be7",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 174516,
+          "sha256": "25a3289b19ec6050fb73dce3565f922b76faea741e05929d2a1e31b7562bc478",
+          "kind": "snapshot"
+        },
+        {
+          "path": "video_preprocessor_config.json",
+          "size": 334,
+          "sha256": "a1783f297fa7c8f389db0f4d74fb3e3e8ec80fb853a57df454ec494fbb90e4e6",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 236796490928,
+      "weight_bytes": 236782092688,
+      "snapshot_dir": "snapshots/tencent/Youtu-LLM-A7B-Base/a4fe6c899679a4c66da0d6e52cdbfd2f1814b0fb/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

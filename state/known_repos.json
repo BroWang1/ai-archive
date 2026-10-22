@@ -918,6 +918,7 @@
       "tencent/Youtu-LLM-2B",
       "tencent/Youtu-LLM-2B-Base",
       "tencent/Youtu-LLM-2B-GGUF",
+      "tencent/Youtu-LLM-A7B-Base",
       "tencent/Youtu-Parsing",
       "tencent/Youtu-Parsing-Omni",
       "tencent/Youtu-VL-4B-Instruct",
@@ -1271,6 +1272,7 @@
       "inclusionAI/Ling-3.0-flash-Fin-fp8",
       "inclusionAI/Ling-3.0-flash-Fin-int4",
       "inclusionAI/Ling-3.0-flash-GGUF",
+      "inclusionAI/Ling-3.0-flash-UBTree",
       "inclusionAI/Ling-3.0-flash-VL",
       "inclusionAI/Ling-3.0-flash-VL-fp4",
       "inclusionAI/Ling-3.0-flash-VL-fp8",
@@ -1285,6 +1287,7 @@
       "inclusionAI/Ling-3.0-flash-singprobe",
       "inclusionAI/Ling-3.0-tiny",
       "inclusionAI/Ling-3.0-tiny-GGUF",
+      "inclusionAI/Ling-3.0-tiny-UBTree",
       "inclusionAI/Ling-3.0-tiny-base",
       "inclusionAI/Ling-3.0-tiny-base-30T",
       "inclusionAI/Ling-3.0-tiny-base-midtrain",
@@ -2093,5 +2096,5 @@
     ]
   },
   "first_run_done": true,
-  "last_run": "2026-10-19T14:57:58Z"
+  "last_run": "2026-10-22T13:11:58Z"
 }

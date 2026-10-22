@@ -35,7 +35,8 @@
       "deepseek-ai/dsh-node-addon-require-builtin",
       "deepseek-ai/DeepEP-Ascend",
       "deepseek-ai/DeepGEMM-Ascend",
-      "deepseek-ai/clangd-ascend"
+      "deepseek-ai/clangd-ascend",
+      "deepseek-ai/DeepInfer"
     ],
     "QwenLM": [
       "QwenLM/qwen-mm-plugins-hub",
@@ -176,7 +177,8 @@
       "Tencent-Hunyuan/Prism",
       "Tencent-Hunyuan/OmniCapBench",
       "Tencent-Hunyuan/HYDRA",
-      "Tencent-Hunyuan/Hy-Memory"
+      "Tencent-Hunyuan/Hy-Memory",
+      "Tencent-Hunyuan/DiagSafe"
     ],
     "Wan-Video": [
       "Wan-Video/Wan-Animate-2",
@@ -455,7 +457,10 @@
       "vllm-project/router",
       "vllm-project/recipes",
       "vllm-project/vllm-xpu-kernels",
-      "vllm-project/vmon"
+      "vllm-project/vmon",
+      "vllm-project/vllm-jax",
+      "vllm-project/vllm-sail",
+      "vllm-project/vllm-torchtpu"
     ]
   },
   "log": [
@@ -938,8 +943,33 @@
       "id": "Tencent-Hunyuan/Hy-Memory",
       "at": "2026-10-19T14:59:47Z",
       "desc": ""
+    },
+    {
+      "id": "deepseek-ai/DeepInfer",
+      "at": "2026-10-22T13:12:17Z",
+      "desc": "DeepInfer: High-performance, large-scale inference framework for DeepSeek models"
+    },
+    {
+      "id": "Tencent-Hunyuan/DiagSafe",
+      "at": "2026-10-22T13:12:17Z",
+      "desc": "DiagSafe: diagnostic LLM safety benchmark with prompt-level rubrics (3,489 bilingual prompts, 84-label taxonomy)"
+    },
+    {
+      "id": "vllm-project/vllm-jax",
+      "at": "2026-10-22T13:12:17Z",
+      "desc": "vLLM JAX: serving JAX models on TPU with vLLM (formerly vllm-project/tpu-inference)"
+    },
+    {
+      "id": "vllm-project/vllm-sail",
+      "at": "2026-10-22T13:12:17Z",
+      "desc": ""
+    },
+    {
+      "id": "vllm-project/vllm-torchtpu",
+      "at": "2026-10-22T13:12:17Z",
+      "desc": ""
     }
   ],
   "first_run_done": true,
-  "last_run": "2026-10-19T14:59:47Z"
+  "last_run": "2026-10-22T13:12:17Z"
 }

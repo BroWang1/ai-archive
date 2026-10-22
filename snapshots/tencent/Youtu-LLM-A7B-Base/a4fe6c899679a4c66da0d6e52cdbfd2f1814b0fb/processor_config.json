@@ -1,0 +1,8 @@
+{
+  "processor_class": "YoutuVLMoEProcessor",
+  "image_processor_type": "Qwen2VLImageProcessorFast",
+  "video_processor_type": "Qwen3VLVideoProcessor",
+  "auto_map": {
+    "AutoProcessor": "processing_youtu_vl_moe.YoutuVLMoEProcessor"
+  }
+}
