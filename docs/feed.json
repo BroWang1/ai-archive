@@ -6,280 +6,280 @@
  "description": "Captures, mirrors, takedown alerts and radar signals for open-weight AI models",
  "items": [
   {
-   "id": "2026-10-23T10:24:33Z-3413022004",
+   "id": "2026-10-23T10:24:33Z-3494516146",
    "title": "Captured internlm/Intern-Decision-0.8B \u2014 2 GB manifested, license: unclassified",
    "date_published": "2026-10-23T10:24:33Z",
    "url": "https://huggingface.co/internlm/Intern-Decision-0.8B",
    "content_text": "Captured internlm/Intern-Decision-0.8B \u2014 2 GB manifested, license: unclassified"
   },
   {
-   "id": "2026-10-23T10:19:24Z-30399329",
+   "id": "2026-10-23T10:19:24Z-1026145183",
    "title": "Captured inclusionAI/Ling-3.0-flash-UBTree \u2014 1 GB manifested, license: unclassified",
    "date_published": "2026-10-23T10:19:24Z",
    "url": "https://huggingface.co/inclusionAI/Ling-3.0-flash-UBTree",
    "content_text": "Captured inclusionAI/Ling-3.0-flash-UBTree \u2014 1 GB manifested, license: unclassified"
   },
   {
-   "id": "2026-10-22T13:12:28Z-3830804575",
+   "id": "2026-10-22T13:12:28Z-2467529855",
    "title": "New paper mentioning DeepSeek: SPARE: Sparsity Allocation via Routing Entropy for Efficient MoEs",
    "date_published": "2026-10-22T13:12:28Z",
    "url": "http://arxiv.org/abs/2610.29662",
    "content_text": "New paper mentioning DeepSeek: SPARE: Sparsity Allocation via Routing Entropy for Efficient MoEs"
   },
   {
-   "id": "2026-10-22T13:12:28Z-4221313287",
+   "id": "2026-10-22T13:12:28Z-596879028",
    "title": "New paper mentioning DeepSeek: Who Verifies the Agent's Success Claim? Self-Report Leakage in GUI-Agent Completion Judging",
    "date_published": "2026-10-22T13:12:28Z",
    "url": "http://arxiv.org/abs/2610.29609",
    "content_text": "New paper mentioning DeepSeek: Who Verifies the Agent's Success Claim? Self-Report Leakage in GUI-Agent Completion Judging"
   },
   {
-   "id": "2026-10-22T13:12:28Z-3687075372",
+   "id": "2026-10-22T13:12:28Z-657024872",
    "title": "New paper mentioning DeepSeek: Compressing Onboard Language Models for Space Robots under a Behavioral-Fidelity Requirement",
    "date_published": "2026-10-22T13:12:28Z",
    "url": "http://arxiv.org/abs/2610.29302",
    "content_text": "New paper mentioning DeepSeek: Compressing Onboard Language Models for Space Robots under a Behavioral-Fidelity Requirement"
   },
   {
-   "id": "2026-10-22T13:12:28Z-3785583757",
+   "id": "2026-10-22T13:12:28Z-1984462762",
    "title": "New paper mentioning DeepSeek: Correlated Failures of AI Approval Monitors",
    "date_published": "2026-10-22T13:12:28Z",
    "url": "http://arxiv.org/abs/2610.29178",
    "content_text": "New paper mentioning DeepSeek: Correlated Failures of AI Approval Monitors"
   },
   {
-   "id": "2026-10-22T13:12:28Z-4065169195",
+   "id": "2026-10-22T13:12:28Z-653390672",
    "title": "New paper mentioning DeepSeek: When Can LLM Reasoning Reliably Reuse Intermediate Results?",
    "date_published": "2026-10-22T13:12:28Z",
    "url": "http://arxiv.org/abs/2610.27662",
    "content_text": "New paper mentioning DeepSeek: When Can LLM Reasoning Reliably Reuse Intermediate Results?"
   },
   {
-   "id": "2026-10-22T13:12:28Z-553123006",
+   "id": "2026-10-22T13:12:28Z-2657907413",
    "title": "HN front-page (2325 pts): DeepInfer: High-performance inference framework for DeepSeek models",
    "date_published": "2026-10-22T13:12:28Z",
    "url": "https://news.ycombinator.com/item?id=50163277",
    "content_text": "HN front-page (2325 pts): DeepInfer: High-performance inference framework for DeepSeek models"
   },
   {
-   "id": "2026-10-22T13:12:28Z-1923055270",
+   "id": "2026-10-22T13:12:28Z-3487968240",
    "title": "HN front-page (66 pts): The US orders every civilian agency to rip out DeepSeek, even tools built on it",
    "date_published": "2026-10-22T13:12:28Z",
    "url": "https://news.ycombinator.com/item?id=50156189",
    "content_text": "HN front-page (66 pts): The US orders every civilian agency to rip out DeepSeek, even tools built on it"
   },
   {
-   "id": "2026-10-22T13:12:28Z-1592615610",
+   "id": "2026-10-22T13:12:28Z-3670122369",
    "title": "HN front-page (578 pts): DeepSeek banned from U.S. federal civilian agencies under new DHS order",
    "date_published": "2026-10-22T13:12:28Z",
    "url": "https://news.ycombinator.com/item?id=50154244",
    "content_text": "HN front-page (578 pts): DeepSeek banned from U.S. federal civilian agencies under new DHS order"
   },
   {
-   "id": "2026-10-22T13:12:28Z-1211462280",
+   "id": "2026-10-22T13:12:28Z-404107324",
    "title": "New paper mentioning Qwen: Compaction Laundering: Provenance Destruction in Context-Compacting Coding Agents",
    "date_published": "2026-10-22T13:12:28Z",
    "url": "http://arxiv.org/abs/2610.29869",
    "content_text": "New paper mentioning Qwen: Compaction Laundering: Provenance Destruction in Context-Compacting Coding Agents"
   },
   {
-   "id": "2026-10-22T13:12:28Z-1724211594",
+   "id": "2026-10-22T13:12:28Z-413583234",
    "title": "New paper mentioning Qwen: ALIAS: Evaluating Performance and Memorization in LLM-Written TLA+ Specifications",
    "date_published": "2026-10-22T13:12:28Z",
    "url": "http://arxiv.org/abs/2610.29767",
    "content_text": "New paper mentioning Qwen: ALIAS: Evaluating Performance and Memorization in LLM-Written TLA+ Specifications"
   },
   {
-   "id": "2026-10-22T13:12:28Z-4222170819",
+   "id": "2026-10-22T13:12:28Z-3764417374",
    "title": "New paper mentioning Qwen: Uncensored Is Not Unbiased: Abliteration Removes Refusals but Not Script-Dependent Bias About Taiwan",
    "date_published": "2026-10-22T13:12:28Z",
    "url": "http://arxiv.org/abs/2610.29342",
    "content_text": "New paper mentioning Qwen: Uncensored Is Not Unbiased: Abliteration Removes Refusals but Not Script-Dependent Bias About Taiwan"
   },
   {
-   "id": "2026-10-22T13:12:28Z-863128188",
+   "id": "2026-10-22T13:12:28Z-2621365882",
    "title": "New paper mentioning Qwen: Encoded but Unused: Bounding the Sources of VLM Errors",
    "date_published": "2026-10-22T13:12:28Z",
    "url": "http://arxiv.org/abs/2610.29241",
    "content_text": "New paper mentioning Qwen: Encoded but Unused: Bounding the Sources of VLM Errors"
   },
   {
-   "id": "2026-10-22T13:12:28Z-1134093093",
+   "id": "2026-10-22T13:12:28Z-1120404085",
    "title": "HN front-page (92 pts): Show HN: Omnara \u2013 Open-source alternative to Claude Managed Agents",
    "date_published": "2026-10-22T13:12:28Z",
    "url": "https://news.ycombinator.com/item?id=50183892",
    "content_text": "HN front-page (92 pts): Show HN: Omnara \u2013 Open-source alternative to Claude Managed Agents"
   },
   {
-   "id": "2026-10-22T13:12:28Z-3824516084",
+   "id": "2026-10-22T13:12:28Z-3868881438",
    "title": "HN front-page (76 pts): I told people I'm a convicted felon after 20 years of hiding it",
    "date_published": "2026-10-22T13:12:28Z",
    "url": "https://news.ycombinator.com/item?id=50182960",
    "content_text": "HN front-page (76 pts): I told people I'm a convicted felon after 20 years of hiding it"
   },
   {
-   "id": "2026-10-22T13:12:28Z-3149374359",
+   "id": "2026-10-22T13:12:28Z-3113925626",
    "title": "HN front-page (241 pts): Qwen3-Coder writes less secure code when told it's for a US persona",
    "date_published": "2026-10-22T13:12:28Z",
    "url": "https://news.ycombinator.com/item?id=50179706",
    "content_text": "HN front-page (241 pts): Qwen3-Coder writes less secure code when told it's for a US persona"
   },
   {
-   "id": "2026-10-22T13:12:28Z-4088833357",
+   "id": "2026-10-22T13:12:28Z-1650162422",
    "title": "HN front-page (61 pts): Show HN: I built a task system to handle the drudgery so I could focus on tasks",
    "date_published": "2026-10-22T13:12:28Z",
    "url": "https://news.ycombinator.com/item?id=50151980",
    "content_text": "HN front-page (61 pts): Show HN: I built a task system to handle the drudgery so I could focus on tasks"
   },
   {
-   "id": "2026-10-22T13:12:28Z-1546539870",
+   "id": "2026-10-22T13:12:28Z-2995896502",
    "title": "New paper mentioning GLM-: VeriEvolve: Evaluator-First Evolution for Tool-Using Agents",
    "date_published": "2026-10-22T13:12:28Z",
    "url": "http://arxiv.org/abs/2610.29005",
    "content_text": "New paper mentioning GLM-: VeriEvolve: Evaluator-First Evolution for Tool-Using Agents"
   },
   {
-   "id": "2026-10-22T13:12:28Z-3261612215",
+   "id": "2026-10-22T13:12:28Z-984930658",
    "title": "New paper mentioning GLM-: DecisionPivot: A Diagnostic Benchmark for Decision Models in LLM Systems",
    "date_published": "2026-10-22T13:12:28Z",
    "url": "http://arxiv.org/abs/2610.28522",
    "content_text": "New paper mentioning GLM-: DecisionPivot: A Diagnostic Benchmark for Decision Models in LLM Systems"
   },
   {
-   "id": "2026-10-22T13:12:28Z-175129564",
+   "id": "2026-10-22T13:12:28Z-4234490991",
    "title": "New paper mentioning GLM-: Variance estimation for generalized linear regression with binary outcome when using case-cohort data",
    "date_published": "2026-10-22T13:12:28Z",
    "url": "http://arxiv.org/abs/2610.27772",
    "content_text": "New paper mentioning GLM-: Variance estimation for generalized linear regression with binary outcome when using case-cohort data"
   },
   {
-   "id": "2026-10-22T13:12:28Z-2181259254",
+   "id": "2026-10-22T13:12:28Z-6557483",
    "title": "New paper mentioning GLM-: S$^2$-MAS: A Society-Scale Multi-Agent Simulation Framework with 500 Million Household Persona Agents",
    "date_published": "2026-10-22T13:12:28Z",
    "url": "http://arxiv.org/abs/2610.27746",
    "content_text": "New paper mentioning GLM-: S$^2$-MAS: A Society-Scale Multi-Agent Simulation Framework with 500 Million Household Persona Agents"
   },
   {
-   "id": "2026-10-22T13:12:28Z-818969933",
+   "id": "2026-10-22T13:12:28Z-1772087697",
    "title": "New paper mentioning GLM-: Reconstruction-Optimized Expert Pruning for Mixture-of-Experts Language Models",
    "date_published": "2026-10-22T13:12:28Z",
    "url": "http://arxiv.org/abs/2610.27123",
    "content_text": "New paper mentioning GLM-: Reconstruction-Optimized Expert Pruning for Mixture-of-Experts Language Models"
   },
   {
-   "id": "2026-10-22T13:12:28Z-1265057670",
+   "id": "2026-10-22T13:12:28Z-1607222678",
    "title": "HN front-page (69 pts): Xbox wants you to pay 24 to 40 cents per hour to stream games you bought",
    "date_published": "2026-10-22T13:12:28Z",
    "url": "https://news.ycombinator.com/item?id=50194009",
    "content_text": "HN front-page (69 pts): Xbox wants you to pay 24 to 40 cents per hour to stream games you bought"
   },
   {
-   "id": "2026-10-22T13:12:28Z-880603926",
+   "id": "2026-10-22T13:12:28Z-3440970520",
    "title": "HN front-page (93 pts): Faster than earcut: triangulating 3.7M map polygons in 489 ms",
    "date_published": "2026-10-22T13:12:28Z",
    "url": "https://news.ycombinator.com/item?id=50193170",
    "content_text": "HN front-page (93 pts): Faster than earcut: triangulating 3.7M map polygons in 489 ms"
   },
   {
-   "id": "2026-10-22T13:12:28Z-2997717823",
+   "id": "2026-10-22T13:12:28Z-3183007859",
    "title": "HN front-page (56 pts): Claude Now Works with Google Docs, Sheets, and Slides",
    "date_published": "2026-10-22T13:12:28Z",
    "url": "https://news.ycombinator.com/item?id=50190357",
    "content_text": "HN front-page (56 pts): Claude Now Works with Google Docs, Sheets, and Slides"
   },
   {
-   "id": "2026-10-22T13:12:28Z-2572928329",
+   "id": "2026-10-22T13:12:28Z-728088553",
    "title": "HN front-page (162 pts): Epic Games Inc v Apple Inc",
    "date_published": "2026-10-22T13:12:28Z",
    "url": "https://news.ycombinator.com/item?id=50190168",
    "content_text": "HN front-page (162 pts): Epic Games Inc v Apple Inc"
   },
   {
-   "id": "2026-10-22T13:12:28Z-2056948263",
+   "id": "2026-10-22T13:12:28Z-3546459630",
    "title": "HN front-page (61 pts): CDC Ignored Request from States to Validate a New Measles Test",
    "date_published": "2026-10-22T13:12:28Z",
    "url": "https://news.ycombinator.com/item?id=50186842",
    "content_text": "HN front-page (61 pts): CDC Ignored Request from States to Validate a New Measles Test"
   },
   {
-   "id": "2026-10-22T13:12:28Z-3801123569",
+   "id": "2026-10-22T13:12:28Z-3875694394",
    "title": "New paper mentioning MiniMax: Self-normalized Bernstein Inequalities for Regenerative Processes and Applications to Learning Without Independence",
    "date_published": "2026-10-22T13:12:28Z",
    "url": "http://arxiv.org/abs/2610.30119",
    "content_text": "New paper mentioning MiniMax: Self-normalized Bernstein Inequalities for Regenerative Processes and Applications to Learning Without Independence"
   },
   {
-   "id": "2026-10-22T13:12:28Z-1086309774",
+   "id": "2026-10-22T13:12:28Z-2486526478",
    "title": "New paper mentioning MiniMax: Minimax Optimality of the NPMLE for Gaussian Mixtures in Hellinger Distance",
    "date_published": "2026-10-22T13:12:28Z",
    "url": "http://arxiv.org/abs/2610.30109",
    "content_text": "New paper mentioning MiniMax: Minimax Optimality of the NPMLE for Gaussian Mixtures in Hellinger Distance"
   },
   {
-   "id": "2026-10-22T13:12:28Z-3956184118",
+   "id": "2026-10-22T13:12:28Z-2700147169",
    "title": "New paper mentioning MiniMax: The Price of Current-Effect Inference in Nonstationary Multi-Armed Bandits",
    "date_published": "2026-10-22T13:12:28Z",
    "url": "http://arxiv.org/abs/2610.29982",
    "content_text": "New paper mentioning MiniMax: The Price of Current-Effect Inference in Nonstationary Multi-Armed Bandits"
   },
   {
-   "id": "2026-10-22T13:12:28Z-1076317823",
+   "id": "2026-10-22T13:12:28Z-1101213307",
    "title": "New paper mentioning MiniMax: Near Minimax Rate for Quantile Distributional Reinforcement Learning",
    "date_published": "2026-10-22T13:12:28Z",
    "url": "http://arxiv.org/abs/2610.29595",
    "content_text": "New paper mentioning MiniMax: Near Minimax Rate for Quantile Distributional Reinforcement Learning"
   },
   {
-   "id": "2026-10-22T13:12:28Z-3284536516",
+   "id": "2026-10-22T13:12:28Z-1968470402",
    "title": "New paper mentioning MiniMax: The Conjugacy Problem for Recursively Presented Virtually Soluble Groups of Finite Pr\u00fcfer Rank",
    "date_published": "2026-10-22T13:12:28Z",
    "url": "http://arxiv.org/abs/2610.29563",
    "content_text": "New paper mentioning MiniMax: The Conjugacy Problem for Recursively Presented Virtually Soluble Groups of Finite Pr\u00fcfer Rank"
   },
   {
-   "id": "2026-10-22T13:12:28Z-292680938",
+   "id": "2026-10-22T13:12:28Z-187528916",
    "title": "HN front-page (515 pts): MiniMax M3.1 Flash",
    "date_published": "2026-10-22T13:12:28Z",
    "url": "https://news.ycombinator.com/item?id=50154540",
    "content_text": "HN front-page (515 pts): MiniMax M3.1 Flash"
   },
   {
-   "id": "2026-10-22T13:12:28Z-441319519",
+   "id": "2026-10-22T13:12:28Z-23278420",
    "title": "HN front-page (352 pts): Krea 3 \u2013 An image model built for editing at scale",
    "date_published": "2026-10-22T13:12:28Z",
    "url": "https://news.ycombinator.com/item?id=50105648",
    "content_text": "HN front-page (352 pts): Krea 3 \u2013 An image model built for editing at scale"
   },
   {
-   "id": "2026-10-22T13:12:28Z-566791855",
+   "id": "2026-10-22T13:12:28Z-2818335976",
    "title": "New paper mentioning Hunyuan: Functionalizing AI-Generated 3D Shapes via Interior Geometry Construction",
    "date_published": "2026-10-22T13:12:28Z",
    "url": "http://arxiv.org/abs/2610.23953",
    "content_text": "New paper mentioning Hunyuan: Functionalizing AI-Generated 3D Shapes via Interior Geometry Construction"
   },
   {
-   "id": "2026-10-22T13:12:28Z-1127292875",
+   "id": "2026-10-22T13:12:28Z-4140754935",
    "title": "New paper mentioning Hunyuan: Translating in style: An open-weight alternative to GPT-4 for culturally aligned machine translation",
    "date_published": "2026-10-22T13:12:28Z",
    "url": "http://arxiv.org/abs/2610.23868",
    "content_text": "New paper mentioning Hunyuan: Translating in style: An open-weight alternative to GPT-4 for culturally aligned machine translation"
   },
   {
-   "id": "2026-10-22T13:12:28Z-1287244370",
+   "id": "2026-10-22T13:12:28Z-383518816",
    "title": "New paper mentioning MiniCPM: DuplexLedger: Benchmarking Transactional Memory in Full-Duplex Speech Agents",
    "date_published": "2026-10-22T13:12:28Z",
    "url": "http://arxiv.org/abs/2610.27581",
    "content_text": "New paper mentioning MiniCPM: DuplexLedger: Benchmarking Transactional Memory in Full-Duplex Speech Agents"
   },
   {
-   "id": "2026-10-22T13:12:28Z-3656475121",
+   "id": "2026-10-22T13:12:28Z-2995270773",
    "title": "HN front-page (145 pts): Paper Tape Is All You Need \u2013 Training a Transformer on a 1976 Minicomputer",
    "date_published": "2026-10-22T13:12:28Z",
    "url": "https://news.ycombinator.com/item?id=47518568",
    "content_text": "HN front-page (145 pts): Paper Tape Is All You Need \u2013 Training a Transformer on a 1976 Minicomputer"
   },
   {
-   "id": "2026-10-22T13:12:28Z-532755537",
+   "id": "2026-10-22T13:12:28Z-980727206",
    "title": "HN front-page (237 pts): CVE-2026-111943: Compromised Intermediate Certificate Authority",
    "date_published": "2026-10-22T13:12:28Z",
    "url": "https://news.ycombinator.com/item?id=50192900",
