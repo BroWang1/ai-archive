@@ -1,5 +1,12 @@
 [
  {
+  "at": "2026-10-25T09:55:18Z",
+  "kind": "capture",
+  "text": "Captured inclusionAI/Ling-3.0-tiny-UBTree \u2014 0 GB manifested, license: unclassified",
+  "url": "https://huggingface.co/inclusionAI/Ling-3.0-tiny-UBTree",
+  "action": "view / download"
+ },
+ {
   "at": "2026-10-23T10:24:33Z",
   "kind": "capture",
   "text": "Captured internlm/Intern-Decision-0.8B \u2014 2 GB manifested, license: unclassified",
@@ -270,13 +277,6 @@
   "kind": "buzz",
   "text": "HN front-page (145 pts): Paper Tape Is All You Need \u2013 Training a Transformer on a 1976 Minicomputer",
   "url": "https://news.ycombinator.com/item?id=47518568",
-  "action": "discussion"
- },
- {
-  "at": "2026-10-22T13:12:28Z",
-  "kind": "buzz",
-  "text": "HN front-page (237 pts): CVE-2026-111943: Compromised Intermediate Certificate Authority",
-  "url": "https://news.ycombinator.com/item?id=50192900",
   "action": "discussion"
  }
 ]

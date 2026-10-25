@@ -66,6 +66,68 @@
         "hf": null,
         "master": null
       }
+    },
+    {
+      "revision": "9347686f6bb3bffc60e9417544d838c6ff74d6f7",
+      "captured_at": "2026-10-25T09:55:18Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/inclusionAI/Ling-3.0-tiny-UBTree?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"751-tjN3owCz9KmKPc9th/VPwTRvxFo\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "mit",
+        "file": null,
+        "sha256": null,
+        "redistributable": null,
+        "obligations": []
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1582,
+          "sha256": "4c40d40601e179b78a63bcce7d7fd853960708fcee7b9994d1f83b82f3269bba",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 5335,
+          "sha256": "d71a541e676bad100f2df9ca6f928d69c462e0515071f155c870d5a48e4295e6",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/ubtree_pipeline.png",
+          "size": 230591,
+          "sha256": "3233e0c7a3d9be0edf8e93a303f662a97d0b5f6eb92fa4fe3857eca11a4225e7",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 2359,
+          "sha256": "f646b678e93ef88fb92179977c884ab7c88487e2770804f01486cf2f9eaa35e9",
+          "kind": "snapshot"
+        },
+        {
+          "path": "model.safetensors",
+          "size": 366261868,
+          "sha256": null,
+          "kind": "weights"
+        }
+      ],
+      "total_bytes": 366501735,
+      "weight_bytes": 366261868,
+      "snapshot_dir": "snapshots/inclusionAI/Ling-3.0-tiny-UBTree/9347686f6bb3bffc60e9417544d838c6ff74d6f7/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
     }
   ],
   "errata": [],
