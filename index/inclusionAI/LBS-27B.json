@@ -1,0 +1,180 @@
+{
+  "repo_id": "inclusionAI/LBS-27B",
+  "canonical_org": "inclusionAI",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "e6ab883fa2b1d2579bf2616d38b6989b4af0333d",
+      "captured_at": "2026-10-26T14:35:03Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/inclusionAI/LBS-27B?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"38c6-B8VzLQ2Ew6Xb1XEZNNE3E9+BzD0\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "apache-2.0",
+        "file": null,
+        "sha256": null,
+        "redistributable": true,
+        "obligations": [],
+        "freedom": "free",
+        "freedom_note": "apache-2.0 declared via card metadata (fingerprinted in snapshot); upstream ships no separate LICENSE file"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1570,
+          "sha256": "34448b82c17d60fec9b65b1f093c115ddbaadc04beb1b0140b6bfed2e012a930",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 3799,
+          "sha256": "50447947aa045c37a8fdf87153f7a3e9cf89220dfcbb4e2cdf99747619b44fa4",
+          "kind": "snapshot"
+        },
+        {
+          "path": "chat_template.jinja",
+          "size": 8952,
+          "sha256": "c3cf9e34abf4f9e36c2d72165aa9c132d3e2a725b6c2586aaa3a8af9d7a81041",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 3812,
+          "sha256": "862b1853a3cde5eadd256e31165a2e591281e16dcccc07cb47ad573f56117cb4",
+          "kind": "snapshot"
+        },
+        {
+          "path": "generation_config.json",
+          "size": 214,
+          "sha256": "d0d0ed2e37cdfafef4a5067d5ea2407b05f4fb50526e47c008a5b235d50240fb",
+          "kind": "snapshot"
+        },
+        {
+          "path": "model-00001-of-00012.safetensors",
+          "size": 2542796928,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00002-of-00012.safetensors",
+          "size": 4842451920,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00003-of-00012.safetensors",
+          "size": 4965227944,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00004-of-00012.safetensors",
+          "size": 4912819264,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00005-of-00012.safetensors",
+          "size": 4986198544,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00006-of-00012.safetensors",
+          "size": 4912819320,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00007-of-00012.safetensors",
+          "size": 4932703272,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00008-of-00012.safetensors",
+          "size": 4966314576,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00009-of-00012.safetensors",
+          "size": 4964162248,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00010-of-00012.safetensors",
+          "size": 4933789824,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00011-of-00012.safetensors",
+          "size": 4965228032,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00012-of-00012.safetensors",
+          "size": 2789094896,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model.safetensors.index.json",
+          "size": 111106,
+          "sha256": "59b522002ebf8580a76bb742173ec5eab880b319e1f60a8f8fe3eed8f3cb275e",
+          "kind": "snapshot"
+        },
+        {
+          "path": "preprocessor_config.json",
+          "size": 390,
+          "sha256": "27225450ac9c6529872ee1924fcb0962ff5634834f817040f444118116f4e516",
+          "kind": "snapshot"
+        },
+        {
+          "path": "processor_config.json",
+          "size": 1191,
+          "sha256": "d89ef49ce9cd37fbf510158e13c1ef063d9286411c1ec9049932dbe0487143b1",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer.json",
+          "size": 19989325,
+          "sha256": "06b9509352d2af50381ab2247e083b80d32d5c0aba91c272ca9ff729b6a0e523",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 1165,
+          "sha256": "792fa3f0cb88b111e54ef3134c873531008c4df471d108da17903426e308aa7b",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 54733728292,
+      "weight_bytes": 54713606768,
+      "snapshot_dir": "snapshots/inclusionAI/LBS-27B/e6ab883fa2b1d2579bf2616d38b6989b4af0333d/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

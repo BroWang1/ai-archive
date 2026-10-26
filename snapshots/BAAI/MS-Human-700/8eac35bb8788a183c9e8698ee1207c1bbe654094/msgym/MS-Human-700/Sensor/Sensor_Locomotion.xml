@@ -1,0 +1,17 @@
+<mujoco>
+  <sensor>
+    <touch name="calcn_touch_1_r" site="calcn_touch_1_r" />
+    <touch name="calcn_touch_2_r" site="calcn_touch_2_r" />
+    <touch name="calcn_touch_3_r" site="calcn_touch_3_r" />
+    <touch name="toes_touch_1_r" site="toes_touch_1_r" />
+    <touch name="toes_touch_2_r" site="toes_touch_2_r" />
+    <touch name="calcn_touch_1_l" site="calcn_touch_1_l" />
+    <touch name="calcn_touch_2_l" site="calcn_touch_2_l" />
+    <touch name="calcn_touch_3_l" site="calcn_touch_3_l" />
+    <touch name="toes_touch_1_l" site="toes_touch_1_l" />
+    <touch name="toes_touch_2_l" site="toes_touch_2_l" />
+    <accelerometer name="accelerometer" site="skull_sensor" />
+    <gyro name="gyro" site="skull_sensor" />
+    <velocimeter name="velocimeter" site="skull_sensor" />
+  </sensor>
+</mujoco>

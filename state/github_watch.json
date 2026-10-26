@@ -74,7 +74,8 @@
       "QwenLM/Qwen-Image-2.1",
       "QwenLM/Qwen-Live-Harness",
       "QwenLM/D2K-Bench",
-      "QwenLM/BlenderWorld"
+      "QwenLM/BlenderWorld",
+      "QwenLM/BabelArena"
     ],
     "zai-org": [
       "zai-org/zcode-plugins",
@@ -178,7 +179,9 @@
       "Tencent-Hunyuan/OmniCapBench",
       "Tencent-Hunyuan/HYDRA",
       "Tencent-Hunyuan/Hy-Memory",
-      "Tencent-Hunyuan/DiagSafe"
+      "Tencent-Hunyuan/DiagSafe",
+      "Tencent-Hunyuan/Hy-SimulMT",
+      "Tencent-Hunyuan/Hy-Nomas"
     ],
     "Wan-Video": [
       "Wan-Video/Wan-Animate-2",
@@ -295,7 +298,8 @@
       "OpenBMB/Trident",
       "OpenBMB/T2Mem",
       "OpenBMB/llama.cpp-omni",
-      "OpenBMB/SPARK"
+      "OpenBMB/SPARK",
+      "OpenBMB/JustGoal"
     ],
     "stepfun-ai": [
       "stepfun-ai/Step-Realtime-CLI",
@@ -968,8 +972,28 @@
       "id": "vllm-project/vllm-torchtpu",
       "at": "2026-10-22T13:12:17Z",
       "desc": ""
+    },
+    {
+      "id": "QwenLM/BabelArena",
+      "at": "2026-10-26T14:36:47Z",
+      "desc": ""
+    },
+    {
+      "id": "Tencent-Hunyuan/Hy-SimulMT",
+      "at": "2026-10-26T14:36:47Z",
+      "desc": ""
+    },
+    {
+      "id": "Tencent-Hunyuan/Hy-Nomas",
+      "at": "2026-10-26T14:36:47Z",
+      "desc": "Hy-Nomas: Towards Free-form Interactive World Generation"
+    },
+    {
+      "id": "OpenBMB/JustGoal",
+      "at": "2026-10-26T14:36:47Z",
+      "desc": ""
     }
   ],
   "first_run_done": true,
-  "last_run": "2026-10-22T13:12:17Z"
+  "last_run": "2026-10-26T14:36:47Z"
 }

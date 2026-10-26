@@ -187,7 +187,26 @@
     "http://arxiv.org/abs/2610.29563",
     "http://arxiv.org/abs/2610.23953",
     "http://arxiv.org/abs/2610.23868",
-    "http://arxiv.org/abs/2610.27581"
+    "http://arxiv.org/abs/2610.27581",
+    "http://arxiv.org/abs/2610.32813",
+    "http://arxiv.org/abs/2610.32665",
+    "http://arxiv.org/abs/2610.32483",
+    "http://arxiv.org/abs/2610.32113",
+    "http://arxiv.org/abs/2610.32057",
+    "http://arxiv.org/abs/2610.32951",
+    "http://arxiv.org/abs/2610.32874",
+    "http://arxiv.org/abs/2610.32575",
+    "http://arxiv.org/abs/2610.32318",
+    "http://arxiv.org/abs/2610.32127",
+    "http://arxiv.org/abs/2610.32155",
+    "http://arxiv.org/abs/2610.30888",
+    "http://arxiv.org/abs/2610.30858",
+    "http://arxiv.org/abs/2610.30467",
+    "http://arxiv.org/abs/2610.32735",
+    "http://arxiv.org/abs/2610.32546",
+    "http://arxiv.org/abs/2610.32339",
+    "http://arxiv.org/abs/2610.32233",
+    "http://arxiv.org/abs/2610.31603"
   ],
   "hn_seen": [
     "49735410",
@@ -362,7 +381,18 @@
     "50192900",
     "50183280",
     "50176908",
-    "50167583"
+    "50167583",
+    "50238620",
+    "50228167",
+    "50213337",
+    "50212246",
+    "50212065",
+    "50236102",
+    "50235316",
+    "50233828",
+    "50233779",
+    "50233929",
+    "50180257"
   ],
   "log": [
     {
@@ -2122,8 +2152,188 @@
       "at": "2026-10-22T13:12:28Z",
       "text": "HN front-page (52 pts): Launch HN: Respan (YC W24) \u2013 Open-source Rust AI gateway built around plugins",
       "url": "https://news.ycombinator.com/item?id=50167583"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-10-26T14:37:01Z",
+      "text": "New paper mentioning DeepSeek: HarnessMM: Recursive Self-Improvement for Harness Token Efficiency",
+      "url": "http://arxiv.org/abs/2610.32813"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-10-26T14:37:01Z",
+      "text": "New paper mentioning DeepSeek: Do Language Models Trust Their Own Justifications? A Study on Functional Consistency",
+      "url": "http://arxiv.org/abs/2610.32665"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-10-26T14:37:01Z",
+      "text": "New paper mentioning DeepSeek: When Agents Fail: Model or Harness--Who's to Blame?",
+      "url": "http://arxiv.org/abs/2610.32483"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-10-26T14:37:01Z",
+      "text": "New paper mentioning DeepSeek: REACT: Representational Early Analysis and Control of Chain-of-Thought Trajectories",
+      "url": "http://arxiv.org/abs/2610.32113"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-10-26T14:37:01Z",
+      "text": "New paper mentioning DeepSeek: HyScale: Scaling Long-Context Training for Learned Sparse Attention",
+      "url": "http://arxiv.org/abs/2610.32057"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-10-26T14:37:01Z",
+      "text": "New paper mentioning Qwen: Where Rounding Happens Matters: Rounding-Location Alignment Stabilizes LLM Reinforcement Learning",
+      "url": "http://arxiv.org/abs/2610.32951"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-10-26T14:37:01Z",
+      "text": "New paper mentioning Qwen: Do \"True\" and \"False\" Add Up to One? Complement Consistency in LLM-Agent Opinion Simulations",
+      "url": "http://arxiv.org/abs/2610.32874"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-10-26T14:37:01Z",
+      "text": "New paper mentioning Qwen: PHYRD: A Living Benchmark for Reproducing and Extending Theoretical Physics Research",
+      "url": "http://arxiv.org/abs/2610.32575"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-10-26T14:37:01Z",
+      "text": "New paper mentioning Qwen: System One models Are Not Better Rerankers",
+      "url": "http://arxiv.org/abs/2610.32318"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-10-26T14:37:01Z",
+      "text": "New paper mentioning Qwen: MPQ: A Message-Passing View of Post-Training Quantization",
+      "url": "http://arxiv.org/abs/2610.32127"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-10-26T14:37:01Z",
+      "text": "HN front-page (69 pts): Microsoft Decision-1: 9B Qwen Model Launch Explained",
+      "url": "https://news.ycombinator.com/item?id=50238620"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-10-26T14:37:01Z",
+      "text": "HN front-page (184 pts): Five Qwen3.8-27B models match Fable 5 Using GVS5H Harness",
+      "url": "https://news.ycombinator.com/item?id=50228167"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-10-26T14:37:01Z",
+      "text": "HN front-page (120 pts): Kimi K3.1 scores 55 on Artificial Analysis, placed on the Pareto line",
+      "url": "https://news.ycombinator.com/item?id=50213337"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-10-26T14:37:01Z",
+      "text": "HN front-page (60 pts): Kimi K3.1 Pro",
+      "url": "https://news.ycombinator.com/item?id=50212246"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-10-26T14:37:01Z",
+      "text": "HN front-page (1086 pts): Kimi K3.1 Pro and K3.1 Pro Highspeed",
+      "url": "https://news.ycombinator.com/item?id=50212065"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-10-26T14:37:01Z",
+      "text": "New paper mentioning GLM-: Detecting Insecure Compositions of Clean Agent Skills via Capability-Flow Graph Analysis",
+      "url": "http://arxiv.org/abs/2610.32155"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-10-26T14:37:01Z",
+      "text": "New paper mentioning GLM-: Building Presentation Intelligence for High-Quality Slide Generation",
+      "url": "http://arxiv.org/abs/2610.30888"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-10-26T14:37:01Z",
+      "text": "New paper mentioning GLM-: Joules-to-GDP: How Much Economic Value Do AI Systems Produce per Unit of Energy?",
+      "url": "http://arxiv.org/abs/2610.30858"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-10-26T14:37:01Z",
+      "text": "New paper mentioning GLM-: A Bayesian Copula Dirichlet Process GLM for Longitudinal Data",
+      "url": "http://arxiv.org/abs/2610.30467"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-10-26T14:37:01Z",
+      "text": "HN front-page (381 pts): OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
+      "url": "https://news.ycombinator.com/item?id=50236102"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-10-26T14:37:01Z",
+      "text": "HN front-page (79 pts): Eunice is almost here",
+      "url": "https://news.ycombinator.com/item?id=50235316"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-10-26T14:37:01Z",
+      "text": "HN front-page (63 pts): Scientists rediscover how to make ancient Roman colour-changing glass",
+      "url": "https://news.ycombinator.com/item?id=50233828"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-10-26T14:37:01Z",
+      "text": "HN front-page (626 pts): A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
+      "url": "https://news.ycombinator.com/item?id=50233779"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-10-26T14:37:01Z",
+      "text": "New paper mentioning MiniMax: Optimal Treatment Assignment Rules on Networked Populations",
+      "url": "http://arxiv.org/abs/2610.32735"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-10-26T14:37:01Z",
+      "text": "New paper mentioning MiniMax: Exact Global Minimax Risk near Nonidentification",
+      "url": "http://arxiv.org/abs/2610.32546"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-10-26T14:37:01Z",
+      "text": "New paper mentioning MiniMax: Optimal Multiclass Online Regret with Arbitrary Label Spaces",
+      "url": "http://arxiv.org/abs/2610.32339"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-10-26T14:37:01Z",
+      "text": "New paper mentioning MiniMax: TileShare: Training-Free Acceleration of Overlapping Tiled ViT Decoding",
+      "url": "http://arxiv.org/abs/2610.32233"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-10-26T14:37:01Z",
+      "text": "New paper mentioning MiniMax: Is Spectral Self-Supervised Learning a Minimax Optimal Method of Density Ratio Estimation?",
+      "url": "http://arxiv.org/abs/2610.31603"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-10-26T14:37:01Z",
+      "text": "HN front-page (520 pts): I refuse to accept a censored Internet. Join Me at FOSDEM 27",
+      "url": "https://news.ycombinator.com/item?id=50233929"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-10-26T14:37:01Z",
+      "text": "HN front-page (126 pts): Show HN: Uberblok \u2013 an interactive museum of ZFS internals",
+      "url": "https://news.ycombinator.com/item?id=50180257"
     }
   ],
   "first_run_done": true,
-  "last_run": "2026-10-22T13:12:28Z"
+  "last_run": "2026-10-26T14:37:01Z"
 }

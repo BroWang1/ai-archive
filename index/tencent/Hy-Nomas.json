@@ -1,0 +1,330 @@
+{
+  "repo_id": "tencent/Hy-Nomas",
+  "canonical_org": "tencent",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "c67f2c52b3fbe0193cbc202769bbe5cb7264807b",
+      "captured_at": "2026-10-26T14:34:12Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/tencent/Hy-Nomas?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"26d9-cNMPD/PvhGIAhl1IEH5asrbUR6A\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "apache-2.0",
+        "file": "LICENSE",
+        "sha256": "77b312c08eba7bdf107ab6532abadd8e3a758fcd3d56dbed2580d7872e767d8e",
+        "redistributable": true,
+        "obligations": [],
+        "freedom": "free",
+        "freedom_note": "apache-2.0 with LICENSE file verified in snapshot"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1708,
+          "sha256": "68a00e59ecdfe782194cda4e209a21fa21884d851547798e39996ac3baf0322d",
+          "kind": "snapshot"
+        },
+        {
+          "path": "DiT/base_ar/diffusion_pytorch_model_fp32.safetensors",
+          "size": 34213991280,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "DiT/distilled/diffusion_pytorch_model_ema_0_995.safetensors",
+          "size": 34213991280,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "DiT/distilled_int8/diffusion_pytorch_model_ema_0_995_int8.safetensors",
+          "size": 9059126120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "DiT/lora_weights/cinematic/adapter.safetensors",
+          "size": 6122591632,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "DiT/lora_weights/cinematic/adapter_config.json",
+          "size": 704,
+          "sha256": "f656c2866953e7a90a785a5c51ce127a79ea61c4217ef30e3cd2d69afcd3d998",
+          "kind": "snapshot"
+        },
+        {
+          "path": "DiT/lora_weights/dual_arm_robotics/adapter.safetensors",
+          "size": 12244965688,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "DiT/lora_weights/dual_arm_robotics/adapter_config.json",
+          "size": 704,
+          "sha256": "26204f70454772c96d955e28bd2625b32d9747b5e16a0aa128a55cde490c5fdb",
+          "kind": "snapshot"
+        },
+        {
+          "path": "LICENSE",
+          "size": 106364,
+          "sha256": "77b312c08eba7bdf107ab6532abadd8e3a758fcd3d56dbed2580d7872e767d8e",
+          "kind": "snapshot"
+        },
+        {
+          "path": "PE/chat_template.jinja",
+          "size": 8952,
+          "sha256": "c3cf9e34abf4f9e36c2d72165aa9c132d3e2a725b6c2586aaa3a8af9d7a81041",
+          "kind": "snapshot"
+        },
+        {
+          "path": "PE/config.json",
+          "size": 3657,
+          "sha256": "d08c8d15c60fd509f7f113314735109163d199c170633e83b2541dbc6abc6b52",
+          "kind": "snapshot"
+        },
+        {
+          "path": "PE/generation_config.json",
+          "size": 242,
+          "sha256": "658e2680a95a498fd516fd07fcf800815b775239defec874e4f12a792575dee6",
+          "kind": "snapshot"
+        },
+        {
+          "path": "PE/model-00001-of-00018.safetensors",
+          "size": 3966730520,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "PE/model-00002-of-00018.safetensors",
+          "size": 3043080296,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "PE/model-00003-of-00018.safetensors",
+          "size": 2542796928,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "PE/model-00004-of-00018.safetensors",
+          "size": 3988973120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "PE/model-00005-of-00018.safetensors",
+          "size": 2099339832,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "PE/model-00006-of-00018.safetensors",
+          "size": 3979553664,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "PE/model-00007-of-00018.safetensors",
+          "size": 2108759312,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "PE/model-00008-of-00018.safetensors",
+          "size": 3979553664,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "PE/model-00009-of-00018.safetensors",
+          "size": 2108759312,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "PE/model-00010-of-00018.safetensors",
+          "size": 3979553664,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "PE/model-00011-of-00018.safetensors",
+          "size": 2108759312,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "PE/model-00012-of-00018.safetensors",
+          "size": 3979553664,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "PE/model-00013-of-00018.safetensors",
+          "size": 2108759312,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "PE/model-00014-of-00018.safetensors",
+          "size": 3979553664,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "PE/model-00015-of-00018.safetensors",
+          "size": 2108759312,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "PE/model-00016-of-00018.safetensors",
+          "size": 3979564008,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "PE/model-00017-of-00018.safetensors",
+          "size": 2108759312,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "PE/model-00018-of-00018.safetensors",
+          "size": 3392197320,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "PE/model.safetensors.index.json",
+          "size": 117023,
+          "sha256": "77f88de8c0ff2b854855aae40d563d49582ae0f8fd4157b581df0195d86967df",
+          "kind": "snapshot"
+        },
+        {
+          "path": "PE/preprocessor_config.json",
+          "size": 482,
+          "sha256": "957eb01d1ea45341a92d543daec95857a7cbeff5803834bc0603b27ba7b41b3f",
+          "kind": "snapshot"
+        },
+        {
+          "path": "PE/processor_config.json",
+          "size": 1300,
+          "sha256": "14932921ca485d458a04dafd8069fbb0a4505622a48208d19ed247115801385b",
+          "kind": "snapshot"
+        },
+        {
+          "path": "PE/tokenizer.json",
+          "size": 19989343,
+          "sha256": "87a7830d63fcf43bf241c3c5242e96e62dd3fdc29224ca26fed8ea333db72de4",
+          "kind": "snapshot"
+        },
+        {
+          "path": "PE/tokenizer_config.json",
+          "size": 1139,
+          "sha256": "e98f1901ac6f0adff67b1d540bfa0c36ac1a0cf59eb72ed78146ef89aafa1182",
+          "kind": "snapshot"
+        },
+        {
+          "path": "PE/video_preprocessor_config.json",
+          "size": 385,
+          "sha256": "7768af27c1fafa9cc9011c1dc20067e03f8915e03b63504550e11d5066986d13",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 23204,
+          "sha256": "f9bdec13b4b7e2e37c507c8e2ef9f2c257d7b159ab0b21f0334c9bad138737c5",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README_CN.md",
+          "size": 21532,
+          "sha256": "a8cc97cf7e43caa710a21b9136c0fdd3870b2e33d8115fbae916341328f7e2e5",
+          "kind": "snapshot"
+        },
+        {
+          "path": "VAE/DCAE-V/dc-ae-v-1.0-f32t4c32-bf16.pt",
+          "size": 4277389995,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "VAE/PixelUMM_FT/diffusion_pytorch_model.safetensors",
+          "size": 31553868864,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "VAE/PixelUMM_FT_FP8/diffusion_pytorch_model_fp8.safetensors",
+          "size": 9134846208,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "assets/logo-en.png",
+          "size": 65860,
+          "sha256": "0cd56e2438d4c91a5d529b3102f800de5f17c768f73caaf4848a864e7b741080",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/logo-zh.png",
+          "size": 69906,
+          "sha256": "1e9a9aea04658439e1af23db01c4cd2c6c6765fd1efd1a594c7ffdd312f31bb6",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/method_framework_h.png",
+          "size": 249764,
+          "sha256": "9f5078c0c14169193c5a7a33b3865ef9cdce905401ec4e37f4d9b7857a7aef37",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/method_framework_h_cn.png",
+          "size": 253841,
+          "sha256": "0927c8c7d9983e1605d68b4d9a887b4f626400f77d020e337ac53da0d295d10c",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 3,
+          "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+          "kind": "snapshot"
+        },
+        {
+          "path": "examples/prompts.json",
+          "size": 1097,
+          "sha256": "16b9b91de8f02b2e0554ad2d289768df5e71b5c16e30c60485a0f155994a3371",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 196404694493,
+      "weight_bytes": 196383777283,
+      "snapshot_dir": "snapshots/tencent/Hy-Nomas/c67f2c52b3fbe0193cbc202769bbe5cb7264807b/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

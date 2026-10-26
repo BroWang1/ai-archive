@@ -156,9 +156,28 @@
     "unsloth/flint-GGUF",
     "unsloth/DeepSeek-V4.1-Flash-1017-GGUF",
     "nvidia/GLM-5.3-Flash-FP4-Local",
-    "FastVideo/FastH3-Omni-Comfy"
+    "FastVideo/FastH3-Omni-Comfy",
+    "RecursiveSI/flint",
+    "Nanbeige/Nanbeige4.3-33B",
+    "XHToken/Spark-X2.6-4B",
+    "ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
+    "InternScience/Sage-A1.5",
+    "orcarouter/DeepSeek-V4.1-Flash-1017-abliterated-GGUF",
+    "HuggingFaceBio/Carbon-X",
+    "KRAFTON/Raon-1-mini-preview",
+    "briaai/Fibo-2.0-dev",
+    "XHToken/Spark-X2.6-4B-GGUF",
+    "nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB",
+    "MemTensor/MemT-1.0-Nano",
+    "briaai/Fibo-2.0-edit-turbo",
+    "ttindall/Qwen3.8-27B-Defiance-Uncensored-MTP-GGUF",
+    "unsloth/NVIDIA-Nemotron-3.5-Bolt-E4B-GGUF",
+    "gradium/phonon-31m-en",
+    "LiconStudio/Minimax-H3-VBVR",
+    "vllm-sr/d3-turbo",
+    "MemTensor/MemT-1.0-Flash"
   ],
-  "last_run": "2026-10-22T13:12:17Z",
+  "last_run": "2026-10-26T14:36:47Z",
   "log": [
     {
       "id": "prism-ml/Ternary-Bonsai-2-27B-gguf",
@@ -754,6 +773,101 @@
       "id": "FastVideo/FastH3-Omni-Comfy",
       "at": "2026-10-22T13:12:17Z",
       "downloads": 63092
+    },
+    {
+      "id": "RecursiveSI/flint",
+      "at": "2026-10-26T14:36:47Z",
+      "downloads": 8470
+    },
+    {
+      "id": "Nanbeige/Nanbeige4.3-33B",
+      "at": "2026-10-26T14:36:47Z",
+      "downloads": 2787
+    },
+    {
+      "id": "XHToken/Spark-X2.6-4B",
+      "at": "2026-10-26T14:36:47Z",
+      "downloads": 4726
+    },
+    {
+      "id": "ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
+      "at": "2026-10-26T14:36:47Z",
+      "downloads": 891147
+    },
+    {
+      "id": "InternScience/Sage-A1.5",
+      "at": "2026-10-26T14:36:47Z",
+      "downloads": 5235
+    },
+    {
+      "id": "orcarouter/DeepSeek-V4.1-Flash-1017-abliterated-GGUF",
+      "at": "2026-10-26T14:36:47Z",
+      "downloads": 9022
+    },
+    {
+      "id": "HuggingFaceBio/Carbon-X",
+      "at": "2026-10-26T14:36:47Z",
+      "downloads": 1128
+    },
+    {
+      "id": "KRAFTON/Raon-1-mini-preview",
+      "at": "2026-10-26T14:36:47Z",
+      "downloads": 1450
+    },
+    {
+      "id": "briaai/Fibo-2.0-dev",
+      "at": "2026-10-26T14:36:47Z",
+      "downloads": 1267
+    },
+    {
+      "id": "XHToken/Spark-X2.6-4B-GGUF",
+      "at": "2026-10-26T14:36:47Z",
+      "downloads": 69669
+    },
+    {
+      "id": "nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB",
+      "at": "2026-10-26T14:36:47Z",
+      "downloads": 35608
+    },
+    {
+      "id": "MemTensor/MemT-1.0-Nano",
+      "at": "2026-10-26T14:36:47Z",
+      "downloads": 30338
+    },
+    {
+      "id": "briaai/Fibo-2.0-edit-turbo",
+      "at": "2026-10-26T14:36:47Z",
+      "downloads": 1083
+    },
+    {
+      "id": "ttindall/Qwen3.8-27B-Defiance-Uncensored-MTP-GGUF",
+      "at": "2026-10-26T14:36:47Z",
+      "downloads": 67672
+    },
+    {
+      "id": "unsloth/NVIDIA-Nemotron-3.5-Bolt-E4B-GGUF",
+      "at": "2026-10-26T14:36:47Z",
+      "downloads": 56882
+    },
+    {
+      "id": "gradium/phonon-31m-en",
+      "at": "2026-10-26T14:36:47Z",
+      "downloads": 39470
+    },
+    {
+      "id": "LiconStudio/Minimax-H3-VBVR",
+      "at": "2026-10-26T14:36:47Z",
+      "downloads": 3869
+    },
+    {
+      "id": "vllm-sr/d3-turbo",
+      "at": "2026-10-26T14:36:47Z",
+      "downloads": 1712
+    },
+    {
+      "id": "MemTensor/MemT-1.0-Flash",
+      "at": "2026-10-26T14:36:47Z",
+      "downloads": 32706
     }
   ]
 }

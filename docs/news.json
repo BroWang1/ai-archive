@@ -1,282 +1,282 @@
 [
  {
-  "at": "2026-10-25T09:55:18Z",
-  "kind": "capture",
-  "text": "Captured inclusionAI/Ling-3.0-tiny-UBTree \u2014 0 GB manifested, license: unclassified",
-  "url": "https://huggingface.co/inclusionAI/Ling-3.0-tiny-UBTree",
-  "action": "view / download"
- },
- {
-  "at": "2026-10-23T10:24:33Z",
-  "kind": "capture",
-  "text": "Captured internlm/Intern-Decision-0.8B \u2014 2 GB manifested, license: unclassified",
-  "url": "https://huggingface.co/internlm/Intern-Decision-0.8B",
-  "action": "view / download"
- },
- {
-  "at": "2026-10-23T10:19:24Z",
-  "kind": "capture",
-  "text": "Captured inclusionAI/Ling-3.0-flash-UBTree \u2014 1 GB manifested, license: unclassified",
-  "url": "https://huggingface.co/inclusionAI/Ling-3.0-flash-UBTree",
-  "action": "view / download"
- },
- {
-  "at": "2026-10-22T13:12:28Z",
+  "at": "2026-10-26T14:37:01Z",
   "kind": "paper",
-  "text": "New paper mentioning DeepSeek: SPARE: Sparsity Allocation via Routing Entropy for Efficient MoEs",
-  "url": "http://arxiv.org/abs/2610.29662",
+  "text": "New paper mentioning DeepSeek: HarnessMM: Recursive Self-Improvement for Harness Token Efficiency",
+  "url": "http://arxiv.org/abs/2610.32813",
   "action": "read"
  },
  {
-  "at": "2026-10-22T13:12:28Z",
+  "at": "2026-10-26T14:37:01Z",
   "kind": "paper",
-  "text": "New paper mentioning DeepSeek: Who Verifies the Agent's Success Claim? Self-Report Leakage in GUI-Agent Completion Judging",
-  "url": "http://arxiv.org/abs/2610.29609",
+  "text": "New paper mentioning DeepSeek: Do Language Models Trust Their Own Justifications? A Study on Functional Consistency",
+  "url": "http://arxiv.org/abs/2610.32665",
   "action": "read"
  },
  {
-  "at": "2026-10-22T13:12:28Z",
+  "at": "2026-10-26T14:37:01Z",
   "kind": "paper",
-  "text": "New paper mentioning DeepSeek: Compressing Onboard Language Models for Space Robots under a Behavioral-Fidelity Requirement",
-  "url": "http://arxiv.org/abs/2610.29302",
+  "text": "New paper mentioning DeepSeek: When Agents Fail: Model or Harness--Who's to Blame?",
+  "url": "http://arxiv.org/abs/2610.32483",
   "action": "read"
  },
  {
-  "at": "2026-10-22T13:12:28Z",
+  "at": "2026-10-26T14:37:01Z",
   "kind": "paper",
-  "text": "New paper mentioning DeepSeek: Correlated Failures of AI Approval Monitors",
-  "url": "http://arxiv.org/abs/2610.29178",
+  "text": "New paper mentioning DeepSeek: REACT: Representational Early Analysis and Control of Chain-of-Thought Trajectories",
+  "url": "http://arxiv.org/abs/2610.32113",
   "action": "read"
  },
  {
-  "at": "2026-10-22T13:12:28Z",
+  "at": "2026-10-26T14:37:01Z",
   "kind": "paper",
-  "text": "New paper mentioning DeepSeek: When Can LLM Reasoning Reliably Reuse Intermediate Results?",
-  "url": "http://arxiv.org/abs/2610.27662",
+  "text": "New paper mentioning DeepSeek: HyScale: Scaling Long-Context Training for Learned Sparse Attention",
+  "url": "http://arxiv.org/abs/2610.32057",
   "action": "read"
  },
  {
-  "at": "2026-10-22T13:12:28Z",
+  "at": "2026-10-26T14:37:01Z",
+  "kind": "paper",
+  "text": "New paper mentioning Qwen: Where Rounding Happens Matters: Rounding-Location Alignment Stabilizes LLM Reinforcement Learning",
+  "url": "http://arxiv.org/abs/2610.32951",
+  "action": "read"
+ },
+ {
+  "at": "2026-10-26T14:37:01Z",
+  "kind": "paper",
+  "text": "New paper mentioning Qwen: Do \"True\" and \"False\" Add Up to One? Complement Consistency in LLM-Agent Opinion Simulations",
+  "url": "http://arxiv.org/abs/2610.32874",
+  "action": "read"
+ },
+ {
+  "at": "2026-10-26T14:37:01Z",
+  "kind": "paper",
+  "text": "New paper mentioning Qwen: PHYRD: A Living Benchmark for Reproducing and Extending Theoretical Physics Research",
+  "url": "http://arxiv.org/abs/2610.32575",
+  "action": "read"
+ },
+ {
+  "at": "2026-10-26T14:37:01Z",
+  "kind": "paper",
+  "text": "New paper mentioning Qwen: System One models Are Not Better Rerankers",
+  "url": "http://arxiv.org/abs/2610.32318",
+  "action": "read"
+ },
+ {
+  "at": "2026-10-26T14:37:01Z",
+  "kind": "paper",
+  "text": "New paper mentioning Qwen: MPQ: A Message-Passing View of Post-Training Quantization",
+  "url": "http://arxiv.org/abs/2610.32127",
+  "action": "read"
+ },
+ {
+  "at": "2026-10-26T14:37:01Z",
   "kind": "buzz",
-  "text": "HN front-page (2325 pts): DeepInfer: High-performance inference framework for DeepSeek models",
-  "url": "https://news.ycombinator.com/item?id=50163277",
+  "text": "HN front-page (69 pts): Microsoft Decision-1: 9B Qwen Model Launch Explained",
+  "url": "https://news.ycombinator.com/item?id=50238620",
   "action": "discussion"
  },
  {
-  "at": "2026-10-22T13:12:28Z",
+  "at": "2026-10-26T14:37:01Z",
   "kind": "buzz",
-  "text": "HN front-page (66 pts): The US orders every civilian agency to rip out DeepSeek, even tools built on it",
-  "url": "https://news.ycombinator.com/item?id=50156189",
+  "text": "HN front-page (184 pts): Five Qwen3.8-27B models match Fable 5 Using GVS5H Harness",
+  "url": "https://news.ycombinator.com/item?id=50228167",
   "action": "discussion"
  },
  {
-  "at": "2026-10-22T13:12:28Z",
+  "at": "2026-10-26T14:37:01Z",
   "kind": "buzz",
-  "text": "HN front-page (578 pts): DeepSeek banned from U.S. federal civilian agencies under new DHS order",
-  "url": "https://news.ycombinator.com/item?id=50154244",
+  "text": "HN front-page (120 pts): Kimi K3.1 scores 55 on Artificial Analysis, placed on the Pareto line",
+  "url": "https://news.ycombinator.com/item?id=50213337",
   "action": "discussion"
  },
  {
-  "at": "2026-10-22T13:12:28Z",
-  "kind": "paper",
-  "text": "New paper mentioning Qwen: Compaction Laundering: Provenance Destruction in Context-Compacting Coding Agents",
-  "url": "http://arxiv.org/abs/2610.29869",
-  "action": "read"
- },
- {
-  "at": "2026-10-22T13:12:28Z",
-  "kind": "paper",
-  "text": "New paper mentioning Qwen: ALIAS: Evaluating Performance and Memorization in LLM-Written TLA+ Specifications",
-  "url": "http://arxiv.org/abs/2610.29767",
-  "action": "read"
- },
- {
-  "at": "2026-10-22T13:12:28Z",
-  "kind": "paper",
-  "text": "New paper mentioning Qwen: Uncensored Is Not Unbiased: Abliteration Removes Refusals but Not Script-Dependent Bias About Taiwan",
-  "url": "http://arxiv.org/abs/2610.29342",
-  "action": "read"
- },
- {
-  "at": "2026-10-22T13:12:28Z",
-  "kind": "paper",
-  "text": "New paper mentioning Qwen: Encoded but Unused: Bounding the Sources of VLM Errors",
-  "url": "http://arxiv.org/abs/2610.29241",
-  "action": "read"
- },
- {
-  "at": "2026-10-22T13:12:28Z",
+  "at": "2026-10-26T14:37:01Z",
   "kind": "buzz",
-  "text": "HN front-page (92 pts): Show HN: Omnara \u2013 Open-source alternative to Claude Managed Agents",
-  "url": "https://news.ycombinator.com/item?id=50183892",
+  "text": "HN front-page (60 pts): Kimi K3.1 Pro",
+  "url": "https://news.ycombinator.com/item?id=50212246",
   "action": "discussion"
  },
  {
-  "at": "2026-10-22T13:12:28Z",
+  "at": "2026-10-26T14:37:01Z",
   "kind": "buzz",
-  "text": "HN front-page (76 pts): I told people I'm a convicted felon after 20 years of hiding it",
-  "url": "https://news.ycombinator.com/item?id=50182960",
+  "text": "HN front-page (1086 pts): Kimi K3.1 Pro and K3.1 Pro Highspeed",
+  "url": "https://news.ycombinator.com/item?id=50212065",
   "action": "discussion"
  },
  {
-  "at": "2026-10-22T13:12:28Z",
+  "at": "2026-10-26T14:37:01Z",
+  "kind": "paper",
+  "text": "New paper mentioning GLM-: Detecting Insecure Compositions of Clean Agent Skills via Capability-Flow Graph Analysis",
+  "url": "http://arxiv.org/abs/2610.32155",
+  "action": "read"
+ },
+ {
+  "at": "2026-10-26T14:37:01Z",
+  "kind": "paper",
+  "text": "New paper mentioning GLM-: Building Presentation Intelligence for High-Quality Slide Generation",
+  "url": "http://arxiv.org/abs/2610.30888",
+  "action": "read"
+ },
+ {
+  "at": "2026-10-26T14:37:01Z",
+  "kind": "paper",
+  "text": "New paper mentioning GLM-: Joules-to-GDP: How Much Economic Value Do AI Systems Produce per Unit of Energy?",
+  "url": "http://arxiv.org/abs/2610.30858",
+  "action": "read"
+ },
+ {
+  "at": "2026-10-26T14:37:01Z",
+  "kind": "paper",
+  "text": "New paper mentioning GLM-: A Bayesian Copula Dirichlet Process GLM for Longitudinal Data",
+  "url": "http://arxiv.org/abs/2610.30467",
+  "action": "read"
+ },
+ {
+  "at": "2026-10-26T14:37:01Z",
   "kind": "buzz",
-  "text": "HN front-page (241 pts): Qwen3-Coder writes less secure code when told it's for a US persona",
-  "url": "https://news.ycombinator.com/item?id=50179706",
+  "text": "HN front-page (381 pts): OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
+  "url": "https://news.ycombinator.com/item?id=50236102",
   "action": "discussion"
  },
  {
-  "at": "2026-10-22T13:12:28Z",
+  "at": "2026-10-26T14:37:01Z",
   "kind": "buzz",
-  "text": "HN front-page (61 pts): Show HN: I built a task system to handle the drudgery so I could focus on tasks",
-  "url": "https://news.ycombinator.com/item?id=50151980",
+  "text": "HN front-page (79 pts): Eunice is almost here",
+  "url": "https://news.ycombinator.com/item?id=50235316",
   "action": "discussion"
  },
  {
-  "at": "2026-10-22T13:12:28Z",
-  "kind": "paper",
-  "text": "New paper mentioning GLM-: VeriEvolve: Evaluator-First Evolution for Tool-Using Agents",
-  "url": "http://arxiv.org/abs/2610.29005",
-  "action": "read"
- },
- {
-  "at": "2026-10-22T13:12:28Z",
-  "kind": "paper",
-  "text": "New paper mentioning GLM-: DecisionPivot: A Diagnostic Benchmark for Decision Models in LLM Systems",
-  "url": "http://arxiv.org/abs/2610.28522",
-  "action": "read"
- },
- {
-  "at": "2026-10-22T13:12:28Z",
-  "kind": "paper",
-  "text": "New paper mentioning GLM-: Variance estimation for generalized linear regression with binary outcome when using case-cohort data",
-  "url": "http://arxiv.org/abs/2610.27772",
-  "action": "read"
- },
- {
-  "at": "2026-10-22T13:12:28Z",
-  "kind": "paper",
-  "text": "New paper mentioning GLM-: S$^2$-MAS: A Society-Scale Multi-Agent Simulation Framework with 500 Million Household Persona Agents",
-  "url": "http://arxiv.org/abs/2610.27746",
-  "action": "read"
- },
- {
-  "at": "2026-10-22T13:12:28Z",
-  "kind": "paper",
-  "text": "New paper mentioning GLM-: Reconstruction-Optimized Expert Pruning for Mixture-of-Experts Language Models",
-  "url": "http://arxiv.org/abs/2610.27123",
-  "action": "read"
- },
- {
-  "at": "2026-10-22T13:12:28Z",
+  "at": "2026-10-26T14:37:01Z",
   "kind": "buzz",
-  "text": "HN front-page (69 pts): Xbox wants you to pay 24 to 40 cents per hour to stream games you bought",
-  "url": "https://news.ycombinator.com/item?id=50194009",
+  "text": "HN front-page (63 pts): Scientists rediscover how to make ancient Roman colour-changing glass",
+  "url": "https://news.ycombinator.com/item?id=50233828",
   "action": "discussion"
  },
  {
-  "at": "2026-10-22T13:12:28Z",
+  "at": "2026-10-26T14:37:01Z",
   "kind": "buzz",
-  "text": "HN front-page (93 pts): Faster than earcut: triangulating 3.7M map polygons in 489 ms",
-  "url": "https://news.ycombinator.com/item?id=50193170",
+  "text": "HN front-page (626 pts): A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
+  "url": "https://news.ycombinator.com/item?id=50233779",
   "action": "discussion"
  },
  {
-  "at": "2026-10-22T13:12:28Z",
+  "at": "2026-10-26T14:37:01Z",
+  "kind": "paper",
+  "text": "New paper mentioning MiniMax: Optimal Treatment Assignment Rules on Networked Populations",
+  "url": "http://arxiv.org/abs/2610.32735",
+  "action": "read"
+ },
+ {
+  "at": "2026-10-26T14:37:01Z",
+  "kind": "paper",
+  "text": "New paper mentioning MiniMax: Exact Global Minimax Risk near Nonidentification",
+  "url": "http://arxiv.org/abs/2610.32546",
+  "action": "read"
+ },
+ {
+  "at": "2026-10-26T14:37:01Z",
+  "kind": "paper",
+  "text": "New paper mentioning MiniMax: Optimal Multiclass Online Regret with Arbitrary Label Spaces",
+  "url": "http://arxiv.org/abs/2610.32339",
+  "action": "read"
+ },
+ {
+  "at": "2026-10-26T14:37:01Z",
+  "kind": "paper",
+  "text": "New paper mentioning MiniMax: TileShare: Training-Free Acceleration of Overlapping Tiled ViT Decoding",
+  "url": "http://arxiv.org/abs/2610.32233",
+  "action": "read"
+ },
+ {
+  "at": "2026-10-26T14:37:01Z",
+  "kind": "paper",
+  "text": "New paper mentioning MiniMax: Is Spectral Self-Supervised Learning a Minimax Optimal Method of Density Ratio Estimation?",
+  "url": "http://arxiv.org/abs/2610.31603",
+  "action": "read"
+ },
+ {
+  "at": "2026-10-26T14:37:01Z",
   "kind": "buzz",
-  "text": "HN front-page (56 pts): Claude Now Works with Google Docs, Sheets, and Slides",
-  "url": "https://news.ycombinator.com/item?id=50190357",
+  "text": "HN front-page (520 pts): I refuse to accept a censored Internet. Join Me at FOSDEM 27",
+  "url": "https://news.ycombinator.com/item?id=50233929",
   "action": "discussion"
  },
  {
-  "at": "2026-10-22T13:12:28Z",
+  "at": "2026-10-26T14:37:01Z",
   "kind": "buzz",
-  "text": "HN front-page (162 pts): Epic Games Inc v Apple Inc",
-  "url": "https://news.ycombinator.com/item?id=50190168",
+  "text": "HN front-page (126 pts): Show HN: Uberblok \u2013 an interactive museum of ZFS internals",
+  "url": "https://news.ycombinator.com/item?id=50180257",
   "action": "discussion"
  },
  {
-  "at": "2026-10-22T13:12:28Z",
-  "kind": "buzz",
-  "text": "HN front-page (61 pts): CDC Ignored Request from States to Validate a New Measles Test",
-  "url": "https://news.ycombinator.com/item?id=50186842",
-  "action": "discussion"
+  "at": "2026-10-26T14:36:47Z",
+  "kind": "trending",
+  "text": "Trending outside tracked labs: RecursiveSI/flint (8,470 downloads)",
+  "url": "https://huggingface.co/RecursiveSI/flint",
+  "action": "view"
  },
  {
-  "at": "2026-10-22T13:12:28Z",
-  "kind": "paper",
-  "text": "New paper mentioning MiniMax: Self-normalized Bernstein Inequalities for Regenerative Processes and Applications to Learning Without Independence",
-  "url": "http://arxiv.org/abs/2610.30119",
-  "action": "read"
+  "at": "2026-10-26T14:36:47Z",
+  "kind": "trending",
+  "text": "Trending outside tracked labs: Nanbeige/Nanbeige4.3-33B (2,787 downloads)",
+  "url": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B",
+  "action": "view"
  },
  {
-  "at": "2026-10-22T13:12:28Z",
-  "kind": "paper",
-  "text": "New paper mentioning MiniMax: Minimax Optimality of the NPMLE for Gaussian Mixtures in Hellinger Distance",
-  "url": "http://arxiv.org/abs/2610.30109",
-  "action": "read"
+  "at": "2026-10-26T14:36:47Z",
+  "kind": "trending",
+  "text": "Trending outside tracked labs: XHToken/Spark-X2.6-4B (4,726 downloads)",
+  "url": "https://huggingface.co/XHToken/Spark-X2.6-4B",
+  "action": "view"
  },
  {
-  "at": "2026-10-22T13:12:28Z",
-  "kind": "paper",
-  "text": "New paper mentioning MiniMax: The Price of Current-Effect Inference in Nonstationary Multi-Armed Bandits",
-  "url": "http://arxiv.org/abs/2610.29982",
-  "action": "read"
+  "at": "2026-10-26T14:36:47Z",
+  "kind": "trending",
+  "text": "Trending outside tracked labs: ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF (891,147 downloads)",
+  "url": "https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
+  "action": "view"
  },
  {
-  "at": "2026-10-22T13:12:28Z",
-  "kind": "paper",
-  "text": "New paper mentioning MiniMax: Near Minimax Rate for Quantile Distributional Reinforcement Learning",
-  "url": "http://arxiv.org/abs/2610.29595",
-  "action": "read"
+  "at": "2026-10-26T14:36:47Z",
+  "kind": "trending",
+  "text": "Trending outside tracked labs: InternScience/Sage-A1.5 (5,235 downloads)",
+  "url": "https://huggingface.co/InternScience/Sage-A1.5",
+  "action": "view"
  },
  {
-  "at": "2026-10-22T13:12:28Z",
-  "kind": "paper",
-  "text": "New paper mentioning MiniMax: The Conjugacy Problem for Recursively Presented Virtually Soluble Groups of Finite Pr\u00fcfer Rank",
-  "url": "http://arxiv.org/abs/2610.29563",
-  "action": "read"
+  "at": "2026-10-26T14:36:47Z",
+  "kind": "trending",
+  "text": "Trending outside tracked labs: orcarouter/DeepSeek-V4.1-Flash-1017-abliterated-GGUF (9,022 downloads)",
+  "url": "https://huggingface.co/orcarouter/DeepSeek-V4.1-Flash-1017-abliterated-GGUF",
+  "action": "view"
  },
  {
-  "at": "2026-10-22T13:12:28Z",
-  "kind": "buzz",
-  "text": "HN front-page (515 pts): MiniMax M3.1 Flash",
-  "url": "https://news.ycombinator.com/item?id=50154540",
-  "action": "discussion"
+  "at": "2026-10-26T14:36:47Z",
+  "kind": "trending",
+  "text": "Trending outside tracked labs: HuggingFaceBio/Carbon-X (1,128 downloads)",
+  "url": "https://huggingface.co/HuggingFaceBio/Carbon-X",
+  "action": "view"
  },
  {
-  "at": "2026-10-22T13:12:28Z",
-  "kind": "buzz",
-  "text": "HN front-page (352 pts): Krea 3 \u2013 An image model built for editing at scale",
-  "url": "https://news.ycombinator.com/item?id=50105648",
-  "action": "discussion"
+  "at": "2026-10-26T14:36:47Z",
+  "kind": "trending",
+  "text": "Trending outside tracked labs: KRAFTON/Raon-1-mini-preview (1,450 downloads)",
+  "url": "https://huggingface.co/KRAFTON/Raon-1-mini-preview",
+  "action": "view"
  },
  {
-  "at": "2026-10-22T13:12:28Z",
-  "kind": "paper",
-  "text": "New paper mentioning Hunyuan: Functionalizing AI-Generated 3D Shapes via Interior Geometry Construction",
-  "url": "http://arxiv.org/abs/2610.23953",
-  "action": "read"
+  "at": "2026-10-26T14:36:47Z",
+  "kind": "trending",
+  "text": "Trending outside tracked labs: briaai/Fibo-2.0-dev (1,267 downloads)",
+  "url": "https://huggingface.co/briaai/Fibo-2.0-dev",
+  "action": "view"
  },
  {
-  "at": "2026-10-22T13:12:28Z",
-  "kind": "paper",
-  "text": "New paper mentioning Hunyuan: Translating in style: An open-weight alternative to GPT-4 for culturally aligned machine translation",
-  "url": "http://arxiv.org/abs/2610.23868",
-  "action": "read"
- },
- {
-  "at": "2026-10-22T13:12:28Z",
-  "kind": "paper",
-  "text": "New paper mentioning MiniCPM: DuplexLedger: Benchmarking Transactional Memory in Full-Duplex Speech Agents",
-  "url": "http://arxiv.org/abs/2610.27581",
-  "action": "read"
- },
- {
-  "at": "2026-10-22T13:12:28Z",
-  "kind": "buzz",
-  "text": "HN front-page (145 pts): Paper Tape Is All You Need \u2013 Training a Transformer on a 1976 Minicomputer",
-  "url": "https://news.ycombinator.com/item?id=47518568",
-  "action": "discussion"
+  "at": "2026-10-26T14:36:47Z",
+  "kind": "trending",
+  "text": "Trending outside tracked labs: XHToken/Spark-X2.6-4B-GGUF (69,669 downloads)",
+  "url": "https://huggingface.co/XHToken/Spark-X2.6-4B-GGUF",
+  "action": "view"
  }
 ]

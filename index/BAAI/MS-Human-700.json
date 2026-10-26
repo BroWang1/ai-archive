@@ -1,0 +1,1632 @@
+{
+  "repo_id": "BAAI/MS-Human-700",
+  "canonical_org": "BAAI",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "8eac35bb8788a183c9e8698ee1207c1bbe654094",
+      "captured_at": "2026-10-26T14:35:13Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/BAAI/MS-Human-700?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"a479-5ApdW8H+c8Ud9194H7W4KD1HKf0\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "apache-2.0",
+        "file": "msgym/MS-Human-700/LICENSE",
+        "sha256": "1eb85fc97224598dad1852b5d6483bbcf0aa8608790dcc657a5a2a761ae9c8c6",
+        "redistributable": true,
+        "obligations": [],
+        "freedom": "free",
+        "freedom_note": "apache-2.0 with LICENSE file verified in snapshot"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 7332,
+          "sha256": "c516eba23627c453c1d0c1ff45086d90caaaab71aeaa96bbac313b219f77d89c",
+          "kind": "snapshot"
+        },
+        {
+          "path": "DynSyn-SAC/DynSyn/DynSynLayer.py",
+          "size": 3557,
+          "sha256": "04806ffbea35119db4fc72f22dc7a3d0ee7de6acbbc27b6f93d63b4e061a8cee",
+          "kind": "snapshot"
+        },
+        {
+          "path": "DynSyn-SAC/DynSyn/SAC_DynSyn.py",
+          "size": 8464,
+          "sha256": "939a46472f9b18faa31c092ef71c098176c2e3c272fa45b3f64879fcf34d163c",
+          "kind": "snapshot"
+        },
+        {
+          "path": "DynSyn-SAC/DynSyn/__init__.py",
+          "size": 70,
+          "sha256": "e16dff43b0cb82de3c1df946bc0d8cef1a402e5a082d47c7836aaaf7b4ddaf5a",
+          "kind": "snapshot"
+        },
+        {
+          "path": "DynSyn-SAC/DynSyn/vision_policy.py",
+          "size": 4667,
+          "sha256": "c3295af78ea142aece9a0db69d7ab2c73e8af085a495f7f2e935bfbbc63dffdf",
+          "kind": "snapshot"
+        },
+        {
+          "path": "DynSyn-SAC/SB3-Scripts/callback.py",
+          "size": 7254,
+          "sha256": "3b04bbde72a13e6fd0f29a7e57dd25948d250d13b9ca15f20cf24edbef70b213",
+          "kind": "snapshot"
+        },
+        {
+          "path": "DynSyn-SAC/SB3-Scripts/eval.py",
+          "size": 3985,
+          "sha256": "56c8ab9a5886e1132deff163a9b8c795e63d56fd629195a3193038b1f8681f59",
+          "kind": "snapshot"
+        },
+        {
+          "path": "DynSyn-SAC/SB3-Scripts/schedule.py",
+          "size": 1074,
+          "sha256": "e64170c037f91fb66175cf4f202a6d92dfd56ebb6732968f9c6b24e89b09e81a",
+          "kind": "snapshot"
+        },
+        {
+          "path": "DynSyn-SAC/SB3-Scripts/train.py",
+          "size": 11638,
+          "sha256": "7a4921fd1b5aa6ba8f3d9b8a132c8885936dd893f2fa1621aea9539477dcd4b1",
+          "kind": "snapshot"
+        },
+        {
+          "path": "DynSyn-SAC/SB3-Scripts/utils.py",
+          "size": 5266,
+          "sha256": "d4f8e82b8b61f3043c425b4e94d33e3b9a50fc7f02dee686ec6f02d05a6d2b6c",
+          "kind": "snapshot"
+        },
+        {
+          "path": "DynSyn-SAC/SB3-Scripts/wrapper/__init__.py",
+          "size": 94,
+          "sha256": "acd611135d22ee019fb4c78f6744ce1f888d9158bfef30c4eaa5084a36cabf02",
+          "kind": "snapshot"
+        },
+        {
+          "path": "DynSyn-SAC/SB3-Scripts/wrapper/muscle_norm_wrapper.py",
+          "size": 578,
+          "sha256": "81bf53d8957f346f94a58e12d8a6f87ab9ca40a3a504ca3ce41a289e0ebda46f",
+          "kind": "snapshot"
+        },
+        {
+          "path": "DynSyn-SAC/configs/tracking_farmer.json",
+          "size": 5261,
+          "sha256": "dcca19f7af23a68a6363c2b3a19e3e2d360f08c1c8f76663267d4764c9b7d44e",
+          "kind": "snapshot"
+        },
+        {
+          "path": "DynSyn-SAC/configs/tracking_recovery.json",
+          "size": 5418,
+          "sha256": "70a8c07f3144e6eb2e7b3e700d4b5a8faae41f77e39740d12c40cb0103862c2a",
+          "kind": "snapshot"
+        },
+        {
+          "path": "DynSyn-SAC/configs/tracking_stairs.json",
+          "size": 5235,
+          "sha256": "ebe25f165fec9d40deac2c2362f5971ad6a1724517e1b33f0f11423955ed9320",
+          "kind": "snapshot"
+        },
+        {
+          "path": "DynSyn-SAC/configs/tracking_walk.json",
+          "size": 5207,
+          "sha256": "876c4bcc098b43f9716bd7036418a5a0b369157443ca5aa1991c85f76c286132",
+          "kind": "snapshot"
+        },
+        {
+          "path": "DynSyn-SAC/configs/vision/manipulation_vision.json",
+          "size": 1786,
+          "sha256": "5fe083b487008508a6be4d47671776ce20c7e69307584be2662bce7e0ae34621",
+          "kind": "snapshot"
+        },
+        {
+          "path": "DynSyn-SAC/configs/vision/tracking_farmer.json",
+          "size": 5251,
+          "sha256": "122046ef30a03d8e2649b09695538ace1ffbd42bd5243a27a9f82ff7829b8d04",
+          "kind": "snapshot"
+        },
+        {
+          "path": "DynSyn-SAC/configs/vision/tracking_recovery.json",
+          "size": 5408,
+          "sha256": "1fefe918c82265954a1cfc4b5d247dc11fcfc3d897a9ccddde49df2ce78b607d",
+          "kind": "snapshot"
+        },
+        {
+          "path": "DynSyn-SAC/configs/vision/tracking_stairs.json",
+          "size": 5225,
+          "sha256": "7fc28523f9d7a71e9aefceb721de8ab566a3ef6166bc436a2db2fb9e073f8c7d",
+          "kind": "snapshot"
+        },
+        {
+          "path": "DynSyn-SAC/configs/vision/tracking_walk.json",
+          "size": 5197,
+          "sha256": "f0f50c097cb9b7ac18274e7d2f5eabba3242b37e2a3ce0fc018020e34863148b",
+          "kind": "snapshot"
+        },
+        {
+          "path": "LICENSE",
+          "size": 11558,
+          "sha256": "1eb85fc97224598dad1852b5d6483bbcf0aa8608790dcc657a5a2a761ae9c8c6",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 5529,
+          "sha256": "fcf8d13685d06eaf77b4bed60c84f3b3f18c3f2de54ad31ea53013a41be47b80",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Asset/Asset_Lowerbody.xml",
+          "size": 1451,
+          "sha256": "9fd3063105b88ddd2fe0e3e3d6caaed6bf316cbbee7029e844cbbfc564834a90",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Asset/Asset_Others.xml",
+          "size": 1363,
+          "sha256": "852055b696e7ae8682c76829b4b73701ea057f3acbe021a4ae1d71e80d27d1db",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Asset/Asset_Torso.xml",
+          "size": 4215,
+          "sha256": "3f1cbaebadda5261defa19ad7bb99febc4df7c7ffb1c24d53447da9427546fa1",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Asset/Asset_Upperbody.xml",
+          "size": 11605,
+          "sha256": "1d99bc919c3d4787aaf4c51a22bb0885ddf1956a9cc2550b04c5950d13826537",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Asset/marble.png",
+          "size": 388987,
+          "sha256": "393bd6f18954eef65bad5c72ce428ceb350dd713a284d4c8981b0b5061a1ea0c",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Body_Manipulation/Body_Arm_Hand_Vis_l.xml",
+          "size": 58275,
+          "sha256": "6d3079b0c5eb75e2080466988197c1e0314f555845872046105a24270395239b",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Body_Manipulation/Body_Arm_Hand_r.xml",
+          "size": 68637,
+          "sha256": "cfd02bf57eefaa2f7be854e11de97f58bff6a3111aab81db74889e807288e6eb",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Body_Manipulation/Body_Leg_Foot_Vis_l.xml",
+          "size": 13387,
+          "sha256": "4bbd4235d29b86cde9966e912411fbeba3e76ff2c532e2a82e97fb7c0b000394",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Body_Manipulation/Body_Leg_Foot_Vis_r.xml",
+          "size": 13334,
+          "sha256": "350eaed0699b7621b7593ca284e96c1c7332efd23c2661727d90f8e6bb85cb74",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Body_Manipulation/Body_Torso_Unimanual.xml",
+          "size": 168485,
+          "sha256": "adc83a5add90862d58cf6667edd2965fda51f2a1794971e9c9aa21da796e638b",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Body_Manipulation/Body_Waterbottle.xml",
+          "size": 2781,
+          "sha256": "feb7b05adda4990948fa845478d53511f705cd0944b94c6d71a3866c7f6efa7d",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Body_Primary/Body_Arm_l.xml",
+          "size": 56550,
+          "sha256": "52989aa258959c933d8e5038c4d7643b030881dece6d772f9a6b0e323e902a42",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Body_Primary/Body_Arm_r.xml",
+          "size": 56083,
+          "sha256": "ab3da41e556b7d2015c55f2f8ec71a04fd1a148c1de08b7b58acf710a1852ad6",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Body_Primary/Body_Leg_Foot_l.xml",
+          "size": 16907,
+          "sha256": "08f9a3e3badab81ba3c1e8087400503e63df684ec1358714f5b6e800b82b4c1c",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Body_Primary/Body_Leg_Foot_r.xml",
+          "size": 16848,
+          "sha256": "ad05627fd74442ff3d4dcff140f42843a2836dc7e0a4eed7fd53f77ee2823576",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Body_Primary/Body_Torso_Simple.xml",
+          "size": 183012,
+          "sha256": "7a463578f5141419962fbb5f1565cb36440d3fbc6748091025e7999a8896962f",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Contact/Contact_Lowerbody.xml",
+          "size": 543,
+          "sha256": "15839b41f4b46ca807d24e5cd680e71309519723a0e2e9bb2be59d2be5f7ec52",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Contact/Contact_Upperbody.xml",
+          "size": 796,
+          "sha256": "50861151ecb66160c91a965159ce66e2f5663d07b984d21ee7c6525aa93b86f0",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Equality/Equality_Lowerbody.xml",
+          "size": 3357,
+          "sha256": "b071f3a81805dfbca486fa6b88b7b696d8715896669962b49fc09d7437980e11",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Equality/Equality_Upperbody.xml",
+          "size": 3794,
+          "sha256": "35bb2e27cc2e008effab6a1d10aa506205ad1d2d41482cc9601dcbba41445544",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Equality/Equality_Upperbody_r.xml",
+          "size": 2048,
+          "sha256": "9659d317fc76085abea768a968f9e5a09fa98780de97d9ce0b01734a7ac51ab1",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/1mc.stl",
+          "size": 287284,
+          "sha256": "b75e58243a2005af787bc731c5d1aa6b7da4669f36e9bcd7409a430c1cc311b6",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/1mc_mirror.obj",
+          "size": 290468,
+          "sha256": "f3cf65960fcec88828dc91abccc375ff72d9b43d53acb965bac78627b5f12ddb",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/2distph.stl",
+          "size": 110384,
+          "sha256": "39fca9372434520835703ffd34b5cc37a3f15f86ec9841b5fd841acac51adb88",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/2distph_mirror.obj",
+          "size": 110117,
+          "sha256": "f866135513fddb1ec2f4c50d9bdcef617fb14f61344f7f6809492a7a226e73ff",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/2mc.stl",
+          "size": 418084,
+          "sha256": "ac3286bfb7281a7d2dc3ff2ac32fcb8f0424764aa97ad526992a10b739334fe2",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/2mc_mirror.obj",
+          "size": 428324,
+          "sha256": "ab6c4837842aa4367a9129ad85f27f8e48a9f0d0c18271cfe2cde2eaeee659f2",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/2midph.stl",
+          "size": 100084,
+          "sha256": "074318c92e652ba05d26cbe0ad8e781891e2970e6b7415bc63585536e8beda72",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/2midph_mirror.obj",
+          "size": 98604,
+          "sha256": "bbac206f117108cce2466d4e38c2be6cb2fc4f72340b2adf98ccfbf6912d2b0f",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/2proxph.stl",
+          "size": 256184,
+          "sha256": "041bf5a60e9376c0c47a3981c312698caa8d28f6d8ca08f59c3222da4244fb9d",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/2proxph_mirror.obj",
+          "size": 260202,
+          "sha256": "57828d9c7f0ecd46394dc45a74c7a174f6a4d55dcbbbb93aaaa328244853207d",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/3distph.stl",
+          "size": 127384,
+          "sha256": "d5ecddeac9b4572091a32d386a117ba475a0c784e42d06016ba963432396b612",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/3distph_mirror.obj",
+          "size": 128109,
+          "sha256": "46eb0f1f74e9f1f726c9b68f5843dcaa603c3af2881e9cd508786818174f9c30",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/3mc.stl",
+          "size": 404384,
+          "sha256": "eaa77802c8afe5a3187293880d0f95b5b2f0367adcb3639c8038993d39ff8f5c",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/3mc_mirror.obj",
+          "size": 414023,
+          "sha256": "e422ccfe45fb9e7b64c04a9cb0a49320f1d53d59c40e9a7b01df745cacd654a3",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/3midph.stl",
+          "size": 111784,
+          "sha256": "5e0ef3d76f2f99f950e9aefac28131009fa7fad7129f1421f50b5e7086655c88",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/3midph_mirror.obj",
+          "size": 111260,
+          "sha256": "e2907c8640d8d792f046b0261f410328d49e7e40d53c446e646f33a8abb0427a",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/3proxph.stl",
+          "size": 280284,
+          "sha256": "48094bce62d115aee9f2527b22061ff1f5656936e647879d83672b2c62c20728",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/3proxph_mirror.obj",
+          "size": 286628,
+          "sha256": "10fec655c81a37a93b83441b3e4ca0739d4ea96aaa5e9a5c525f4b52c1fa9182",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/4distph_new.stl",
+          "size": 130484,
+          "sha256": "bd3cb01c42b7adf4de51e6334536c0a96e24818192db3333cdb649b1e47f202a",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/4distph_new_mirror.obj",
+          "size": 131708,
+          "sha256": "32d402214ec9740b22b955a6642780df5f2a0863104355e2ea240ed9f843ecf3",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/4mc_new.stl",
+          "size": 324284,
+          "sha256": "58ca462f843342ea5d454a549e175e95881f8aebe50f79890b15de30527a40e1",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/4mc_new_mirror.obj",
+          "size": 333582,
+          "sha256": "06fedff4c931648b8d7e6948306a80cd31dc61ccac81df025dd8d503be4cc350",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/4midph_new.stl",
+          "size": 110284,
+          "sha256": "033f579ef014126182992485e57340c9f33c510aa2cec1a2f6380fa5ee8c6b81",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/4midph_new_mirror.obj",
+          "size": 109888,
+          "sha256": "19fb40b010b9114e32961531bfc146aaf246e62ff40a7d4a621d85b1d99499ef",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/4proxph_new.stl",
+          "size": 263284,
+          "sha256": "941e740611606e680952b08205f88fe826830bbe0ffdea006c8c7f7c4ab75848",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/4proxph_new_mirror.obj",
+          "size": 269852,
+          "sha256": "6a3f3b60e0d519343c6d1251e08ca097194b996fc0eff845554adb3142d2b076",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/5distph_new.stl",
+          "size": 149034,
+          "sha256": "cda87e548fa9a520352d1c2e1007142178149e67f1c81cd207a5eb7806ba122c",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/5distph_new_mirror.obj",
+          "size": 151582,
+          "sha256": "6f98dc9bb8dcfc26ec42f3593d116a324327cbf9901e74d1d9b6ec89d7d2b973",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/5mc_new.stl",
+          "size": 250884,
+          "sha256": "d1fe2ae707a4c3430c721b04c2e060972646522583e380275c9b2e30a6813545",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/5mc_new_mirror.obj",
+          "size": 256146,
+          "sha256": "0d333c08f595d40750de398e6ab1ba2331949eacd3967ba448a30c5338f5ffe0",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/5midph_new.stl",
+          "size": 78384,
+          "sha256": "554dcbd0c9648d4bb38a64ff9ecacafb6a7e0e3eb419fcf28044882a3de3552c",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/5midph_new_mirror.obj",
+          "size": 77488,
+          "sha256": "5f41c4c78aba458defccde639f3648afe0795356de9ec642256dedd77d6b27e0",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/5proxph_new.stl",
+          "size": 187184,
+          "sha256": "20f15d183aabdfe63ecec1965ea3a22b1073ae0e75a3b6501c8f3c8eaf317267",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/5proxph_new_mirror.obj",
+          "size": 190042,
+          "sha256": "ad71c445aa6f5a5c43e4bac1843fc66fba2d2d6e6e8f32f301a8bc813ef30046",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/Rib10L.obj",
+          "size": 14657,
+          "sha256": "0c3fe7c1febcd82d8ccf9f1bfba4d68dee4d8b7ec8f7bf6245c0c76cae0a58e7",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/Rib10R.obj",
+          "size": 14617,
+          "sha256": "f137d2ab94e4929061e7592cee5d0d631c0cf036db4473c3d0f04cae55a2b0e9",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/Rib11L.obj",
+          "size": 12280,
+          "sha256": "a7b77cd39d82a0a85295c5ea46bc48fe4e56899ae999720c822721ebd9cc45d9",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/Rib11R.obj",
+          "size": 12747,
+          "sha256": "abcccb60ae207fa8b917187a7ab77c76324c0acdfc88b0ef1dc39a2f59b3fb8c",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/Rib12L.obj",
+          "size": 10813,
+          "sha256": "23253c4939897267854eedb17599b6f9dab61c4a453bcdbe0c885b9f76fcc273",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/Rib12R.obj",
+          "size": 11622,
+          "sha256": "31b4d04375b9b778c03356779742ca1ef337473aa468cdf861f906d06f0a1988",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/Rib1L.obj",
+          "size": 168828,
+          "sha256": "02688a8a0fbc9216ffbdfdec40bdcdd63583a2406864b3445160428e00789a35",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/Rib1R.obj",
+          "size": 11317,
+          "sha256": "f7c73e252668f3d4d4d5c3ea61f2873238f1bec0de74dc38dd5d964d85a84610",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/Rib2L.obj",
+          "size": 8419,
+          "sha256": "ff6e665a9541693b1e16008f06d4b06745ff3cdf46afb21c969b476de55d00b5",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/Rib2R.obj",
+          "size": 9029,
+          "sha256": "b072207c9e326ae47f63626371d80d7dc9fd81d0b799943d2b8ef31fe4e792ac",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/Rib3L.obj",
+          "size": 12763,
+          "sha256": "1d3b7f3c1a59a5e022316067c4a35390a209ac752d33b0016f7b6a63a7329083",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/Rib3R.obj",
+          "size": 13895,
+          "sha256": "232b0f1ccb23e30173c0562c717870c553798e10c57a7420e8e87eabd6fbd540",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/Rib4L.obj",
+          "size": 13083,
+          "sha256": "d828e5206fdda22b202beedfac7d39a7338458a4da87c98d25dd220a22e8c21d",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/Rib4R.obj",
+          "size": 13944,
+          "sha256": "30d98319e669abd5497214487d790a442b00dbecf793e1638c0798025e626172",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/Rib5L.obj",
+          "size": 16109,
+          "sha256": "07d7a282f6e459d9e27a0ac960bb8a590764be31c6968d26317d0ccf173bcf44",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/Rib5R.obj",
+          "size": 17142,
+          "sha256": "3f97398225e3021059a30bd6a0f9f93b8a4b91ce9368de4beada40df303b33ab",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/Rib6L.obj",
+          "size": 16663,
+          "sha256": "fbd635e62ef2b60c004abc4afc7fa4433b334e71a068bf77ee52edd1ff542ae4",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/Rib6R.obj",
+          "size": 18092,
+          "sha256": "8ecbae9bbd2cc4bb88570e64283b48ff85d2c5b0fc3a6bcdf1a953304f83d180",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/Rib7L.obj",
+          "size": 13541,
+          "sha256": "d2564f89b5ba3a8dc94b7eb063d5f443d21937b9feb0a659e9f7bee3b06bfbec",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/Rib7R.obj",
+          "size": 14018,
+          "sha256": "b761a1d1ef84b497048afc93fa304a91e3e4f929a99f44fdb84c6be3b71c50fe",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/Rib8L.obj",
+          "size": 14029,
+          "sha256": "ea615e89de626a634a1b7e70f5c9363c63c55675f708975059b4630a6b4aa054",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/Rib8R.obj",
+          "size": 14741,
+          "sha256": "cdcc14ce80e3ca5caf65a047cbe910f9fb1f9c7d32a4c3f750c1f49afef415a0",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/Rib9L.obj",
+          "size": 14746,
+          "sha256": "1acb41945b6c1c2161487bc74b5f670a2ea2559251424a5e328bd90a7cf2aa34",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/Rib9R.obj",
+          "size": 15168,
+          "sha256": "c985f02ea159aaf4b286f9670e09dbb81d01092cfbbff8a1ec9bf897d99d8a91",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/Sternum.obj",
+          "size": 16274,
+          "sha256": "133f4804dce4afa1ca0c975723e1ce1bf6fb58a975dcb55d89b08f7882798ac4",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/capitate.stl",
+          "size": 237384,
+          "sha256": "51c4ff14860a267fcf22d63f27cdedf17cdbb0cf4240fdf8c641ae4bcfaa1a8c",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/capitate_mirror.obj",
+          "size": 241963,
+          "sha256": "998675e5d9b4a08735905fb60eb8a1e0d5fc5099f4348b24aaacf9a0f19db0e2",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/cerv1.stl",
+          "size": 31084,
+          "sha256": "39ff5cbc8d55cca11ff2477391e6fd570d72db12c534ae534b2aa48c4d19cf0d",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/cerv2.stl",
+          "size": 14484,
+          "sha256": "ac2ea6dc0b93da0a180cc007ce0497735f1e05b59ef5cb6a7d57c075303c7ef6",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/cerv3.stl",
+          "size": 14484,
+          "sha256": "115d3eb2de930f0bbe352fec62e31a98c746da92036646cad7f26aae98105cc6",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/cerv4.stl",
+          "size": 14484,
+          "sha256": "332e959a0cfb15aec8d1f0092356c37800be1d24bc0fa31ebd02ca376820320b",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/cerv5.stl",
+          "size": 14284,
+          "sha256": "2df996d22591e2d1bc9bd167947c79914278ba0bf22777613978106e8f63b5a1",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/cerv6.stl",
+          "size": 14484,
+          "sha256": "f712c7e0c7847d5a7f4fb9fbe3a90c9e8860190890a25655f60d3652a37dfc6e",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/clavicle.stl",
+          "size": 19984,
+          "sha256": "11c83e56c5df39e0213c3e3b119c079cc6953f278f9c222d5887df1a2f0e6aad",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/clavicle_mirror.stl",
+          "size": 19934,
+          "sha256": "4db4a2afb7255c886d10435f04eebf4f37f7feb78b190ca6cecdec2a7bca567f",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/hamate.stl",
+          "size": 258384,
+          "sha256": "d880faf00df1cc473626cc9141d68d6a7eca26f1f46eedde423649263c54e134",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/hamate_mirror.obj",
+          "size": 264422,
+          "sha256": "6c36ec7c9dff2bfdd3d2a1e837267512ba50fbe7187dbc9efea3240ec0c62396",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/hand_1mc.stl",
+          "size": 188584,
+          "sha256": "e3be917b826f598a637a771489d56e4effd29433458eea21c00ebda4d7a4d200",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/hand_1mc_mirror.stl",
+          "size": 188134,
+          "sha256": "20dba8ee01c6e169af1fe89626b2a93b783ebd603514e4d46a339627c64ec845",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/hand_2distph.stl",
+          "size": 39284,
+          "sha256": "85a1a5b059b658ccba325b58f54eca5b7347b81cf78cee6caa535062cce5e6e5",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/hand_2distph_mirror.stl",
+          "size": 38584,
+          "sha256": "bb2214ff1c345811a86adb038adfc6d3bf4c9dce03ca09fe7c83a9eaa34e666b",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/hand_2midph.stl",
+          "size": 100084,
+          "sha256": "f2f1e4267a25d0250f6c9f752458e33a88febe12b40f6052ad3972e71e56c613",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/hand_2midph_mirror.stl",
+          "size": 100084,
+          "sha256": "be4b995a228464b02841d6e4424902f9953ff51544a9155a394048084312dc7a",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/hand_2proxph.stl",
+          "size": 150384,
+          "sha256": "c3c7aab40ede40286715339bc7269a572554c7d832c4949f402ebfdc9d7f6c33",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/hand_2proxph_mirror.stl",
+          "size": 149284,
+          "sha256": "a6fb1acf04a01daa64cdde6faf4016523e01dd1dcece03aebcbd86ab0883eaa3",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/hand_3distph.stl",
+          "size": 45884,
+          "sha256": "06f29395bf7bf4bd236d62559d41b30d4ac6ea05eb4c08adc5662cdcfa0720fe",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/hand_3distph_mirror.stl",
+          "size": 45284,
+          "sha256": "06a4de57a1255d9d00c6fbf517a8517d1f1d7bd2189c71d4818f64f180deb381",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/hand_3midph.stl",
+          "size": 78284,
+          "sha256": "75e7c9adc47d56a763e3bd97d9cb95d0654c475b3bd88b241f23c2421738062f",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/hand_3midph_mirror.stl",
+          "size": 77784,
+          "sha256": "30faca0db71683073560d53be056ca9a7162cc2ce32cf566ec0c88e5956d4e26",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/hand_3proxph.stl",
+          "size": 158584,
+          "sha256": "4f94e8ebe820ca71d1b141a66a3577bfc2216abf55f769183c853e164edc852c",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/hand_3proxph_mirror.stl",
+          "size": 157284,
+          "sha256": "7b46655abfb3312d2c59c5cb280c682db3248cb4d44dffcddc4d2a345ae7e1c8",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/hand_4distph.stl",
+          "size": 45084,
+          "sha256": "9491a59233365d85ca63c7e8f66a51e30f243a625a3be2163559473db0c81bde",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/hand_4distph_mirror.stl",
+          "size": 44184,
+          "sha256": "90379a8ca79174fa86dfdb9c3877e0943ee72518d6079f64ef7f4d8195068393",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/hand_4midph.stl",
+          "size": 63984,
+          "sha256": "c852a8db761ec8ee2dbad56783bd395793ae24ea3a0e913d23ea8e77676153c0",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/hand_4midph_mirror.stl",
+          "size": 63634,
+          "sha256": "b74f6c30f16845d98746fb1ce2310a923f16c1d4ddf91164d59efd4b2724166f",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/hand_4proxph.stl",
+          "size": 129484,
+          "sha256": "baf08120ff2fe3345513d74d06300b7add3b1dedc6b3c9a3dbd5924968d15cbc",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/hand_4proxph_mirror.stl",
+          "size": 128334,
+          "sha256": "2a392d8b73c241dc37924405a0f52ce7b2e852f50f54523ad1b281ff25dbd41a",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/hand_5distph.stl",
+          "size": 48484,
+          "sha256": "bd78ad7c51b5af5a88aa9c0bcdd3a0cd151c5c9a8cc048bdd6bffdb884d72099",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/hand_5distph_mirror.stl",
+          "size": 46934,
+          "sha256": "1e22a68d21eeb31b41a5d34486f85fd747edc4a01efbd26381576d77efc45c13",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/hand_5midph.stl",
+          "size": 54884,
+          "sha256": "c8cf776fb0958102c32349e2b9f45b810772fa4bf7ded8df6ad7560ec87b148e",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/hand_5midph_mirror.stl",
+          "size": 54684,
+          "sha256": "e8ef4a41b15702338b7af46e0db55b5efec8be821aa8a87e98ea8db63ad0e176",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/hand_5proxph.stl",
+          "size": 114684,
+          "sha256": "b25ec61b280364c728c38d7dae71f36f8a2714a31c179ad6b4e6b8888c86142b",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/hand_5proxph_mirror.stl",
+          "size": 113634,
+          "sha256": "c6c8819b9650b0b2d9975dab6c3e1c6af6d77de414835f191f3092007fda7e9c",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/hand_capitate.stl",
+          "size": 240684,
+          "sha256": "d425a7b8a1fd63cc1b454b7bc276d56b1659ebb66b9c774c62ca8668630346bc",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/hand_capitate_mirror.stl",
+          "size": 237384,
+          "sha256": "8bbe99de1e469d3e3b348ffbf483bfcffde352f957fc9b2453f48fe72581bb7b",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/hand_lunate.stl",
+          "size": 186084,
+          "sha256": "55223a9c1bce0a4d5c389246174e6ab89b68dfdc0959e1bcee0cdd951157cc15",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/hand_lunate_mirror.stl",
+          "size": 185134,
+          "sha256": "cbc4385c68a351d87f26a91db1661f1a50f91c4646cb2d7de2b6ec7de1de9290",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/hand_thumbdist.stl",
+          "size": 58384,
+          "sha256": "b502123cb0f85fcd565631b5c73548eaf0670eb61462e3f3cd39c4f68f48541c",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/hand_thumbdist_mirror.stl",
+          "size": 57934,
+          "sha256": "fde59d09c2f636bae403cba45b5be4b000ac8fefaf375932b20104d22025dd4f",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/hand_thumbprox.stl",
+          "size": 114784,
+          "sha256": "e676938442ec4be916a6203ee50307575ff91ae324cd504336409ca49c2e9b58",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/hand_thumbprox_mirror.stl",
+          "size": 114084,
+          "sha256": "1ca55a76bbcd25007b206cef20a1b76ddd4bdeec32727533734f6716ff06000d",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/humerus.stl",
+          "size": 29484,
+          "sha256": "ae77708e6e2115abea33a546ad7928c33d182799710ebe307ebc05ea7bfeb37b",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/humerus_mirror.stl",
+          "size": 29484,
+          "sha256": "4054190fe903d0da8b092625df7fbb86fcef32df0b8248aa7e1cbe7949192218",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/jaw.stl",
+          "size": 145884,
+          "sha256": "82a9c352bb9c73b9ca0c8e4561dfcccd46d4b44beeeb3460365e7c5c4b8f2d54",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/l_bofoot.stl",
+          "size": 92084,
+          "sha256": "e3cc26950da6a22ac921e937740408bba43193f1c422810716435a4dd39a0ad1",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/l_femur.stl",
+          "size": 45484,
+          "sha256": "d72e3bc4c1d0bbf76e189d50cd0594e3275169d1b2bf48370cb07d3d2a1a848d",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/l_fibula.stl",
+          "size": 12084,
+          "sha256": "1b31ecc2af2935d3602f977af1787c55551a2179d38a44bb015005698a1e1bae",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/l_foot.stl",
+          "size": 97834,
+          "sha256": "4cb976c3d03dc47cbee8786999a572f580044976e149c1bdeffe27666a0e42f7",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/l_patella.stl",
+          "size": 7084,
+          "sha256": "1cd80b37a1ba01dd6c135273e7e85a14733c9940905aaa72ce001fc164659440",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/l_pelvis.stl",
+          "size": 12384,
+          "sha256": "6998661b30f05288f018ca3e4934ae45560b1fd62f638f339fcf4881aa16c1a4",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/l_talus.stl",
+          "size": 9784,
+          "sha256": "45cff977c3cf0e2da78832366630f662f20526a5c5ad4f753c268a58b10b3a6a",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/l_tibia.stl",
+          "size": 19584,
+          "sha256": "0b4392cf63f523dba4fa0d9fdd62cf2bf0b464eaeaad320103d33534fc9e5b60",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/lumbar1.stl",
+          "size": 21284,
+          "sha256": "233c4723903137d3ef0d41e0de0c74d12cdf86dfdd1580846fd5a2896dcbf75f",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/lumbar2.stl",
+          "size": 21284,
+          "sha256": "848a9aa16f522a75863664118307035118fbd9c23d56ef1e0b012027c623aef0",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/lumbar3.stl",
+          "size": 21284,
+          "sha256": "5011db2045c44918939854934057ad0b978c8855ea46f10dccfd667efa46431f",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/lumbar4.stl",
+          "size": 21284,
+          "sha256": "07a27646165dc5889fec0546ff61a61d34796496c265143445c0e58d0326075d",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/lumbar5.stl",
+          "size": 21284,
+          "sha256": "7088542065c3c122408e41eb10e4d06463cde7d03b170b4568d7cbe9f1218c5b",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/lunate.stl",
+          "size": 186084,
+          "sha256": "55223a9c1bce0a4d5c389246174e6ab89b68dfdc0959e1bcee0cdd951157cc15",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/lunate_mirror.obj",
+          "size": 188344,
+          "sha256": "be15c6ef2b1cb4ddbdd4386f32ad7d3ebe2bf9a9b37a75316a8c35db69848416",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/pisiform.stl",
+          "size": 356384,
+          "sha256": "b56d96a70bae178e434568a22a27b355f65652fbca48c199635a9cc67506a698",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/pisiform_mirror.obj",
+          "size": 358038,
+          "sha256": "525029eb34973aa2747918ae0f5a09877bd6187749febfe80b0038681fb12cb6",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/r_bofoot.stl",
+          "size": 92084,
+          "sha256": "39dae011e441c0018cba4a00664d4076f0bb8f86f73522567275ececf6f78db5",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/r_femur.stl",
+          "size": 45484,
+          "sha256": "7d6e76a58e964551824169d89ae4b6142617f947bfdbc4ee0a4328040acf9f63",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/r_fibula.stl",
+          "size": 12084,
+          "sha256": "2cb0f77671c5421abdec1643aab77b41af2c2b5a8eff49845b098b2393443354",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/r_foot.stl",
+          "size": 97834,
+          "sha256": "e95cf6418432ea49488790364588246202b7ce54d6827bef49ac3406733d9f4f",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/r_patella.stl",
+          "size": 7084,
+          "sha256": "6a08e1e74354c65940bfd00ba343823e65eece2ebf10d9bf66c0429e83588128",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/r_pelvis.stl",
+          "size": 12384,
+          "sha256": "6eb7bbe904ce85566fc6afcde0935eda11ae12da341965616c7c798c9b2d7ee4",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/r_talus.stl",
+          "size": 9784,
+          "sha256": "96202bdab4836e8fede82d3897b4b1bbc6f1afd6fc77e87b8bb444212df2ae90",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/r_tibia.stl",
+          "size": 19584,
+          "sha256": "7c016de88550dab6bb33d3060ba7aa42b061ca78c5224b7d92a4c766f25ca15f",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/radius.stl",
+          "size": 19584,
+          "sha256": "696850e4d3b270bb27bf4ccbd5948bd92a3d9a4fdcc48f247f587e468af04eb6",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/radius_mirror.stl",
+          "size": 19584,
+          "sha256": "3135655a73ec4e495200332c8defde4901062ea96084b27613c0b7dd53a88e1f",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/rotatedcerv7.stl",
+          "size": 14484,
+          "sha256": "ae2eff718fcb8305f29fff34880badebca10383344cd801f1277c6a429435cc6",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/sacrum.stl",
+          "size": 19084,
+          "sha256": "e513525e227c21786ba696e9f9ffc9969b631db046aafa3ca9dc2acf750f24fb",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/scaphoid.stl",
+          "size": 182784,
+          "sha256": "02a9e3522776d965b43030e39d72d63db12c3782c10a8015ab38c70e2a0f5184",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/scaphoid_mirror.obj",
+          "size": 182653,
+          "sha256": "b55e453cbc8abb584ab6b9b21dcf129dfaa0ccc890a2c912a3e21846058d1736",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/scapula.stl",
+          "size": 77584,
+          "sha256": "0c72877eaebe080fc44ee488734954e5a5f844c04334ef3864f2ea2a8945c642",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/scapula_mirror.stl",
+          "size": 77434,
+          "sha256": "c1ce30700307322ecc4402c32fc6778fb844ac1fa09cd372e7c55fa3e68a2fc8",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/sdfastPISIFORMw.stl",
+          "size": 352884,
+          "sha256": "fafbff2b451629a697c2513fa54af61c881be808d451592016c3bd21697bd0f4",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/sdfastPISIFORMw_mirror.stl",
+          "size": 352884,
+          "sha256": "4f6a46c8b136cef970bf69eb9e28fea3d9eb1c2b8d2b1e5e5054d6df79cfd8dd",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/sdfastSCAPHOIDw.stl",
+          "size": 182784,
+          "sha256": "02a9e3522776d965b43030e39d72d63db12c3782c10a8015ab38c70e2a0f5184",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/sdfastSCAPHOIDw_mirror.stl",
+          "size": 182784,
+          "sha256": "ec106a27f2b552865ce5ee1b9614ef1f68fc5952548cfdeb3d1474e6176e954f",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/sdfastTRIQUETRALw.stl",
+          "size": 158684,
+          "sha256": "fae5aaf6b57e31fb767cab689bcf5a7967064381f463f527db975f2bb161e231",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/sdfastTRIQUETRALw_mirror.stl",
+          "size": 158684,
+          "sha256": "2556dcdf900f85fd12c7baaa82353744fc2fa896085d2cbae5198e10ce5e503d",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/sdfast_1seg_hand_fr_c_2mc.stl",
+          "size": 418084,
+          "sha256": "46759d9c560bfaa57123c060a95f48284e2ce7f3e0a55aa1ea29224c12081e55",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/sdfast_1seg_hand_fr_c_2mc_mirror.stl",
+          "size": 418084,
+          "sha256": "8c7723a75ad633ed51547287addd1ac1bf5b416e2b554d8a2f17fe5671d5bb05",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/sdfast_1seg_hand_fr_c_3mc.stl",
+          "size": 404384,
+          "sha256": "2b07255350c65562f186578d4647868d6bb9890627085f8a525c6ecc3170db2d",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/sdfast_1seg_hand_fr_c_3mc_mirror.stl",
+          "size": 404384,
+          "sha256": "56744b9f26ff01341d8850efe8575cffb85fe99560b3dbf488a80a3e9331c090",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/sdfast_1seg_hand_fr_c_4mc.stl",
+          "size": 324384,
+          "sha256": "0a7b4f336dcb6c8e81635864013070ccca5e7638127a1ea3484d7c027d90bce4",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/sdfast_1seg_hand_fr_c_4mc_mirror.stl",
+          "size": 324384,
+          "sha256": "d37adc6f9c9c994d57fa081c3ce58f3e40329fd0879e7a94e3d59d29f871bd7b",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/sdfast_1seg_hand_fr_c_5mc.stl",
+          "size": 250884,
+          "sha256": "8fb0deda3c70bc640c6cfc90143126aad9f7502522f99a018afabba334358ada",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/sdfast_1seg_hand_fr_c_5mc_mirror.stl",
+          "size": 250884,
+          "sha256": "d9d55cfdb53f3d6809a81e1e5e24c4ff2cbbe1e2abdcea1eeac8587a0bf5fb14",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/sdfast_1seg_hand_fr_c_hamate.stl",
+          "size": 258384,
+          "sha256": "722e3021dc5abeea2a6f951e1acd556eda08386c2e4724976ae0b8be963e75b2",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/sdfast_1seg_hand_fr_c_hamate_mirror.stl",
+          "size": 258384,
+          "sha256": "a7b38ff906c59c6c339cb5f95b83845ef89e2c576fb3da2b4c488aec7471bbd4",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/sdfast_1seg_hand_fr_c_trapezium.stl",
+          "size": 224684,
+          "sha256": "9ea5acba7d83f0f59661f66cbd516427283e80712f70a6346abc82ae3a30298c",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/sdfast_1seg_hand_fr_c_trapezium_mirror.stl",
+          "size": 224684,
+          "sha256": "adcc2b4741244a34d18ddd8b7fe84ce0a8356edc2828ea3bcc708c7df26b7f17",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/sdfast_1seg_hand_fr_c_trapezoid.stl",
+          "size": 141684,
+          "sha256": "e1f5f01b7c0dc2795bf26ed57ee6e8b765ee51a43694551f330f1cf66ddd6914",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/sdfast_1seg_hand_fr_c_trapezoid_mirror.stl",
+          "size": 141684,
+          "sha256": "2917e154bb3e81e3fc26140885f3bb0eb84e4da9a2e5e5ea2292339995fe41c9",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/skull.stl",
+          "size": 330134,
+          "sha256": "05318d349a5d41538a8f4d7e2a756e80671417be4d350bcd9e2bce393fcb835c",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/thoracic1.stl",
+          "size": 21284,
+          "sha256": "f1c84257600265e04d473bc0fd8cf54ac292e29ba753a70840b26c6d1eef111d",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/thoracic10.stl",
+          "size": 21284,
+          "sha256": "12dd380564a495609e702043ad11f158a8fd620735256680b12dce52350464a4",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/thoracic11.stl",
+          "size": 21284,
+          "sha256": "1a4fb6bc6462ccda3c7880593c7b48b9c5b1f9481dbb324db5fecbf11839bdb9",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/thoracic12.stl",
+          "size": 21284,
+          "sha256": "5f626c11af43d4ffe53eff1f0f434802b6ffb1dae02e244e13cb992e508d154f",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/thoracic2.stl",
+          "size": 21284,
+          "sha256": "e57e53aefa344a6d1a00efbd2220b35ffb0e9208762c18f36f2aa8cd99717a0a",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/thoracic3.stl",
+          "size": 21284,
+          "sha256": "67b6d6a93b891d486d860ecbcb8d2e958b52483d70522aaa3232d0bd2c0f7b82",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/thoracic4.stl",
+          "size": 21284,
+          "sha256": "e85b927193b5aeceb00ca4c4614f8eeab149b3011695523f138c867998ad9f3c",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/thoracic5.stl",
+          "size": 21284,
+          "sha256": "de6568dc687ab332da82bbfb82ddc03133b4ef7b13f17e5fc4d962557226fb12",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/thoracic6.stl",
+          "size": 21284,
+          "sha256": "f80561bab04c40d12eb765c899135e02e22bd5aa22aaeac48e56683bcabb7724",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/thoracic7.stl",
+          "size": 21284,
+          "sha256": "2aabbfe6834fbb2d85594a413cf0c696d88f5823447e64efc91d0824b18dfc2d",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/thoracic8.stl",
+          "size": 21284,
+          "sha256": "9c422dd904851cee74687518bcf97bef51426184dd68c0ef334265911eb3f062",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/thoracic9.stl",
+          "size": 21284,
+          "sha256": "79fcd68a2a83a93567d3d05b1e5437e8a2de3e142c9bb70f6eb459f389c7e609",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/thumbdist.stl",
+          "size": 176784,
+          "sha256": "4a65bdf702b450080e6d8a5852114b0d0db69117d835d03a86438e9e35e6c963",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/thumbdist_mirror.obj",
+          "size": 174901,
+          "sha256": "10c565a8f465b984d39ff5c6183b27913c9be49d91ec30fec7837623b30ba718",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/thumbprox.stl",
+          "size": 199584,
+          "sha256": "e622077a4a0dbd4de16a9802ae93e36f969d7440d32bc6b2855c8c31516c815f",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/thumbprox_mirror.obj",
+          "size": 197689,
+          "sha256": "3889027561d21310642fa11ca0abec1cbce0517c35978eb3f670f6100e073381",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/trapezium.stl",
+          "size": 224684,
+          "sha256": "f130696c1dfec4d05214c6f779573043fc42206d7628ea269ccf8b536712b103",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/trapezium_mirror.obj",
+          "size": 228638,
+          "sha256": "23292522a5ba398210f456204003851f117b6d399e73bebb73ffe814a3ee08d0",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/trapezoid.stl",
+          "size": 141684,
+          "sha256": "3a68fabd59a87208030c5b3c5c66e1400f46274163265378668fcc3ee58f1b45",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/trapezoid_mirror.obj",
+          "size": 141964,
+          "sha256": "d5d3c4ef3a8e65c731e9bf21b66616dd90aea91a3cb2af661ac96b95d97cde21",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/triquetral.stl",
+          "size": 158684,
+          "sha256": "fae5aaf6b57e31fb767cab689bcf5a7967064381f463f527db975f2bb161e231",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/triquetral_mirror.obj",
+          "size": 159631,
+          "sha256": "c9c8f12c090443c8c00e56bebf285cf8588d75a586c101f4d7efd5f22a1affb2",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/ulna.stl",
+          "size": 19984,
+          "sha256": "f0e31028e991a5e87f39932eaa02db902f43c9e576bb6bcfb9f9887d56ed3f00",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/ulna_mirror.stl",
+          "size": 19784,
+          "sha256": "989ff6e12d8640c209b2355b55551ea84f82d910292b74c73c61335a7a93ab93",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/waterbottle/waterbottle.stl",
+          "size": 415784,
+          "sha256": "a652e6a0966ec3d93421be39d386d86723cfad921709dfe3bf0dc02962f1bc2d",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/waterbottle/waterbottle_contact0.stl",
+          "size": 4684,
+          "sha256": "eeffffe1b27907a34a44399f0ecac2fd3a8305b9f397ebddaa96238578c18d54",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Geometry/waterbottle/waterbottle_contact1.stl",
+          "size": 6284,
+          "sha256": "7764a94d703d707cdbf3d82fd66fa269c49fdf179cf460fbd6717941396b72d2",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/LICENSE",
+          "size": 11558,
+          "sha256": "1eb85fc97224598dad1852b5d6483bbcf0aa8608790dcc657a5a2a761ae9c8c6",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/MS-Human-700-FarmerWalk.xml",
+          "size": 378438,
+          "sha256": "1b80af140e571fc674b9e2d458b3ffbdc49cd225a173252a4ebf4533b1274ecb",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/MS-Human-700-Manipulation.xml",
+          "size": 4618,
+          "sha256": "39e868fe08a57f6a65003a80f4ae7aff52c5e6ddc430cd00f14f7445c84de30a",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/MS-Human-700.xml",
+          "size": 4642,
+          "sha256": "58ec9f08a87e347aba0c4413360512d63b8395917e865f9ef17c4a8cd24597b9",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Muscle/Muscle_Arm_Hand_r.xml",
+          "size": 12324,
+          "sha256": "2c88d9ec298a32fef42976438055c95cb69cd1b4635b46766aee68d6c0d475cf",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Muscle/Muscle_Arm_l.xml",
+          "size": 9433,
+          "sha256": "924820d46f5ed3520d639ecf9c1d1bdd8749a6987d7635340b507a0e709a7e05",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Muscle/Muscle_Arm_r.xml",
+          "size": 9432,
+          "sha256": "9f4dd250a3d802eb42ce6618e9c753c8108eca7b1f72a98b1ef0a0af33c0ea2f",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Muscle/Muscle_Leg_l.xml",
+          "size": 8152,
+          "sha256": "62057f19d962804fc8458543247dac2085cbcf5f984d213e64b6d243f9045432",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Muscle/Muscle_Leg_r.xml",
+          "size": 8152,
+          "sha256": "6be8b566847c1c46f8075311992995898470d7007130f4da872c5a45ed7f5601",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Muscle/Muscle_Torso.xml",
+          "size": 80803,
+          "sha256": "b6750958ae2435c88a036ef80901c47c1ec25c316aa58a18bd21c1df0e4ec78d",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Sensor/Sensor_Locomotion.xml",
+          "size": 818,
+          "sha256": "f6776047d48a3c8b8fcf0448cda3c991134a6df32c8f75bcea6b4475e88bdd81",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Sensor/Sensor_Manipulation.xml",
+          "size": 1407,
+          "sha256": "dbec3c2dbd9f4ad5a5317d4f9b6af8c5dce3a61ec3bf219ced3004f48f5338cf",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Tendon/Tendon_Arm_Hand_l.xml",
+          "size": 21272,
+          "sha256": "c7d0eae2c27e168278013b983d2e6a69b3e2e5f5a8913dc3ee3b3c5233c47924",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Tendon/Tendon_Arm_Hand_r.xml",
+          "size": 20670,
+          "sha256": "26ae33039cebbdce41c9d0e94c81890fe700719b076e72cb81b70c29fb73ea70",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Tendon/Tendon_Arm_l.xml",
+          "size": 19162,
+          "sha256": "d25e4e59a61209b50bd682932804cc4349b163dce60894318427259f46f4c742",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Tendon/Tendon_Arm_r.xml",
+          "size": 19162,
+          "sha256": "c0dd49190ccead818ce36d37d98ab351ad7db6d6923a8051c6704163f50d4f08",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Tendon/Tendon_Leg_l.xml",
+          "size": 11821,
+          "sha256": "5181d3224014a3d4545802862b6c2d74a71d76dafd101b93ec1f6f14867d712f",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Tendon/Tendon_Leg_r.xml",
+          "size": 11821,
+          "sha256": "0195ae501d016e6518d9476d18c480a6c32758cb81967ae6dc67922ee21daeda",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/MS-Human-700/Tendon/Tendon_Torso.xml",
+          "size": 91686,
+          "sha256": "af6832da039af9d156f82b2e1c4aa91483968ec807fac8daf8eea44a447bd005",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/__init__.py",
+          "size": 265,
+          "sha256": "41ea369b818c4120b54782ed2a67e31b103644db6c5d921dfbf726235f74eb26",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/envs/__init__.py",
+          "size": 166,
+          "sha256": "c9fac127e33cabd5236143899425f489b2d6ed3c775d2df57f86d1324f9944a8",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/envs/imitation_trajectory.py",
+          "size": 6443,
+          "sha256": "16ec698437fceeab2138e7bf725ca99238bec061f62042dd074f1cd8774d6cbe",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/envs/locomotion_v1.py",
+          "size": 20509,
+          "sha256": "760f39efb6cd494bf47cde8b91263e13e399f52f1da35055bbffc9d58b0a503d",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/envs/manipulation_v1.py",
+          "size": 16400,
+          "sha256": "d889e1eaf2346dd422e47d3aa6e6bca57780fdd7abca9e66f28cf9ff0af233b3",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/envs/sensorimotor.py",
+          "size": 3870,
+          "sha256": "528a46946c6f1d9f3846cd54a939fba31a2c396a44e1d9db10a63d15394c2c24",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/envs/utils.py",
+          "size": 6467,
+          "sha256": "5bb7726e4fe289a34014350592ca5bf4ed3a558aada6fd89d1d56470f970b66a",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/motion_data/tracking_farmer.npz",
+          "size": 1355297,
+          "sha256": "b2923d0bc779088a513b23cc5b0667944b5fd685a19a0275ac7cddc39d81676b",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/motion_data/tracking_stairs.npz",
+          "size": 740039,
+          "sha256": "8102e9137a1a466a45663a582d3f30f4679c300584323dc3e04534d4ea0e9adb",
+          "kind": "snapshot"
+        },
+        {
+          "path": "msgym/motion_data/tracking_walk.npz",
+          "size": 1723486,
+          "sha256": "f77d507e3a0baf1c4edc511bc36633e8d082b6eada02feb00a4f37236869471d",
+          "kind": "snapshot"
+        },
+        {
+          "path": "pictures/ms_human_render_front.png",
+          "size": 910861,
+          "sha256": "1e1b9ddda2195d679025e92a0b836b6d8532f0a60026c54dde6d58db2afed932",
+          "kind": "snapshot"
+        },
+        {
+          "path": "pyproject.toml",
+          "size": 994,
+          "sha256": "9e1cc13727603aea8c7a83685d97f56d708e2478250a5c826e3dd72a71bfa9d5",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 30075241,
+      "weight_bytes": 0,
+      "snapshot_dir": "snapshots/BAAI/MS-Human-700/8eac35bb8788a183c9e8698ee1207c1bbe654094/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

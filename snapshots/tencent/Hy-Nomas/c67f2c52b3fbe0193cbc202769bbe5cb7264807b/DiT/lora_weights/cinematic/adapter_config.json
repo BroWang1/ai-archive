@@ -1,0 +1,25 @@
+{
+  "format_version": 1,
+  "rank": 256,
+  "alpha": 512.0,
+  "dropout": 0.0,
+  "targets": [
+    "double_blocks.*.img_attn_q",
+    "double_blocks.*.img_attn_k",
+    "double_blocks.*.img_attn_v",
+    "double_blocks.*.img_attn_proj",
+    "double_blocks.*.txt_attn_q",
+    "double_blocks.*.txt_attn_k",
+    "double_blocks.*.txt_attn_v",
+    "double_blocks.*.txt_attn_proj",
+    "double_blocks.*.img_mlp.fc1",
+    "double_blocks.*.img_mlp.fc2",
+    "double_blocks.*.txt_mlp.fc1",
+    "double_blocks.*.txt_mlp.fc2",
+    "double_blocks.*.img_mod.linear",
+    "double_blocks.*.txt_mod.linear",
+    "action_modules.*.img_attn_q",
+    "action_modules.*.keyboard_attn_kv",
+    "action_modules.*.proj_keyboard"
+  ]
+}

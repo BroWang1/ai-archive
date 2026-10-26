@@ -1,0 +1,114 @@
+{
+  "repo_id": "tencent/WeVisOne-VL-4B",
+  "canonical_org": "tencent",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "4a7bed92750ac9d8b8a124cede14759036932dc2",
+      "captured_at": "2026-10-26T14:34:33Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/tencent/WeVisOne-VL-4B?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"21a9-oypPoQtN4Ppbn+EVBFNJWgyxzEg\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "apache-2.0",
+        "file": "LICENSE",
+        "sha256": "df97da91b705606ff9657f8ce4b4becff382c014e6b94069d1e55224b9d7d6d2",
+        "redistributable": true,
+        "obligations": [],
+        "freedom": "free",
+        "freedom_note": "apache-2.0 with LICENSE file verified in snapshot"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1570,
+          "sha256": "34448b82c17d60fec9b65b1f093c115ddbaadc04beb1b0140b6bfed2e012a930",
+          "kind": "snapshot"
+        },
+        {
+          "path": "LICENSE",
+          "size": 24539,
+          "sha256": "df97da91b705606ff9657f8ce4b4becff382c014e6b94069d1e55224b9d7d6d2",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 2967,
+          "sha256": "2ea80f93490d3bd5e11eea5d942474700ea65a94803b451582a5317997749be8",
+          "kind": "snapshot"
+        },
+        {
+          "path": "chat_template.jinja",
+          "size": 5292,
+          "sha256": "3636d0f0bd6bef02654cdffdc447b79cb2cef8ab02cc75267345946291a489e4",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 1664,
+          "sha256": "69da45bf7cdb6776dc3949034ff9c4ab711abddc696adc272a8cf18bc5399697",
+          "kind": "snapshot"
+        },
+        {
+          "path": "generation_config.json",
+          "size": 228,
+          "sha256": "5583d8b7fa1515aaabdfbca2cf412d99a86c98d9dd57dd66cfb132504f1fa4ad",
+          "kind": "snapshot"
+        },
+        {
+          "path": "mask_decoder.pt",
+          "size": 38534741,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model.safetensors",
+          "size": 19322413240,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "processor_config.json",
+          "size": 1191,
+          "sha256": "d89ef49ce9cd37fbf510158e13c1ef063d9286411c1ec9049932dbe0487143b1",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer.json",
+          "size": 11607393,
+          "sha256": "3bb172429b952469b51c64783f52fa01c26d1b30f1f31a4693e385a43f9cfc5e",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 424,
+          "sha256": "af3b0fe802740ae544beb2b395b9b498fc942d8df2323cd0117bf1dfdec1d943",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 19372593249,
+      "weight_bytes": 19360947981,
+      "snapshot_dir": "snapshots/tencent/WeVisOne-VL-4B/4a7bed92750ac9d8b8a124cede14759036932dc2/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

@@ -1,0 +1,294 @@
+{
+  "repo_id": "tencent/Hy-SimulMT-30B-A3B-FP8",
+  "canonical_org": "tencent",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "5567e940a445fac73917367296b3d046f85561be",
+      "captured_at": "2026-10-26T14:33:52Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/tencent/Hy-SimulMT-30B-A3B-FP8?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"56fe-dmu0ys+nEcFaazsyTUJZtJb3wVc\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "apache-2.0",
+        "file": "LICENSE.txt",
+        "sha256": "b426b0a4d3709b20313bed1bb6eca9842ca1ad7bcfa347b0c97b8e053bd77849",
+        "redistributable": true,
+        "obligations": [],
+        "freedom": "free",
+        "freedom_note": "apache-2.0 with LICENSE file verified in snapshot"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1568,
+          "sha256": "3088fd9aac00e3e44c504486e4bd1c565bdd05a42f28a2184b3b9f137d25d336",
+          "kind": "snapshot"
+        },
+        {
+          "path": "LICENSE.txt",
+          "size": 20189,
+          "sha256": "b426b0a4d3709b20313bed1bb6eca9842ca1ad7bcfa347b0c97b8e053bd77849",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 23170,
+          "sha256": "bc74803700dade5b15bba08255dd1435ee5ef506bf951701198b7ee5f07f63f2",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README_CN.md",
+          "size": 19921,
+          "sha256": "e1c717a733865812d5f107bdd19ad917e2a69990754554a637897037cdf64764",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/EN_hy_vs_human_human_eval_acc_streamlaal_hyblue.png",
+          "size": 219674,
+          "sha256": "f369f7817a62febe1120a2689ed1fd5dea9f15fdb54ad4499ac607113abd4c29",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/android.png",
+          "size": 7475,
+          "sha256": "de2e74d9b425f082af4c2fbb24cc5e16b2fb880bfc78708711b36e8ceb86bbe4",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/hy-simulmt-logo.png",
+          "size": 82725,
+          "sha256": "32b374c960500ca2af2e0f6787e38f30848e3796194d2c0488f47f6bcecfdacd",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/hy-simulmt-title.png",
+          "size": 39962,
+          "sha256": "fedb8c8218a3cc16a73398103aa5eae4c1dbcfeba68b646c06f0226897e6e884",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/hy_vs_human_human_eval_acc_streamlaal_hyblue.png",
+          "size": 156241,
+          "sha256": "972335ab45421d18f61632b4e5aa1e2d7bacc29742be603429350bae0f5a8a1c",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/hy_vs_human_streamlaal_horizontal_hyblue_en.png",
+          "size": 79232,
+          "sha256": "cb3530bef5d9e038496f842c8a52a88984ba13c274078b11250b86fae64dbf93",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/hy_vs_human_streamlaal_horizontal_hyblue_zh.png",
+          "size": 83602,
+          "sha256": "d1b8eac036ea4c378eee8edf239e471233c908a48ec5f6deeb632ade0ceaec02",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/ios.png",
+          "size": 7598,
+          "sha256": "c8d08ac82f0f839160f04b0ca719e10957f45b637283e7782b6132045b7bd048",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/realsi_gemba_streamlaal_redstar_logos_v2.png",
+          "size": 365581,
+          "sha256": "4d1d9647b79e39276601bb9ccf5e26f9a71f0ec602b6de82e4ec6e20229e777f",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/tencent-hy-logo-zh.png",
+          "size": 58479,
+          "sha256": "4e84e4642180e7ee038c2c071227f88af48e4f1c2fd429efd9984246d1baa61a",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/tencent-hy-logo.png",
+          "size": 56669,
+          "sha256": "f6bcb79adc3b0c50f7f85d7775254466eddec340e8531963179743f977c4aaa3",
+          "kind": "snapshot"
+        },
+        {
+          "path": "chat_template.jinja",
+          "size": 12200,
+          "sha256": "31d66ae1a73a38d04c1c4bb9776efaa89c410b813d0a65b25b39fa4cc466dfbb",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 13688,
+          "sha256": "249bcaee486618662ae9d4bb36bd1513e445513cd55e9200adb949b045f3b003",
+          "kind": "snapshot"
+        },
+        {
+          "path": "generation_config.json",
+          "size": 123,
+          "sha256": "05daa033d2a05732523a934d536bbebcd5b24dfd2783cd383c23b88a0d8af3a9",
+          "kind": "snapshot"
+        },
+        {
+          "path": "model-00000-of-00017.safetensors",
+          "size": 1812664232,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00001-of-00017.safetensors",
+          "size": 1812666536,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00002-of-00017.safetensors",
+          "size": 1812666536,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00003-of-00017.safetensors",
+          "size": 1812666536,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00004-of-00017.safetensors",
+          "size": 1812664232,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00005-of-00017.safetensors",
+          "size": 1812666536,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00006-of-00017.safetensors",
+          "size": 1812666536,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00007-of-00017.safetensors",
+          "size": 1812666536,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00008-of-00017.safetensors",
+          "size": 1812664232,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00009-of-00017.safetensors",
+          "size": 1812666536,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00010-of-00017.safetensors",
+          "size": 1812666536,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00011-of-00017.safetensors",
+          "size": 1812666536,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00012-of-00017.safetensors",
+          "size": 1812666536,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00013-of-00017.safetensors",
+          "size": 1812666536,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00014-of-00017.safetensors",
+          "size": 1812666536,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00015-of-00017.safetensors",
+          "size": 3091278152,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00016-of-00017.safetensors",
+          "size": 1208443704,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-audio-tower.safetensors",
+          "size": 660189224,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model.safetensors.index.json",
+          "size": 3545217,
+          "sha256": "968c6d7a635d31edeb02302d5ab00ffbf1301e6f2be70a3251406f923bb2840c",
+          "kind": "snapshot"
+        },
+        {
+          "path": "preprocessor_config.json",
+          "size": 289,
+          "sha256": "baebc93d930815b42b4f8eb46f975bfe25ff47f15e8b9f4d2a93dbf82916f9dc",
+          "kind": "snapshot"
+        },
+        {
+          "path": "special_tokens_map.json",
+          "size": 468,
+          "sha256": "687791a9ade35069d6ffdd61eb1863839baf1e5ce235d5d48ff61b40dcb72f1a",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer.json",
+          "size": 9527108,
+          "sha256": "ad96ef9f641b79bb63807bea87cecf1dd0534325b463dad44cccbb3d0c571db7",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 165617,
+          "sha256": "3b5adc69f617f4999e636a53f0024aaded19d0b1830d2c8b4ac43b7af044fd7f",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 32164389004,
+      "weight_bytes": 32149902208,
+      "snapshot_dir": "snapshots/tencent/Hy-SimulMT-30B-A3B-FP8/5567e940a445fac73917367296b3d046f85561be/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

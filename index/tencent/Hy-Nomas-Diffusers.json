@@ -1,0 +1,222 @@
+{
+  "repo_id": "tencent/Hy-Nomas-Diffusers",
+  "canonical_org": "tencent",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "a1ae04d11ae4ea176d1f76de634c115944f9882d",
+      "captured_at": "2026-10-26T14:34:25Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/tencent/Hy-Nomas-Diffusers?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"180d-eFy5rEFhxjZgfK97YkdLhilgEnU\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "apache-2.0",
+        "file": "LICENSE",
+        "sha256": "77b312c08eba7bdf107ab6532abadd8e3a758fcd3d56dbed2580d7872e767d8e",
+        "redistributable": true,
+        "obligations": [],
+        "freedom": "free",
+        "freedom_note": "apache-2.0 with LICENSE file verified in snapshot"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1715,
+          "sha256": "eee7feda3f43eea8e14140e9dc944b3a9014436b00c2ba449777bdf8597f2870",
+          "kind": "snapshot"
+        },
+        {
+          "path": "LICENSE",
+          "size": 106364,
+          "sha256": "77b312c08eba7bdf107ab6532abadd8e3a758fcd3d56dbed2580d7872e767d8e",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 16068,
+          "sha256": "2a49dceeda2aa0cc30488760742a0abe00697d82a4ed79c4b6cf461344914989",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README_CN.md",
+          "size": 15003,
+          "sha256": "90f42fe053a7003e0accc2844d58982694ad5010645bda00f5c54cd036423ba3",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/logo-en.png",
+          "size": 65860,
+          "sha256": "0cd56e2438d4c91a5d529b3102f800de5f17c768f73caaf4848a864e7b741080",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/logo-zh.png",
+          "size": 69906,
+          "sha256": "1e9a9aea04658439e1af23db01c4cd2c6c6765fd1efd1a594c7ffdd312f31bb6",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/method_framework_h.png",
+          "size": 249764,
+          "sha256": "9f5078c0c14169193c5a7a33b3865ef9cdce905401ec4e37f4d9b7857a7aef37",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/method_framework_h_cn.png",
+          "size": 253841,
+          "sha256": "0927c8c7d9983e1605d68b4d9a887b4f626400f77d020e337ac53da0d295d10c",
+          "kind": "snapshot"
+        },
+        {
+          "path": "decoder/config.json",
+          "size": 594,
+          "sha256": "2e79c17f99b4a45d0fda1517772a9f837edfdf6880a1333bc0418e5538078fec",
+          "kind": "snapshot"
+        },
+        {
+          "path": "decoder/diffusion_pytorch_model-00001-of-00003.safetensors",
+          "size": 4942218552,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "decoder/diffusion_pytorch_model-00002-of-00003.safetensors",
+          "size": 4915962968,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "decoder/diffusion_pytorch_model-00003-of-00003.safetensors",
+          "size": 4085458920,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "decoder/diffusion_pytorch_model.safetensors.index.json",
+          "size": 47065,
+          "sha256": "71e167ca6e1776dee408a988539da98efa424d399b491aab489f260a7f89dbf7",
+          "kind": "snapshot"
+        },
+        {
+          "path": "modular_model_index.json",
+          "size": 1472,
+          "sha256": "cefa9dfdf5ce2b8c7e37c70d5044035f581fc44b21e6b3fa28d5a8850af14f6e",
+          "kind": "snapshot"
+        },
+        {
+          "path": "scheduler/scheduler_config.json",
+          "size": 485,
+          "sha256": "7c7cca7e3ea99252840c6fc3361b9f45a0994934cdc1cf14f28dd07f40ce966a",
+          "kind": "snapshot"
+        },
+        {
+          "path": "text_encoder/config.json",
+          "size": 1437,
+          "sha256": "a79efa830213db42a28813953fcaf84986f1a974b3400d64f8b03103043b97f4",
+          "kind": "snapshot"
+        },
+        {
+          "path": "text_encoder/model-00001-of-00003.safetensors",
+          "size": 4877660152,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "text_encoder/model-00002-of-00003.safetensors",
+          "size": 4932750280,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "text_encoder/model-00003-of-00003.safetensors",
+          "size": 4330864528,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "text_encoder/model.safetensors.index.json",
+          "size": 25702,
+          "sha256": "3374ab25b3226ec4416e0f036c157d577b36329a2c45ba710f8843547ef8ba00",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer/chat_template.jinja",
+          "size": 1017,
+          "sha256": "a0bc6f6fc7a29a80017a433e8f03a1cc1236e838a944a2d034295a60c4f2fddb",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer/tokenizer.json",
+          "size": 11421892,
+          "sha256": "3fd169731d2cbde95e10bf356d66d5997fd885dd8dbb6fb4684da3f23b2585d8",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer/tokenizer_config.json",
+          "size": 720,
+          "sha256": "f75cf0b5ad1a43e59e36fda8e85cf3b33f7838eb10b8f92cadd22321528ab20a",
+          "kind": "snapshot"
+        },
+        {
+          "path": "transformer/config.json",
+          "size": 477,
+          "sha256": "db5fce6a82cdf1402c96621a4e90bac0ac6a8b1afb5b232490d092e97279b0e7",
+          "kind": "snapshot"
+        },
+        {
+          "path": "transformer/diffusion_pytorch_model-00001-of-00004.safetensors",
+          "size": 4991400040,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "transformer/diffusion_pytorch_model-00002-of-00004.safetensors",
+          "size": 4968153632,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "transformer/diffusion_pytorch_model-00003-of-00004.safetensors",
+          "size": 4951365120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "transformer/diffusion_pytorch_model-00004-of-00004.safetensors",
+          "size": 2196207456,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "transformer/diffusion_pytorch_model.safetensors.index.json",
+          "size": 227414,
+          "sha256": "dd2f43b4aff97e617940afaf0933084a264cdbbc50e0a24e8c9ccb1f3bf68585",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 45204548444,
+      "weight_bytes": 45192041648,
+      "snapshot_dir": "snapshots/tencent/Hy-Nomas-Diffusers/a1ae04d11ae4ea176d1f76de634c115944f9882d/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}
