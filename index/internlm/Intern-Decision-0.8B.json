@@ -170,8 +170,10 @@
         "tag": "apache-2.0",
         "file": "LICENSE-QWEN",
         "sha256": "bbedc3fda3305820b977265f01b8619d87570a6739de3a5582c3464840f1e57a",
-        "redistributable": null,
-        "obligations": []
+        "redistributable": true,
+        "obligations": [],
+        "freedom": "free",
+        "freedom_note": "apache-2.0 with LICENSE file verified in snapshot"
       },
       "gate_terms_sha256": null,
       "files": [

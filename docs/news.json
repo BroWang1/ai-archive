@@ -1,5 +1,12 @@
 [
  {
+  "at": "2026-10-26T21:31:27Z",
+  "kind": "digest",
+  "text": "This week the archive captured 24 open-weight model releases, including tencent's Hy-SimulMT-30B-A3B in FP8, GGUF, and Interleave variants, plus inclusionAI's Ling-3.0-flash and Ling-3.0-tiny-UBTree. openbmb added GPTQ and int4 builds of MiniCPM-V-4.7-1B, and internlm released Atria-Dawn with an FP8 version. No mirrors or alerts were recorded; radar signals included a DeepInfer inference framework for DeepSeek models on HN's front page and a DHS order banning DeepSeek from U.S. federal civilian agencies.",
+  "url": "https://github.com/BroWang1/ai-archive/issues",
+  "action": "details"
+ },
+ {
   "at": "2026-10-26T14:37:01Z",
   "kind": "paper",
   "text": "New paper mentioning DeepSeek: HarnessMM: Recursive Self-Improvement for Harness Token Efficiency",
@@ -270,13 +277,6 @@
   "kind": "trending",
   "text": "Trending outside tracked labs: briaai/Fibo-2.0-dev (1,267 downloads)",
   "url": "https://huggingface.co/briaai/Fibo-2.0-dev",
-  "action": "view"
- },
- {
-  "at": "2026-10-26T14:36:47Z",
-  "kind": "trending",
-  "text": "Trending outside tracked labs: XHToken/Spark-X2.6-4B-GGUF (69,669 downloads)",
-  "url": "https://huggingface.co/XHToken/Spark-X2.6-4B-GGUF",
   "action": "view"
  }
 ]
