@@ -1,5 +1,19 @@
 [
  {
+  "at": "2026-10-28T11:26:09Z",
+  "kind": "capture",
+  "text": "Captured inclusionAI/Ling-3.0-flash-UBTree \u2014 1 GB manifested, license: unclassified",
+  "url": "https://huggingface.co/inclusionAI/Ling-3.0-flash-UBTree",
+  "action": "view / download"
+ },
+ {
+  "at": "2026-10-28T11:26:07Z",
+  "kind": "capture",
+  "text": "Captured inclusionAI/Ling-3.0-tiny-UBTree \u2014 0 GB manifested, license: unclassified",
+  "url": "https://huggingface.co/inclusionAI/Ling-3.0-tiny-UBTree",
+  "action": "view / download"
+ },
+ {
   "at": "2026-10-26T21:31:27Z",
   "kind": "digest",
   "text": "This week the archive captured 24 open-weight model releases, including tencent's Hy-SimulMT-30B-A3B in FP8, GGUF, and Interleave variants, plus inclusionAI's Ling-3.0-flash and Ling-3.0-tiny-UBTree. openbmb added GPTQ and int4 builds of MiniCPM-V-4.7-1B, and internlm released Atria-Dawn with an FP8 version. No mirrors or alerts were recorded; radar signals included a DeepInfer inference framework for DeepSeek models on HN's front page and a DHS order banning DeepSeek from U.S. federal civilian agencies.",
@@ -263,20 +277,6 @@
   "kind": "trending",
   "text": "Trending outside tracked labs: HuggingFaceBio/Carbon-X (1,128 downloads)",
   "url": "https://huggingface.co/HuggingFaceBio/Carbon-X",
-  "action": "view"
- },
- {
-  "at": "2026-10-26T14:36:47Z",
-  "kind": "trending",
-  "text": "Trending outside tracked labs: KRAFTON/Raon-1-mini-preview (1,450 downloads)",
-  "url": "https://huggingface.co/KRAFTON/Raon-1-mini-preview",
-  "action": "view"
- },
- {
-  "at": "2026-10-26T14:36:47Z",
-  "kind": "trending",
-  "text": "Trending outside tracked labs: briaai/Fibo-2.0-dev (1,267 downloads)",
-  "url": "https://huggingface.co/briaai/Fibo-2.0-dev",
   "action": "view"
  }
 ]
