@@ -1,0 +1,84 @@
+{
+  "repo_id": "inclusionAI/Qwen3.8-Flash-Next-singprobe",
+  "canonical_org": "inclusionAI",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "74ea5a15def0b75dadec52082e8ed42e9ca4708e",
+      "captured_at": "2026-10-29T14:39:30Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/inclusionAI/Qwen3.8-Flash-Next-singprobe?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"784-cwZX/7N8VUQyDN/ZQ1DXOlHZ5Xg\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "other",
+        "file": null,
+        "sha256": null,
+        "redistributable": null,
+        "obligations": [],
+        "freedom": "conditional",
+        "freedom_note": "Custom license ('other') \u2014 read before redistributing"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1519,
+          "sha256": "11ad7efa24975ee4b0c3c3a38ed18737f0658a5f75a0a96787b576a78a023361",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 2659,
+          "sha256": "d7c2b99ca5a74c4f05520380a7291419d65e92d2486c028e9e4d601eda18029c",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 489,
+          "sha256": "48bc5f0fb97eb880fe4becf04542e9e786edcc447f4912dc58007a0ad46405f3",
+          "kind": "snapshot"
+        },
+        {
+          "path": "configuration_sing_probe.py",
+          "size": 1807,
+          "sha256": "e530fd810d2121c9dba12831ed9cc047af42c6eb34ed1cfacc984903f400a044",
+          "kind": "snapshot"
+        },
+        {
+          "path": "model.safetensors",
+          "size": 10366572,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "modeling_sing_probe.py",
+          "size": 6074,
+          "sha256": "b8d964788daf53e90ed0982d290dc743235c76fd703cfef35ab15ab0b85d2dc4",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 10379120,
+      "weight_bytes": 10366572,
+      "snapshot_dir": "snapshots/inclusionAI/Qwen3.8-Flash-Next-singprobe/74ea5a15def0b75dadec52082e8ed42e9ca4708e/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

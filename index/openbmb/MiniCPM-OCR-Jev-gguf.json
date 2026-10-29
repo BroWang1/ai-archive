@@ -1,0 +1,156 @@
+{
+  "repo_id": "openbmb/MiniCPM-OCR-Jev-gguf",
+  "canonical_org": "openbmb",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "2554d7c9173b4cb767c4ecfc3e886e824978965c",
+      "captured_at": "2026-10-29T14:40:06Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/openbmb/MiniCPM-OCR-Jev-gguf?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"3411-M+eXBMpGa1NPdRRdeN++9nLCGLE\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "apache-2.0",
+        "file": null,
+        "sha256": null,
+        "redistributable": true,
+        "obligations": [],
+        "freedom": "free",
+        "freedom_note": "apache-2.0 declared via card metadata (fingerprinted in snapshot); upstream ships no separate LICENSE file"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 3525,
+          "sha256": "7c7e9433b8b9fa1ac965c385f40f24202b2ca90b8ec69cd6460d052d545acba3",
+          "kind": "snapshot"
+        },
+        {
+          "path": "MiniCPM-OCR-Jev-F16.gguf",
+          "size": 3775717760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "MiniCPM-OCR-Jev-IQ3_M.gguf",
+          "size": 1059454336,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "MiniCPM-OCR-Jev-IQ3_XS.gguf",
+          "size": 1027210816,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "MiniCPM-OCR-Jev-IQ4_NL.gguf",
+          "size": 1236312448,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "MiniCPM-OCR-Jev-IQ4_XS.gguf",
+          "size": 1201869184,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "MiniCPM-OCR-Jev-Q4_0.gguf",
+          "size": 1202495872,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "MiniCPM-OCR-Jev-Q4_1.gguf",
+          "size": 1288290688,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "MiniCPM-OCR-Jev-Q4_K_M.gguf",
+          "size": 1274405248,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "MiniCPM-OCR-Jev-Q4_K_S.gguf",
+          "size": 1212064128,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "MiniCPM-OCR-Jev-Q5_0.gguf",
+          "size": 1374085504,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "MiniCPM-OCR-Jev-Q5_1.gguf",
+          "size": 1459880320,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "MiniCPM-OCR-Jev-Q5_K_M.gguf",
+          "size": 1411129728,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "MiniCPM-OCR-Jev-Q5_K_S.gguf",
+          "size": 1374085504,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "MiniCPM-OCR-Jev-Q6_K.gguf",
+          "size": 1556399488,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "MiniCPM-OCR-Jev-Q8_0.gguf",
+          "size": 2012021120,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "README.md",
+          "size": 3130,
+          "sha256": "bbeff6bec28f43d91bb7142ba6e185c0ef8b374459af02da986483e3b721f431",
+          "kind": "snapshot"
+        },
+        {
+          "path": "mmproj-model-f16.gguf",
+          "size": 671372416,
+          "sha256": null,
+          "kind": "weights"
+        }
+      ],
+      "total_bytes": 23136801215,
+      "weight_bytes": 23136794560,
+      "snapshot_dir": "snapshots/openbmb/MiniCPM-OCR-Jev-gguf/2554d7c9173b4cb767c4ecfc3e886e824978965c/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

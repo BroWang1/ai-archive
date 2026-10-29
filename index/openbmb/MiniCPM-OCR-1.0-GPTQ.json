@@ -1,0 +1,114 @@
+{
+  "repo_id": "openbmb/MiniCPM-OCR-1.0-GPTQ",
+  "canonical_org": "openbmb",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "3bc565af67f2e51908c65fffa5a5de456c346b8b",
+      "captured_at": "2026-10-29T14:39:42Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/openbmb/MiniCPM-OCR-1.0-GPTQ?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"28f0-WAdECQZGa8eznTDExxsB+82qDt4\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "apache-2.0",
+        "file": null,
+        "sha256": null,
+        "redistributable": true,
+        "obligations": [],
+        "freedom": "free",
+        "freedom_note": "apache-2.0 declared via card metadata (fingerprinted in snapshot); upstream ships no separate LICENSE file"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 2213,
+          "sha256": "3b0749ff7885fec1612bcc8b28f5dd80bd712e6a6afcbd3a4b31a301d315b335",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 14491,
+          "sha256": "b90ebe5f60050e4fadda43397c974c94a97e785751c45fc8df918644c9e0b9fe",
+          "kind": "snapshot"
+        },
+        {
+          "path": "chat_template.jinja",
+          "size": 7344,
+          "sha256": "c6a5f1387c6baa0befecc39e36f293e44baba865a9c7809ac93fae1604b2c210",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 2529,
+          "sha256": "c3ae59d64bbe4423a45ca84d307a5fced70439f5cb8d491c3891a31e42c52449",
+          "kind": "snapshot"
+        },
+        {
+          "path": "generation_config.json",
+          "size": 133,
+          "sha256": "7cecf81e246f8db6bcc4c14f22313dd7decf2d6a70dd1b45c4d237a2e6927405",
+          "kind": "snapshot"
+        },
+        {
+          "path": "model.safetensors",
+          "size": 1866153632,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "preprocessor_config.json",
+          "size": 340,
+          "sha256": "7b46cf09f350fa1cd3bfd4d20fe8b8532e76dcc5d892a0052660f803c8ad532b",
+          "kind": "snapshot"
+        },
+        {
+          "path": "processor_config.json",
+          "size": 46,
+          "sha256": "b71fbc3e22a7dbe04622e1a2641e8553375bc1434875ac438066c58a88b974b1",
+          "kind": "snapshot"
+        },
+        {
+          "path": "quantize_config.json",
+          "size": 649,
+          "sha256": "eb189eeffb20446ae201436cc6d27758b4d0466c6d4fe2673f7a2355d59c9030",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer.json",
+          "size": 19993565,
+          "sha256": "6269eb38f25c20c0f2ba676577f2e5603f79eab3be573dfdaa727ca6eeb5522d",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 1463,
+          "sha256": "74f51078120066292803d9dfe5437f67b778c5ef6d16eb04dbc6a3f7a13e5826",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 1886176405,
+      "weight_bytes": 1866153632,
+      "snapshot_dir": "snapshots/openbmb/MiniCPM-OCR-1.0-GPTQ/3bc565af67f2e51908c65fffa5a5de456c346b8b/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

@@ -1,0 +1,126 @@
+{
+  "repo_id": "inclusionAI/ZwZ2-4B",
+  "canonical_org": "inclusionAI",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "666c605d16a73c20d5522fb7c27086a20ecb80b8",
+      "captured_at": "2026-10-29T14:39:20Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/inclusionAI/ZwZ2-4B?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"2f14-BKocKirm1nOnQEqPY7OZgLpKdiE\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": null,
+        "file": null,
+        "sha256": null,
+        "redistributable": false,
+        "obligations": [],
+        "freedom": "unlicensed",
+        "freedom_note": "No license tag and no file \u2014 cannot redistribute"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1866,
+          "sha256": "a70e55a3a161cad0826e44573242eb40fb5172f1ffa782e7f1c967c4870b32d1",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 5045,
+          "sha256": "356e65c65bfb1d1f4b764ca48167f2ec6046e51df1bf7558457d1073fc5abac1",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/zwz2_4b_results.png",
+          "size": 536335,
+          "sha256": "035910c767409d72674682b62ebc0d0aa4c87450bf8d7c26ca4df90228caf807",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/zwz2_4b_results.svg",
+          "size": 49320,
+          "sha256": "572d92be6c74102be1ceb77d11a9a576da9535b05c4f2c899c8690e2aa86a5a9",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/zwz2_performance_highlights.png",
+          "size": 255886,
+          "sha256": "d8469c3ca58bcdc751689ba9f7695e023bf2733a5816e045ae459b9ece12ced3",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/zwz2_performance_highlights_editable.pdf",
+          "size": 137842,
+          "sha256": "a096546eeb4e4783033cf6979bba1a038cbf79d751a5074c1572b3fe30c8e7e6",
+          "kind": "snapshot"
+        },
+        {
+          "path": "chat_template.jinja",
+          "size": 8181,
+          "sha256": "639303378d6c7c37a091ed2b925883edee0c09a665fd28f0686b1a6648338413",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 2905,
+          "sha256": "b42dbd87fbe8079f2dd0777a38e9048ba52c2d841e48ac65ed90da2a121a62f7",
+          "kind": "snapshot"
+        },
+        {
+          "path": "generation_config.json",
+          "size": 205,
+          "sha256": "3502a45846d7abb553326e28ddc443077a6fc868809ae92bd5d12d4dcbd7e5cf",
+          "kind": "snapshot"
+        },
+        {
+          "path": "model.safetensors",
+          "size": 9078620536,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "processor_config.json",
+          "size": 1191,
+          "sha256": "d89ef49ce9cd37fbf510158e13c1ef063d9286411c1ec9049932dbe0487143b1",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer.json",
+          "size": 19989325,
+          "sha256": "06b9509352d2af50381ab2247e083b80d32d5c0aba91c272ca9ff729b6a0e523",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 1165,
+          "sha256": "792fa3f0cb88b111e54ef3134c873531008c4df471d108da17903426e308aa7b",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 9099609802,
+      "weight_bytes": 9078620536,
+      "snapshot_dir": "snapshots/inclusionAI/ZwZ2-4B/666c605d16a73c20d5522fb7c27086a20ecb80b8/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

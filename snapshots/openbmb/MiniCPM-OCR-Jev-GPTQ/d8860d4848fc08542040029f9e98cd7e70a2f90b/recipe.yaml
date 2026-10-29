@@ -1,0 +1,32 @@
+default_stage:
+  default_modifiers:
+    GPTQModifier:
+      config_groups:
+        group_0:
+          targets: [Linear]
+          weights:
+            num_bits: 4
+            type: int
+            symmetric: true
+            group_size: 128
+            strategy: group
+            block_structure: null
+            dynamic: false
+            actorder: !!python/object/apply:compressed_tensors.quantization.quant_args.ActivationOrdering [
+              static]
+            scale_dtype: null
+            zp_dtype: null
+            observer: memoryless_minmax
+            observer_kwargs: {}
+          input_activations: null
+          output_activations: null
+          format: null
+      targets: [Linear]
+      ignore: ['re:^model\.visual\..*', 're:^score$', 're:.*in_proj_[ab]$', 're:.*embed_tokens.*',
+        're:.*patch_embed.*', 're:.*lm_head.*']
+      bypass_divisibility_checks: false
+      requires_calibration_data: true
+      block_size: 128
+      dampening_frac: 0.01
+      actorder: static
+      offload_hessians: false

@@ -1,0 +1,108 @@
+{
+  "repo_id": "openbmb/MiniCPM-OCR-Jev",
+  "canonical_org": "openbmb",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "0e421f0eba978491625391982c6b544f9facce0a",
+      "captured_at": "2026-10-29T14:40:02Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/openbmb/MiniCPM-OCR-Jev?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"297a-YRYCCX2yEHffAftuTYRAMh211Dc\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "apache-2.0",
+        "file": null,
+        "sha256": null,
+        "redistributable": true,
+        "obligations": [],
+        "freedom": "free",
+        "freedom_note": "apache-2.0 declared via card metadata (fingerprinted in snapshot); upstream ships no separate LICENSE file"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1840,
+          "sha256": "2092b5f59e45c3f6a9109b1cb5bb2ef94bfe0102282bf4f7819334ac09d80c4f",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 8094,
+          "sha256": "5a93c9cfc6c7f147f8f603ee47186939785c0a9d3c6c28d63542ad2e1d3fd408",
+          "kind": "snapshot"
+        },
+        {
+          "path": "chat_template.jinja",
+          "size": 7755,
+          "sha256": "273d8e0e683b885071fb17e08d71e5f2a5ddfb5309756181681de4f5a1822d80",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 2775,
+          "sha256": "fd3d48eacdf595b290afc504ac05aa4a4e44343a227406e60eb61516dc772b34",
+          "kind": "snapshot"
+        },
+        {
+          "path": "generation_config.json",
+          "size": 176,
+          "sha256": "daa38670fac2e808a88a68c925f3af81e62b5447bcd81c048756753c0b1cf8d6",
+          "kind": "snapshot"
+        },
+        {
+          "path": "model.safetensors",
+          "size": 4426567144,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "preprocessor_config.json",
+          "size": 390,
+          "sha256": "27225450ac9c6529872ee1924fcb0962ff5634834f817040f444118116f4e516",
+          "kind": "snapshot"
+        },
+        {
+          "path": "processor_config.json",
+          "size": 1191,
+          "sha256": "d89ef49ce9cd37fbf510158e13c1ef063d9286411c1ec9049932dbe0487143b1",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer.json",
+          "size": 19989325,
+          "sha256": "06b9509352d2af50381ab2247e083b80d32d5c0aba91c272ca9ff729b6a0e523",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 1165,
+          "sha256": "792fa3f0cb88b111e54ef3134c873531008c4df471d108da17903426e308aa7b",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 4446579855,
+      "weight_bytes": 4426567144,
+      "snapshot_dir": "snapshots/openbmb/MiniCPM-OCR-Jev/0e421f0eba978491625391982c6b544f9facce0a/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

@@ -175,9 +175,20 @@
     "gradium/phonon-31m-en",
     "LiconStudio/Minimax-H3-VBVR",
     "vllm-sr/d3-turbo",
-    "MemTensor/MemT-1.0-Flash"
+    "MemTensor/MemT-1.0-Flash",
+    "LiquidAI/LFM3-1.7B",
+    "baidu/Unlimited-OCR-2",
+    "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+    "ccore/Qwen3.5-4B-3D-Coder",
+    "LiquidAI/LFM3-Omni-2B",
+    "LiquidAI/LFM3-VL-2B",
+    "LiquidAI/LFM3-Audio-2B",
+    "Diffuspace/Clover-35B-A3B-Preview",
+    "OliviaRossi/Minimax-h3_Singularity-x-10Eros-Max_PRISM",
+    "LiquidAI/LFM3-1.7B-GGUF",
+    "AtomicChat/LFM3-1.7B-Uncensored-GGUF"
   ],
-  "last_run": "2026-10-26T14:36:47Z",
+  "last_run": "2026-10-29T14:40:18Z",
   "log": [
     {
       "id": "prism-ml/Ternary-Bonsai-2-27B-gguf",
@@ -868,6 +879,61 @@
       "id": "MemTensor/MemT-1.0-Flash",
       "at": "2026-10-26T14:36:47Z",
       "downloads": 32706
+    },
+    {
+      "id": "LiquidAI/LFM3-1.7B",
+      "at": "2026-10-29T14:40:18Z",
+      "downloads": 15885
+    },
+    {
+      "id": "baidu/Unlimited-OCR-2",
+      "at": "2026-10-29T14:40:18Z",
+      "downloads": 18141
+    },
+    {
+      "id": "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+      "at": "2026-10-29T14:40:18Z",
+      "downloads": 4276
+    },
+    {
+      "id": "ccore/Qwen3.5-4B-3D-Coder",
+      "at": "2026-10-29T14:40:18Z",
+      "downloads": 12237
+    },
+    {
+      "id": "LiquidAI/LFM3-Omni-2B",
+      "at": "2026-10-29T14:40:18Z",
+      "downloads": 1814
+    },
+    {
+      "id": "LiquidAI/LFM3-VL-2B",
+      "at": "2026-10-29T14:40:18Z",
+      "downloads": 4193
+    },
+    {
+      "id": "LiquidAI/LFM3-Audio-2B",
+      "at": "2026-10-29T14:40:18Z",
+      "downloads": 1794
+    },
+    {
+      "id": "Diffuspace/Clover-35B-A3B-Preview",
+      "at": "2026-10-29T14:40:18Z",
+      "downloads": 1030
+    },
+    {
+      "id": "OliviaRossi/Minimax-h3_Singularity-x-10Eros-Max_PRISM",
+      "at": "2026-10-29T14:40:18Z",
+      "downloads": 80848
+    },
+    {
+      "id": "LiquidAI/LFM3-1.7B-GGUF",
+      "at": "2026-10-29T14:40:18Z",
+      "downloads": 61499
+    },
+    {
+      "id": "AtomicChat/LFM3-1.7B-Uncensored-GGUF",
+      "at": "2026-10-29T14:40:18Z",
+      "downloads": 16687
     }
   ]
 }

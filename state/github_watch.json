@@ -181,7 +181,8 @@
       "Tencent-Hunyuan/Hy-Memory",
       "Tencent-Hunyuan/DiagSafe",
       "Tencent-Hunyuan/Hy-SimulMT",
-      "Tencent-Hunyuan/Hy-Nomas"
+      "Tencent-Hunyuan/Hy-Nomas",
+      "Tencent-Hunyuan/HyperLogic"
     ],
     "Wan-Video": [
       "Wan-Video/Wan-Animate-2",
@@ -224,7 +225,8 @@
       "MiniMax-AI/vllm",
       "MiniMax-AI/MiniMax-Code-MiniApps",
       "MiniMax-AI/OpenAgentCore",
-      "MiniMax-AI/homebrew-tap"
+      "MiniMax-AI/homebrew-tap",
+      "MiniMax-AI/mcode-stack"
     ],
     "InternLM": [
       "InternLM/SciDocBench",
@@ -299,7 +301,8 @@
       "OpenBMB/T2Mem",
       "OpenBMB/llama.cpp-omni",
       "OpenBMB/SPARK",
-      "OpenBMB/JustGoal"
+      "OpenBMB/JustGoal",
+      "OpenBMB/MiniCPM-OCR"
     ],
     "stepfun-ai": [
       "stepfun-ai/Step-Realtime-CLI",
@@ -992,8 +995,23 @@
       "id": "OpenBMB/JustGoal",
       "at": "2026-10-26T14:36:47Z",
       "desc": ""
+    },
+    {
+      "id": "Tencent-Hunyuan/HyperLogic",
+      "at": "2026-10-29T14:40:18Z",
+      "desc": "HyperLogic: a hard, forward-authored Chinese logical reasoning benchmark with execution-derived answers (Seed / Base / Hard)"
+    },
+    {
+      "id": "MiniMax-AI/mcode-stack",
+      "at": "2026-10-29T14:40:18Z",
+      "desc": "The workflows and skills the MiniMax Code team uses to build MiniMax Code. Open source, install and use."
+    },
+    {
+      "id": "OpenBMB/MiniCPM-OCR",
+      "at": "2026-10-29T14:40:18Z",
+      "desc": "Fast, accurate OCR with correctness assessment."
     }
   ],
   "first_run_done": true,
-  "last_run": "2026-10-26T14:36:47Z"
+  "last_run": "2026-10-29T14:40:18Z"
 }

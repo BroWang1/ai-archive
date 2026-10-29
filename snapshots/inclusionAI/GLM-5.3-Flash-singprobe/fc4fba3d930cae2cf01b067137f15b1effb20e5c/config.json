@@ -1,0 +1,22 @@
+{
+  "architectures": [
+    "SingProbeAttnModel"
+  ],
+  "model_type": "sing_probe_attn",
+  "auto_map": {
+    "AutoConfig": "configuration_sing_probe.SingProbeAttnConfig",
+    "AutoModel": "modeling_sing_probe.SingProbeAttnModel"
+  },
+  "hidden_size": 4096,
+  "base_model_layer_ids": [
+    14,
+    29,
+    43
+  ],
+  "num_attention_heads": 8,
+  "head_dim": 64,
+  "sliding_window": 2048,
+  "num_labels": 10,
+  "base_model_name": "/home/admin/GLM-5.3-Flash",
+  "torch_dtype": "bfloat16"
+}

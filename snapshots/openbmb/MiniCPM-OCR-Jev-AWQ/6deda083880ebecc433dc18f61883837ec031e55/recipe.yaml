@@ -1,0 +1,45 @@
+default_stage:
+  default_modifiers:
+    AWQModifier:
+      requires_calibration_data: true
+      mappings:
+      - smooth_layer: re:.*layers\.(3|7|11|15|19|23)\.input_layernorm$
+        balance_layers: ['re:.*self_attn.q_proj$', 're:.*self_attn.k_proj$', 're:.*self_attn.v_proj$']
+        activation_hook_target: null
+      - smooth_layer: re:.*layers\.(0|1|2|4|5|6|8|9|10|12|13|14|16|17|18|20|21|22)\.input_layernorm$
+        balance_layers: ['re:.*linear_attn.in_proj_qkv$', 're:.*linear_attn.in_proj_z$', 're:.*linear_attn.in_proj_b$',
+          're:.*linear_attn.in_proj_a$']
+        activation_hook_target: null
+      - smooth_layer: re:.*post_attention_layernorm$
+        balance_layers: ['re:.*gate_proj$', 're:.*up_proj$']
+        activation_hook_target: null
+      - smooth_layer: re:.*up_proj$
+        balance_layers: ['re:.*down_proj$']
+        activation_hook_target: null
+      duo_scaling: true
+      n_grid: 20
+    QuantizationModifier:
+      config_groups:
+        group_0:
+          targets: [Linear]
+          weights:
+            num_bits: 4
+            type: int
+            symmetric: true
+            group_size: 128
+            strategy: group
+            block_structure: null
+            dynamic: false
+            actorder: null
+            scale_dtype: null
+            zp_dtype: null
+            observer: memoryless_minmax
+            observer_kwargs: {}
+          input_activations: null
+          output_activations: null
+          format: null
+      targets: [Linear]
+      ignore: ['re:^model\.visual\..*', 're:^score$', 're:.*in_proj_[ab]$', 're:.*embed_tokens.*',
+        're:.*patch_embed.*', 're:.*lm_head.*']
+      bypass_divisibility_checks: false
+      requires_calibration_data: false

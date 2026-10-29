@@ -1,0 +1,132 @@
+{
+  "repo_id": "openbmb/MiniCPM-OCR-1.0-gguf",
+  "canonical_org": "openbmb",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "c2215afc4bc5df54137c7c001d5cd7d394e12020",
+      "captured_at": "2026-10-29T14:39:53Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/openbmb/MiniCPM-OCR-1.0-gguf?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"2e74-7DOd57d9tLumG7dDPwMmrptLdU8\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "apache-2.0",
+        "file": null,
+        "sha256": null,
+        "redistributable": true,
+        "obligations": [],
+        "freedom": "free",
+        "freedom_note": "apache-2.0 declared via card metadata (fingerprinted in snapshot); upstream ships no separate LICENSE file"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 2470,
+          "sha256": "8859c63c084574197d47fe3b051c79e6a4951e1012d50d3e1601daf596d64a82",
+          "kind": "snapshot"
+        },
+        {
+          "path": "MiniCPM-OCR-1_0-F16.gguf",
+          "size": 1516288352,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "MiniCPM-OCR-1_0-Q4_0.gguf",
+          "size": 501262208,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "MiniCPM-OCR-1_0-Q4_1.gguf",
+          "size": 532363136,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "MiniCPM-OCR-1_0-Q4_K_M.gguf",
+          "size": 529106816,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "MiniCPM-OCR-1_0-Q4_K_S.gguf",
+          "size": 505063296,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "MiniCPM-OCR-1_0-Q5_0.gguf",
+          "size": 563464064,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "MiniCPM-OCR-1_0-Q5_1.gguf",
+          "size": 594564992,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "MiniCPM-OCR-1_0-Q5_K_M.gguf",
+          "size": 577808256,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "MiniCPM-OCR-1_0-Q5_K_S.gguf",
+          "size": 563464064,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "MiniCPM-OCR-1_0-Q6_K.gguf",
+          "size": 629553536,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "MiniCPM-OCR-1_0-Q8_0.gguf",
+          "size": 811598432,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "README.md",
+          "size": 5897,
+          "sha256": "7a96f5a27fe7f98e9d485fc4901f4478bdb924678a7d5ff92f71cd80fbe7e20d",
+          "kind": "snapshot"
+        },
+        {
+          "path": "mmproj-model-f16-4x.gguf",
+          "size": 901017536,
+          "sha256": null,
+          "kind": "weights"
+        }
+      ],
+      "total_bytes": 8225563055,
+      "weight_bytes": 8225554688,
+      "snapshot_dir": "snapshots/openbmb/MiniCPM-OCR-1.0-gguf/c2215afc4bc5df54137c7c001d5cd7d394e12020/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

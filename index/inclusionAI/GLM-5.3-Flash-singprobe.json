@@ -1,0 +1,84 @@
+{
+  "repo_id": "inclusionAI/GLM-5.3-Flash-singprobe",
+  "canonical_org": "inclusionAI",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "fc4fba3d930cae2cf01b067137f15b1effb20e5c",
+      "captured_at": "2026-10-29T14:39:33Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/inclusionAI/GLM-5.3-Flash-singprobe?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"779-Jq4nwgoxz32bIh48WlYm+Mm4uB4\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "other",
+        "file": null,
+        "sha256": null,
+        "redistributable": null,
+        "obligations": [],
+        "freedom": "conditional",
+        "freedom_note": "Custom license ('other') \u2014 read before redistributing"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1519,
+          "sha256": "11ad7efa24975ee4b0c3c3a38ed18737f0658a5f75a0a96787b576a78a023361",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 2630,
+          "sha256": "aa2e33e49ad5dee832dd2e16ad37833b916d0df93d2246dad20fe8471c7f9428",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 484,
+          "sha256": "12625d77d26b42018f827fc730a72a29b9ac25a81d1952e296d6df5336a01268",
+          "kind": "snapshot"
+        },
+        {
+          "path": "configuration_sing_probe.py",
+          "size": 1807,
+          "sha256": "e530fd810d2121c9dba12831ed9cc047af42c6eb34ed1cfacc984903f400a044",
+          "kind": "snapshot"
+        },
+        {
+          "path": "model.safetensors",
+          "size": 16264820,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "modeling_sing_probe.py",
+          "size": 6074,
+          "sha256": "b8d964788daf53e90ed0982d290dc743235c76fd703cfef35ab15ab0b85d2dc4",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 16277334,
+      "weight_bytes": 16264820,
+      "snapshot_dir": "snapshots/inclusionAI/GLM-5.3-Flash-singprobe/fc4fba3d930cae2cf01b067137f15b1effb20e5c/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}
