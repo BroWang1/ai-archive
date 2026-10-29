@@ -6,280 +6,280 @@
  "description": "Captures, mirrors, takedown alerts and radar signals for open-weight AI models",
  "items": [
   {
-   "id": "2026-10-28T11:26:09Z-1382987251",
+   "id": "2026-10-28T11:26:09Z-3011555684",
    "title": "Captured inclusionAI/Ling-3.0-flash-UBTree \u2014 1 GB manifested, license: unclassified",
    "date_published": "2026-10-28T11:26:09Z",
    "url": "https://huggingface.co/inclusionAI/Ling-3.0-flash-UBTree",
    "content_text": "Captured inclusionAI/Ling-3.0-flash-UBTree \u2014 1 GB manifested, license: unclassified"
   },
   {
-   "id": "2026-10-28T11:26:07Z-2150931475",
+   "id": "2026-10-28T11:26:07Z-3650424329",
    "title": "Captured inclusionAI/Ling-3.0-tiny-UBTree \u2014 0 GB manifested, license: unclassified",
    "date_published": "2026-10-28T11:26:07Z",
    "url": "https://huggingface.co/inclusionAI/Ling-3.0-tiny-UBTree",
    "content_text": "Captured inclusionAI/Ling-3.0-tiny-UBTree \u2014 0 GB manifested, license: unclassified"
   },
   {
-   "id": "2026-10-26T21:31:27Z-1777121299",
+   "id": "2026-10-26T21:31:27Z-1105646536",
    "title": "This week the archive captured 24 open-weight model releases, including tencent's Hy-SimulMT-30B-A3B in FP8, GGUF, and Interleave variants, plus inclusionAI's Ling-3.0-flash and Ling-3.0-tiny-UBTree. openbmb added GPTQ and int4 builds of MiniCPM-V-4.7-1B, and internlm released Atria-Dawn with an FP8 version. No mirrors or alerts were recorded; radar signals included a DeepInfer inference framework for DeepSeek models on HN's front page and a DHS order banning DeepSeek from U.S. federal civilian agencies.",
    "date_published": "2026-10-26T21:31:27Z",
    "url": "https://github.com/BroWang1/ai-archive/issues",
    "content_text": "This week the archive captured 24 open-weight model releases, including tencent's Hy-SimulMT-30B-A3B in FP8, GGUF, and Interleave variants, plus inclusionAI's Ling-3.0-flash and Ling-3.0-tiny-UBTree. openbmb added GPTQ and int4 builds of MiniCPM-V-4.7-1B, and internlm released Atria-Dawn with an FP8 version. No mirrors or alerts were recorded; radar signals included a DeepInfer inference framework for DeepSeek models on HN's front page and a DHS order banning DeepSeek from U.S. federal civilian agencies."
   },
   {
-   "id": "2026-10-26T14:37:01Z-450878361",
+   "id": "2026-10-26T14:37:01Z-3808208831",
    "title": "New paper mentioning DeepSeek: HarnessMM: Recursive Self-Improvement for Harness Token Efficiency",
    "date_published": "2026-10-26T14:37:01Z",
    "url": "http://arxiv.org/abs/2610.32813",
    "content_text": "New paper mentioning DeepSeek: HarnessMM: Recursive Self-Improvement for Harness Token Efficiency"
   },
   {
-   "id": "2026-10-26T14:37:01Z-3547711934",
+   "id": "2026-10-26T14:37:01Z-4262207690",
    "title": "New paper mentioning DeepSeek: Do Language Models Trust Their Own Justifications? A Study on Functional Consistency",
    "date_published": "2026-10-26T14:37:01Z",
    "url": "http://arxiv.org/abs/2610.32665",
    "content_text": "New paper mentioning DeepSeek: Do Language Models Trust Their Own Justifications? A Study on Functional Consistency"
   },
   {
-   "id": "2026-10-26T14:37:01Z-2189917711",
+   "id": "2026-10-26T14:37:01Z-4292367701",
    "title": "New paper mentioning DeepSeek: When Agents Fail: Model or Harness--Who's to Blame?",
    "date_published": "2026-10-26T14:37:01Z",
    "url": "http://arxiv.org/abs/2610.32483",
    "content_text": "New paper mentioning DeepSeek: When Agents Fail: Model or Harness--Who's to Blame?"
   },
   {
-   "id": "2026-10-26T14:37:01Z-899381831",
+   "id": "2026-10-26T14:37:01Z-3316134941",
    "title": "New paper mentioning DeepSeek: REACT: Representational Early Analysis and Control of Chain-of-Thought Trajectories",
    "date_published": "2026-10-26T14:37:01Z",
    "url": "http://arxiv.org/abs/2610.32113",
    "content_text": "New paper mentioning DeepSeek: REACT: Representational Early Analysis and Control of Chain-of-Thought Trajectories"
   },
   {
-   "id": "2026-10-26T14:37:01Z-3044691875",
+   "id": "2026-10-26T14:37:01Z-1431782713",
    "title": "New paper mentioning DeepSeek: HyScale: Scaling Long-Context Training for Learned Sparse Attention",
    "date_published": "2026-10-26T14:37:01Z",
    "url": "http://arxiv.org/abs/2610.32057",
    "content_text": "New paper mentioning DeepSeek: HyScale: Scaling Long-Context Training for Learned Sparse Attention"
   },
   {
-   "id": "2026-10-26T14:37:01Z-404685957",
+   "id": "2026-10-26T14:37:01Z-1150853251",
    "title": "New paper mentioning Qwen: Where Rounding Happens Matters: Rounding-Location Alignment Stabilizes LLM Reinforcement Learning",
    "date_published": "2026-10-26T14:37:01Z",
    "url": "http://arxiv.org/abs/2610.32951",
    "content_text": "New paper mentioning Qwen: Where Rounding Happens Matters: Rounding-Location Alignment Stabilizes LLM Reinforcement Learning"
   },
   {
-   "id": "2026-10-26T14:37:01Z-226863772",
+   "id": "2026-10-26T14:37:01Z-3364941382",
    "title": "New paper mentioning Qwen: Do \"True\" and \"False\" Add Up to One? Complement Consistency in LLM-Agent Opinion Simulations",
    "date_published": "2026-10-26T14:37:01Z",
    "url": "http://arxiv.org/abs/2610.32874",
    "content_text": "New paper mentioning Qwen: Do \"True\" and \"False\" Add Up to One? Complement Consistency in LLM-Agent Opinion Simulations"
   },
   {
-   "id": "2026-10-26T14:37:01Z-2975394726",
+   "id": "2026-10-26T14:37:01Z-431322013",
    "title": "New paper mentioning Qwen: PHYRD: A Living Benchmark for Reproducing and Extending Theoretical Physics Research",
    "date_published": "2026-10-26T14:37:01Z",
    "url": "http://arxiv.org/abs/2610.32575",
    "content_text": "New paper mentioning Qwen: PHYRD: A Living Benchmark for Reproducing and Extending Theoretical Physics Research"
   },
   {
-   "id": "2026-10-26T14:37:01Z-2374618918",
+   "id": "2026-10-26T14:37:01Z-3940398772",
    "title": "New paper mentioning Qwen: System One models Are Not Better Rerankers",
    "date_published": "2026-10-26T14:37:01Z",
    "url": "http://arxiv.org/abs/2610.32318",
    "content_text": "New paper mentioning Qwen: System One models Are Not Better Rerankers"
   },
   {
-   "id": "2026-10-26T14:37:01Z-2804016110",
+   "id": "2026-10-26T14:37:01Z-3892572095",
    "title": "New paper mentioning Qwen: MPQ: A Message-Passing View of Post-Training Quantization",
    "date_published": "2026-10-26T14:37:01Z",
    "url": "http://arxiv.org/abs/2610.32127",
    "content_text": "New paper mentioning Qwen: MPQ: A Message-Passing View of Post-Training Quantization"
   },
   {
-   "id": "2026-10-26T14:37:01Z-159877622",
+   "id": "2026-10-26T14:37:01Z-1559673135",
    "title": "HN front-page (69 pts): Microsoft Decision-1: 9B Qwen Model Launch Explained",
    "date_published": "2026-10-26T14:37:01Z",
    "url": "https://news.ycombinator.com/item?id=50238620",
    "content_text": "HN front-page (69 pts): Microsoft Decision-1: 9B Qwen Model Launch Explained"
   },
   {
-   "id": "2026-10-26T14:37:01Z-323307548",
+   "id": "2026-10-26T14:37:01Z-2327779217",
    "title": "HN front-page (184 pts): Five Qwen3.8-27B models match Fable 5 Using GVS5H Harness",
    "date_published": "2026-10-26T14:37:01Z",
    "url": "https://news.ycombinator.com/item?id=50228167",
    "content_text": "HN front-page (184 pts): Five Qwen3.8-27B models match Fable 5 Using GVS5H Harness"
   },
   {
-   "id": "2026-10-26T14:37:01Z-3510977173",
+   "id": "2026-10-26T14:37:01Z-3982341618",
    "title": "HN front-page (120 pts): Kimi K3.1 scores 55 on Artificial Analysis, placed on the Pareto line",
    "date_published": "2026-10-26T14:37:01Z",
    "url": "https://news.ycombinator.com/item?id=50213337",
    "content_text": "HN front-page (120 pts): Kimi K3.1 scores 55 on Artificial Analysis, placed on the Pareto line"
   },
   {
-   "id": "2026-10-26T14:37:01Z-3770801317",
+   "id": "2026-10-26T14:37:01Z-851913710",
    "title": "HN front-page (60 pts): Kimi K3.1 Pro",
    "date_published": "2026-10-26T14:37:01Z",
    "url": "https://news.ycombinator.com/item?id=50212246",
    "content_text": "HN front-page (60 pts): Kimi K3.1 Pro"
   },
   {
-   "id": "2026-10-26T14:37:01Z-2709028332",
+   "id": "2026-10-26T14:37:01Z-3269123938",
    "title": "HN front-page (1086 pts): Kimi K3.1 Pro and K3.1 Pro Highspeed",
    "date_published": "2026-10-26T14:37:01Z",
    "url": "https://news.ycombinator.com/item?id=50212065",
    "content_text": "HN front-page (1086 pts): Kimi K3.1 Pro and K3.1 Pro Highspeed"
   },
   {
-   "id": "2026-10-26T14:37:01Z-2839760832",
+   "id": "2026-10-26T14:37:01Z-640735902",
    "title": "New paper mentioning GLM-: Detecting Insecure Compositions of Clean Agent Skills via Capability-Flow Graph Analysis",
    "date_published": "2026-10-26T14:37:01Z",
    "url": "http://arxiv.org/abs/2610.32155",
    "content_text": "New paper mentioning GLM-: Detecting Insecure Compositions of Clean Agent Skills via Capability-Flow Graph Analysis"
   },
   {
-   "id": "2026-10-26T14:37:01Z-4037327631",
+   "id": "2026-10-26T14:37:01Z-2959192018",
    "title": "New paper mentioning GLM-: Building Presentation Intelligence for High-Quality Slide Generation",
    "date_published": "2026-10-26T14:37:01Z",
    "url": "http://arxiv.org/abs/2610.30888",
    "content_text": "New paper mentioning GLM-: Building Presentation Intelligence for High-Quality Slide Generation"
   },
   {
-   "id": "2026-10-26T14:37:01Z-772274648",
+   "id": "2026-10-26T14:37:01Z-3866343480",
    "title": "New paper mentioning GLM-: Joules-to-GDP: How Much Economic Value Do AI Systems Produce per Unit of Energy?",
    "date_published": "2026-10-26T14:37:01Z",
    "url": "http://arxiv.org/abs/2610.30858",
    "content_text": "New paper mentioning GLM-: Joules-to-GDP: How Much Economic Value Do AI Systems Produce per Unit of Energy?"
   },
   {
-   "id": "2026-10-26T14:37:01Z-3446483182",
+   "id": "2026-10-26T14:37:01Z-452406254",
    "title": "New paper mentioning GLM-: A Bayesian Copula Dirichlet Process GLM for Longitudinal Data",
    "date_published": "2026-10-26T14:37:01Z",
    "url": "http://arxiv.org/abs/2610.30467",
    "content_text": "New paper mentioning GLM-: A Bayesian Copula Dirichlet Process GLM for Longitudinal Data"
   },
   {
-   "id": "2026-10-26T14:37:01Z-954151096",
+   "id": "2026-10-26T14:37:01Z-3616576195",
    "title": "HN front-page (381 pts): OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
    "date_published": "2026-10-26T14:37:01Z",
    "url": "https://news.ycombinator.com/item?id=50236102",
    "content_text": "HN front-page (381 pts): OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?"
   },
   {
-   "id": "2026-10-26T14:37:01Z-668053481",
+   "id": "2026-10-26T14:37:01Z-3603062088",
    "title": "HN front-page (79 pts): Eunice is almost here",
    "date_published": "2026-10-26T14:37:01Z",
    "url": "https://news.ycombinator.com/item?id=50235316",
    "content_text": "HN front-page (79 pts): Eunice is almost here"
   },
   {
-   "id": "2026-10-26T14:37:01Z-2184131925",
+   "id": "2026-10-26T14:37:01Z-3491685230",
    "title": "HN front-page (63 pts): Scientists rediscover how to make ancient Roman colour-changing glass",
    "date_published": "2026-10-26T14:37:01Z",
    "url": "https://news.ycombinator.com/item?id=50233828",
    "content_text": "HN front-page (63 pts): Scientists rediscover how to make ancient Roman colour-changing glass"
   },
   {
-   "id": "2026-10-26T14:37:01Z-3931094685",
+   "id": "2026-10-26T14:37:01Z-347580383",
    "title": "HN front-page (626 pts): A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
    "date_published": "2026-10-26T14:37:01Z",
    "url": "https://news.ycombinator.com/item?id=50233779",
    "content_text": "HN front-page (626 pts): A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis"
   },
   {
-   "id": "2026-10-26T14:37:01Z-3407935633",
+   "id": "2026-10-26T14:37:01Z-851038499",
    "title": "New paper mentioning MiniMax: Optimal Treatment Assignment Rules on Networked Populations",
    "date_published": "2026-10-26T14:37:01Z",
    "url": "http://arxiv.org/abs/2610.32735",
    "content_text": "New paper mentioning MiniMax: Optimal Treatment Assignment Rules on Networked Populations"
   },
   {
-   "id": "2026-10-26T14:37:01Z-602465280",
+   "id": "2026-10-26T14:37:01Z-4292061264",
    "title": "New paper mentioning MiniMax: Exact Global Minimax Risk near Nonidentification",
    "date_published": "2026-10-26T14:37:01Z",
    "url": "http://arxiv.org/abs/2610.32546",
    "content_text": "New paper mentioning MiniMax: Exact Global Minimax Risk near Nonidentification"
   },
   {
-   "id": "2026-10-26T14:37:01Z-1654335615",
+   "id": "2026-10-26T14:37:01Z-3988779927",
    "title": "New paper mentioning MiniMax: Optimal Multiclass Online Regret with Arbitrary Label Spaces",
    "date_published": "2026-10-26T14:37:01Z",
    "url": "http://arxiv.org/abs/2610.32339",
    "content_text": "New paper mentioning MiniMax: Optimal Multiclass Online Regret with Arbitrary Label Spaces"
   },
   {
-   "id": "2026-10-26T14:37:01Z-2740401359",
+   "id": "2026-10-26T14:37:01Z-3743119981",
    "title": "New paper mentioning MiniMax: TileShare: Training-Free Acceleration of Overlapping Tiled ViT Decoding",
    "date_published": "2026-10-26T14:37:01Z",
    "url": "http://arxiv.org/abs/2610.32233",
    "content_text": "New paper mentioning MiniMax: TileShare: Training-Free Acceleration of Overlapping Tiled ViT Decoding"
   },
   {
-   "id": "2026-10-26T14:37:01Z-3570567235",
+   "id": "2026-10-26T14:37:01Z-3103327083",
    "title": "New paper mentioning MiniMax: Is Spectral Self-Supervised Learning a Minimax Optimal Method of Density Ratio Estimation?",
    "date_published": "2026-10-26T14:37:01Z",
    "url": "http://arxiv.org/abs/2610.31603",
    "content_text": "New paper mentioning MiniMax: Is Spectral Self-Supervised Learning a Minimax Optimal Method of Density Ratio Estimation?"
   },
   {
-   "id": "2026-10-26T14:37:01Z-3053427094",
+   "id": "2026-10-26T14:37:01Z-1340078783",
    "title": "HN front-page (520 pts): I refuse to accept a censored Internet. Join Me at FOSDEM 27",
    "date_published": "2026-10-26T14:37:01Z",
    "url": "https://news.ycombinator.com/item?id=50233929",
    "content_text": "HN front-page (520 pts): I refuse to accept a censored Internet. Join Me at FOSDEM 27"
   },
   {
-   "id": "2026-10-26T14:37:01Z-1492742398",
+   "id": "2026-10-26T14:37:01Z-803843761",
    "title": "HN front-page (126 pts): Show HN: Uberblok \u2013 an interactive museum of ZFS internals",
    "date_published": "2026-10-26T14:37:01Z",
    "url": "https://news.ycombinator.com/item?id=50180257",
    "content_text": "HN front-page (126 pts): Show HN: Uberblok \u2013 an interactive museum of ZFS internals"
   },
   {
-   "id": "2026-10-26T14:36:47Z-984225289",
+   "id": "2026-10-26T14:36:47Z-2931720868",
    "title": "Trending outside tracked labs: RecursiveSI/flint (8,470 downloads)",
    "date_published": "2026-10-26T14:36:47Z",
    "url": "https://huggingface.co/RecursiveSI/flint",
    "content_text": "Trending outside tracked labs: RecursiveSI/flint (8,470 downloads)"
   },
   {
-   "id": "2026-10-26T14:36:47Z-171323104",
+   "id": "2026-10-26T14:36:47Z-834002550",
    "title": "Trending outside tracked labs: Nanbeige/Nanbeige4.3-33B (2,787 downloads)",
    "date_published": "2026-10-26T14:36:47Z",
    "url": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B",
    "content_text": "Trending outside tracked labs: Nanbeige/Nanbeige4.3-33B (2,787 downloads)"
   },
   {
-   "id": "2026-10-26T14:36:47Z-1314998143",
+   "id": "2026-10-26T14:36:47Z-127018447",
    "title": "Trending outside tracked labs: XHToken/Spark-X2.6-4B (4,726 downloads)",
    "date_published": "2026-10-26T14:36:47Z",
    "url": "https://huggingface.co/XHToken/Spark-X2.6-4B",
    "content_text": "Trending outside tracked labs: XHToken/Spark-X2.6-4B (4,726 downloads)"
   },
   {
-   "id": "2026-10-26T14:36:47Z-1148135692",
+   "id": "2026-10-26T14:36:47Z-4178383227",
    "title": "Trending outside tracked labs: ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF (891,147 downloads)",
    "date_published": "2026-10-26T14:36:47Z",
    "url": "https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
    "content_text": "Trending outside tracked labs: ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF (891,147 downloads)"
   },
   {
-   "id": "2026-10-26T14:36:47Z-3970162943",
+   "id": "2026-10-26T14:36:47Z-4291006515",
    "title": "Trending outside tracked labs: InternScience/Sage-A1.5 (5,235 downloads)",
    "date_published": "2026-10-26T14:36:47Z",
    "url": "https://huggingface.co/InternScience/Sage-A1.5",
    "content_text": "Trending outside tracked labs: InternScience/Sage-A1.5 (5,235 downloads)"
   },
   {
-   "id": "2026-10-26T14:36:47Z-1065839240",
+   "id": "2026-10-26T14:36:47Z-2320250803",
    "title": "Trending outside tracked labs: orcarouter/DeepSeek-V4.1-Flash-1017-abliterated-GGUF (9,022 downloads)",
    "date_published": "2026-10-26T14:36:47Z",
    "url": "https://huggingface.co/orcarouter/DeepSeek-V4.1-Flash-1017-abliterated-GGUF",
    "content_text": "Trending outside tracked labs: orcarouter/DeepSeek-V4.1-Flash-1017-abliterated-GGUF (9,022 downloads)"
   },
   {
-   "id": "2026-10-26T14:36:47Z-1581619693",
+   "id": "2026-10-26T14:36:47Z-2800814178",
    "title": "Trending outside tracked labs: HuggingFaceBio/Carbon-X (1,128 downloads)",
    "date_published": "2026-10-26T14:36:47Z",
    "url": "https://huggingface.co/HuggingFaceBio/Carbon-X",
