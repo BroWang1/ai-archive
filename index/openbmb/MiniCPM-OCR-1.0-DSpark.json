@@ -60,6 +60,62 @@
         "hf": null,
         "master": null
       }
+    },
+    {
+      "revision": "bbcdd9234047667c903417f792ef72366602bc7f",
+      "captured_at": "2026-10-30T11:38:21Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/openbmb/MiniCPM-OCR-1.0-DSpark?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"70a-ze3RJ5l3sUt76YaMls9EHB92808\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "apache-2.0",
+        "file": null,
+        "sha256": null,
+        "redistributable": null,
+        "obligations": []
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1519,
+          "sha256": "11ad7efa24975ee4b0c3c3a38ed18737f0658a5f75a0a96787b576a78a023361",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 5229,
+          "sha256": "9043a6162eba9fee55304c21ee2a1199f9dce08c1a9a8f20f6c4d6354dac13ad",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 1409,
+          "sha256": "ba0a9ed774ca1e5e4d7d97517379e477c7e8b6c151154e4b0556b0abd449d2e3",
+          "kind": "snapshot"
+        },
+        {
+          "path": "model.safetensors",
+          "size": 594599898,
+          "sha256": null,
+          "kind": "weights"
+        }
+      ],
+      "total_bytes": 594608055,
+      "weight_bytes": 594599898,
+      "snapshot_dir": "snapshots/openbmb/MiniCPM-OCR-1.0-DSpark/bbcdd9234047667c903417f792ef72366602bc7f/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
     }
   ],
   "errata": [],

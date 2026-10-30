@@ -1,5 +1,19 @@
 [
  {
+  "at": "2026-10-30T11:38:26Z",
+  "kind": "capture",
+  "text": "Captured openbmb/MiniCPM-V-4.7-1B-int4 \u2014 2 GB manifested, license: unclassified",
+  "url": "https://huggingface.co/openbmb/MiniCPM-V-4.7-1B-int4",
+  "action": "view / download"
+ },
+ {
+  "at": "2026-10-30T11:38:21Z",
+  "kind": "capture",
+  "text": "Captured openbmb/MiniCPM-OCR-1.0-DSpark \u2014 1 GB manifested, license: unclassified",
+  "url": "https://huggingface.co/openbmb/MiniCPM-OCR-1.0-DSpark",
+  "action": "view / download"
+ },
+ {
   "at": "2026-10-29T14:40:30Z",
   "kind": "paper",
   "text": "New paper mentioning DeepSeek: Rare, Relevant, and Still Wrong: How Memory Fails LLM Group Decisions",
@@ -263,20 +277,6 @@
   "kind": "trending",
   "text": "Trending outside tracked labs: baidu/Unlimited-OCR-2 (18,141 downloads)",
   "url": "https://huggingface.co/baidu/Unlimited-OCR-2",
-  "action": "view"
- },
- {
-  "at": "2026-10-29T14:40:18Z",
-  "kind": "trending",
-  "text": "Trending outside tracked labs: nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B (4,276 downloads)",
-  "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
-  "action": "view"
- },
- {
-  "at": "2026-10-29T14:40:18Z",
-  "kind": "trending",
-  "text": "Trending outside tracked labs: ccore/Qwen3.5-4B-3D-Coder (12,237 downloads)",
-  "url": "https://huggingface.co/ccore/Qwen3.5-4B-3D-Coder",
   "action": "view"
  }
 ]
