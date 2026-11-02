@@ -6,280 +6,280 @@
  "description": "Captures, mirrors, takedown alerts and radar signals for open-weight AI models",
  "items": [
   {
-   "id": "2026-11-01T12:05:15Z-2984083155",
+   "id": "2026-11-01T12:05:15Z-3089483814",
    "title": "Captured openbmb/MiniCPM-OCR-1.0-AWQ \u2014 2 GB manifested, license: unclassified",
    "date_published": "2026-11-01T12:05:15Z",
    "url": "https://huggingface.co/openbmb/MiniCPM-OCR-1.0-AWQ",
    "content_text": "Captured openbmb/MiniCPM-OCR-1.0-AWQ \u2014 2 GB manifested, license: unclassified"
   },
   {
-   "id": "2026-10-30T11:38:26Z-4003290955",
+   "id": "2026-10-30T11:38:26Z-2206228064",
    "title": "Captured openbmb/MiniCPM-V-4.7-1B-int4 \u2014 2 GB manifested, license: unclassified",
    "date_published": "2026-10-30T11:38:26Z",
    "url": "https://huggingface.co/openbmb/MiniCPM-V-4.7-1B-int4",
    "content_text": "Captured openbmb/MiniCPM-V-4.7-1B-int4 \u2014 2 GB manifested, license: unclassified"
   },
   {
-   "id": "2026-10-30T11:38:21Z-251637991",
+   "id": "2026-10-30T11:38:21Z-3663769660",
    "title": "Captured openbmb/MiniCPM-OCR-1.0-DSpark \u2014 1 GB manifested, license: unclassified",
    "date_published": "2026-10-30T11:38:21Z",
    "url": "https://huggingface.co/openbmb/MiniCPM-OCR-1.0-DSpark",
    "content_text": "Captured openbmb/MiniCPM-OCR-1.0-DSpark \u2014 1 GB manifested, license: unclassified"
   },
   {
-   "id": "2026-10-29T14:40:30Z-1678553619",
+   "id": "2026-10-29T14:40:30Z-959449190",
    "title": "New paper mentioning DeepSeek: Rare, Relevant, and Still Wrong: How Memory Fails LLM Group Decisions",
    "date_published": "2026-10-29T14:40:30Z",
    "url": "http://arxiv.org/abs/2610.37624",
    "content_text": "New paper mentioning DeepSeek: Rare, Relevant, and Still Wrong: How Memory Fails LLM Group Decisions"
   },
   {
-   "id": "2026-10-29T14:40:30Z-2819592305",
+   "id": "2026-10-29T14:40:30Z-3542734235",
    "title": "New paper mentioning DeepSeek: CRISP: Co-designing Pruning and Scheduling for Efficient MoE Inference on Edge Servers",
    "date_published": "2026-10-29T14:40:30Z",
    "url": "http://arxiv.org/abs/2610.37442",
    "content_text": "New paper mentioning DeepSeek: CRISP: Co-designing Pruning and Scheduling for Efficient MoE Inference on Edge Servers"
   },
   {
-   "id": "2026-10-29T14:40:30Z-1875481744",
+   "id": "2026-10-29T14:40:30Z-2997056053",
    "title": "New paper mentioning DeepSeek: TrawMem: Reframing Agent Memory as Task-Oriented Role-Adaptive Workspaces",
    "date_published": "2026-10-29T14:40:30Z",
    "url": "http://arxiv.org/abs/2610.36918",
    "content_text": "New paper mentioning DeepSeek: TrawMem: Reframing Agent Memory as Task-Oriented Role-Adaptive Workspaces"
   },
   {
-   "id": "2026-10-29T14:40:30Z-3822304840",
+   "id": "2026-10-29T14:40:30Z-1592795524",
    "title": "New paper mentioning DeepSeek: Learning to Formalize: Bridging Open-Ended Workloads and Fast Decision Models",
    "date_published": "2026-10-29T14:40:30Z",
    "url": "http://arxiv.org/abs/2610.36595",
    "content_text": "New paper mentioning DeepSeek: Learning to Formalize: Bridging Open-Ended Workloads and Fast Decision Models"
   },
   {
-   "id": "2026-10-29T14:40:30Z-4121482542",
+   "id": "2026-10-29T14:40:30Z-2051352764",
    "title": "New paper mentioning DeepSeek: Benchmarking LLM Agents for Behaviorally Adequate Test Generation from Software Requirements",
    "date_published": "2026-10-29T14:40:30Z",
    "url": "http://arxiv.org/abs/2610.36584",
    "content_text": "New paper mentioning DeepSeek: Benchmarking LLM Agents for Behaviorally Adequate Test Generation from Software Requirements"
   },
   {
-   "id": "2026-10-29T14:40:30Z-968409254",
+   "id": "2026-10-29T14:40:30Z-2535888865",
    "title": "HN front-page (97 pts): There are now 5 inference providers for abliterated DeepSeek",
    "date_published": "2026-10-29T14:40:30Z",
    "url": "https://news.ycombinator.com/item?id=50254836",
    "content_text": "HN front-page (97 pts): There are now 5 inference providers for abliterated DeepSeek"
   },
   {
-   "id": "2026-10-29T14:40:30Z-1105627928",
+   "id": "2026-10-29T14:40:30Z-272403324",
    "title": "New paper mentioning Qwen: Follow the Gradient: Tracing Safety Degradation Back to Training Data",
    "date_published": "2026-10-29T14:40:30Z",
    "url": "http://arxiv.org/abs/2610.37481",
    "content_text": "New paper mentioning Qwen: Follow the Gradient: Tracing Safety Degradation Back to Training Data"
   },
   {
-   "id": "2026-10-29T14:40:30Z-2046035250",
+   "id": "2026-10-29T14:40:30Z-2291406342",
    "title": "New paper mentioning Qwen: Uncovering Why LLMs Fail: From Internal Mechanisms to Adversarial Reasoning Trajectories",
    "date_published": "2026-10-29T14:40:30Z",
    "url": "http://arxiv.org/abs/2610.37369",
    "content_text": "New paper mentioning Qwen: Uncovering Why LLMs Fail: From Internal Mechanisms to Adversarial Reasoning Trajectories"
   },
   {
-   "id": "2026-10-29T14:40:30Z-2020803928",
+   "id": "2026-10-29T14:40:30Z-1543284730",
    "title": "New paper mentioning Qwen: Hidden in Plain Sight: an Empirical Study about The Instruction Stacks of Coding Agents",
    "date_published": "2026-10-29T14:40:30Z",
    "url": "http://arxiv.org/abs/2610.37332",
    "content_text": "New paper mentioning Qwen: Hidden in Plain Sight: an Empirical Study about The Instruction Stacks of Coding Agents"
   },
   {
-   "id": "2026-10-29T14:40:30Z-311447050",
+   "id": "2026-10-29T14:40:30Z-709382960",
    "title": "New paper mentioning Qwen: Spine: Compiling Subtask Trees into Structured Context for Long-Horizon Coding Agents",
    "date_published": "2026-10-29T14:40:30Z",
    "url": "http://arxiv.org/abs/2610.37224",
    "content_text": "New paper mentioning Qwen: Spine: Compiling Subtask Trees into Structured Context for Long-Horizon Coding Agents"
   },
   {
-   "id": "2026-10-29T14:40:30Z-3690401331",
+   "id": "2026-10-29T14:40:30Z-4091843118",
    "title": "New paper mentioning Qwen: WorkFactory: Turning Professional Intents into Executable Work for Scalable Agent Training",
    "date_published": "2026-10-29T14:40:30Z",
    "url": "http://arxiv.org/abs/2610.37161",
    "content_text": "New paper mentioning Qwen: WorkFactory: Turning Professional Intents into Executable Work for Scalable Agent Training"
   },
   {
-   "id": "2026-10-29T14:40:30Z-3824441099",
+   "id": "2026-10-29T14:40:30Z-1909154724",
    "title": "HN front-page (605 pts): Qwenputer: A functioning, deterministic RISC-V CPU inside Qwen3.5",
    "date_published": "2026-10-29T14:40:30Z",
    "url": "https://news.ycombinator.com/item?id=50282838",
    "content_text": "HN front-page (605 pts): Qwenputer: A functioning, deterministic RISC-V CPU inside Qwen3.5"
   },
   {
-   "id": "2026-10-29T14:40:30Z-2245191110",
+   "id": "2026-10-29T14:40:30Z-332868982",
    "title": "HN front-page (59 pts): Qwen has alter egos triggered by flipping a single neuron",
    "date_published": "2026-10-29T14:40:30Z",
    "url": "https://news.ycombinator.com/item?id=50266910",
    "content_text": "HN front-page (59 pts): Qwen has alter egos triggered by flipping a single neuron"
   },
   {
-   "id": "2026-10-29T14:40:30Z-348149452",
+   "id": "2026-10-29T14:40:30Z-86385563",
    "title": "HN front-page (70 pts): Three TLS Bugs in GoAhead",
    "date_published": "2026-10-29T14:40:30Z",
    "url": "https://news.ycombinator.com/item?id=50263701",
    "content_text": "HN front-page (70 pts): Three TLS Bugs in GoAhead"
   },
   {
-   "id": "2026-10-29T14:40:30Z-1113868883",
+   "id": "2026-10-29T14:40:30Z-3266855886",
    "title": "HN front-page (173 pts): Show HN: Hob - Open-source, on device alternative to Claude Cowork and ChatGPT",
    "date_published": "2026-10-29T14:40:30Z",
    "url": "https://news.ycombinator.com/item?id=50246238",
    "content_text": "HN front-page (173 pts): Show HN: Hob - Open-source, on device alternative to Claude Cowork and ChatGPT"
   },
   {
-   "id": "2026-10-29T14:40:30Z-4154883784",
+   "id": "2026-10-29T14:40:30Z-799330104",
    "title": "New paper mentioning GLM-: Agent-Conditioned Routing: Diverse Reasoning Paths Within One Frozen Model",
    "date_published": "2026-10-29T14:40:30Z",
    "url": "http://arxiv.org/abs/2610.37375",
    "content_text": "New paper mentioning GLM-: Agent-Conditioned Routing: Diverse Reasoning Paths Within One Frozen Model"
   },
   {
-   "id": "2026-10-29T14:40:30Z-4002195776",
+   "id": "2026-10-29T14:40:30Z-3433196785",
    "title": "New paper mentioning GLM-: Correctness Conditioning as Selection in Chain-of-Thought Faithfulness Evaluation",
    "date_published": "2026-10-29T14:40:30Z",
    "url": "http://arxiv.org/abs/2610.37070",
    "content_text": "New paper mentioning GLM-: Correctness Conditioning as Selection in Chain-of-Thought Faithfulness Evaluation"
   },
   {
-   "id": "2026-10-29T14:40:30Z-1296075410",
+   "id": "2026-10-29T14:40:30Z-423158930",
    "title": "New paper mentioning GLM-: Replica Analysis of Overfitting in Vector Generalized Linear Models",
    "date_published": "2026-10-29T14:40:30Z",
    "url": "http://arxiv.org/abs/2610.36904",
    "content_text": "New paper mentioning GLM-: Replica Analysis of Overfitting in Vector Generalized Linear Models"
   },
   {
-   "id": "2026-10-29T14:40:30Z-198751445",
+   "id": "2026-10-29T14:40:30Z-1487665668",
    "title": "New paper mentioning GLM-: Reva: Real-Time Vulnerability Detection through Contextual Probing of Large Language Models",
    "date_published": "2026-10-29T14:40:30Z",
    "url": "http://arxiv.org/abs/2610.35829",
    "content_text": "New paper mentioning GLM-: Reva: Real-Time Vulnerability Detection through Contextual Probing of Large Language Models"
   },
   {
-   "id": "2026-10-29T14:40:30Z-1626389403",
+   "id": "2026-10-29T14:40:30Z-638152287",
    "title": "New paper mentioning GLM-: Hierarchical Skill Evolution for Coding Agent",
    "date_published": "2026-10-29T14:40:30Z",
    "url": "http://arxiv.org/abs/2610.35616",
    "content_text": "New paper mentioning GLM-: Hierarchical Skill Evolution for Coding Agent"
   },
   {
-   "id": "2026-10-29T14:40:30Z-2078927547",
+   "id": "2026-10-29T14:40:30Z-2624962371",
    "title": "HN front-page (177 pts): Gemini 4 Carbon is the new #1 on the Artificial Analysis Intelligence Index v5",
    "date_published": "2026-10-29T14:40:30Z",
    "url": "https://news.ycombinator.com/item?id=50288019",
    "content_text": "HN front-page (177 pts): Gemini 4 Carbon is the new #1 on the Artificial Analysis Intelligence Index v5"
   },
   {
-   "id": "2026-10-29T14:40:30Z-309406912",
+   "id": "2026-10-29T14:40:30Z-2467037407",
    "title": "HN front-page (85 pts): The Milwaukee Brewers win the first World Series title in franchise history",
    "date_published": "2026-10-29T14:40:30Z",
    "url": "https://news.ycombinator.com/item?id=50284329",
    "content_text": "HN front-page (85 pts): The Milwaukee Brewers win the first World Series title in franchise history"
   },
   {
-   "id": "2026-10-29T14:40:30Z-795323048",
+   "id": "2026-10-29T14:40:30Z-3751606821",
    "title": "HN front-page (55 pts): MicroZig to Adopt Strict No LLM / No AI Policy",
    "date_published": "2026-10-29T14:40:30Z",
    "url": "https://news.ycombinator.com/item?id=50282865",
    "content_text": "HN front-page (55 pts): MicroZig to Adopt Strict No LLM / No AI Policy"
   },
   {
-   "id": "2026-10-29T14:40:30Z-1171884199",
+   "id": "2026-10-29T14:40:30Z-3291425759",
    "title": "HN front-page (69 pts): The first wired XR glasses powered by Android XR",
    "date_published": "2026-10-29T14:40:30Z",
    "url": "https://news.ycombinator.com/item?id=50282538",
    "content_text": "HN front-page (69 pts): The first wired XR glasses powered by Android XR"
   },
   {
-   "id": "2026-10-29T14:40:30Z-1659844470",
+   "id": "2026-10-29T14:40:30Z-1747803581",
    "title": "HN front-page (975 pts): Gemini 4 Carbon",
    "date_published": "2026-10-29T14:40:30Z",
    "url": "https://news.ycombinator.com/item?id=50276792",
    "content_text": "HN front-page (975 pts): Gemini 4 Carbon"
   },
   {
-   "id": "2026-10-29T14:40:30Z-1593425567",
+   "id": "2026-10-29T14:40:30Z-682545591",
    "title": "New paper mentioning MiniMax: Fisher Completions and Statistical Regularization of Wrapped Gaussian Families",
    "date_published": "2026-10-29T14:40:30Z",
    "url": "http://arxiv.org/abs/2610.37526",
    "content_text": "New paper mentioning MiniMax: Fisher Completions and Statistical Regularization of Wrapped Gaussian Families"
   },
   {
-   "id": "2026-10-29T14:40:30Z-88619186",
+   "id": "2026-10-29T14:40:30Z-4111799712",
    "title": "New paper mentioning MiniMax: Global minimax rates for heterogeneous treatment effect estimation",
    "date_published": "2026-10-29T14:40:30Z",
    "url": "http://arxiv.org/abs/2610.37496",
    "content_text": "New paper mentioning MiniMax: Global minimax rates for heterogeneous treatment effect estimation"
   },
   {
-   "id": "2026-10-29T14:40:30Z-326100019",
+   "id": "2026-10-29T14:40:30Z-4016262866",
    "title": "New paper mentioning MiniMax: Noise Shapes the Surplus: Strategic Play Against No-Regret Learners",
    "date_published": "2026-10-29T14:40:30Z",
    "url": "http://arxiv.org/abs/2610.36621",
    "content_text": "New paper mentioning MiniMax: Noise Shapes the Surplus: Strategic Play Against No-Regret Learners"
   },
   {
-   "id": "2026-10-29T14:40:30Z-3103935634",
+   "id": "2026-10-29T14:40:30Z-247276527",
    "title": "New paper mentioning MiniMax: Silent Blindness: Fault Vulnerability of Hardware Malware Detectors",
    "date_published": "2026-10-29T14:40:30Z",
    "url": "http://arxiv.org/abs/2610.36612",
    "content_text": "New paper mentioning MiniMax: Silent Blindness: Fault Vulnerability of Hardware Malware Detectors"
   },
   {
-   "id": "2026-10-29T14:40:30Z-2759081549",
+   "id": "2026-10-29T14:40:30Z-3173434509",
    "title": "New paper mentioning MiniMax: LoRA on a Budget: Function-Aware Post-Hoc Compression for Adapter Fleets",
    "date_published": "2026-10-29T14:40:30Z",
    "url": "http://arxiv.org/abs/2610.36386",
    "content_text": "New paper mentioning MiniMax: LoRA on a Budget: Function-Aware Post-Hoc Compression for Adapter Fleets"
   },
   {
-   "id": "2026-10-29T14:40:30Z-3733858951",
+   "id": "2026-10-29T14:40:30Z-206670969",
    "title": "HN front-page (65 pts): MiniLake Is a Local Databricks API Emulator with SQL, Delta Lake and Spark",
    "date_published": "2026-10-29T14:40:30Z",
    "url": "https://news.ycombinator.com/item?id=50259697",
    "content_text": "HN front-page (65 pts): MiniLake Is a Local Databricks API Emulator with SQL, Delta Lake and Spark"
   },
   {
-   "id": "2026-10-29T14:40:30Z-3784345650",
+   "id": "2026-10-29T14:40:30Z-2868188404",
    "title": "New paper mentioning Hunyuan: FeatureArc: Benchmarking Coding Agents on Evolving Features",
    "date_published": "2026-10-29T14:40:30Z",
    "url": "http://arxiv.org/abs/2610.37434",
    "content_text": "New paper mentioning Hunyuan: FeatureArc: Benchmarking Coding Agents on Evolving Features"
   },
   {
-   "id": "2026-10-29T14:40:30Z-2769608146",
+   "id": "2026-10-29T14:40:30Z-2123998380",
    "title": "HN front-page (75 pts): Show HN: peerd \u2013 AI agent harness that runs entirely in your browser",
    "date_published": "2026-10-29T14:40:30Z",
    "url": "https://news.ycombinator.com/item?id=48646165",
    "content_text": "HN front-page (75 pts): Show HN: peerd \u2013 AI agent harness that runs entirely in your browser"
   },
   {
-   "id": "2026-10-29T14:40:30Z-3861276186",
+   "id": "2026-10-29T14:40:30Z-1798410549",
    "title": "HN front-page (498 pts): Emacs Turns 50",
    "date_published": "2026-10-29T14:40:30Z",
    "url": "https://news.ycombinator.com/item?id=50273171",
    "content_text": "HN front-page (498 pts): Emacs Turns 50"
   },
   {
-   "id": "2026-10-29T14:40:30Z-3532905018",
+   "id": "2026-10-29T14:40:30Z-968526053",
    "title": "HN front-page (163 pts): About the compromised eMudhra intermediate CAs",
    "date_published": "2026-10-29T14:40:30Z",
    "url": "https://news.ycombinator.com/item?id=50271685",
    "content_text": "HN front-page (163 pts): About the compromised eMudhra intermediate CAs"
   },
   {
-   "id": "2026-10-29T14:40:30Z-842423925",
+   "id": "2026-10-29T14:40:30Z-1163760314",
    "title": "HN front-page (55 pts): UK to charge universities $1,200 per international student",
    "date_published": "2026-10-29T14:40:30Z",
    "url": "https://news.ycombinator.com/item?id=50254935",
    "content_text": "HN front-page (55 pts): UK to charge universities $1,200 per international student"
   },
   {
-   "id": "2026-10-29T14:40:18Z-553123168",
+   "id": "2026-10-29T14:40:18Z-3404700707",
    "title": "Trending outside tracked labs: LiquidAI/LFM3-1.7B (15,885 downloads)",
    "date_published": "2026-10-29T14:40:18Z",
    "url": "https://huggingface.co/LiquidAI/LFM3-1.7B",
