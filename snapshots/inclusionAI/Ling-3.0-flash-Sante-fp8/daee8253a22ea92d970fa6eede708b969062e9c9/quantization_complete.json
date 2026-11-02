@@ -1,0 +1,9 @@
+{
+  "source": "/pcache-mnt/ro/checkpoint/1474002/283483/345631881/261012174015/1791798008",
+  "workers": 4,
+  "shards": 27,
+  "tensor_bytes": 128394923424,
+  "quantized_weights": 63347,
+  "preserved_weights": 436,
+  "format": "fp8_e4m3_block_128x128"
+}

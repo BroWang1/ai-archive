@@ -919,6 +919,7 @@
       "tencent/WeMM-Embedding-2B",
       "tencent/WeMM-Embedding-4B",
       "tencent/WeMM-Embedding-9B",
+      "tencent/WeVisCut",
       "tencent/WeVisDoc-2B",
       "tencent/WeVisDoc-4B",
       "tencent/WeVisOne-VL-2B",
@@ -1288,6 +1289,7 @@
       "inclusionAI/Ling-3.0-flash-Fin-int4",
       "inclusionAI/Ling-3.0-flash-GGUF",
       "inclusionAI/Ling-3.0-flash-Sante",
+      "inclusionAI/Ling-3.0-flash-Sante-fp8",
       "inclusionAI/Ling-3.0-flash-UBTree",
       "inclusionAI/Ling-3.0-flash-VL",
       "inclusionAI/Ling-3.0-flash-VL-fp4",
@@ -1433,8 +1435,11 @@
       "inclusionAI/ZwZ-7B",
       "inclusionAI/ZwZ-8B",
       "inclusionAI/ZwZ2-27B",
+      "inclusionAI/ZwZ2-27B-GGUF",
       "inclusionAI/ZwZ2-4B",
+      "inclusionAI/ZwZ2-4B-GGUF",
       "inclusionAI/ZwZ2-9B",
+      "inclusionAI/ZwZ2-9B-GGUF",
       "inclusionAI/gemma-4-26B-A4B-it-singprobe",
       "inclusionAI/gemma-4-31B-it-singprobe",
       "inclusionAI/gemma-4-E4B-it-singprobe",
@@ -2129,5 +2134,5 @@
     ]
   },
   "first_run_done": true,
-  "last_run": "2026-10-29T14:39:05Z"
+  "last_run": "2026-11-02T17:25:25Z"
 }

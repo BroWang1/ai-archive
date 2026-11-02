@@ -36,7 +36,8 @@
       "deepseek-ai/DeepEP-Ascend",
       "deepseek-ai/DeepGEMM-Ascend",
       "deepseek-ai/clangd-ascend",
-      "deepseek-ai/DeepInfer"
+      "deepseek-ai/DeepInfer",
+      "deepseek-ai/dsh-superagent-prototype"
     ],
     "QwenLM": [
       "QwenLM/qwen-mm-plugins-hub",
@@ -302,7 +303,8 @@
       "OpenBMB/llama.cpp-omni",
       "OpenBMB/SPARK",
       "OpenBMB/JustGoal",
-      "OpenBMB/MiniCPM-OCR"
+      "OpenBMB/MiniCPM-OCR",
+      "OpenBMB/ForgeKernel"
     ],
     "stepfun-ai": [
       "stepfun-ai/Step-Realtime-CLI",
@@ -1010,8 +1012,18 @@
       "id": "OpenBMB/MiniCPM-OCR",
       "at": "2026-10-29T14:40:18Z",
       "desc": "Fast, accurate OCR with correctness assessment."
+    },
+    {
+      "id": "deepseek-ai/dsh-superagent-prototype",
+      "at": "2026-11-02T17:25:48Z",
+      "desc": "Towards a More Autonomous Agent System"
+    },
+    {
+      "id": "OpenBMB/ForgeKernel",
+      "at": "2026-11-02T17:25:48Z",
+      "desc": ""
     }
   ],
   "first_run_done": true,
-  "last_run": "2026-10-29T14:40:18Z"
+  "last_run": "2026-11-02T17:25:48Z"
 }

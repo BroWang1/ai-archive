@@ -186,9 +186,25 @@
     "Diffuspace/Clover-35B-A3B-Preview",
     "OliviaRossi/Minimax-h3_Singularity-x-10Eros-Max_PRISM",
     "LiquidAI/LFM3-1.7B-GGUF",
-    "AtomicChat/LFM3-1.7B-Uncensored-GGUF"
+    "AtomicChat/LFM3-1.7B-Uncensored-GGUF",
+    "speridlabs/idol",
+    "burner22/numbat",
+    "Edge0/Audio8-TTS-Realistic-Air",
+    "OBLITERATUS/DeepSeek-V4.1-Flash-1017-obliterated",
+    "sensenova/SenseNova-Loop-9B-Preview",
+    "LiquidAI/d1-2B",
+    "xiaomi-research/Xiaomi-OCR-0",
+    "Efficient-Large-Model/Open-H3-Regenerate-2K",
+    "AtomicChat/DeepSeek-V4.1-Flash-1017-Uncensored-GSQ-RCO-GGUF",
+    "maya-research/maya2-native",
+    "divagr1925/Qwen3.5-4B-Qwenputer",
+    "microsoft/Mage-VL-Cowork",
+    "nvidia/DeepSeek-V4.1-Flash-1017-NVFP4",
+    "LiquidAI/LFM3-1.7B-Base",
+    "LiquidAI/LFM3-Omni-2B-GGUF",
+    "nvidia/NVIDIA-NemotronLabs-RE-USE"
   ],
-  "last_run": "2026-10-29T14:40:18Z",
+  "last_run": "2026-11-02T17:25:48Z",
   "log": [
     {
       "id": "prism-ml/Ternary-Bonsai-2-27B-gguf",
@@ -934,6 +950,86 @@
       "id": "AtomicChat/LFM3-1.7B-Uncensored-GGUF",
       "at": "2026-10-29T14:40:18Z",
       "downloads": 16687
+    },
+    {
+      "id": "speridlabs/idol",
+      "at": "2026-11-02T17:25:48Z",
+      "downloads": 7787
+    },
+    {
+      "id": "burner22/numbat",
+      "at": "2026-11-02T17:25:48Z",
+      "downloads": 7108
+    },
+    {
+      "id": "Edge0/Audio8-TTS-Realistic-Air",
+      "at": "2026-11-02T17:25:48Z",
+      "downloads": 7259
+    },
+    {
+      "id": "OBLITERATUS/DeepSeek-V4.1-Flash-1017-obliterated",
+      "at": "2026-11-02T17:25:48Z",
+      "downloads": 1095
+    },
+    {
+      "id": "sensenova/SenseNova-Loop-9B-Preview",
+      "at": "2026-11-02T17:25:48Z",
+      "downloads": 1536
+    },
+    {
+      "id": "LiquidAI/d1-2B",
+      "at": "2026-11-02T17:25:48Z",
+      "downloads": 5047
+    },
+    {
+      "id": "xiaomi-research/Xiaomi-OCR-0",
+      "at": "2026-11-02T17:25:48Z",
+      "downloads": 18472
+    },
+    {
+      "id": "Efficient-Large-Model/Open-H3-Regenerate-2K",
+      "at": "2026-11-02T17:25:48Z",
+      "downloads": 364781
+    },
+    {
+      "id": "AtomicChat/DeepSeek-V4.1-Flash-1017-Uncensored-GSQ-RCO-GGUF",
+      "at": "2026-11-02T17:25:48Z",
+      "downloads": 30284
+    },
+    {
+      "id": "maya-research/maya2-native",
+      "at": "2026-11-02T17:25:48Z",
+      "downloads": 3392
+    },
+    {
+      "id": "divagr1925/Qwen3.5-4B-Qwenputer",
+      "at": "2026-11-02T17:25:48Z",
+      "downloads": 1043
+    },
+    {
+      "id": "microsoft/Mage-VL-Cowork",
+      "at": "2026-11-02T17:25:48Z",
+      "downloads": 1152
+    },
+    {
+      "id": "nvidia/DeepSeek-V4.1-Flash-1017-NVFP4",
+      "at": "2026-11-02T17:25:48Z",
+      "downloads": 1839
+    },
+    {
+      "id": "LiquidAI/LFM3-1.7B-Base",
+      "at": "2026-11-02T17:25:48Z",
+      "downloads": 4520
+    },
+    {
+      "id": "LiquidAI/LFM3-Omni-2B-GGUF",
+      "at": "2026-11-02T17:25:48Z",
+      "downloads": 132215
+    },
+    {
+      "id": "nvidia/NVIDIA-NemotronLabs-RE-USE",
+      "at": "2026-11-02T17:25:48Z",
+      "downloads": 29275
     }
   ]
 }

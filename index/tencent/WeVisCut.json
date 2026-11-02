@@ -1,0 +1,144 @@
+{
+  "repo_id": "tencent/WeVisCut",
+  "canonical_org": "tencent",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "b19fecbf1f9dcc87d7e63e09069364208d5fc53d",
+      "captured_at": "2026-11-02T17:25:27Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/tencent/WeVisCut?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"2fda-AjYpuI8fkU6qhViCX9yzBPesRpA\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "other",
+        "file": null,
+        "sha256": null,
+        "redistributable": null,
+        "obligations": [],
+        "freedom": "conditional",
+        "freedom_note": "Custom license ('other') \u2014 read before redistributing"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1880,
+          "sha256": "b6eff8525aca6f3284124b9fb9595bf310a77ad2694830646f02b0f2b07f6608",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 2750,
+          "sha256": "513a0aab9b4f8d6b9b19e61f25527c6b3443a08f8b2ec3355c0fea4c018f0203",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/introduction.png",
+          "size": 1796756,
+          "sha256": "e41693d5841f0b539eadd722ecb42ca583fdbb39b331597b5ed6b41694b51d27",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/model_architecture.png",
+          "size": 1780115,
+          "sha256": "69d146e0192f1f12e8f809bb3c7d40a614db178675f8af104dc582d34cf04673",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/overview.png",
+          "size": 848984,
+          "sha256": "c03e3e09042d0495dddd817ca2e5b9d716576177aa649d89fe1aa4c094056290",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/training_results.png",
+          "size": 319421,
+          "sha256": "5b6e341fa8b59a82f84e4c6866f34d20a4b2e1efee52f6137cee5f8a95da2f8c",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/wevisioncut_logo.png",
+          "size": 515492,
+          "sha256": "ee4db089533179078a21fcabbbd8d696b5133bdd69152ab7853d15a0fe36b1f2",
+          "kind": "snapshot"
+        },
+        {
+          "path": "chat_template.jinja",
+          "size": 7756,
+          "sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 2933,
+          "sha256": "e9fdd7e5071eca50784d3a8f69e1312baa0e681303d51721c6212e67a2f5247d",
+          "kind": "snapshot"
+        },
+        {
+          "path": "generation_config.json",
+          "size": 113,
+          "sha256": "03ebd242e95ec0d93b1d47057d4cd31161119a580055000d077be3e2f341f7b9",
+          "kind": "snapshot"
+        },
+        {
+          "path": "lora_adapter/adapter_config.json",
+          "size": 1308,
+          "sha256": "cbe33af0f56c08baa75b097a415aa28af4bf9ee4df7811e46802373ebfed43e3",
+          "kind": "snapshot"
+        },
+        {
+          "path": "lora_adapter/adapter_model.safetensors",
+          "size": 205166488,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model.safetensors",
+          "size": 18819722392,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "processor_config.json",
+          "size": 1191,
+          "sha256": "d89ef49ce9cd37fbf510158e13c1ef063d9286411c1ec9049932dbe0487143b1",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer.json",
+          "size": 19989325,
+          "sha256": "06b9509352d2af50381ab2247e083b80d32d5c0aba91c272ca9ff729b6a0e523",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 1165,
+          "sha256": "792fa3f0cb88b111e54ef3134c873531008c4df471d108da17903426e308aa7b",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 19050158069,
+      "weight_bytes": 19024888880,
+      "snapshot_dir": "snapshots/tencent/WeVisCut/b19fecbf1f9dcc87d7e63e09069364208d5fc53d/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

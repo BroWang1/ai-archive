@@ -227,7 +227,25 @@
     "http://arxiv.org/abs/2610.36621",
     "http://arxiv.org/abs/2610.36612",
     "http://arxiv.org/abs/2610.36386",
-    "http://arxiv.org/abs/2610.37434"
+    "http://arxiv.org/abs/2610.37434",
+    "http://arxiv.org/abs/2610.41983",
+    "http://arxiv.org/abs/2610.41909",
+    "http://arxiv.org/abs/2610.41564",
+    "http://arxiv.org/abs/2610.41366",
+    "http://arxiv.org/abs/2610.41236",
+    "http://arxiv.org/abs/2610.42147",
+    "http://arxiv.org/abs/2610.41992",
+    "http://arxiv.org/abs/2610.41358",
+    "http://arxiv.org/abs/2610.41333",
+    "http://arxiv.org/abs/2610.41210",
+    "http://arxiv.org/abs/2610.41023",
+    "http://arxiv.org/abs/2610.40212",
+    "http://arxiv.org/abs/2610.39438",
+    "http://arxiv.org/abs/2610.42109",
+    "http://arxiv.org/abs/2610.42048",
+    "http://arxiv.org/abs/2610.42040",
+    "http://arxiv.org/abs/2610.41903",
+    "http://arxiv.org/abs/2610.41753"
   ],
   "hn_seen": [
     "49735410",
@@ -428,7 +446,22 @@
     "48646165",
     "50273171",
     "50271685",
-    "50254935"
+    "50254935",
+    "50320995",
+    "50306442",
+    "50290668",
+    "50334372",
+    "50332086",
+    "50330253",
+    "50327416",
+    "50327058",
+    "50313661",
+    "50308754",
+    "50336518",
+    "50319169",
+    "50315990",
+    "50315047",
+    "50308240"
   ],
   "log": [
     {
@@ -2584,8 +2617,206 @@
       "at": "2026-10-29T14:40:30Z",
       "text": "HN front-page (55 pts): UK to charge universities $1,200 per international student",
       "url": "https://news.ycombinator.com/item?id=50254935"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-02T17:26:00Z",
+      "text": "New paper mentioning DeepSeek: TwinPast: Benchmarking Historical Evidence Use in Streaming Video Understanding with Evidence Contrastive Video Pairs",
+      "url": "http://arxiv.org/abs/2610.41983"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-02T17:26:00Z",
+      "text": "New paper mentioning DeepSeek: Structure-Aware Skill Retrieval and Arbitration for Optimization Modeling",
+      "url": "http://arxiv.org/abs/2610.41909"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-02T17:26:00Z",
+      "text": "New paper mentioning DeepSeek: Verify--Backtrack Loop: Structured Precondition Recovery for Long-Horizon Language Agents",
+      "url": "http://arxiv.org/abs/2610.41564"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-02T17:26:00Z",
+      "text": "New paper mentioning DeepSeek: What We Keep of What We Forget: Replacement Operators and Routing Semantics in Training-Free MoE Expert Pruning",
+      "url": "http://arxiv.org/abs/2610.41366"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-02T17:26:00Z",
+      "text": "New paper mentioning DeepSeek: Experts Exhibit Structured Redundancy: Structure-Preserving Expert Pruning for Mixture-of-Experts Large Language Models",
+      "url": "http://arxiv.org/abs/2610.41236"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-02T17:26:00Z",
+      "text": "New paper mentioning Qwen: Latent Sparse Attention: Towards Subquadratic Ultra-Long Context Attention",
+      "url": "http://arxiv.org/abs/2610.42147"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-02T17:26:00Z",
+      "text": "New paper mentioning Qwen: MoETok: Sparse Expert Routing for 1D Visual Tokenizers",
+      "url": "http://arxiv.org/abs/2610.41992"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-02T17:26:00Z",
+      "text": "New paper mentioning Qwen: Do Transaction Prices Reflect Visual Preference? A Diagnostic Study with Multimodal Language Models",
+      "url": "http://arxiv.org/abs/2610.41358"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-02T17:26:00Z",
+      "text": "New paper mentioning Qwen: StrictPRMBench: A Replayable Evaluation Benchmark for Auditing Fixed-Score PRM Aggregation",
+      "url": "http://arxiv.org/abs/2610.41333"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-02T17:26:00Z",
+      "text": "New paper mentioning Qwen: From Evaluation to Evolution: Benchmarking Image Editing and Evolving Image Models",
+      "url": "http://arxiv.org/abs/2610.41210"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-02T17:26:00Z",
+      "text": "HN front-page (451 pts): Memdoor: A team of 5 Qwen3.8-27B models beats Fable 5 on LiveCodeBench Hard",
+      "url": "https://news.ycombinator.com/item?id=50320995"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-02T17:26:00Z",
+      "text": "HN front-page (293 pts): Show HN: A working Nintendo in ~1GB of Qwen weights",
+      "url": "https://news.ycombinator.com/item?id=50306442"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-02T17:26:00Z",
+      "text": "HN front-page (328 pts): I went to Mexico to test-drive the cars Americans can\u2019t buy",
+      "url": "https://news.ycombinator.com/item?id=50290668"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-02T17:26:00Z",
+      "text": "New paper mentioning GLM-: Omniprediction for All Mixable Proper Losses and Beyond",
+      "url": "http://arxiv.org/abs/2610.41023"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-02T17:26:00Z",
+      "text": "New paper mentioning GLM-: Benchmarking color judgment in multimodal LLMs with CIE-computable ground truth",
+      "url": "http://arxiv.org/abs/2610.40212"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-02T17:26:00Z",
+      "text": "New paper mentioning GLM-: ATLAS-Bench: An Agentic Tool-Use Benchmark for Local Area Search",
+      "url": "http://arxiv.org/abs/2610.39438"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-02T17:26:00Z",
+      "text": "HN front-page (115 pts): BioWare co-founder: game execs \"have never made a game\" and don't get it",
+      "url": "https://news.ycombinator.com/item?id=50334372"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-02T17:26:00Z",
+      "text": "HN front-page (100 pts): AI fan wikis riddled with errors are muddying the waters of games culture",
+      "url": "https://news.ycombinator.com/item?id=50332086"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-02T17:26:00Z",
+      "text": "HN front-page (76 pts): So I guess everyone uses LLMs to think now",
+      "url": "https://news.ycombinator.com/item?id=50330253"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-02T17:26:00Z",
+      "text": "HN front-page (85 pts): I Am the Reason OpenAI Is Killing Unlimited Chats",
+      "url": "https://news.ycombinator.com/item?id=50327416"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-02T17:26:00Z",
+      "text": "HN front-page (186 pts): Seoul Viosys begins production of rare-earth-free white light emitter",
+      "url": "https://news.ycombinator.com/item?id=50327058"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-02T17:26:00Z",
+      "text": "New paper mentioning MiniMax: Regret-Optimal Wasserstein-Robust Linear Regression",
+      "url": "http://arxiv.org/abs/2610.42109"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-02T17:26:00Z",
+      "text": "New paper mentioning MiniMax: Exact Theory and Optimal Stepsizes for Stochastic Gradient Descent in Smooth Convex Minimization",
+      "url": "http://arxiv.org/abs/2610.42048"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-02T17:26:00Z",
+      "text": "New paper mentioning MiniMax: Near-Optimal Second-Order Convex Finite-Sum Optimization under Individual Smoothness",
+      "url": "http://arxiv.org/abs/2610.42040"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-02T17:26:00Z",
+      "text": "New paper mentioning MiniMax: Statistical Foundations of Reinforcement Learning: A Non-Asymptotic Perspective",
+      "url": "http://arxiv.org/abs/2610.41903"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-02T17:26:00Z",
+      "text": "New paper mentioning MiniMax: Functional-Specific Information Borrowing under Limited Overlap",
+      "url": "http://arxiv.org/abs/2610.41753"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-02T17:26:00Z",
+      "text": "HN front-page (358 pts): Digital minimalism",
+      "url": "https://news.ycombinator.com/item?id=50313661"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-02T17:26:00Z",
+      "text": "HN front-page (202 pts): Copper \u2013 A minimal low-level programming language with OOP and generics",
+      "url": "https://news.ycombinator.com/item?id=50308754"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-02T17:26:00Z",
+      "text": "HN front-page (130 pts): If you love a website, back it up",
+      "url": "https://news.ycombinator.com/item?id=50336518"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-02T17:26:00Z",
+      "text": "HN front-page (90 pts): Show HN: NES Contra (1987) port (ASM \u2013> C and then C \u2013> WebAssembly)",
+      "url": "https://news.ycombinator.com/item?id=50319169"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-02T17:26:00Z",
+      "text": "HN front-page (74 pts): AI startup hacks Anthropic, gains access to employee details, internal messages",
+      "url": "https://news.ycombinator.com/item?id=50315990"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-02T17:26:00Z",
+      "text": "HN front-page (104 pts): French lawmakers approved a tax of \u20ac0.055 for every gigabyte of internet traffic",
+      "url": "https://news.ycombinator.com/item?id=50315047"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-02T17:26:00Z",
+      "text": "HN front-page (140 pts): French national assembly votes 0.055\u20ac/GB internet tax",
+      "url": "https://news.ycombinator.com/item?id=50308240"
     }
   ],
   "first_run_done": true,
-  "last_run": "2026-10-29T14:40:30Z"
+  "last_run": "2026-11-02T17:26:00Z"
 }
