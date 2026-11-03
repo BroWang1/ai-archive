@@ -1,5 +1,12 @@
 [
  {
+  "at": "2026-11-03T00:01:10Z",
+  "kind": "digest",
+  "text": "This week's captures center on two labs: inclusionAI added ZwZ2 models at 4B, 9B, and 27B (with GGUF builds for all three) plus several Ling-3.0 and Ling-3.1 flash variants, while openbmb posted a wide MiniCPM-OCR-1.0 and OCR-Jev lineup in AWQ, GPTQ, gguf, int4, and DSpark formats. Tencent's WeVisCut was also captured. No models were mirrored and no alerts were raised; radar signals were mostly new papers referencing DeepSeek and Qwen, plus an HN front-page post (97 points) noting five inference providers for abliterated DeepSeek.",
+  "url": "https://github.com/BroWang1/ai-archive/issues",
+  "action": "details"
+ },
+ {
   "at": "2026-11-02T17:26:00Z",
   "kind": "paper",
   "text": "New paper mentioning DeepSeek: TwinPast: Benchmarking Historical Evidence Use in Streaming Video Understanding with Evidence Contrastive Video Pairs",
@@ -270,13 +277,6 @@
   "kind": "trending",
   "text": "Trending outside tracked labs: LiquidAI/d1-2B (5,047 downloads)",
   "url": "https://huggingface.co/LiquidAI/d1-2B",
-  "action": "view"
- },
- {
-  "at": "2026-11-02T17:25:48Z",
-  "kind": "trending",
-  "text": "Trending outside tracked labs: xiaomi-research/Xiaomi-OCR-0 (18,472 downloads)",
-  "url": "https://huggingface.co/xiaomi-research/Xiaomi-OCR-0",
   "action": "view"
  }
 ]

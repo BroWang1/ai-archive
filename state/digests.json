@@ -41,6 +41,12 @@
       "text": "This week the archive captured 24 open-weight model releases, including tencent's Hy-SimulMT-30B-A3B in FP8, GGUF, and Interleave variants, plus inclusionAI's Ling-3.0-flash and Ling-3.0-tiny-UBTree. openbmb added GPTQ and int4 builds of MiniCPM-V-4.7-1B, and internlm released Atria-Dawn with an FP8 version. No mirrors or alerts were recorded; radar signals included a DeepInfer inference framework for DeepSeek models on HN's front page and a DHS order banning DeepSeek from U.S. federal civilian agencies.",
       "url": "https://github.com/BroWang1/ai-archive/issues",
       "action": "details"
+    },
+    {
+      "at": "2026-11-03T00:01:10Z",
+      "text": "This week's captures center on two labs: inclusionAI added ZwZ2 models at 4B, 9B, and 27B (with GGUF builds for all three) plus several Ling-3.0 and Ling-3.1 flash variants, while openbmb posted a wide MiniCPM-OCR-1.0 and OCR-Jev lineup in AWQ, GPTQ, gguf, int4, and DSpark formats. Tencent's WeVisCut was also captured. No models were mirrored and no alerts were raised; radar signals were mostly new papers referencing DeepSeek and Qwen, plus an HN front-page post (97 points) noting five inference providers for abliterated DeepSeek.",
+      "url": "https://github.com/BroWang1/ai-archive/issues",
+      "action": "details"
     }
   ]
 }
