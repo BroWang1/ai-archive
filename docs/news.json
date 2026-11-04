@@ -1,5 +1,12 @@
 [
  {
+  "at": "2026-11-04T13:05:47Z",
+  "kind": "capture",
+  "text": "Captured openbmb/MiniCPM-OCR-1.0-DSpark \u2014 1 GB manifested, license: unclassified",
+  "url": "https://huggingface.co/openbmb/MiniCPM-OCR-1.0-DSpark",
+  "action": "view / download"
+ },
+ {
   "at": "2026-11-03T00:01:10Z",
   "kind": "digest",
   "text": "This week's captures center on two labs: inclusionAI added ZwZ2 models at 4B, 9B, and 27B (with GGUF builds for all three) plus several Ling-3.0 and Ling-3.1 flash variants, while openbmb posted a wide MiniCPM-OCR-1.0 and OCR-Jev lineup in AWQ, GPTQ, gguf, int4, and DSpark formats. Tencent's WeVisCut was also captured. No models were mirrored and no alerts were raised; radar signals were mostly new papers referencing DeepSeek and Qwen, plus an HN front-page post (97 points) noting five inference providers for abliterated DeepSeek.",
@@ -270,13 +277,6 @@
   "kind": "trending",
   "text": "Trending outside tracked labs: sensenova/SenseNova-Loop-9B-Preview (1,536 downloads)",
   "url": "https://huggingface.co/sensenova/SenseNova-Loop-9B-Preview",
-  "action": "view"
- },
- {
-  "at": "2026-11-02T17:25:48Z",
-  "kind": "trending",
-  "text": "Trending outside tracked labs: LiquidAI/d1-2B (5,047 downloads)",
-  "url": "https://huggingface.co/LiquidAI/d1-2B",
   "action": "view"
  }
 ]

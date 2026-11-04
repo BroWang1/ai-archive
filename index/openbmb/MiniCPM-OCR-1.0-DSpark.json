@@ -118,6 +118,68 @@
         "hf": null,
         "master": null
       }
+    },
+    {
+      "revision": "2dbf4b618bc9889330c3e267eec15fe2b0a8f672",
+      "captured_at": "2026-11-04T13:05:47Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/openbmb/MiniCPM-OCR-1.0-DSpark?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"83f-XQwU6swtYICYOLUKHiRu+72sRQA\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "apache-2.0",
+        "file": null,
+        "sha256": null,
+        "redistributable": null,
+        "obligations": []
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1519,
+          "sha256": "11ad7efa24975ee4b0c3c3a38ed18737f0658a5f75a0a96787b576a78a023361",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 6192,
+          "sha256": "be84d7044f6d8454feeee221442bfd4cc1cea96706f298530e63dd597deaf3bc",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/parsing_pipeline.svg",
+          "size": 4491,
+          "sha256": "e601a364eeb37709a7d100e86b0099e57e7a071610bcaf22884d21fb1e0f127e",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 1409,
+          "sha256": "ba0a9ed774ca1e5e4d7d97517379e477c7e8b6c151154e4b0556b0abd449d2e3",
+          "kind": "snapshot"
+        },
+        {
+          "path": "model.safetensors",
+          "size": 594599898,
+          "sha256": null,
+          "kind": "weights"
+        }
+      ],
+      "total_bytes": 594613509,
+      "weight_bytes": 594599898,
+      "snapshot_dir": "snapshots/openbmb/MiniCPM-OCR-1.0-DSpark/2dbf4b618bc9889330c3e267eec15fe2b0a8f672/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
     }
   ],
   "errata": [],
