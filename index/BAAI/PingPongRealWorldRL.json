@@ -1,0 +1,60 @@
+{
+  "repo_id": "BAAI/PingPongRealWorldRL",
+  "canonical_org": "BAAI",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "3a18f465ce2b07e74e8c065ba3bb3b2dfe32b307",
+      "captured_at": "2026-11-05T15:49:05Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/BAAI/PingPongRealWorldRL?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"28d-dFjN2RaUrFij/Sth0FnAkA6Yfao\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "apache-2.0",
+        "file": null,
+        "sha256": null,
+        "redistributable": true,
+        "obligations": [],
+        "freedom": "free",
+        "freedom_note": "apache-2.0 declared via card metadata (fingerprinted in snapshot); upstream ships no separate LICENSE file"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1519,
+          "sha256": "11ad7efa24975ee4b0c3c3a38ed18737f0658a5f75a0a96787b576a78a023361",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 28,
+          "sha256": "98b45ea81164d1e1a1dd82255207053b15cd6c69d922a1c5cf3387ce604d4b74",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 1547,
+      "weight_bytes": 0,
+      "snapshot_dir": "snapshots/BAAI/PingPongRealWorldRL/3a18f465ce2b07e74e8c065ba3bb3b2dfe32b307/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

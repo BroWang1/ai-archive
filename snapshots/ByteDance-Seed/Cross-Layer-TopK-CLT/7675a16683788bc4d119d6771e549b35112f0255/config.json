@@ -1,0 +1,9 @@
+{
+  "architecture": "cross_layer_transcoder",
+  "base_model": "Qwen/Qwen3-8B-Base",
+  "n_layers": 36,
+  "d_model": 4096,
+  "d_feature": 32768,
+  "activation": "cross_layer_topk",
+  "k": 10
+}

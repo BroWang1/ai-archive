@@ -1,0 +1,21 @@
+{
+  "base_model": "Qwen/Qwen3-30B-A3B",
+  "layer": 4,
+  "hook_point": "model.model.layers.4.mlp",
+  "hook_point_description": "output of the Qwen3MoeSparseMoeBlock, before the residual addition",
+  "architecture": "topk",
+  "k": 100,
+  "d_in": 2048,
+  "d_sae": 1048576,
+  "dtype": "float32",
+  "input_normalization": "none",
+  "decoder_unit_norm": true,
+  "encoder_subtracts_b_dec": false,
+  "weights": "sae.safetensors",
+  "tensors": {
+    "W_enc": [2048, 1048576],
+    "b_enc": [1048576],
+    "W_dec": [1048576, 2048],
+    "b_dec": [2048]
+  }
+}

@@ -202,9 +202,17 @@
     "nvidia/DeepSeek-V4.1-Flash-1017-NVFP4",
     "LiquidAI/LFM3-1.7B-Base",
     "LiquidAI/LFM3-Omni-2B-GGUF",
-    "nvidia/NVIDIA-NemotronLabs-RE-USE"
+    "nvidia/NVIDIA-NemotronLabs-RE-USE",
+    "abenzerps/Qwen-Image-2.1-Turbo-Quantized",
+    "PrunaAI/P-H3-Image-Comfy",
+    "ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-Coder-GGUF",
+    "ccore/Qwen3.5-4B-GLB-3D-Coder",
+    "Pika-Labs/Pika-H3-Flex-Turbo-LoRA",
+    "Comfy-Org/Idol",
+    "webAI-Official/TwIL-8B",
+    "RikiyaT/Qwen3.5-0.8B-weight-space-programming"
   ],
-  "last_run": "2026-11-02T17:25:48Z",
+  "last_run": "2026-11-05T15:49:07Z",
   "log": [
     {
       "id": "prism-ml/Ternary-Bonsai-2-27B-gguf",
@@ -1030,6 +1038,46 @@
       "id": "nvidia/NVIDIA-NemotronLabs-RE-USE",
       "at": "2026-11-02T17:25:48Z",
       "downloads": 29275
+    },
+    {
+      "id": "abenzerps/Qwen-Image-2.1-Turbo-Quantized",
+      "at": "2026-11-05T15:49:07Z",
+      "downloads": 233059
+    },
+    {
+      "id": "PrunaAI/P-H3-Image-Comfy",
+      "at": "2026-11-05T15:49:07Z",
+      "downloads": 218534
+    },
+    {
+      "id": "ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-Coder-GGUF",
+      "at": "2026-11-05T15:49:07Z",
+      "downloads": 127948
+    },
+    {
+      "id": "ccore/Qwen3.5-4B-GLB-3D-Coder",
+      "at": "2026-11-05T15:49:07Z",
+      "downloads": 12206
+    },
+    {
+      "id": "Pika-Labs/Pika-H3-Flex-Turbo-LoRA",
+      "at": "2026-11-05T15:49:07Z",
+      "downloads": 56494
+    },
+    {
+      "id": "Comfy-Org/Idol",
+      "at": "2026-11-05T15:49:07Z",
+      "downloads": 21103
+    },
+    {
+      "id": "webAI-Official/TwIL-8B",
+      "at": "2026-11-05T15:49:07Z",
+      "downloads": 3563
+    },
+    {
+      "id": "RikiyaT/Qwen3.5-0.8B-weight-space-programming",
+      "at": "2026-11-05T15:49:07Z",
+      "downloads": 1968
     }
   ]
 }

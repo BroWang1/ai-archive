@@ -1,0 +1,348 @@
+{
+  "repo_id": "ByteDance-Seed/GenFirst",
+  "canonical_org": "ByteDance-Seed",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "62bdef08b75ce79f8f3e9d1516d14e9b0b70c212",
+      "captured_at": "2026-11-05T15:49:02Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/ByteDance-Seed/GenFirst?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"3343-XcoNMbQez1zDqIh66CzsvpZ+nrY\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "cc-by-nc-4.0",
+        "file": "LICENSE",
+        "sha256": "5416c07d93a3167c63939e26052ff9f3d910f13b45b160af21dd6efc5b3899e9",
+        "redistributable": null,
+        "obligations": [],
+        "freedom": "conditional",
+        "freedom_note": "Custom license ('cc-by-nc-4.0') \u2014 read before redistributing"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1519,
+          "sha256": "11ad7efa24975ee4b0c3c3a38ed18737f0658a5f75a0a96787b576a78a023361",
+          "kind": "snapshot"
+        },
+        {
+          "path": "LICENSE",
+          "size": 1546,
+          "sha256": "5416c07d93a3167c63939e26052ff9f3d910f13b45b160af21dd6efc5b3899e9",
+          "kind": "snapshot"
+        },
+        {
+          "path": "MANIFEST.md",
+          "size": 5942,
+          "sha256": "4c3991d1dbf81f6aa134858c121b14a4881f15d03c1f7b0cf4b3a34f055f2b3c",
+          "kind": "snapshot"
+        },
+        {
+          "path": "MODEL_CARD.md",
+          "size": 18647,
+          "sha256": "fa110c258f6d9e270a7d1898f33fd09a3140a582b16893336ee176306319ebfb",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 18647,
+          "sha256": "fa110c258f6d9e270a7d1898f33fd09a3140a582b16893336ee176306319ebfb",
+          "kind": "snapshot"
+        },
+        {
+          "path": "class-conditional/imagenet256/eit-imagenet256-480ep.pt",
+          "size": 10930616719,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "class-conditional/imagenet256/eit-imagenet256-800ep.pt",
+          "size": 10930616911,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "class-conditional/imagenet256/eit-imagenet256-80ep.pt",
+          "size": 10930613455,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "class-conditional/imagenet256/eit-imagenet256-weak-20ep.pt",
+          "size": 10930613455,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "class-conditional/imagenet512/eit-imagenet512-400ep.pt",
+          "size": 10937694799,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "class-conditional/imagenet512/eit-imagenet512-80ep.pt",
+          "size": 10937691343,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "shared-latents/siglip/eit-qwenvit-siglip-t2i-512.pt",
+          "size": 21368379236,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "shared-latents/vlm-nll/eit-qwenvit-vlm-nll-t2i-512.pt",
+          "size": 21368379236,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "text-to-image/variant-a/eit-t2i-variant-a-512.pt",
+          "size": 21368378916,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "text-to-image/variant-b/eit-t2i-variant-b-512.pt",
+          "size": 21368378916,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "unified-text-image/e2e-joint/eit-joint-e2e-text-e2e-img-512-sft.pt",
+          "size": 23683508731,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "unified-text-image/e2e-joint/eit-joint-e2e-text-e2e-img-512.pt",
+          "size": 23683508923,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "vae/e2e-f16d32-nodecft/e2e-f16d32-nodecft-discriminator-ckpt.pt",
+          "size": 11077612,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "vae/e2e-f16d32-nodecft/e2e-f16d32-nodecft-latents-stats.pt",
+          "size": 1954,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "vae/e2e-f16d32-nodecft/e2e-f16d32-nodecft.pt",
+          "size": 279466992,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "vae/e2e-f16d32/e2e-f16d32-discriminator-ckpt.pt",
+          "size": 11077768,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "vae/e2e-f16d32/e2e-f16d32-latents-stats.pt",
+          "size": 1990,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "vae/e2e-f16d32/e2e-f16d32.pt",
+          "size": 279469132,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "vae/e2e-f8d4/e2e-f8d4-discriminator-ckpt.pt",
+          "size": 11077560,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "vae/e2e-f8d4/e2e-f8d4-latents-stats.pt",
+          "size": 1686,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "vae/e2e-f8d4/e2e-f8d4.pt",
+          "size": 334704166,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "vae/e2e-flux-vae-mmdit-l2-t2i-s2/e2e-flux-vae-mmdit-l2-t2i-s2-discriminator-ckpt.pt",
+          "size": 11077924,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "vae/e2e-flux-vae-mmdit-l2-t2i-s2/e2e-flux-vae-mmdit-l2-t2i-s2-latents-stats.pt",
+          "size": 1898,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "vae/e2e-flux-vae-mmdit-l2-t2i-s2/e2e-flux-vae-mmdit-l2-t2i-s2.pt",
+          "size": 335377826,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "vae/e2e-flux-vae-sit-imagenet-s2/e2e-flux-vae-sit-imagenet-s2-discriminator-ckpt.pt",
+          "size": 11077924,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "vae/e2e-flux-vae-sit-imagenet-s2/e2e-flux-vae-sit-imagenet-s2-latents-stats.pt",
+          "size": 1898,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "vae/e2e-flux-vae-sit-imagenet-s2/e2e-flux-vae-sit-imagenet-s2.pt",
+          "size": 335377826,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "vae/e2e-joint-gan-l2-330k/e2e-joint-gan-l2-330k-discriminator-ckpt.pt",
+          "size": 11077422,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "vae/e2e-joint-gan-l2-330k/e2e-joint-gan-l2-330k-latents-stats.pt",
+          "size": 1856,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "vae/e2e-joint-gan-l2-330k/e2e-joint-gan-l2-330k-text-vae.pt",
+          "size": 2007536503,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "vae/e2e-joint-gan-l2-330k/e2e-joint-gan-l2-330k.pt",
+          "size": 335376026,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "vae/e2e-vae-flux2-sitxl2-auxkl2p5e8-s3-20k/config.json",
+          "size": 1727,
+          "sha256": "af6fa4c4043709bb98a1f3db0ba39bcfa2822d7812df80093c732623086cfef0",
+          "kind": "snapshot"
+        },
+        {
+          "path": "vae/e2e-vae-flux2-sitxl2-auxkl2p5e8-s3-20k/diffusion_pytorch_model.safetensors",
+          "size": 336213524,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "vae/e2e-vae-flux2-sitxl2-auxkl2p5e8-s3-20k/e2e-vae-flux2-sitxl2-auxkl2p5e8-s3-20k-discriminator-ckpt.pt",
+          "size": 11078312,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "vae/e2e-vae-flux2-sitxl2-auxkl2p5e8-s3-20k/e2e-vae-flux2-sitxl2-auxkl2p5e8-s3-20k-latents-stats.pt",
+          "size": 2086,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "vae/e2e-vae-flux2-sitxl2-auxkl2p5e8-s3-20k/e2e-vae-flux2-sitxl2-auxkl2p5e8-s3-20k-stage2-bn-latents-stats.pt",
+          "size": 2086,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "vae/e2e-vae-flux2-sitxl2-auxkl2p5e8-s3-20k/e2e-vae-flux2-sitxl2-auxkl2p5e8-s3-20k.pt",
+          "size": 336289088,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "vae/e2e-vae-flux2-sitxl2-auxkl2p5e8-s3-20k/e2e-vae-flux2-sitxl2-auxkl2p5e8-s3-20k.safetensors",
+          "size": 336213524,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "vae/e2e-vae-flux2-sitxl2-auxkl2p5e8-s3-20k/vae_params.json",
+          "size": 2101,
+          "sha256": "b6d8001e44866c7776ecc2bf51ae9d0481942ba0bd721247327218cd83041cbb",
+          "kind": "snapshot"
+        },
+        {
+          "path": "vae/qwenvit-nlltrunk-s2/qwenvit-nlltrunk-s2-discriminator-ckpt.pt",
+          "size": 11078128,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "vae/qwenvit-nlltrunk-s2/qwenvit-nlltrunk-s2-latents-stats.pt",
+          "size": 1844,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "vae/qwenvit-nlltrunk-s2/qwenvit-nlltrunk-s2.pt",
+          "size": 2237614618,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "vae/qwenvit-siglip-b256-s2/qwenvit-siglip-b256-s2-discriminator-ckpt.pt",
+          "size": 11078206,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "vae/qwenvit-siglip-b256-s2/qwenvit-siglip-b256-s2-latents-stats.pt",
+          "size": 1862,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "vae/qwenvit-siglip-b256-s2/qwenvit-siglip-b256-s2.pt",
+          "size": 2237616058,
+          "sha256": null,
+          "kind": "weights"
+        }
+      ],
+      "total_bytes": 207929406068,
+      "weight_bytes": 207929355939,
+      "snapshot_dir": "snapshots/ByteDance-Seed/GenFirst/62bdef08b75ce79f8f3e9d1516d14e9b0b70c212/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

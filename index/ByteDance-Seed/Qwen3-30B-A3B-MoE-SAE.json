@@ -1,0 +1,108 @@
+{
+  "repo_id": "ByteDance-Seed/Qwen3-30B-A3B-MoE-SAE",
+  "canonical_org": "ByteDance-Seed",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "6a6cc923f40b26e1f54c833b075c15eb4e4aa7b0",
+      "captured_at": "2026-11-05T15:48:56Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/ByteDance-Seed/Qwen3-30B-A3B-MoE-SAE?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"874-Q+HO70wpqOEhMoh2sMx13vB6B3M\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "apache-2.0",
+        "file": "LICENSE",
+        "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+        "redistributable": true,
+        "obligations": [],
+        "freedom": "free",
+        "freedom_note": "apache-2.0 with LICENSE file verified in snapshot"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1519,
+          "sha256": "11ad7efa24975ee4b0c3c3a38ed18737f0658a5f75a0a96787b576a78a023361",
+          "kind": "snapshot"
+        },
+        {
+          "path": "LICENSE",
+          "size": 11358,
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 4284,
+          "sha256": "5c6df2bb3453e954c28c1d4c49540f0ec72a728e276f1a446e0df6ff3bcf796b",
+          "kind": "snapshot"
+        },
+        {
+          "path": "layer_30/config.json",
+          "size": 549,
+          "sha256": "b7086d72b711cd6d1bab32e78f884707a807dcf802e595cf7f0ee7624238a2a2",
+          "kind": "snapshot"
+        },
+        {
+          "path": "layer_30/sae.safetensors",
+          "size": 17184072016,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "layer_4/config.json",
+          "size": 547,
+          "sha256": "b8131155d2eef27651c5fc7d4068dce561ca0e7c9eedc801272664f926b2c609",
+          "kind": "snapshot"
+        },
+        {
+          "path": "layer_4/sae.safetensors",
+          "size": 17184072016,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "layer_46/config.json",
+          "size": 549,
+          "sha256": "55cde9dfa527f6802e1714cef79ac4d3f68580268d207ffe09fb58df5eaa628d",
+          "kind": "snapshot"
+        },
+        {
+          "path": "layer_46/sae.safetensors",
+          "size": 17184072016,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "upload.py",
+          "size": 4834,
+          "sha256": "a27b2b88efac2f5837a74e01b8a5cde20eb65909a890b96afe1fb1ef357b1d81",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 51552239688,
+      "weight_bytes": 51552216048,
+      "snapshot_dir": "snapshots/ByteDance-Seed/Qwen3-30B-A3B-MoE-SAE/6a6cc923f40b26e1f54c833b075c15eb4e4aa7b0/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

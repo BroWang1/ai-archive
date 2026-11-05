@@ -6,284 +6,284 @@
  "description": "Captures, mirrors, takedown alerts and radar signals for open-weight AI models",
  "items": [
   {
-   "id": "2026-11-04T13:05:47Z-196306801",
-   "title": "Captured openbmb/MiniCPM-OCR-1.0-DSpark \u2014 1 GB manifested, license: unclassified",
-   "date_published": "2026-11-04T13:05:47Z",
-   "url": "https://huggingface.co/openbmb/MiniCPM-OCR-1.0-DSpark",
-   "content_text": "Captured openbmb/MiniCPM-OCR-1.0-DSpark \u2014 1 GB manifested, license: unclassified"
+   "id": "2026-11-05T15:49:19Z-3794198388",
+   "title": "New paper mentioning DeepSeek: Trace2Eval: Contextualized Evaluation of Coding Agents from Real-World Traces",
+   "date_published": "2026-11-05T15:49:19Z",
+   "url": "http://arxiv.org/abs/2611.06506",
+   "content_text": "New paper mentioning DeepSeek: Trace2Eval: Contextualized Evaluation of Coding Agents from Real-World Traces"
   },
   {
-   "id": "2026-11-03T00:01:10Z-436832448",
-   "title": "This week's captures center on two labs: inclusionAI added ZwZ2 models at 4B, 9B, and 27B (with GGUF builds for all three) plus several Ling-3.0 and Ling-3.1 flash variants, while openbmb posted a wide MiniCPM-OCR-1.0 and OCR-Jev lineup in AWQ, GPTQ, gguf, int4, and DSpark formats. Tencent's WeVisCut was also captured. No models were mirrored and no alerts were raised; radar signals were mostly new papers referencing DeepSeek and Qwen, plus an HN front-page post (97 points) noting five inference providers for abliterated DeepSeek.",
-   "date_published": "2026-11-03T00:01:10Z",
-   "url": "https://github.com/BroWang1/ai-archive/issues",
-   "content_text": "This week's captures center on two labs: inclusionAI added ZwZ2 models at 4B, 9B, and 27B (with GGUF builds for all three) plus several Ling-3.0 and Ling-3.1 flash variants, while openbmb posted a wide MiniCPM-OCR-1.0 and OCR-Jev lineup in AWQ, GPTQ, gguf, int4, and DSpark formats. Tencent's WeVisCut was also captured. No models were mirrored and no alerts were raised; radar signals were mostly new papers referencing DeepSeek and Qwen, plus an HN front-page post (97 points) noting five inference providers for abliterated DeepSeek."
+   "id": "2026-11-05T15:49:19Z-3125544735",
+   "title": "New paper mentioning DeepSeek: SafeStart: Mitigating the Overlooked Safety Cost of Active Expert Reduction in MoE LLM Serving",
+   "date_published": "2026-11-05T15:49:19Z",
+   "url": "http://arxiv.org/abs/2611.06147",
+   "content_text": "New paper mentioning DeepSeek: SafeStart: Mitigating the Overlooked Safety Cost of Active Expert Reduction in MoE LLM Serving"
   },
   {
-   "id": "2026-11-02T17:26:00Z-3060939394",
-   "title": "New paper mentioning DeepSeek: TwinPast: Benchmarking Historical Evidence Use in Streaming Video Understanding with Evidence Contrastive Video Pairs",
-   "date_published": "2026-11-02T17:26:00Z",
-   "url": "http://arxiv.org/abs/2610.41983",
-   "content_text": "New paper mentioning DeepSeek: TwinPast: Benchmarking Historical Evidence Use in Streaming Video Understanding with Evidence Contrastive Video Pairs"
+   "id": "2026-11-05T15:49:19Z-1165124611",
+   "title": "New paper mentioning DeepSeek: SBVUL: Statement-Based Vulnerability Detection",
+   "date_published": "2026-11-05T15:49:19Z",
+   "url": "http://arxiv.org/abs/2611.06135",
+   "content_text": "New paper mentioning DeepSeek: SBVUL: Statement-Based Vulnerability Detection"
   },
   {
-   "id": "2026-11-02T17:26:00Z-839024995",
-   "title": "New paper mentioning DeepSeek: Structure-Aware Skill Retrieval and Arbitration for Optimization Modeling",
-   "date_published": "2026-11-02T17:26:00Z",
-   "url": "http://arxiv.org/abs/2610.41909",
-   "content_text": "New paper mentioning DeepSeek: Structure-Aware Skill Retrieval and Arbitration for Optimization Modeling"
+   "id": "2026-11-05T15:49:19Z-16710081",
+   "title": "New paper mentioning DeepSeek: vExpert: Virtualizing Expert Storage for Adaptive Load Balancing in Distributed MoE Inference",
+   "date_published": "2026-11-05T15:49:19Z",
+   "url": "http://arxiv.org/abs/2611.06057",
+   "content_text": "New paper mentioning DeepSeek: vExpert: Virtualizing Expert Storage for Adaptive Load Balancing in Distributed MoE Inference"
   },
   {
-   "id": "2026-11-02T17:26:00Z-982626075",
-   "title": "New paper mentioning DeepSeek: Verify--Backtrack Loop: Structured Precondition Recovery for Long-Horizon Language Agents",
-   "date_published": "2026-11-02T17:26:00Z",
-   "url": "http://arxiv.org/abs/2610.41564",
-   "content_text": "New paper mentioning DeepSeek: Verify--Backtrack Loop: Structured Precondition Recovery for Long-Horizon Language Agents"
+   "id": "2026-11-05T15:49:19Z-3569775641",
+   "title": "New paper mentioning DeepSeek: How Well Can Large Language Models Impersonate Individual Authors? A Comparative Evaluation",
+   "date_published": "2026-11-05T15:49:19Z",
+   "url": "http://arxiv.org/abs/2611.05771",
+   "content_text": "New paper mentioning DeepSeek: How Well Can Large Language Models Impersonate Individual Authors? A Comparative Evaluation"
   },
   {
-   "id": "2026-11-02T17:26:00Z-2742482783",
-   "title": "New paper mentioning DeepSeek: What We Keep of What We Forget: Replacement Operators and Routing Semantics in Training-Free MoE Expert Pruning",
-   "date_published": "2026-11-02T17:26:00Z",
-   "url": "http://arxiv.org/abs/2610.41366",
-   "content_text": "New paper mentioning DeepSeek: What We Keep of What We Forget: Replacement Operators and Routing Semantics in Training-Free MoE Expert Pruning"
+   "id": "2026-11-05T15:49:19Z-3247156009",
+   "title": "HN front-page (166 pts): Launch HN: Momentic (YC W24) \u2013 Agents that catch bugs by using your app",
+   "date_published": "2026-11-05T15:49:19Z",
+   "url": "https://news.ycombinator.com/item?id=50339913",
+   "content_text": "HN front-page (166 pts): Launch HN: Momentic (YC W24) \u2013 Agents that catch bugs by using your app"
   },
   {
-   "id": "2026-11-02T17:26:00Z-3958083834",
-   "title": "New paper mentioning DeepSeek: Experts Exhibit Structured Redundancy: Structure-Preserving Expert Pruning for Mixture-of-Experts Large Language Models",
-   "date_published": "2026-11-02T17:26:00Z",
-   "url": "http://arxiv.org/abs/2610.41236",
-   "content_text": "New paper mentioning DeepSeek: Experts Exhibit Structured Redundancy: Structure-Preserving Expert Pruning for Mixture-of-Experts Large Language Models"
+   "id": "2026-11-05T15:49:19Z-2179509654",
+   "title": "New paper mentioning Qwen: Same Layout, Different Count: What Number Words Do Past Ten in Text-to-Image Models",
+   "date_published": "2026-11-05T15:49:19Z",
+   "url": "http://arxiv.org/abs/2611.06840",
+   "content_text": "New paper mentioning Qwen: Same Layout, Different Count: What Number Words Do Past Ten in Text-to-Image Models"
   },
   {
-   "id": "2026-11-02T17:26:00Z-1852231502",
-   "title": "New paper mentioning Qwen: Latent Sparse Attention: Towards Subquadratic Ultra-Long Context Attention",
-   "date_published": "2026-11-02T17:26:00Z",
-   "url": "http://arxiv.org/abs/2610.42147",
-   "content_text": "New paper mentioning Qwen: Latent Sparse Attention: Towards Subquadratic Ultra-Long Context Attention"
+   "id": "2026-11-05T15:49:19Z-2099644655",
+   "title": "New paper mentioning Qwen: Route First, See Later: Enabling Vision Agents to Reason Scientifically by Separating Routing Policy from Action Spaces",
+   "date_published": "2026-11-05T15:49:19Z",
+   "url": "http://arxiv.org/abs/2611.06760",
+   "content_text": "New paper mentioning Qwen: Route First, See Later: Enabling Vision Agents to Reason Scientifically by Separating Routing Policy from Action Spaces"
   },
   {
-   "id": "2026-11-02T17:26:00Z-524754559",
-   "title": "New paper mentioning Qwen: MoETok: Sparse Expert Routing for 1D Visual Tokenizers",
-   "date_published": "2026-11-02T17:26:00Z",
-   "url": "http://arxiv.org/abs/2610.41992",
-   "content_text": "New paper mentioning Qwen: MoETok: Sparse Expert Routing for 1D Visual Tokenizers"
+   "id": "2026-11-05T15:49:19Z-2129684472",
+   "title": "New paper mentioning Qwen: TailSteer: Trajectory-Tail Steering for Drift-Resistant Multi-turn Image Editing",
+   "date_published": "2026-11-05T15:49:19Z",
+   "url": "http://arxiv.org/abs/2611.06741",
+   "content_text": "New paper mentioning Qwen: TailSteer: Trajectory-Tail Steering for Drift-Resistant Multi-turn Image Editing"
   },
   {
-   "id": "2026-11-02T17:26:00Z-2842906842",
-   "title": "New paper mentioning Qwen: Do Transaction Prices Reflect Visual Preference? A Diagnostic Study with Multimodal Language Models",
-   "date_published": "2026-11-02T17:26:00Z",
-   "url": "http://arxiv.org/abs/2610.41358",
-   "content_text": "New paper mentioning Qwen: Do Transaction Prices Reflect Visual Preference? A Diagnostic Study with Multimodal Language Models"
+   "id": "2026-11-05T15:49:19Z-1396335580",
+   "title": "New paper mentioning Qwen: KVGuard: A KV Cache Safety Checker for LLM Serving Systems",
+   "date_published": "2026-11-05T15:49:19Z",
+   "url": "http://arxiv.org/abs/2611.06138",
+   "content_text": "New paper mentioning Qwen: KVGuard: A KV Cache Safety Checker for LLM Serving Systems"
   },
   {
-   "id": "2026-11-02T17:26:00Z-1722003956",
-   "title": "New paper mentioning Qwen: StrictPRMBench: A Replayable Evaluation Benchmark for Auditing Fixed-Score PRM Aggregation",
-   "date_published": "2026-11-02T17:26:00Z",
-   "url": "http://arxiv.org/abs/2610.41333",
-   "content_text": "New paper mentioning Qwen: StrictPRMBench: A Replayable Evaluation Benchmark for Auditing Fixed-Score PRM Aggregation"
+   "id": "2026-11-05T15:49:19Z-3039755116",
+   "title": "HN front-page (731 pts): Qwen 3.8 27B on my laptop can interpret model weights, too",
+   "date_published": "2026-11-05T15:49:19Z",
+   "url": "https://news.ycombinator.com/item?id=50355251",
+   "content_text": "HN front-page (731 pts): Qwen 3.8 27B on my laptop can interpret model weights, too"
   },
   {
-   "id": "2026-11-02T17:26:00Z-730883916",
-   "title": "New paper mentioning Qwen: From Evaluation to Evolution: Benchmarking Image Editing and Evolving Image Models",
-   "date_published": "2026-11-02T17:26:00Z",
-   "url": "http://arxiv.org/abs/2610.41210",
-   "content_text": "New paper mentioning Qwen: From Evaluation to Evolution: Benchmarking Image Editing and Evolving Image Models"
+   "id": "2026-11-05T15:49:19Z-1224228874",
+   "title": "HN front-page (1034 pts): The 'Astra can read and write weights to improve Qwen' post is misleading",
+   "date_published": "2026-11-05T15:49:19Z",
+   "url": "https://news.ycombinator.com/item?id=50351111",
+   "content_text": "HN front-page (1034 pts): The 'Astra can read and write weights to improve Qwen' post is misleading"
   },
   {
-   "id": "2026-11-02T17:26:00Z-1784808512",
-   "title": "HN front-page (451 pts): Memdoor: A team of 5 Qwen3.8-27B models beats Fable 5 on LiveCodeBench Hard",
-   "date_published": "2026-11-02T17:26:00Z",
-   "url": "https://news.ycombinator.com/item?id=50320995",
-   "content_text": "HN front-page (451 pts): Memdoor: A team of 5 Qwen3.8-27B models beats Fable 5 on LiveCodeBench Hard"
+   "id": "2026-11-05T15:49:19Z-66821",
+   "title": "HN front-page (2949 pts): Astra can read and write weights to improve Qwen",
+   "date_published": "2026-11-05T15:49:19Z",
+   "url": "https://news.ycombinator.com/item?id=50341174",
+   "content_text": "HN front-page (2949 pts): Astra can read and write weights to improve Qwen"
   },
   {
-   "id": "2026-11-02T17:26:00Z-2370784655",
-   "title": "HN front-page (293 pts): Show HN: A working Nintendo in ~1GB of Qwen weights",
-   "date_published": "2026-11-02T17:26:00Z",
-   "url": "https://news.ycombinator.com/item?id=50306442",
-   "content_text": "HN front-page (293 pts): Show HN: A working Nintendo in ~1GB of Qwen weights"
+   "id": "2026-11-05T15:49:19Z-1509510138",
+   "title": "HN front-page (597 pts): Kimi K3.1 Pro model weights are out",
+   "date_published": "2026-11-05T15:49:19Z",
+   "url": "https://news.ycombinator.com/item?id=50366999",
+   "content_text": "HN front-page (597 pts): Kimi K3.1 Pro model weights are out"
   },
   {
-   "id": "2026-11-02T17:26:00Z-1796482046",
-   "title": "HN front-page (328 pts): I went to Mexico to test-drive the cars Americans can\u2019t buy",
-   "date_published": "2026-11-02T17:26:00Z",
-   "url": "https://news.ycombinator.com/item?id=50290668",
-   "content_text": "HN front-page (328 pts): I went to Mexico to test-drive the cars Americans can\u2019t buy"
+   "id": "2026-11-05T15:49:19Z-118307498",
+   "title": "New paper mentioning GLM-: PAYWORTHY: Can LLMs Predict Which Freelance Jobs an AI Agent Will Complete?",
+   "date_published": "2026-11-05T15:49:19Z",
+   "url": "http://arxiv.org/abs/2611.05759",
+   "content_text": "New paper mentioning GLM-: PAYWORTHY: Can LLMs Predict Which Freelance Jobs an AI Agent Will Complete?"
   },
   {
-   "id": "2026-11-02T17:26:00Z-4151308254",
-   "title": "New paper mentioning GLM-: Omniprediction for All Mixable Proper Losses and Beyond",
-   "date_published": "2026-11-02T17:26:00Z",
-   "url": "http://arxiv.org/abs/2610.41023",
-   "content_text": "New paper mentioning GLM-: Omniprediction for All Mixable Proper Losses and Beyond"
+   "id": "2026-11-05T15:49:19Z-2431953353",
+   "title": "New paper mentioning GLM-: ToolSpace: Scaling Tool-Centric Environment Synthesis for Long-Horizon Agents",
+   "date_published": "2026-11-05T15:49:19Z",
+   "url": "http://arxiv.org/abs/2611.05036",
+   "content_text": "New paper mentioning GLM-: ToolSpace: Scaling Tool-Centric Environment Synthesis for Long-Horizon Agents"
   },
   {
-   "id": "2026-11-02T17:26:00Z-2239401886",
-   "title": "New paper mentioning GLM-: Benchmarking color judgment in multimodal LLMs with CIE-computable ground truth",
-   "date_published": "2026-11-02T17:26:00Z",
-   "url": "http://arxiv.org/abs/2610.40212",
-   "content_text": "New paper mentioning GLM-: Benchmarking color judgment in multimodal LLMs with CIE-computable ground truth"
+   "id": "2026-11-05T15:49:19Z-1198526497",
+   "title": "New paper mentioning GLM-: GC-MoE: Overlapping Expert-Parallel Token Dispatch with FP8/FP4 Grouped GEMM via CUDA Green Contexts",
+   "date_published": "2026-11-05T15:49:19Z",
+   "url": "http://arxiv.org/abs/2611.04222",
+   "content_text": "New paper mentioning GLM-: GC-MoE: Overlapping Expert-Parallel Token Dispatch with FP8/FP4 Grouped GEMM via CUDA Green Contexts"
   },
   {
-   "id": "2026-11-02T17:26:00Z-4152901261",
-   "title": "New paper mentioning GLM-: ATLAS-Bench: An Agentic Tool-Use Benchmark for Local Area Search",
-   "date_published": "2026-11-02T17:26:00Z",
-   "url": "http://arxiv.org/abs/2610.39438",
-   "content_text": "New paper mentioning GLM-: ATLAS-Bench: An Agentic Tool-Use Benchmark for Local Area Search"
+   "id": "2026-11-05T15:49:19Z-1907402608",
+   "title": "New paper mentioning GLM-: DoGNAVY-Exploit: Harnessing Parallel Open-Weight Agents for Stage-Aware Vulnerability Exploitation",
+   "date_published": "2026-11-05T15:49:19Z",
+   "url": "http://arxiv.org/abs/2611.04196",
+   "content_text": "New paper mentioning GLM-: DoGNAVY-Exploit: Harnessing Parallel Open-Weight Agents for Stage-Aware Vulnerability Exploitation"
   },
   {
-   "id": "2026-11-02T17:26:00Z-3802405008",
-   "title": "HN front-page (115 pts): BioWare co-founder: game execs \"have never made a game\" and don't get it",
-   "date_published": "2026-11-02T17:26:00Z",
-   "url": "https://news.ycombinator.com/item?id=50334372",
-   "content_text": "HN front-page (115 pts): BioWare co-founder: game execs \"have never made a game\" and don't get it"
+   "id": "2026-11-05T15:49:19Z-3479075884",
+   "title": "New paper mentioning GLM-: AlgoPilot: Cross-Paradigm Reasoning in Language Models via Strategy Selection and Guidance",
+   "date_published": "2026-11-05T15:49:19Z",
+   "url": "http://arxiv.org/abs/2611.04079",
+   "content_text": "New paper mentioning GLM-: AlgoPilot: Cross-Paradigm Reasoning in Language Models via Strategy Selection and Guidance"
   },
   {
-   "id": "2026-11-02T17:26:00Z-1616906555",
-   "title": "HN front-page (100 pts): AI fan wikis riddled with errors are muddying the waters of games culture",
-   "date_published": "2026-11-02T17:26:00Z",
-   "url": "https://news.ycombinator.com/item?id=50332086",
-   "content_text": "HN front-page (100 pts): AI fan wikis riddled with errors are muddying the waters of games culture"
+   "id": "2026-11-05T15:49:19Z-379662370",
+   "title": "HN front-page (83 pts): Being a kid making games in the early 2000s",
+   "date_published": "2026-11-05T15:49:19Z",
+   "url": "https://news.ycombinator.com/item?id=50375691",
+   "content_text": "HN front-page (83 pts): Being a kid making games in the early 2000s"
   },
   {
-   "id": "2026-11-02T17:26:00Z-1653944826",
-   "title": "HN front-page (76 pts): So I guess everyone uses LLMs to think now",
-   "date_published": "2026-11-02T17:26:00Z",
-   "url": "https://news.ycombinator.com/item?id=50330253",
-   "content_text": "HN front-page (76 pts): So I guess everyone uses LLMs to think now"
+   "id": "2026-11-05T15:49:19Z-1570992819",
+   "title": "HN front-page (237 pts): Starfall \u2013 Affordable, routine access to microgravity",
+   "date_published": "2026-11-05T15:49:19Z",
+   "url": "https://news.ycombinator.com/item?id=50373308",
+   "content_text": "HN front-page (237 pts): Starfall \u2013 Affordable, routine access to microgravity"
   },
   {
-   "id": "2026-11-02T17:26:00Z-3756234782",
-   "title": "HN front-page (85 pts): I Am the Reason OpenAI Is Killing Unlimited Chats",
-   "date_published": "2026-11-02T17:26:00Z",
-   "url": "https://news.ycombinator.com/item?id=50327416",
-   "content_text": "HN front-page (85 pts): I Am the Reason OpenAI Is Killing Unlimited Chats"
+   "id": "2026-11-05T15:49:19Z-1607863987",
+   "title": "HN front-page (124 pts): Have I befriended a murderer?",
+   "date_published": "2026-11-05T15:49:19Z",
+   "url": "https://news.ycombinator.com/item?id=50369754",
+   "content_text": "HN front-page (124 pts): Have I befriended a murderer?"
   },
   {
-   "id": "2026-11-02T17:26:00Z-2205475136",
-   "title": "HN front-page (186 pts): Seoul Viosys begins production of rare-earth-free white light emitter",
-   "date_published": "2026-11-02T17:26:00Z",
-   "url": "https://news.ycombinator.com/item?id=50327058",
-   "content_text": "HN front-page (186 pts): Seoul Viosys begins production of rare-earth-free white light emitter"
+   "id": "2026-11-05T15:49:19Z-3057235953",
+   "title": "HN front-page (93 pts): Launch HN: Kino AI (YC S23) \u2013 AI media manager and video editor",
+   "date_published": "2026-11-05T15:49:19Z",
+   "url": "https://news.ycombinator.com/item?id=50368804",
+   "content_text": "HN front-page (93 pts): Launch HN: Kino AI (YC S23) \u2013 AI media manager and video editor"
   },
   {
-   "id": "2026-11-02T17:26:00Z-3023696731",
-   "title": "New paper mentioning MiniMax: Regret-Optimal Wasserstein-Robust Linear Regression",
-   "date_published": "2026-11-02T17:26:00Z",
-   "url": "http://arxiv.org/abs/2610.42109",
-   "content_text": "New paper mentioning MiniMax: Regret-Optimal Wasserstein-Robust Linear Regression"
+   "id": "2026-11-05T15:49:19Z-1642678186",
+   "title": "HN front-page (685 pts): Tell HN: Gemini trains on chat history, even for subscribers (personal accounts)",
+   "date_published": "2026-11-05T15:49:19Z",
+   "url": "https://news.ycombinator.com/item?id=50363461",
+   "content_text": "HN front-page (685 pts): Tell HN: Gemini trains on chat history, even for subscribers (personal accounts)"
   },
   {
-   "id": "2026-11-02T17:26:00Z-775612874",
-   "title": "New paper mentioning MiniMax: Exact Theory and Optimal Stepsizes for Stochastic Gradient Descent in Smooth Convex Minimization",
-   "date_published": "2026-11-02T17:26:00Z",
-   "url": "http://arxiv.org/abs/2610.42048",
-   "content_text": "New paper mentioning MiniMax: Exact Theory and Optimal Stepsizes for Stochastic Gradient Descent in Smooth Convex Minimization"
+   "id": "2026-11-05T15:49:19Z-337242014",
+   "title": "New paper mentioning MiniMax: Procedural Adversarial Learning",
+   "date_published": "2026-11-05T15:49:19Z",
+   "url": "http://arxiv.org/abs/2611.06890",
+   "content_text": "New paper mentioning MiniMax: Procedural Adversarial Learning"
   },
   {
-   "id": "2026-11-02T17:26:00Z-2731383515",
-   "title": "New paper mentioning MiniMax: Near-Optimal Second-Order Convex Finite-Sum Optimization under Individual Smoothness",
-   "date_published": "2026-11-02T17:26:00Z",
-   "url": "http://arxiv.org/abs/2610.42040",
-   "content_text": "New paper mentioning MiniMax: Near-Optimal Second-Order Convex Finite-Sum Optimization under Individual Smoothness"
+   "id": "2026-11-05T15:49:19Z-2970689297",
+   "title": "New paper mentioning MiniMax: VA-TDM: A Unified View for Improving Few-Step Diffusion Models by Velocity Adversarial Distillation",
+   "date_published": "2026-11-05T15:49:19Z",
+   "url": "http://arxiv.org/abs/2611.06796",
+   "content_text": "New paper mentioning MiniMax: VA-TDM: A Unified View for Improving Few-Step Diffusion Models by Velocity Adversarial Distillation"
   },
   {
-   "id": "2026-11-02T17:26:00Z-1155754682",
-   "title": "New paper mentioning MiniMax: Statistical Foundations of Reinforcement Learning: A Non-Asymptotic Perspective",
-   "date_published": "2026-11-02T17:26:00Z",
-   "url": "http://arxiv.org/abs/2610.41903",
-   "content_text": "New paper mentioning MiniMax: Statistical Foundations of Reinforcement Learning: A Non-Asymptotic Perspective"
+   "id": "2026-11-05T15:49:19Z-3818945512",
+   "title": "New paper mentioning MiniMax: Fundamental Limits of Coherent Imaging in The Presence of Atmospheric Turbulence",
+   "date_published": "2026-11-05T15:49:19Z",
+   "url": "http://arxiv.org/abs/2611.06784",
+   "content_text": "New paper mentioning MiniMax: Fundamental Limits of Coherent Imaging in The Presence of Atmospheric Turbulence"
   },
   {
-   "id": "2026-11-02T17:26:00Z-1535280960",
-   "title": "New paper mentioning MiniMax: Functional-Specific Information Borrowing under Limited Overlap",
-   "date_published": "2026-11-02T17:26:00Z",
-   "url": "http://arxiv.org/abs/2610.41753",
-   "content_text": "New paper mentioning MiniMax: Functional-Specific Information Borrowing under Limited Overlap"
+   "id": "2026-11-05T15:49:19Z-1085989007",
+   "title": "New paper mentioning MiniMax: Regularization vs. Convolution in Kernel-Based Hypothesis Testing",
+   "date_published": "2026-11-05T15:49:19Z",
+   "url": "http://arxiv.org/abs/2611.06778",
+   "content_text": "New paper mentioning MiniMax: Regularization vs. Convolution in Kernel-Based Hypothesis Testing"
   },
   {
-   "id": "2026-11-02T17:26:00Z-1705578889",
-   "title": "HN front-page (358 pts): Digital minimalism",
-   "date_published": "2026-11-02T17:26:00Z",
-   "url": "https://news.ycombinator.com/item?id=50313661",
-   "content_text": "HN front-page (358 pts): Digital minimalism"
+   "id": "2026-11-05T15:49:19Z-1383998953",
+   "title": "New paper mentioning MiniMax: The Cost of Minimal Completeness: Gamma-to-Delta Aliasing in Discrete Markets",
+   "date_published": "2026-11-05T15:49:19Z",
+   "url": "http://arxiv.org/abs/2611.06692",
+   "content_text": "New paper mentioning MiniMax: The Cost of Minimal Completeness: Gamma-to-Delta Aliasing in Discrete Markets"
   },
   {
-   "id": "2026-11-02T17:26:00Z-736256394",
-   "title": "HN front-page (202 pts): Copper \u2013 A minimal low-level programming language with OOP and generics",
-   "date_published": "2026-11-02T17:26:00Z",
-   "url": "https://news.ycombinator.com/item?id=50308754",
-   "content_text": "HN front-page (202 pts): Copper \u2013 A minimal low-level programming language with OOP and generics"
+   "id": "2026-11-05T15:49:19Z-3754225379",
+   "title": "HN front-page (122 pts): Shrinking NixOS RAM footprint and resource requirements to the bare minimum",
+   "date_published": "2026-11-05T15:49:19Z",
+   "url": "https://news.ycombinator.com/item?id=50326246",
+   "content_text": "HN front-page (122 pts): Shrinking NixOS RAM footprint and resource requirements to the bare minimum"
   },
   {
-   "id": "2026-11-02T17:26:00Z-128688719",
-   "title": "HN front-page (130 pts): If you love a website, back it up",
-   "date_published": "2026-11-02T17:26:00Z",
-   "url": "https://news.ycombinator.com/item?id=50336518",
-   "content_text": "HN front-page (130 pts): If you love a website, back it up"
+   "id": "2026-11-05T15:49:19Z-1666371053",
+   "title": "New paper mentioning MiniCPM: Local or Escalate? Post-Training Expert Routing for Real-Time Duplex Speech Models",
+   "date_published": "2026-11-05T15:49:19Z",
+   "url": "http://arxiv.org/abs/2611.01639",
+   "content_text": "New paper mentioning MiniCPM: Local or Escalate? Post-Training Expert Routing for Real-Time Duplex Speech Models"
   },
   {
-   "id": "2026-11-02T17:26:00Z-2312861301",
-   "title": "HN front-page (90 pts): Show HN: NES Contra (1987) port (ASM \u2013> C and then C \u2013> WebAssembly)",
-   "date_published": "2026-11-02T17:26:00Z",
-   "url": "https://news.ycombinator.com/item?id=50319169",
-   "content_text": "HN front-page (90 pts): Show HN: NES Contra (1987) port (ASM \u2013> C and then C \u2013> WebAssembly)"
+   "id": "2026-11-05T15:49:19Z-1625651531",
+   "title": "HN front-page (67 pts): Want to Rent an Internet Address at the White House?",
+   "date_published": "2026-11-05T15:49:19Z",
+   "url": "https://news.ycombinator.com/item?id=50375728",
+   "content_text": "HN front-page (67 pts): Want to Rent an Internet Address at the White House?"
   },
   {
-   "id": "2026-11-02T17:26:00Z-918747665",
-   "title": "HN front-page (74 pts): AI startup hacks Anthropic, gains access to employee details, internal messages",
-   "date_published": "2026-11-02T17:26:00Z",
-   "url": "https://news.ycombinator.com/item?id=50315990",
-   "content_text": "HN front-page (74 pts): AI startup hacks Anthropic, gains access to employee details, internal messages"
+   "id": "2026-11-05T15:49:19Z-3437837328",
+   "title": "HN front-page (1208 pts): Residential proxies detected on White House network",
+   "date_published": "2026-11-05T15:49:19Z",
+   "url": "https://news.ycombinator.com/item?id=50371246",
+   "content_text": "HN front-page (1208 pts): Residential proxies detected on White House network"
   },
   {
-   "id": "2026-11-02T17:26:00Z-560706590",
-   "title": "HN front-page (104 pts): French lawmakers approved a tax of \u20ac0.055 for every gigabyte of internet traffic",
-   "date_published": "2026-11-02T17:26:00Z",
-   "url": "https://news.ycombinator.com/item?id=50315047",
-   "content_text": "HN front-page (104 pts): French lawmakers approved a tax of \u20ac0.055 for every gigabyte of internet traffic"
+   "id": "2026-11-05T15:49:19Z-2682856445",
+   "title": "HN front-page (106 pts): Tell HN: Don't use Postman, they proxy your info without your permission",
+   "date_published": "2026-11-05T15:49:19Z",
+   "url": "https://news.ycombinator.com/item?id=50360947",
+   "content_text": "HN front-page (106 pts): Tell HN: Don't use Postman, they proxy your info without your permission"
   },
   {
-   "id": "2026-11-02T17:26:00Z-2836401384",
-   "title": "HN front-page (140 pts): French national assembly votes 0.055\u20ac/GB internet tax",
-   "date_published": "2026-11-02T17:26:00Z",
-   "url": "https://news.ycombinator.com/item?id=50308240",
-   "content_text": "HN front-page (140 pts): French national assembly votes 0.055\u20ac/GB internet tax"
+   "id": "2026-11-05T15:49:19Z-3786153254",
+   "title": "HN front-page (373 pts): The Internals of PostgreSQL",
+   "date_published": "2026-11-05T15:49:19Z",
+   "url": "https://news.ycombinator.com/item?id=50358702",
+   "content_text": "HN front-page (373 pts): The Internals of PostgreSQL"
   },
   {
-   "id": "2026-11-02T17:25:48Z-2942926504",
-   "title": "Trending outside tracked labs: speridlabs/idol (7,787 downloads)",
-   "date_published": "2026-11-02T17:25:48Z",
-   "url": "https://huggingface.co/speridlabs/idol",
-   "content_text": "Trending outside tracked labs: speridlabs/idol (7,787 downloads)"
+   "id": "2026-11-05T15:49:19Z-562086367",
+   "title": "HN front-page (834 pts): Show HN: Subvocal \u2013 Talk to your computer without making noise",
+   "date_published": "2026-11-05T15:49:19Z",
+   "url": "https://news.ycombinator.com/item?id=50340088",
+   "content_text": "HN front-page (834 pts): Show HN: Subvocal \u2013 Talk to your computer without making noise"
   },
   {
-   "id": "2026-11-02T17:25:48Z-64767495",
-   "title": "Trending outside tracked labs: burner22/numbat (7,108 downloads)",
-   "date_published": "2026-11-02T17:25:48Z",
-   "url": "https://huggingface.co/burner22/numbat",
-   "content_text": "Trending outside tracked labs: burner22/numbat (7,108 downloads)"
+   "id": "2026-11-05T15:49:07Z-1171957630",
+   "title": "Trending outside tracked labs: abenzerps/Qwen-Image-2.1-Turbo-Quantized (233,059 downloads)",
+   "date_published": "2026-11-05T15:49:07Z",
+   "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Turbo-Quantized",
+   "content_text": "Trending outside tracked labs: abenzerps/Qwen-Image-2.1-Turbo-Quantized (233,059 downloads)"
   },
   {
-   "id": "2026-11-02T17:25:48Z-3039142153",
-   "title": "Trending outside tracked labs: Edge0/Audio8-TTS-Realistic-Air (7,259 downloads)",
-   "date_published": "2026-11-02T17:25:48Z",
-   "url": "https://huggingface.co/Edge0/Audio8-TTS-Realistic-Air",
-   "content_text": "Trending outside tracked labs: Edge0/Audio8-TTS-Realistic-Air (7,259 downloads)"
+   "id": "2026-11-05T15:49:07Z-5114378",
+   "title": "Trending outside tracked labs: PrunaAI/P-H3-Image-Comfy (218,534 downloads)",
+   "date_published": "2026-11-05T15:49:07Z",
+   "url": "https://huggingface.co/PrunaAI/P-H3-Image-Comfy",
+   "content_text": "Trending outside tracked labs: PrunaAI/P-H3-Image-Comfy (218,534 downloads)"
   },
   {
-   "id": "2026-11-02T17:25:48Z-2349696476",
-   "title": "Trending outside tracked labs: OBLITERATUS/DeepSeek-V4.1-Flash-1017-obliterated (1,095 downloads)",
-   "date_published": "2026-11-02T17:25:48Z",
-   "url": "https://huggingface.co/OBLITERATUS/DeepSeek-V4.1-Flash-1017-obliterated",
-   "content_text": "Trending outside tracked labs: OBLITERATUS/DeepSeek-V4.1-Flash-1017-obliterated (1,095 downloads)"
+   "id": "2026-11-05T15:49:07Z-1410825245",
+   "title": "Trending outside tracked labs: ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-Coder-GGUF (127,948 downloads)",
+   "date_published": "2026-11-05T15:49:07Z",
+   "url": "https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-Coder-GGUF",
+   "content_text": "Trending outside tracked labs: ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-Coder-GGUF (127,948 downloads)"
   },
   {
-   "id": "2026-11-02T17:25:48Z-2048663319",
-   "title": "Trending outside tracked labs: sensenova/SenseNova-Loop-9B-Preview (1,536 downloads)",
-   "date_published": "2026-11-02T17:25:48Z",
-   "url": "https://huggingface.co/sensenova/SenseNova-Loop-9B-Preview",
-   "content_text": "Trending outside tracked labs: sensenova/SenseNova-Loop-9B-Preview (1,536 downloads)"
+   "id": "2026-11-05T15:49:07Z-2593812565",
+   "title": "Trending outside tracked labs: ccore/Qwen3.5-4B-GLB-3D-Coder (12,206 downloads)",
+   "date_published": "2026-11-05T15:49:07Z",
+   "url": "https://huggingface.co/ccore/Qwen3.5-4B-GLB-3D-Coder",
+   "content_text": "Trending outside tracked labs: ccore/Qwen3.5-4B-GLB-3D-Coder (12,206 downloads)"
   }
  ]
 }

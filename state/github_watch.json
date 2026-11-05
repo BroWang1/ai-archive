@@ -142,7 +142,8 @@
       "MoonshotAI/CombiBench",
       "MoonshotAI/Kimi-Audio-Evalkit",
       "MoonshotAI/Kimi-Audio",
-      "MoonshotAI/Kimina-Prover-Preview"
+      "MoonshotAI/Kimina-Prover-Preview",
+      "MoonshotAI/TCSExam"
     ],
     "Tencent-Hunyuan": [
       "Tencent-Hunyuan/Simple-Attention-Sparsification",
@@ -183,7 +184,8 @@
       "Tencent-Hunyuan/DiagSafe",
       "Tencent-Hunyuan/Hy-SimulMT",
       "Tencent-Hunyuan/Hy-Nomas",
-      "Tencent-Hunyuan/HyperLogic"
+      "Tencent-Hunyuan/HyperLogic",
+      "Tencent-Hunyuan/EmoReward"
     ],
     "Wan-Video": [
       "Wan-Video/Wan-Animate-2",
@@ -227,7 +229,8 @@
       "MiniMax-AI/MiniMax-Code-MiniApps",
       "MiniMax-AI/OpenAgentCore",
       "MiniMax-AI/homebrew-tap",
-      "MiniMax-AI/mcode-stack"
+      "MiniMax-AI/mcode-stack",
+      "MiniMax-AI/mcode-agent-table"
     ],
     "InternLM": [
       "InternLM/SciDocBench",
@@ -1022,8 +1025,23 @@
       "id": "OpenBMB/ForgeKernel",
       "at": "2026-11-02T17:25:48Z",
       "desc": ""
+    },
+    {
+      "id": "MoonshotAI/TCSExam",
+      "at": "2026-11-05T15:49:07Z",
+      "desc": "A benchmark for the full range of theoretical computer science (TCS) research."
+    },
+    {
+      "id": "Tencent-Hunyuan/EmoReward",
+      "at": "2026-11-05T15:49:07Z",
+      "desc": "Official Implementation of EmoReward: Self-Evolving Reward Calibration for Emotional Video Generation RL"
+    },
+    {
+      "id": "MiniMax-AI/mcode-agent-table",
+      "at": "2026-11-05T15:49:07Z",
+      "desc": "BYOB Table Protocol v0.1 and reference implementation: bring your own agent (MiniMax Code and others) to one shared table for any-topology d"
     }
   ],
   "first_run_done": true,
-  "last_run": "2026-11-02T17:25:48Z"
+  "last_run": "2026-11-05T15:49:07Z"
 }

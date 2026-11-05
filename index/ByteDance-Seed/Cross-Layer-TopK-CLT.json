@@ -1,0 +1,516 @@
+{
+  "repo_id": "ByteDance-Seed/Cross-Layer-TopK-CLT",
+  "canonical_org": "ByteDance-Seed",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "7675a16683788bc4d119d6771e549b35112f0255",
+      "captured_at": "2026-11-05T15:48:59Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/ByteDance-Seed/Cross-Layer-TopK-CLT?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"45e3-0BdGv7KeyiJJc0UvuTs6F+KU6jc\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "apache-2.0",
+        "file": "LICENSE",
+        "sha256": "ff3421772facb7650fab2c9056c302c3ea9451f3c221d2d172479fc73ca5b125",
+        "redistributable": true,
+        "obligations": [],
+        "freedom": "free",
+        "freedom_note": "apache-2.0 with LICENSE file verified in snapshot"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1519,
+          "sha256": "11ad7efa24975ee4b0c3c3a38ed18737f0658a5f75a0a96787b576a78a023361",
+          "kind": "snapshot"
+        },
+        {
+          "path": "LICENSE",
+          "size": 11362,
+          "sha256": "ff3421772facb7650fab2c9056c302c3ea9451f3c221d2d172479fc73ca5b125",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 9286,
+          "sha256": "b90b2b9df9a1a2c2e84af71171e1ed188b940a8ce5fc98b8c6c0dfe8bffae283",
+          "kind": "snapshot"
+        },
+        {
+          "path": "W_dec_0.safetensors",
+          "size": 19327484088,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "W_dec_1.safetensors",
+          "size": 18790613176,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "W_dec_10.safetensors",
+          "size": 13958774968,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "W_dec_11.safetensors",
+          "size": 13421904056,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "W_dec_12.safetensors",
+          "size": 12885033144,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "W_dec_13.safetensors",
+          "size": 12348162232,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "W_dec_14.safetensors",
+          "size": 11811291320,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "W_dec_15.safetensors",
+          "size": 11274420408,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "W_dec_16.safetensors",
+          "size": 10737549496,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "W_dec_17.safetensors",
+          "size": 10200678584,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "W_dec_18.safetensors",
+          "size": 9663807672,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "W_dec_19.safetensors",
+          "size": 9126936760,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "W_dec_2.safetensors",
+          "size": 18253742264,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "W_dec_20.safetensors",
+          "size": 8590065848,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "W_dec_21.safetensors",
+          "size": 8053194936,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "W_dec_22.safetensors",
+          "size": 7516324024,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "W_dec_23.safetensors",
+          "size": 6979453112,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "W_dec_24.safetensors",
+          "size": 6442582200,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "W_dec_25.safetensors",
+          "size": 5905711288,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "W_dec_26.safetensors",
+          "size": 5368840376,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "W_dec_27.safetensors",
+          "size": 4831969456,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "W_dec_28.safetensors",
+          "size": 4295098544,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "W_dec_29.safetensors",
+          "size": 3758227632,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "W_dec_3.safetensors",
+          "size": 17716871352,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "W_dec_30.safetensors",
+          "size": 3221356720,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "W_dec_31.safetensors",
+          "size": 2684485808,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "W_dec_32.safetensors",
+          "size": 2147614896,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "W_dec_33.safetensors",
+          "size": 1610743984,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "W_dec_34.safetensors",
+          "size": 1073873072,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "W_dec_35.safetensors",
+          "size": 537002160,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "W_dec_4.safetensors",
+          "size": 17180000440,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "W_dec_5.safetensors",
+          "size": 16643129528,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "W_dec_6.safetensors",
+          "size": 16106258616,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "W_dec_7.safetensors",
+          "size": 15569387704,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "W_dec_8.safetensors",
+          "size": 15032516792,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "W_dec_9.safetensors",
+          "size": 14495645880,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "W_dec_norm.safetensors",
+          "size": 4718680,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "W_enc_0.safetensors",
+          "size": 536871000,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "W_enc_1.safetensors",
+          "size": 536871000,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "W_enc_10.safetensors",
+          "size": 536871000,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "W_enc_11.safetensors",
+          "size": 536871000,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "W_enc_12.safetensors",
+          "size": 536871000,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "W_enc_13.safetensors",
+          "size": 536871000,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "W_enc_14.safetensors",
+          "size": 536871000,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "W_enc_15.safetensors",
+          "size": 536871000,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "W_enc_16.safetensors",
+          "size": 536871000,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "W_enc_17.safetensors",
+          "size": 536871000,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "W_enc_18.safetensors",
+          "size": 536871000,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "W_enc_19.safetensors",
+          "size": 536871000,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "W_enc_2.safetensors",
+          "size": 536871000,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "W_enc_20.safetensors",
+          "size": 536871000,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "W_enc_21.safetensors",
+          "size": 536871000,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "W_enc_22.safetensors",
+          "size": 536871000,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "W_enc_23.safetensors",
+          "size": 536871000,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "W_enc_24.safetensors",
+          "size": 536871000,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "W_enc_25.safetensors",
+          "size": 536871000,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "W_enc_26.safetensors",
+          "size": 536871000,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "W_enc_27.safetensors",
+          "size": 536871000,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "W_enc_28.safetensors",
+          "size": 536871000,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "W_enc_29.safetensors",
+          "size": 536871000,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "W_enc_3.safetensors",
+          "size": 536871000,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "W_enc_30.safetensors",
+          "size": 536871000,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "W_enc_31.safetensors",
+          "size": 536871000,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "W_enc_32.safetensors",
+          "size": 536871000,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "W_enc_33.safetensors",
+          "size": 536871000,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "W_enc_34.safetensors",
+          "size": 536871000,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "W_enc_35.safetensors",
+          "size": 536871000,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "W_enc_4.safetensors",
+          "size": 536871000,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "W_enc_5.safetensors",
+          "size": 536871000,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "W_enc_6.safetensors",
+          "size": 536871000,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "W_enc_7.safetensors",
+          "size": 536871000,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "W_enc_8.safetensors",
+          "size": 536871000,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "W_enc_9.safetensors",
+          "size": 536871000,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "config.json",
+          "size": 191,
+          "sha256": "d5c80e20f8143d878e2063e490e911ffa94ef75b89396b2984a3de6a033e50db",
+          "kind": "snapshot"
+        },
+        {
+          "path": "factors.safetensors",
+          "size": 856,
+          "sha256": null,
+          "kind": "weights"
+        }
+      ],
+      "total_bytes": 376892850430,
+      "weight_bytes": 376892828072,
+      "snapshot_dir": "snapshots/ByteDance-Seed/Cross-Layer-TopK-CLT/7675a16683788bc4d119d6771e549b35112f0255/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

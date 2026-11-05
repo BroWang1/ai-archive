@@ -245,7 +245,27 @@
     "http://arxiv.org/abs/2610.42048",
     "http://arxiv.org/abs/2610.42040",
     "http://arxiv.org/abs/2610.41903",
-    "http://arxiv.org/abs/2610.41753"
+    "http://arxiv.org/abs/2610.41753",
+    "http://arxiv.org/abs/2611.06506",
+    "http://arxiv.org/abs/2611.06147",
+    "http://arxiv.org/abs/2611.06135",
+    "http://arxiv.org/abs/2611.06057",
+    "http://arxiv.org/abs/2611.05771",
+    "http://arxiv.org/abs/2611.06840",
+    "http://arxiv.org/abs/2611.06760",
+    "http://arxiv.org/abs/2611.06741",
+    "http://arxiv.org/abs/2611.06138",
+    "http://arxiv.org/abs/2611.05759",
+    "http://arxiv.org/abs/2611.05036",
+    "http://arxiv.org/abs/2611.04222",
+    "http://arxiv.org/abs/2611.04196",
+    "http://arxiv.org/abs/2611.04079",
+    "http://arxiv.org/abs/2611.06890",
+    "http://arxiv.org/abs/2611.06796",
+    "http://arxiv.org/abs/2611.06784",
+    "http://arxiv.org/abs/2611.06778",
+    "http://arxiv.org/abs/2611.06692",
+    "http://arxiv.org/abs/2611.01639"
   ],
   "hn_seen": [
     "49735410",
@@ -461,7 +481,23 @@
     "50319169",
     "50315990",
     "50315047",
-    "50308240"
+    "50308240",
+    "50339913",
+    "50355251",
+    "50351111",
+    "50341174",
+    "50366999",
+    "50375691",
+    "50373308",
+    "50369754",
+    "50368804",
+    "50363461",
+    "50326246",
+    "50375728",
+    "50371246",
+    "50360947",
+    "50358702",
+    "50340088"
   ],
   "log": [
     {
@@ -2815,8 +2851,224 @@
       "at": "2026-11-02T17:26:00Z",
       "text": "HN front-page (140 pts): French national assembly votes 0.055\u20ac/GB internet tax",
       "url": "https://news.ycombinator.com/item?id=50308240"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-05T15:49:19Z",
+      "text": "New paper mentioning DeepSeek: Trace2Eval: Contextualized Evaluation of Coding Agents from Real-World Traces",
+      "url": "http://arxiv.org/abs/2611.06506"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-05T15:49:19Z",
+      "text": "New paper mentioning DeepSeek: SafeStart: Mitigating the Overlooked Safety Cost of Active Expert Reduction in MoE LLM Serving",
+      "url": "http://arxiv.org/abs/2611.06147"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-05T15:49:19Z",
+      "text": "New paper mentioning DeepSeek: SBVUL: Statement-Based Vulnerability Detection",
+      "url": "http://arxiv.org/abs/2611.06135"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-05T15:49:19Z",
+      "text": "New paper mentioning DeepSeek: vExpert: Virtualizing Expert Storage for Adaptive Load Balancing in Distributed MoE Inference",
+      "url": "http://arxiv.org/abs/2611.06057"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-05T15:49:19Z",
+      "text": "New paper mentioning DeepSeek: How Well Can Large Language Models Impersonate Individual Authors? A Comparative Evaluation",
+      "url": "http://arxiv.org/abs/2611.05771"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-05T15:49:19Z",
+      "text": "HN front-page (166 pts): Launch HN: Momentic (YC W24) \u2013 Agents that catch bugs by using your app",
+      "url": "https://news.ycombinator.com/item?id=50339913"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-05T15:49:19Z",
+      "text": "New paper mentioning Qwen: Same Layout, Different Count: What Number Words Do Past Ten in Text-to-Image Models",
+      "url": "http://arxiv.org/abs/2611.06840"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-05T15:49:19Z",
+      "text": "New paper mentioning Qwen: Route First, See Later: Enabling Vision Agents to Reason Scientifically by Separating Routing Policy from Action Spaces",
+      "url": "http://arxiv.org/abs/2611.06760"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-05T15:49:19Z",
+      "text": "New paper mentioning Qwen: TailSteer: Trajectory-Tail Steering for Drift-Resistant Multi-turn Image Editing",
+      "url": "http://arxiv.org/abs/2611.06741"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-05T15:49:19Z",
+      "text": "New paper mentioning Qwen: KVGuard: A KV Cache Safety Checker for LLM Serving Systems",
+      "url": "http://arxiv.org/abs/2611.06138"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-05T15:49:19Z",
+      "text": "HN front-page (731 pts): Qwen 3.8 27B on my laptop can interpret model weights, too",
+      "url": "https://news.ycombinator.com/item?id=50355251"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-05T15:49:19Z",
+      "text": "HN front-page (1034 pts): The 'Astra can read and write weights to improve Qwen' post is misleading",
+      "url": "https://news.ycombinator.com/item?id=50351111"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-05T15:49:19Z",
+      "text": "HN front-page (2949 pts): Astra can read and write weights to improve Qwen",
+      "url": "https://news.ycombinator.com/item?id=50341174"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-05T15:49:19Z",
+      "text": "HN front-page (597 pts): Kimi K3.1 Pro model weights are out",
+      "url": "https://news.ycombinator.com/item?id=50366999"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-05T15:49:19Z",
+      "text": "New paper mentioning GLM-: PAYWORTHY: Can LLMs Predict Which Freelance Jobs an AI Agent Will Complete?",
+      "url": "http://arxiv.org/abs/2611.05759"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-05T15:49:19Z",
+      "text": "New paper mentioning GLM-: ToolSpace: Scaling Tool-Centric Environment Synthesis for Long-Horizon Agents",
+      "url": "http://arxiv.org/abs/2611.05036"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-05T15:49:19Z",
+      "text": "New paper mentioning GLM-: GC-MoE: Overlapping Expert-Parallel Token Dispatch with FP8/FP4 Grouped GEMM via CUDA Green Contexts",
+      "url": "http://arxiv.org/abs/2611.04222"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-05T15:49:19Z",
+      "text": "New paper mentioning GLM-: DoGNAVY-Exploit: Harnessing Parallel Open-Weight Agents for Stage-Aware Vulnerability Exploitation",
+      "url": "http://arxiv.org/abs/2611.04196"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-05T15:49:19Z",
+      "text": "New paper mentioning GLM-: AlgoPilot: Cross-Paradigm Reasoning in Language Models via Strategy Selection and Guidance",
+      "url": "http://arxiv.org/abs/2611.04079"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-05T15:49:19Z",
+      "text": "HN front-page (83 pts): Being a kid making games in the early 2000s",
+      "url": "https://news.ycombinator.com/item?id=50375691"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-05T15:49:19Z",
+      "text": "HN front-page (237 pts): Starfall \u2013 Affordable, routine access to microgravity",
+      "url": "https://news.ycombinator.com/item?id=50373308"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-05T15:49:19Z",
+      "text": "HN front-page (124 pts): Have I befriended a murderer?",
+      "url": "https://news.ycombinator.com/item?id=50369754"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-05T15:49:19Z",
+      "text": "HN front-page (93 pts): Launch HN: Kino AI (YC S23) \u2013 AI media manager and video editor",
+      "url": "https://news.ycombinator.com/item?id=50368804"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-05T15:49:19Z",
+      "text": "HN front-page (685 pts): Tell HN: Gemini trains on chat history, even for subscribers (personal accounts)",
+      "url": "https://news.ycombinator.com/item?id=50363461"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-05T15:49:19Z",
+      "text": "New paper mentioning MiniMax: Procedural Adversarial Learning",
+      "url": "http://arxiv.org/abs/2611.06890"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-05T15:49:19Z",
+      "text": "New paper mentioning MiniMax: VA-TDM: A Unified View for Improving Few-Step Diffusion Models by Velocity Adversarial Distillation",
+      "url": "http://arxiv.org/abs/2611.06796"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-05T15:49:19Z",
+      "text": "New paper mentioning MiniMax: Fundamental Limits of Coherent Imaging in The Presence of Atmospheric Turbulence",
+      "url": "http://arxiv.org/abs/2611.06784"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-05T15:49:19Z",
+      "text": "New paper mentioning MiniMax: Regularization vs. Convolution in Kernel-Based Hypothesis Testing",
+      "url": "http://arxiv.org/abs/2611.06778"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-05T15:49:19Z",
+      "text": "New paper mentioning MiniMax: The Cost of Minimal Completeness: Gamma-to-Delta Aliasing in Discrete Markets",
+      "url": "http://arxiv.org/abs/2611.06692"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-05T15:49:19Z",
+      "text": "HN front-page (122 pts): Shrinking NixOS RAM footprint and resource requirements to the bare minimum",
+      "url": "https://news.ycombinator.com/item?id=50326246"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-05T15:49:19Z",
+      "text": "New paper mentioning MiniCPM: Local or Escalate? Post-Training Expert Routing for Real-Time Duplex Speech Models",
+      "url": "http://arxiv.org/abs/2611.01639"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-05T15:49:19Z",
+      "text": "HN front-page (67 pts): Want to Rent an Internet Address at the White House?",
+      "url": "https://news.ycombinator.com/item?id=50375728"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-05T15:49:19Z",
+      "text": "HN front-page (1208 pts): Residential proxies detected on White House network",
+      "url": "https://news.ycombinator.com/item?id=50371246"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-05T15:49:19Z",
+      "text": "HN front-page (106 pts): Tell HN: Don't use Postman, they proxy your info without your permission",
+      "url": "https://news.ycombinator.com/item?id=50360947"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-05T15:49:19Z",
+      "text": "HN front-page (373 pts): The Internals of PostgreSQL",
+      "url": "https://news.ycombinator.com/item?id=50358702"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-05T15:49:19Z",
+      "text": "HN front-page (834 pts): Show HN: Subvocal \u2013 Talk to your computer without making noise",
+      "url": "https://news.ycombinator.com/item?id=50340088"
     }
   ],
   "first_run_done": true,
-  "last_run": "2026-11-02T17:26:00Z"
+  "last_run": "2026-11-05T15:49:19Z"
 }

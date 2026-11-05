@@ -747,6 +747,7 @@
       "moonshotai/Kimi-K2.6",
       "moonshotai/Kimi-K2.7-Code",
       "moonshotai/Kimi-K3",
+      "moonshotai/Kimi-K3.1-Pro",
       "moonshotai/Kimi-Linear-48B-A3B-Base",
       "moonshotai/Kimi-Linear-48B-A3B-Instruct",
       "moonshotai/Kimi-VL-A3B-Instruct",
@@ -1783,9 +1784,12 @@
       "ByteDance-Seed/Cola-DLM",
       "ByteDance-Seed/ConfRover-base-20M-v1.0",
       "ByteDance-Seed/ConfRover-interp-20M-v1.0",
+      "ByteDance-Seed/Cross-Layer-TopK-CLT",
+      "ByteDance-Seed/GenFirst",
       "ByteDance-Seed/M3-Agent-Control",
       "ByteDance-Seed/M3-Agent-Memorization",
       "ByteDance-Seed/PAR",
+      "ByteDance-Seed/Qwen3-30B-A3B-MoE-SAE",
       "ByteDance-Seed/SAIL-7B",
       "ByteDance-Seed/Seed-Coder-8B-Base",
       "ByteDance-Seed/Seed-Coder-8B-Instruct",
@@ -2052,6 +2056,7 @@
       "BAAI/OpenSeek-Small-v1-SFT",
       "BAAI/Orca-4B",
       "BAAI/Painter",
+      "BAAI/PingPongRealWorldRL",
       "BAAI/Recon2Reason-Reasoning-4B",
       "BAAI/RoboBrain",
       "BAAI/RoboBrain-Dex",
@@ -2134,5 +2139,5 @@
     ]
   },
   "first_run_done": true,
-  "last_run": "2026-11-02T17:25:25Z"
+  "last_run": "2026-11-05T15:48:50Z"
 }
