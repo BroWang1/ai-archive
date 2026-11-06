@@ -48,6 +48,854 @@
         "hf": null,
         "master": null
       }
+    },
+    {
+      "revision": "d8290eb5a193c4b3839f58b46d9d83f71f334c3d",
+      "captured_at": "2026-11-06T13:07:25Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/BAAI/PingPongRealWorldRL?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"4e97-BaBV/YPpeyWFY6jv7l+Tt61Z/Dg\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": null,
+        "file": "LICENSE",
+        "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+        "redistributable": null,
+        "obligations": []
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 669,
+          "sha256": "1e6a71c28a10f89189d552659eee61f319896033246a5322936ba4b5b546b219",
+          "kind": "snapshot"
+        },
+        {
+          "path": ".gitignore",
+          "size": 783,
+          "sha256": "7fab231f6c5fec437365d6e7674549eeba9af79e9e2a20db90ce4e7aa15d7dac",
+          "kind": "snapshot"
+        },
+        {
+          "path": "ARTIFACTS.sha256",
+          "size": 1194,
+          "sha256": "98ef106c612f01b827f4f4be77cd34f6245166287067baf0044c16e6f29547a3",
+          "kind": "snapshot"
+        },
+        {
+          "path": "LICENSE",
+          "size": 11358,
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 5662,
+          "sha256": "cd0974b6ba75ff7c509418c0792219305941350f4e0caf1697786206edb6a940",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/robot_description/h2/meshes/head_pitch_link.stl",
+          "size": 39484,
+          "sha256": "1800daa300a7319bb14dda0b9bddc5c76fa8ca2b7943efef3ecc298886e89e33",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/robot_description/h2/meshes/head_yaw_link.stl",
+          "size": 1122984,
+          "sha256": "7f9ad04b2061e7ec34881a6c38b35c41844ea5733b5f9097395c0fe4611a2104",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/robot_description/h2/meshes/left_ankle_pitch_link.stl",
+          "size": 319184,
+          "sha256": "0b15f8fcbfaece06fbbf16684a96d8a31914ab870c55b292ac18203d7c6c7a62",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/robot_description/h2/meshes/left_ankle_roll_link.stl",
+          "size": 12384,
+          "sha256": "65e35f53cf85e55c0c61a6b10e7c2e6e4c3a46b18bf9ce6dffa520ec1e4e5b66",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/robot_description/h2/meshes/left_elbow_link.stl",
+          "size": 472684,
+          "sha256": "3da8b8c0a387fd91911a3fb3dda3ce6a0c56903490d9e08b4536216066211b5f",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/robot_description/h2/meshes/left_hand_link.stl",
+          "size": 753684,
+          "sha256": "b326d6cbdeb2ca202feb193b3103f8194fc594e6177e7d1a73791bcea39d4c47",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/robot_description/h2/meshes/left_hip_pitch_link.stl",
+          "size": 1269084,
+          "sha256": "d1bccf3c881baf960ff75c17d570f9a5871ebbf1f8935f4d8873677533d6d3ec",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/robot_description/h2/meshes/left_hip_roll_link.stl",
+          "size": 204384,
+          "sha256": "32c8554cee739281bee25da955f61dcf4fb828c4deeee94b963403c512875265",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/robot_description/h2/meshes/left_hip_yaw_link.stl",
+          "size": 300884,
+          "sha256": "1222ef2aed7b276e05a86b588d92df934c7feac537ae2491243db2d32fd9aac6",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/robot_description/h2/meshes/left_knee_link.stl",
+          "size": 698284,
+          "sha256": "f24801b1dde9fd004b2f2178ef65318364a48daede96ab95c8ea2d979a642219",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/robot_description/h2/meshes/left_shoulder_pitch_link.stl",
+          "size": 271484,
+          "sha256": "7d10e524f5124b8dd37d8b9b61f2ae9342f0605bdc87ba49c6953c2863fa32c9",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/robot_description/h2/meshes/left_shoulder_roll_link.stl",
+          "size": 307184,
+          "sha256": "cc86323ffe6477cacc6f6ee2a7e000940432e47ba53d3514716f3539f8c83208",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/robot_description/h2/meshes/left_shoulder_yaw_link.stl",
+          "size": 286484,
+          "sha256": "253bde468b2156e13a0172436ab0327001d08b2a7872b729426e2f4a6f70183f",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/robot_description/h2/meshes/left_wrist_pitch_link.stl",
+          "size": 35084,
+          "sha256": "6ae7cbf9941e3507546c2d568d0bac32b93eaaafaa83117371f5c7363172bcb3",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/robot_description/h2/meshes/left_wrist_roll_link.stl",
+          "size": 206684,
+          "sha256": "7fed0dde408dd63bec1a5a13721173e66e4a063b68850a2ab7701719da6bec62",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/robot_description/h2/meshes/left_wrist_yaw_link.stl",
+          "size": 147984,
+          "sha256": "c8fc77bf0b8617f9e8405c4a1006280b1605a3b3a130b45428d4be8531d75005",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/robot_description/h2/meshes/paddle_link.STL",
+          "size": 34684,
+          "sha256": "fd6cb93643db37a7242a6648adc2a692b929c0f10a19ea1532799ab280664899",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/robot_description/h2/meshes/pelvis.stl",
+          "size": 689984,
+          "sha256": "1f2a2e99ce060eb1a25efcbadfdd4424347f58e6d954e023dcfcb05d87c55a4e",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/robot_description/h2/meshes/right_ankle_pitch_link.stl",
+          "size": 317784,
+          "sha256": "6270e30af526c306e4a1006f7ad9a70fe010ffa8451c9630ff98527a5bdce2d1",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/robot_description/h2/meshes/right_ankle_roll_link.stl",
+          "size": 12384,
+          "sha256": "27cbf682efac52262a35867ce39c969a56e87e00395a7f29ca4840149cf0a96a",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/robot_description/h2/meshes/right_elbow_link.stl",
+          "size": 477684,
+          "sha256": "421fdb043f2775038c72e692a598f96840f1bd2b898ce19b35e240fe5617abc4",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/robot_description/h2/meshes/right_hand_paddle_link.STL",
+          "size": 1024984,
+          "sha256": "0238e9cedaa9ca05130f1a8774524f0cdd4ed38d69f342a4f239e2fe01485032",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/robot_description/h2/meshes/right_hip_pitch_link.stl",
+          "size": 1278984,
+          "sha256": "33de10c25bee624038bf31bccb41aa84bfea0cd6bca5fcd5dfee8fa84eb0eab1",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/robot_description/h2/meshes/right_hip_roll_link.stl",
+          "size": 203784,
+          "sha256": "a1bc4cf4a5c2ad261af93c29972dce9bd8a1818c78fea513dec46d25b729b9fc",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/robot_description/h2/meshes/right_hip_yaw_link.stl",
+          "size": 297484,
+          "sha256": "9095a160b6c5ba60a8460439f748764baee08bf85ef9d05c0bdc14b7a1c66437",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/robot_description/h2/meshes/right_knee_link.stl",
+          "size": 700884,
+          "sha256": "4db181250da6aaec995b4eda88a3729c5144128704c3d949fa9cb5a56f437b1b",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/robot_description/h2/meshes/right_shoulder_pitch_link.stl",
+          "size": 271684,
+          "sha256": "e2b725c2592250811135c05004bb5ec6356b357fdf45781cb2affc7e61499cfb",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/robot_description/h2/meshes/right_shoulder_roll_link.stl",
+          "size": 306984,
+          "sha256": "be48510290d600d0656cd6055d2a6c58d94665e2f8210fb39ebed8cfdcf0abed",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/robot_description/h2/meshes/right_shoulder_yaw_link.stl",
+          "size": 284684,
+          "sha256": "78b6403fc846c6f64cd6740ec3432f1933635724f988313fdf848063e261c73d",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/robot_description/h2/meshes/right_wrist_pitch_link.stl",
+          "size": 35084,
+          "sha256": "216abd2755c2288dd408afb1b59867cdac3e22ef7a5ee111b54f456b38b25074",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/robot_description/h2/meshes/right_wrist_roll_link.stl",
+          "size": 206584,
+          "sha256": "545475c0f7377661a9c67a983f4017985578e805045d2d7b42df8d37c5641d7d",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/robot_description/h2/meshes/right_wrist_yaw_link.stl",
+          "size": 147284,
+          "sha256": "c13910f88609dd2b801c1398150ceb6c82f65ca308bc8e2878f19ea9a3dabda5",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/robot_description/h2/meshes/torso_link.stl",
+          "size": 526884,
+          "sha256": "0f0c12bddbe2e29df43f38fbaeb3a65c08d43123fbb62379a1cc58e9c6df47b5",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/robot_description/h2/meshes/waist_roll_link.stl",
+          "size": 13084,
+          "sha256": "e229c2617f2c1ed26d29b44bc45cfe9622cfd0dcb6974f1896e4a21941706c7c",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/robot_description/h2/meshes/waist_yaw_link.stl",
+          "size": 20684,
+          "sha256": "385f8caecd05d046aabd3cd4721e2d23a27f190646a247f71c8d0c19114456a2",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/robot_description/h2/mjcf/h2_pingpong.xml",
+          "size": 32072,
+          "sha256": "e40d71fb103f56b13a5330276e3aac99b2116783ad599ab56aba7bbcd61dd515",
+          "kind": "snapshot"
+        },
+        {
+          "path": "closd/H2/model_80000.closd-runtime.pt",
+          "size": 114572506,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "config.yaml",
+          "size": 4414,
+          "sha256": "c9237ee721b100ed10469b889dc2e3ddb8644f3ccd7f8808ea86a8d4b17e53ff",
+          "kind": "snapshot"
+        },
+        {
+          "path": "configs/policy_eval.yaml",
+          "size": 630,
+          "sha256": "6a1b2cce50fe30c6ab031686cc2b7b897c2c653d470879bccbff1f34a2a562a6",
+          "kind": "snapshot"
+        },
+        {
+          "path": "cpp_lowcmd_bridge/CMakeLists.txt",
+          "size": 708,
+          "sha256": "482492cd7bc1b9d4bc4d1ce9be8ac56890c03ee9855ea7ab21872880556bdcfe",
+          "kind": "snapshot"
+        },
+        {
+          "path": "cpp_lowcmd_bridge/README.md",
+          "size": 4224,
+          "sha256": "d85c8f351c960d094e3fdb6f03935afdbb0990df60082e776c7a6a3d094ff656",
+          "kind": "snapshot"
+        },
+        {
+          "path": "cpp_lowcmd_bridge/include/cpp_lowcmd_bridge/gamepad.hpp",
+          "size": 3434,
+          "sha256": "991badd7f509ae5298f14ffca8a0e62ceeb85d92a7ae218f1f5a36fe428d0f16",
+          "kind": "snapshot"
+        },
+        {
+          "path": "cpp_lowcmd_bridge/include/cpp_lowcmd_bridge/motor_crc_hg.hpp",
+          "size": 1171,
+          "sha256": "35ca3f299675c28d6b9e5c98a2bb6a234f8082ba7174f4b04abee66aceb11a19",
+          "kind": "snapshot"
+        },
+        {
+          "path": "cpp_lowcmd_bridge/include/cpp_lowcmd_bridge/timing_trace.hpp",
+          "size": 4606,
+          "sha256": "36dd88aae6b47905643e67b6e2f57f7481b31a8a71b9ad37f2fbae2df9342f85",
+          "kind": "snapshot"
+        },
+        {
+          "path": "cpp_lowcmd_bridge/package.xml",
+          "size": 488,
+          "sha256": "66b3ffd3ad32b653f4c400a496ac84d962244ddc5f85ff2f3cfaff99f514d9ad",
+          "kind": "snapshot"
+        },
+        {
+          "path": "cpp_lowcmd_bridge/src/h2_lowcmd_shm_bridge.cpp",
+          "size": 44437,
+          "sha256": "9fb129570473c50a81ee16ab866d3722c586fd70fe296952c59911e485e78167",
+          "kind": "snapshot"
+        },
+        {
+          "path": "cpp_lowcmd_bridge/src/motor_crc_hg.cpp",
+          "size": 4022,
+          "sha256": "c383915a57df40104d46af655365e165f9fed7f98d3a6206316084fbe3ccf858",
+          "kind": "snapshot"
+        },
+        {
+          "path": "docs/SETUP.md",
+          "size": 7937,
+          "sha256": "079199a7a391d4110bb62f2708e5787ce41b0dba43aca9ee6c41f03ada0128e4",
+          "kind": "snapshot"
+        },
+        {
+          "path": "mocap_ego_zmq_adapter_physics.py",
+          "size": 62612,
+          "sha256": "0f90ce1d05d7d007e36fb956d01bbfa063f3a05763227c87ac77ab09467195e5",
+          "kind": "snapshot"
+        },
+        {
+          "path": "models/real_ball_hybrid_bounce.json",
+          "size": 738,
+          "sha256": "a976fe03c16271d07d549942757e6c8ba86cebbe39b2532bbdaefbef9f81cda1",
+          "kind": "snapshot"
+        },
+        {
+          "path": "policies/h2/h2_stageC10500_online_ball_000010_residual.json",
+          "size": 23501,
+          "sha256": "18fc310c437ce597ce2c915036e01ae2c2f903440afb55c3655dcefa1daed8b6",
+          "kind": "snapshot"
+        },
+        {
+          "path": "policies/h2/h2_stageC10500_online_ball_000010_residual.onnx",
+          "size": 497995,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "policies/h2/h2_stageC_model_10500.onnx",
+          "size": 1053666,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "predictor.py",
+          "size": 38491,
+          "sha256": "e495ed24af982488cd7a0d2a9b09eb2c76a6b0ca77269b8d85da8c635840a9f6",
+          "kind": "snapshot"
+        },
+        {
+          "path": "ready_pose/H2/frozen_closd_ready_pose_toeout_lowload.npz",
+          "size": 3396,
+          "sha256": "13d98c5320f9e996b3cb1a01238eb1206ece45a6076e2b3087c786ac47e4e57b",
+          "kind": "snapshot"
+        },
+        {
+          "path": "requirements-export.txt",
+          "size": 103,
+          "sha256": "5f15e4c67fd404a70f24e8c01e1ccf6a69561d12e749af28c534c486f06ceb97",
+          "kind": "snapshot"
+        },
+        {
+          "path": "requirements.txt",
+          "size": 410,
+          "sha256": "6bcc562cc903a81158c24a888b34613ce58df0f9070ae43e1bdfc2e111872ff2",
+          "kind": "snapshot"
+        },
+        {
+          "path": "run_live_sim_shm.py",
+          "size": 25904,
+          "sha256": "64e07809363bc141483b54a90ac8a9440c8bf6695248d51620841b853cdb9e9e",
+          "kind": "snapshot"
+        },
+        {
+          "path": "run_real_shm.py",
+          "size": 4508,
+          "sha256": "250d3fdba9703d72b060384fdd5103d03631faf8ce28af9f8f2edf3864251fe3",
+          "kind": "snapshot"
+        },
+        {
+          "path": "run_sim_shm.py",
+          "size": 27035,
+          "sha256": "f8150e4b685b08c595dad8a5f79ffd71c1512224591814b63905d360063c91eb",
+          "kind": "snapshot"
+        },
+        {
+          "path": "runtime/SOURCE_COMMIT",
+          "size": 41,
+          "sha256": "03ea402fa697638f2d26fd39c588417b2cacc98111c2e21a3c589d161f28fa81",
+          "kind": "snapshot"
+        },
+        {
+          "path": "runtime/__init__.py",
+          "size": 65,
+          "sha256": "eab9b8a0eec2bb68955aa50d353da655914fadd86c1f236f68ffcdf4e61e8550",
+          "kind": "snapshot"
+        },
+        {
+          "path": "runtime/ball.py",
+          "size": 13317,
+          "sha256": "4d517b3f98af7074ed94493f0b7af20cca20cf68c7183d795962acaf06b0a5f2",
+          "kind": "snapshot"
+        },
+        {
+          "path": "runtime/configuration.py",
+          "size": 9339,
+          "sha256": "cd57628d1dbec365b079eb05bd57ee88cdd962b0c3da29045a4e939229ea0509",
+          "kind": "snapshot"
+        },
+        {
+          "path": "runtime/deployment_versions.py",
+          "size": 1734,
+          "sha256": "99b0fc74002e42437cae5db5e5ecd200964d8973089f88b496931cd9dd8d7e3a",
+          "kind": "snapshot"
+        },
+        {
+          "path": "runtime/embodiments.py",
+          "size": 7540,
+          "sha256": "9c19a32dbf1b2befb1a52544b94036e0fa2c5d788649fd84342ee6ecf477a02d",
+          "kind": "snapshot"
+        },
+        {
+          "path": "runtime/frozen_wait.py",
+          "size": 3750,
+          "sha256": "73fa7641641cc8ec72c7b3ad4296f6e7a6d34b55e64e39587bc20a1113d54006",
+          "kind": "snapshot"
+        },
+        {
+          "path": "runtime/h2_contract.py",
+          "size": 22280,
+          "sha256": "18cbc2e63afac0c1123f6cdf423dbb8e696a7eadb825047f5f060559369a2c79",
+          "kind": "snapshot"
+        },
+        {
+          "path": "runtime/h2_shm_bridge.py",
+          "size": 15765,
+          "sha256": "202220c663669c456d738a33ee09e7c03e93ea456779056123a3c4dcb0a77d1f",
+          "kind": "snapshot"
+        },
+        {
+          "path": "runtime/legacy_v2_predictor.py",
+          "size": 5356,
+          "sha256": "d3d890d0b355d4fd91c2a45f501b356bebca6bfd7da0a80ae2beb9274ef5bc7e",
+          "kind": "snapshot"
+        },
+        {
+          "path": "runtime/live_hybrid_ball.py",
+          "size": 19222,
+          "sha256": "c46232e73afae006882f65c86d3effa944e091f90060af4a42224bb07e71675f",
+          "kind": "snapshot"
+        },
+        {
+          "path": "runtime/mathutil.py",
+          "size": 2770,
+          "sha256": "18017a6908be22941250c715f95b131d867d927ee6c863e48c42d16dc67f6057",
+          "kind": "snapshot"
+        },
+        {
+          "path": "runtime/motion_attestation.py",
+          "size": 6855,
+          "sha256": "868ec2530a825a08bef8108e0f1e5a4f6af97f95b5a3fe4d75c5839fe1ec004c",
+          "kind": "snapshot"
+        },
+        {
+          "path": "runtime/motionbricks_closd_runtime.py",
+          "size": 41579,
+          "sha256": "57587ae052c7f60732ae2806b7b9054ab22d7a1efa0dfc1d0ed309e5abadd65b",
+          "kind": "snapshot"
+        },
+        {
+          "path": "runtime/native_closd_inference.py",
+          "size": 18963,
+          "sha256": "0fde1fe42d26cc5e4309f51faa485dc5ad65e7080418d0a9b408c8b370ec885c",
+          "kind": "snapshot"
+        },
+        {
+          "path": "runtime/observation.py",
+          "size": 2951,
+          "sha256": "ca5c29f7cf28651fb800a20ed9202cffb74448d3ded89fa79674b4f7fffe8372",
+          "kind": "snapshot"
+        },
+        {
+          "path": "runtime/paths.py",
+          "size": 3509,
+          "sha256": "dc23f52ab0dc6bda0d0dd20a7655fe4dfea137de43dab9a9f952f9d7058e2224",
+          "kind": "snapshot"
+        },
+        {
+          "path": "runtime/planner_protocol.py",
+          "size": 4228,
+          "sha256": "24a3a8228e7b91c940e07bb24199f65f99cd424b0a363e7a220276a12a2fdd35",
+          "kind": "snapshot"
+        },
+        {
+          "path": "runtime/policy.py",
+          "size": 3946,
+          "sha256": "fd4b36e8f117ede0c57f51d18d48ef1869af214fd6cc1822837b0fafa35378f2",
+          "kind": "snapshot"
+        },
+        {
+          "path": "runtime/policy_evaluation.py",
+          "size": 1319,
+          "sha256": "ca9cbaa1d77ca344ff212ef7841925de1626169ca77e1e5ffeb8d3939a9f5840",
+          "kind": "snapshot"
+        },
+        {
+          "path": "runtime/prediction_filters.py",
+          "size": 8423,
+          "sha256": "cea9bff37d89aa3d786da40c75b58d3c2f79ad6c93ac5829be7811e87d409aa5",
+          "kind": "snapshot"
+        },
+        {
+          "path": "runtime/provenance.py",
+          "size": 1847,
+          "sha256": "8e89a7b92496a2732329788af1f5cc7801a9fe4d216b2c10bbf9513ecab55c7e",
+          "kind": "snapshot"
+        },
+        {
+          "path": "runtime/real_reference.py",
+          "size": 28476,
+          "sha256": "567433581f339d6cdec099caedca17ddb833b29c008197ee96cc6952c6f7160a",
+          "kind": "snapshot"
+        },
+        {
+          "path": "runtime/real_shm_runner.py",
+          "size": 56182,
+          "sha256": "15b7df6f92797364bd9e1dec1e15d2a74ccb663ab07337301a9f3e5c050f5335",
+          "kind": "snapshot"
+        },
+        {
+          "path": "runtime/reference.py",
+          "size": 7691,
+          "sha256": "412bae4447ae1c565d9f978290610176ad8124dcc08730961b042e4b5db0641a",
+          "kind": "snapshot"
+        },
+        {
+          "path": "runtime/rl/SOURCE_COMMIT",
+          "size": 227,
+          "sha256": "3a1d14e726884f6f21e2646f921a0d6b62068bcaa31f330200f79720bebbebf0",
+          "kind": "snapshot"
+        },
+        {
+          "path": "runtime/rl/__init__.py",
+          "size": 74,
+          "sha256": "6423de69b5d613cbe0c6e895117475db56569fa3357facb8c9a86985889cf1eb",
+          "kind": "snapshot"
+        },
+        {
+          "path": "runtime/rl/action.py",
+          "size": 1517,
+          "sha256": "14775dd8c69928a4b40cb5f4532703fc6a2cf3cdc184711e106700d52e7d13e7",
+          "kind": "snapshot"
+        },
+        {
+          "path": "runtime/rl/collector.py",
+          "size": 23312,
+          "sha256": "318e94cac93d19851652820d6214ea7f05caf5ec868f2681ee271ea38e8f1fc8",
+          "kind": "snapshot"
+        },
+        {
+          "path": "runtime/rl/config.py",
+          "size": 6378,
+          "sha256": "000c4aaf56366faffce67ffa88b4cd07ee7c8eba9d0f6017ee7e1af87866d329",
+          "kind": "snapshot"
+        },
+        {
+          "path": "runtime/rl/data.py",
+          "size": 5310,
+          "sha256": "f3dc13968323036f2d38369ac4975cd8969a8ae10ebc013c21fbab56ce748e5e",
+          "kind": "snapshot"
+        },
+        {
+          "path": "runtime/rl/events.py",
+          "size": 18321,
+          "sha256": "3dc5f71539429e09744c39d5d97bcb014359b873198521d2e605fa20ca8b9d77",
+          "kind": "snapshot"
+        },
+        {
+          "path": "runtime/rl/journal.py",
+          "size": 4442,
+          "sha256": "b100bafb477836dfdcb493eb51f1108b9e4120dec2431a35bd3f1a8caa85df80",
+          "kind": "snapshot"
+        },
+        {
+          "path": "runtime/rl/learner.py",
+          "size": 16212,
+          "sha256": "28268bf69f66550193248ad7cdd3b274fd145bde376a6cca3b1a2613c5d4c9a4",
+          "kind": "snapshot"
+        },
+        {
+          "path": "runtime/rl/metrics.py",
+          "size": 5998,
+          "sha256": "7802131c77ba53b7918da463d42a5157d2af38233becfafbe739c2c97fa08526",
+          "kind": "snapshot"
+        },
+        {
+          "path": "runtime/rl/models.py",
+          "size": 4107,
+          "sha256": "52d259c2f4ff737f855ba2a38f9bda529d275fa48f1c57afe24a6d5b3e490343",
+          "kind": "snapshot"
+        },
+        {
+          "path": "runtime/rl/onnx_policy.py",
+          "size": 2037,
+          "sha256": "5e392fee0ddeb6e901ef5dd98439ce7ce208f37b66bb814c198344e5659a12d2",
+          "kind": "snapshot"
+        },
+        {
+          "path": "runtime/rl/position_reward.py",
+          "size": 2741,
+          "sha256": "5d2faf990feed793c3bc2a39ad053b51a1c50c31848e4dfa52b44bf5cd7676a5",
+          "kind": "snapshot"
+        },
+        {
+          "path": "runtime/rl/replay.py",
+          "size": 2984,
+          "sha256": "25674b4971f6b178625f1d8063c899c00afb7bea1e107cd10d8318575d892ff0",
+          "kind": "snapshot"
+        },
+        {
+          "path": "runtime/rl/service.py",
+          "size": 16305,
+          "sha256": "c95fd3a436e17f632bd1b9b1191fce6380a2ace9df356d1be8d9533c1ec93ffb",
+          "kind": "snapshot"
+        },
+        {
+          "path": "runtime/rl/transport.py",
+          "size": 2704,
+          "sha256": "ae883c049e3b6aef0c993667ea8f73290c48ca4f3f6d3e0567bf13e9e6969893",
+          "kind": "snapshot"
+        },
+        {
+          "path": "runtime/ros_planner_ingress.py",
+          "size": 11665,
+          "sha256": "a6b517063198d3b892e077883754651790cb589cda75fdaac3ca19492c5dc43b",
+          "kind": "snapshot"
+        },
+        {
+          "path": "runtime/runner_startup.py",
+          "size": 5145,
+          "sha256": "09e42f0dce8bf86220a64aa356700eeccda87396aaa28e92ec654df7000e738a",
+          "kind": "snapshot"
+        },
+        {
+          "path": "runtime/sim_mujoco_bridge.py",
+          "size": 76878,
+          "sha256": "fbe352288543bdd55e0d137dc649a23dfe499789bed721eb1088b85de8afc5d8",
+          "kind": "snapshot"
+        },
+        {
+          "path": "runtime/test_simulation_contract.py",
+          "size": 33695,
+          "sha256": "39c77dd92dbeffc4c0ed6d0c26fcfb34e17f6b787796eb1f53fb8dbdaa911b6d",
+          "kind": "snapshot"
+        },
+        {
+          "path": "runtime/timing_trace.py",
+          "size": 4525,
+          "sha256": "ef40f15aa33fff8dab1e8c893dfa9a5598c75213c742bf17495626544ac363ad",
+          "kind": "snapshot"
+        },
+        {
+          "path": "scripts/analyze_timing.py",
+          "size": 10401,
+          "sha256": "00efd18cffbafd95f09cde5b30e9a7ea864eb248466a87bf3dcef1cac02f65fe",
+          "kind": "snapshot"
+        },
+        {
+          "path": "scripts/bounded_tee.py",
+          "size": 2784,
+          "sha256": "fdc9f9cc7dcec1c64bd41eae176604659471ba196276e0353ad012e9431440f6",
+          "kind": "snapshot"
+        },
+        {
+          "path": "scripts/export_real_residual.py",
+          "size": 9910,
+          "sha256": "af7f4179cfc24430cdaf66e3718bb953cc4716c265fbcb4ea13fb7e78f928c8a",
+          "kind": "snapshot"
+        },
+        {
+          "path": "scripts/h2_live_sim_console.py",
+          "size": 12046,
+          "sha256": "f1a4fce62f2b11cb1be6cfaa5e78ff32f4cf2ca62b941356fde58c527a1884b1",
+          "kind": "snapshot"
+        },
+        {
+          "path": "scripts/h2_live_sim_control.py",
+          "size": 8351,
+          "sha256": "9840fd01e0272102988f812617ad50ef562051cef062d4c8e75f306559a6acff",
+          "kind": "snapshot"
+        },
+        {
+          "path": "scripts/h2_live_sim_orchestrator.sh",
+          "size": 12111,
+          "sha256": "45a2f9690aecbc72d66a007e95b4621f5c694a2cdda5a3423b0960563e914aba",
+          "kind": "snapshot"
+        },
+        {
+          "path": "scripts/h2_live_sim_tmux_pane.sh",
+          "size": 6076,
+          "sha256": "b8a11226047193fb51c506e991a74f2dc9bb4b3506c953639bf60cffce5181d9",
+          "kind": "snapshot"
+        },
+        {
+          "path": "scripts/h2_tmux_orchestrator.sh",
+          "size": 9770,
+          "sha256": "80338ac9fb2f0c8a7d0ae18a44d61bc3bc297e18ae25571971df4e9767026610",
+          "kind": "snapshot"
+        },
+        {
+          "path": "scripts/h2_tmux_pane.sh",
+          "size": 6975,
+          "sha256": "c74e65b63e4b10466d249659562503e0a9a2eb043dd20dc7757c0cd3a6659393",
+          "kind": "snapshot"
+        },
+        {
+          "path": "scripts/h2_upstream_versions.sh",
+          "size": 3877,
+          "sha256": "7b8a70b2158b94447bb3b4d3d3a4afc90cf7a99ec2a15d72e9babc553c9d1435",
+          "kind": "snapshot"
+        },
+        {
+          "path": "scripts/inspect_ball_racket.py",
+          "size": 2437,
+          "sha256": "f426585ed6a3bcc9d0d8e098a6a7ef8181601f83fd7f220631816fc8b6b01c1e",
+          "kind": "snapshot"
+        },
+        {
+          "path": "scripts/inspect_h2_lowstate_native.py",
+          "size": 7213,
+          "sha256": "4977467ec7d544c6243970f3b92a9c47a17332dd2e08665e9086847c34730c38",
+          "kind": "snapshot"
+        },
+        {
+          "path": "scripts/inspect_mocap_pipeline.py",
+          "size": 36944,
+          "sha256": "46d6a4714ed42b608e501ad2cf7bf9cb2007b177b49956cc2207237490e38d73",
+          "kind": "snapshot"
+        },
+        {
+          "path": "scripts/inspect_racket_mocap.py",
+          "size": 7535,
+          "sha256": "6be718dad02a23f3829034813224c3564ba911f1f6f342724c90e90c156f5869",
+          "kind": "snapshot"
+        },
+        {
+          "path": "scripts/inspect_shm_state.py",
+          "size": 11242,
+          "sha256": "956c75d8c42354780b995b3091cfb50f2d48d2b95564cc26f2021ac3146ce632",
+          "kind": "snapshot"
+        },
+        {
+          "path": "scripts/launch_h2_live_sim_tmux.sh",
+          "size": 7230,
+          "sha256": "11cdf70798a019ba5c92a9bb2a52e24eff9c55101657d1e2e9e95b028ed07c30",
+          "kind": "snapshot"
+        },
+        {
+          "path": "scripts/launch_h2_tmux.sh",
+          "size": 9187,
+          "sha256": "d6b001faf57f6d20427bf62104183340b3a56cbfe2669e4e8dc7e0f69177607e",
+          "kind": "snapshot"
+        },
+        {
+          "path": "scripts/mocap_racket_adapter.py",
+          "size": 3187,
+          "sha256": "43bdf32a76290de22fff7b5e0b01bce2405087f7d89df83aa5ba7a3c1b76be60",
+          "kind": "snapshot"
+        },
+        {
+          "path": "scripts/motion_switcher_guard.py",
+          "size": 4002,
+          "sha256": "06b676e876e552a312364778cab8c890d74817b19fb45571af5ca6f9e9f99e9d",
+          "kind": "snapshot"
+        },
+        {
+          "path": "scripts/preflight.py",
+          "size": 11905,
+          "sha256": "d06e82de0270702664a78f0af5ea48413574d4aed705ea78b65f5e0dbe8d5357",
+          "kind": "snapshot"
+        },
+        {
+          "path": "scripts/source_unitree_env.sh",
+          "size": 1509,
+          "sha256": "b451c7235d7b0e9a564e492bf800831b05787221c873cf628520d23170a7b481",
+          "kind": "snapshot"
+        },
+        {
+          "path": "scripts/stop_h2_live_sim_tmux.sh",
+          "size": 4578,
+          "sha256": "8762d427d84d6eb0a3239ae5314a7a65a1882ecf79ee763c3160de37d92f9823",
+          "kind": "snapshot"
+        },
+        {
+          "path": "scripts/stop_h2_policy_eval.sh",
+          "size": 5885,
+          "sha256": "51d3278a8dd35dd63d401020706085e8eb6bc1075412ff252d530e6dc7a5420f",
+          "kind": "snapshot"
+        },
+        {
+          "path": "scripts/validate_bridge_no_runner.sh",
+          "size": 1972,
+          "sha256": "fe3ef266f8256e8d03b46995137cf21d6b4b7ac0e292938dc9f70b69857d2276",
+          "kind": "snapshot"
+        },
+        {
+          "path": "scripts/wait_h2_startup_ready.py",
+          "size": 4192,
+          "sha256": "c24414ed8957a51a426c9c3a4cfb7ef11c987f0f87a5e7364e4be5e1204ebc29",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 130471258,
+      "weight_bytes": 116124167,
+      "snapshot_dir": "snapshots/BAAI/PingPongRealWorldRL/d8290eb5a193c4b3839f58b46d9d83f71f334c3d/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
     }
   ],
   "errata": [],
