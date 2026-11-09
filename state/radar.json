@@ -265,7 +265,23 @@
     "http://arxiv.org/abs/2611.06784",
     "http://arxiv.org/abs/2611.06778",
     "http://arxiv.org/abs/2611.06692",
-    "http://arxiv.org/abs/2611.01639"
+    "http://arxiv.org/abs/2611.01639",
+    "http://arxiv.org/abs/2611.09709",
+    "http://arxiv.org/abs/2611.09177",
+    "http://arxiv.org/abs/2611.09061",
+    "http://arxiv.org/abs/2611.09008",
+    "http://arxiv.org/abs/2611.08453",
+    "http://arxiv.org/abs/2611.09803",
+    "http://arxiv.org/abs/2611.09662",
+    "http://arxiv.org/abs/2611.09506",
+    "http://arxiv.org/abs/2611.09200",
+    "http://arxiv.org/abs/2611.09117",
+    "http://arxiv.org/abs/2611.08811",
+    "http://arxiv.org/abs/2611.07542",
+    "http://arxiv.org/abs/2611.09894",
+    "http://arxiv.org/abs/2611.09665",
+    "http://arxiv.org/abs/2611.08876",
+    "http://arxiv.org/abs/2611.08468"
   ],
   "hn_seen": [
     "49735410",
@@ -497,7 +513,20 @@
     "50371246",
     "50360947",
     "50358702",
-    "50340088"
+    "50340088",
+    "50411961",
+    "50406222",
+    "50403153",
+    "50381687",
+    "50424366",
+    "50424199",
+    "50421426",
+    "50414427",
+    "50412591",
+    "50380170",
+    "50388122",
+    "50378643",
+    "50361765"
   ],
   "log": [
     {
@@ -3067,8 +3096,182 @@
       "at": "2026-11-05T15:49:19Z",
       "text": "HN front-page (834 pts): Show HN: Subvocal \u2013 Talk to your computer without making noise",
       "url": "https://news.ycombinator.com/item?id=50340088"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-09T17:48:17Z",
+      "text": "New paper mentioning DeepSeek: RidgeFill: Training-Free Late-Layer Cache Fill for Faster Prefill",
+      "url": "http://arxiv.org/abs/2611.09709"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-09T17:48:17Z",
+      "text": "New paper mentioning DeepSeek: Analyzing Code Provenance in LLMs for Programming Education",
+      "url": "http://arxiv.org/abs/2611.09177"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-09T17:48:17Z",
+      "text": "New paper mentioning DeepSeek: Does Reasoning Improve Psychological Depth in Large Language Models?",
+      "url": "http://arxiv.org/abs/2611.09061"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-09T17:48:17Z",
+      "text": "New paper mentioning DeepSeek: ISER-MoE: Dynamic In-Switch Replication of Hot Experts for Load Balancing in Expert-Parallel",
+      "url": "http://arxiv.org/abs/2611.09008"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-09T17:48:17Z",
+      "text": "New paper mentioning DeepSeek: Unpacking the Compute Efficiency of Strong-to-Weak OPD against GRPO",
+      "url": "http://arxiv.org/abs/2611.08453"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-09T17:48:17Z",
+      "text": "HN front-page (470 pts): Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
+      "url": "https://news.ycombinator.com/item?id=50411961"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-09T17:48:17Z",
+      "text": "HN front-page (403 pts): MaxxBench \u2013 \"Nice DeepSWE score. But is it true?\"",
+      "url": "https://news.ycombinator.com/item?id=50406222"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-09T17:48:17Z",
+      "text": "New paper mentioning Qwen: Maya a1: Do the Options Read the Model, or Does Their Position? Order Sensitivity in a Non-Autoregressive Decision Model",
+      "url": "http://arxiv.org/abs/2611.09803"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-09T17:48:17Z",
+      "text": "New paper mentioning Qwen: How Much Conversation History Does an AI Agent Need?",
+      "url": "http://arxiv.org/abs/2611.09662"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-09T17:48:17Z",
+      "text": "New paper mentioning Qwen: On the Effectiveness and Limitations of Open-Weight LLMs for Low-Resource Offensive Language Detection in Danish",
+      "url": "http://arxiv.org/abs/2611.09506"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-09T17:48:17Z",
+      "text": "New paper mentioning Qwen: Structure and Lineage Evidence for Vietnamese Statutory Article Retrieval on DRiLL",
+      "url": "http://arxiv.org/abs/2611.09200"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-09T17:48:17Z",
+      "text": "New paper mentioning Qwen: PathXAI: Evidence-guided structured pathology reporting by transferable tissue segmentation",
+      "url": "http://arxiv.org/abs/2611.09117"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-09T17:48:17Z",
+      "text": "HN front-page (73 pts): Ask HN: How do you manage your AI agents' context across clients and projects?",
+      "url": "https://news.ycombinator.com/item?id=50403153"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-09T17:48:17Z",
+      "text": "HN front-page (120 pts): Launch HN: Rivet (YC W23) \u2013 Scale and Orchestrate Agents on S3",
+      "url": "https://news.ycombinator.com/item?id=50381687"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-09T17:48:17Z",
+      "text": "New paper mentioning GLM-: I Think, Therefore I Attack: Evaluating Thought Injection Attacks on Reasoning Agents",
+      "url": "http://arxiv.org/abs/2611.08811"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-09T17:48:17Z",
+      "text": "New paper mentioning GLM-: FlashOffloading: Low-Latency KV Cache Offloading for Long-Context LLM Serving",
+      "url": "http://arxiv.org/abs/2611.07542"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-09T17:48:17Z",
+      "text": "HN front-page (61 pts): Try Gleam",
+      "url": "https://news.ycombinator.com/item?id=50424366"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-09T17:48:17Z",
+      "text": "HN front-page (66 pts): 6 Hours of YouTube and 85 handtyped pages of notes on LLM Inference \u2013 Start here",
+      "url": "https://news.ycombinator.com/item?id=50424199"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-09T17:48:17Z",
+      "text": "HN front-page (106 pts): Apple capped engineers at a $200 daily AI budget",
+      "url": "https://news.ycombinator.com/item?id=50421426"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-09T17:48:17Z",
+      "text": "HN front-page (202 pts): Tesla Hasn't Had a Successful New Product Launch Since JB Straubel Stepped Down",
+      "url": "https://news.ycombinator.com/item?id=50414427"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-09T17:48:17Z",
+      "text": "HN front-page (116 pts): Why I will not be using LLMs in my coding",
+      "url": "https://news.ycombinator.com/item?id=50412591"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-09T17:48:17Z",
+      "text": "New paper mentioning MiniMax: Video-Coder: Reinforcing Agentic Coding for Video Generation",
+      "url": "http://arxiv.org/abs/2611.09894"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-09T17:48:17Z",
+      "text": "New paper mentioning MiniMax: Online Causal Configuration for Networked Systems via Doubly Robust Steady-State Learning",
+      "url": "http://arxiv.org/abs/2611.09665"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-09T17:48:17Z",
+      "text": "New paper mentioning MiniMax: Reweighting for Transfer Classification: Exact Risk Conversion and Minimax Adaptation",
+      "url": "http://arxiv.org/abs/2611.08876"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-09T17:48:17Z",
+      "text": "New paper mentioning MiniMax: An Accelerated Proximal Gradient Method for Bures-Wasserstein Space",
+      "url": "http://arxiv.org/abs/2611.08468"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-09T17:48:17Z",
+      "text": "HN front-page (60 pts): Nordstjernen, Northstar, Southstar: minimalist webbrowsers in C and Rust",
+      "url": "https://news.ycombinator.com/item?id=50380170"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-09T17:48:17Z",
+      "text": "HN front-page (347 pts): From Linux to Wikipedia: How Volunteers Build the Internet",
+      "url": "https://news.ycombinator.com/item?id=50388122"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-09T17:48:17Z",
+      "text": "HN front-page (172 pts): Show HN: Firenook \u2013 Firebase emulators in Rust: 40\u00d7 faster writes, 10\u00d7 less RAM",
+      "url": "https://news.ycombinator.com/item?id=50378643"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-09T17:48:17Z",
+      "text": "HN front-page (90 pts): PostgreSQL Internals [pdf] (2023)",
+      "url": "https://news.ycombinator.com/item?id=50361765"
     }
   ],
   "first_run_done": true,
-  "last_run": "2026-11-05T15:49:19Z"
+  "last_run": "2026-11-09T17:48:17Z"
 }

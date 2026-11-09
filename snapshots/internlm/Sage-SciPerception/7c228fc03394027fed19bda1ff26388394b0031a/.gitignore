@@ -1,0 +1,7 @@
+var/
+output/
+.playwright-cli/
+.cache/
+__pycache__/
+*.py[cod]
+.DS_Store

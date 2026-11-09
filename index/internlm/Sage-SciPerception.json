@@ -1,0 +1,282 @@
+{
+  "repo_id": "internlm/Sage-SciPerception",
+  "canonical_org": "internlm",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "7c228fc03394027fed19bda1ff26388394b0031a",
+      "captured_at": "2026-11-09T17:47:52Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/internlm/Sage-SciPerception?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"1f2a-Ox6Fja8GxW0+y17drWGPg2ro7Ic\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": null,
+        "file": null,
+        "sha256": null,
+        "redistributable": false,
+        "obligations": [],
+        "freedom": "unlicensed",
+        "freedom_note": "No license tag and no file \u2014 cannot redistribute"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1603,
+          "sha256": "f7ee043281d5ae90d5df9a753c1500949d233b785ade292e490e0d5081e6a02a",
+          "kind": "snapshot"
+        },
+        {
+          "path": ".gitignore",
+          "size": 71,
+          "sha256": "554d510c78bd7f3386d095b26f760b416e802c3e1552f6467c040d6a3ecc6f81",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 14326,
+          "sha256": "780c260158f5a411aabfb24908b9e910dcb29f3a4c978a184ba22b468437dbc4",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README_zh.md",
+          "size": 13134,
+          "sha256": "c972ebbd0bed470d83adbcc7892e56806cef235f30ad6f5e731eb58ca671b11e",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/branding/sage-sciprojector-hero-titled.png",
+          "size": 1931290,
+          "sha256": "7ccdb4b77f3aa001f27a29f37ed3c9c99583290d5db43a65f3056b019f567fee",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/branding/sage-sciprojector-hero-zh.png",
+          "size": 1904224,
+          "sha256": "edc8118d0c7fdf9d7635321b0756ce0daeb68eb949d309456da76f17cdcab84b",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/crystal-en.gif",
+          "size": 8543204,
+          "sha256": null,
+          "kind": "media-no-snapshot"
+        },
+        {
+          "path": "assets/crystal-zh.gif",
+          "size": 8474923,
+          "sha256": null,
+          "kind": "media-no-snapshot"
+        },
+        {
+          "path": "assets/framework-en.gif",
+          "size": 3282825,
+          "sha256": null,
+          "kind": "media-no-snapshot"
+        },
+        {
+          "path": "assets/framework-zh.gif",
+          "size": 3583418,
+          "sha256": null,
+          "kind": "media-no-snapshot"
+        },
+        {
+          "path": "assets/protein-en.gif",
+          "size": 3327667,
+          "sha256": null,
+          "kind": "media-no-snapshot"
+        },
+        {
+          "path": "assets/protein-zh.gif",
+          "size": 3273810,
+          "sha256": null,
+          "kind": "media-no-snapshot"
+        },
+        {
+          "path": "assets/rna-iterations-en.gif",
+          "size": 7143542,
+          "sha256": null,
+          "kind": "media-no-snapshot"
+        },
+        {
+          "path": "assets/rna-iterations-zh.gif",
+          "size": 7132190,
+          "sha256": null,
+          "kind": "media-no-snapshot"
+        },
+        {
+          "path": "assets/spectra-en.gif",
+          "size": 1356054,
+          "sha256": null,
+          "kind": "media-no-snapshot"
+        },
+        {
+          "path": "assets/spectra-zh.gif",
+          "size": 1365906,
+          "sha256": null,
+          "kind": "media-no-snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 741,
+          "sha256": "df00b6cd041891b496cb9bae190fdea23bebd4bc05e99d736cfd2737a9306e7d",
+          "kind": "snapshot"
+        },
+        {
+          "path": "examples/vllm_cif.py",
+          "size": 4445,
+          "sha256": "c8697d6317c3906202e369e1631a2bf0408a02ed9c41eda7523e7630db558a79",
+          "kind": "snapshot"
+        },
+        {
+          "path": "load_projector.py",
+          "size": 2425,
+          "sha256": "53bc7c7be6f7d441eec005f7b9ed4fb5f141ae5cb0e9c12e8f68762962c119bc",
+          "kind": "snapshot"
+        },
+        {
+          "path": "modeling_projector.py",
+          "size": 16665,
+          "sha256": "769b6e5a1c1cca1b322b3bdc192196c1ceb647ec2930b2ac8528790326140013",
+          "kind": "snapshot"
+        },
+        {
+          "path": "projectors/glm-5.3-flash/README.md",
+          "size": 7379,
+          "sha256": "1693276199bd421f78e5fa17d9317a6d94a52449cbe7f8871e4199c66f582e8b",
+          "kind": "snapshot"
+        },
+        {
+          "path": "projectors/glm-5.3-flash/cif/jarvis/config.json",
+          "size": 1616,
+          "sha256": "ee3020881a5e9ed8cd0fdd04a67b324943a1a29c2e8450b39e04efb32ff9a7c0",
+          "kind": "snapshot"
+        },
+        {
+          "path": "projectors/glm-5.3-flash/cif/jarvis/projector.safetensors",
+          "size": 17257808,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "projectors/glm-5.3-flash/dna/splice/config.json",
+          "size": 1432,
+          "sha256": "efc2769a22f07ee41258a654e7cd7f986484fea6a5529b310b7b582d70486395",
+          "kind": "snapshot"
+        },
+        {
+          "path": "projectors/glm-5.3-flash/dna/splice/projector.safetensors",
+          "size": 4223664,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "projectors/glm-5.3-flash/ecg/phu01/config.json",
+          "size": 1592,
+          "sha256": "ac19e44ab761b25b832f0bc0f6fd856bf73f544faf211f46729089bb9bb88147",
+          "kind": "snapshot"
+        },
+        {
+          "path": "projectors/glm-5.3-flash/ecg/phu01/projector.safetensors",
+          "size": 20147032,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "projectors/glm-5.3-flash/eeg/neu06/config.json",
+          "size": 1958,
+          "sha256": "5852ba8c3fe5f5e3d99b149bb90afcd14f36437c514368ad6e1478447f0a060b",
+          "kind": "snapshot"
+        },
+        {
+          "path": "projectors/glm-5.3-flash/eeg/neu06/projector.safetensors",
+          "size": 19096408,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "projectors/glm-5.3-flash/protein-seq/mpbind/config.json",
+          "size": 3301,
+          "sha256": "df6bb482638511356ca42c5a2c40fee747d059ee0f2b6711abe5c0aba5c4ee94",
+          "kind": "snapshot"
+        },
+        {
+          "path": "projectors/glm-5.3-flash/protein-seq/mpbind/projector.safetensors",
+          "size": 27845056,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "projectors/glm-5.3-flash/protein-struct/psr/config.json",
+          "size": 1733,
+          "sha256": "3fb99508bd87749472939c35561d61ada3ab45d99a368b6a1d09ff8b78b11d39",
+          "kind": "snapshot"
+        },
+        {
+          "path": "projectors/glm-5.3-flash/protein-struct/psr/projector.safetensors",
+          "size": 18620596,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "projectors/glm-5.3-flash/rna/ncrna/config.json",
+          "size": 3339,
+          "sha256": "17d26f2ba6edd2771115872a7c742c655fcfebacadfae58276faf8b73e047d0a",
+          "kind": "snapshot"
+        },
+        {
+          "path": "projectors/glm-5.3-flash/rna/ncrna/projector.safetensors",
+          "size": 21791248,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "projectors/glm-5.3-flash/spectra/qm9s/config.json",
+          "size": 2184,
+          "sha256": "10bd4dec7a337ead477e44bfccfa5d0bf100ef0c0c6d2c2f6f3b0b5d14b1f8f0",
+          "kind": "snapshot"
+        },
+        {
+          "path": "projectors/glm-5.3-flash/spectra/qm9s/projector.safetensors",
+          "size": 17249904,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "projectors/glm-5.3-flash/xrd/simxrd/config.json",
+          "size": 1712,
+          "sha256": "2a4f17b13637eb0b9d89a4776aee66d60acc8b6f2c2c8e4ee7187e4ee1f4031d",
+          "kind": "snapshot"
+        },
+        {
+          "path": "projectors/glm-5.3-flash/xrd/simxrd/projector.safetensors",
+          "size": 19044952,
+          "sha256": null,
+          "kind": "weights"
+        }
+      ],
+      "total_bytes": 216675377,
+      "weight_bytes": 165276668,
+      "snapshot_dir": "snapshots/internlm/Sage-SciPerception/7c228fc03394027fed19bda1ff26388394b0031a/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

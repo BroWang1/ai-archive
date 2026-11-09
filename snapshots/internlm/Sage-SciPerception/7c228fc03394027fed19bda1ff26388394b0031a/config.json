@@ -1,0 +1,14 @@
+{
+  "format_version": "sage-projector-index-v1",
+  "projectors": {
+    "glm-5.3-flash/cif/jarvis": "projectors/glm-5.3-flash/cif/jarvis",
+    "glm-5.3-flash/dna/splice": "projectors/glm-5.3-flash/dna/splice",
+    "glm-5.3-flash/ecg/phu01": "projectors/glm-5.3-flash/ecg/phu01",
+    "glm-5.3-flash/eeg/neu06": "projectors/glm-5.3-flash/eeg/neu06",
+    "glm-5.3-flash/protein-seq/mpbind": "projectors/glm-5.3-flash/protein-seq/mpbind",
+    "glm-5.3-flash/protein-struct/psr": "projectors/glm-5.3-flash/protein-struct/psr",
+    "glm-5.3-flash/rna/ncrna": "projectors/glm-5.3-flash/rna/ncrna",
+    "glm-5.3-flash/spectra/qm9s": "projectors/glm-5.3-flash/spectra/qm9s",
+    "glm-5.3-flash/xrd/simxrd": "projectors/glm-5.3-flash/xrd/simxrd"
+  }
+}

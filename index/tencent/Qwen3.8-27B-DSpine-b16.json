@@ -1,0 +1,78 @@
+{
+  "repo_id": "tencent/Qwen3.8-27B-DSpine-b16",
+  "canonical_org": "tencent",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "5f54174d301dbca65d9aa4448dc47e56732d9a12",
+      "captured_at": "2026-11-09T17:47:49Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/tencent/Qwen3.8-27B-DSpine-b16?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"72e-hJGWaoy9xxpEuUWecDGBQiHX6Wg\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "apache-2.0",
+        "file": "LICENSE",
+        "sha256": "bbedc3fda3305820b977265f01b8619d87570a6739de3a5582c3464840f1e57a",
+        "redistributable": true,
+        "obligations": [],
+        "freedom": "free",
+        "freedom_note": "apache-2.0 with LICENSE file verified in snapshot"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1519,
+          "sha256": "11ad7efa24975ee4b0c3c3a38ed18737f0658a5f75a0a96787b576a78a023361",
+          "kind": "snapshot"
+        },
+        {
+          "path": "LICENSE",
+          "size": 11544,
+          "sha256": "bbedc3fda3305820b977265f01b8619d87570a6739de3a5582c3464840f1e57a",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 10731,
+          "sha256": "f81e53db946c55ca6787a3fefd479ebc5852540dd86db69ef340f2b108bfb14b",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 2302,
+          "sha256": "c2aa9e3ff22766ea7df0fa5b5f5f7d2035ae722671c6b7eb58b65578705e6815",
+          "kind": "snapshot"
+        },
+        {
+          "path": "model.safetensors",
+          "size": 4051831880,
+          "sha256": null,
+          "kind": "weights"
+        }
+      ],
+      "total_bytes": 4051857976,
+      "weight_bytes": 4051831880,
+      "snapshot_dir": "snapshots/tencent/Qwen3.8-27B-DSpine-b16/5f54174d301dbca65d9aa4448dc47e56732d9a12/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

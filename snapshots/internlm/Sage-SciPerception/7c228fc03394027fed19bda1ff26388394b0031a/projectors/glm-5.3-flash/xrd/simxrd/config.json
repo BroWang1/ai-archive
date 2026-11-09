@@ -1,0 +1,60 @@
+{
+  "format_version": "sage-projector-v1",
+  "component_type": "scientific_projector",
+  "task": "xrd/simxrd",
+  "weights": "projector.safetensors",
+  "projector": {
+    "id": "scientific-xrd-positions",
+    "kind": "atom",
+    "modality": "xrd",
+    "feature_dim": 512,
+    "tokens": null,
+    "hidden_dim": 1024,
+    "index_dim": 32,
+    "max_atoms": 110
+  },
+  "output_dim": 4096,
+  "base_model": {
+    "repo_id": "zai-org/GLM-5.3-Flash-BF16",
+    "revision": "f9fed3bbc82291073373d67452e9f25317ef7577",
+    "dtype": "bfloat16",
+    "training_fingerprint": "5113ec01897c403098c40c38c897d9abb67222ec5caca80a862129037b30e6ea"
+  },
+  "prompt": {
+    "system": "You are reading one diffraction pattern. Answer from the supplied scientific payload. Give brief reasoning and then the requested answer format.",
+    "names": [
+      [
+        "diffraction pattern"
+      ],
+      [
+        "First diffraction pattern",
+        "Second diffraction pattern"
+      ]
+    ],
+    "template_kwargs": {
+      "reasoning_effort": "low"
+    },
+    "include_reasoning": true,
+    "atom_numbering": false
+  },
+  "scientific_inputs": [
+    {
+      "encoder": {
+        "name": "legacy-xrd-cnn",
+        "checkpoint_sha256": "4073a814b75e0d8e611ea27698e887022aa6d016975fabf45bdada5ff80e0c5d",
+        "states": "all 110 final convolutional states; original normalized 3501-point spectrum, square-root input"
+      },
+      "preprocessing": null,
+      "representation": {
+        "feature_dim": 512,
+        "modality": "xrd",
+        "rows": 168960,
+        "maximum_tokens": 110,
+        "encoding_parts": 4
+      },
+      "scientific_readout": null,
+      "side_features_per_object": false
+    }
+  ],
+  "training_step": 500
+}

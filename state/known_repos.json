@@ -893,6 +893,7 @@
       "tencent/Penguin-VL-2B",
       "tencent/Penguin-VL-8B",
       "tencent/Qwen3-8B-DSpine-b16",
+      "tencent/Qwen3.8-27B-DSpine-b16",
       "tencent/R3-embedding-0.6b",
       "tencent/R3-rerank-0.6b",
       "tencent/Rosetta-inference",
@@ -1022,6 +1023,7 @@
       "internlm/SIM_COT-LLaMA3-CODI-8B",
       "internlm/SWE-Fixer-Editor-72B",
       "internlm/SWE-Fixer-Retriever-7B",
+      "internlm/Sage-SciPerception",
       "internlm/Spark-VL-7B",
       "internlm/Spatial-SSRL-3B",
       "internlm/Spatial-SSRL-7B",
@@ -1782,6 +1784,7 @@
       "ByteDance-Seed/BFS-Prover-V2-7B",
       "ByteDance-Seed/BM-Model",
       "ByteDance-Seed/Cola-DLM",
+      "ByteDance-Seed/Cola2",
       "ByteDance-Seed/ConfRover-base-20M-v1.0",
       "ByteDance-Seed/ConfRover-interp-20M-v1.0",
       "ByteDance-Seed/Cross-Layer-TopK-CLT",
@@ -2139,5 +2142,5 @@
     ]
   },
   "first_run_done": true,
-  "last_run": "2026-11-05T15:48:50Z"
+  "last_run": "2026-11-09T17:47:47Z"
 }

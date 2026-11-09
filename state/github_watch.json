@@ -185,7 +185,9 @@
       "Tencent-Hunyuan/Hy-SimulMT",
       "Tencent-Hunyuan/Hy-Nomas",
       "Tencent-Hunyuan/HyperLogic",
-      "Tencent-Hunyuan/EmoReward"
+      "Tencent-Hunyuan/EmoReward",
+      "Tencent-Hunyuan/FlashTopK",
+      "Tencent-Hunyuan/AppCIF-Bench"
     ],
     "Wan-Video": [
       "Wan-Video/Wan-Animate-2",
@@ -267,7 +269,8 @@
       "InternLM/AdvancedMathBench",
       "InternLM/SpatialASM",
       "InternLM/InstantFusion",
-      "InternLM/ResOPD"
+      "InternLM/ResOPD",
+      "InternLM/Sage-SciPerception"
     ],
     "OpenBMB": [
       "OpenBMB/Meshy",
@@ -436,7 +439,8 @@
       "ggml-org/llama.cpp",
       "ggml-org/whisper.cpp",
       "ggml-org/ggml",
-      "ggml-org/llama-pages"
+      "ggml-org/llama-pages",
+      "ggml-org/llama-brand"
     ],
     "vllm-project": [
       "vllm-project/DeepSelect",
@@ -1040,8 +1044,28 @@
       "id": "MiniMax-AI/mcode-agent-table",
       "at": "2026-11-05T15:49:07Z",
       "desc": "BYOB Table Protocol v0.1 and reference implementation: bring your own agent (MiniMax Code and others) to one shared table for any-topology d"
+    },
+    {
+      "id": "Tencent-Hunyuan/FlashTopK",
+      "at": "2026-11-09T17:48:06Z",
+      "desc": "Fast, exact fused top-k selection for learned sparse attention training and inference, from HyScale (Tencent Hy)."
+    },
+    {
+      "id": "Tencent-Hunyuan/AppCIF-Bench",
+      "at": "2026-11-09T17:48:06Z",
+      "desc": ""
+    },
+    {
+      "id": "InternLM/Sage-SciPerception",
+      "at": "2026-11-09T17:48:06Z",
+      "desc": "Scientific perception for language models: connect crystals, spectra, biological sequences and biosignals through trained projectors."
+    },
+    {
+      "id": "ggml-org/llama-brand",
+      "at": "2026-11-09T17:48:06Z",
+      "desc": "Brand assets for Llama and llama.cpp"
     }
   ],
   "first_run_done": true,
-  "last_run": "2026-11-05T15:49:07Z"
+  "last_run": "2026-11-09T17:48:06Z"
 }

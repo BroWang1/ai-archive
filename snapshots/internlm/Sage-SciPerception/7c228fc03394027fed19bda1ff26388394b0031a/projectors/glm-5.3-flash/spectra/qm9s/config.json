@@ -1,0 +1,84 @@
+{
+  "format_version": "sage-projector-v1",
+  "component_type": "scientific_projector",
+  "task": "spectra/qm9s",
+  "weights": "projector.safetensors",
+  "projector": {
+    "id": "spectra-patch-index32",
+    "kind": "atom",
+    "modality": "spectra",
+    "feature_dim": 50,
+    "tokens": null,
+    "hidden_dim": 1024,
+    "index_dim": 32,
+    "max_atoms": 384,
+    "discrete_dim": 16,
+    "discrete_sizes": [
+      3
+    ]
+  },
+  "output_dim": 4096,
+  "base_model": {
+    "repo_id": "zai-org/GLM-5.3-Flash-BF16",
+    "revision": "f9fed3bbc82291073373d67452e9f25317ef7577",
+    "dtype": "bfloat16",
+    "training_fingerprint": "5113ec01897c403098c40c38c897d9abb67222ec5caca80a862129037b30e6ea"
+  },
+  "prompt": {
+    "system": "You are reading the simulated infrared, Raman and UV-Vis spectra of one small molecule. Answer from the spectra themselves.",
+    "names": [
+      [
+        "Spectra"
+      ],
+      [
+        "First spectra",
+        "Second spectra"
+      ]
+    ],
+    "template_kwargs": {
+      "reasoning_effort": "low"
+    },
+    "include_reasoning": true,
+    "atom_numbering": true
+  },
+  "scientific_inputs": [
+    {
+      "encoder": null,
+      "preprocessing": null,
+      "representation": {
+        "schema": "sage-features-v1",
+        "encoder_id": "qm9s-raw-patch50",
+        "encoder_revision": "diffspectra-c6d71acb-log10-patch-geometry",
+        "representation": {
+          "id": "specformer-patch-geometry",
+          "source": "AzureLeon1/DiffSpectra data_qm9_allspectra.pt",
+          "transform": "log10(x + 1), as DiffSpectra EdgeComSpectraTransform",
+          "patches": {
+            "uv": 69,
+            "ir": 139,
+            "raman": 139
+          },
+          "order": [
+            "ir",
+            "raman",
+            "uv"
+          ],
+          "patch_width": 50,
+          "uv_zero_padded_to_width": true,
+          "atom_indices_are_slots": false
+        },
+        "shape": [
+          114264,
+          16,
+          50
+        ],
+        "dtype": "float16",
+        "node_dtype": "float16",
+        "rejected": 0
+      },
+      "scientific_readout": null,
+      "side_features_per_object": false
+    }
+  ],
+  "training_step": 8037
+}

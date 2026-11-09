@@ -1,0 +1,54 @@
+{
+  "format_version": "sage-projector-v1",
+  "component_type": "scientific_projector",
+  "task": "dna/splice",
+  "weights": "projector.safetensors",
+  "projector": {
+    "id": "dna-readout-probability",
+    "kind": "atom",
+    "modality": "dna",
+    "feature_dim": 3,
+    "tokens": null,
+    "hidden_dim": 256,
+    "index_dim": 8,
+    "max_atoms": 1
+  },
+  "output_dim": 4096,
+  "base_model": {
+    "repo_id": "zai-org/GLM-5.3-Flash-BF16",
+    "revision": "f9fed3bbc82291073373d67452e9f25317ef7577",
+    "dtype": "bfloat16",
+    "training_fingerprint": "5113ec01897c403098c40c38c897d9abb67222ec5caca80a862129037b30e6ea"
+  },
+  "prompt": {
+    "system": "You are reading a scientific readout for a human DNA fragment. Answer from the supplied payload. Give brief reasoning and then the requested JSON label.",
+    "names": [
+      [
+        "DNA scientific readout"
+      ],
+      [
+        "First DNA readout",
+        "Second DNA readout"
+      ]
+    ],
+    "template_kwargs": {
+      "reasoning_effort": "low"
+    },
+    "include_reasoning": true,
+    "atom_numbering": false
+  },
+  "scientific_inputs": [
+    {
+      "encoder": {
+        "name": "task-adapted-dnabert2-readout",
+        "checkpoint": "encoders/dna/splice",
+        "kind": "probability"
+      },
+      "preprocessing": null,
+      "representation": {},
+      "scientific_readout": null,
+      "side_features_per_object": false
+    }
+  ],
+  "training_step": 50
+}

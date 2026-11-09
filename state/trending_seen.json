@@ -210,9 +210,26 @@
     "Pika-Labs/Pika-H3-Flex-Turbo-LoRA",
     "Comfy-Org/Idol",
     "webAI-Official/TwIL-8B",
-    "RikiyaT/Qwen3.5-0.8B-weight-space-programming"
+    "RikiyaT/Qwen3.5-0.8B-weight-space-programming",
+    "xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
+    "ricursiveAI/Ripple-65B-Preview",
+    "NousResearch/Arete-27B",
+    "Viggle/Viggle-Remake",
+    "Scantist/GLM-5.3-SLIM-GGUF",
+    "PrunaAI/P-H3-Image",
+    "baidu/ERNIE-5.5-Flash-Base",
+    "FusionCow/Sulphur-3",
+    "mradermacher/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic-i1-GGUF",
+    "Pika-Labs/Pika-H3-Flex",
+    "autotrust/Qwen3.8-Flash-Next-E384-FP4-V2",
+    "VideoRebirthAI/hyperflow-h3-flash",
+    "Comfy-Org/RelayVSR",
+    "autotrust/AutoTrust-JEV-27B-v1.1",
+    "Cactus-Compute/mirage",
+    "pyannote/speaker-diarization-3.1",
+    "facebook/sam-3d-body-dinov3"
   ],
-  "last_run": "2026-11-05T15:49:07Z",
+  "last_run": "2026-11-09T17:48:06Z",
   "log": [
     {
       "id": "prism-ml/Ternary-Bonsai-2-27B-gguf",
@@ -1078,6 +1095,91 @@
       "id": "RikiyaT/Qwen3.5-0.8B-weight-space-programming",
       "at": "2026-11-05T15:49:07Z",
       "downloads": 1968
+    },
+    {
+      "id": "xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
+      "at": "2026-11-09T17:48:06Z",
+      "downloads": 11755
+    },
+    {
+      "id": "ricursiveAI/Ripple-65B-Preview",
+      "at": "2026-11-09T17:48:06Z",
+      "downloads": 5835
+    },
+    {
+      "id": "NousResearch/Arete-27B",
+      "at": "2026-11-09T17:48:06Z",
+      "downloads": 2407
+    },
+    {
+      "id": "Viggle/Viggle-Remake",
+      "at": "2026-11-09T17:48:06Z",
+      "downloads": 97356
+    },
+    {
+      "id": "Scantist/GLM-5.3-SLIM-GGUF",
+      "at": "2026-11-09T17:48:06Z",
+      "downloads": 7884
+    },
+    {
+      "id": "PrunaAI/P-H3-Image",
+      "at": "2026-11-09T17:48:06Z",
+      "downloads": 1016
+    },
+    {
+      "id": "baidu/ERNIE-5.5-Flash-Base",
+      "at": "2026-11-09T17:48:06Z",
+      "downloads": 1699
+    },
+    {
+      "id": "FusionCow/Sulphur-3",
+      "at": "2026-11-09T17:48:06Z",
+      "downloads": 1022
+    },
+    {
+      "id": "mradermacher/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic-i1-GGUF",
+      "at": "2026-11-09T17:48:06Z",
+      "downloads": 217408
+    },
+    {
+      "id": "Pika-Labs/Pika-H3-Flex",
+      "at": "2026-11-09T17:48:06Z",
+      "downloads": 1083
+    },
+    {
+      "id": "autotrust/Qwen3.8-Flash-Next-E384-FP4-V2",
+      "at": "2026-11-09T17:48:06Z",
+      "downloads": 46017
+    },
+    {
+      "id": "VideoRebirthAI/hyperflow-h3-flash",
+      "at": "2026-11-09T17:48:06Z",
+      "downloads": 64221
+    },
+    {
+      "id": "Comfy-Org/RelayVSR",
+      "at": "2026-11-09T17:48:06Z",
+      "downloads": 52753
+    },
+    {
+      "id": "autotrust/AutoTrust-JEV-27B-v1.1",
+      "at": "2026-11-09T17:48:06Z",
+      "downloads": 136569
+    },
+    {
+      "id": "Cactus-Compute/mirage",
+      "at": "2026-11-09T17:48:06Z",
+      "downloads": 10341
+    },
+    {
+      "id": "pyannote/speaker-diarization-3.1",
+      "at": "2026-11-09T17:48:06Z",
+      "downloads": 6732606
+    },
+    {
+      "id": "facebook/sam-3d-body-dinov3",
+      "at": "2026-11-09T17:48:06Z",
+      "downloads": 13307
     }
   ]
 }

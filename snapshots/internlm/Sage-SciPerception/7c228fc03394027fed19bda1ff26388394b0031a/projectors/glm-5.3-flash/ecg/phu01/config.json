@@ -1,0 +1,59 @@
+{
+  "format_version": "sage-projector-v1",
+  "component_type": "scientific_projector",
+  "task": "ecg/phu01",
+  "weights": "projector.safetensors",
+  "projector": {
+    "id": "scientific-ecg-positions",
+    "kind": "atom",
+    "modality": "ecg",
+    "feature_dim": 768,
+    "tokens": null,
+    "hidden_dim": 1024,
+    "index_dim": 32,
+    "max_atoms": 512
+  },
+  "output_dim": 4096,
+  "base_model": {
+    "repo_id": "zai-org/GLM-5.3-Flash-BF16",
+    "revision": "f9fed3bbc82291073373d67452e9f25317ef7577",
+    "dtype": "bfloat16",
+    "training_fingerprint": "5113ec01897c403098c40c38c897d9abb67222ec5caca80a862129037b30e6ea"
+  },
+  "prompt": {
+    "system": "You are reading one ECG recording. Answer from the supplied scientific payload. Give brief reasoning and then the requested answer format.",
+    "names": [
+      [
+        "ECG recording"
+      ],
+      [
+        "First ECG recording",
+        "Second ECG recording"
+      ]
+    ],
+    "template_kwargs": {
+      "reasoning_effort": "low"
+    },
+    "include_reasoning": true,
+    "atom_numbering": false
+  },
+  "scientific_inputs": [
+    {
+      "encoder": {
+        "name": "ecg-legacy-cache",
+        "checkpoint_sha256": "6f63d370fd1a2ccf2fbddd681571adf985eeae3f652973f0071342a39b7793d6",
+        "states": "preserved cached positions"
+      },
+      "preprocessing": null,
+      "representation": {
+        "feature_dim": 768,
+        "modality": "ecg",
+        "rows": 15690,
+        "maximum_tokens": 360
+      },
+      "scientific_readout": null,
+      "side_features_per_object": false
+    }
+  ],
+  "training_step": 1068
+}

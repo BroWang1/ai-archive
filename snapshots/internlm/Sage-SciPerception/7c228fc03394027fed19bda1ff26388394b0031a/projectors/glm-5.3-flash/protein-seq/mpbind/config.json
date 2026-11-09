@@ -1,0 +1,100 @@
+{
+  "format_version": "sage-projector-v1",
+  "component_type": "scientific_projector",
+  "task": "protein-seq/mpbind",
+  "weights": "projector.safetensors",
+  "projector": {
+    "id": "scientific-protein-seq-positions",
+    "kind": "atom",
+    "modality": "protein-seq",
+    "feature_dim": 1280,
+    "tokens": null,
+    "hidden_dim": 1024,
+    "index_dim": 32,
+    "max_atoms": 512,
+    "task_head_outputs": 1,
+    "readout_classes": 1,
+    "readout_uses_side": false,
+    "side_dim": 2,
+    "side_hidden_dim": 128
+  },
+  "output_dim": 4096,
+  "base_model": {
+    "repo_id": "zai-org/GLM-5.3-Flash-BF16",
+    "revision": "f9fed3bbc82291073373d67452e9f25317ef7577",
+    "dtype": "bfloat16",
+    "training_fingerprint": "5113ec01897c403098c40c38c897d9abb67222ec5caca80a862129037b30e6ea"
+  },
+  "prompt": {
+    "system": "You are reading one protein sequence. Answer from the supplied scientific payload. Give brief reasoning and then the requested answer format.",
+    "names": [
+      [
+        "protein sequence"
+      ],
+      [
+        "First protein sequence",
+        "Second protein sequence"
+      ]
+    ],
+    "template_kwargs": {
+      "reasoning_effort": "low"
+    },
+    "include_reasoning": true,
+    "atom_numbering": true
+  },
+  "scientific_inputs": [
+    {
+      "encoder": {
+        "name": "esm2-t33-650m-ur50d",
+        "checkpoint_sha256": "a08adabb949fa67ad3c14b509d04fd60368b35007b0095e3358f81200c4f4db0",
+        "states": "one last-layer state per residue, BOS/EOS excluded"
+      },
+      "preprocessing": null,
+      "representation": {
+        "feature_dim": 1280,
+        "modality": "protein-seq",
+        "rows": 75204,
+        "maximum_tokens": 512,
+        "encoding_parts": 8
+      },
+      "scientific_readout": {
+        "arm": "esmc-l1-s1",
+        "checkpoint": "encoders/protein-seq/mpbind",
+        "sha256": "f451ff9928bbfc18865f750ceaa43a05dbce23893bd99148fe5ae334a543680c",
+        "validation_primary": 0.5929838246741329,
+        "threshold": 0.1,
+        "selected_at_utc": "2026-11-05T22:45:42.021162Z",
+        "selection": "highest fixed-threshold F1 on the fixed 2048-chain panel among per-family validation winners; no test results used",
+        "source_epoch": 2
+      },
+      "side_features_per_object": false
+    },
+    {
+      "encoder": {
+        "name": "esm2-t33-650m-ur50d",
+        "checkpoint_sha256": "a08adabb949fa67ad3c14b509d04fd60368b35007b0095e3358f81200c4f4db0",
+        "states": "one last-layer state per residue, BOS/EOS excluded"
+      },
+      "preprocessing": null,
+      "representation": {
+        "feature_dim": 1280,
+        "modality": "protein-seq",
+        "rows": 2107,
+        "maximum_tokens": 512,
+        "encoding_parts": 8
+      },
+      "scientific_readout": {
+        "arm": "esmc-l1-s1",
+        "checkpoint": "encoders/protein-seq/mpbind",
+        "sha256": "f451ff9928bbfc18865f750ceaa43a05dbce23893bd99148fe5ae334a543680c",
+        "validation_primary": 0.5929838246741329,
+        "threshold": 0.1,
+        "selected_at_utc": "2026-11-05T22:45:42.021162Z",
+        "selection": "highest fixed-threshold F1 on the fixed 2048-chain panel among per-family validation winners; no test results used",
+        "source_epoch": 2
+      },
+      "side_features_per_object": false
+    }
+  ],
+  "training_step": 100
+}

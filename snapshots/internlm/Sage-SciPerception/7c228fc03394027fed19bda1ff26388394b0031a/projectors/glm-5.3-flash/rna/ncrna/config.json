@@ -1,0 +1,97 @@
+{
+  "format_version": "sage-projector-v1",
+  "component_type": "scientific_projector",
+  "task": "rna/ncrna",
+  "weights": "projector.safetensors",
+  "projector": {
+    "id": "scientific-rna-positions",
+    "kind": "atom",
+    "modality": "rna",
+    "feature_dim": 640,
+    "tokens": null,
+    "hidden_dim": 1024,
+    "index_dim": 32,
+    "max_atoms": 1024,
+    "side_dim": 13,
+    "side_hidden_dim": 128
+  },
+  "output_dim": 4096,
+  "base_model": {
+    "repo_id": "zai-org/GLM-5.3-Flash-BF16",
+    "revision": "f9fed3bbc82291073373d67452e9f25317ef7577",
+    "dtype": "bfloat16",
+    "training_fingerprint": "5113ec01897c403098c40c38c897d9abb67222ec5caca80a862129037b30e6ea"
+  },
+  "prompt": {
+    "system": "You are reading one RNA sequence. Answer from the supplied scientific payload. Give brief reasoning and then the requested answer format.",
+    "names": [
+      [
+        "RNA sequence"
+      ],
+      [
+        "First RNA sequence",
+        "Second RNA sequence"
+      ]
+    ],
+    "template_kwargs": {
+      "reasoning_effort": "low"
+    },
+    "include_reasoning": true,
+    "atom_numbering": false
+  },
+  "scientific_inputs": [
+    {
+      "encoder": {
+        "name": "rnafm",
+        "checkpoint_sha256": "ec69333eb894dbefb580e690b0cbe1cbae9845fefd2bc78da914cd14226a2828",
+        "source": "multimolecule/rnafm, a conversion of the published RNA-FM weights",
+        "states": "one last-layer state per nucleotide, CLS/EOS excluded",
+        "implementation": "pre-layer-norm ESM encoder reimplemented on torch alone"
+      },
+      "preprocessing": null,
+      "representation": {
+        "feature_dim": 640,
+        "modality": "rna",
+        "rows": 100512,
+        "maximum_tokens": 1022,
+        "encoding_parts": 8
+      },
+      "scientific_readout": {
+        "arm": "rinalmo-l1-s0",
+        "checkpoint": "encoders/rna/ncrna/seed-0",
+        "sha256": "671a401496089727ff2bb9649dc850172e2b69782afd602e0f69e52af70aa9a8",
+        "validation_primary": 0.9754901960784313,
+        "selected_at_utc": "2026-11-05T22:11:01.505114Z",
+        "selection": "highest validation primary among predeclared 2-learning-rate x 2-seed grid; no test results used"
+      },
+      "side_features_per_object": true
+    },
+    {
+      "encoder": {
+        "name": "rnafm",
+        "checkpoint_sha256": "ec69333eb894dbefb580e690b0cbe1cbae9845fefd2bc78da914cd14226a2828",
+        "source": "multimolecule/rnafm, a conversion of the published RNA-FM weights",
+        "states": "one last-layer state per nucleotide, CLS/EOS excluded",
+        "implementation": "pre-layer-norm ESM encoder reimplemented on torch alone"
+      },
+      "preprocessing": null,
+      "representation": {
+        "feature_dim": 640,
+        "modality": "rna",
+        "rows": 612,
+        "maximum_tokens": 631,
+        "encoding_parts": 4
+      },
+      "scientific_readout": {
+        "arm": "rinalmo-l1-s0",
+        "checkpoint": "encoders/rna/ncrna/seed-0",
+        "sha256": "671a401496089727ff2bb9649dc850172e2b69782afd602e0f69e52af70aa9a8",
+        "validation_primary": 0.9754901960784313,
+        "selected_at_utc": "2026-11-05T22:11:01.505114Z",
+        "selection": "highest validation primary among predeclared 2-learning-rate x 2-seed grid; no test results used"
+      },
+      "side_features_per_object": true
+    }
+  ],
+  "training_step": 200
+}

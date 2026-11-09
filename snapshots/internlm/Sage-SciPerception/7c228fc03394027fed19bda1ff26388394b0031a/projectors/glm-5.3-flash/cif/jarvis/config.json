@@ -1,0 +1,59 @@
+{
+  "format_version": "sage-projector-v1",
+  "component_type": "scientific_projector",
+  "task": "cif/jarvis",
+  "weights": "projector.safetensors",
+  "projector": {
+    "hidden_dim": 1024,
+    "id": "scientific-cif-positions",
+    "kind": "atom",
+    "modality": "cif",
+    "feature_dim": 64,
+    "tokens": null,
+    "index_dim": 32,
+    "max_atoms": 512
+  },
+  "output_dim": 4096,
+  "base_model": {
+    "repo_id": "zai-org/GLM-5.3-Flash-BF16",
+    "revision": "f9fed3bbc82291073373d67452e9f25317ef7577",
+    "dtype": "bfloat16",
+    "training_fingerprint": "5113ec01897c403098c40c38c897d9abb67222ec5caca80a862129037b30e6ea"
+  },
+  "prompt": {
+    "system": "You are reading one crystal. Answer from the supplied scientific payload. Give brief reasoning and then the requested answer format.",
+    "names": [
+      [
+        "crystal"
+      ],
+      [
+        "First crystal",
+        "Second crystal"
+      ]
+    ],
+    "template_kwargs": {
+      "reasoning_effort": "low"
+    },
+    "include_reasoning": true,
+    "atom_numbering": false
+  },
+  "scientific_inputs": [
+    {
+      "encoder": {
+        "name": "chgnet-0.3.0",
+        "checkpoint_sha256": "d14ab7c0f093efe64b60a7bcd540bca10e74fb7f46c86108a079af60524659d1",
+        "states": "one 64-dimensional state per atom entering the energy MLP; 6/3 angstrom cutoffs"
+      },
+      "preprocessing": null,
+      "representation": {
+        "feature_dim": 64,
+        "modality": "cif",
+        "rows": 60698,
+        "maximum_tokens": 140
+      },
+      "scientific_readout": null,
+      "side_features_per_object": false
+    }
+  ],
+  "training_step": 2822
+}

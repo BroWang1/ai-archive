@@ -1,0 +1,45 @@
+{
+  "format": "cola2-generate-task-jsonl-v1",
+  "tasks": {
+    "arc_easy": {
+      "file": "arc_easy.jsonl",
+      "samples": 2375,
+      "sha256": "82ca2652c55e896130fa0ca4adedb5ce404d8bb16d118b4b1b382bd3907c4024"
+    },
+    "hellaswag": {
+      "file": "hellaswag.jsonl",
+      "samples": 10042,
+      "sha256": "e45c5a826dccfaa2f6f4b3db84ac121e33e3f71703f43b18b38b58d6325db001"
+    },
+    "lambada": {
+      "file": "lambada.jsonl",
+      "samples": 5153,
+      "sha256": "12006b30c189194ddcedfc6ad11c57a7cd107a97340b85199e9fe1766dae7f03"
+    },
+    "mmlu": {
+      "file": "mmlu.jsonl",
+      "samples": 14042,
+      "sha256": "ce429dd9fdc44d56f2299b63cc934df1d88b8cdb7709c72ee24d8323aba95fdd"
+    },
+    "narrativeqa": {
+      "file": "narrativeqa.jsonl",
+      "samples": 1000,
+      "sha256": "28daf47f744fc956892402e62a6ac9c41ca4babc8edf5f7105cfb6bb0eba5ff8"
+    },
+    "race": {
+      "file": "race.jsonl",
+      "samples": 4887,
+      "sha256": "1d742781cac6f9237a33b49654815e119ac6f845ef7613ad9b9e0860b6596c0d"
+    },
+    "story_cloze": {
+      "file": "story_cloze.jsonl",
+      "samples": 468,
+      "sha256": "d6555a855ce1a23f23ac2474a1e9dfda7239ec368b6a5962434db5c2f678c014"
+    },
+    "truthfulqa": {
+      "file": "truthfulqa.jsonl",
+      "samples": 817,
+      "sha256": "ccef0b9ecae13cc5b83c24430c6cfee37d3872455b428c4630bae434a27ec935"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "decoder_guidance_scale": -0.9,
+  "dit_guidance_scale": 10.0,
+  "dit_num_steps": 8,
+  "dit_timestep_schedule": "low_noise",
+  "do_sample": false,
+  "dynamic_duration": true,
+  "latent_feedback": true,
+  "max_new_tokens": 32,
+  "span_causal_chunk_size": 1
+}
