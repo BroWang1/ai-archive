@@ -6,280 +6,280 @@
  "description": "Captures, mirrors, takedown alerts and radar signals for open-weight AI models",
  "items": [
   {
-   "id": "2026-11-09T17:48:17Z-2194265012",
+   "id": "2026-11-09T17:48:17Z-3675052268",
    "title": "New paper mentioning DeepSeek: RidgeFill: Training-Free Late-Layer Cache Fill for Faster Prefill",
    "date_published": "2026-11-09T17:48:17Z",
    "url": "http://arxiv.org/abs/2611.09709",
    "content_text": "New paper mentioning DeepSeek: RidgeFill: Training-Free Late-Layer Cache Fill for Faster Prefill"
   },
   {
-   "id": "2026-11-09T17:48:17Z-584236230",
+   "id": "2026-11-09T17:48:17Z-1416768330",
    "title": "New paper mentioning DeepSeek: Analyzing Code Provenance in LLMs for Programming Education",
    "date_published": "2026-11-09T17:48:17Z",
    "url": "http://arxiv.org/abs/2611.09177",
    "content_text": "New paper mentioning DeepSeek: Analyzing Code Provenance in LLMs for Programming Education"
   },
   {
-   "id": "2026-11-09T17:48:17Z-983479569",
+   "id": "2026-11-09T17:48:17Z-253812545",
    "title": "New paper mentioning DeepSeek: Does Reasoning Improve Psychological Depth in Large Language Models?",
    "date_published": "2026-11-09T17:48:17Z",
    "url": "http://arxiv.org/abs/2611.09061",
    "content_text": "New paper mentioning DeepSeek: Does Reasoning Improve Psychological Depth in Large Language Models?"
   },
   {
-   "id": "2026-11-09T17:48:17Z-3729332873",
+   "id": "2026-11-09T17:48:17Z-1217044084",
    "title": "New paper mentioning DeepSeek: ISER-MoE: Dynamic In-Switch Replication of Hot Experts for Load Balancing in Expert-Parallel",
    "date_published": "2026-11-09T17:48:17Z",
    "url": "http://arxiv.org/abs/2611.09008",
    "content_text": "New paper mentioning DeepSeek: ISER-MoE: Dynamic In-Switch Replication of Hot Experts for Load Balancing in Expert-Parallel"
   },
   {
-   "id": "2026-11-09T17:48:17Z-3895147062",
+   "id": "2026-11-09T17:48:17Z-1558671340",
    "title": "New paper mentioning DeepSeek: Unpacking the Compute Efficiency of Strong-to-Weak OPD against GRPO",
    "date_published": "2026-11-09T17:48:17Z",
    "url": "http://arxiv.org/abs/2611.08453",
    "content_text": "New paper mentioning DeepSeek: Unpacking the Compute Efficiency of Strong-to-Weak OPD against GRPO"
   },
   {
-   "id": "2026-11-09T17:48:17Z-1963755115",
+   "id": "2026-11-09T17:48:17Z-3440584744",
    "title": "HN front-page (470 pts): Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
    "date_published": "2026-11-09T17:48:17Z",
    "url": "https://news.ycombinator.com/item?id=50411961",
    "content_text": "HN front-page (470 pts): Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU"
   },
   {
-   "id": "2026-11-09T17:48:17Z-1411638086",
+   "id": "2026-11-09T17:48:17Z-630651671",
    "title": "HN front-page (403 pts): MaxxBench \u2013 \"Nice DeepSWE score. But is it true?\"",
    "date_published": "2026-11-09T17:48:17Z",
    "url": "https://news.ycombinator.com/item?id=50406222",
    "content_text": "HN front-page (403 pts): MaxxBench \u2013 \"Nice DeepSWE score. But is it true?\""
   },
   {
-   "id": "2026-11-09T17:48:17Z-3077069645",
+   "id": "2026-11-09T17:48:17Z-635881028",
    "title": "New paper mentioning Qwen: Maya a1: Do the Options Read the Model, or Does Their Position? Order Sensitivity in a Non-Autoregressive Decision Model",
    "date_published": "2026-11-09T17:48:17Z",
    "url": "http://arxiv.org/abs/2611.09803",
    "content_text": "New paper mentioning Qwen: Maya a1: Do the Options Read the Model, or Does Their Position? Order Sensitivity in a Non-Autoregressive Decision Model"
   },
   {
-   "id": "2026-11-09T17:48:17Z-3078589254",
+   "id": "2026-11-09T17:48:17Z-3702907282",
    "title": "New paper mentioning Qwen: How Much Conversation History Does an AI Agent Need?",
    "date_published": "2026-11-09T17:48:17Z",
    "url": "http://arxiv.org/abs/2611.09662",
    "content_text": "New paper mentioning Qwen: How Much Conversation History Does an AI Agent Need?"
   },
   {
-   "id": "2026-11-09T17:48:17Z-675915004",
+   "id": "2026-11-09T17:48:17Z-2961613392",
    "title": "New paper mentioning Qwen: On the Effectiveness and Limitations of Open-Weight LLMs for Low-Resource Offensive Language Detection in Danish",
    "date_published": "2026-11-09T17:48:17Z",
    "url": "http://arxiv.org/abs/2611.09506",
    "content_text": "New paper mentioning Qwen: On the Effectiveness and Limitations of Open-Weight LLMs for Low-Resource Offensive Language Detection in Danish"
   },
   {
-   "id": "2026-11-09T17:48:17Z-3135765309",
+   "id": "2026-11-09T17:48:17Z-4293896319",
    "title": "New paper mentioning Qwen: Structure and Lineage Evidence for Vietnamese Statutory Article Retrieval on DRiLL",
    "date_published": "2026-11-09T17:48:17Z",
    "url": "http://arxiv.org/abs/2611.09200",
    "content_text": "New paper mentioning Qwen: Structure and Lineage Evidence for Vietnamese Statutory Article Retrieval on DRiLL"
   },
   {
-   "id": "2026-11-09T17:48:17Z-1651013585",
+   "id": "2026-11-09T17:48:17Z-3167010318",
    "title": "New paper mentioning Qwen: PathXAI: Evidence-guided structured pathology reporting by transferable tissue segmentation",
    "date_published": "2026-11-09T17:48:17Z",
    "url": "http://arxiv.org/abs/2611.09117",
    "content_text": "New paper mentioning Qwen: PathXAI: Evidence-guided structured pathology reporting by transferable tissue segmentation"
   },
   {
-   "id": "2026-11-09T17:48:17Z-824103848",
+   "id": "2026-11-09T17:48:17Z-2721474068",
    "title": "HN front-page (73 pts): Ask HN: How do you manage your AI agents' context across clients and projects?",
    "date_published": "2026-11-09T17:48:17Z",
    "url": "https://news.ycombinator.com/item?id=50403153",
    "content_text": "HN front-page (73 pts): Ask HN: How do you manage your AI agents' context across clients and projects?"
   },
   {
-   "id": "2026-11-09T17:48:17Z-2087396613",
+   "id": "2026-11-09T17:48:17Z-2715934091",
    "title": "HN front-page (120 pts): Launch HN: Rivet (YC W23) \u2013 Scale and Orchestrate Agents on S3",
    "date_published": "2026-11-09T17:48:17Z",
    "url": "https://news.ycombinator.com/item?id=50381687",
    "content_text": "HN front-page (120 pts): Launch HN: Rivet (YC W23) \u2013 Scale and Orchestrate Agents on S3"
   },
   {
-   "id": "2026-11-09T17:48:17Z-2485806274",
+   "id": "2026-11-09T17:48:17Z-971114664",
    "title": "New paper mentioning GLM-: I Think, Therefore I Attack: Evaluating Thought Injection Attacks on Reasoning Agents",
    "date_published": "2026-11-09T17:48:17Z",
    "url": "http://arxiv.org/abs/2611.08811",
    "content_text": "New paper mentioning GLM-: I Think, Therefore I Attack: Evaluating Thought Injection Attacks on Reasoning Agents"
   },
   {
-   "id": "2026-11-09T17:48:17Z-2898760463",
+   "id": "2026-11-09T17:48:17Z-1303113958",
    "title": "New paper mentioning GLM-: FlashOffloading: Low-Latency KV Cache Offloading for Long-Context LLM Serving",
    "date_published": "2026-11-09T17:48:17Z",
    "url": "http://arxiv.org/abs/2611.07542",
    "content_text": "New paper mentioning GLM-: FlashOffloading: Low-Latency KV Cache Offloading for Long-Context LLM Serving"
   },
   {
-   "id": "2026-11-09T17:48:17Z-873975805",
+   "id": "2026-11-09T17:48:17Z-2050080979",
    "title": "HN front-page (61 pts): Try Gleam",
    "date_published": "2026-11-09T17:48:17Z",
    "url": "https://news.ycombinator.com/item?id=50424366",
    "content_text": "HN front-page (61 pts): Try Gleam"
   },
   {
-   "id": "2026-11-09T17:48:17Z-3488366161",
+   "id": "2026-11-09T17:48:17Z-4196649774",
    "title": "HN front-page (66 pts): 6 Hours of YouTube and 85 handtyped pages of notes on LLM Inference \u2013 Start here",
    "date_published": "2026-11-09T17:48:17Z",
    "url": "https://news.ycombinator.com/item?id=50424199",
    "content_text": "HN front-page (66 pts): 6 Hours of YouTube and 85 handtyped pages of notes on LLM Inference \u2013 Start here"
   },
   {
-   "id": "2026-11-09T17:48:17Z-2461402075",
+   "id": "2026-11-09T17:48:17Z-1154682498",
    "title": "HN front-page (106 pts): Apple capped engineers at a $200 daily AI budget",
    "date_published": "2026-11-09T17:48:17Z",
    "url": "https://news.ycombinator.com/item?id=50421426",
    "content_text": "HN front-page (106 pts): Apple capped engineers at a $200 daily AI budget"
   },
   {
-   "id": "2026-11-09T17:48:17Z-2906331845",
+   "id": "2026-11-09T17:48:17Z-1499243885",
    "title": "HN front-page (202 pts): Tesla Hasn't Had a Successful New Product Launch Since JB Straubel Stepped Down",
    "date_published": "2026-11-09T17:48:17Z",
    "url": "https://news.ycombinator.com/item?id=50414427",
    "content_text": "HN front-page (202 pts): Tesla Hasn't Had a Successful New Product Launch Since JB Straubel Stepped Down"
   },
   {
-   "id": "2026-11-09T17:48:17Z-1610208519",
+   "id": "2026-11-09T17:48:17Z-1902994303",
    "title": "HN front-page (116 pts): Why I will not be using LLMs in my coding",
    "date_published": "2026-11-09T17:48:17Z",
    "url": "https://news.ycombinator.com/item?id=50412591",
    "content_text": "HN front-page (116 pts): Why I will not be using LLMs in my coding"
   },
   {
-   "id": "2026-11-09T17:48:17Z-2437927870",
+   "id": "2026-11-09T17:48:17Z-1294854560",
    "title": "New paper mentioning MiniMax: Video-Coder: Reinforcing Agentic Coding for Video Generation",
    "date_published": "2026-11-09T17:48:17Z",
    "url": "http://arxiv.org/abs/2611.09894",
    "content_text": "New paper mentioning MiniMax: Video-Coder: Reinforcing Agentic Coding for Video Generation"
   },
   {
-   "id": "2026-11-09T17:48:17Z-3708017609",
+   "id": "2026-11-09T17:48:17Z-2367828772",
    "title": "New paper mentioning MiniMax: Online Causal Configuration for Networked Systems via Doubly Robust Steady-State Learning",
    "date_published": "2026-11-09T17:48:17Z",
    "url": "http://arxiv.org/abs/2611.09665",
    "content_text": "New paper mentioning MiniMax: Online Causal Configuration for Networked Systems via Doubly Robust Steady-State Learning"
   },
   {
-   "id": "2026-11-09T17:48:17Z-3989186469",
+   "id": "2026-11-09T17:48:17Z-1724109745",
    "title": "New paper mentioning MiniMax: Reweighting for Transfer Classification: Exact Risk Conversion and Minimax Adaptation",
    "date_published": "2026-11-09T17:48:17Z",
    "url": "http://arxiv.org/abs/2611.08876",
    "content_text": "New paper mentioning MiniMax: Reweighting for Transfer Classification: Exact Risk Conversion and Minimax Adaptation"
   },
   {
-   "id": "2026-11-09T17:48:17Z-4195301217",
+   "id": "2026-11-09T17:48:17Z-2450806927",
    "title": "New paper mentioning MiniMax: An Accelerated Proximal Gradient Method for Bures-Wasserstein Space",
    "date_published": "2026-11-09T17:48:17Z",
    "url": "http://arxiv.org/abs/2611.08468",
    "content_text": "New paper mentioning MiniMax: An Accelerated Proximal Gradient Method for Bures-Wasserstein Space"
   },
   {
-   "id": "2026-11-09T17:48:17Z-3413034088",
+   "id": "2026-11-09T17:48:17Z-577665240",
    "title": "HN front-page (60 pts): Nordstjernen, Northstar, Southstar: minimalist webbrowsers in C and Rust",
    "date_published": "2026-11-09T17:48:17Z",
    "url": "https://news.ycombinator.com/item?id=50380170",
    "content_text": "HN front-page (60 pts): Nordstjernen, Northstar, Southstar: minimalist webbrowsers in C and Rust"
   },
   {
-   "id": "2026-11-09T17:48:17Z-3391854236",
+   "id": "2026-11-09T17:48:17Z-336516439",
    "title": "HN front-page (347 pts): From Linux to Wikipedia: How Volunteers Build the Internet",
    "date_published": "2026-11-09T17:48:17Z",
    "url": "https://news.ycombinator.com/item?id=50388122",
    "content_text": "HN front-page (347 pts): From Linux to Wikipedia: How Volunteers Build the Internet"
   },
   {
-   "id": "2026-11-09T17:48:17Z-1168200583",
+   "id": "2026-11-09T17:48:17Z-559562945",
    "title": "HN front-page (172 pts): Show HN: Firenook \u2013 Firebase emulators in Rust: 40\u00d7 faster writes, 10\u00d7 less RAM",
    "date_published": "2026-11-09T17:48:17Z",
    "url": "https://news.ycombinator.com/item?id=50378643",
    "content_text": "HN front-page (172 pts): Show HN: Firenook \u2013 Firebase emulators in Rust: 40\u00d7 faster writes, 10\u00d7 less RAM"
   },
   {
-   "id": "2026-11-09T17:48:17Z-2276525587",
+   "id": "2026-11-09T17:48:17Z-2472916190",
    "title": "HN front-page (90 pts): PostgreSQL Internals [pdf] (2023)",
    "date_published": "2026-11-09T17:48:17Z",
    "url": "https://news.ycombinator.com/item?id=50361765",
    "content_text": "HN front-page (90 pts): PostgreSQL Internals [pdf] (2023)"
   },
   {
-   "id": "2026-11-09T17:48:06Z-3519512212",
+   "id": "2026-11-09T17:48:06Z-671477288",
    "title": "Trending outside tracked labs: xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic (11,755 downloads)",
    "date_published": "2026-11-09T17:48:06Z",
    "url": "https://huggingface.co/xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
    "content_text": "Trending outside tracked labs: xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic (11,755 downloads)"
   },
   {
-   "id": "2026-11-09T17:48:06Z-3737517145",
+   "id": "2026-11-09T17:48:06Z-1530585407",
    "title": "Trending outside tracked labs: ricursiveAI/Ripple-65B-Preview (5,835 downloads)",
    "date_published": "2026-11-09T17:48:06Z",
    "url": "https://huggingface.co/ricursiveAI/Ripple-65B-Preview",
    "content_text": "Trending outside tracked labs: ricursiveAI/Ripple-65B-Preview (5,835 downloads)"
   },
   {
-   "id": "2026-11-09T17:48:06Z-2084500599",
+   "id": "2026-11-09T17:48:06Z-4146411149",
    "title": "Trending outside tracked labs: NousResearch/Arete-27B (2,407 downloads)",
    "date_published": "2026-11-09T17:48:06Z",
    "url": "https://huggingface.co/NousResearch/Arete-27B",
    "content_text": "Trending outside tracked labs: NousResearch/Arete-27B (2,407 downloads)"
   },
   {
-   "id": "2026-11-09T17:48:06Z-1363900846",
+   "id": "2026-11-09T17:48:06Z-930734947",
    "title": "Trending outside tracked labs: Viggle/Viggle-Remake (97,356 downloads)",
    "date_published": "2026-11-09T17:48:06Z",
    "url": "https://huggingface.co/Viggle/Viggle-Remake",
    "content_text": "Trending outside tracked labs: Viggle/Viggle-Remake (97,356 downloads)"
   },
   {
-   "id": "2026-11-09T17:48:06Z-314082799",
+   "id": "2026-11-09T17:48:06Z-720808497",
    "title": "Trending outside tracked labs: Scantist/GLM-5.3-SLIM-GGUF (7,884 downloads)",
    "date_published": "2026-11-09T17:48:06Z",
    "url": "https://huggingface.co/Scantist/GLM-5.3-SLIM-GGUF",
    "content_text": "Trending outside tracked labs: Scantist/GLM-5.3-SLIM-GGUF (7,884 downloads)"
   },
   {
-   "id": "2026-11-09T17:48:06Z-2793957805",
+   "id": "2026-11-09T17:48:06Z-1000074335",
    "title": "Trending outside tracked labs: PrunaAI/P-H3-Image (1,016 downloads)",
    "date_published": "2026-11-09T17:48:06Z",
    "url": "https://huggingface.co/PrunaAI/P-H3-Image",
    "content_text": "Trending outside tracked labs: PrunaAI/P-H3-Image (1,016 downloads)"
   },
   {
-   "id": "2026-11-09T17:48:06Z-185952726",
+   "id": "2026-11-09T17:48:06Z-1832256837",
    "title": "Trending outside tracked labs: baidu/ERNIE-5.5-Flash-Base (1,699 downloads)",
    "date_published": "2026-11-09T17:48:06Z",
    "url": "https://huggingface.co/baidu/ERNIE-5.5-Flash-Base",
    "content_text": "Trending outside tracked labs: baidu/ERNIE-5.5-Flash-Base (1,699 downloads)"
   },
   {
-   "id": "2026-11-09T17:48:06Z-2239503918",
+   "id": "2026-11-09T17:48:06Z-858819518",
    "title": "Trending outside tracked labs: FusionCow/Sulphur-3 (1,022 downloads)",
    "date_published": "2026-11-09T17:48:06Z",
    "url": "https://huggingface.co/FusionCow/Sulphur-3",
    "content_text": "Trending outside tracked labs: FusionCow/Sulphur-3 (1,022 downloads)"
   },
   {
-   "id": "2026-11-09T17:48:06Z-2481170958",
+   "id": "2026-11-09T17:48:06Z-3836566589",
    "title": "Trending outside tracked labs: mradermacher/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic-i1-GGUF (217,408 downloads)",
    "date_published": "2026-11-09T17:48:06Z",
    "url": "https://huggingface.co/mradermacher/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic-i1-GGUF",
    "content_text": "Trending outside tracked labs: mradermacher/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic-i1-GGUF (217,408 downloads)"
   },
   {
-   "id": "2026-11-09T17:48:06Z-3944223213",
+   "id": "2026-11-09T17:48:06Z-3193208307",
    "title": "Trending outside tracked labs: Pika-Labs/Pika-H3-Flex (1,083 downloads)",
    "date_published": "2026-11-09T17:48:06Z",
    "url": "https://huggingface.co/Pika-Labs/Pika-H3-Flex",
    "content_text": "Trending outside tracked labs: Pika-Labs/Pika-H3-Flex (1,083 downloads)"
   },
   {
-   "id": "2026-11-09T17:48:06Z-3513186013",
+   "id": "2026-11-09T17:48:06Z-1122481487",
    "title": "Trending outside tracked labs: autotrust/Qwen3.8-Flash-Next-E384-FP4-V2 (46,017 downloads)",
    "date_published": "2026-11-09T17:48:06Z",
    "url": "https://huggingface.co/autotrust/Qwen3.8-Flash-Next-E384-FP4-V2",
