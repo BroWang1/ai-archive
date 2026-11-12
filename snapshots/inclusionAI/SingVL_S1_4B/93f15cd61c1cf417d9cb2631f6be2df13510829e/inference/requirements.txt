@@ -1,0 +1,7 @@
+# Use hardware-compatible builds of PyTorch and torchvision.
+torch==2.10.0
+torchvision==0.25.0
+transformers==5.13.1
+Pillow==11.3.0
+fastapi==0.136.1
+uvicorn==0.47.0

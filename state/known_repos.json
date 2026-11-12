@@ -939,6 +939,8 @@
     ],
     "MiniMaxAI": [
       "MiniMaxAI/MiniMax-H3",
+      "MiniMaxAI/MiniMax-H3-Image",
+      "MiniMaxAI/MiniMax-H3-Image-PE",
       "MiniMaxAI/MiniMax-M1-40k",
       "MiniMaxAI/MiniMax-M1-40k-hf",
       "MiniMaxAI/MiniMax-M1-80k",
@@ -1415,6 +1417,7 @@
       "inclusionAI/SingGuard-NSFA-4B-GGUF",
       "inclusionAI/SingGuard-NSFA-9B",
       "inclusionAI/SingGuard-NSFA-9B-GGUF",
+      "inclusionAI/SingVL_S1_4B",
       "inclusionAI/Step-3.7-Flash-singprobe",
       "inclusionAI/TC-AE",
       "inclusionAI/TwinFlow",
@@ -1431,6 +1434,10 @@
       "inclusionAI/VISTA-4B",
       "inclusionAI/VISTA-9B",
       "inclusionAI/ViLaSR",
+      "inclusionAI/ZoomGain-4B",
+      "inclusionAI/ZoomGain-4B-GGUF",
+      "inclusionAI/ZoomGain-9B",
+      "inclusionAI/ZoomGain-9B-GGUF",
       "inclusionAI/ZwZ-2B",
       "inclusionAI/ZwZ-2B-GGUF",
       "inclusionAI/ZwZ-4B",
@@ -2142,5 +2149,5 @@
     ]
   },
   "first_run_done": true,
-  "last_run": "2026-11-09T17:47:47Z"
+  "last_run": "2026-11-12T16:13:48Z"
 }

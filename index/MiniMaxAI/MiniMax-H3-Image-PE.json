@@ -1,0 +1,180 @@
+{
+  "repo_id": "MiniMaxAI/MiniMax-H3-Image-PE",
+  "canonical_org": "MiniMaxAI",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "35603d4b63949afa12cb098227fffefedf081afa",
+      "captured_at": "2026-11-12T16:14:11Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/MiniMaxAI/MiniMax-H3-Image-PE?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"a475-yHFIIB+WzZ5FL8aB3P1EVPdpJWg\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "other",
+        "file": null,
+        "sha256": null,
+        "redistributable": null,
+        "obligations": [],
+        "freedom": "restricted",
+        "freedom_note": "MiniMax H3 Community License: EXCLUDES the US, EU, UK and South Korea \u2014 do not mirror from US infrastructure"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1772,
+          "sha256": "21130ccb7e52937b7e8a2f6668f77ac0bb5cea9c4f924a1551f301585c3ec23a",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 13188,
+          "sha256": "b215c9ff2fcc401d34515559cd520f63bfe705df6a9538c9f048e1a6ecaf6e1c",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/minimax-h3-image.jpg",
+          "size": 604227,
+          "sha256": "5e007e09a3b4c943628b78db63646b1a1c515f363733efd0260bafa200311211",
+          "kind": "snapshot"
+        },
+        {
+          "path": "chat_template.jinja",
+          "size": 8952,
+          "sha256": "c3cf9e34abf4f9e36c2d72165aa9c132d3e2a725b6c2586aaa3a8af9d7a81041",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 37526,
+          "sha256": "427ba497599c4a59d5882f1832369d82920dac99fd55ad56eccd3d02e9b1ccdf",
+          "kind": "snapshot"
+        },
+        {
+          "path": "generation_config.json",
+          "size": 306,
+          "sha256": "cff27a6859feabcf61753d3879aa769a118bb74f0b559d1c7e5ab4f1c5623007",
+          "kind": "snapshot"
+        },
+        {
+          "path": "hf_quant_config.json",
+          "size": 9968,
+          "sha256": "29f2470957db2701d005973f4158cca9ce8ea3b3139fb76c94c5733647dbc329",
+          "kind": "snapshot"
+        },
+        {
+          "path": "model-00001-of-00004.safetensors",
+          "size": 4976117204,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00002-of-00004.safetensors",
+          "size": 4990902864,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00003-of-00004.safetensors",
+          "size": 4995248056,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00004-of-00004.safetensors",
+          "size": 2953855884,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model.safetensors.index.json",
+          "size": 236472,
+          "sha256": "884c902d6ebe2e55dc51e164ef3190bd016818cfe12228b8c9d5f727de11af0f",
+          "kind": "snapshot"
+        },
+        {
+          "path": "processor_config.json",
+          "size": 1191,
+          "sha256": "d89ef49ce9cd37fbf510158e13c1ef063d9286411c1ec9049932dbe0487143b1",
+          "kind": "snapshot"
+        },
+        {
+          "path": "prompt/edit/task_prompt.txt",
+          "size": 38489,
+          "sha256": "c5695dbfc07a9e65555cef67d92467c613371cc2039b96f057022246a30a57b2",
+          "kind": "snapshot"
+        },
+        {
+          "path": "prompt/manifest.json",
+          "size": 611,
+          "sha256": "6b0969322669d9713e33148d36c401f73b18939337ea2384d90dc457430b6a5b",
+          "kind": "snapshot"
+        },
+        {
+          "path": "prompt/t2i/request_params.json",
+          "size": 1034,
+          "sha256": "dfc608bf0c02dd6ce7463be636aa8b148aef200513fa4c46e653ee2e5affbe3e",
+          "kind": "snapshot"
+        },
+        {
+          "path": "prompt/t2i/system_prompt.txt",
+          "size": 327,
+          "sha256": "818ab3f652ec36b3b489b55c29f072f87e14af703cd11a4f3bff75f423d0beac",
+          "kind": "snapshot"
+        },
+        {
+          "path": "prompt/t2i/task_prompt.txt",
+          "size": 15821,
+          "sha256": "890213ad61e143bbd5b7906a802430296e82ca5c61ba16df717dcef5477bbcf4",
+          "kind": "snapshot"
+        },
+        {
+          "path": "requirements.txt",
+          "size": 31,
+          "sha256": "e7e963d35d3cbe42833cbd4ea2c8ceb272bb38860bbcf959b3b9a6079a1e59ff",
+          "kind": "snapshot"
+        },
+        {
+          "path": "scripts/expand_prompt.py",
+          "size": 5808,
+          "sha256": "5163efde4f4d367c756fb4c2b10e9635d9b8d3d7b323e102d2da7e02a0725ef3",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer.json",
+          "size": 19989325,
+          "sha256": "06b9509352d2af50381ab2247e083b80d32d5c0aba91c272ca9ff729b6a0e523",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 1116,
+          "sha256": "ac0ef305ebf7c0eb1d657249aff0c03045c8369924f3109cbfb46f5d97001f80",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 17937090172,
+      "weight_bytes": 17916124008,
+      "snapshot_dir": "snapshots/MiniMaxAI/MiniMax-H3-Image-PE/35603d4b63949afa12cb098227fffefedf081afa/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

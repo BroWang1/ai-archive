@@ -1,0 +1,10 @@
+{
+  "state": "<image>\n<image>\n",
+  "questions": {
+    "which": {
+      "type": "choice",
+      "instructions": "Which image is red?",
+      "criteria": {"first": "The first image", "second": "The second image"}
+    }
+  }
+}

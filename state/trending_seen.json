@@ -227,9 +227,17 @@
     "autotrust/AutoTrust-JEV-27B-v1.1",
     "Cactus-Compute/mirage",
     "pyannote/speaker-diarization-3.1",
-    "facebook/sam-3d-body-dinov3"
+    "facebook/sam-3d-body-dinov3",
+    "Comfy-Org/MiniMax-H3-Image",
+    "mradermacher/gemma-4-31B-it-ARA-heretic-GGUF",
+    "Zyphra/ZONOS3-Mini",
+    "taobao-mnn/MNN-Pocket-0.3B",
+    "ConceptCountry/qwen-concept-27b",
+    "autotrust/AutoTrust-Decider-Pro-Vision-27B-v1.1",
+    "DavidAU/Qwen3.8-27B-Ultimate-Heretic-Uncensored-Turbo-Brilliance-50x-AGI-NEO-GGUF",
+    "chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized"
   ],
-  "last_run": "2026-11-09T17:48:06Z",
+  "last_run": "2026-11-12T16:14:41Z",
   "log": [
     {
       "id": "prism-ml/Ternary-Bonsai-2-27B-gguf",
@@ -1180,6 +1188,46 @@
       "id": "facebook/sam-3d-body-dinov3",
       "at": "2026-11-09T17:48:06Z",
       "downloads": 13307
+    },
+    {
+      "id": "Comfy-Org/MiniMax-H3-Image",
+      "at": "2026-11-12T16:14:41Z",
+      "downloads": 835593
+    },
+    {
+      "id": "mradermacher/gemma-4-31B-it-ARA-heretic-GGUF",
+      "at": "2026-11-12T16:14:41Z",
+      "downloads": 96342
+    },
+    {
+      "id": "Zyphra/ZONOS3-Mini",
+      "at": "2026-11-12T16:14:41Z",
+      "downloads": 8543
+    },
+    {
+      "id": "taobao-mnn/MNN-Pocket-0.3B",
+      "at": "2026-11-12T16:14:41Z",
+      "downloads": 3397
+    },
+    {
+      "id": "ConceptCountry/qwen-concept-27b",
+      "at": "2026-11-12T16:14:41Z",
+      "downloads": 62460
+    },
+    {
+      "id": "autotrust/AutoTrust-Decider-Pro-Vision-27B-v1.1",
+      "at": "2026-11-12T16:14:41Z",
+      "downloads": 143748
+    },
+    {
+      "id": "DavidAU/Qwen3.8-27B-Ultimate-Heretic-Uncensored-Turbo-Brilliance-50x-AGI-NEO-GGUF",
+      "at": "2026-11-12T16:14:41Z",
+      "downloads": 42279
+    },
+    {
+      "id": "chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized",
+      "at": "2026-11-12T16:14:41Z",
+      "downloads": 49053
     }
   ]
 }

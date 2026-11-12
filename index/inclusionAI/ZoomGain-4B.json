@@ -1,0 +1,120 @@
+{
+  "repo_id": "inclusionAI/ZoomGain-4B",
+  "canonical_org": "inclusionAI",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "2ac9e28f1de993b4d7b6ebeda1368ff2e6982a71",
+      "captured_at": "2026-11-12T16:14:23Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/inclusionAI/ZoomGain-4B?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"2942-dYQOEPcNlggLqBr8v5O6YrXJYs4\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": null,
+        "file": null,
+        "sha256": null,
+        "redistributable": false,
+        "obligations": [],
+        "freedom": "unlicensed",
+        "freedom_note": "No license tag and no file \u2014 cannot redistribute"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1794,
+          "sha256": "367dffadd1a5e940250ff38b316013d0e108a4fc014c38fe55444c09c4f5f417",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 9154,
+          "sha256": "0c22c67fba32b002c9629d8c32bc2c446ea929da75acf9af4f61f6debf38665f",
+          "kind": "snapshot"
+        },
+        {
+          "path": "chat_template.jinja",
+          "size": 7756,
+          "sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 2904,
+          "sha256": "755b11f4496928c6dd84d2a34ef200a0d7cba6bdffe5cc4e7c5fe1ff8a093945",
+          "kind": "snapshot"
+        },
+        {
+          "path": "docs/figures/zoomgain-overview.png",
+          "size": 629993,
+          "sha256": "8d6a893764b959bea6b44fd28b92a151da54af65f18904e97570b70e9d93592b",
+          "kind": "snapshot"
+        },
+        {
+          "path": "docs/figures/zoomgain-pipeline.png",
+          "size": 892315,
+          "sha256": "9d08f114ad82b175af7e2d8cd679e34ade1a044ecfaf17962528e614746d2738",
+          "kind": "snapshot"
+        },
+        {
+          "path": "docs/figures/zoomgain-rl-training-results.png",
+          "size": 335084,
+          "sha256": "4a836c91de819072882534a28b9960ed49cb6b1254ac7e02d7f170b9da9bc2de",
+          "kind": "snapshot"
+        },
+        {
+          "path": "generation_config.json",
+          "size": 204,
+          "sha256": "944b9abc4ec388933cc00c757a7b794683929e5a02e5123853892a5750645689",
+          "kind": "snapshot"
+        },
+        {
+          "path": "model.safetensors",
+          "size": 9078620536,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "processor_config.json",
+          "size": 1191,
+          "sha256": "d89ef49ce9cd37fbf510158e13c1ef063d9286411c1ec9049932dbe0487143b1",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer.json",
+          "size": 19989325,
+          "sha256": "06b9509352d2af50381ab2247e083b80d32d5c0aba91c272ca9ff729b6a0e523",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 1165,
+          "sha256": "792fa3f0cb88b111e54ef3134c873531008c4df471d108da17903426e308aa7b",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 9100491421,
+      "weight_bytes": 9078620536,
+      "snapshot_dir": "snapshots/inclusionAI/ZoomGain-4B/2ac9e28f1de993b4d7b6ebeda1368ff2e6982a71/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

@@ -232,7 +232,8 @@
       "MiniMax-AI/OpenAgentCore",
       "MiniMax-AI/homebrew-tap",
       "MiniMax-AI/mcode-stack",
-      "MiniMax-AI/mcode-agent-table"
+      "MiniMax-AI/mcode-agent-table",
+      "MiniMax-AI/MiniMax-H3-Image"
     ],
     "InternLM": [
       "InternLM/SciDocBench",
@@ -476,7 +477,8 @@
       "vllm-project/vmon",
       "vllm-project/vllm-jax",
       "vllm-project/vllm-sail",
-      "vllm-project/vllm-torchtpu"
+      "vllm-project/vllm-torchtpu",
+      "vllm-project/rust-pcre2"
     ]
   },
   "log": [
@@ -1064,8 +1066,18 @@
       "id": "ggml-org/llama-brand",
       "at": "2026-11-09T17:48:06Z",
       "desc": "Brand assets for Llama and llama.cpp"
+    },
+    {
+      "id": "MiniMax-AI/MiniMax-H3-Image",
+      "at": "2026-11-12T16:14:41Z",
+      "desc": "MiniMax-H3-Image, an open-weight model for 16-megapixel image generation and editing."
+    },
+    {
+      "id": "vllm-project/rust-pcre2",
+      "at": "2026-11-12T16:14:41Z",
+      "desc": "High level Rust bindings to PCRE2."
     }
   ],
   "first_run_done": true,
-  "last_run": "2026-11-09T17:48:06Z"
+  "last_run": "2026-11-12T16:14:41Z"
 }

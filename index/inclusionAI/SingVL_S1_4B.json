@@ -1,0 +1,180 @@
+{
+  "repo_id": "inclusionAI/SingVL_S1_4B",
+  "canonical_org": "inclusionAI",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "93f15cd61c1cf417d9cb2631f6be2df13510829e",
+      "captured_at": "2026-11-12T16:14:29Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/inclusionAI/SingVL_S1_4B?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"2ed4-fE6YZM66NyPu6NND0Ufwj5azjb8\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": null,
+        "file": null,
+        "sha256": null,
+        "redistributable": false,
+        "obligations": [],
+        "freedom": "unlicensed",
+        "freedom_note": "No license tag and no file \u2014 cannot redistribute"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1570,
+          "sha256": "34448b82c17d60fec9b65b1f093c115ddbaadc04beb1b0140b6bfed2e012a930",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 9561,
+          "sha256": "1d0394f8c83dea50ec57873c9d2e5dd9802c4485d7aa3aae454dad5fae29b20f",
+          "kind": "snapshot"
+        },
+        {
+          "path": "chat_template.jinja",
+          "size": 7756,
+          "sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 8222,
+          "sha256": "715626f7bd7cf9f90ffd4f23a235eafe676394b654edb57e3e8d335b8bc543ca",
+          "kind": "snapshot"
+        },
+        {
+          "path": "generation_config.json",
+          "size": 226,
+          "sha256": "b29216376d324ca5bcacd7b762d3b8cfc3e2f39a3ffba44b208c08bf6ad1e2c3",
+          "kind": "snapshot"
+        },
+        {
+          "path": "inference/README.md",
+          "size": 10481,
+          "sha256": "68a34534367da49ca19cba6106aca16d881af5e6bf7db7c04be7be32462dd5a4",
+          "kind": "snapshot"
+        },
+        {
+          "path": "inference/SHA256SUMS",
+          "size": 802,
+          "sha256": "33a47c64f1142cddd33c1177343bbfd853b598a9065d9d0b953b5747c2abf7e3",
+          "kind": "snapshot"
+        },
+        {
+          "path": "inference/benchmark.py",
+          "size": 11061,
+          "sha256": "47c4e333c1220d903d1e91188f4aaea8b010f214b1594a868883281b0fdee2a9",
+          "kind": "snapshot"
+        },
+        {
+          "path": "inference/examples/blue.png",
+          "size": 851,
+          "sha256": "0d7a776c27ff08ec7b355d5db3e629b589f1dd153f367d71c1eb4e95f76e229a",
+          "kind": "snapshot"
+        },
+        {
+          "path": "inference/examples/red.png",
+          "size": 851,
+          "sha256": "4f55763bbb5f30e77c6a573b1c56d42126c2febfa2686da24fc32e2e76d99ce0",
+          "kind": "snapshot"
+        },
+        {
+          "path": "inference/examples/text.json",
+          "size": 291,
+          "sha256": "c7a98b7fc4e2247863c5270b50bed8dc9b78e78fc775d5f56e64958d014f4e03",
+          "kind": "snapshot"
+        },
+        {
+          "path": "inference/examples/vision.json",
+          "size": 225,
+          "sha256": "c6475acd2214ea4b47912fbe4c1acd86ae14ea0727dc8bc1c84c0b0665d899a6",
+          "kind": "snapshot"
+        },
+        {
+          "path": "inference/infer.py",
+          "size": 1800,
+          "sha256": "66fe5318a083bc846c86cc275d285f927755a6c1ac14e625c99949a844f02f35",
+          "kind": "snapshot"
+        },
+        {
+          "path": "inference/model.py",
+          "size": 13026,
+          "sha256": "ea4ab285e48914f65325e74a52912414830f1d924cf0e30809c6d93fd073254f",
+          "kind": "snapshot"
+        },
+        {
+          "path": "inference/requirements.txt",
+          "size": 164,
+          "sha256": "3e0b10110da340af605d5f956d896d0cb36bf10fd5c15cc7cbbf22cf42236f9a",
+          "kind": "snapshot"
+        },
+        {
+          "path": "inference/serve.py",
+          "size": 5539,
+          "sha256": "3b841d1b84dbe07803449977c096de15773f71e989143c201e339aafbe2f3e63",
+          "kind": "snapshot"
+        },
+        {
+          "path": "model-00001-of-00002.safetensors",
+          "size": 4999166936,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00002-of-00002.safetensors",
+          "size": 4079453496,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model.safetensors.index.json",
+          "size": 66200,
+          "sha256": "1b0d0a9636994036c00091df86d067e8b0b4b0b0f619793374e031ff4bd18cea",
+          "kind": "snapshot"
+        },
+        {
+          "path": "processor_config.json",
+          "size": 1300,
+          "sha256": "14932921ca485d458a04dafd8069fbb0a4505622a48208d19ed247115801385b",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer.json",
+          "size": 19989325,
+          "sha256": "06b9509352d2af50381ab2247e083b80d32d5c0aba91c272ca9ff729b6a0e523",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 1168,
+          "sha256": "c908cd42c5e6eac721445fb70841e45845a6a269c6ef2c595e97a578a9724671",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 9098750851,
+      "weight_bytes": 9078620432,
+      "snapshot_dir": "snapshots/inclusionAI/SingVL_S1_4B/93f15cd61c1cf417d9cb2631f6be2df13510829e/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

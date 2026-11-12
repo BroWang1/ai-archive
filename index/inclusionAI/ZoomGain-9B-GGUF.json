@@ -1,0 +1,96 @@
+{
+  "repo_id": "inclusionAI/ZoomGain-9B-GGUF",
+  "canonical_org": "inclusionAI",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "3c25485839f778c068f8813fd6284a994b8ff6f6",
+      "captured_at": "2026-11-12T16:14:36Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/inclusionAI/ZoomGain-9B-GGUF?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"2983-Xj4QEk3b4FW89Fo854HUquPmt6M\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": null,
+        "file": null,
+        "sha256": null,
+        "redistributable": false,
+        "obligations": [],
+        "freedom": "unlicensed",
+        "freedom_note": "No license tag and no file \u2014 cannot redistribute"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 43,
+          "sha256": "4cf00e98dded8779b234ba8d2356ce03ef5360f69632bd81f0f10c4c944b89d9",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 959,
+          "sha256": "dc2d52a6d391d246c7b08c7be0356acc536cab3829e888d6909ae6b7dbe2edb2",
+          "kind": "snapshot"
+        },
+        {
+          "path": "ZoomGain-9B-F16.gguf",
+          "size": 17920696928,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "ZoomGain-9B-Q4_K_M.gguf",
+          "size": 5629108832,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "ZoomGain-9B-Q8_0.gguf",
+          "size": 9527501408,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "mmproj-ZoomGain-9B-F16.gguf",
+          "size": 918165536,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "mmproj-ZoomGain-9B-Q4_K_M.gguf",
+          "size": 516095648,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "mmproj-ZoomGain-9B-Q8_0.gguf",
+          "size": 620690336,
+          "sha256": null,
+          "kind": "weights"
+        }
+      ],
+      "total_bytes": 35132259690,
+      "weight_bytes": 35132258688,
+      "snapshot_dir": "snapshots/inclusionAI/ZoomGain-9B-GGUF/3c25485839f778c068f8813fd6284a994b8ff6f6/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}
