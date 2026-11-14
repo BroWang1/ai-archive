@@ -6,280 +6,280 @@
  "description": "Captures, mirrors, takedown alerts and radar signals for open-weight AI models",
  "items": [
   {
-   "id": "2026-11-12T16:14:55Z-3727773664",
+   "id": "2026-11-12T16:14:55Z-2997766502",
    "title": "New paper mentioning DeepSeek: HandsOnAid: Building and Evaluating an Offline First-Aid Assistant for Emergency Response Scenarios",
    "date_published": "2026-11-12T16:14:55Z",
    "url": "http://arxiv.org/abs/2611.14059",
    "content_text": "New paper mentioning DeepSeek: HandsOnAid: Building and Evaluating an Offline First-Aid Assistant for Emergency Response Scenarios"
   },
   {
-   "id": "2026-11-12T16:14:55Z-1304099120",
+   "id": "2026-11-12T16:14:55Z-682016418",
    "title": "New paper mentioning DeepSeek: Can KV Cache Be Reused Across Model Updates? A DeepSeek-V4-Flash Case Study",
    "date_published": "2026-11-12T16:14:55Z",
    "url": "http://arxiv.org/abs/2611.14051",
    "content_text": "New paper mentioning DeepSeek: Can KV Cache Be Reused Across Model Updates? A DeepSeek-V4-Flash Case Study"
   },
   {
-   "id": "2026-11-12T16:14:55Z-1735629067",
+   "id": "2026-11-12T16:14:55Z-1785858829",
    "title": "New paper mentioning DeepSeek: BypassGym: A Benchmark for Evaluating AI Agents' Endpoint Defense Evasion Capabilities",
    "date_published": "2026-11-12T16:14:55Z",
    "url": "http://arxiv.org/abs/2611.13684",
    "content_text": "New paper mentioning DeepSeek: BypassGym: A Benchmark for Evaluating AI Agents' Endpoint Defense Evasion Capabilities"
   },
   {
-   "id": "2026-11-12T16:14:55Z-2953274917",
+   "id": "2026-11-12T16:14:55Z-565685004",
    "title": "New paper mentioning DeepSeek: Framing-Induced Vulnerability in Large Language Models: Evidence from Chinese News Headlines",
    "date_published": "2026-11-12T16:14:55Z",
    "url": "http://arxiv.org/abs/2611.13531",
    "content_text": "New paper mentioning DeepSeek: Framing-Induced Vulnerability in Large Language Models: Evidence from Chinese News Headlines"
   },
   {
-   "id": "2026-11-12T16:14:55Z-1518075038",
+   "id": "2026-11-12T16:14:55Z-2878784724",
    "title": "New paper mentioning DeepSeek: SLIC: Reinforcement Fine-Tuning Small LMs for Multi-Turn Analog Circuit Optimization",
    "date_published": "2026-11-12T16:14:55Z",
    "url": "http://arxiv.org/abs/2611.13452",
    "content_text": "New paper mentioning DeepSeek: SLIC: Reinforcement Fine-Tuning Small LMs for Multi-Turn Analog Circuit Optimization"
   },
   {
-   "id": "2026-11-12T16:14:55Z-3981649276",
+   "id": "2026-11-12T16:14:55Z-3632345379",
    "title": "New paper mentioning Qwen: Breakdown of Autoregressive Multi-Step Reasoning Under Concentrated vs. Diffuse Attention Head Dropout",
    "date_published": "2026-11-12T16:14:55Z",
    "url": "http://arxiv.org/abs/2611.14209",
    "content_text": "New paper mentioning Qwen: Breakdown of Autoregressive Multi-Step Reasoning Under Concentrated vs. Diffuse Attention Head Dropout"
   },
   {
-   "id": "2026-11-12T16:14:55Z-1873265503",
+   "id": "2026-11-12T16:14:55Z-910494835",
    "title": "New paper mentioning Qwen: Ontology-Guided Knowledge Graph Construction and Robust Evidence Retrieval for Indian Knowledge Systems",
    "date_published": "2026-11-12T16:14:55Z",
    "url": "http://arxiv.org/abs/2611.14050",
    "content_text": "New paper mentioning Qwen: Ontology-Guided Knowledge Graph Construction and Robust Evidence Retrieval for Indian Knowledge Systems"
   },
   {
-   "id": "2026-11-12T16:14:55Z-4008398112",
+   "id": "2026-11-12T16:14:55Z-3534058395",
    "title": "New paper mentioning Qwen: Beyond Proxy Metrics: MLLMs as Human Surrogates for Explainable AI Evaluation",
    "date_published": "2026-11-12T16:14:55Z",
    "url": "http://arxiv.org/abs/2611.13926",
    "content_text": "New paper mentioning Qwen: Beyond Proxy Metrics: MLLMs as Human Surrogates for Explainable AI Evaluation"
   },
   {
-   "id": "2026-11-12T16:14:55Z-305909370",
+   "id": "2026-11-12T16:14:55Z-4216627471",
    "title": "New paper mentioning Qwen: DialInstruct-TTS: Interactive Expressive Speech Generation via Multi-Turn Dialogue with Fine-Grained Temporal Control",
    "date_published": "2026-11-12T16:14:55Z",
    "url": "http://arxiv.org/abs/2611.13875",
    "content_text": "New paper mentioning Qwen: DialInstruct-TTS: Interactive Expressive Speech Generation via Multi-Turn Dialogue with Fine-Grained Temporal Control"
   },
   {
-   "id": "2026-11-12T16:14:55Z-1439229097",
+   "id": "2026-11-12T16:14:55Z-902814018",
    "title": "New paper mentioning Qwen: Beyond Passive Imitation: On-Policy Mid-Training Distillation for Language Models",
    "date_published": "2026-11-12T16:14:55Z",
    "url": "http://arxiv.org/abs/2611.13855",
    "content_text": "New paper mentioning Qwen: Beyond Passive Imitation: On-Policy Mid-Training Distillation for Language Models"
   },
   {
-   "id": "2026-11-12T16:14:55Z-329702430",
+   "id": "2026-11-12T16:14:55Z-165373087",
    "title": "New paper mentioning GLM-: Continual-ARC: Measuring Skill Acquisition over a Working Lifetime",
    "date_published": "2026-11-12T16:14:55Z",
    "url": "http://arxiv.org/abs/2611.14505",
    "content_text": "New paper mentioning GLM-: Continual-ARC: Measuring Skill Acquisition over a Working Lifetime"
   },
   {
-   "id": "2026-11-12T16:14:55Z-1199841119",
+   "id": "2026-11-12T16:14:55Z-3625211867",
    "title": "New paper mentioning GLM-: Model-Based Authoring of SOC Simulation Exercises for Cybersecurity Education",
    "date_published": "2026-11-12T16:14:55Z",
    "url": "http://arxiv.org/abs/2611.14227",
    "content_text": "New paper mentioning GLM-: Model-Based Authoring of SOC Simulation Exercises for Cybersecurity Education"
   },
   {
-   "id": "2026-11-12T16:14:55Z-2135651580",
+   "id": "2026-11-12T16:14:55Z-1127694612",
    "title": "New paper mentioning GLM-: M-SHIVA 1.0: A Relativistic Resistive MHD Code for Heavy-Ion Collisions, with Applications to Momentum Anisotropy and Joule Heating in QGP",
    "date_published": "2026-11-12T16:14:55Z",
    "url": "http://arxiv.org/abs/2611.13899",
    "content_text": "New paper mentioning GLM-: M-SHIVA 1.0: A Relativistic Resistive MHD Code for Heavy-Ion Collisions, with Applications to Momentum Anisotropy and Joule Heating in QGP"
   },
   {
-   "id": "2026-11-12T16:14:55Z-2829119155",
+   "id": "2026-11-12T16:14:55Z-2170435979",
    "title": "New paper mentioning GLM-: Deterministic, Reproducible Inference in Exact Integer Arithmetic, and Verifiable Distributed Inference as Its Consequence",
    "date_published": "2026-11-12T16:14:55Z",
    "url": "http://arxiv.org/abs/2611.13730",
    "content_text": "New paper mentioning GLM-: Deterministic, Reproducible Inference in Exact Integer Arithmetic, and Verifiable Distributed Inference as Its Consequence"
   },
   {
-   "id": "2026-11-12T16:14:55Z-3100533217",
+   "id": "2026-11-12T16:14:55Z-1818699002",
    "title": "HN front-page (518 pts): Gemini Decisions API",
    "date_published": "2026-11-12T16:14:55Z",
    "url": "https://news.ycombinator.com/item?id=50456791",
    "content_text": "HN front-page (518 pts): Gemini Decisions API"
   },
   {
-   "id": "2026-11-12T16:14:55Z-1396752967",
+   "id": "2026-11-12T16:14:55Z-2542239050",
    "title": "HN front-page (543 pts): A false smoke alarm almost drowned Jane Street's only NYC datacenter",
    "date_published": "2026-11-12T16:14:55Z",
    "url": "https://news.ycombinator.com/item?id=50455394",
    "content_text": "HN front-page (543 pts): A false smoke alarm almost drowned Jane Street's only NYC datacenter"
   },
   {
-   "id": "2026-11-12T16:14:55Z-4006288815",
+   "id": "2026-11-12T16:14:55Z-349784158",
    "title": "HN front-page (82 pts): Show HN: Klad, a paint app your coding agent can drive (source-available)",
    "date_published": "2026-11-12T16:14:55Z",
    "url": "https://news.ycombinator.com/item?id=50454951",
    "content_text": "HN front-page (82 pts): Show HN: Klad, a paint app your coding agent can drive (source-available)"
   },
   {
-   "id": "2026-11-12T16:14:55Z-868790857",
+   "id": "2026-11-12T16:14:55Z-1230922974",
    "title": "HN front-page (271 pts): Show HN: Yogurt \u2013 Free, private, open-source alternative to Granola",
    "date_published": "2026-11-12T16:14:55Z",
    "url": "https://news.ycombinator.com/item?id=50454625",
    "content_text": "HN front-page (271 pts): Show HN: Yogurt \u2013 Free, private, open-source alternative to Granola"
   },
   {
-   "id": "2026-11-12T16:14:55Z-2999589735",
+   "id": "2026-11-12T16:14:55Z-2101286151",
    "title": "HN front-page (331 pts): Using voltage glitching to unleash the A100 in my mining card",
    "date_published": "2026-11-12T16:14:55Z",
    "url": "https://news.ycombinator.com/item?id=50451903",
    "content_text": "HN front-page (331 pts): Using voltage glitching to unleash the A100 in my mining card"
   },
   {
-   "id": "2026-11-12T16:14:55Z-2548988288",
+   "id": "2026-11-12T16:14:55Z-4054126516",
    "title": "New paper mentioning MiniMax: Safe and Scalable Minimax Adaptive Control of Positive Systems",
    "date_published": "2026-11-12T16:14:55Z",
    "url": "http://arxiv.org/abs/2611.14021",
    "content_text": "New paper mentioning MiniMax: Safe and Scalable Minimax Adaptive Control of Positive Systems"
   },
   {
-   "id": "2026-11-12T16:14:55Z-748675869",
+   "id": "2026-11-12T16:14:55Z-3981880855",
    "title": "New paper mentioning MiniMax: Stability Analysis of Single- and Multi-Snapshot ESPRIT",
    "date_published": "2026-11-12T16:14:55Z",
    "url": "http://arxiv.org/abs/2611.13633",
    "content_text": "New paper mentioning MiniMax: Stability Analysis of Single- and Multi-Snapshot ESPRIT"
   },
   {
-   "id": "2026-11-12T16:14:55Z-2384283507",
+   "id": "2026-11-12T16:14:55Z-2328861489",
    "title": "New paper mentioning MiniMax: Simultaneous Near-Optimal Region Identification in Continuous Simulation Optimization: Minimax Complexity and Adaptive Sampling",
    "date_published": "2026-11-12T16:14:55Z",
    "url": "http://arxiv.org/abs/2611.13489",
    "content_text": "New paper mentioning MiniMax: Simultaneous Near-Optimal Region Identification in Continuous Simulation Optimization: Minimax Complexity and Adaptive Sampling"
   },
   {
-   "id": "2026-11-12T16:14:55Z-1980607022",
+   "id": "2026-11-12T16:14:55Z-4014550684",
    "title": "New paper mentioning MiniMax: Sharp Sample Complexity of KL-Regularized Reinforcement Learning",
    "date_published": "2026-11-12T16:14:55Z",
    "url": "http://arxiv.org/abs/2611.13480",
    "content_text": "New paper mentioning MiniMax: Sharp Sample Complexity of KL-Regularized Reinforcement Learning"
   },
   {
-   "id": "2026-11-12T16:14:55Z-3995989951",
+   "id": "2026-11-12T16:14:55Z-2003839941",
    "title": "New paper mentioning MiniMax: Sample complexity of learning fermionic and bosonic Gaussian states with single-copy and entangled measurements",
    "date_published": "2026-11-12T16:14:55Z",
    "url": "http://arxiv.org/abs/2611.13428",
    "content_text": "New paper mentioning MiniMax: Sample complexity of learning fermionic and bosonic Gaussian states with single-copy and entangled measurements"
   },
   {
-   "id": "2026-11-12T16:14:55Z-972699390",
+   "id": "2026-11-12T16:14:55Z-4115620922",
    "title": "HN front-page (434 pts): Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",
    "date_published": "2026-11-12T16:14:55Z",
    "url": "https://news.ycombinator.com/item?id=50443812",
    "content_text": "HN front-page (434 pts): Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives"
   },
   {
-   "id": "2026-11-12T16:14:55Z-2008264737",
+   "id": "2026-11-12T16:14:55Z-685307002",
    "title": "New paper mentioning Hunyuan: HyPLM Technical Report",
    "date_published": "2026-11-12T16:14:55Z",
    "url": "http://arxiv.org/abs/2611.12000",
    "content_text": "New paper mentioning Hunyuan: HyPLM Technical Report"
   },
   {
-   "id": "2026-11-12T16:14:55Z-822081788",
+   "id": "2026-11-12T16:14:55Z-1400029092",
    "title": "New paper mentioning Hunyuan: HyInv Technical Report",
    "date_published": "2026-11-12T16:14:55Z",
    "url": "http://arxiv.org/abs/2611.11997",
    "content_text": "New paper mentioning Hunyuan: HyInv Technical Report"
   },
   {
-   "id": "2026-11-12T16:14:55Z-2492337038",
+   "id": "2026-11-12T16:14:55Z-1328612370",
    "title": "New paper mentioning MiniCPM: When Audio and Video Mislead: Evaluating Multimodal AI for Conversational Emotion Recognition",
    "date_published": "2026-11-12T16:14:55Z",
    "url": "http://arxiv.org/abs/2611.11987",
    "content_text": "New paper mentioning MiniCPM: When Audio and Video Mislead: Evaluating Multimodal AI for Conversational Emotion Recognition"
   },
   {
-   "id": "2026-11-12T16:14:55Z-1432847114",
+   "id": "2026-11-12T16:14:55Z-4007242061",
    "title": "HN front-page (126 pts): Huawei releases MACaQ, its internal quantizer for local inference",
    "date_published": "2026-11-12T16:14:55Z",
    "url": "https://news.ycombinator.com/item?id=50458166",
    "content_text": "HN front-page (126 pts): Huawei releases MACaQ, its internal quantizer for local inference"
   },
   {
-   "id": "2026-11-12T16:14:55Z-236201958",
+   "id": "2026-11-12T16:14:55Z-2465839164",
    "title": "HN front-page (103 pts): Show HN: Godbolt-in-a-floating-window for Neovim (C, C++, Rust)",
    "date_published": "2026-11-12T16:14:55Z",
    "url": "https://news.ycombinator.com/item?id=50453229",
    "content_text": "HN front-page (103 pts): Show HN: Godbolt-in-a-floating-window for Neovim (C, C++, Rust)"
   },
   {
-   "id": "2026-11-12T16:14:55Z-4288865104",
+   "id": "2026-11-12T16:14:55Z-3614964115",
    "title": "HN front-page (1178 pts): Smart home devices should work without the internet",
    "date_published": "2026-11-12T16:14:55Z",
    "url": "https://news.ycombinator.com/item?id=50441707",
    "content_text": "HN front-page (1178 pts): Smart home devices should work without the internet"
   },
   {
-   "id": "2026-11-12T16:14:41Z-2545523404",
+   "id": "2026-11-12T16:14:41Z-4290097939",
    "title": "Trending outside tracked labs: Comfy-Org/MiniMax-H3-Image (835,593 downloads)",
    "date_published": "2026-11-12T16:14:41Z",
    "url": "https://huggingface.co/Comfy-Org/MiniMax-H3-Image",
    "content_text": "Trending outside tracked labs: Comfy-Org/MiniMax-H3-Image (835,593 downloads)"
   },
   {
-   "id": "2026-11-12T16:14:41Z-1356239701",
+   "id": "2026-11-12T16:14:41Z-1197491431",
    "title": "Trending outside tracked labs: mradermacher/gemma-4-31B-it-ARA-heretic-GGUF (96,342 downloads)",
    "date_published": "2026-11-12T16:14:41Z",
    "url": "https://huggingface.co/mradermacher/gemma-4-31B-it-ARA-heretic-GGUF",
    "content_text": "Trending outside tracked labs: mradermacher/gemma-4-31B-it-ARA-heretic-GGUF (96,342 downloads)"
   },
   {
-   "id": "2026-11-12T16:14:41Z-4064192143",
+   "id": "2026-11-12T16:14:41Z-2901468471",
    "title": "Trending outside tracked labs: Zyphra/ZONOS3-Mini (8,543 downloads)",
    "date_published": "2026-11-12T16:14:41Z",
    "url": "https://huggingface.co/Zyphra/ZONOS3-Mini",
    "content_text": "Trending outside tracked labs: Zyphra/ZONOS3-Mini (8,543 downloads)"
   },
   {
-   "id": "2026-11-12T16:14:41Z-3088770544",
+   "id": "2026-11-12T16:14:41Z-1344121888",
    "title": "Trending outside tracked labs: taobao-mnn/MNN-Pocket-0.3B (3,397 downloads)",
    "date_published": "2026-11-12T16:14:41Z",
    "url": "https://huggingface.co/taobao-mnn/MNN-Pocket-0.3B",
    "content_text": "Trending outside tracked labs: taobao-mnn/MNN-Pocket-0.3B (3,397 downloads)"
   },
   {
-   "id": "2026-11-12T16:14:41Z-641229537",
+   "id": "2026-11-12T16:14:41Z-2914206628",
    "title": "Trending outside tracked labs: ConceptCountry/qwen-concept-27b (62,460 downloads)",
    "date_published": "2026-11-12T16:14:41Z",
    "url": "https://huggingface.co/ConceptCountry/qwen-concept-27b",
    "content_text": "Trending outside tracked labs: ConceptCountry/qwen-concept-27b (62,460 downloads)"
   },
   {
-   "id": "2026-11-12T16:14:41Z-2635308959",
+   "id": "2026-11-12T16:14:41Z-1301923173",
    "title": "Trending outside tracked labs: autotrust/AutoTrust-Decider-Pro-Vision-27B-v1.1 (143,748 downloads)",
    "date_published": "2026-11-12T16:14:41Z",
    "url": "https://huggingface.co/autotrust/AutoTrust-Decider-Pro-Vision-27B-v1.1",
    "content_text": "Trending outside tracked labs: autotrust/AutoTrust-Decider-Pro-Vision-27B-v1.1 (143,748 downloads)"
   },
   {
-   "id": "2026-11-12T16:14:41Z-1592250647",
+   "id": "2026-11-12T16:14:41Z-2204621973",
    "title": "Trending outside tracked labs: DavidAU/Qwen3.8-27B-Ultimate-Heretic-Uncensored-Turbo-Brilliance-50x-AGI-NEO-GGUF (42,279 downloads)",
    "date_published": "2026-11-12T16:14:41Z",
    "url": "https://huggingface.co/DavidAU/Qwen3.8-27B-Ultimate-Heretic-Uncensored-Turbo-Brilliance-50x-AGI-NEO-GGUF",
    "content_text": "Trending outside tracked labs: DavidAU/Qwen3.8-27B-Ultimate-Heretic-Uncensored-Turbo-Brilliance-50x-AGI-NEO-GGUF (42,279 downloads)"
   },
   {
-   "id": "2026-11-12T16:14:41Z-179025079",
+   "id": "2026-11-12T16:14:41Z-4235591294",
    "title": "Trending outside tracked labs: chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized (49,053 downloads)",
    "date_published": "2026-11-12T16:14:41Z",
    "url": "https://huggingface.co/chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized",
    "content_text": "Trending outside tracked labs: chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized (49,053 downloads)"
   },
   {
-   "id": "2026-11-12T16:14:41Z-2625308050",
+   "id": "2026-11-12T16:14:41Z-3546638201",
    "title": "New lab code: MiniMax-AI/MiniMax-H3-Image \u2014 MiniMax-H3-Image, an open-weight model for 16-megapixel image generation and editing.",
    "date_published": "2026-11-12T16:14:41Z",
    "url": "https://github.com/MiniMax-AI/MiniMax-H3-Image",
