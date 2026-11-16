@@ -1,0 +1,67 @@
+{
+  "files_sha256": {
+    "README.md": "9088d44347218706b99283f4593d7762189fb62901d951c1f5dc6190b7630d59",
+    "config/chat_template.jinja": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+    "config/config.json": "715626f7bd7cf9f90ffd4f23a235eafe676394b654edb57e3e8d335b8bc543ca",
+    "config/generation_config.json": "b29216376d324ca5bcacd7b762d3b8cfc3e2f39a3ffba44b208c08bf6ad1e2c3",
+    "config/processor_config.json": "14932921ca485d458a04dafd8069fbb0a4505622a48208d19ed247115801385b",
+    "config/tokenizer.json": "06b9509352d2af50381ab2247e083b80d32d5c0aba91c272ca9ff729b6a0e523",
+    "config/tokenizer_config.json": "c908cd42c5e6eac721445fb70841e45845a6a269c6ef2c595e97a578a9724671",
+    "docs/build.md": "146ee5050ca662f7127cee1ced67d11abffe29edc76f9b315b64e48c816a53a5",
+    "docs/protocol.md": "8e189d2c27917e3b95ce823ec8ddb3bb2d7a255d701ae3330512793e9ed44aa1",
+    "evaluation/transformers-reference/PUBLIC_RESULTS.md": "b90d8b731993a24f3887eb12de33ba1a843663f6212b0441cbb852d3e20cd024",
+    "evaluation/transformers-reference/comparison.json": "3ffa38b65b5cc76aae86da8416893da7c68c63301237a3b5f13e610eee0be17f",
+    "evaluation/transformers-reference/public_audit.json": "bdbad73b151c8c70aded753b5ba3b77437aa21b35728d5ae0e2753c77f0ed22f",
+    "examples/images/blue.png": "0d7a776c27ff08ec7b355d5db3e629b589f1dd153f367d71c1eb4e95f76e229a",
+    "examples/images/red.png": "4f55763bbb5f30e77c6a573b1c56d42126c2febfa2686da24fc32e2e76d99ce0",
+    "examples/input_output.json": "95ed19ebaed346ec0044d930000ba3771f153499e8104e08484a055f46b0bd5e",
+    "examples/llama_cpp/README.md": "5a51d58b553dfccd521ac16f00bd9e8a9773069cdf1f8ee7cd86022a0a330009",
+    "examples/llama_cpp/build.py": "66796399692c11f5071825df5bac097359255ef44d3cbdf7b315071661a19ecf",
+    "examples/llama_cpp/model.py": "eca73a2df6e8b49b50f291eb84a5e1944ae62271adb3b49b5dc10ea5e8a26707",
+    "examples/llama_cpp/requirements.txt": "8768f9fb568441f50b0fef7c0535f1986ca1e93b9b62d76a8f8fdee6123062cd",
+    "examples/llama_cpp/runner.cpp": "d7d786cd964d735753010bc874fdeab7e0d1525951dcdcbfcc51e8c4ae58b8eb",
+    "examples/llama_cpp/serve.py": "bebaba5064f32c352dec6d179b2eb3e0709e5de8f0ce15561270771144e2f27a",
+    "examples/request_text.json": "d2d4b8dfdf0fa5faec684b6d4919b28852ef5cf436f3e5fd3834a6aa7be743c8",
+    "examples/request_text_readme.json": "fc9a8824bfa32d34690ef0d039042f2bce3cfb56a4a2f36e72319cad93108043",
+    "examples/request_two_images.json": "7fbf962078bdcdae906f31eb9fccbc73375e944aa48f9ddf943b2b01436c401f",
+    "examples/requests.json": "7545699da9dd68c11bec823da121ef1e67a076644b507bdefc573c321d89de33",
+    "licenses/llama.cpp-LICENSE": "94f29bbed6a22c35b992c5c6ebf0e7c92f13b836b90f36f461c9cf2f0f1d010d",
+    "manifest.json": "4bd6e5fa278fa17beca2072fcc606ddd85116a1f12d729785a08d8bf626e2455",
+    "processing/__init__.py": "4371c3711a7d9f714245614bf526ef88c3feab2c344ddd9ccb4ed366956ae935",
+    "processing/processor.py": "20c3182cc7f0834cc32f0adfcd09eaa68fc0326aeefb385dfcb9ba08d1ff3bb7",
+    "processing/protocol.py": "d4cddd01fe0bd274a597cd20a6781ed17b96c6a0bec4d77117cbb9184fc4dcfb",
+    "requirements-processing.txt": "293e40c10769bf390b233f4b648499e0fd2b6705119219d274048e3d6c6acc8a",
+    "validation/cases.py": "854a7fda0a5353403031ae5682a25fdbdf435acbb23745ffa1bb52df6d23af86",
+    "validation/documentation_validation.json": "9a52e6a407056ef8d51e4715165b5963ac12885c0783371b89705616d8f5dff4",
+    "validation/reference_bf16.jsonl": "1dab40d91f4a8beb9d55fe154dadf72fae490787b1c522ea4f0de1e99c6a5ea6",
+    "validation/reference_q4_k_m.jsonl": "2c4eca3aea181d426327ab5d08773f51d743da90925233bfa3da7c0244364819",
+    "validation/reference_q8_0.jsonl": "12d599c52b1bef237abcc0a77b23699cc7c7d2607a2cb1ee07f770e5ed4791ba",
+    "validation/release_validation.json": "d0c13e36dc6f869a88502f668e65d4aabb0bea875b66f199d0b0727132c46926",
+    "validation/validate_backend.py": "7199d0fa99939baef3d0c62efd21bb15ad9f6851400256a132965cc8e43b2790",
+    "validation/validate_processing.py": "9fc32244627021254979402804691a1c158fcc1164bceb5613757e5508410b6c",
+    ".gitignore": "ad581e67bfe2490d1c71c5322ae6d920e96f25c4027a1b24d5b84bcb3e7cf310"
+  },
+  "weights": [
+    {
+      "file": "models/SingVL-4B-BF16.gguf",
+      "bytes": 8424393248,
+      "sha256": "ad80d37a194cd0d0e6dc64e0db1e01a2c75a999c823355d9dcc72148f9dbe70b"
+    },
+    {
+      "file": "models/SingVL-4B-Q8_0.gguf",
+      "bytes": 4482402848,
+      "sha256": "08b7b31f0e9f1c5503c5ec99bfe8437c261dbaeddf51aa2a8f8410a750c71fe6"
+    },
+    {
+      "file": "models/SingVL-4B-Q4_K_M.gguf",
+      "bytes": 2708804128,
+      "sha256": "195f9f2313ef6eaf47e36a5e267f41b641bfa05358eebcd09904113396115843"
+    },
+    {
+      "file": "models/mmproj-SingVL-4B-F16.gguf",
+      "bytes": 672422944,
+      "sha256": "92d0fa45a5696e4f1136db61c1261ad4b74d5290f0e9638023b3af71de11e857"
+    }
+  ],
+  "weight_hash_source": "Existing conversion manifest; byte sizes rechecked during documentation update"
+}

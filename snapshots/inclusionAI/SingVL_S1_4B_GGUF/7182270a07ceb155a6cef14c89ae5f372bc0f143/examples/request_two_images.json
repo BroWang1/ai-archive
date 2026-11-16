@@ -1,0 +1,17 @@
+{
+  "state": {},
+  "questions": {
+    "which": {
+      "type": "choice",
+      "instructions": "Which image is red?",
+      "criteria": {
+        "first": "The first image",
+        "second": "The second image"
+      }
+    }
+  },
+  "images": [
+    "blue.png",
+    "red.png"
+  ]
+}

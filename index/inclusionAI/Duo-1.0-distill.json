@@ -1,0 +1,102 @@
+{
+  "repo_id": "inclusionAI/Duo-1.0-distill",
+  "canonical_org": "inclusionAI",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "d985f450f51c77da553df76b53aeb71b8fa70774",
+      "captured_at": "2026-11-16T17:27:18Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/inclusionAI/Duo-1.0-distill?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"75f-VbamJ2l+PL3vnpJsE54vxICXfIo\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "other",
+        "file": "LICENSE",
+        "sha256": "59b99642b95ea21630e311198ddbfffbfe05aadba0c2f5d884cbdf4efcc90f44",
+        "redistributable": null,
+        "obligations": [],
+        "freedom": "conditional",
+        "freedom_note": "Custom license ('other') \u2014 read before redistributing"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1646,
+          "sha256": "f7b0f39c11e8821227ee8308f72855af17a52e0ffe31c9961967e02dfd720421",
+          "kind": "snapshot"
+        },
+        {
+          "path": "LICENSE",
+          "size": 17604,
+          "sha256": "59b99642b95ea21630e311198ddbfffbfe05aadba0c2f5d884cbdf4efcc90f44",
+          "kind": "snapshot"
+        },
+        {
+          "path": "NOTICE",
+          "size": 121,
+          "sha256": "b4a38059f3351a6d2822e0d4f9c24df2de29ac69cf555830f56a6e5269e569a7",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 2364,
+          "sha256": "e5b8ba1daaf170c893390a08cac09a2aaa99cf0c124ac485d6da6481926b01ac",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/duo-logo.svg",
+          "size": 9755,
+          "sha256": "a5233d7b5e458b47c1bcdaf55e881aeca338e0b69ae35958cade8b0c25bcce37",
+          "kind": "snapshot"
+        },
+        {
+          "path": "realization/complete.json",
+          "size": 17794,
+          "sha256": "bb519fc07443c2241fd5898c086ad06aa29132bf76dd6eda9a3b5f312d657feb",
+          "kind": "snapshot"
+        },
+        {
+          "path": "realization/dcp/.metadata",
+          "size": 207733,
+          "sha256": "4ca08a328ea6ecc19490bd16605164d07dd9d8dcd7d3b0774c4d9358349be10a",
+          "kind": "snapshot"
+        },
+        {
+          "path": "realization/dcp/__0_0.distcp",
+          "size": 2784751539,
+          "sha256": null,
+          "kind": "skipped-large"
+        },
+        {
+          "path": "release.json",
+          "size": 173,
+          "sha256": "85f3750a13a3defa7deb38c614a0544274525c918fe650d6a441296cfe1461b8",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 2785008729,
+      "weight_bytes": 0,
+      "snapshot_dir": "snapshots/inclusionAI/Duo-1.0-distill/d985f450f51c77da553df76b53aeb71b8fa70774/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

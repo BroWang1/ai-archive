@@ -1025,6 +1025,10 @@
       "internlm/SIM_COT-LLaMA3-CODI-8B",
       "internlm/SWE-Fixer-Editor-72B",
       "internlm/SWE-Fixer-Retriever-7B",
+      "internlm/Sage-S2.1",
+      "internlm/Sage-S2.1-FP8",
+      "internlm/Sage-S2.1-Flash",
+      "internlm/Sage-S2.1-Flash-FP8",
       "internlm/Sage-SciPerception",
       "internlm/Spark-VL-7B",
       "internlm/Spatial-SSRL-3B",
@@ -1249,6 +1253,10 @@
       "inclusionAI/DR-Venus-4B-SFT",
       "inclusionAI/DR-Venus-4B-SFT-GGUF",
       "inclusionAI/DeepSeek-V4-Flash-0731-singprobe",
+      "inclusionAI/Duo-1.0-causal-base",
+      "inclusionAI/Duo-1.0-distill",
+      "inclusionAI/Duo-1.0-distill-quant",
+      "inclusionAI/Duo-1.2-causal-base",
       "inclusionAI/GLM-5.2-singprobe",
       "inclusionAI/GLM-5.3-Flash-singprobe",
       "inclusionAI/GLM-5.3-singprobe",
@@ -1418,6 +1426,7 @@
       "inclusionAI/SingGuard-NSFA-9B",
       "inclusionAI/SingGuard-NSFA-9B-GGUF",
       "inclusionAI/SingVL_S1_4B",
+      "inclusionAI/SingVL_S1_4B_GGUF",
       "inclusionAI/Step-3.7-Flash-singprobe",
       "inclusionAI/TC-AE",
       "inclusionAI/TwinFlow",
@@ -2149,5 +2158,5 @@
     ]
   },
   "first_run_done": true,
-  "last_run": "2026-11-12T16:13:48Z"
+  "last_run": "2026-11-16T17:26:15Z"
 }

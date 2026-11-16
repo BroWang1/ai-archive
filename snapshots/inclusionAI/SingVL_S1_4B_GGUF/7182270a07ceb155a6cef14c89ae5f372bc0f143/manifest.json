@@ -1,0 +1,28 @@
+{
+  "upstream_commit": "f3b407ca1bfeeecebf9e9ef19fcd6eed565bd70a",
+  "weights": [
+    {
+      "file": "models/SingVL-4B-BF16.gguf",
+      "bytes": 8424393248,
+      "sha256": "ad80d37a194cd0d0e6dc64e0db1e01a2c75a999c823355d9dcc72148f9dbe70b"
+    },
+    {
+      "file": "models/SingVL-4B-Q8_0.gguf",
+      "bytes": 4482402848,
+      "sha256": "08b7b31f0e9f1c5503c5ec99bfe8437c261dbaeddf51aa2a8f8410a750c71fe6"
+    },
+    {
+      "file": "models/SingVL-4B-Q4_K_M.gguf",
+      "bytes": 2708804128,
+      "sha256": "195f9f2313ef6eaf47e36a5e267f41b641bfa05358eebcd09904113396115843"
+    },
+    {
+      "file": "models/mmproj-SingVL-4B-F16.gguf",
+      "bytes": 672422944,
+      "sha256": "92d0fa45a5696e4f1136db61c1261ad4b74d5290f0e9638023b3af71de11e857"
+    }
+  ],
+  "attention": "bidirectional full attention, causal GDN",
+  "readout": "last-valid-input-position",
+  "reference_backend": "llama.cpp CPU; GPU/PPU not validated"
+}

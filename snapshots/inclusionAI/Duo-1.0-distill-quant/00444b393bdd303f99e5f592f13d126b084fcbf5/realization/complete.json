@@ -1,0 +1,175 @@
+{
+  "checkpoint_id": "Duo-1.0-distill-quant",
+  "files": {
+    "config.json": {
+      "sha256": "41eab05feecd6cfd608daa37bf3ce64905726cd3fa849d66d623cb86a90394ab",
+      "size": 2914
+    },
+    "diffusion_pytorch_model-00001-of-00018.safetensors": {
+      "sha256": "6df920f0adeea573c5b805db45ea09454388ca161b4a21fcd229921465ef3eb7",
+      "size": 2872360784
+    },
+    "diffusion_pytorch_model-00002-of-00018.safetensors": {
+      "sha256": "bc75e9450883355ecabad096c41c0fc2c56e9a9db110b186cc7182d55ec2c97e",
+      "size": 2949459056
+    },
+    "diffusion_pytorch_model-00003-of-00018.safetensors": {
+      "sha256": "cde782aba01288892a2d8fd956b0c55f81e8346af01e38a94a552b44cee32305",
+      "size": 2718111456
+    },
+    "diffusion_pytorch_model-00004-of-00018.safetensors": {
+      "sha256": "82f1c120a3126170eff3ab34dfccde4a933d3d8b7a21b9dd8432993ee0512039",
+      "size": 2718111488
+    },
+    "diffusion_pytorch_model-00005-of-00018.safetensors": {
+      "sha256": "5019a28b47d3ce5f5430cf8a9992b6a055b827fe1302e75260ffd25562940429",
+      "size": 2718111496
+    },
+    "diffusion_pytorch_model-00006-of-00018.safetensors": {
+      "sha256": "b0704f861b935b9eb6a9c71d675fc371a7818168ec05c9336e7fe24f1123033c",
+      "size": 2718111496
+    },
+    "diffusion_pytorch_model-00007-of-00018.safetensors": {
+      "sha256": "c0044ba26c7b134ae1f5ef03cd506fbc6901f6528b69ccbfd7caa780a3c18225",
+      "size": 2718111496
+    },
+    "diffusion_pytorch_model-00008-of-00018.safetensors": {
+      "sha256": "faf37ec82b0081940431b8fc50ec8f468e35b27c23fc0f6a1eed62a29c769d58",
+      "size": 2718111496
+    },
+    "diffusion_pytorch_model-00009-of-00018.safetensors": {
+      "sha256": "3f3514561cad589af36c51875c6a8729a5e465dc30f3689a22bdf66a1ffe24ce",
+      "size": 2718111496
+    },
+    "diffusion_pytorch_model-00010-of-00018.safetensors": {
+      "sha256": "88538e10c5239c8d66dfa17baa20b0afc7ffe2f6cd9e275756842ea458613b74",
+      "size": 2718111496
+    },
+    "diffusion_pytorch_model-00011-of-00018.safetensors": {
+      "sha256": "45f565146c4010acd133ba1a63cea1be0bc91fca976474342371c1a63192c70c",
+      "size": 2718111496
+    },
+    "diffusion_pytorch_model-00012-of-00018.safetensors": {
+      "sha256": "2d19f6b22d93058cdde68827fbe8a226de195937a3b0923370c06b1dfe092cab",
+      "size": 2718111496
+    },
+    "diffusion_pytorch_model-00013-of-00018.safetensors": {
+      "sha256": "3d98f403a30afc87b635037f6996739aa57399d972dc537ac85dee5ec291cb20",
+      "size": 2718111496
+    },
+    "diffusion_pytorch_model-00014-of-00018.safetensors": {
+      "sha256": "1dcf5ef19f1752c8e68104737174eeb56440cd851cc8de8a2094d18ae2df5784",
+      "size": 2718111496
+    },
+    "diffusion_pytorch_model-00015-of-00018.safetensors": {
+      "sha256": "5cfbcbc36aed4bd85965d7246d1023f2014530622872dd542508a639c75cf424",
+      "size": 2718111496
+    },
+    "diffusion_pytorch_model-00016-of-00018.safetensors": {
+      "sha256": "acbdb6c74fa2f9a574e9d1fd02f027d9f65db3c27a5c8c059470e0e548a69ee9",
+      "size": 2718111496
+    },
+    "diffusion_pytorch_model-00017-of-00018.safetensors": {
+      "sha256": "158cd9ee7ab331c4fb2a06ddc59f6c06167c31ebe25db86cdb6f23a00bb83b7a",
+      "size": 2932878904
+    },
+    "diffusion_pytorch_model-00018-of-00018.safetensors": {
+      "sha256": "d737169b3db33961a9033763080da106178d35f6c2a7e77f2a64a344fc2dacfb",
+      "size": 216891408
+    },
+    "diffusion_pytorch_model.safetensors.index.json": {
+      "sha256": "f4943b298b3dc8e65c642c23a42cd4d76b04331274e8e75b7962ded186873702",
+      "size": 66997
+    }
+  },
+  "format": "duo-release-modelopt-v1",
+  "identity": {
+    "codec": {
+      "audio_hop": 800,
+      "audio_latents_per_block": 29,
+      "audio_sample_rate": 32000,
+      "decode_policy": "exact_delay_eof_last_two",
+      "feature_dtype": "torch.bfloat16",
+      "fps": 24,
+      "frame_spans": [
+        1,
+        4,
+        4,
+        4,
+        4
+      ],
+      "frames_per_block": 17,
+      "mode": "duo_5_17",
+      "normalization": "duo_channel_mean_std",
+      "posterior": "mean",
+      "vae_dtype": "torch.float32",
+      "version": 1,
+      "video_autocast_dtype": "torch.bfloat16",
+      "video_latents_per_block": 5,
+      "weights": {
+        "diffusion_pytorch_model.safetensors": "52c59e67ba8de5477c81bfbced0327aabf500f1bfdeefd5ee754529241cb26cb",
+        "model.safetensors": "5f0c2e161d895a9fee7645ca32d4a7e3a22b90cacfcbeba62ec999cdbbefe0d3"
+      }
+    },
+    "intent": {
+      "adapter_weights": {
+        "adapter_model.safetensors": "2f7de1b18f515398f3c56c35b7472c9a15033ddd7f544822c6786bf91853d021"
+      },
+      "chunk_token": "<chunk_708>",
+      "fps": 24,
+      "frames_per_block": 17,
+      "protocol_manifest_sha256": "bb650b4233bb62781208bb3e59665111455a6f6ebdcc4f0390b4ebe8729c48db"
+    },
+    "realization": {
+      "condition_dropout": 0.0,
+      "mode": "full",
+      "quantization": "modelopt_fp8_per_channel",
+      "role_embedding": false
+    }
+  },
+  "inference": {
+    "flow_shift": 5.0,
+    "sampling_steps": 4
+  },
+  "models": {
+    "realization": {
+      "config": {
+        "attention_head_dim": 128,
+        "audio_in_channels": 32,
+        "ffn_dim": 14336,
+        "final_norm_eps": 1e-05,
+        "freq_dim": 256,
+        "hidden_size": 5376,
+        "in_channels": 24,
+        "norm_eps": 1e-05,
+        "num_attention_heads": 56,
+        "num_layers": 50,
+        "num_refiner_layers": 2,
+        "patch_size": [
+          1,
+          2,
+          2
+        ],
+        "qk_norm_eps": 1e-05,
+        "rope_freq_dim": 16,
+        "rope_theta": 10000.0,
+        "text_dim": 5120,
+        "time_embed_dim": 2688,
+        "time_embed_hidden_dim": 5376
+      },
+      "lora": null,
+      "mode": "full",
+      "role_embedding": false,
+      "storage": {
+        "format": "modelopt_fp8",
+        "index": "diffusion_pytorch_model.safetensors.index.json",
+        "path": "."
+      }
+    }
+  },
+  "release": {
+    "name": "Duo-1.0-distill-quant",
+    "realization_storage": "modelopt_fp8"
+  },
+  "stage": "dmd"
+}

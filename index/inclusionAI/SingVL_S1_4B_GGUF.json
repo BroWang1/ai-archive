@@ -1,0 +1,318 @@
+{
+  "repo_id": "inclusionAI/SingVL_S1_4B_GGUF",
+  "canonical_org": "inclusionAI",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "7182270a07ceb155a6cef14c89ae5f372bc0f143",
+      "captured_at": "2026-11-16T17:27:27Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/inclusionAI/SingVL_S1_4B_GGUF?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"37f3-bLaooUNqkW7bZpIixwAW4bbLGTI\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": null,
+        "file": null,
+        "sha256": null,
+        "redistributable": false,
+        "obligations": [],
+        "freedom": "unlicensed",
+        "freedom_note": "No license tag and no file \u2014 cannot redistribute"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1837,
+          "sha256": "45b569117c03d49584b682a344ebae10e4ca2af367fc41b0279eee14a421b4a7",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 7372,
+          "sha256": "167cc37000eb63c1d16635df7859201d2a09f7987e7ae2f079f881c802822456",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config/chat_template.jinja",
+          "size": 7756,
+          "sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config/config.json",
+          "size": 8222,
+          "sha256": "715626f7bd7cf9f90ffd4f23a235eafe676394b654edb57e3e8d335b8bc543ca",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config/generation_config.json",
+          "size": 226,
+          "sha256": "b29216376d324ca5bcacd7b762d3b8cfc3e2f39a3ffba44b208c08bf6ad1e2c3",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config/processor_config.json",
+          "size": 1300,
+          "sha256": "14932921ca485d458a04dafd8069fbb0a4505622a48208d19ed247115801385b",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config/tokenizer.json",
+          "size": 19989325,
+          "sha256": "06b9509352d2af50381ab2247e083b80d32d5c0aba91c272ca9ff729b6a0e523",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config/tokenizer_config.json",
+          "size": 1168,
+          "sha256": "c908cd42c5e6eac721445fb70841e45845a6a269c6ef2c595e97a578a9724671",
+          "kind": "snapshot"
+        },
+        {
+          "path": "docs/build.md",
+          "size": 4282,
+          "sha256": "146ee5050ca662f7127cee1ced67d11abffe29edc76f9b315b64e48c816a53a5",
+          "kind": "snapshot"
+        },
+        {
+          "path": "docs/protocol.md",
+          "size": 5673,
+          "sha256": "8e189d2c27917e3b95ce823ec8ddb3bb2d7a255d701ae3330512793e9ed44aa1",
+          "kind": "snapshot"
+        },
+        {
+          "path": "evaluation/transformers-reference/PUBLIC_RESULTS.md",
+          "size": 3559,
+          "sha256": "b90d8b731993a24f3887eb12de33ba1a843663f6212b0441cbb852d3e20cd024",
+          "kind": "snapshot"
+        },
+        {
+          "path": "evaluation/transformers-reference/comparison.json",
+          "size": 500,
+          "sha256": "3ffa38b65b5cc76aae86da8416893da7c68c63301237a3b5f13e610eee0be17f",
+          "kind": "snapshot"
+        },
+        {
+          "path": "evaluation/transformers-reference/public_audit.json",
+          "size": 557,
+          "sha256": "bdbad73b151c8c70aded753b5ba3b77437aa21b35728d5ae0e2753c77f0ed22f",
+          "kind": "snapshot"
+        },
+        {
+          "path": "examples/images/blue.png",
+          "size": 851,
+          "sha256": "0d7a776c27ff08ec7b355d5db3e629b589f1dd153f367d71c1eb4e95f76e229a",
+          "kind": "snapshot"
+        },
+        {
+          "path": "examples/images/red.png",
+          "size": 851,
+          "sha256": "4f55763bbb5f30e77c6a573b1c56d42126c2febfa2686da24fc32e2e76d99ce0",
+          "kind": "snapshot"
+        },
+        {
+          "path": "examples/input_output.json",
+          "size": 940,
+          "sha256": "95ed19ebaed346ec0044d930000ba3771f153499e8104e08484a055f46b0bd5e",
+          "kind": "snapshot"
+        },
+        {
+          "path": "examples/llama_cpp/README.md",
+          "size": 819,
+          "sha256": "5a51d58b553dfccd521ac16f00bd9e8a9773069cdf1f8ee7cd86022a0a330009",
+          "kind": "snapshot"
+        },
+        {
+          "path": "examples/llama_cpp/build.py",
+          "size": 955,
+          "sha256": "66796399692c11f5071825df5bac097359255ef44d3cbdf7b315071661a19ecf",
+          "kind": "snapshot"
+        },
+        {
+          "path": "examples/llama_cpp/model.py",
+          "size": 4586,
+          "sha256": "eca73a2df6e8b49b50f291eb84a5e1944ae62271adb3b49b5dc10ea5e8a26707",
+          "kind": "snapshot"
+        },
+        {
+          "path": "examples/llama_cpp/requirements.txt",
+          "size": 70,
+          "sha256": "8768f9fb568441f50b0fef7c0535f1986ca1e93b9b62d76a8f8fdee6123062cd",
+          "kind": "snapshot"
+        },
+        {
+          "path": "examples/llama_cpp/runner.cpp",
+          "size": 5538,
+          "sha256": "d7d786cd964d735753010bc874fdeab7e0d1525951dcdcbfcc51e8c4ae58b8eb",
+          "kind": "snapshot"
+        },
+        {
+          "path": "examples/llama_cpp/serve.py",
+          "size": 5536,
+          "sha256": "bebaba5064f32c352dec6d179b2eb3e0709e5de8f0ce15561270771144e2f27a",
+          "kind": "snapshot"
+        },
+        {
+          "path": "examples/request_text.json",
+          "size": 223,
+          "sha256": "d2d4b8dfdf0fa5faec684b6d4919b28852ef5cf436f3e5fd3834a6aa7be743c8",
+          "kind": "snapshot"
+        },
+        {
+          "path": "examples/request_text_readme.json",
+          "size": 533,
+          "sha256": "fc9a8824bfa32d34690ef0d039042f2bce3cfb56a4a2f36e72319cad93108043",
+          "kind": "snapshot"
+        },
+        {
+          "path": "examples/request_two_images.json",
+          "size": 280,
+          "sha256": "7fbf962078bdcdae906f31eb9fccbc73375e944aa48f9ddf943b2b01436c401f",
+          "kind": "snapshot"
+        },
+        {
+          "path": "examples/requests.json",
+          "size": 1081,
+          "sha256": "7545699da9dd68c11bec823da121ef1e67a076644b507bdefc573c321d89de33",
+          "kind": "snapshot"
+        },
+        {
+          "path": "licenses/llama.cpp-LICENSE",
+          "size": 1078,
+          "sha256": "94f29bbed6a22c35b992c5c6ebf0e7c92f13b836b90f36f461c9cf2f0f1d010d",
+          "kind": "snapshot"
+        },
+        {
+          "path": "manifest.json",
+          "size": 926,
+          "sha256": "4bd6e5fa278fa17beca2072fcc606ddd85116a1f12d729785a08d8bf626e2455",
+          "kind": "snapshot"
+        },
+        {
+          "path": "models/SingVL-4B-BF16.gguf",
+          "size": 8424393248,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "models/SingVL-4B-Q4_K_M.gguf",
+          "size": 2708804128,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "models/SingVL-4B-Q8_0.gguf",
+          "size": 4482402848,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "models/mmproj-SingVL-4B-F16.gguf",
+          "size": 672422944,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "processing/__init__.py",
+          "size": 82,
+          "sha256": "4371c3711a7d9f714245614bf526ef88c3feab2c344ddd9ccb4ed366956ae935",
+          "kind": "snapshot"
+        },
+        {
+          "path": "processing/processor.py",
+          "size": 4425,
+          "sha256": "20c3182cc7f0834cc32f0adfcd09eaa68fc0326aeefb385dfcb9ba08d1ff3bb7",
+          "kind": "snapshot"
+        },
+        {
+          "path": "processing/protocol.py",
+          "size": 6358,
+          "sha256": "d4cddd01fe0bd274a597cd20a6781ed17b96c6a0bec4d77117cbb9184fc4dcfb",
+          "kind": "snapshot"
+        },
+        {
+          "path": "release-manifest.json",
+          "size": 4959,
+          "sha256": "d0a4a1e85d0ed4cd06cc72d9eadb50febcd539c69361897277edc91a154c8279",
+          "kind": "snapshot"
+        },
+        {
+          "path": "requirements-processing.txt",
+          "size": 154,
+          "sha256": "293e40c10769bf390b233f4b648499e0fd2b6705119219d274048e3d6c6acc8a",
+          "kind": "snapshot"
+        },
+        {
+          "path": "validation/cases.py",
+          "size": 1342,
+          "sha256": "854a7fda0a5353403031ae5682a25fdbdf435acbb23745ffa1bb52df6d23af86",
+          "kind": "snapshot"
+        },
+        {
+          "path": "validation/documentation_validation.json",
+          "size": 876,
+          "sha256": "9a52e6a407056ef8d51e4715165b5963ac12885c0783371b89705616d8f5dff4",
+          "kind": "snapshot"
+        },
+        {
+          "path": "validation/reference_bf16.jsonl",
+          "size": 57744,
+          "sha256": "1dab40d91f4a8beb9d55fe154dadf72fae490787b1c522ea4f0de1e99c6a5ea6",
+          "kind": "snapshot"
+        },
+        {
+          "path": "validation/reference_q4_k_m.jsonl",
+          "size": 57753,
+          "sha256": "2c4eca3aea181d426327ab5d08773f51d743da90925233bfa3da7c0244364819",
+          "kind": "snapshot"
+        },
+        {
+          "path": "validation/reference_q8_0.jsonl",
+          "size": 57707,
+          "sha256": "12d599c52b1bef237abcc0a77b23699cc7c7d2607a2cb1ee07f770e5ed4791ba",
+          "kind": "snapshot"
+        },
+        {
+          "path": "validation/release_validation.json",
+          "size": 1254,
+          "sha256": "d0c13e36dc6f869a88502f668e65d4aabb0bea875b66f199d0b0727132c46926",
+          "kind": "snapshot"
+        },
+        {
+          "path": "validation/validate_backend.py",
+          "size": 1601,
+          "sha256": "7199d0fa99939baef3d0c62efd21bb15ad9f6851400256a132965cc8e43b2790",
+          "kind": "snapshot"
+        },
+        {
+          "path": "validation/validate_processing.py",
+          "size": 1882,
+          "sha256": "9fc32244627021254979402804691a1c158fcc1164bceb5613757e5508410b6c",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 16308275349,
+      "weight_bytes": 16288023168,
+      "snapshot_dir": "snapshots/inclusionAI/SingVL_S1_4B_GGUF/7182270a07ceb155a6cef14c89ae5f372bc0f143/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

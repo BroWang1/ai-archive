@@ -1,0 +1,534 @@
+{
+  "repo_id": "inclusionAI/Duo-1.2-causal-base",
+  "canonical_org": "inclusionAI",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "fe15c35f6214d75cc31906c56e7342f97634d22e",
+      "captured_at": "2026-11-16T17:27:04Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/inclusionAI/Duo-1.2-causal-base?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"39ee-SMIYfGEeUEktY6xq620Zx3/iinA\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "other",
+        "file": "LICENSE",
+        "sha256": "59b99642b95ea21630e311198ddbfffbfe05aadba0c2f5d884cbdf4efcc90f44",
+        "redistributable": null,
+        "obligations": [],
+        "freedom": "conditional",
+        "freedom_note": "Custom license ('other') \u2014 read before redistributing"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1712,
+          "sha256": "e9daf3f9e16342a01759cbb0527253041c1b7f6a5896e4f139624bbf77be3977",
+          "kind": "snapshot"
+        },
+        {
+          "path": "LICENSE",
+          "size": 17604,
+          "sha256": "59b99642b95ea21630e311198ddbfffbfe05aadba0c2f5d884cbdf4efcc90f44",
+          "kind": "snapshot"
+        },
+        {
+          "path": "NOTICE",
+          "size": 121,
+          "sha256": "b4a38059f3351a6d2822e0d4f9c24df2de29ac69cf555830f56a6e5269e569a7",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 2216,
+          "sha256": "57a74ed7bdb5b33792e5d71f8deac0e88b6e5bb16a177fd283b6177019b314f0",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/duo-logo.svg",
+          "size": 9755,
+          "sha256": "a5233d7b5e458b47c1bcdaf55e881aeca338e0b69ae35958cade8b0c25bcce37",
+          "kind": "snapshot"
+        },
+        {
+          "path": "codec/audio_vae/diffusion_pytorch_model.safetensors",
+          "size": 605429340,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "codec/video_vae/model.safetensors",
+          "size": 10415548320,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "intent/chat_template.json",
+          "size": 5499,
+          "sha256": "5c72a170d2a4a1a3bc5adad2e689ae28138a9700e5b8c96c0266331e86c0acce",
+          "kind": "snapshot"
+        },
+        {
+          "path": "intent/config.json",
+          "size": 1474,
+          "sha256": "d2dd0c60d01b9e195d9447c52da61c7302d28828524914c044d9c6e1b81d0427",
+          "kind": "snapshot"
+        },
+        {
+          "path": "intent/merges.txt",
+          "size": 1671839,
+          "sha256": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3",
+          "kind": "snapshot"
+        },
+        {
+          "path": "intent/model-00001-of-00014.safetensors",
+          "size": 4932328944,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "intent/model-00002-of-00014.safetensors",
+          "size": 4875990528,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "intent/model-00003-of-00014.safetensors",
+          "size": 4875990552,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "intent/model-00004-of-00014.safetensors",
+          "size": 4875990584,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "intent/model-00005-of-00014.safetensors",
+          "size": 4875990584,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "intent/model-00006-of-00014.safetensors",
+          "size": 4875990584,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "intent/model-00007-of-00014.safetensors",
+          "size": 4875990584,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "intent/model-00008-of-00014.safetensors",
+          "size": 4875990584,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "intent/model-00009-of-00014.safetensors",
+          "size": 4875990584,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "intent/model-00010-of-00014.safetensors",
+          "size": 4875990584,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "intent/model-00011-of-00014.safetensors",
+          "size": 4875990584,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "intent/model-00012-of-00014.safetensors",
+          "size": 4875990584,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "intent/model-00013-of-00014.safetensors",
+          "size": 4875990584,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "intent/model-00014-of-00014.safetensors",
+          "size": 3270697008,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "intent/model.safetensors.index.json",
+          "size": 97831,
+          "sha256": "06c952c569285870b811989b794b9766493e280fb77fbcb957fc4e5fcf25403a",
+          "kind": "snapshot"
+        },
+        {
+          "path": "intent/preprocessor_config.json",
+          "size": 390,
+          "sha256": "27225450ac9c6529872ee1924fcb0962ff5634834f817040f444118116f4e516",
+          "kind": "snapshot"
+        },
+        {
+          "path": "intent/tokenizer.json",
+          "size": 7032403,
+          "sha256": "a5d85b6dcc535e6b93115a9ef287e6132fdbf30270da6218194ba742261173c7",
+          "kind": "snapshot"
+        },
+        {
+          "path": "intent/tokenizer_config.json",
+          "size": 11003,
+          "sha256": "a07e942ac874baa13758de8d1fbdb186683cc03416b5589e1b6671c6b3057c68",
+          "kind": "snapshot"
+        },
+        {
+          "path": "intent/video_preprocessor_config.json",
+          "size": 385,
+          "sha256": "7768af27c1fafa9cc9011c1dc20067e03f8915e03b63504550e11d5066986d13",
+          "kind": "snapshot"
+        },
+        {
+          "path": "intent/vocab.json",
+          "size": 2776833,
+          "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+          "kind": "snapshot"
+        },
+        {
+          "path": "intent_adapter/README.md",
+          "size": 188,
+          "sha256": "836388b46438e9a9ffc6d8fcb32545e746ef369e949931142594878c79846eaa",
+          "kind": "snapshot"
+        },
+        {
+          "path": "intent_adapter/adapter_config.json",
+          "size": 1054,
+          "sha256": "6d1515258df08d3979739a9572ee1afd08e713286b03778b52b1d14de0b27751",
+          "kind": "snapshot"
+        },
+        {
+          "path": "intent_adapter/adapter_model.safetensors",
+          "size": 84867880,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "intent_adapter/added_tokens.json",
+          "size": 996,
+          "sha256": "5ea52fc17892ad603dae6d17884b73b21d03b141aaf7b717cf3de073301a4c68",
+          "kind": "snapshot"
+        },
+        {
+          "path": "intent_adapter/chat_template.jinja",
+          "size": 5292,
+          "sha256": "3636d0f0bd6bef02654cdffdc447b79cb2cef8ab02cc75267345946291a489e4",
+          "kind": "snapshot"
+        },
+        {
+          "path": "intent_adapter/merges.txt",
+          "size": 1671853,
+          "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5",
+          "kind": "snapshot"
+        },
+        {
+          "path": "intent_adapter/protocol_manifest.json",
+          "size": 1813,
+          "sha256": "bb650b4233bb62781208bb3e59665111455a6f6ebdcc4f0390b4ebe8729c48db",
+          "kind": "snapshot"
+        },
+        {
+          "path": "intent_adapter/special_tokens_map.json",
+          "size": 956,
+          "sha256": "300643746ff2856acbc44d6a13e553e26427eaa79deb798e751686c78fed4c83",
+          "kind": "snapshot"
+        },
+        {
+          "path": "intent_adapter/tokenizer.json",
+          "size": 11424899,
+          "sha256": "08a5d3b401f178931d3c3a2e937ab8847095e407625d18806f8704f30ed474fe",
+          "kind": "snapshot"
+        },
+        {
+          "path": "intent_adapter/tokenizer_config.json",
+          "size": 7746,
+          "sha256": "ceeb16164011cb8c0134fd4d883eb549983867d800e3b3c54b51db30d9f032fa",
+          "kind": "snapshot"
+        },
+        {
+          "path": "intent_adapter/vocab.json",
+          "size": 2776833,
+          "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+          "kind": "snapshot"
+        },
+        {
+          "path": "realization/backbone/config.json",
+          "size": 604,
+          "sha256": "f619093a231fcfbcc3d035bec26c50ad864e7331a500d5c519f5045dc1e50458",
+          "kind": "snapshot"
+        },
+        {
+          "path": "realization/backbone/model-00001-of-00013.safetensors",
+          "size": 5227812968,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "realization/backbone/model-00002-of-00013.safetensors",
+          "size": 5164578856,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "realization/backbone/model-00003-of-00013.safetensors",
+          "size": 5164578872,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "realization/backbone/model-00004-of-00013.safetensors",
+          "size": 5164578896,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "realization/backbone/model-00005-of-00013.safetensors",
+          "size": 5164578896,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "realization/backbone/model-00006-of-00013.safetensors",
+          "size": 5164578896,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "realization/backbone/model-00007-of-00013.safetensors",
+          "size": 5164578896,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "realization/backbone/model-00008-of-00013.safetensors",
+          "size": 5164578896,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "realization/backbone/model-00009-of-00013.safetensors",
+          "size": 5164578896,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "realization/backbone/model-00010-of-00013.safetensors",
+          "size": 5164578896,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "realization/backbone/model-00011-of-00013.safetensors",
+          "size": 5164578896,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "realization/backbone/model-00012-of-00013.safetensors",
+          "size": 5164578896,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "realization/backbone/model-00013-of-00013.safetensors",
+          "size": 4242305176,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "realization/backbone/model.safetensors.index.json",
+          "size": 38323,
+          "sha256": "fb457a26ffa6294660e249b0ddd03a337f2e5393f770b5c34c8b8f90a29a7efb",
+          "kind": "snapshot"
+        },
+        {
+          "path": "realization/complete.json",
+          "size": 17804,
+          "sha256": "86c61a4a31adb755cf79ecd39a74b264a77ea9cd9897988c7213e6c3a4f3c1b0",
+          "kind": "snapshot"
+        },
+        {
+          "path": "realization/dcp/.metadata",
+          "size": 206259,
+          "sha256": "e0a1e8802adb2fde9ddb6231056fca479a683014cad387ca39f8fc4f8f6cfd0e",
+          "kind": "snapshot"
+        },
+        {
+          "path": "realization/dcp/__0_0.distcp",
+          "size": 2784751539,
+          "sha256": null,
+          "kind": "skipped-large"
+        },
+        {
+          "path": "release.json",
+          "size": 147,
+          "sha256": "1bf47c4cc8eb0717cbe3c3df3bdae6115f66bb868b0629963499bd0f5888ab4d",
+          "kind": "snapshot"
+        },
+        {
+          "path": "speech/forced-aligner/README.md",
+          "size": 57456,
+          "sha256": "5058416891bc47a2051557765997e8c42f8eb78a0e33c3e775bd17d4b0ba4d50",
+          "kind": "snapshot"
+        },
+        {
+          "path": "speech/forced-aligner/chat_template.json",
+          "size": 1161,
+          "sha256": "75a8cfca24f00de72d796fbfed6858fc9614ef3dabd8696684cc3bc03a9c58ff",
+          "kind": "snapshot"
+        },
+        {
+          "path": "speech/forced-aligner/config.json",
+          "size": 5982,
+          "sha256": "d616c65d46c4b90bdc651b0a0963ea932732241140f337f9bb6b0335a9c8ef09",
+          "kind": "snapshot"
+        },
+        {
+          "path": "speech/forced-aligner/configuration.json",
+          "size": 56,
+          "sha256": "c57f6a580d63f7465c6a22ba95847aee05a1ae1181f5abddffb943d9febda061",
+          "kind": "snapshot"
+        },
+        {
+          "path": "speech/forced-aligner/generation_config.json",
+          "size": 115,
+          "sha256": "948d089b23bca1d214e768d59c4438365665f52ec6d33678f4062206b3fbbb8c",
+          "kind": "snapshot"
+        },
+        {
+          "path": "speech/forced-aligner/merges.txt",
+          "size": 1671853,
+          "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5",
+          "kind": "snapshot"
+        },
+        {
+          "path": "speech/forced-aligner/model.safetensors",
+          "size": 1835544544,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "speech/forced-aligner/preprocessor_config.json",
+          "size": 330,
+          "sha256": "45e120a4eda2c20c5d7f2ea9354e63536bf35e27aa573fb7cdf78017b378770d",
+          "kind": "snapshot"
+        },
+        {
+          "path": "speech/forced-aligner/tokenizer_config.json",
+          "size": 12666,
+          "sha256": "3ab80063f8511deb9566e6ad438d17b7a6277fcffd52d92854112f19d36bd81c",
+          "kind": "snapshot"
+        },
+        {
+          "path": "speech/forced-aligner/vocab.json",
+          "size": 2776833,
+          "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+          "kind": "snapshot"
+        },
+        {
+          "path": "speech/recognizer/README.md",
+          "size": 57456,
+          "sha256": "5058416891bc47a2051557765997e8c42f8eb78a0e33c3e775bd17d4b0ba4d50",
+          "kind": "snapshot"
+        },
+        {
+          "path": "speech/recognizer/chat_template.json",
+          "size": 1161,
+          "sha256": "75a8cfca24f00de72d796fbfed6858fc9614ef3dabd8696684cc3bc03a9c58ff",
+          "kind": "snapshot"
+        },
+        {
+          "path": "speech/recognizer/config.json",
+          "size": 6194,
+          "sha256": "2e74a751548b8ad7d7526d29365ad8144c345d8b412b1152d25dc6698452712f",
+          "kind": "snapshot"
+        },
+        {
+          "path": "speech/recognizer/generation_config.json",
+          "size": 142,
+          "sha256": "1da527824d81e07118facff437e03f2e24a23311e3bdeb2368973fe77e5f275c",
+          "kind": "snapshot"
+        },
+        {
+          "path": "speech/recognizer/merges.txt",
+          "size": 1671853,
+          "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5",
+          "kind": "snapshot"
+        },
+        {
+          "path": "speech/recognizer/model-00001-of-00002.safetensors",
+          "size": 4220320824,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "speech/recognizer/model-00002-of-00002.safetensors",
+          "size": 478200688,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "speech/recognizer/model.safetensors.index.json",
+          "size": 64821,
+          "sha256": "f994739fe38e5210b9e3e8ce6c6307315e2ceac3cb630e7b7414d69dce520f60",
+          "kind": "snapshot"
+        },
+        {
+          "path": "speech/recognizer/preprocessor_config.json",
+          "size": 330,
+          "sha256": "45e120a4eda2c20c5d7f2ea9354e63536bf35e27aa573fb7cdf78017b378770d",
+          "kind": "snapshot"
+        },
+        {
+          "path": "speech/recognizer/tokenizer_config.json",
+          "size": 12487,
+          "sha256": "4942d005604266809309cabc9f4e9cb89ce855d59b14681fdc0e1cc62ea26c4c",
+          "kind": "snapshot"
+        },
+        {
+          "path": "speech/recognizer/vocab.json",
+          "size": 2776833,
+          "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 153456963504,
+      "weight_bytes": 150635310404,
+      "snapshot_dir": "snapshots/inclusionAI/Duo-1.2-causal-base/fe15c35f6214d75cc31906c56e7342f97634d22e/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

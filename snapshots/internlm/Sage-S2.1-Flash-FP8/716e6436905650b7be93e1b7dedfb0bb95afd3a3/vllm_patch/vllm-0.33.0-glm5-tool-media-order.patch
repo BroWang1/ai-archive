@@ -1,0 +1,96 @@
+diff --git a/vllm/renderers/hf.py b/vllm/renderers/hf.py
+index fa8a1db..17f0741 100644
+--- a/vllm/renderers/hf.py
++++ b/vllm/renderers/hf.py
+@@ -80,6 +80,75 @@ if TYPE_CHECKING:
+ logger = init_logger(__name__)
+ 
+ 
++# Sage-S2.1-Flash tool-result media order (patch for vLLM 0.33.0, see
++# vllm_patch/README.md in the model directory). The Sage-S2.1-Flash chat
++# template renders a contiguous block of tool results in the preceding
++# assistant's ``tool_calls`` order when its ``can_sort`` rule holds, while
++# ``parse_chat_messages`` collects media in message order; the multimodal
++# processor pairs the i-th placeholder with the i-th item, so results returned
++# out of call order got each other's images. Sorting such a block up front makes
++# the collection order the rendered placeholder order; the template renders the
++# sorted block the same way.
++def _glm5_next_tool_media_order(
++    messages: list[ChatCompletionMessageParam], model_config: ModelConfig
++) -> list[ChatCompletionMessageParam]:
++    if getattr(model_config.hf_config, "model_type", None) != "glm5_next":
++        return messages
++
++    def id_of(obj: Any) -> str:
++        # The template's id_of: tool_call_id, else id, rendered as text.
++        if not isinstance(obj, dict):
++            return ""
++        for key in ("tool_call_id", "id"):
++            if obj.get(key):
++                return str(obj[key])
++        return ""
++
++    def has_media(message: Any) -> bool:
++        content = message.get("content") if isinstance(message, dict) else None
++        return isinstance(content, list) and any(
++            isinstance(part, dict) and part.get("type") not in (None, "text", "tool_reference")
++            for part in content
++        )
++
++    ordered = list(messages)
++    start = 0
++    while start < len(ordered):
++        if not isinstance(ordered[start], dict) or ordered[start].get("role") != "tool":
++            start += 1
++            continue
++        end = start
++        while (
++            end + 1 < len(ordered)
++            and isinstance(ordered[end + 1], dict)
++            and ordered[end + 1].get("role") == "tool"
++        ):
++            end += 1
++        block = ordered[start : end + 1]
++        previous = ordered[start - 1] if start else None
++        calls = (
++            previous.get("tool_calls")
++            if isinstance(previous, dict) and previous.get("role") == "assistant"
++            else None
++        ) or []
++        result_ids = [id_of(m) for m in block]
++        call_ids = [id_of(c) for c in calls]
++        if (
++            len(block) > 1
++            and any(has_media(m) for m in block)
++            and call_ids
++            and all(result_ids)
++            and len(set(result_ids)) == len(result_ids)
++            and all(call_ids)
++            and len(set(call_ids)) == len(call_ids)
++            and set(result_ids) <= set(call_ids)
++        ):
++            position = {call_id: i for i, call_id in enumerate(call_ids)}
++            ordered[start : end + 1] = sorted(block, key=lambda m: position[id_of(m)])
++        start = end + 1
++    return ordered
++
++
+ # Cache of `tokenizer -> prompt_embeds placeholder token ID`. Keyed by the
+ # tokenizer object (not `id(tokenizer)`) so a fresh tokenizer landing at a
+ # recycled memory address can't pick up a stale tid. Entries evict atomically
+@@ -1115,6 +1184,7 @@ class HfRenderer(BaseRenderer[HfTokenizer]):
+                 _ensure_prompt_embeds_placeholder_token(tokenizer)
+             )
+ 
++        messages = _glm5_next_tool_media_order(messages, model_config)
+         conversation, mm_data, mm_uuids = parse_chat_messages(
+             messages,
+             model_config,
+@@ -1238,6 +1308,7 @@ class HfRenderer(BaseRenderer[HfTokenizer]):
+                 _ensure_prompt_embeds_placeholder_token(tokenizer)
+             )
+ 
++        messages = _glm5_next_tool_media_order(messages, model_config)
+         conversation, mm_data, mm_uuids = await parse_chat_messages_async(
+             messages,
+             model_config,

@@ -1,0 +1,7 @@
+{
+  "complete_bundle": false,
+  "dependency": "inclusionAI/Duo-1.0-causal-base",
+  "name": "Duo-1.0-distill",
+  "realization": "realization",
+  "schema": "duo-release-v1"
+}

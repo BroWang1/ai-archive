@@ -1,0 +1,60 @@
+{
+  "format_version": "sage-projector-v1",
+  "component_type": "scientific_projector",
+  "task": "protein-struct/psr",
+  "weights": "projector.safetensors",
+  "projector": {
+    "id": "scientific-protein-struct-positions",
+    "kind": "atom",
+    "modality": "protein-struct",
+    "feature_dim": 384,
+    "tokens": null,
+    "hidden_dim": 1024,
+    "index_dim": 32,
+    "max_atoms": 512,
+    "task_head_outputs": 1
+  },
+  "output_dim": 4096,
+  "base_model": {
+    "id": "sage-s2.1-flash",
+    "dtype": "bfloat16",
+    "training_fingerprint": "5ee460cdfdf10fb465a973ab32c235161d43903648bbd3905912dae82f5e79e4"
+  },
+  "prompt": {
+    "system": "You are reading one protein structure. Answer from the supplied scientific payload. Give brief reasoning and then the requested answer format.",
+    "names": [
+      [
+        "protein structure"
+      ],
+      [
+        "First protein structure",
+        "Second protein structure"
+      ]
+    ],
+    "template_kwargs": {
+      "reasoning_effort": "low"
+    },
+    "include_reasoning": true,
+    "atom_numbering": false
+  },
+  "scientific_inputs": [
+    {
+      "encoder": {
+        "name": "proteinmpnn-v48-020",
+        "checkpoint_sha256": "c9cb4a671d79604111231f8dbfc7c590e06f1197453b7a6854ac6661a642f5bd",
+        "states": "three encoder layers concatenated per residue, at most 256 contiguous mean bins"
+      },
+      "preprocessing": null,
+      "scientific_readout": null,
+      "side_features_per_object": false,
+      "representation": {
+        "feature_dim": 384,
+        "modality": "protein-struct",
+        "rows": 25912,
+        "maximum_tokens": 256
+      }
+    }
+  ],
+  "training_step": 400,
+  "projector_dtype": "float32"
+}

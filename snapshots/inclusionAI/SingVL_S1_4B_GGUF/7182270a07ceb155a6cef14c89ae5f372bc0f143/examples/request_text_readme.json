@@ -1,0 +1,26 @@
+{
+  "state": "The color is red. ",
+  "questions": {
+    "color": {
+      "type": "choice",
+      "instructions": "Which color is named?",
+      "criteria": {
+        "red": "Red",
+        "blue": "Blue"
+      }
+    },
+    "yesno": {
+      "type": "noul",
+      "instructions": "Is the named color red?"
+    },
+    "redness": {
+      "type": "score",
+      "instructions": "How clearly does the text identify the color as red?",
+      "criteria": [
+        "Not red",
+        "Possibly red",
+        "Clearly red"
+      ]
+    }
+  }
+}

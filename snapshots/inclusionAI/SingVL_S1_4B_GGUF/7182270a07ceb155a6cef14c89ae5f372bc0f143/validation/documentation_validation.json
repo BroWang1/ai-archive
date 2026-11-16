@@ -1,0 +1,30 @@
+{
+  "complete": true,
+  "scope": "Release documentation and package organization",
+  "updated_files": [
+    "README.md",
+    "examples/llama_cpp/README.md",
+    "docs/build.md",
+    "docs/protocol.md",
+    "evaluation/transformers-reference/PUBLIC_RESULTS.md",
+    "evaluation/transformers-reference/comparison.json",
+    "evaluation/transformers-reference/public_audit.json"
+  ],
+  "source_code_unchanged": true,
+  "weight_byte_sizes_match_original_manifest": true,
+  "weight_content_rehashed": false,
+  "processing_validation": {
+    "complete": true,
+    "cases": 9,
+    "questions": 11,
+    "input_tokens_and_image_grids_match": true,
+    "postprocessing_matches": true
+  },
+  "gguf_full_public_evaluation": "pending",
+  "reference_public_scores": {
+    "backend": "source Transformers model",
+    "text": 69.76,
+    "vision": 73.74949871316771
+  },
+  "uploaded": false
+}

@@ -1,0 +1,210 @@
+{
+  "repo_id": "inclusionAI/Duo-1.0-distill-quant",
+  "canonical_org": "inclusionAI",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "00444b393bdd303f99e5f592f13d126b084fcbf5",
+      "captured_at": "2026-11-16T17:27:23Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/inclusionAI/Duo-1.0-distill-quant?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"1996-nN7tH2Ug4xzGO3smKZ82b0W/Qso\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "other",
+        "file": "LICENSE",
+        "sha256": "59b99642b95ea21630e311198ddbfffbfe05aadba0c2f5d884cbdf4efcc90f44",
+        "redistributable": null,
+        "obligations": [],
+        "freedom": "conditional",
+        "freedom_note": "Custom license ('other') \u2014 read before redistributing"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1519,
+          "sha256": "11ad7efa24975ee4b0c3c3a38ed18737f0658a5f75a0a96787b576a78a023361",
+          "kind": "snapshot"
+        },
+        {
+          "path": "LICENSE",
+          "size": 17604,
+          "sha256": "59b99642b95ea21630e311198ddbfffbfe05aadba0c2f5d884cbdf4efcc90f44",
+          "kind": "snapshot"
+        },
+        {
+          "path": "NOTICE",
+          "size": 121,
+          "sha256": "b4a38059f3351a6d2822e0d4f9c24df2de29ac69cf555830f56a6e5269e569a7",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 2406,
+          "sha256": "95304e5a358ace80c8afe9bdd37cc7ee41dc69308af945e788186e1c9dc118ed",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/duo-logo.svg",
+          "size": 9755,
+          "sha256": "a5233d7b5e458b47c1bcdaf55e881aeca338e0b69ae35958cade8b0c25bcce37",
+          "kind": "snapshot"
+        },
+        {
+          "path": "realization/complete.json",
+          "size": 5985,
+          "sha256": "4935fbffbb650542cf772cfbfc1d367936658d881c8df3988ff861cab4fe809e",
+          "kind": "snapshot"
+        },
+        {
+          "path": "realization/config.json",
+          "size": 2914,
+          "sha256": "41eab05feecd6cfd608daa37bf3ce64905726cd3fa849d66d623cb86a90394ab",
+          "kind": "snapshot"
+        },
+        {
+          "path": "realization/diffusion_pytorch_model-00001-of-00018.safetensors",
+          "size": 2872360784,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "realization/diffusion_pytorch_model-00002-of-00018.safetensors",
+          "size": 2949459056,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "realization/diffusion_pytorch_model-00003-of-00018.safetensors",
+          "size": 2718111456,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "realization/diffusion_pytorch_model-00004-of-00018.safetensors",
+          "size": 2718111488,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "realization/diffusion_pytorch_model-00005-of-00018.safetensors",
+          "size": 2718111496,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "realization/diffusion_pytorch_model-00006-of-00018.safetensors",
+          "size": 2718111496,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "realization/diffusion_pytorch_model-00007-of-00018.safetensors",
+          "size": 2718111496,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "realization/diffusion_pytorch_model-00008-of-00018.safetensors",
+          "size": 2718111496,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "realization/diffusion_pytorch_model-00009-of-00018.safetensors",
+          "size": 2718111496,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "realization/diffusion_pytorch_model-00010-of-00018.safetensors",
+          "size": 2718111496,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "realization/diffusion_pytorch_model-00011-of-00018.safetensors",
+          "size": 2718111496,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "realization/diffusion_pytorch_model-00012-of-00018.safetensors",
+          "size": 2718111496,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "realization/diffusion_pytorch_model-00013-of-00018.safetensors",
+          "size": 2718111496,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "realization/diffusion_pytorch_model-00014-of-00018.safetensors",
+          "size": 2718111496,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "realization/diffusion_pytorch_model-00015-of-00018.safetensors",
+          "size": 2718111496,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "realization/diffusion_pytorch_model-00016-of-00018.safetensors",
+          "size": 2718111496,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "realization/diffusion_pytorch_model-00017-of-00018.safetensors",
+          "size": 2932878904,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "realization/diffusion_pytorch_model-00018-of-00018.safetensors",
+          "size": 216891408,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "realization/diffusion_pytorch_model.safetensors.index.json",
+          "size": 66997,
+          "sha256": "f4943b298b3dc8e65c642c23a42cd4d76b04331274e8e75b7962ded186873702",
+          "kind": "snapshot"
+        },
+        {
+          "path": "release.json",
+          "size": 179,
+          "sha256": "ec954736035a7eac9204f7af215ff2de12aed99de3c2da431159dfbfcfbbb517",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 47025258528,
+      "weight_bytes": 47025151048,
+      "snapshot_dir": "snapshots/inclusionAI/Duo-1.0-distill-quant/00444b393bdd303f99e5f592f13d126b084fcbf5/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "request": {
+    "state": "The color is red. ",
+    "questions": {
+      "color": {
+        "type": "choice",
+        "instructions": "Which color is named?",
+        "criteria": {
+          "red": "Red",
+          "blue": "Blue"
+        }
+      }
+    }
+  },
+  "prompt": "<|im_start|>user\nSolve the multiple-choice question and output ONLY the index token of the correct option.\n\n### Question:\nThe color is red. Which color is named?\n\n### Options:\nAA: Red\nAB: Blue<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+  "candidate_token_ids": [
+    5840,
+    1803
+  ],
+  "candidate_logits": [
+    16.300275802612305,
+    10.59571361541748
+  ],
+  "answers": {
+    "color": {
+      "type": "choice",
+      "choice": "red",
+      "probabilities": {
+        "red": 0.9966803216653017,
+        "blue": 0.0033196783346983094
+      }
+    }
+  },
+  "note": "Q8_0 CPU historical reference; logits shown as JSON for illustration"
+}

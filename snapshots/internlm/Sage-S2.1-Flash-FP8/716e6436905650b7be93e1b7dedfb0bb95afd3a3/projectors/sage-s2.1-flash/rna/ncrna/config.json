@@ -1,0 +1,53 @@
+{
+  "format_version": "sage-projector-v1",
+  "component_type": "scientific_projector",
+  "task": "rna/ncrna",
+  "weights": "projector.safetensors",
+  "projector": {
+    "id": "rna-explicit-measurement-prefix",
+    "kind": "atom",
+    "modality": "rna",
+    "feature_dim": 640,
+    "tokens": null,
+    "hidden_dim": 1024,
+    "index_dim": 32,
+    "max_atoms": 1335,
+    "side_dim": 189,
+    "side_hidden_dim": 304
+  },
+  "output_dim": 4096,
+  "base_model": {
+    "id": "sage-s2.1-flash",
+    "dtype": "bfloat16",
+    "training_fingerprint": "5ee460cdfdf10fb465a973ab32c235161d43903648bbd3905912dae82f5e79e4"
+  },
+  "prompt": {
+    "system": "Read the supplied RNA sequence states and frozen scientific readouts. Every input has the same layout: nucleotide states with 13 RNA-family probabilities, followed by nine numeric digit states representing a predicted proximal APA proportion. Both readouts are supplied for every sequence; answer the requested property and distinguish a model prediction from an observed biological mechanism.\n\nAnswer the scientific question from the supplied input. Use concise, natural reasoning in the language of the question. State the evidence that is available, carry out only the calculations needed, and distinguish observations from predictions or hypotheses. Match your certainty to the evidence. Correct a false premise when needed, and say what cannot be established from the supplied information. Do not invent measurements or causal mechanisms. Follow the requested final answer format exactly.\n\nA leading table gives both frozen RNA-family probabilities and the predicted proximal APA proportion. The original RNA states follow it. Answer the requested property using the same shared input. Preserve eight decimal places when returning the supplied APA proportion; it is a scientific model prediction, not an observed measurement.\n\nA leading table contains the explicitly named input measurements and the original encoded states follow it. Use the table when citing those measurements; an availability flag of0 means the associated0 value is a placeholder. The requested target remains a learned prediction. Do not invent missing observations, native structures or causal evidence.\n\nExplain the most relevant relationship actually supported by this input in connected prose. Let the evidence determine which quantities deserve mention. Avoid a fixed field-by-field recital and repeated generic caveats. Keep learned scientific predictions distinct from experimental observations; the final requested answer is supplied separately in its normal format.",
+    "names": [
+      [
+        "RNA sequence and scientific readouts"
+      ]
+    ],
+    "override_row_system": true,
+    "include_reasoning": true,
+    "template_kwargs": {
+      "reasoning_effort": "low"
+    }
+  },
+  "scientific_inputs": [
+    {
+      "encoder": null,
+      "preprocessing": null,
+      "scientific_readout": null,
+      "side_features_per_object": false,
+      "representation": {
+        "rows": 76760,
+        "feature_dim": 640,
+        "maximum_tokens": 1333,
+        "input_recipe": "A fixed native-vocabulary table of independently computed input measurements, followed by every original encoded state. Literal states are unnumbered; scientific position identities are retained. No target labels or question fields enter the table."
+      }
+    }
+  ],
+  "training_step": 216,
+  "projector_dtype": "float32"
+}

@@ -303,7 +303,25 @@
     "http://arxiv.org/abs/2611.13428",
     "http://arxiv.org/abs/2611.12000",
     "http://arxiv.org/abs/2611.11997",
-    "http://arxiv.org/abs/2611.11987"
+    "http://arxiv.org/abs/2611.11987",
+    "http://arxiv.org/abs/2611.18553",
+    "http://arxiv.org/abs/2611.18392",
+    "http://arxiv.org/abs/2611.18104",
+    "http://arxiv.org/abs/2611.17867",
+    "http://arxiv.org/abs/2611.17332",
+    "http://arxiv.org/abs/2611.18372",
+    "http://arxiv.org/abs/2611.17846",
+    "http://arxiv.org/abs/2611.17763",
+    "http://arxiv.org/abs/2611.17194",
+    "http://arxiv.org/abs/2611.16116",
+    "http://arxiv.org/abs/2611.15006",
+    "http://arxiv.org/abs/2611.14830",
+    "http://arxiv.org/abs/2611.14681",
+    "http://arxiv.org/abs/2611.18542",
+    "http://arxiv.org/abs/2611.18408",
+    "http://arxiv.org/abs/2611.17930",
+    "http://arxiv.org/abs/2611.17744",
+    "http://arxiv.org/abs/2611.17603"
   ],
   "hn_seen": [
     "49735410",
@@ -557,7 +575,24 @@
     "50443812",
     "50458166",
     "50453229",
-    "50441707"
+    "50441707",
+    "50497589",
+    "50486914",
+    "50513215",
+    "50510042",
+    "50497132",
+    "50491980",
+    "50490159",
+    "50514470",
+    "50511718",
+    "50509023",
+    "50506376",
+    "50503465",
+    "50470343",
+    "50511072",
+    "50510442",
+    "50494696",
+    "50479876"
   ],
   "log": [
     {
@@ -3487,8 +3522,218 @@
       "at": "2026-11-12T16:14:55Z",
       "text": "HN front-page (1178 pts): Smart home devices should work without the internet",
       "url": "https://news.ycombinator.com/item?id=50441707"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-16T17:27:50Z",
+      "text": "New paper mentioning DeepSeek: WeightBench: Evaluating Language Models as Weight-Space Programmers",
+      "url": "http://arxiv.org/abs/2611.18553"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-16T17:27:50Z",
+      "text": "New paper mentioning DeepSeek: VelServe: Taming Decode Jitters in LLM Inference with Tail-Calibrated Scheduling",
+      "url": "http://arxiv.org/abs/2611.18392"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-16T17:27:50Z",
+      "text": "New paper mentioning DeepSeek: Contagious Fingerprints: When LLMs Inherit Another Model's Identity",
+      "url": "http://arxiv.org/abs/2611.18104"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-16T17:27:50Z",
+      "text": "New paper mentioning DeepSeek: UltraBERT-JEV: Encoder models for System One Applications",
+      "url": "http://arxiv.org/abs/2611.17867"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-16T17:27:50Z",
+      "text": "New paper mentioning DeepSeek: ArchSpace: Recording, Reviewing, and Referencing LLM Architecture Research",
+      "url": "http://arxiv.org/abs/2611.17332"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-16T17:27:50Z",
+      "text": "HN front-page (273 pts): Show HN: DeepSeek V3 in ~200 lines of pure Jax",
+      "url": "https://news.ycombinator.com/item?id=50497589"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-16T17:27:50Z",
+      "text": "HN front-page (71 pts): DeepSeek Ultrafast",
+      "url": "https://news.ycombinator.com/item?id=50486914"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-16T17:27:50Z",
+      "text": "New paper mentioning Qwen: Vision-Language-Action Models: A Life-Cycle Survey of Design, Training and Deployment",
+      "url": "http://arxiv.org/abs/2611.18372"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-16T17:27:50Z",
+      "text": "New paper mentioning Qwen: Is Abliteration Getting Harder? Not Uniformly: Refusal Removal by Direction-Based Ablation and ARA in Heretic on the Qwen3.8, Gemma 4, Olmo 3.1 and Mistral Small 3.2 LLMs Versus Their Predecessors",
+      "url": "http://arxiv.org/abs/2611.17846"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-16T17:27:50Z",
+      "text": "New paper mentioning Qwen: Knowledge After Collapse: Context and Wording Shape Factual Accessibility in Language Models",
+      "url": "http://arxiv.org/abs/2611.17763"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-16T17:27:50Z",
+      "text": "New paper mentioning Qwen: eDMD: Endpoint Distribution Matching for Few-Step Diffusion Distillation",
+      "url": "http://arxiv.org/abs/2611.17194"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-16T17:27:50Z",
+      "text": "HN front-page (789 pts): Qwen4-Max",
+      "url": "https://news.ycombinator.com/item?id=50513215"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-16T17:27:50Z",
+      "text": "HN front-page (175 pts): Ask HN: Stripe closed us after one $1,500 invoice and never asked for evidence",
+      "url": "https://news.ycombinator.com/item?id=50510042"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-16T17:27:50Z",
+      "text": "HN front-page (169 pts): Show HN: A terminal-native idle factory game, written in Rust with ratatui",
+      "url": "https://news.ycombinator.com/item?id=50497132"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-16T17:27:50Z",
+      "text": "HN front-page (259 pts): Unsloth Qwen3.8-27B Quantizations \u2013 Dynamic v3.1 Update",
+      "url": "https://news.ycombinator.com/item?id=50491980"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-16T17:27:50Z",
+      "text": "HN front-page (82 pts): OOS \u2013 an open operating system for the Rigol Scopes",
+      "url": "https://news.ycombinator.com/item?id=50490159"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-16T17:27:50Z",
+      "text": "New paper mentioning GLM-: Robo-SWE: An Executable Issue-Resolution Dataset Mined from Robot Software Repositories",
+      "url": "http://arxiv.org/abs/2611.16116"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-16T17:27:50Z",
+      "text": "New paper mentioning GLM-: EvoX: Rethinking the Agent Harness as a Runtime Policy",
+      "url": "http://arxiv.org/abs/2611.15006"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-16T17:27:50Z",
+      "text": "New paper mentioning GLM-: A Geometric Perspective for Marginal R2: Estimation and Inference in Generalized Linear Mixed Models",
+      "url": "http://arxiv.org/abs/2611.14830"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-16T17:27:50Z",
+      "text": "New paper mentioning GLM-: Together Compiler: Continual Compilation for AI Inference",
+      "url": "http://arxiv.org/abs/2611.14681"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-16T17:27:50Z",
+      "text": "HN front-page (674 pts): How to make almost anything",
+      "url": "https://news.ycombinator.com/item?id=50514470"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-16T17:27:50Z",
+      "text": "HN front-page (76 pts): Show HN: The Last Complication, a Zachtronics-style watchmaking puzzle game",
+      "url": "https://news.ycombinator.com/item?id=50511718"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-16T17:27:50Z",
+      "text": "HN front-page (294 pts): Crows make decisions faster than we can",
+      "url": "https://news.ycombinator.com/item?id=50509023"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-16T17:27:50Z",
+      "text": "HN front-page (239 pts): Understanding Positional Embeddings in Modern LLMs",
+      "url": "https://news.ycombinator.com/item?id=50506376"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-16T17:27:50Z",
+      "text": "HN front-page (216 pts): My favourite modern NES games",
+      "url": "https://news.ycombinator.com/item?id=50503465"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-16T17:27:50Z",
+      "text": "New paper mentioning MiniMax: Elliptic Sampling: Optimal Interpolant Schedules for Gaussians and Beyond",
+      "url": "http://arxiv.org/abs/2611.18542"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-16T17:27:50Z",
+      "text": "New paper mentioning MiniMax: The random KKM mapping principle and its applications",
+      "url": "http://arxiv.org/abs/2611.18408"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-16T17:27:50Z",
+      "text": "New paper mentioning MiniMax: Token2Tile: Token-Wise Sparse Attention with Tile Execution through a Low-Rank Space for Video DiTs",
+      "url": "http://arxiv.org/abs/2611.17930"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-16T17:27:50Z",
+      "text": "New paper mentioning MiniMax: Minimaxity in Robust Nonparametric Regression: from Heavy-Tailed to Sub-Gaussian Assumptions",
+      "url": "http://arxiv.org/abs/2611.17744"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-16T17:27:50Z",
+      "text": "New paper mentioning MiniMax: Offline KL-Regularized Reinforcement Learning with Stochastic Transitions",
+      "url": "http://arxiv.org/abs/2611.17603"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-16T17:27:50Z",
+      "text": "HN front-page (66 pts): Show HN: Apron Chat Protocol",
+      "url": "https://news.ycombinator.com/item?id=50470343"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-16T17:27:50Z",
+      "text": "HN front-page (99 pts): Boeing-Lockheed rocket fails mid-flight, destroys payload of Amazon satellites",
+      "url": "https://news.ycombinator.com/item?id=50511072"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-16T17:27:50Z",
+      "text": "HN front-page (165 pts): Vulcan rocket fails during return-to-flight launch, 40 Amazon satellites lost",
+      "url": "https://news.ycombinator.com/item?id=50510442"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-16T17:27:50Z",
+      "text": "HN front-page (90 pts): Ask HN: What are the most useful, concrete AI skills to independently learn?",
+      "url": "https://news.ycombinator.com/item?id=50494696"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-16T17:27:50Z",
+      "text": "HN front-page (163 pts): 'The Netherlands is negotiating dismantling the International Criminal Court'",
+      "url": "https://news.ycombinator.com/item?id=50479876"
     }
   ],
   "first_run_done": true,
-  "last_run": "2026-11-12T16:14:55Z"
+  "last_run": "2026-11-16T17:27:50Z"
 }

@@ -37,7 +37,8 @@
       "deepseek-ai/DeepGEMM-Ascend",
       "deepseek-ai/clangd-ascend",
       "deepseek-ai/DeepInfer",
-      "deepseek-ai/dsh-superagent-prototype"
+      "deepseek-ai/dsh-superagent-prototype",
+      "deepseek-ai/chat-demo"
     ],
     "QwenLM": [
       "QwenLM/qwen-mm-plugins-hub",
@@ -76,7 +77,8 @@
       "QwenLM/Qwen-Live-Harness",
       "QwenLM/D2K-Bench",
       "QwenLM/BlenderWorld",
-      "QwenLM/BabelArena"
+      "QwenLM/BabelArena",
+      "QwenLM/Qwen-Live-Delivery-Plugin"
     ],
     "zai-org": [
       "zai-org/zcode-plugins",
@@ -187,7 +189,9 @@
       "Tencent-Hunyuan/HyperLogic",
       "Tencent-Hunyuan/EmoReward",
       "Tencent-Hunyuan/FlashTopK",
-      "Tencent-Hunyuan/AppCIF-Bench"
+      "Tencent-Hunyuan/AppCIF-Bench",
+      "Tencent-Hunyuan/MovieRoll",
+      "Tencent-Hunyuan/ORAV-Bench"
     ],
     "Wan-Video": [
       "Wan-Video/Wan-Animate-2",
@@ -271,7 +275,8 @@
       "InternLM/SpatialASM",
       "InternLM/InstantFusion",
       "InternLM/ResOPD",
-      "InternLM/Sage-SciPerception"
+      "InternLM/Sage-SciPerception",
+      "InternLM/Sage-S2.1-Flash"
     ],
     "OpenBMB": [
       "OpenBMB/Meshy",
@@ -1076,8 +1081,33 @@
       "id": "vllm-project/rust-pcre2",
       "at": "2026-11-12T16:14:41Z",
       "desc": "High level Rust bindings to PCRE2."
+    },
+    {
+      "id": "deepseek-ai/chat-demo",
+      "at": "2026-11-16T17:27:39Z",
+      "desc": "Chat Demo"
+    },
+    {
+      "id": "QwenLM/Qwen-Live-Delivery-Plugin",
+      "at": "2026-11-16T17:27:39Z",
+      "desc": ""
+    },
+    {
+      "id": "Tencent-Hunyuan/MovieRoll",
+      "at": "2026-11-16T17:27:39Z",
+      "desc": ""
+    },
+    {
+      "id": "Tencent-Hunyuan/ORAV-Bench",
+      "at": "2026-11-16T17:27:39Z",
+      "desc": ""
+    },
+    {
+      "id": "InternLM/Sage-S2.1-Flash",
+      "at": "2026-11-16T17:27:39Z",
+      "desc": "Sage S2.1 Flash \u2014 A scientific multimodal model. Explore through reasoning. Verify through action."
     }
   ],
   "first_run_done": true,
-  "last_run": "2026-11-12T16:14:41Z"
+  "last_run": "2026-11-16T17:27:39Z"
 }

@@ -1,0 +1,112 @@
+{
+  "_class_name": "MiniMaxH3DiTModel",
+  "_diffusers_version": "0.32.2",
+  "hidden_size": 5376,
+  "num_layers": 50,
+  "token_refiner_num_layers": 2,
+  "num_attention_heads": 56,
+  "attention_head_dim": 128,
+  "ffn_hidden_size": 14336,
+  "latents_dim": 24,
+  "audio_latents_dim": 32,
+  "patch_size": [
+    1,
+    2,
+    2
+  ],
+  "text_dim": 5120,
+  "timestep_input_dim": 256,
+  "time_embed_hidden_size": 5376,
+  "time_embed_dim": 2688,
+  "adaln_out_features": 96768,
+  "final_adaln_out_features": 10752,
+  "rope_inv_freq_len": 16,
+  "norm_eps": 1e-05,
+  "qk_norm_eps": 1e-05,
+  "final_norm_eps": 1e-05,
+  "quantization_config": {
+    "config_groups": {
+      "group_0": {
+        "input_activations": {
+          "dynamic": true,
+          "num_bits": 8,
+          "strategy": "token",
+          "type": "float"
+        },
+        "targets": [
+          "Linear"
+        ],
+        "weights": {
+          "dynamic": false,
+          "num_bits": 8,
+          "strategy": "channel",
+          "type": "float"
+        }
+      }
+    },
+    "ignore": [
+      "audio_patch_proj",
+      "blocks.0.adaln_proj*",
+      "blocks.1.adaln_proj*",
+      "blocks.10.adaln_proj*",
+      "blocks.11.adaln_proj*",
+      "blocks.12.adaln_proj*",
+      "blocks.13.adaln_proj*",
+      "blocks.14.adaln_proj*",
+      "blocks.15.adaln_proj*",
+      "blocks.16.adaln_proj*",
+      "blocks.17.adaln_proj*",
+      "blocks.18.adaln_proj*",
+      "blocks.19.adaln_proj*",
+      "blocks.2.adaln_proj*",
+      "blocks.20.adaln_proj*",
+      "blocks.21.adaln_proj*",
+      "blocks.22.adaln_proj*",
+      "blocks.23.adaln_proj*",
+      "blocks.24.adaln_proj*",
+      "blocks.25.adaln_proj*",
+      "blocks.26.adaln_proj*",
+      "blocks.27.adaln_proj*",
+      "blocks.28.adaln_proj*",
+      "blocks.29.adaln_proj*",
+      "blocks.3.adaln_proj*",
+      "blocks.30.adaln_proj*",
+      "blocks.31.adaln_proj*",
+      "blocks.32.adaln_proj*",
+      "blocks.33.adaln_proj*",
+      "blocks.34.adaln_proj*",
+      "blocks.35.adaln_proj*",
+      "blocks.36.adaln_proj*",
+      "blocks.37.adaln_proj*",
+      "blocks.38.adaln_proj*",
+      "blocks.39.adaln_proj*",
+      "blocks.4.adaln_proj*",
+      "blocks.40.adaln_proj*",
+      "blocks.41.adaln_proj*",
+      "blocks.42.adaln_proj*",
+      "blocks.43.adaln_proj*",
+      "blocks.44.adaln_proj*",
+      "blocks.45.adaln_proj*",
+      "blocks.46.adaln_proj*",
+      "blocks.47.adaln_proj*",
+      "blocks.48.adaln_proj*",
+      "blocks.49.adaln_proj*",
+      "blocks.5.adaln_proj*",
+      "blocks.6.adaln_proj*",
+      "blocks.7.adaln_proj*",
+      "blocks.8.adaln_proj*",
+      "blocks.9.adaln_proj*",
+      "condition_proj",
+      "final_layer*",
+      "time_embedder*",
+      "token_refiner*",
+      "video_patch_proj"
+    ],
+    "producer": {
+      "name": "modelopt",
+      "version": "0.0.0.dev0+g2b64a03"
+    },
+    "quant_algo": "FP8_PER_CHANNEL_PER_TOKEN",
+    "quant_method": "modelopt"
+  }
+}

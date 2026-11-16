@@ -1,0 +1,22 @@
+{
+  "text": {
+    "rows": 140178,
+    "counts": {
+      "ok": 140178
+    },
+    "ids_exact": true,
+    "questions_and_probabilities_validated": true,
+    "unique_images_verified": 0,
+    "results_sha256": "875e8e87f64005cd48effba7e905354ccd8060eb967102b469b734c70cdadaef"
+  },
+  "vision": {
+    "rows": 12210,
+    "counts": {
+      "ok": 12210
+    },
+    "ids_exact": true,
+    "questions_and_probabilities_validated": true,
+    "unique_images_verified": 10567,
+    "results_sha256": "41d0e9eac481f74a59ffeb36aa15b1c8a4121d69afeee38fed37359aebdd395d"
+  }
+}

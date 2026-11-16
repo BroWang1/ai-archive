@@ -1,0 +1,4 @@
+# Install matching torch and torchvision builds separately. Reference: torch 2.9.0 + torchvision 0.24.0.
+transformers==5.8.0
+numpy==1.26.4
+Pillow==11.3.0

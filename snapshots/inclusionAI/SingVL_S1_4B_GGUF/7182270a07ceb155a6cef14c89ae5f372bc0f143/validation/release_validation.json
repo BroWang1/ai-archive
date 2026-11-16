@@ -1,0 +1,50 @@
+{
+  "complete": true,
+  "processing": {
+    "complete": true,
+    "cases": 9,
+    "questions": 11,
+    "reference_modes": [
+      "bf16",
+      "q8_0",
+      "q4_k_m"
+    ],
+    "input_tokens_and_image_grids_match": true,
+    "postprocessing_matches": true,
+    "model_loaded": false
+  },
+  "cpu_reference_rebuilt_and_tested": {
+    "complete": true,
+    "variant": "q8_0",
+    "questions": 11,
+    "max_answer_numeric_delta": 1.734723475976807e-18
+  },
+  "precompiled_binaries_in_release": false,
+  "private_runtime_paths_found": false,
+  "weights_unchanged": true,
+  "removed": [
+    "runtime",
+    "inference",
+    "models/config",
+    "validate_package.py",
+    "requirements-python.txt",
+    "serve_cpu_bf16.sh",
+    "serve_cpu_q8_0.sh",
+    "serve_cpu_q4_k_m.sh",
+    "validation/previous",
+    "validation/PACKAGE_COMPLETE.json",
+    "validation/package_manifest.json",
+    "validation/smoke_bf16.json",
+    "validation/smoke_q8_0.json",
+    "validation/smoke_q4_k_m.json",
+    "validation/startup_http.json",
+    "validation/startup_q8_0.log",
+    "validation/upstream_source.json"
+  ],
+  "post_cleanup_backend_test": {
+    "complete": true,
+    "variant": "q8_0",
+    "questions": 11,
+    "max_answer_numeric_delta": 1.734723475976807e-18
+  }
+}

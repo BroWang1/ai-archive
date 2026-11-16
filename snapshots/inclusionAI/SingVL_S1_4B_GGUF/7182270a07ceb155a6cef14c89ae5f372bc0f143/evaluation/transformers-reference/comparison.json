@@ -1,0 +1,20 @@
+{
+  "image_budget_note": {
+    "checkpoint_metadata_max_pixels": 1806336,
+    "public_run_max_pixels": 1638400,
+    "causal_attribution": "Configuration difference observed; not proven to explain all score differences."
+  },
+  "reference_supplied": {
+    "text": 69.76,
+    "vision": 73.94
+  },
+  "measured": {
+    "text": 69.76,
+    "vision": 73.74949871316771
+  },
+  "delta": {
+    "text": 0.0,
+    "vision": -0.19050128683228706
+  },
+  "private": "Not run; unavailable outside the maintainers."
+}
