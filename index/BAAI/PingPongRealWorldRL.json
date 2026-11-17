@@ -62,8 +62,10 @@
         "tag": null,
         "file": "LICENSE",
         "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
-        "redistributable": null,
-        "obligations": []
+        "redistributable": false,
+        "obligations": [],
+        "freedom": "unlicensed",
+        "freedom_note": "No license tag and no file \u2014 cannot redistribute"
       },
       "gate_terms_sha256": null,
       "files": [

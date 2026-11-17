@@ -6,284 +6,284 @@
  "description": "Captures, mirrors, takedown alerts and radar signals for open-weight AI models",
  "items": [
   {
-   "id": "2026-11-16T17:27:50Z-555256392",
+   "id": "2026-11-17T00:48:30Z-2415934563",
+   "title": "This week aiarchive.info captured 16 open-weight models, including four Sage-S2.1 variants from internlm (base, FP8, Flash, and Flash-FP8) and eight inclusionAI releases spanning ZoomGain 4B and 9B in full and GGUF formats, SingVL_S1_4B (plus GGUF), and Duo 1.0 and 1.2 causal-base and distill builds. MiniMaxAI added two image models, MiniMax-H3-Image and MiniMax-H3-Image-PE. No models were mirrored and no alerts were issued; radar signals flagged new papers referencing DeepSeek and Qwen, including a DeepSeek-V4-Flash KV cache reuse case study.",
+   "date_published": "2026-11-17T00:48:30Z",
+   "url": "https://github.com/BroWang1/ai-archive/issues",
+   "content_text": "This week aiarchive.info captured 16 open-weight models, including four Sage-S2.1 variants from internlm (base, FP8, Flash, and Flash-FP8) and eight inclusionAI releases spanning ZoomGain 4B and 9B in full and GGUF formats, SingVL_S1_4B (plus GGUF), and Duo 1.0 and 1.2 causal-base and distill builds. MiniMaxAI added two image models, MiniMax-H3-Image and MiniMax-H3-Image-PE. No models were mirrored and no alerts were issued; radar signals flagged new papers referencing DeepSeek and Qwen, including a DeepSeek-V4-Flash KV cache reuse case study."
+  },
+  {
+   "id": "2026-11-16T17:27:50Z-1052089073",
    "title": "New paper mentioning DeepSeek: WeightBench: Evaluating Language Models as Weight-Space Programmers",
    "date_published": "2026-11-16T17:27:50Z",
    "url": "http://arxiv.org/abs/2611.18553",
    "content_text": "New paper mentioning DeepSeek: WeightBench: Evaluating Language Models as Weight-Space Programmers"
   },
   {
-   "id": "2026-11-16T17:27:50Z-3956489758",
+   "id": "2026-11-16T17:27:50Z-2842654810",
    "title": "New paper mentioning DeepSeek: VelServe: Taming Decode Jitters in LLM Inference with Tail-Calibrated Scheduling",
    "date_published": "2026-11-16T17:27:50Z",
    "url": "http://arxiv.org/abs/2611.18392",
    "content_text": "New paper mentioning DeepSeek: VelServe: Taming Decode Jitters in LLM Inference with Tail-Calibrated Scheduling"
   },
   {
-   "id": "2026-11-16T17:27:50Z-3065061376",
+   "id": "2026-11-16T17:27:50Z-3649125033",
    "title": "New paper mentioning DeepSeek: Contagious Fingerprints: When LLMs Inherit Another Model's Identity",
    "date_published": "2026-11-16T17:27:50Z",
    "url": "http://arxiv.org/abs/2611.18104",
    "content_text": "New paper mentioning DeepSeek: Contagious Fingerprints: When LLMs Inherit Another Model's Identity"
   },
   {
-   "id": "2026-11-16T17:27:50Z-4137993226",
+   "id": "2026-11-16T17:27:50Z-4274672072",
    "title": "New paper mentioning DeepSeek: UltraBERT-JEV: Encoder models for System One Applications",
    "date_published": "2026-11-16T17:27:50Z",
    "url": "http://arxiv.org/abs/2611.17867",
    "content_text": "New paper mentioning DeepSeek: UltraBERT-JEV: Encoder models for System One Applications"
   },
   {
-   "id": "2026-11-16T17:27:50Z-398000917",
+   "id": "2026-11-16T17:27:50Z-418087694",
    "title": "New paper mentioning DeepSeek: ArchSpace: Recording, Reviewing, and Referencing LLM Architecture Research",
    "date_published": "2026-11-16T17:27:50Z",
    "url": "http://arxiv.org/abs/2611.17332",
    "content_text": "New paper mentioning DeepSeek: ArchSpace: Recording, Reviewing, and Referencing LLM Architecture Research"
   },
   {
-   "id": "2026-11-16T17:27:50Z-2202997552",
+   "id": "2026-11-16T17:27:50Z-3855315564",
    "title": "HN front-page (273 pts): Show HN: DeepSeek V3 in ~200 lines of pure Jax",
    "date_published": "2026-11-16T17:27:50Z",
    "url": "https://news.ycombinator.com/item?id=50497589",
    "content_text": "HN front-page (273 pts): Show HN: DeepSeek V3 in ~200 lines of pure Jax"
   },
   {
-   "id": "2026-11-16T17:27:50Z-361882164",
+   "id": "2026-11-16T17:27:50Z-994638486",
    "title": "HN front-page (71 pts): DeepSeek Ultrafast",
    "date_published": "2026-11-16T17:27:50Z",
    "url": "https://news.ycombinator.com/item?id=50486914",
    "content_text": "HN front-page (71 pts): DeepSeek Ultrafast"
   },
   {
-   "id": "2026-11-16T17:27:50Z-1603036887",
+   "id": "2026-11-16T17:27:50Z-3312229861",
    "title": "New paper mentioning Qwen: Vision-Language-Action Models: A Life-Cycle Survey of Design, Training and Deployment",
    "date_published": "2026-11-16T17:27:50Z",
    "url": "http://arxiv.org/abs/2611.18372",
    "content_text": "New paper mentioning Qwen: Vision-Language-Action Models: A Life-Cycle Survey of Design, Training and Deployment"
   },
   {
-   "id": "2026-11-16T17:27:50Z-2104117893",
+   "id": "2026-11-16T17:27:50Z-1341290779",
    "title": "New paper mentioning Qwen: Is Abliteration Getting Harder? Not Uniformly: Refusal Removal by Direction-Based Ablation and ARA in Heretic on the Qwen3.8, Gemma 4, Olmo 3.1 and Mistral Small 3.2 LLMs Versus Their Predecessors",
    "date_published": "2026-11-16T17:27:50Z",
    "url": "http://arxiv.org/abs/2611.17846",
    "content_text": "New paper mentioning Qwen: Is Abliteration Getting Harder? Not Uniformly: Refusal Removal by Direction-Based Ablation and ARA in Heretic on the Qwen3.8, Gemma 4, Olmo 3.1 and Mistral Small 3.2 LLMs Versus Their Predecessors"
   },
   {
-   "id": "2026-11-16T17:27:50Z-2290026402",
+   "id": "2026-11-16T17:27:50Z-2363686199",
    "title": "New paper mentioning Qwen: Knowledge After Collapse: Context and Wording Shape Factual Accessibility in Language Models",
    "date_published": "2026-11-16T17:27:50Z",
    "url": "http://arxiv.org/abs/2611.17763",
    "content_text": "New paper mentioning Qwen: Knowledge After Collapse: Context and Wording Shape Factual Accessibility in Language Models"
   },
   {
-   "id": "2026-11-16T17:27:50Z-2679333374",
+   "id": "2026-11-16T17:27:50Z-264832582",
    "title": "New paper mentioning Qwen: eDMD: Endpoint Distribution Matching for Few-Step Diffusion Distillation",
    "date_published": "2026-11-16T17:27:50Z",
    "url": "http://arxiv.org/abs/2611.17194",
    "content_text": "New paper mentioning Qwen: eDMD: Endpoint Distribution Matching for Few-Step Diffusion Distillation"
   },
   {
-   "id": "2026-11-16T17:27:50Z-2257464424",
+   "id": "2026-11-16T17:27:50Z-1885981479",
    "title": "HN front-page (789 pts): Qwen4-Max",
    "date_published": "2026-11-16T17:27:50Z",
    "url": "https://news.ycombinator.com/item?id=50513215",
    "content_text": "HN front-page (789 pts): Qwen4-Max"
   },
   {
-   "id": "2026-11-16T17:27:50Z-298595593",
+   "id": "2026-11-16T17:27:50Z-347969699",
    "title": "HN front-page (175 pts): Ask HN: Stripe closed us after one $1,500 invoice and never asked for evidence",
    "date_published": "2026-11-16T17:27:50Z",
    "url": "https://news.ycombinator.com/item?id=50510042",
    "content_text": "HN front-page (175 pts): Ask HN: Stripe closed us after one $1,500 invoice and never asked for evidence"
   },
   {
-   "id": "2026-11-16T17:27:50Z-409667574",
+   "id": "2026-11-16T17:27:50Z-2384286431",
    "title": "HN front-page (169 pts): Show HN: A terminal-native idle factory game, written in Rust with ratatui",
    "date_published": "2026-11-16T17:27:50Z",
    "url": "https://news.ycombinator.com/item?id=50497132",
    "content_text": "HN front-page (169 pts): Show HN: A terminal-native idle factory game, written in Rust with ratatui"
   },
   {
-   "id": "2026-11-16T17:27:50Z-1995021044",
+   "id": "2026-11-16T17:27:50Z-2347367396",
    "title": "HN front-page (259 pts): Unsloth Qwen3.8-27B Quantizations \u2013 Dynamic v3.1 Update",
    "date_published": "2026-11-16T17:27:50Z",
    "url": "https://news.ycombinator.com/item?id=50491980",
    "content_text": "HN front-page (259 pts): Unsloth Qwen3.8-27B Quantizations \u2013 Dynamic v3.1 Update"
   },
   {
-   "id": "2026-11-16T17:27:50Z-1330257365",
+   "id": "2026-11-16T17:27:50Z-601577674",
    "title": "HN front-page (82 pts): OOS \u2013 an open operating system for the Rigol Scopes",
    "date_published": "2026-11-16T17:27:50Z",
    "url": "https://news.ycombinator.com/item?id=50490159",
    "content_text": "HN front-page (82 pts): OOS \u2013 an open operating system for the Rigol Scopes"
   },
   {
-   "id": "2026-11-16T17:27:50Z-759918262",
+   "id": "2026-11-16T17:27:50Z-3488635250",
    "title": "New paper mentioning GLM-: Robo-SWE: An Executable Issue-Resolution Dataset Mined from Robot Software Repositories",
    "date_published": "2026-11-16T17:27:50Z",
    "url": "http://arxiv.org/abs/2611.16116",
    "content_text": "New paper mentioning GLM-: Robo-SWE: An Executable Issue-Resolution Dataset Mined from Robot Software Repositories"
   },
   {
-   "id": "2026-11-16T17:27:50Z-1107104577",
+   "id": "2026-11-16T17:27:50Z-198768425",
    "title": "New paper mentioning GLM-: EvoX: Rethinking the Agent Harness as a Runtime Policy",
    "date_published": "2026-11-16T17:27:50Z",
    "url": "http://arxiv.org/abs/2611.15006",
    "content_text": "New paper mentioning GLM-: EvoX: Rethinking the Agent Harness as a Runtime Policy"
   },
   {
-   "id": "2026-11-16T17:27:50Z-2966879042",
+   "id": "2026-11-16T17:27:50Z-2266003940",
    "title": "New paper mentioning GLM-: A Geometric Perspective for Marginal R2: Estimation and Inference in Generalized Linear Mixed Models",
    "date_published": "2026-11-16T17:27:50Z",
    "url": "http://arxiv.org/abs/2611.14830",
    "content_text": "New paper mentioning GLM-: A Geometric Perspective for Marginal R2: Estimation and Inference in Generalized Linear Mixed Models"
   },
   {
-   "id": "2026-11-16T17:27:50Z-673770359",
+   "id": "2026-11-16T17:27:50Z-2483576433",
    "title": "New paper mentioning GLM-: Together Compiler: Continual Compilation for AI Inference",
    "date_published": "2026-11-16T17:27:50Z",
    "url": "http://arxiv.org/abs/2611.14681",
    "content_text": "New paper mentioning GLM-: Together Compiler: Continual Compilation for AI Inference"
   },
   {
-   "id": "2026-11-16T17:27:50Z-325396355",
+   "id": "2026-11-16T17:27:50Z-1330003496",
    "title": "HN front-page (674 pts): How to make almost anything",
    "date_published": "2026-11-16T17:27:50Z",
    "url": "https://news.ycombinator.com/item?id=50514470",
    "content_text": "HN front-page (674 pts): How to make almost anything"
   },
   {
-   "id": "2026-11-16T17:27:50Z-1013405745",
+   "id": "2026-11-16T17:27:50Z-2407938425",
    "title": "HN front-page (76 pts): Show HN: The Last Complication, a Zachtronics-style watchmaking puzzle game",
    "date_published": "2026-11-16T17:27:50Z",
    "url": "https://news.ycombinator.com/item?id=50511718",
    "content_text": "HN front-page (76 pts): Show HN: The Last Complication, a Zachtronics-style watchmaking puzzle game"
   },
   {
-   "id": "2026-11-16T17:27:50Z-1199293380",
+   "id": "2026-11-16T17:27:50Z-1537366365",
    "title": "HN front-page (294 pts): Crows make decisions faster than we can",
    "date_published": "2026-11-16T17:27:50Z",
    "url": "https://news.ycombinator.com/item?id=50509023",
    "content_text": "HN front-page (294 pts): Crows make decisions faster than we can"
   },
   {
-   "id": "2026-11-16T17:27:50Z-893637547",
+   "id": "2026-11-16T17:27:50Z-88152347",
    "title": "HN front-page (239 pts): Understanding Positional Embeddings in Modern LLMs",
    "date_published": "2026-11-16T17:27:50Z",
    "url": "https://news.ycombinator.com/item?id=50506376",
    "content_text": "HN front-page (239 pts): Understanding Positional Embeddings in Modern LLMs"
   },
   {
-   "id": "2026-11-16T17:27:50Z-95963441",
+   "id": "2026-11-16T17:27:50Z-1008011972",
    "title": "HN front-page (216 pts): My favourite modern NES games",
    "date_published": "2026-11-16T17:27:50Z",
    "url": "https://news.ycombinator.com/item?id=50503465",
    "content_text": "HN front-page (216 pts): My favourite modern NES games"
   },
   {
-   "id": "2026-11-16T17:27:50Z-404871309",
+   "id": "2026-11-16T17:27:50Z-526893140",
    "title": "New paper mentioning MiniMax: Elliptic Sampling: Optimal Interpolant Schedules for Gaussians and Beyond",
    "date_published": "2026-11-16T17:27:50Z",
    "url": "http://arxiv.org/abs/2611.18542",
    "content_text": "New paper mentioning MiniMax: Elliptic Sampling: Optimal Interpolant Schedules for Gaussians and Beyond"
   },
   {
-   "id": "2026-11-16T17:27:50Z-2510175102",
+   "id": "2026-11-16T17:27:50Z-3331189476",
    "title": "New paper mentioning MiniMax: The random KKM mapping principle and its applications",
    "date_published": "2026-11-16T17:27:50Z",
    "url": "http://arxiv.org/abs/2611.18408",
    "content_text": "New paper mentioning MiniMax: The random KKM mapping principle and its applications"
   },
   {
-   "id": "2026-11-16T17:27:50Z-2980956398",
+   "id": "2026-11-16T17:27:50Z-2262886262",
    "title": "New paper mentioning MiniMax: Token2Tile: Token-Wise Sparse Attention with Tile Execution through a Low-Rank Space for Video DiTs",
    "date_published": "2026-11-16T17:27:50Z",
    "url": "http://arxiv.org/abs/2611.17930",
    "content_text": "New paper mentioning MiniMax: Token2Tile: Token-Wise Sparse Attention with Tile Execution through a Low-Rank Space for Video DiTs"
   },
   {
-   "id": "2026-11-16T17:27:50Z-2079649742",
+   "id": "2026-11-16T17:27:50Z-2104011467",
    "title": "New paper mentioning MiniMax: Minimaxity in Robust Nonparametric Regression: from Heavy-Tailed to Sub-Gaussian Assumptions",
    "date_published": "2026-11-16T17:27:50Z",
    "url": "http://arxiv.org/abs/2611.17744",
    "content_text": "New paper mentioning MiniMax: Minimaxity in Robust Nonparametric Regression: from Heavy-Tailed to Sub-Gaussian Assumptions"
   },
   {
-   "id": "2026-11-16T17:27:50Z-2609559029",
+   "id": "2026-11-16T17:27:50Z-387377587",
    "title": "New paper mentioning MiniMax: Offline KL-Regularized Reinforcement Learning with Stochastic Transitions",
    "date_published": "2026-11-16T17:27:50Z",
    "url": "http://arxiv.org/abs/2611.17603",
    "content_text": "New paper mentioning MiniMax: Offline KL-Regularized Reinforcement Learning with Stochastic Transitions"
   },
   {
-   "id": "2026-11-16T17:27:50Z-1595971795",
+   "id": "2026-11-16T17:27:50Z-913083247",
    "title": "HN front-page (66 pts): Show HN: Apron Chat Protocol",
    "date_published": "2026-11-16T17:27:50Z",
    "url": "https://news.ycombinator.com/item?id=50470343",
    "content_text": "HN front-page (66 pts): Show HN: Apron Chat Protocol"
   },
   {
-   "id": "2026-11-16T17:27:50Z-1800415292",
+   "id": "2026-11-16T17:27:50Z-2400694009",
    "title": "HN front-page (99 pts): Boeing-Lockheed rocket fails mid-flight, destroys payload of Amazon satellites",
    "date_published": "2026-11-16T17:27:50Z",
    "url": "https://news.ycombinator.com/item?id=50511072",
    "content_text": "HN front-page (99 pts): Boeing-Lockheed rocket fails mid-flight, destroys payload of Amazon satellites"
   },
   {
-   "id": "2026-11-16T17:27:50Z-2971638694",
+   "id": "2026-11-16T17:27:50Z-254827104",
    "title": "HN front-page (165 pts): Vulcan rocket fails during return-to-flight launch, 40 Amazon satellites lost",
    "date_published": "2026-11-16T17:27:50Z",
    "url": "https://news.ycombinator.com/item?id=50510442",
    "content_text": "HN front-page (165 pts): Vulcan rocket fails during return-to-flight launch, 40 Amazon satellites lost"
   },
   {
-   "id": "2026-11-16T17:27:50Z-2619205650",
+   "id": "2026-11-16T17:27:50Z-430396973",
    "title": "HN front-page (90 pts): Ask HN: What are the most useful, concrete AI skills to independently learn?",
    "date_published": "2026-11-16T17:27:50Z",
    "url": "https://news.ycombinator.com/item?id=50494696",
    "content_text": "HN front-page (90 pts): Ask HN: What are the most useful, concrete AI skills to independently learn?"
   },
   {
-   "id": "2026-11-16T17:27:50Z-1372449744",
+   "id": "2026-11-16T17:27:50Z-4016398606",
    "title": "HN front-page (163 pts): 'The Netherlands is negotiating dismantling the International Criminal Court'",
    "date_published": "2026-11-16T17:27:50Z",
    "url": "https://news.ycombinator.com/item?id=50479876",
    "content_text": "HN front-page (163 pts): 'The Netherlands is negotiating dismantling the International Criminal Court'"
   },
   {
-   "id": "2026-11-16T17:27:39Z-2291910128",
+   "id": "2026-11-16T17:27:39Z-2460905395",
    "title": "Trending outside tracked labs: higurashi-ai/Haru-4B (3,372 downloads)",
    "date_published": "2026-11-16T17:27:39Z",
    "url": "https://huggingface.co/higurashi-ai/Haru-4B",
    "content_text": "Trending outside tracked labs: higurashi-ai/Haru-4B (3,372 downloads)"
   },
   {
-   "id": "2026-11-16T17:27:39Z-774901278",
+   "id": "2026-11-16T17:27:39Z-4166691970",
    "title": "Trending outside tracked labs: thinkingmachines/Inkling-2-Small (16,918 downloads)",
    "date_published": "2026-11-16T17:27:39Z",
    "url": "https://huggingface.co/thinkingmachines/Inkling-2-Small",
    "content_text": "Trending outside tracked labs: thinkingmachines/Inkling-2-Small (16,918 downloads)"
   },
   {
-   "id": "2026-11-16T17:27:39Z-3640976714",
+   "id": "2026-11-16T17:27:39Z-1050725926",
    "title": "Trending outside tracked labs: Edge0/Edge0-145B-NVFP4 (55,335 downloads)",
    "date_published": "2026-11-16T17:27:39Z",
    "url": "https://huggingface.co/Edge0/Edge0-145B-NVFP4",
    "content_text": "Trending outside tracked labs: Edge0/Edge0-145B-NVFP4 (55,335 downloads)"
   },
   {
-   "id": "2026-11-16T17:27:39Z-2367266076",
+   "id": "2026-11-16T17:27:39Z-1809078475",
    "title": "Trending outside tracked labs: Abiray/MiniMax-H3-Image-GGUF (155,475 downloads)",
    "date_published": "2026-11-16T17:27:39Z",
    "url": "https://huggingface.co/Abiray/MiniMax-H3-Image-GGUF",
    "content_text": "Trending outside tracked labs: Abiray/MiniMax-H3-Image-GGUF (155,475 downloads)"
-  },
-  {
-   "id": "2026-11-16T17:27:39Z-2263597386",
-   "title": "Trending outside tracked labs: meituan-longcat/LongCat-2.5 (1,850 downloads)",
-   "date_published": "2026-11-16T17:27:39Z",
-   "url": "https://huggingface.co/meituan-longcat/LongCat-2.5",
-   "content_text": "Trending outside tracked labs: meituan-longcat/LongCat-2.5 (1,850 downloads)"
   }
  ]
 }

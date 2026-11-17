@@ -47,6 +47,12 @@
       "text": "This week's captures center on two labs: inclusionAI added ZwZ2 models at 4B, 9B, and 27B (with GGUF builds for all three) plus several Ling-3.0 and Ling-3.1 flash variants, while openbmb posted a wide MiniCPM-OCR-1.0 and OCR-Jev lineup in AWQ, GPTQ, gguf, int4, and DSpark formats. Tencent's WeVisCut was also captured. No models were mirrored and no alerts were raised; radar signals were mostly new papers referencing DeepSeek and Qwen, plus an HN front-page post (97 points) noting five inference providers for abliterated DeepSeek.",
       "url": "https://github.com/BroWang1/ai-archive/issues",
       "action": "details"
+    },
+    {
+      "at": "2026-11-17T00:48:30Z",
+      "text": "This week aiarchive.info captured 16 open-weight models, including four Sage-S2.1 variants from internlm (base, FP8, Flash, and Flash-FP8) and eight inclusionAI releases spanning ZoomGain 4B and 9B in full and GGUF formats, SingVL_S1_4B (plus GGUF), and Duo 1.0 and 1.2 causal-base and distill builds. MiniMaxAI added two image models, MiniMax-H3-Image and MiniMax-H3-Image-PE. No models were mirrored and no alerts were issued; radar signals flagged new papers referencing DeepSeek and Qwen, including a DeepSeek-V4-Flash KV cache reuse case study.",
+      "url": "https://github.com/BroWang1/ai-archive/issues",
+      "action": "details"
     }
   ]
 }
