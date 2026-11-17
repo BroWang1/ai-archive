@@ -1,5 +1,12 @@
 [
  {
+  "at": "2026-11-17T14:39:25Z",
+  "kind": "capture",
+  "text": "Captured openbmb/MiniCPM-OCR-1.0-DSpark \u2014 1 GB manifested, license: unclassified",
+  "url": "https://huggingface.co/openbmb/MiniCPM-OCR-1.0-DSpark",
+  "action": "view / download"
+ },
+ {
   "at": "2026-11-17T00:48:30Z",
   "kind": "digest",
   "text": "This week aiarchive.info captured 16 open-weight models, including four Sage-S2.1 variants from internlm (base, FP8, Flash, and Flash-FP8) and eight inclusionAI releases spanning ZoomGain 4B and 9B in full and GGUF formats, SingVL_S1_4B (plus GGUF), and Duo 1.0 and 1.2 causal-base and distill builds. MiniMaxAI added two image models, MiniMax-H3-Image and MiniMax-H3-Image-PE. No models were mirrored and no alerts were issued; radar signals flagged new papers referencing DeepSeek and Qwen, including a DeepSeek-V4-Flash KV cache reuse case study.",
@@ -270,13 +277,6 @@
   "kind": "trending",
   "text": "Trending outside tracked labs: Edge0/Edge0-145B-NVFP4 (55,335 downloads)",
   "url": "https://huggingface.co/Edge0/Edge0-145B-NVFP4",
-  "action": "view"
- },
- {
-  "at": "2026-11-16T17:27:39Z",
-  "kind": "trending",
-  "text": "Trending outside tracked labs: Abiray/MiniMax-H3-Image-GGUF (155,475 downloads)",
-  "url": "https://huggingface.co/Abiray/MiniMax-H3-Image-GGUF",
   "action": "view"
  }
 ]
