@@ -1,0 +1,258 @@
+{
+  "repo_id": "inclusionAI/invoker-render-1.0",
+  "canonical_org": "inclusionAI",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "2314c6b89c12eef07285fedd22ab6f1b519a5866",
+      "captured_at": "2026-11-19T16:47:32Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/inclusionAI/invoker-render-1.0?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"24bd-olGGWQLx+qmEgeCmZXcvR83fr/Q\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "other",
+        "file": null,
+        "sha256": null,
+        "redistributable": null,
+        "obligations": [],
+        "freedom": "conditional",
+        "freedom_note": "Custom license ('other') \u2014 read before redistributing"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1573,
+          "sha256": "2d340b956fc0e82abe115f61268a04c1710e53a28bfae3fce844bcf88d9f24d7",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 3422,
+          "sha256": "9ed46d849c3ed71096145c22a6303c156c67c1fcae9624d5d7c51137a9bcbd59",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/teaser.jpg",
+          "size": 706224,
+          "sha256": "7e8abbe7c3411382a2333572f8b0f3b4ced2822223ac81b752bf9d892189b231",
+          "kind": "snapshot"
+        },
+        {
+          "path": "bidirectional_lora/teacher-live.safetensors",
+          "size": 2480989136,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "config.json",
+          "size": 541,
+          "sha256": "23abda019885c867e4343c41613cb83dc7b8026718146d0dbd42e1c918f4c426",
+          "kind": "snapshot"
+        },
+        {
+          "path": "diffusion_pytorch_model-00001-of-00029.safetensors",
+          "size": 4856962616,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "diffusion_pytorch_model-00002-of-00029.safetensors",
+          "size": 4548014704,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "diffusion_pytorch_model-00003-of-00029.safetensors",
+          "size": 4856295944,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "diffusion_pytorch_model-00004-of-00029.safetensors",
+          "size": 4856295320,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "diffusion_pytorch_model-00005-of-00029.safetensors",
+          "size": 4124127216,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "diffusion_pytorch_model-00006-of-00029.safetensors",
+          "size": 4855865656,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "diffusion_pytorch_model-00007-of-00029.safetensors",
+          "size": 4548014704,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "diffusion_pytorch_model-00008-of-00029.safetensors",
+          "size": 4856295936,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "diffusion_pytorch_model-00009-of-00029.safetensors",
+          "size": 4856295320,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "diffusion_pytorch_model-00010-of-00029.safetensors",
+          "size": 4124127216,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "diffusion_pytorch_model-00011-of-00029.safetensors",
+          "size": 4855865656,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "diffusion_pytorch_model-00012-of-00029.safetensors",
+          "size": 4548014712,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "diffusion_pytorch_model-00013-of-00029.safetensors",
+          "size": 4856295936,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "diffusion_pytorch_model-00014-of-00029.safetensors",
+          "size": 4856295312,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "diffusion_pytorch_model-00015-of-00029.safetensors",
+          "size": 4124127216,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "diffusion_pytorch_model-00016-of-00029.safetensors",
+          "size": 4855865656,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "diffusion_pytorch_model-00017-of-00029.safetensors",
+          "size": 4548014712,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "diffusion_pytorch_model-00018-of-00029.safetensors",
+          "size": 4856295944,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "diffusion_pytorch_model-00019-of-00029.safetensors",
+          "size": 4856295312,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "diffusion_pytorch_model-00020-of-00029.safetensors",
+          "size": 4124127208,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "diffusion_pytorch_model-00021-of-00029.safetensors",
+          "size": 4855865656,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "diffusion_pytorch_model-00022-of-00029.safetensors",
+          "size": 4548014712,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "diffusion_pytorch_model-00023-of-00029.safetensors",
+          "size": 4856295944,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "diffusion_pytorch_model-00024-of-00029.safetensors",
+          "size": 4856295320,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "diffusion_pytorch_model-00025-of-00029.safetensors",
+          "size": 4124127216,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "diffusion_pytorch_model-00026-of-00029.safetensors",
+          "size": 4855865632,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "diffusion_pytorch_model-00027-of-00029.safetensors",
+          "size": 4548014688,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "diffusion_pytorch_model-00028-of-00029.safetensors",
+          "size": 4415626968,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "diffusion_pytorch_model-00029-of-00029.safetensors",
+          "size": 2468447184,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "diffusion_pytorch_model.safetensors.index.json",
+          "size": 64489,
+          "sha256": "de13a6712db3cd20679a0489b3fbce2e5313f1ee6ec95341a15fd8913f4eec64",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 134973811001,
+      "weight_bytes": 134973034752,
+      "snapshot_dir": "snapshots/inclusionAI/invoker-render-1.0/2314c6b89c12eef07285fedd22ab6f1b519a5866/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

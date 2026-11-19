@@ -321,7 +321,26 @@
     "http://arxiv.org/abs/2611.18408",
     "http://arxiv.org/abs/2611.17930",
     "http://arxiv.org/abs/2611.17744",
-    "http://arxiv.org/abs/2611.17603"
+    "http://arxiv.org/abs/2611.17603",
+    "http://arxiv.org/abs/2611.24924",
+    "http://arxiv.org/abs/2611.24711",
+    "http://arxiv.org/abs/2611.24491",
+    "http://arxiv.org/abs/2611.24269",
+    "http://arxiv.org/abs/2611.23718",
+    "http://arxiv.org/abs/2611.24598",
+    "http://arxiv.org/abs/2611.24231",
+    "http://arxiv.org/abs/2611.24212",
+    "http://arxiv.org/abs/2611.24170",
+    "http://arxiv.org/abs/2611.24146",
+    "http://arxiv.org/abs/2611.24025",
+    "http://arxiv.org/abs/2611.23388",
+    "http://arxiv.org/abs/2611.23138",
+    "http://arxiv.org/abs/2611.22382",
+    "http://arxiv.org/abs/2611.24778",
+    "http://arxiv.org/abs/2611.24633",
+    "http://arxiv.org/abs/2611.24507",
+    "http://arxiv.org/abs/2611.24486",
+    "http://arxiv.org/abs/2611.24325"
   ],
   "hn_seen": [
     "49735410",
@@ -592,7 +611,20 @@
     "50511072",
     "50510442",
     "50494696",
-    "50479876"
+    "50479876",
+    "50533270",
+    "50522776",
+    "50496787",
+    "50557885",
+    "50554374",
+    "50553225",
+    "50552424",
+    "50551601",
+    "50551398",
+    "50517410",
+    "50536468",
+    "50533089",
+    "50523025"
   ],
   "log": [
     {
@@ -3732,8 +3764,200 @@
       "at": "2026-11-16T17:27:50Z",
       "text": "HN front-page (163 pts): 'The Netherlands is negotiating dismantling the International Criminal Court'",
       "url": "https://news.ycombinator.com/item?id=50479876"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-19T16:47:45Z",
+      "text": "New paper mentioning DeepSeek: Agentic Harness Engineering Beta: Requirement-Centered Evolution of Agent Harnesses",
+      "url": "http://arxiv.org/abs/2611.24924"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-19T16:47:45Z",
+      "text": "New paper mentioning DeepSeek: Openhagen Worlds: Calibrated Environments for Measuring and Training Scientific Discovery Agents",
+      "url": "http://arxiv.org/abs/2611.24711"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-19T16:47:45Z",
+      "text": "New paper mentioning DeepSeek: Probing agent overeagerness in realistic settings with continuation audits",
+      "url": "http://arxiv.org/abs/2611.24491"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-19T16:47:45Z",
+      "text": "New paper mentioning DeepSeek: Keeping Up with the Kernel: Can LLMs Adapt Linux Drivers to Interface Changes?",
+      "url": "http://arxiv.org/abs/2611.24269"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-19T16:47:45Z",
+      "text": "New paper mentioning DeepSeek: HypoLoop: Revising Weight-Editing Plans from Scientific Feedback",
+      "url": "http://arxiv.org/abs/2611.23718"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-19T16:47:45Z",
+      "text": "HN front-page (54 pts): Show HN: TrnRT \u2013 An open-source LLM inference engine for AWS Trainium",
+      "url": "https://news.ycombinator.com/item?id=50533270"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-19T16:47:45Z",
+      "text": "New paper mentioning Qwen: Chain-of-Thought Hidden States Reveal Task-Solving Directions for Direct Answers",
+      "url": "http://arxiv.org/abs/2611.24598"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-19T16:47:45Z",
+      "text": "New paper mentioning Qwen: What Survives the Shift from Text to Pixels? Conditional Protection against Prompt Injection in Image-Rendered Documents",
+      "url": "http://arxiv.org/abs/2611.24231"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-19T16:47:45Z",
+      "text": "New paper mentioning Qwen: DetailScale-SR: Decoupling Restoration and Continuous Detail Control for Real-World Super-Resolution",
+      "url": "http://arxiv.org/abs/2611.24212"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-19T16:47:45Z",
+      "text": "New paper mentioning Qwen: ViStep-RL: Stepwise Reinforcement Learning for Long-Horizon Visual Agents",
+      "url": "http://arxiv.org/abs/2611.24170"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-19T16:47:45Z",
+      "text": "New paper mentioning Qwen: Assessing Vision-Language Models for Early Prediction of Unsafe Situations in Robotics",
+      "url": "http://arxiv.org/abs/2611.24146"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-19T16:47:45Z",
+      "text": "HN front-page (56 pts): Launch HN: Axonnic (YC F26) \u2013 Sleeves that track fingers and estimate force",
+      "url": "https://news.ycombinator.com/item?id=50522776"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-19T16:47:45Z",
+      "text": "HN front-page (120 pts): Show HN: Zigzag, a native Mac browser for people leaving Arc",
+      "url": "https://news.ycombinator.com/item?id=50496787"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-19T16:47:45Z",
+      "text": "New paper mentioning GLM-: Intent Contracts: Taking Tools Away from Agents",
+      "url": "http://arxiv.org/abs/2611.24025"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-19T16:47:45Z",
+      "text": "New paper mentioning GLM-: QDA: Closed-Loop LLM Quantization Design with Agents",
+      "url": "http://arxiv.org/abs/2611.23388"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-19T16:47:45Z",
+      "text": "New paper mentioning GLM-: RSI-Prime: Training Models to Train Models",
+      "url": "http://arxiv.org/abs/2611.23138"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-19T16:47:45Z",
+      "text": "New paper mentioning GLM-: RICoT: Recurrent Interleaved Chain-of-Thought for Page Stream Segmentation",
+      "url": "http://arxiv.org/abs/2611.22382"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-19T16:47:45Z",
+      "text": "HN front-page (100 pts): DeepMind Employees Are Unionising",
+      "url": "https://news.ycombinator.com/item?id=50557885"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-19T16:47:45Z",
+      "text": "HN front-page (245 pts): Gemini 4 Neon looks like an Opus 5.5 competitor",
+      "url": "https://news.ycombinator.com/item?id=50554374"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-19T16:47:45Z",
+      "text": "HN front-page (289 pts): LLM assisted reverse engineering",
+      "url": "https://news.ycombinator.com/item?id=50553225"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-19T16:47:45Z",
+      "text": "HN front-page (972 pts): Gemini 4 Neon",
+      "url": "https://news.ycombinator.com/item?id=50552424"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-19T16:47:45Z",
+      "text": "HN front-page (56 pts): Google Gemini's \"Tasks\" Personal Assistant Is Now Free",
+      "url": "https://news.ycombinator.com/item?id=50551601"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-19T16:47:45Z",
+      "text": "New paper mentioning MiniMax: Counterfactual World Models: JEPAs That Reason About \"What If\"",
+      "url": "http://arxiv.org/abs/2611.24778"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-19T16:47:45Z",
+      "text": "New paper mentioning MiniMax: H3Remover: Reinforcing Video Object Removal without Paired Data",
+      "url": "http://arxiv.org/abs/2611.24633"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-19T16:47:45Z",
+      "text": "New paper mentioning MiniMax: Sparse designs via quantization of the uniform measure on high-dimensional hypercubes",
+      "url": "http://arxiv.org/abs/2611.24507"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-19T16:47:45Z",
+      "text": "New paper mentioning MiniMax: Study and Improvement of Search Algorithms in Stochastic Perfect-Information",
+      "url": "http://arxiv.org/abs/2611.24486"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-19T16:47:45Z",
+      "text": "New paper mentioning MiniMax: Structure-Preserving Neural Approximation of Convex, Semiconvex, and Quasiconvex Functions",
+      "url": "http://arxiv.org/abs/2611.24325"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-19T16:47:45Z",
+      "text": "HN front-page (65 pts): Search Browser \u2013 Minimalist WebKit browser with Chrome extension support",
+      "url": "https://news.ycombinator.com/item?id=50551398"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-19T16:47:45Z",
+      "text": "HN front-page (61 pts): Show HN: Unref \u2013 A Python dead code finder built on Ruff's parser",
+      "url": "https://news.ycombinator.com/item?id=50517410"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-19T16:47:45Z",
+      "text": "HN front-page (87 pts): Launch HN: StarSling (YC P25) \u2013 Self-improving CI for agent-volume repos",
+      "url": "https://news.ycombinator.com/item?id=50536468"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-19T16:47:45Z",
+      "text": "HN front-page (334 pts): NSA Internal Network Down",
+      "url": "https://news.ycombinator.com/item?id=50533089"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-19T16:47:45Z",
+      "text": "HN front-page (262 pts): Comcast's \"fiber-powered Wi-Fi\" is cable, AT&T says in false advertising case",
+      "url": "https://news.ycombinator.com/item?id=50523025"
     }
   ],
   "first_run_done": true,
-  "last_run": "2026-11-16T17:27:50Z"
+  "last_run": "2026-11-19T16:47:45Z"
 }

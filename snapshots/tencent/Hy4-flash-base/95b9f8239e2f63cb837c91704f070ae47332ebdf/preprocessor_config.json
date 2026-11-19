@@ -1,0 +1,26 @@
+{
+  "min_pixels": 4096,
+  "max_pixels": 4194304,
+  "patch_size": 16,
+  "resample": 3,
+  "temporal_patch_size": 1,
+  "spatial_patch_size": 1,
+  "merge_size": 2,
+  "image_mean": [
+    0.5,
+    0.5,
+    0.5
+  ],
+  "image_std": [
+    0.5,
+    0.5,
+    0.5
+  ],
+  "timestamp_token_per_frame": 6,
+  "timestamp_token_reserve": 1000,
+  "min_frames": 2,
+  "max_frames": 1024,
+  "video_max_image_size": 1024,
+  "image_processor_type": "HYV4VLImageProcessor",
+  "processor_class": "HYV4FlashProcessor"
+}

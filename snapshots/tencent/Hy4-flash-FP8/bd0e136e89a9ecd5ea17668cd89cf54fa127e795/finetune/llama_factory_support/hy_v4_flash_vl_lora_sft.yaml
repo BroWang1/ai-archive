@@ -1,0 +1,66 @@
+### model
+model_name_or_path: /path/to/hy4_flash_ckpt
+trust_remote_code: true
+
+### method
+stage: sft
+do_train: true
+finetuning_type: lora
+
+# Using FSDP1 with full sharding strategy.
+fsdp: true
+fsdp_config:
+  version: 1
+  fsdp_sharding_strategy: FULL_SHARD
+  fsdp_backward_prefetch: BACKWARD_PRE
+  fsdp_state_dict_type: FULL_STATE_DICT
+  fsdp_use_orig_params: true
+  fsdp_cpu_ram_efficient_loading: true
+  fsdp_offload_params: false
+  fsdp_auto_wrap_policy: TRANSFORMER_BASED_WRAP
+  fsdp_transformer_layer_cls_to_wrap: HYV4FlashDecoderLayer
+
+### LoRA parameters
+lora_rank: 64
+lora_alpha: 128
+lora_dropout: 0.05
+# HYV4 Flash MLA projection names
+lora_target: q_a_proj,q_b_proj,kv_a_proj_with_mqa,kv_b_proj,o_proj
+
+### VL-specific settings
+freeze_vision_tower: true
+
+### dataset
+dataset_dir: .
+dataset: hy_v4_flash_vl_demo
+template: hy_v4_flash_vl
+cutoff_len: 1024
+max_samples: 1000
+overwrite_cache: true
+
+### output
+output_dir: saves/hy_v4_flash_vl/lora/sft
+logging_steps: 1
+save_steps: 5
+max_steps: 5
+plot_loss: true
+overwrite_output_dir: true
+save_only_model: false
+report_to: none
+
+### train
+per_device_train_batch_size: 1
+gradient_accumulation_steps: 1
+learning_rate: 2.0e-4
+num_train_epochs: 3.0
+lr_scheduler_type: cosine_with_min_lr
+lr_scheduler_kwargs:
+  min_lr_rate: 0.1
+warmup_steps: 0
+bf16: true
+gradient_checkpointing: true
+gradient_checkpointing_kwargs:
+  use_reentrant: true
+ddp_timeout: 180000000
+flash_attn: disabled
+resume_from_checkpoint: null

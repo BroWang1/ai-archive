@@ -244,9 +244,18 @@
     "LiquidAI/Liquid-Codec",
     "KRAFTON/Raon-1-nano",
     "MinimaLabs/KLM-1.6",
-    "Edge0/Edge0-145B-q3k"
+    "Edge0/Edge0-145B-q3k",
+    "harness-hub/Qwen3.8-27B-pi-adapted",
+    "n4ze3m/tiny-voca",
+    "meituan-longcat/LongCat-Video-Avatar-1.6",
+    "maxwell-model/Maxwell-V1-Flash",
+    "sensenova/SenseNova-Loop-9B",
+    "HuggingFaceTB/SmolVLM2-256M-Video-Instruct",
+    "nvidia/Alpamayo2-Edge",
+    "harness-hub/Qwen3.8-27B-pi-adapted-GGUF",
+    "mradermacher/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic-GGUF"
   ],
-  "last_run": "2026-11-16T17:27:39Z",
+  "last_run": "2026-11-19T16:47:35Z",
   "log": [
     {
       "id": "prism-ml/Ternary-Bonsai-2-27B-gguf",
@@ -1282,6 +1291,51 @@
       "id": "Edge0/Edge0-145B-q3k",
       "at": "2026-11-16T17:27:39Z",
       "downloads": 92228
+    },
+    {
+      "id": "harness-hub/Qwen3.8-27B-pi-adapted",
+      "at": "2026-11-19T16:47:35Z",
+      "downloads": 1320
+    },
+    {
+      "id": "n4ze3m/tiny-voca",
+      "at": "2026-11-19T16:47:35Z",
+      "downloads": 6368
+    },
+    {
+      "id": "meituan-longcat/LongCat-Video-Avatar-1.6",
+      "at": "2026-11-19T16:47:35Z",
+      "downloads": 1923
+    },
+    {
+      "id": "maxwell-model/Maxwell-V1-Flash",
+      "at": "2026-11-19T16:47:35Z",
+      "downloads": 1703
+    },
+    {
+      "id": "sensenova/SenseNova-Loop-9B",
+      "at": "2026-11-19T16:47:35Z",
+      "downloads": 1447
+    },
+    {
+      "id": "HuggingFaceTB/SmolVLM2-256M-Video-Instruct",
+      "at": "2026-11-19T16:47:35Z",
+      "downloads": 44604
+    },
+    {
+      "id": "nvidia/Alpamayo2-Edge",
+      "at": "2026-11-19T16:47:35Z",
+      "downloads": 3257
+    },
+    {
+      "id": "harness-hub/Qwen3.8-27B-pi-adapted-GGUF",
+      "at": "2026-11-19T16:47:35Z",
+      "downloads": 2481
+    },
+    {
+      "id": "mradermacher/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic-GGUF",
+      "at": "2026-11-19T16:47:35Z",
+      "downloads": 888172
     }
   ]
 }

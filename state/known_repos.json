@@ -881,6 +881,9 @@
       "tencent/Hy3-FP8",
       "tencent/Hy3-preview",
       "tencent/Hy3-preview-Base",
+      "tencent/Hy4-flash",
+      "tencent/Hy4-flash-FP8",
+      "tencent/Hy4-flash-base",
       "tencent/Hy4-preview",
       "tencent/Hy4-preview-FP8",
       "tencent/InstantCharacter",
@@ -924,6 +927,7 @@
       "tencent/WeVisCut",
       "tencent/WeVisDoc-2B",
       "tencent/WeVisDoc-4B",
+      "tencent/WeVisForensics",
       "tencent/WeVisOne-VL-2B",
       "tencent/WeVisOne-VL-4B",
       "tencent/Youtu-Embedding",
@@ -1253,6 +1257,7 @@
       "inclusionAI/DR-Venus-4B-SFT",
       "inclusionAI/DR-Venus-4B-SFT-GGUF",
       "inclusionAI/DeepSeek-V4-Flash-0731-singprobe",
+      "inclusionAI/DeepSeek-V4.1-Flash-1017-singprobe",
       "inclusionAI/Duo-1.0-causal-base",
       "inclusionAI/Duo-1.0-distill",
       "inclusionAI/Duo-1.0-distill-quant",
@@ -1327,6 +1332,7 @@
       "inclusionAI/Ling-3.0-tiny-singprobe",
       "inclusionAI/Ling-3.1-flash",
       "inclusionAI/Ling-3.1-flash-1019",
+      "inclusionAI/Ling-3.1-flash-1019-singprobe",
       "inclusionAI/Ling-3.1-flash-base",
       "inclusionAI/Ling-Coder-lite",
       "inclusionAI/Ling-Coder-lite-GPTQ-Int8",
@@ -1463,7 +1469,8 @@
       "inclusionAI/gemma-4-31B-it-singprobe",
       "inclusionAI/gemma-4-E4B-it-singprobe",
       "inclusionAI/gpt-oss-120b-singprobe",
-      "inclusionAI/gpt-oss-20b-singprobe"
+      "inclusionAI/gpt-oss-20b-singprobe",
+      "inclusionAI/invoker-render-1.0"
     ],
     "XiaomiMiMo": [
       "XiaomiMiMo/MiMo-7B-Base",
@@ -2158,5 +2165,5 @@
     ]
   },
   "first_run_done": true,
-  "last_run": "2026-11-16T17:26:15Z"
+  "last_run": "2026-11-19T16:47:03Z"
 }

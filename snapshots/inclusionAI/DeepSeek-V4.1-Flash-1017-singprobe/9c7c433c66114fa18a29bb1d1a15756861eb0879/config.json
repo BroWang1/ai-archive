@@ -1,0 +1,22 @@
+{
+  "architectures": [
+    "SingProbeAttnModel"
+  ],
+  "model_type": "sing_probe_attn",
+  "auto_map": {
+    "AutoConfig": "configuration_sing_probe.SingProbeAttnConfig",
+    "AutoModel": "modeling_sing_probe.SingProbeAttnModel"
+  },
+  "hidden_size": 5120,
+  "base_model_layer_ids": [
+    12,
+    25,
+    39
+  ],
+  "num_attention_heads": 8,
+  "head_dim": 64,
+  "sliding_window": 2048,
+  "num_labels": 10,
+  "base_model_name": "/home/admin/DeepSeek-V4.1-Flash-1017",
+  "torch_dtype": "bfloat16"
+}

@@ -1,0 +1,42 @@
+{
+  "roles": {
+    "physical_consistency": [],
+    "visual_appearance": [
+      {
+        "id": "R1",
+        "text": "Ignore: Motion blur that softens a moving subject's skin or hair boundaries during fast movement."
+      },
+      {
+        "id": "R2",
+        "text": "Report: A subject's surface lacking fine texture while adjacent high-frequency details remain sharp."
+      },
+      {
+        "id": "R3",
+        "text": "Ignore: Global softness or compression artifacts that uniformly reduce detail across the entire frame."
+      },
+      {
+        "id": "R4",
+        "text": "Ignore: Smooth skin or facial surfaces that lack fine pore detail due to beauty filters or high compression."
+      },
+      {
+        "id": "R5",
+        "text": "Report: Facial or hand contours that locally melt or duplicate while surrounding background details remain sharp."
+      }
+    ],
+    "common_sense": [
+      {
+        "id": "R1",
+        "text": "Report: A character's body or props shifting into a physically incompatible form or scale during a transition."
+      },
+      {
+        "id": "R2",
+        "text": "Report: A physical object appearing on the ground with a spill or impact mark lacking a visible causal action."
+      },
+      {
+        "id": "R3",
+        "text": "Ignore: Stylized or game-like environments where objects or animals behave according to internal rules."
+      }
+    ],
+    "ocr_consistency": []
+  }
+}

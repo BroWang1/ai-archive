@@ -145,7 +145,8 @@
       "MoonshotAI/Kimi-Audio-Evalkit",
       "MoonshotAI/Kimi-Audio",
       "MoonshotAI/Kimina-Prover-Preview",
-      "MoonshotAI/TCSExam"
+      "MoonshotAI/TCSExam",
+      "MoonshotAI/kha"
     ],
     "Tencent-Hunyuan": [
       "Tencent-Hunyuan/Simple-Attention-Sparsification",
@@ -191,7 +192,8 @@
       "Tencent-Hunyuan/FlashTopK",
       "Tencent-Hunyuan/AppCIF-Bench",
       "Tencent-Hunyuan/MovieRoll",
-      "Tencent-Hunyuan/ORAV-Bench"
+      "Tencent-Hunyuan/ORAV-Bench",
+      "Tencent-Hunyuan/Hy4-flash"
     ],
     "Wan-Video": [
       "Wan-Video/Wan-Animate-2",
@@ -395,7 +397,9 @@
       "FlagOpen/Awesome-Industry-Dataset",
       "FlagOpen/Infinity-Instruct",
       "FlagOpen/TACO",
-      "FlagOpen/FlagEmbedding"
+      "FlagOpen/FlagEmbedding",
+      "FlagOpen/HumanCOIN-DataManager",
+      "FlagOpen/HumanCOIN"
     ],
     "XiaomiMiMo": [
       "XiaomiMiMo/awesome-mimo-agent",
@@ -483,7 +487,8 @@
       "vllm-project/vllm-jax",
       "vllm-project/vllm-sail",
       "vllm-project/vllm-torchtpu",
-      "vllm-project/rust-pcre2"
+      "vllm-project/rust-pcre2",
+      "vllm-project/vllm-omni-torchtpu"
     ]
   },
   "log": [
@@ -1106,8 +1111,33 @@
       "id": "InternLM/Sage-S2.1-Flash",
       "at": "2026-11-16T17:27:39Z",
       "desc": "Sage S2.1 Flash \u2014 A scientific multimodal model. Explore through reasoning. Verify through action."
+    },
+    {
+      "id": "MoonshotAI/kha",
+      "at": "2026-11-19T16:47:35Z",
+      "desc": ""
+    },
+    {
+      "id": "Tencent-Hunyuan/Hy4-flash",
+      "at": "2026-11-19T16:47:35Z",
+      "desc": ""
+    },
+    {
+      "id": "FlagOpen/HumanCOIN-DataManager",
+      "at": "2026-11-19T16:47:35Z",
+      "desc": " a web portal for finding, previewing and downloading HumanCOIN datasets"
+    },
+    {
+      "id": "FlagOpen/HumanCOIN",
+      "at": "2026-11-19T16:47:35Z",
+      "desc": "The Human-Signal Dataset at the Scale of Egocentric Manipulation"
+    },
+    {
+      "id": "vllm-project/vllm-omni-torchtpu",
+      "at": "2026-11-19T16:47:35Z",
+      "desc": ""
     }
   ],
   "first_run_done": true,
-  "last_run": "2026-11-16T17:27:39Z"
+  "last_run": "2026-11-19T16:47:35Z"
 }
