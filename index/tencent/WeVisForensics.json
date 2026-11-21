@@ -120,6 +120,122 @@
         "hf": null,
         "master": null
       }
+    },
+    {
+      "revision": "4281c2167705a48f84334026f40bba394d461067",
+      "captured_at": "2026-11-21T13:34:20Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/tencent/WeVisForensics?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"d17-X2gEGTUeKvmRL/0sogRjlwujAjM\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "apache-2.0",
+        "file": "LICENSE",
+        "sha256": "f40347a79bc24ee75dad77a356a144a415136f014f8c89197870b1ddff1a6569",
+        "redistributable": null,
+        "obligations": []
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1519,
+          "sha256": "11ad7efa24975ee4b0c3c3a38ed18737f0658a5f75a0a96787b576a78a023361",
+          "kind": "snapshot"
+        },
+        {
+          "path": "LICENSE",
+          "size": 23905,
+          "sha256": "f40347a79bc24ee75dad77a356a144a415136f014f8c89197870b1ddff1a6569",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 3522,
+          "sha256": "3d9c16e2b7e7e907263aa35e24a9d70d86eade236221c57ecf42face2d6954d4",
+          "kind": "snapshot"
+        },
+        {
+          "path": "adapter_config.json",
+          "size": 1133,
+          "sha256": "f513cac5151091ea5e2e243789a5625020241a2e0f2e3be0cf5fdee45af25ee0",
+          "kind": "snapshot"
+        },
+        {
+          "path": "adapter_model.safetensors",
+          "size": 259794944,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "common_sense/adapter_config.json",
+          "size": 1187,
+          "sha256": "a6e392bc00e23038febc2a2e7d4f0f241613c3266a5b82893564928daa27b3d3",
+          "kind": "snapshot"
+        },
+        {
+          "path": "common_sense/adapter_model.safetensors",
+          "size": 259794944,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "ocr_consistency/adapter_config.json",
+          "size": 1187,
+          "sha256": "fd236c397941ffcd696407b13ce763edd95d1cc173a4342bf5155d2f664b4c57",
+          "kind": "snapshot"
+        },
+        {
+          "path": "ocr_consistency/adapter_model.safetensors",
+          "size": 259794944,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "physical_consistency/adapter_config.json",
+          "size": 1187,
+          "sha256": "3997abbf203a1d1c3be0dbc0c674a6abc76c5847b9619d7e509f970d50b8314b",
+          "kind": "snapshot"
+        },
+        {
+          "path": "physical_consistency/adapter_model.safetensors",
+          "size": 259794944,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "skill_card.json",
+          "size": 1431,
+          "sha256": "46270e4e0aea1801995ebccded49134c131d29fd5fde9a38cc2f0928549807e1",
+          "kind": "snapshot"
+        },
+        {
+          "path": "visual_appearance/adapter_config.json",
+          "size": 1187,
+          "sha256": "511ead83062f62945f79274d451176c391e4fe225fbf744015ff034da90dfd4f",
+          "kind": "snapshot"
+        },
+        {
+          "path": "visual_appearance/adapter_model.safetensors",
+          "size": 259794944,
+          "sha256": null,
+          "kind": "weights"
+        }
+      ],
+      "total_bytes": 1299010978,
+      "weight_bytes": 1298974720,
+      "snapshot_dir": "snapshots/tencent/WeVisForensics/4281c2167705a48f84334026f40bba394d461067/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
     }
   ],
   "errata": [],

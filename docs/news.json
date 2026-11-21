@@ -1,5 +1,12 @@
 [
  {
+  "at": "2026-11-21T13:34:20Z",
+  "kind": "capture",
+  "text": "Captured tencent/WeVisForensics \u2014 1 GB manifested, license: unclassified",
+  "url": "https://huggingface.co/tencent/WeVisForensics",
+  "action": "view / download"
+ },
+ {
   "at": "2026-11-19T16:47:45Z",
   "kind": "paper",
   "text": "New paper mentioning DeepSeek: Agentic Harness Engineering Beta: Requirement-Centered Evolution of Agent Harnesses",
@@ -270,13 +277,6 @@
   "kind": "trending",
   "text": "Trending outside tracked labs: nvidia/Alpamayo2-Edge (3,257 downloads)",
   "url": "https://huggingface.co/nvidia/Alpamayo2-Edge",
-  "action": "view"
- },
- {
-  "at": "2026-11-19T16:47:35Z",
-  "kind": "trending",
-  "text": "Trending outside tracked labs: harness-hub/Qwen3.8-27B-pi-adapted-GGUF (2,481 downloads)",
-  "url": "https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted-GGUF",
   "action": "view"
  }
 ]
