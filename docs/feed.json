@@ -6,280 +6,280 @@
  "description": "Captures, mirrors, takedown alerts and radar signals for open-weight AI models",
  "items": [
   {
-   "id": "2026-11-21T13:34:20Z-3376037309",
+   "id": "2026-11-21T13:34:20Z-3951315613",
    "title": "Captured tencent/WeVisForensics \u2014 1 GB manifested, license: unclassified",
    "date_published": "2026-11-21T13:34:20Z",
    "url": "https://huggingface.co/tencent/WeVisForensics",
    "content_text": "Captured tencent/WeVisForensics \u2014 1 GB manifested, license: unclassified"
   },
   {
-   "id": "2026-11-19T16:47:45Z-2099605670",
+   "id": "2026-11-19T16:47:45Z-1841182291",
    "title": "New paper mentioning DeepSeek: Agentic Harness Engineering Beta: Requirement-Centered Evolution of Agent Harnesses",
    "date_published": "2026-11-19T16:47:45Z",
    "url": "http://arxiv.org/abs/2611.24924",
    "content_text": "New paper mentioning DeepSeek: Agentic Harness Engineering Beta: Requirement-Centered Evolution of Agent Harnesses"
   },
   {
-   "id": "2026-11-19T16:47:45Z-1477022790",
+   "id": "2026-11-19T16:47:45Z-3087071310",
    "title": "New paper mentioning DeepSeek: Openhagen Worlds: Calibrated Environments for Measuring and Training Scientific Discovery Agents",
    "date_published": "2026-11-19T16:47:45Z",
    "url": "http://arxiv.org/abs/2611.24711",
    "content_text": "New paper mentioning DeepSeek: Openhagen Worlds: Calibrated Environments for Measuring and Training Scientific Discovery Agents"
   },
   {
-   "id": "2026-11-19T16:47:45Z-133840291",
+   "id": "2026-11-19T16:47:45Z-537448111",
    "title": "New paper mentioning DeepSeek: Probing agent overeagerness in realistic settings with continuation audits",
    "date_published": "2026-11-19T16:47:45Z",
    "url": "http://arxiv.org/abs/2611.24491",
    "content_text": "New paper mentioning DeepSeek: Probing agent overeagerness in realistic settings with continuation audits"
   },
   {
-   "id": "2026-11-19T16:47:45Z-1424150489",
+   "id": "2026-11-19T16:47:45Z-224584974",
    "title": "New paper mentioning DeepSeek: Keeping Up with the Kernel: Can LLMs Adapt Linux Drivers to Interface Changes?",
    "date_published": "2026-11-19T16:47:45Z",
    "url": "http://arxiv.org/abs/2611.24269",
    "content_text": "New paper mentioning DeepSeek: Keeping Up with the Kernel: Can LLMs Adapt Linux Drivers to Interface Changes?"
   },
   {
-   "id": "2026-11-19T16:47:45Z-1634037429",
+   "id": "2026-11-19T16:47:45Z-1075852203",
    "title": "New paper mentioning DeepSeek: HypoLoop: Revising Weight-Editing Plans from Scientific Feedback",
    "date_published": "2026-11-19T16:47:45Z",
    "url": "http://arxiv.org/abs/2611.23718",
    "content_text": "New paper mentioning DeepSeek: HypoLoop: Revising Weight-Editing Plans from Scientific Feedback"
   },
   {
-   "id": "2026-11-19T16:47:45Z-1273132845",
+   "id": "2026-11-19T16:47:45Z-999731979",
    "title": "HN front-page (54 pts): Show HN: TrnRT \u2013 An open-source LLM inference engine for AWS Trainium",
    "date_published": "2026-11-19T16:47:45Z",
    "url": "https://news.ycombinator.com/item?id=50533270",
    "content_text": "HN front-page (54 pts): Show HN: TrnRT \u2013 An open-source LLM inference engine for AWS Trainium"
   },
   {
-   "id": "2026-11-19T16:47:45Z-1685440464",
+   "id": "2026-11-19T16:47:45Z-89841856",
    "title": "New paper mentioning Qwen: Chain-of-Thought Hidden States Reveal Task-Solving Directions for Direct Answers",
    "date_published": "2026-11-19T16:47:45Z",
    "url": "http://arxiv.org/abs/2611.24598",
    "content_text": "New paper mentioning Qwen: Chain-of-Thought Hidden States Reveal Task-Solving Directions for Direct Answers"
   },
   {
-   "id": "2026-11-19T16:47:45Z-1784798840",
+   "id": "2026-11-19T16:47:45Z-2287394087",
    "title": "New paper mentioning Qwen: What Survives the Shift from Text to Pixels? Conditional Protection against Prompt Injection in Image-Rendered Documents",
    "date_published": "2026-11-19T16:47:45Z",
    "url": "http://arxiv.org/abs/2611.24231",
    "content_text": "New paper mentioning Qwen: What Survives the Shift from Text to Pixels? Conditional Protection against Prompt Injection in Image-Rendered Documents"
   },
   {
-   "id": "2026-11-19T16:47:45Z-808933422",
+   "id": "2026-11-19T16:47:45Z-3101795509",
    "title": "New paper mentioning Qwen: DetailScale-SR: Decoupling Restoration and Continuous Detail Control for Real-World Super-Resolution",
    "date_published": "2026-11-19T16:47:45Z",
    "url": "http://arxiv.org/abs/2611.24212",
    "content_text": "New paper mentioning Qwen: DetailScale-SR: Decoupling Restoration and Continuous Detail Control for Real-World Super-Resolution"
   },
   {
-   "id": "2026-11-19T16:47:45Z-3501897091",
+   "id": "2026-11-19T16:47:45Z-2782515314",
    "title": "New paper mentioning Qwen: ViStep-RL: Stepwise Reinforcement Learning for Long-Horizon Visual Agents",
    "date_published": "2026-11-19T16:47:45Z",
    "url": "http://arxiv.org/abs/2611.24170",
    "content_text": "New paper mentioning Qwen: ViStep-RL: Stepwise Reinforcement Learning for Long-Horizon Visual Agents"
   },
   {
-   "id": "2026-11-19T16:47:45Z-2834264372",
+   "id": "2026-11-19T16:47:45Z-2329673797",
    "title": "New paper mentioning Qwen: Assessing Vision-Language Models for Early Prediction of Unsafe Situations in Robotics",
    "date_published": "2026-11-19T16:47:45Z",
    "url": "http://arxiv.org/abs/2611.24146",
    "content_text": "New paper mentioning Qwen: Assessing Vision-Language Models for Early Prediction of Unsafe Situations in Robotics"
   },
   {
-   "id": "2026-11-19T16:47:45Z-3721046585",
+   "id": "2026-11-19T16:47:45Z-73790972",
    "title": "HN front-page (56 pts): Launch HN: Axonnic (YC F26) \u2013 Sleeves that track fingers and estimate force",
    "date_published": "2026-11-19T16:47:45Z",
    "url": "https://news.ycombinator.com/item?id=50522776",
    "content_text": "HN front-page (56 pts): Launch HN: Axonnic (YC F26) \u2013 Sleeves that track fingers and estimate force"
   },
   {
-   "id": "2026-11-19T16:47:45Z-2055870530",
+   "id": "2026-11-19T16:47:45Z-4001832382",
    "title": "HN front-page (120 pts): Show HN: Zigzag, a native Mac browser for people leaving Arc",
    "date_published": "2026-11-19T16:47:45Z",
    "url": "https://news.ycombinator.com/item?id=50496787",
    "content_text": "HN front-page (120 pts): Show HN: Zigzag, a native Mac browser for people leaving Arc"
   },
   {
-   "id": "2026-11-19T16:47:45Z-518325621",
+   "id": "2026-11-19T16:47:45Z-782787072",
    "title": "New paper mentioning GLM-: Intent Contracts: Taking Tools Away from Agents",
    "date_published": "2026-11-19T16:47:45Z",
    "url": "http://arxiv.org/abs/2611.24025",
    "content_text": "New paper mentioning GLM-: Intent Contracts: Taking Tools Away from Agents"
   },
   {
-   "id": "2026-11-19T16:47:45Z-4189737061",
+   "id": "2026-11-19T16:47:45Z-3185141381",
    "title": "New paper mentioning GLM-: QDA: Closed-Loop LLM Quantization Design with Agents",
    "date_published": "2026-11-19T16:47:45Z",
    "url": "http://arxiv.org/abs/2611.23388",
    "content_text": "New paper mentioning GLM-: QDA: Closed-Loop LLM Quantization Design with Agents"
   },
   {
-   "id": "2026-11-19T16:47:45Z-3889580310",
+   "id": "2026-11-19T16:47:45Z-2190094691",
    "title": "New paper mentioning GLM-: RSI-Prime: Training Models to Train Models",
    "date_published": "2026-11-19T16:47:45Z",
    "url": "http://arxiv.org/abs/2611.23138",
    "content_text": "New paper mentioning GLM-: RSI-Prime: Training Models to Train Models"
   },
   {
-   "id": "2026-11-19T16:47:45Z-3859077372",
+   "id": "2026-11-19T16:47:45Z-3337103335",
    "title": "New paper mentioning GLM-: RICoT: Recurrent Interleaved Chain-of-Thought for Page Stream Segmentation",
    "date_published": "2026-11-19T16:47:45Z",
    "url": "http://arxiv.org/abs/2611.22382",
    "content_text": "New paper mentioning GLM-: RICoT: Recurrent Interleaved Chain-of-Thought for Page Stream Segmentation"
   },
   {
-   "id": "2026-11-19T16:47:45Z-1315043739",
+   "id": "2026-11-19T16:47:45Z-3995938370",
    "title": "HN front-page (100 pts): DeepMind Employees Are Unionising",
    "date_published": "2026-11-19T16:47:45Z",
    "url": "https://news.ycombinator.com/item?id=50557885",
    "content_text": "HN front-page (100 pts): DeepMind Employees Are Unionising"
   },
   {
-   "id": "2026-11-19T16:47:45Z-3857507227",
+   "id": "2026-11-19T16:47:45Z-1421113241",
    "title": "HN front-page (245 pts): Gemini 4 Neon looks like an Opus 5.5 competitor",
    "date_published": "2026-11-19T16:47:45Z",
    "url": "https://news.ycombinator.com/item?id=50554374",
    "content_text": "HN front-page (245 pts): Gemini 4 Neon looks like an Opus 5.5 competitor"
   },
   {
-   "id": "2026-11-19T16:47:45Z-2023170947",
+   "id": "2026-11-19T16:47:45Z-3666214658",
    "title": "HN front-page (289 pts): LLM assisted reverse engineering",
    "date_published": "2026-11-19T16:47:45Z",
    "url": "https://news.ycombinator.com/item?id=50553225",
    "content_text": "HN front-page (289 pts): LLM assisted reverse engineering"
   },
   {
-   "id": "2026-11-19T16:47:45Z-229058961",
+   "id": "2026-11-19T16:47:45Z-4067946898",
    "title": "HN front-page (972 pts): Gemini 4 Neon",
    "date_published": "2026-11-19T16:47:45Z",
    "url": "https://news.ycombinator.com/item?id=50552424",
    "content_text": "HN front-page (972 pts): Gemini 4 Neon"
   },
   {
-   "id": "2026-11-19T16:47:45Z-436373307",
+   "id": "2026-11-19T16:47:45Z-3293430462",
    "title": "HN front-page (56 pts): Google Gemini's \"Tasks\" Personal Assistant Is Now Free",
    "date_published": "2026-11-19T16:47:45Z",
    "url": "https://news.ycombinator.com/item?id=50551601",
    "content_text": "HN front-page (56 pts): Google Gemini's \"Tasks\" Personal Assistant Is Now Free"
   },
   {
-   "id": "2026-11-19T16:47:45Z-3541679251",
+   "id": "2026-11-19T16:47:45Z-2710525278",
    "title": "New paper mentioning MiniMax: Counterfactual World Models: JEPAs That Reason About \"What If\"",
    "date_published": "2026-11-19T16:47:45Z",
    "url": "http://arxiv.org/abs/2611.24778",
    "content_text": "New paper mentioning MiniMax: Counterfactual World Models: JEPAs That Reason About \"What If\""
   },
   {
-   "id": "2026-11-19T16:47:45Z-2156711",
+   "id": "2026-11-19T16:47:45Z-1948965288",
    "title": "New paper mentioning MiniMax: H3Remover: Reinforcing Video Object Removal without Paired Data",
    "date_published": "2026-11-19T16:47:45Z",
    "url": "http://arxiv.org/abs/2611.24633",
    "content_text": "New paper mentioning MiniMax: H3Remover: Reinforcing Video Object Removal without Paired Data"
   },
   {
-   "id": "2026-11-19T16:47:45Z-2230229594",
+   "id": "2026-11-19T16:47:45Z-370448599",
    "title": "New paper mentioning MiniMax: Sparse designs via quantization of the uniform measure on high-dimensional hypercubes",
    "date_published": "2026-11-19T16:47:45Z",
    "url": "http://arxiv.org/abs/2611.24507",
    "content_text": "New paper mentioning MiniMax: Sparse designs via quantization of the uniform measure on high-dimensional hypercubes"
   },
   {
-   "id": "2026-11-19T16:47:45Z-3622580793",
+   "id": "2026-11-19T16:47:45Z-1804719366",
    "title": "New paper mentioning MiniMax: Study and Improvement of Search Algorithms in Stochastic Perfect-Information",
    "date_published": "2026-11-19T16:47:45Z",
    "url": "http://arxiv.org/abs/2611.24486",
    "content_text": "New paper mentioning MiniMax: Study and Improvement of Search Algorithms in Stochastic Perfect-Information"
   },
   {
-   "id": "2026-11-19T16:47:45Z-2716995388",
+   "id": "2026-11-19T16:47:45Z-2524755887",
    "title": "New paper mentioning MiniMax: Structure-Preserving Neural Approximation of Convex, Semiconvex, and Quasiconvex Functions",
    "date_published": "2026-11-19T16:47:45Z",
    "url": "http://arxiv.org/abs/2611.24325",
    "content_text": "New paper mentioning MiniMax: Structure-Preserving Neural Approximation of Convex, Semiconvex, and Quasiconvex Functions"
   },
   {
-   "id": "2026-11-19T16:47:45Z-3854623479",
+   "id": "2026-11-19T16:47:45Z-4133345325",
    "title": "HN front-page (65 pts): Search Browser \u2013 Minimalist WebKit browser with Chrome extension support",
    "date_published": "2026-11-19T16:47:45Z",
    "url": "https://news.ycombinator.com/item?id=50551398",
    "content_text": "HN front-page (65 pts): Search Browser \u2013 Minimalist WebKit browser with Chrome extension support"
   },
   {
-   "id": "2026-11-19T16:47:45Z-1295950324",
+   "id": "2026-11-19T16:47:45Z-3453539118",
    "title": "HN front-page (61 pts): Show HN: Unref \u2013 A Python dead code finder built on Ruff's parser",
    "date_published": "2026-11-19T16:47:45Z",
    "url": "https://news.ycombinator.com/item?id=50517410",
    "content_text": "HN front-page (61 pts): Show HN: Unref \u2013 A Python dead code finder built on Ruff's parser"
   },
   {
-   "id": "2026-11-19T16:47:45Z-1254152464",
+   "id": "2026-11-19T16:47:45Z-1957027574",
    "title": "HN front-page (87 pts): Launch HN: StarSling (YC P25) \u2013 Self-improving CI for agent-volume repos",
    "date_published": "2026-11-19T16:47:45Z",
    "url": "https://news.ycombinator.com/item?id=50536468",
    "content_text": "HN front-page (87 pts): Launch HN: StarSling (YC P25) \u2013 Self-improving CI for agent-volume repos"
   },
   {
-   "id": "2026-11-19T16:47:45Z-2781518326",
+   "id": "2026-11-19T16:47:45Z-3335464551",
    "title": "HN front-page (334 pts): NSA Internal Network Down",
    "date_published": "2026-11-19T16:47:45Z",
    "url": "https://news.ycombinator.com/item?id=50533089",
    "content_text": "HN front-page (334 pts): NSA Internal Network Down"
   },
   {
-   "id": "2026-11-19T16:47:45Z-924223656",
+   "id": "2026-11-19T16:47:45Z-1999521063",
    "title": "HN front-page (262 pts): Comcast's \"fiber-powered Wi-Fi\" is cable, AT&T says in false advertising case",
    "date_published": "2026-11-19T16:47:45Z",
    "url": "https://news.ycombinator.com/item?id=50523025",
    "content_text": "HN front-page (262 pts): Comcast's \"fiber-powered Wi-Fi\" is cable, AT&T says in false advertising case"
   },
   {
-   "id": "2026-11-19T16:47:35Z-3506508051",
+   "id": "2026-11-19T16:47:35Z-3152056506",
    "title": "Trending outside tracked labs: harness-hub/Qwen3.8-27B-pi-adapted (1,320 downloads)",
    "date_published": "2026-11-19T16:47:35Z",
    "url": "https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted",
    "content_text": "Trending outside tracked labs: harness-hub/Qwen3.8-27B-pi-adapted (1,320 downloads)"
   },
   {
-   "id": "2026-11-19T16:47:35Z-3201697126",
+   "id": "2026-11-19T16:47:35Z-1948003718",
    "title": "Trending outside tracked labs: n4ze3m/tiny-voca (6,368 downloads)",
    "date_published": "2026-11-19T16:47:35Z",
    "url": "https://huggingface.co/n4ze3m/tiny-voca",
    "content_text": "Trending outside tracked labs: n4ze3m/tiny-voca (6,368 downloads)"
   },
   {
-   "id": "2026-11-19T16:47:35Z-1000296242",
+   "id": "2026-11-19T16:47:35Z-1930225783",
    "title": "Trending outside tracked labs: meituan-longcat/LongCat-Video-Avatar-1.6 (1,923 downloads)",
    "date_published": "2026-11-19T16:47:35Z",
    "url": "https://huggingface.co/meituan-longcat/LongCat-Video-Avatar-1.6",
    "content_text": "Trending outside tracked labs: meituan-longcat/LongCat-Video-Avatar-1.6 (1,923 downloads)"
   },
   {
-   "id": "2026-11-19T16:47:35Z-1363445740",
+   "id": "2026-11-19T16:47:35Z-3458138594",
    "title": "Trending outside tracked labs: maxwell-model/Maxwell-V1-Flash (1,703 downloads)",
    "date_published": "2026-11-19T16:47:35Z",
    "url": "https://huggingface.co/maxwell-model/Maxwell-V1-Flash",
    "content_text": "Trending outside tracked labs: maxwell-model/Maxwell-V1-Flash (1,703 downloads)"
   },
   {
-   "id": "2026-11-19T16:47:35Z-3935874935",
+   "id": "2026-11-19T16:47:35Z-2073206759",
    "title": "Trending outside tracked labs: sensenova/SenseNova-Loop-9B (1,447 downloads)",
    "date_published": "2026-11-19T16:47:35Z",
    "url": "https://huggingface.co/sensenova/SenseNova-Loop-9B",
    "content_text": "Trending outside tracked labs: sensenova/SenseNova-Loop-9B (1,447 downloads)"
   },
   {
-   "id": "2026-11-19T16:47:35Z-1537551594",
+   "id": "2026-11-19T16:47:35Z-2005111055",
    "title": "Trending outside tracked labs: HuggingFaceTB/SmolVLM2-256M-Video-Instruct (44,604 downloads)",
    "date_published": "2026-11-19T16:47:35Z",
    "url": "https://huggingface.co/HuggingFaceTB/SmolVLM2-256M-Video-Instruct",
    "content_text": "Trending outside tracked labs: HuggingFaceTB/SmolVLM2-256M-Video-Instruct (44,604 downloads)"
   },
   {
-   "id": "2026-11-19T16:47:35Z-2989768035",
+   "id": "2026-11-19T16:47:35Z-2134271255",
    "title": "Trending outside tracked labs: nvidia/Alpamayo2-Edge (3,257 downloads)",
    "date_published": "2026-11-19T16:47:35Z",
    "url": "https://huggingface.co/nvidia/Alpamayo2-Edge",
