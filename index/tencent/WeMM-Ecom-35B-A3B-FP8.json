@@ -1,0 +1,360 @@
+{
+  "repo_id": "tencent/WeMM-Ecom-35B-A3B-FP8",
+  "canonical_org": "tencent",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "9a4a2da23a4f0f4ac6131434f4ae10f73e4fc8b1",
+      "captured_at": "2026-11-23T19:29:46Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/tencent/WeMM-Ecom-35B-A3B-FP8?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"9af3-xbppEly2+ZNdosqcq2FV8NZrjXw\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "apache-2.0",
+        "file": "LICENSE",
+        "sha256": "69bcbe3965b4a17810385c3e14975af7aad2f5cf43cc3c7da4245988e3da287b",
+        "redistributable": true,
+        "obligations": [],
+        "freedom": "free",
+        "freedom_note": "apache-2.0 with LICENSE file verified in snapshot"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1988,
+          "sha256": "65aab7e7643486ad7a540334e6eb9aee695ef41074931feb630dd03b64443137",
+          "kind": "snapshot"
+        },
+        {
+          "path": "LICENSE",
+          "size": 24524,
+          "sha256": "69bcbe3965b4a17810385c3e14975af7aad2f5cf43cc3c7da4245988e3da287b",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 14466,
+          "sha256": "8d5bdfa6b5c4fd854c874bbeef2a3e55d2eac0feab9c381cee0c2a048dab88e0",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/ecommerce-benchmarks.png",
+          "size": 873267,
+          "sha256": "308ff5e2672c54e8c4b5f3734f3381e756e3ee4cc6563fc99fbbd0b03e41e08a",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/ecommerce-instruct-table.png",
+          "size": 595537,
+          "sha256": "f10e5aaf06453eb06fc11f3c8b2b9684375f7d31c2ca03b4c364a10a1309cd62",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/ecommerce-thinking-table.png",
+          "size": 609637,
+          "sha256": "765a67cf530488b6065aed94b949fc289d0b4329698ab47f3621916b6d087b5e",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/general-benchmarks.png",
+          "size": 827395,
+          "sha256": "83e8984b8b91762152deeb5b052248c63acb724944743b5e60921f2cf9691a07",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/general-instruct-table.png",
+          "size": 1121671,
+          "sha256": "3580254548dd88b3993753271e2892ec3e53a42d689951d869c2dd2098df91aa",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/general-thinking-table.png",
+          "size": 1075365,
+          "sha256": "405238647093f0e0204d01a8423b927408560bb16a55cbacf39a020ec17d5759",
+          "kind": "snapshot"
+        },
+        {
+          "path": "chat_template.jinja",
+          "size": 7756,
+          "sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 16296,
+          "sha256": "3031a02584dc1d53f9c31e462ac8c2de96e849d9a464df64e5e61390ca24d2b6",
+          "kind": "snapshot"
+        },
+        {
+          "path": "generation_config.json",
+          "size": 211,
+          "sha256": "47cbcba1202b6f16388c71611227cf586293984049e2448bd19014568e641824",
+          "kind": "snapshot"
+        },
+        {
+          "path": "merges.txt",
+          "size": 3353259,
+          "sha256": "a9d356d7bdf1ef4949e3e748e95b8e10ad9d4e2e838eddc38a0a7b6b94d1db8d",
+          "kind": "snapshot"
+        },
+        {
+          "path": "model-00001-of-00033.safetensors",
+          "size": 1074154928,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00002-of-00033.safetensors",
+          "size": 1074154928,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00003-of-00033.safetensors",
+          "size": 1074153904,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00004-of-00033.safetensors",
+          "size": 1074154928,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00005-of-00033.safetensors",
+          "size": 1074154928,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00006-of-00033.safetensors",
+          "size": 1074154928,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00007-of-00033.safetensors",
+          "size": 1074154928,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00008-of-00033.safetensors",
+          "size": 1074153904,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00009-of-00033.safetensors",
+          "size": 1074155952,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00010-of-00033.safetensors",
+          "size": 1074155952,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00011-of-00033.safetensors",
+          "size": 1074155952,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00012-of-00033.safetensors",
+          "size": 1074155952,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00013-of-00033.safetensors",
+          "size": 1074155952,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00014-of-00033.safetensors",
+          "size": 1074155952,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00015-of-00033.safetensors",
+          "size": 1074155952,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00016-of-00033.safetensors",
+          "size": 1074155952,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00017-of-00033.safetensors",
+          "size": 1074155952,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00018-of-00033.safetensors",
+          "size": 1074155952,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00019-of-00033.safetensors",
+          "size": 1074155952,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00020-of-00033.safetensors",
+          "size": 1074155952,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00021-of-00033.safetensors",
+          "size": 2034237688,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00022-of-00033.safetensors",
+          "size": 1074156976,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00023-of-00033.safetensors",
+          "size": 1074156464,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00024-of-00033.safetensors",
+          "size": 1074156976,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00025-of-00033.safetensors",
+          "size": 1074156464,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00026-of-00033.safetensors",
+          "size": 1074158000,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00027-of-00033.safetensors",
+          "size": 1074158000,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00028-of-00033.safetensors",
+          "size": 1074158000,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00029-of-00033.safetensors",
+          "size": 1074158000,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00030-of-00033.safetensors",
+          "size": 1074158000,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00031-of-00033.safetensors",
+          "size": 1074158000,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00032-of-00033.safetensors",
+          "size": 1101679160,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00033-of-00033.safetensors",
+          "size": 1249169688,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model.safetensors.index.json",
+          "size": 6916318,
+          "sha256": "bd0e70872ef6166b7893864f142af24e6002899b1d7e2595234fbd00a1812702",
+          "kind": "snapshot"
+        },
+        {
+          "path": "preprocessor_config.json",
+          "size": 390,
+          "sha256": "27225450ac9c6529872ee1924fcb0962ff5634834f817040f444118116f4e516",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer.json",
+          "size": 12807982,
+          "sha256": "5f9e4d4901a92b997e463c1f46055088b6cca5ca61a6522d1b9f64c4bb81cb42",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 16710,
+          "sha256": "316230d6a809701f4db5ea8f8fc862bc3a6f3229c937c174e674ff3ca0a64ac8",
+          "kind": "snapshot"
+        },
+        {
+          "path": "video_preprocessor_config.json",
+          "size": 386,
+          "sha256": "00bd47a5eaaf8760744a12658cd99ba168b818edc4c0a983b90157289c8e546a",
+          "kind": "snapshot"
+        },
+        {
+          "path": "vocab.json",
+          "size": 6722759,
+          "sha256": "ce99b4cb2983d118806ce0a8b777a35b093e2000a503ebde25853284c9dfa003",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 36644756133,
+      "weight_bytes": 36609770216,
+      "snapshot_dir": "snapshots/tencent/WeMM-Ecom-35B-A3B-FP8/9a4a2da23a4f0f4ac6131434f4ae10f73e4fc8b1/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

@@ -1,0 +1,174 @@
+{
+  "repo_id": "tencent/WeMM-Ecom-2B-GPTQ",
+  "canonical_org": "tencent",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "0ec6b21345b692a6d10ad13c0adad4c0c6d420ed",
+      "captured_at": "2026-11-23T19:30:19Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/tencent/WeMM-Ecom-2B-GPTQ?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"677f-WWtHaOTNIquTTg7DT4EqucSbltQ\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "apache-2.0",
+        "file": "LICENSE",
+        "sha256": "53e63307bbeb271f35c01c88a8f8c3cc763c03cdc1842508414fae902697baeb",
+        "redistributable": true,
+        "obligations": [],
+        "freedom": "free",
+        "freedom_note": "apache-2.0 with LICENSE file verified in snapshot"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1988,
+          "sha256": "65aab7e7643486ad7a540334e6eb9aee695ef41074931feb630dd03b64443137",
+          "kind": "snapshot"
+        },
+        {
+          "path": "LICENSE",
+          "size": 24504,
+          "sha256": "53e63307bbeb271f35c01c88a8f8c3cc763c03cdc1842508414fae902697baeb",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 14350,
+          "sha256": "31a4d6607d215e2d5818e453dc0ed6707955b4a68c9c59da7f40bf98157ae2af",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/ecommerce-benchmarks.png",
+          "size": 649317,
+          "sha256": "f57ca1f6025f94b1697a583dee6fe431068bfc18be07c3e93b26fb35d7ecf6f7",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/ecommerce-instruct-table.png",
+          "size": 497222,
+          "sha256": "5275ec20e6c29a100430b7e75a526ff09fe0836a280036f3230154d289bfb410",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/ecommerce-thinking-table.png",
+          "size": 457621,
+          "sha256": "b150d9ce4a13660b8e75dab9e6c160bb891b88403005ad358c3bd93dcf7289d9",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/general-benchmarks.png",
+          "size": 668136,
+          "sha256": "dd3d4143abb3876c123e76b55a053fcd319f2b3135c506c6a78148852db05ae9",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/general-instruct-table.png",
+          "size": 928746,
+          "sha256": "da48c5421bcddb550cb458ed9d59c8b9632b90567c27e30a605136821334574b",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/general-thinking-table.png",
+          "size": 842164,
+          "sha256": "060a82d1815c368d5ebebffaf7d2cf6bdc5158e5888b8aefe0d7d9640623bbb7",
+          "kind": "snapshot"
+        },
+        {
+          "path": "chat_template.jinja",
+          "size": 7755,
+          "sha256": "273d8e0e683b885071fb17e08d71e5f2a5ddfb5309756181681de4f5a1822d80",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 9933,
+          "sha256": "389170c3ee8362fb841e5b4f9a87085fb0dc23067c4a762703825a909c7effc8",
+          "kind": "snapshot"
+        },
+        {
+          "path": "generation_config.json",
+          "size": 184,
+          "sha256": "0386554e2d1f3894700c4d15dda3770f236b8a43f289d07747dc021189df54f5",
+          "kind": "snapshot"
+        },
+        {
+          "path": "merges.txt",
+          "size": 3353259,
+          "sha256": "a9d356d7bdf1ef4949e3e748e95b8e10ad9d4e2e838eddc38a0a7b6b94d1db8d",
+          "kind": "snapshot"
+        },
+        {
+          "path": "model.safetensors",
+          "size": 2390723856,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model.safetensors.index.json",
+          "size": 74105,
+          "sha256": "f66204f16b05915401a2dfd7471a81551b610da125d2566d6f4a2ce829415444",
+          "kind": "snapshot"
+        },
+        {
+          "path": "preprocessor_config.json",
+          "size": 390,
+          "sha256": "27225450ac9c6529872ee1924fcb0962ff5634834f817040f444118116f4e516",
+          "kind": "snapshot"
+        },
+        {
+          "path": "recipe.yaml",
+          "size": 452,
+          "sha256": "41c9fe4486632c2d8dbee8b70ef8c8e43cebe6ac4560e53a7c9383375176f213",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer.json",
+          "size": 12807982,
+          "sha256": "5f9e4d4901a92b997e463c1f46055088b6cca5ca61a6522d1b9f64c4bb81cb42",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 16709,
+          "sha256": "49e2b6e395f959f077f1e992b338919c0d4a9732fc6e613995e06557f843500c",
+          "kind": "snapshot"
+        },
+        {
+          "path": "video_preprocessor_config.json",
+          "size": 385,
+          "sha256": "7768af27c1fafa9cc9011c1dc20067e03f8915e03b63504550e11d5066986d13",
+          "kind": "snapshot"
+        },
+        {
+          "path": "vocab.json",
+          "size": 6722759,
+          "sha256": "ce99b4cb2983d118806ce0a8b777a35b093e2000a503ebde25853284c9dfa003",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 2417801817,
+      "weight_bytes": 2390723856,
+      "snapshot_dir": "snapshots/tencent/WeMM-Ecom-2B-GPTQ/0ec6b21345b692a6d10ad13c0adad4c0c6d420ed/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

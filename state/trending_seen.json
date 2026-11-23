@@ -253,9 +253,24 @@
     "HuggingFaceTB/SmolVLM2-256M-Video-Instruct",
     "nvidia/Alpamayo2-Edge",
     "harness-hub/Qwen3.8-27B-pi-adapted-GGUF",
-    "mradermacher/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic-GGUF"
+    "mradermacher/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic-GGUF",
+    "thinkingmachines/Inkling-2-Mini",
+    "unsloth/Inkling-2-Mini-GGUF",
+    "AtomicChat/Inkling-2-Mini-Uncensored-GGUF",
+    "SulphurAI/Sulphur-3",
+    "RadixArk/DaisyRose-27B",
+    "Reson8/Rumble-2-Flash",
+    "Lakonik/pi-H3",
+    "OpenUncensored/Inkling-2-Mini-Uncensored",
+    "strata-engine/Inkling-2-Mini-Strata",
+    "CaryPalmer/Kintsugi-27B",
+    "OVHaiLLM/Olala-v1.0-mini-7A1B",
+    "microsoft/Aion-1.0-Instruct-2.3B",
+    "KORMo-VL/KORMo-Web-11B",
+    "thinkingmachines/TML-d24-varloop-research",
+    "sensenova/SenseNova-Loop-9B-GGUF"
   ],
-  "last_run": "2026-11-19T16:47:35Z",
+  "last_run": "2026-11-23T19:30:45Z",
   "log": [
     {
       "id": "prism-ml/Ternary-Bonsai-2-27B-gguf",
@@ -1336,6 +1351,81 @@
       "id": "mradermacher/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic-GGUF",
       "at": "2026-11-19T16:47:35Z",
       "downloads": 888172
+    },
+    {
+      "id": "thinkingmachines/Inkling-2-Mini",
+      "at": "2026-11-23T19:30:45Z",
+      "downloads": 41888
+    },
+    {
+      "id": "unsloth/Inkling-2-Mini-GGUF",
+      "at": "2026-11-23T19:30:45Z",
+      "downloads": 1292888
+    },
+    {
+      "id": "AtomicChat/Inkling-2-Mini-Uncensored-GGUF",
+      "at": "2026-11-23T19:30:45Z",
+      "downloads": 329497
+    },
+    {
+      "id": "SulphurAI/Sulphur-3",
+      "at": "2026-11-23T19:30:45Z",
+      "downloads": 133732
+    },
+    {
+      "id": "RadixArk/DaisyRose-27B",
+      "at": "2026-11-23T19:30:45Z",
+      "downloads": 2130
+    },
+    {
+      "id": "Reson8/Rumble-2-Flash",
+      "at": "2026-11-23T19:30:45Z",
+      "downloads": 2978
+    },
+    {
+      "id": "Lakonik/pi-H3",
+      "at": "2026-11-23T19:30:45Z",
+      "downloads": 32375
+    },
+    {
+      "id": "OpenUncensored/Inkling-2-Mini-Uncensored",
+      "at": "2026-11-23T19:30:45Z",
+      "downloads": 3066
+    },
+    {
+      "id": "strata-engine/Inkling-2-Mini-Strata",
+      "at": "2026-11-23T19:30:45Z",
+      "downloads": 1064
+    },
+    {
+      "id": "CaryPalmer/Kintsugi-27B",
+      "at": "2026-11-23T19:30:45Z",
+      "downloads": 7312
+    },
+    {
+      "id": "OVHaiLLM/Olala-v1.0-mini-7A1B",
+      "at": "2026-11-23T19:30:45Z",
+      "downloads": 63289
+    },
+    {
+      "id": "microsoft/Aion-1.0-Instruct-2.3B",
+      "at": "2026-11-23T19:30:45Z",
+      "downloads": 4747
+    },
+    {
+      "id": "KORMo-VL/KORMo-Web-11B",
+      "at": "2026-11-23T19:30:45Z",
+      "downloads": 1217
+    },
+    {
+      "id": "thinkingmachines/TML-d24-varloop-research",
+      "at": "2026-11-23T19:30:45Z",
+      "downloads": 1755
+    },
+    {
+      "id": "sensenova/SenseNova-Loop-9B-GGUF",
+      "at": "2026-11-23T19:30:45Z",
+      "downloads": 94837
     }
   ]
 }

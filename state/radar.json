@@ -340,7 +340,26 @@
     "http://arxiv.org/abs/2611.24633",
     "http://arxiv.org/abs/2611.24507",
     "http://arxiv.org/abs/2611.24486",
-    "http://arxiv.org/abs/2611.24325"
+    "http://arxiv.org/abs/2611.24325",
+    "http://arxiv.org/abs/2611.27920",
+    "http://arxiv.org/abs/2611.27839",
+    "http://arxiv.org/abs/2611.27673",
+    "http://arxiv.org/abs/2611.27635",
+    "http://arxiv.org/abs/2611.27319",
+    "http://arxiv.org/abs/2611.27483",
+    "http://arxiv.org/abs/2611.27266",
+    "http://arxiv.org/abs/2611.27092",
+    "http://arxiv.org/abs/2611.26933",
+    "http://arxiv.org/abs/2611.26569",
+    "http://arxiv.org/abs/2611.26515",
+    "http://arxiv.org/abs/2611.25790",
+    "http://arxiv.org/abs/2611.25661",
+    "http://arxiv.org/abs/2611.25078",
+    "http://arxiv.org/abs/2611.27983",
+    "http://arxiv.org/abs/2611.27919",
+    "http://arxiv.org/abs/2611.27572",
+    "http://arxiv.org/abs/2611.27570",
+    "http://arxiv.org/abs/2611.27336"
   ],
   "hn_seen": [
     "49735410",
@@ -624,7 +643,19 @@
     "50517410",
     "50536468",
     "50533089",
-    "50523025"
+    "50523025",
+    "50603845",
+    "50616933",
+    "50612686",
+    "50610830",
+    "50609685",
+    "50608662",
+    "50603589",
+    "50585962",
+    "50532515",
+    "50606192",
+    "50603465",
+    "50575644"
   ],
   "log": [
     {
@@ -3956,8 +3987,194 @@
       "at": "2026-11-19T16:47:45Z",
       "text": "HN front-page (262 pts): Comcast's \"fiber-powered Wi-Fi\" is cable, AT&T says in false advertising case",
       "url": "https://news.ycombinator.com/item?id=50523025"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-23T19:30:58Z",
+      "text": "New paper mentioning DeepSeek: Autonomous Parameter Surgery: How LLMs Implant Selective Backdoors into Language Models",
+      "url": "http://arxiv.org/abs/2611.27920"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-23T19:30:58Z",
+      "text": "New paper mentioning DeepSeek: Beyond Self-Critique: Epistemic Convergence Control for Multi-Agent Research Verification",
+      "url": "http://arxiv.org/abs/2611.27839"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-23T19:30:58Z",
+      "text": "New paper mentioning DeepSeek: Hy-MT3: More Accurate, Robust and Practical Multilingual Translation Models in the Wild",
+      "url": "http://arxiv.org/abs/2611.27673"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-23T19:30:58Z",
+      "text": "New paper mentioning DeepSeek: Report2Alpha-Bench: Evaluating LLM Agents on End-to-End Quantitative Research",
+      "url": "http://arxiv.org/abs/2611.27635"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-23T19:30:58Z",
+      "text": "New paper mentioning DeepSeek: SAVIOR: Sample-efficient Adaptation of Vision-Language Models for OCR Representation",
+      "url": "http://arxiv.org/abs/2611.27319"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-23T19:30:58Z",
+      "text": "New paper mentioning Qwen: From Manufacturing Event Logs to Simulation: Enabling SMEs with Agentic AI for SimPy Simulation Generation",
+      "url": "http://arxiv.org/abs/2611.27483"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-23T19:30:58Z",
+      "text": "New paper mentioning Qwen: PP-CFG: Polarity-Preserving Guidance for Controllable Few-Step Image and Video Generation",
+      "url": "http://arxiv.org/abs/2611.27266"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-23T19:30:58Z",
+      "text": "New paper mentioning Qwen: PLoQ: A Prompt-Specific Low-Rank Basis for 4-bit Quantization of LLM Activations",
+      "url": "http://arxiv.org/abs/2611.27092"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-23T19:30:58Z",
+      "text": "New paper mentioning Qwen: Tokenize Moments, Not Frames: Tokenizer-Aware Budget Allocation for Training-Free Video LLM Acceleration",
+      "url": "http://arxiv.org/abs/2611.26933"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-23T19:30:58Z",
+      "text": "New paper mentioning Qwen: Text-Aware, Vision-Blind: How Multimodal Image Editing Systems Handle Unsafe Inputs",
+      "url": "http://arxiv.org/abs/2611.26569"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-23T19:30:58Z",
+      "text": "HN front-page (707 pts): A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
+      "url": "https://news.ycombinator.com/item?id=50603845"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-23T19:30:58Z",
+      "text": "New paper mentioning GLM-: Simple Private Noisy SGD is Minimax-Optimal under Population Strong Convexity",
+      "url": "http://arxiv.org/abs/2611.26515"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-23T19:30:58Z",
+      "text": "New paper mentioning GLM-: On the Reliability of CyberGym Evaluation: Task Material Consistency and Reference-Target Identity",
+      "url": "http://arxiv.org/abs/2611.25790"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-23T19:30:58Z",
+      "text": "New paper mentioning GLM-: GRODE-RTL: Source-Mapped Dependency Views for LLM-Based RTL Repair",
+      "url": "http://arxiv.org/abs/2611.25661"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-23T19:30:58Z",
+      "text": "New paper mentioning GLM-: Twindex: Index Cache Offloading with Coarse-to-Fine Selection for Long-Context Sparse-Attention Serving",
+      "url": "http://arxiv.org/abs/2611.25078"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-23T19:30:58Z",
+      "text": "HN front-page (76 pts): Apple removed my open-source app from EU App Stores after 9 years",
+      "url": "https://news.ycombinator.com/item?id=50616933"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-23T19:30:58Z",
+      "text": "HN front-page (149 pts): Cyberleek posted the GTA 6 Xbox build executable",
+      "url": "https://news.ycombinator.com/item?id=50612686"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-23T19:30:58Z",
+      "text": "HN front-page (67 pts): Amodei reportedly suggested games could pacify masses after AI took their jobs (2015)",
+      "url": "https://news.ycombinator.com/item?id=50610830"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-23T19:30:58Z",
+      "text": "HN front-page (884 pts): GLM-5.4: Toward generalized coding with our first loop transformer",
+      "url": "https://news.ycombinator.com/item?id=50609685"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-23T19:30:58Z",
+      "text": "HN front-page (56 pts): GLM 5.4",
+      "url": "https://news.ycombinator.com/item?id=50608662"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-23T19:30:58Z",
+      "text": "New paper mentioning MiniMax: Optimal Linear Regression Without a Variance",
+      "url": "http://arxiv.org/abs/2611.27983"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-23T19:30:58Z",
+      "text": "New paper mentioning MiniMax: SUAF: Spectral Universal Advantage Features for Zero-Shot Policy Improvement",
+      "url": "http://arxiv.org/abs/2611.27919"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-23T19:30:58Z",
+      "text": "New paper mentioning MiniMax: Minimax-Optimal Small-Loss Regret in Online Convex Optimization and Applications to Contextual Search and Online Inverse Optimization",
+      "url": "http://arxiv.org/abs/2611.27572"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-23T19:30:58Z",
+      "text": "New paper mentioning MiniMax: WEIR: Watershed Exploration and Drift-Aware Prefix Shrinkage for Multi-Turn Agent Reinforcement Learning",
+      "url": "http://arxiv.org/abs/2611.27570"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-23T19:30:58Z",
+      "text": "New paper mentioning MiniMax: Zing-1.0: A Playable World System Built on Controllable Rendering",
+      "url": "http://arxiv.org/abs/2611.27336"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-23T19:30:58Z",
+      "text": "HN front-page (363 pts): A miniature San Francisco with live buses, planes and boats",
+      "url": "https://news.ycombinator.com/item?id=50603589"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-23T19:30:58Z",
+      "text": "HN front-page (73 pts): Tell HN: OpenRouter prompts to Minimax may have been read",
+      "url": "https://news.ycombinator.com/item?id=50585962"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-23T19:30:58Z",
+      "text": "HN front-page (82 pts): Show HN: An API for word timestamps from speech, 75% within 20ms",
+      "url": "https://news.ycombinator.com/item?id=50532515"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-23T19:30:58Z",
+      "text": "HN front-page (848 pts): Free alternative TV network built from the Internet Archive's forgotten videos",
+      "url": "https://news.ycombinator.com/item?id=50606192"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-23T19:30:58Z",
+      "text": "HN front-page (158 pts): Nyx, the Oldest Internet Service Provider",
+      "url": "https://news.ycombinator.com/item?id=50603465"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-23T19:30:58Z",
+      "text": "HN front-page (593 pts): Why there are still no non-WebKit browsers on iOS",
+      "url": "https://news.ycombinator.com/item?id=50575644"
     }
   ],
   "first_run_done": true,
-  "last_run": "2026-11-19T16:47:45Z"
+  "last_run": "2026-11-23T19:30:58Z"
 }

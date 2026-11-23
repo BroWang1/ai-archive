@@ -193,7 +193,9 @@
       "Tencent-Hunyuan/AppCIF-Bench",
       "Tencent-Hunyuan/MovieRoll",
       "Tencent-Hunyuan/ORAV-Bench",
-      "Tencent-Hunyuan/Hy4-flash"
+      "Tencent-Hunyuan/Hy4-flash",
+      "Tencent-Hunyuan/Refrain",
+      "Tencent-Hunyuan/Hy4"
     ],
     "Wan-Video": [
       "Wan-Video/Wan-Animate-2",
@@ -239,7 +241,9 @@
       "MiniMax-AI/homebrew-tap",
       "MiniMax-AI/mcode-stack",
       "MiniMax-AI/mcode-agent-table",
-      "MiniMax-AI/MiniMax-H3-Image"
+      "MiniMax-AI/MiniMax-H3-Image",
+      "MiniMax-AI/Research",
+      "MiniMax-AI/Cyber"
     ],
     "InternLM": [
       "InternLM/SciDocBench",
@@ -399,7 +403,8 @@
       "FlagOpen/TACO",
       "FlagOpen/FlagEmbedding",
       "FlagOpen/HumanCOIN-DataManager",
-      "FlagOpen/HumanCOIN"
+      "FlagOpen/HumanCOIN",
+      "FlagOpen/HumanCOIN-Doc"
     ],
     "XiaomiMiMo": [
       "XiaomiMiMo/awesome-mimo-agent",
@@ -1136,8 +1141,33 @@
       "id": "vllm-project/vllm-omni-torchtpu",
       "at": "2026-11-19T16:47:35Z",
       "desc": ""
+    },
+    {
+      "id": "Tencent-Hunyuan/Refrain",
+      "at": "2026-11-23T19:30:45Z",
+      "desc": ""
+    },
+    {
+      "id": "Tencent-Hunyuan/Hy4",
+      "at": "2026-11-23T19:30:45Z",
+      "desc": ""
+    },
+    {
+      "id": "MiniMax-AI/Research",
+      "at": "2026-11-23T19:30:45Z",
+      "desc": ""
+    },
+    {
+      "id": "MiniMax-AI/Cyber",
+      "at": "2026-11-23T19:30:45Z",
+      "desc": ""
+    },
+    {
+      "id": "FlagOpen/HumanCOIN-Doc",
+      "at": "2026-11-23T19:30:45Z",
+      "desc": ""
     }
   ],
   "first_run_done": true,
-  "last_run": "2026-11-19T16:47:35Z"
+  "last_run": "2026-11-23T19:30:45Z"
 }

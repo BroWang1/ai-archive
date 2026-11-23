@@ -1,0 +1,114 @@
+{
+  "repo_id": "tencent/WeMM-Ecom-0.8B-GGUF",
+  "canonical_org": "tencent",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "06819d6559038ca0d75b4d92f020f660b080e655",
+      "captured_at": "2026-11-23T19:28:42Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/tencent/WeMM-Ecom-0.8B-GGUF?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"2c25-Z9U16lPnnfH473RdIW8whYO5kQQ\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "apache-2.0",
+        "file": "LICENSE",
+        "sha256": "289a8ca7000583c52271fb96714ed2fcb285c431d8eb80d6c3c749c7690f3ca9",
+        "redistributable": true,
+        "obligations": [],
+        "freedom": "free",
+        "freedom_note": "apache-2.0 with LICENSE file verified in snapshot"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1980,
+          "sha256": "b4819727700e0a9af433b14ef98486fb1c9c5972e9fd4f40c67f22be2ff4c4cb",
+          "kind": "snapshot"
+        },
+        {
+          "path": "LICENSE",
+          "size": 24515,
+          "sha256": "289a8ca7000583c52271fb96714ed2fcb285c431d8eb80d6c3c749c7690f3ca9",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 14768,
+          "sha256": "816faaca436db63d54e85a9d0e78e40c5281656d425f06a5dd781d76f80e17f4",
+          "kind": "snapshot"
+        },
+        {
+          "path": "WeMM-Ecom-0.8B-GGUF.gguf",
+          "size": 534701920,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "assets/ecommerce-benchmarks.png",
+          "size": 654500,
+          "sha256": "65a98ad1dac001d548226dcad4d0ef291dcc0c9600dbc9c85f701635f396c379",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/ecommerce-instruct-table.png",
+          "size": 497100,
+          "sha256": "589fa2529919b6e8b7799f8bfbda189718839c3050fa82f70ae6c5d42290dbab",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/ecommerce-thinking-table.png",
+          "size": 460454,
+          "sha256": "fce95693d627b444bd1d7ca63046736245134e535b222de96937c5d6f62e75c2",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/general-benchmarks.png",
+          "size": 635864,
+          "sha256": "43236c5b905332a2f29d3ffbff741ccd4497246f8b538c7cd8678c0b22255fde",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/general-instruct-table.png",
+          "size": 935891,
+          "sha256": "54adead1d491d7ddbfb862c2a4fe650eabb3e72977a3a04ef1c45e41eefc7670",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/general-thinking-table.png",
+          "size": 828122,
+          "sha256": "cced045b5b5382ee18c1579e499129eefdea0913bc95256ab881d3aeaf2ad708",
+          "kind": "snapshot"
+        },
+        {
+          "path": "mmproj-F16.gguf",
+          "size": 204986848,
+          "sha256": null,
+          "kind": "weights"
+        }
+      ],
+      "total_bytes": 743741962,
+      "weight_bytes": 739688768,
+      "snapshot_dir": "snapshots/tencent/WeMM-Ecom-0.8B-GGUF/06819d6559038ca0d75b4d92f020f660b080e655/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

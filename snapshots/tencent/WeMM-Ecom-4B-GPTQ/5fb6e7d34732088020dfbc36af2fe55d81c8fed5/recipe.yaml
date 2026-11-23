@@ -1,0 +1,12 @@
+default_stage:
+  default_modifiers:
+    GPTQModifier:
+      targets: [Linear]
+      ignore: ['re:.*visual.*', 're:.*embed_tokens.*', 're:.*lm_head$', 're:.*mtp.*', 're:.*mlp\.gate$',
+        're:.*shared_expert_gate$', 're:.*linear_attn\.(?:conv1d|in_proj_a|in_proj_b)$']
+      scheme: W4A16
+      bypass_divisibility_checks: false
+      requires_calibration_data: true
+      block_size: 128
+      dampening_frac: 0.01
+      batched_quantization: auto

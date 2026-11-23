@@ -1,0 +1,192 @@
+{
+  "repo_id": "tencent/WeMM-Ecom-4B",
+  "canonical_org": "tencent",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "c3e3ed8e6af28d868eaadfebad60167385d82308",
+      "captured_at": "2026-11-23T19:28:54Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/tencent/WeMM-Ecom-4B?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"53af-Y4Fh43wTScF+cnGaDwNu0GFEXsY\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "apache-2.0",
+        "file": "LICENSE",
+        "sha256": "e06923ad00f9a95ba802155cc342f66ebb5294c3e420b3ecd38a73923e7751fb",
+        "redistributable": true,
+        "obligations": [],
+        "freedom": "free",
+        "freedom_note": "apache-2.0 with LICENSE file verified in snapshot"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1988,
+          "sha256": "65aab7e7643486ad7a540334e6eb9aee695ef41074931feb630dd03b64443137",
+          "kind": "snapshot"
+        },
+        {
+          "path": "LICENSE",
+          "size": 24485,
+          "sha256": "e06923ad00f9a95ba802155cc342f66ebb5294c3e420b3ecd38a73923e7751fb",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 26034,
+          "sha256": "06adddc0e0f5e2ec3e66d0beb8dc3c52232060eb1c6e745f9a44b5c61b34a909",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/ecommerce-benchmarks.png",
+          "size": 442322,
+          "sha256": "5cf42e8373dfc8fea457979751ba0939427b6f30c0093b422c2f0a4e5f9cd4a1",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/ecommerce-instruct-table.png",
+          "size": 399712,
+          "sha256": "9628f7871cc9129b5e3544fba7830635570c73c618d57e80a948083b19dc5630",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/ecommerce-thinking-table.png",
+          "size": 407057,
+          "sha256": "efc70275d8f6c8bdffc8f8b4b3a96a76da3a7047b2a3381b5bd428897718bf74",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/general-benchmarks.png",
+          "size": 453825,
+          "sha256": "a8bcf2311877d55b089e0aaa2d19aa1a05f9cda8cfccb327dcab72eaeb4eb8d2",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/general-instruct-table.png",
+          "size": 717721,
+          "sha256": "c9d8218221872b59a611cde323d56fcad9107f9f90356eb41521eb0ce28d54f1",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/general-thinking-table.png",
+          "size": 714171,
+          "sha256": "9e7a562d324062d836df99c58d4643463909149454284025070e49b13cc50161",
+          "kind": "snapshot"
+        },
+        {
+          "path": "chat_template.jinja",
+          "size": 7756,
+          "sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 3162,
+          "sha256": "bf54beae373214f0f79b0f3b26bebc041639d5494d79d4b5dff2047de04b3c87",
+          "kind": "snapshot"
+        },
+        {
+          "path": "generation_config.json",
+          "size": 185,
+          "sha256": "3d52f5b427514d1c828738c71a422e46cfa95dd797d5a8f70cb1afeafb36be32",
+          "kind": "snapshot"
+        },
+        {
+          "path": "merges.txt",
+          "size": 3353259,
+          "sha256": "a9d356d7bdf1ef4949e3e748e95b8e10ad9d4e2e838eddc38a0a7b6b94d1db8d",
+          "kind": "snapshot"
+        },
+        {
+          "path": "model-00001-of-00005.safetensors",
+          "size": 2120747440,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00002-of-00005.safetensors",
+          "size": 2123372200,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00003-of-00005.safetensors",
+          "size": 2144344088,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00004-of-00005.safetensors",
+          "size": 2143301984,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00005-of-00005.safetensors",
+          "size": 546853152,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model.safetensors.index.json",
+          "size": 66200,
+          "sha256": "6e18c01f2d800dfa3be36e4e608f4aeaf819e39d1063814e70ac146f19057216",
+          "kind": "snapshot"
+        },
+        {
+          "path": "preprocessor_config.json",
+          "size": 390,
+          "sha256": "27225450ac9c6529872ee1924fcb0962ff5634834f817040f444118116f4e516",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer.json",
+          "size": 12807982,
+          "sha256": "5f9e4d4901a92b997e463c1f46055088b6cca5ca61a6522d1b9f64c4bb81cb42",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 16710,
+          "sha256": "316230d6a809701f4db5ea8f8fc862bc3a6f3229c937c174e674ff3ca0a64ac8",
+          "kind": "snapshot"
+        },
+        {
+          "path": "video_preprocessor_config.json",
+          "size": 386,
+          "sha256": "00bd47a5eaaf8760744a12658cd99ba168b818edc4c0a983b90157289c8e546a",
+          "kind": "snapshot"
+        },
+        {
+          "path": "vocab.json",
+          "size": 6722759,
+          "sha256": "ce99b4cb2983d118806ce0a8b777a35b093e2000a503ebde25853284c9dfa003",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 9104784968,
+      "weight_bytes": 9078618864,
+      "snapshot_dir": "snapshots/tencent/WeMM-Ecom-4B/c3e3ed8e6af28d868eaadfebad60167385d82308/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}
