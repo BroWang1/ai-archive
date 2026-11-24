@@ -53,6 +53,12 @@
       "text": "This week aiarchive.info captured 16 open-weight models, including four Sage-S2.1 variants from internlm (base, FP8, Flash, and Flash-FP8) and eight inclusionAI releases spanning ZoomGain 4B and 9B in full and GGUF formats, SingVL_S1_4B (plus GGUF), and Duo 1.0 and 1.2 causal-base and distill builds. MiniMaxAI added two image models, MiniMax-H3-Image and MiniMax-H3-Image-PE. No models were mirrored and no alerts were issued; radar signals flagged new papers referencing DeepSeek and Qwen, including a DeepSeek-V4-Flash KV cache reuse case study.",
       "url": "https://github.com/BroWang1/ai-archive/issues",
       "action": "details"
+    },
+    {
+      "at": "2026-11-24T03:22:54Z",
+      "text": "This week the archive captured 29 Tencent models, most of them the WeMM-Ecom family in 0.8B, 2B, 4B, 9B, and 35B-A3B sizes, each in base, FP8, GPTQ, and GGUF variants, plus Hy4-flash and Hy4-flash-FP8. Also captured were openbmb/MiniCPM-OCR-1.0-DSpark and three inclusionAI models: Ling-3.1-flash-1019-singprobe, DeepSeek-V4.1-Flash-1017-singprobe, and invoker-render-1.0. Nothing was mirrored and no alerts were raised; radar signals included a Show HN post for TrnRT, an open-source LLM inference engine for AWS Trainium.",
+      "url": "https://github.com/BroWang1/ai-archive/issues",
+      "action": "details"
     }
   ]
 }
