@@ -78,6 +78,80 @@
         "hf": null,
         "master": null
       }
+    },
+    {
+      "revision": "321f1f0a854ab318a1eb3722ea3ad078c051a6b9",
+      "captured_at": "2026-11-26T15:27:40Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/inclusionAI/DeepSeek-V4.1-Flash-1017-singprobe?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"72c-iMLIAgN/KVY11M2pDsJ+eWsJQ4Y\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "mit",
+        "file": null,
+        "sha256": null,
+        "redistributable": null,
+        "obligations": []
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".DS_Store",
+          "size": 6148,
+          "sha256": "ac0ee1db2cd3f8bc2afb28bc3f86885350a646eaa068840b1778ef54b7fd45c5",
+          "kind": "snapshot"
+        },
+        {
+          "path": ".gitattributes",
+          "size": 1519,
+          "sha256": "11ad7efa24975ee4b0c3c3a38ed18737f0658a5f75a0a96787b576a78a023361",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 3372,
+          "sha256": "02c291693ba515c71fb48105ad377d9c58679be922d8ac475a54bd04f4ca4f1a",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 495,
+          "sha256": "51eda1613f7b087af602a45f10803b52643a1a73195314042aae3b4e3dc578a2",
+          "kind": "snapshot"
+        },
+        {
+          "path": "configuration_sing_probe.py",
+          "size": 1807,
+          "sha256": "e530fd810d2121c9dba12831ed9cc047af42c6eb34ed1cfacc984903f400a044",
+          "kind": "snapshot"
+        },
+        {
+          "path": "model.safetensors",
+          "size": 20196980,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "modeling_sing_probe.py",
+          "size": 6074,
+          "sha256": "b8d964788daf53e90ed0982d290dc743235c76fd703cfef35ab15ab0b85d2dc4",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 20216395,
+      "weight_bytes": 20196980,
+      "snapshot_dir": "snapshots/inclusionAI/DeepSeek-V4.1-Flash-1017-singprobe/321f1f0a854ab318a1eb3722ea3ad078c051a6b9/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
     }
   ],
   "errata": [],

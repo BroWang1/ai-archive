@@ -1,5 +1,19 @@
 [
  {
+  "at": "2026-11-26T15:27:40Z",
+  "kind": "capture",
+  "text": "Captured inclusionAI/DeepSeek-V4.1-Flash-1017-singprobe \u2014 0 GB manifested, license: unclassified",
+  "url": "https://huggingface.co/inclusionAI/DeepSeek-V4.1-Flash-1017-singprobe",
+  "action": "view / download"
+ },
+ {
+  "at": "2026-11-26T15:27:39Z",
+  "kind": "capture",
+  "text": "Captured inclusionAI/Ling-3.1-flash-1019-singprobe \u2014 0 GB manifested, license: unclassified",
+  "url": "https://huggingface.co/inclusionAI/Ling-3.1-flash-1019-singprobe",
+  "action": "view / download"
+ },
+ {
   "at": "2026-11-24T16:11:20Z",
   "kind": "capture",
   "text": "Captured tencent/WeMM-Ecom-0.8B-FP8 \u2014 1 GB manifested, license: unclassified",
@@ -263,20 +277,6 @@
   "kind": "trending",
   "text": "Trending outside tracked labs: AtomicChat/Inkling-2-Mini-Uncensored-GGUF (329,497 downloads)",
   "url": "https://huggingface.co/AtomicChat/Inkling-2-Mini-Uncensored-GGUF",
-  "action": "view"
- },
- {
-  "at": "2026-11-23T19:30:45Z",
-  "kind": "trending",
-  "text": "Trending outside tracked labs: SulphurAI/Sulphur-3 (133,732 downloads)",
-  "url": "https://huggingface.co/SulphurAI/Sulphur-3",
-  "action": "view"
- },
- {
-  "at": "2026-11-23T19:30:45Z",
-  "kind": "trending",
-  "text": "Trending outside tracked labs: RadixArk/DaisyRose-27B (2,130 downloads)",
-  "url": "https://huggingface.co/RadixArk/DaisyRose-27B",
   "action": "view"
  }
 ]

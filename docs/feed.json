@@ -6,284 +6,284 @@
  "description": "Captures, mirrors, takedown alerts and radar signals for open-weight AI models",
  "items": [
   {
-   "id": "2026-11-24T16:11:20Z-885621139",
+   "id": "2026-11-26T15:27:40Z-3107590783",
+   "title": "Captured inclusionAI/DeepSeek-V4.1-Flash-1017-singprobe \u2014 0 GB manifested, license: unclassified",
+   "date_published": "2026-11-26T15:27:40Z",
+   "url": "https://huggingface.co/inclusionAI/DeepSeek-V4.1-Flash-1017-singprobe",
+   "content_text": "Captured inclusionAI/DeepSeek-V4.1-Flash-1017-singprobe \u2014 0 GB manifested, license: unclassified"
+  },
+  {
+   "id": "2026-11-26T15:27:39Z-3123774166",
+   "title": "Captured inclusionAI/Ling-3.1-flash-1019-singprobe \u2014 0 GB manifested, license: unclassified",
+   "date_published": "2026-11-26T15:27:39Z",
+   "url": "https://huggingface.co/inclusionAI/Ling-3.1-flash-1019-singprobe",
+   "content_text": "Captured inclusionAI/Ling-3.1-flash-1019-singprobe \u2014 0 GB manifested, license: unclassified"
+  },
+  {
+   "id": "2026-11-24T16:11:20Z-278527079",
    "title": "Captured tencent/WeMM-Ecom-0.8B-FP8 \u2014 1 GB manifested, license: unclassified",
    "date_published": "2026-11-24T16:11:20Z",
    "url": "https://huggingface.co/tencent/WeMM-Ecom-0.8B-FP8",
    "content_text": "Captured tencent/WeMM-Ecom-0.8B-FP8 \u2014 1 GB manifested, license: unclassified"
   },
   {
-   "id": "2026-11-24T16:11:13Z-3138187460",
+   "id": "2026-11-24T16:11:13Z-3604058639",
    "title": "Captured tencent/WeMM-Ecom-0.8B-GPTQ \u2014 1 GB manifested, license: unclassified",
    "date_published": "2026-11-24T16:11:13Z",
    "url": "https://huggingface.co/tencent/WeMM-Ecom-0.8B-GPTQ",
    "content_text": "Captured tencent/WeMM-Ecom-0.8B-GPTQ \u2014 1 GB manifested, license: unclassified"
   },
   {
-   "id": "2026-11-24T16:11:09Z-98988241",
+   "id": "2026-11-24T16:11:09Z-3247714338",
    "title": "Captured tencent/WeMM-Ecom-0.8B-GGUF \u2014 1 GB manifested, license: unclassified",
    "date_published": "2026-11-24T16:11:09Z",
    "url": "https://huggingface.co/tencent/WeMM-Ecom-0.8B-GGUF",
    "content_text": "Captured tencent/WeMM-Ecom-0.8B-GGUF \u2014 1 GB manifested, license: unclassified"
   },
   {
-   "id": "2026-11-24T03:22:54Z-4038082042",
+   "id": "2026-11-24T03:22:54Z-3829036314",
    "title": "This week the archive captured 29 Tencent models, most of them the WeMM-Ecom family in 0.8B, 2B, 4B, 9B, and 35B-A3B sizes, each in base, FP8, GPTQ, and GGUF variants, plus Hy4-flash and Hy4-flash-FP8. Also captured were openbmb/MiniCPM-OCR-1.0-DSpark and three inclusionAI models: Ling-3.1-flash-1019-singprobe, DeepSeek-V4.1-Flash-1017-singprobe, and invoker-render-1.0. Nothing was mirrored and no alerts were raised; radar signals included a Show HN post for TrnRT, an open-source LLM inference engine for AWS Trainium.",
    "date_published": "2026-11-24T03:22:54Z",
    "url": "https://github.com/BroWang1/ai-archive/issues",
    "content_text": "This week the archive captured 29 Tencent models, most of them the WeMM-Ecom family in 0.8B, 2B, 4B, 9B, and 35B-A3B sizes, each in base, FP8, GPTQ, and GGUF variants, plus Hy4-flash and Hy4-flash-FP8. Also captured were openbmb/MiniCPM-OCR-1.0-DSpark and three inclusionAI models: Ling-3.1-flash-1019-singprobe, DeepSeek-V4.1-Flash-1017-singprobe, and invoker-render-1.0. Nothing was mirrored and no alerts were raised; radar signals included a Show HN post for TrnRT, an open-source LLM inference engine for AWS Trainium."
   },
   {
-   "id": "2026-11-23T19:30:58Z-3322129570",
+   "id": "2026-11-23T19:30:58Z-799756095",
    "title": "New paper mentioning DeepSeek: Autonomous Parameter Surgery: How LLMs Implant Selective Backdoors into Language Models",
    "date_published": "2026-11-23T19:30:58Z",
    "url": "http://arxiv.org/abs/2611.27920",
    "content_text": "New paper mentioning DeepSeek: Autonomous Parameter Surgery: How LLMs Implant Selective Backdoors into Language Models"
   },
   {
-   "id": "2026-11-23T19:30:58Z-3792041969",
+   "id": "2026-11-23T19:30:58Z-1844510472",
    "title": "New paper mentioning DeepSeek: Beyond Self-Critique: Epistemic Convergence Control for Multi-Agent Research Verification",
    "date_published": "2026-11-23T19:30:58Z",
    "url": "http://arxiv.org/abs/2611.27839",
    "content_text": "New paper mentioning DeepSeek: Beyond Self-Critique: Epistemic Convergence Control for Multi-Agent Research Verification"
   },
   {
-   "id": "2026-11-23T19:30:58Z-2479484887",
+   "id": "2026-11-23T19:30:58Z-648947568",
    "title": "New paper mentioning DeepSeek: Hy-MT3: More Accurate, Robust and Practical Multilingual Translation Models in the Wild",
    "date_published": "2026-11-23T19:30:58Z",
    "url": "http://arxiv.org/abs/2611.27673",
    "content_text": "New paper mentioning DeepSeek: Hy-MT3: More Accurate, Robust and Practical Multilingual Translation Models in the Wild"
   },
   {
-   "id": "2026-11-23T19:30:58Z-2531160920",
+   "id": "2026-11-23T19:30:58Z-3064249128",
    "title": "New paper mentioning DeepSeek: Report2Alpha-Bench: Evaluating LLM Agents on End-to-End Quantitative Research",
    "date_published": "2026-11-23T19:30:58Z",
    "url": "http://arxiv.org/abs/2611.27635",
    "content_text": "New paper mentioning DeepSeek: Report2Alpha-Bench: Evaluating LLM Agents on End-to-End Quantitative Research"
   },
   {
-   "id": "2026-11-23T19:30:58Z-3781531634",
+   "id": "2026-11-23T19:30:58Z-2810911967",
    "title": "New paper mentioning DeepSeek: SAVIOR: Sample-efficient Adaptation of Vision-Language Models for OCR Representation",
    "date_published": "2026-11-23T19:30:58Z",
    "url": "http://arxiv.org/abs/2611.27319",
    "content_text": "New paper mentioning DeepSeek: SAVIOR: Sample-efficient Adaptation of Vision-Language Models for OCR Representation"
   },
   {
-   "id": "2026-11-23T19:30:58Z-1943098748",
+   "id": "2026-11-23T19:30:58Z-489175643",
    "title": "New paper mentioning Qwen: From Manufacturing Event Logs to Simulation: Enabling SMEs with Agentic AI for SimPy Simulation Generation",
    "date_published": "2026-11-23T19:30:58Z",
    "url": "http://arxiv.org/abs/2611.27483",
    "content_text": "New paper mentioning Qwen: From Manufacturing Event Logs to Simulation: Enabling SMEs with Agentic AI for SimPy Simulation Generation"
   },
   {
-   "id": "2026-11-23T19:30:58Z-1325480332",
+   "id": "2026-11-23T19:30:58Z-1824531687",
    "title": "New paper mentioning Qwen: PP-CFG: Polarity-Preserving Guidance for Controllable Few-Step Image and Video Generation",
    "date_published": "2026-11-23T19:30:58Z",
    "url": "http://arxiv.org/abs/2611.27266",
    "content_text": "New paper mentioning Qwen: PP-CFG: Polarity-Preserving Guidance for Controllable Few-Step Image and Video Generation"
   },
   {
-   "id": "2026-11-23T19:30:58Z-2723851325",
+   "id": "2026-11-23T19:30:58Z-1057415194",
    "title": "New paper mentioning Qwen: PLoQ: A Prompt-Specific Low-Rank Basis for 4-bit Quantization of LLM Activations",
    "date_published": "2026-11-23T19:30:58Z",
    "url": "http://arxiv.org/abs/2611.27092",
    "content_text": "New paper mentioning Qwen: PLoQ: A Prompt-Specific Low-Rank Basis for 4-bit Quantization of LLM Activations"
   },
   {
-   "id": "2026-11-23T19:30:58Z-469382142",
+   "id": "2026-11-23T19:30:58Z-3061087135",
    "title": "New paper mentioning Qwen: Tokenize Moments, Not Frames: Tokenizer-Aware Budget Allocation for Training-Free Video LLM Acceleration",
    "date_published": "2026-11-23T19:30:58Z",
    "url": "http://arxiv.org/abs/2611.26933",
    "content_text": "New paper mentioning Qwen: Tokenize Moments, Not Frames: Tokenizer-Aware Budget Allocation for Training-Free Video LLM Acceleration"
   },
   {
-   "id": "2026-11-23T19:30:58Z-2803308734",
+   "id": "2026-11-23T19:30:58Z-2896481338",
    "title": "New paper mentioning Qwen: Text-Aware, Vision-Blind: How Multimodal Image Editing Systems Handle Unsafe Inputs",
    "date_published": "2026-11-23T19:30:58Z",
    "url": "http://arxiv.org/abs/2611.26569",
    "content_text": "New paper mentioning Qwen: Text-Aware, Vision-Blind: How Multimodal Image Editing Systems Handle Unsafe Inputs"
   },
   {
-   "id": "2026-11-23T19:30:58Z-262280254",
+   "id": "2026-11-23T19:30:58Z-3272852665",
    "title": "HN front-page (707 pts): A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
    "date_published": "2026-11-23T19:30:58Z",
    "url": "https://news.ycombinator.com/item?id=50603845",
    "content_text": "HN front-page (707 pts): A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth"
   },
   {
-   "id": "2026-11-23T19:30:58Z-3788991729",
+   "id": "2026-11-23T19:30:58Z-2647848748",
    "title": "New paper mentioning GLM-: Simple Private Noisy SGD is Minimax-Optimal under Population Strong Convexity",
    "date_published": "2026-11-23T19:30:58Z",
    "url": "http://arxiv.org/abs/2611.26515",
    "content_text": "New paper mentioning GLM-: Simple Private Noisy SGD is Minimax-Optimal under Population Strong Convexity"
   },
   {
-   "id": "2026-11-23T19:30:58Z-3508137343",
+   "id": "2026-11-23T19:30:58Z-1963515346",
    "title": "New paper mentioning GLM-: On the Reliability of CyberGym Evaluation: Task Material Consistency and Reference-Target Identity",
    "date_published": "2026-11-23T19:30:58Z",
    "url": "http://arxiv.org/abs/2611.25790",
    "content_text": "New paper mentioning GLM-: On the Reliability of CyberGym Evaluation: Task Material Consistency and Reference-Target Identity"
   },
   {
-   "id": "2026-11-23T19:30:58Z-682545279",
+   "id": "2026-11-23T19:30:58Z-1376252015",
    "title": "New paper mentioning GLM-: GRODE-RTL: Source-Mapped Dependency Views for LLM-Based RTL Repair",
    "date_published": "2026-11-23T19:30:58Z",
    "url": "http://arxiv.org/abs/2611.25661",
    "content_text": "New paper mentioning GLM-: GRODE-RTL: Source-Mapped Dependency Views for LLM-Based RTL Repair"
   },
   {
-   "id": "2026-11-23T19:30:58Z-4205716453",
+   "id": "2026-11-23T19:30:58Z-1824217865",
    "title": "New paper mentioning GLM-: Twindex: Index Cache Offloading with Coarse-to-Fine Selection for Long-Context Sparse-Attention Serving",
    "date_published": "2026-11-23T19:30:58Z",
    "url": "http://arxiv.org/abs/2611.25078",
    "content_text": "New paper mentioning GLM-: Twindex: Index Cache Offloading with Coarse-to-Fine Selection for Long-Context Sparse-Attention Serving"
   },
   {
-   "id": "2026-11-23T19:30:58Z-4152239186",
+   "id": "2026-11-23T19:30:58Z-4263386992",
    "title": "HN front-page (76 pts): Apple removed my open-source app from EU App Stores after 9 years",
    "date_published": "2026-11-23T19:30:58Z",
    "url": "https://news.ycombinator.com/item?id=50616933",
    "content_text": "HN front-page (76 pts): Apple removed my open-source app from EU App Stores after 9 years"
   },
   {
-   "id": "2026-11-23T19:30:58Z-3263411756",
+   "id": "2026-11-23T19:30:58Z-1787819024",
    "title": "HN front-page (149 pts): Cyberleek posted the GTA 6 Xbox build executable",
    "date_published": "2026-11-23T19:30:58Z",
    "url": "https://news.ycombinator.com/item?id=50612686",
    "content_text": "HN front-page (149 pts): Cyberleek posted the GTA 6 Xbox build executable"
   },
   {
-   "id": "2026-11-23T19:30:58Z-3035369802",
+   "id": "2026-11-23T19:30:58Z-859768485",
    "title": "HN front-page (67 pts): Amodei reportedly suggested games could pacify masses after AI took their jobs (2015)",
    "date_published": "2026-11-23T19:30:58Z",
    "url": "https://news.ycombinator.com/item?id=50610830",
    "content_text": "HN front-page (67 pts): Amodei reportedly suggested games could pacify masses after AI took their jobs (2015)"
   },
   {
-   "id": "2026-11-23T19:30:58Z-2457428118",
+   "id": "2026-11-23T19:30:58Z-2104212806",
    "title": "HN front-page (884 pts): GLM-5.4: Toward generalized coding with our first loop transformer",
    "date_published": "2026-11-23T19:30:58Z",
    "url": "https://news.ycombinator.com/item?id=50609685",
    "content_text": "HN front-page (884 pts): GLM-5.4: Toward generalized coding with our first loop transformer"
   },
   {
-   "id": "2026-11-23T19:30:58Z-2192061870",
+   "id": "2026-11-23T19:30:58Z-143489148",
    "title": "HN front-page (56 pts): GLM 5.4",
    "date_published": "2026-11-23T19:30:58Z",
    "url": "https://news.ycombinator.com/item?id=50608662",
    "content_text": "HN front-page (56 pts): GLM 5.4"
   },
   {
-   "id": "2026-11-23T19:30:58Z-1057036845",
+   "id": "2026-11-23T19:30:58Z-706720910",
    "title": "New paper mentioning MiniMax: Optimal Linear Regression Without a Variance",
    "date_published": "2026-11-23T19:30:58Z",
    "url": "http://arxiv.org/abs/2611.27983",
    "content_text": "New paper mentioning MiniMax: Optimal Linear Regression Without a Variance"
   },
   {
-   "id": "2026-11-23T19:30:58Z-3337640717",
+   "id": "2026-11-23T19:30:58Z-898468778",
    "title": "New paper mentioning MiniMax: SUAF: Spectral Universal Advantage Features for Zero-Shot Policy Improvement",
    "date_published": "2026-11-23T19:30:58Z",
    "url": "http://arxiv.org/abs/2611.27919",
    "content_text": "New paper mentioning MiniMax: SUAF: Spectral Universal Advantage Features for Zero-Shot Policy Improvement"
   },
   {
-   "id": "2026-11-23T19:30:58Z-1614497246",
+   "id": "2026-11-23T19:30:58Z-2974559147",
    "title": "New paper mentioning MiniMax: Minimax-Optimal Small-Loss Regret in Online Convex Optimization and Applications to Contextual Search and Online Inverse Optimization",
    "date_published": "2026-11-23T19:30:58Z",
    "url": "http://arxiv.org/abs/2611.27572",
    "content_text": "New paper mentioning MiniMax: Minimax-Optimal Small-Loss Regret in Online Convex Optimization and Applications to Contextual Search and Online Inverse Optimization"
   },
   {
-   "id": "2026-11-23T19:30:58Z-33793000",
+   "id": "2026-11-23T19:30:58Z-4108372173",
    "title": "New paper mentioning MiniMax: WEIR: Watershed Exploration and Drift-Aware Prefix Shrinkage for Multi-Turn Agent Reinforcement Learning",
    "date_published": "2026-11-23T19:30:58Z",
    "url": "http://arxiv.org/abs/2611.27570",
    "content_text": "New paper mentioning MiniMax: WEIR: Watershed Exploration and Drift-Aware Prefix Shrinkage for Multi-Turn Agent Reinforcement Learning"
   },
   {
-   "id": "2026-11-23T19:30:58Z-322236659",
+   "id": "2026-11-23T19:30:58Z-2716171771",
    "title": "New paper mentioning MiniMax: Zing-1.0: A Playable World System Built on Controllable Rendering",
    "date_published": "2026-11-23T19:30:58Z",
    "url": "http://arxiv.org/abs/2611.27336",
    "content_text": "New paper mentioning MiniMax: Zing-1.0: A Playable World System Built on Controllable Rendering"
   },
   {
-   "id": "2026-11-23T19:30:58Z-3216304361",
+   "id": "2026-11-23T19:30:58Z-1802252067",
    "title": "HN front-page (363 pts): A miniature San Francisco with live buses, planes and boats",
    "date_published": "2026-11-23T19:30:58Z",
    "url": "https://news.ycombinator.com/item?id=50603589",
    "content_text": "HN front-page (363 pts): A miniature San Francisco with live buses, planes and boats"
   },
   {
-   "id": "2026-11-23T19:30:58Z-1197808864",
+   "id": "2026-11-23T19:30:58Z-377951744",
    "title": "HN front-page (73 pts): Tell HN: OpenRouter prompts to Minimax may have been read",
    "date_published": "2026-11-23T19:30:58Z",
    "url": "https://news.ycombinator.com/item?id=50585962",
    "content_text": "HN front-page (73 pts): Tell HN: OpenRouter prompts to Minimax may have been read"
   },
   {
-   "id": "2026-11-23T19:30:58Z-2486235173",
+   "id": "2026-11-23T19:30:58Z-1537012783",
    "title": "HN front-page (82 pts): Show HN: An API for word timestamps from speech, 75% within 20ms",
    "date_published": "2026-11-23T19:30:58Z",
    "url": "https://news.ycombinator.com/item?id=50532515",
    "content_text": "HN front-page (82 pts): Show HN: An API for word timestamps from speech, 75% within 20ms"
   },
   {
-   "id": "2026-11-23T19:30:58Z-1111914317",
+   "id": "2026-11-23T19:30:58Z-1716895562",
    "title": "HN front-page (848 pts): Free alternative TV network built from the Internet Archive's forgotten videos",
    "date_published": "2026-11-23T19:30:58Z",
    "url": "https://news.ycombinator.com/item?id=50606192",
    "content_text": "HN front-page (848 pts): Free alternative TV network built from the Internet Archive's forgotten videos"
   },
   {
-   "id": "2026-11-23T19:30:58Z-2776081116",
+   "id": "2026-11-23T19:30:58Z-2222612282",
    "title": "HN front-page (158 pts): Nyx, the Oldest Internet Service Provider",
    "date_published": "2026-11-23T19:30:58Z",
    "url": "https://news.ycombinator.com/item?id=50603465",
    "content_text": "HN front-page (158 pts): Nyx, the Oldest Internet Service Provider"
   },
   {
-   "id": "2026-11-23T19:30:58Z-2073395830",
+   "id": "2026-11-23T19:30:58Z-1039036932",
    "title": "HN front-page (593 pts): Why there are still no non-WebKit browsers on iOS",
    "date_published": "2026-11-23T19:30:58Z",
    "url": "https://news.ycombinator.com/item?id=50575644",
    "content_text": "HN front-page (593 pts): Why there are still no non-WebKit browsers on iOS"
   },
   {
-   "id": "2026-11-23T19:30:45Z-158612197",
+   "id": "2026-11-23T19:30:45Z-32148375",
    "title": "Trending outside tracked labs: thinkingmachines/Inkling-2-Mini (41,888 downloads)",
    "date_published": "2026-11-23T19:30:45Z",
    "url": "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
    "content_text": "Trending outside tracked labs: thinkingmachines/Inkling-2-Mini (41,888 downloads)"
   },
   {
-   "id": "2026-11-23T19:30:45Z-1859132853",
+   "id": "2026-11-23T19:30:45Z-1966380371",
    "title": "Trending outside tracked labs: unsloth/Inkling-2-Mini-GGUF (1,292,888 downloads)",
    "date_published": "2026-11-23T19:30:45Z",
    "url": "https://huggingface.co/unsloth/Inkling-2-Mini-GGUF",
    "content_text": "Trending outside tracked labs: unsloth/Inkling-2-Mini-GGUF (1,292,888 downloads)"
   },
   {
-   "id": "2026-11-23T19:30:45Z-275778786",
+   "id": "2026-11-23T19:30:45Z-1051458188",
    "title": "Trending outside tracked labs: AtomicChat/Inkling-2-Mini-Uncensored-GGUF (329,497 downloads)",
    "date_published": "2026-11-23T19:30:45Z",
    "url": "https://huggingface.co/AtomicChat/Inkling-2-Mini-Uncensored-GGUF",
    "content_text": "Trending outside tracked labs: AtomicChat/Inkling-2-Mini-Uncensored-GGUF (329,497 downloads)"
-  },
-  {
-   "id": "2026-11-23T19:30:45Z-1053853894",
-   "title": "Trending outside tracked labs: SulphurAI/Sulphur-3 (133,732 downloads)",
-   "date_published": "2026-11-23T19:30:45Z",
-   "url": "https://huggingface.co/SulphurAI/Sulphur-3",
-   "content_text": "Trending outside tracked labs: SulphurAI/Sulphur-3 (133,732 downloads)"
-  },
-  {
-   "id": "2026-11-23T19:30:45Z-2629633711",
-   "title": "Trending outside tracked labs: RadixArk/DaisyRose-27B (2,130 downloads)",
-   "date_published": "2026-11-23T19:30:45Z",
-   "url": "https://huggingface.co/RadixArk/DaisyRose-27B",
-   "content_text": "Trending outside tracked labs: RadixArk/DaisyRose-27B (2,130 downloads)"
   }
  ]
 }

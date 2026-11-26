@@ -72,6 +72,74 @@
         "hf": null,
         "master": null
       }
+    },
+    {
+      "revision": "2180148077b4145a0936fb0ceb8fb9dc75ef4dc1",
+      "captured_at": "2026-11-26T15:27:39Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/inclusionAI/Ling-3.1-flash-1019-singprobe?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"6b7-5qgKEqOn+lgIbWF9Vl8C5dHMqUg\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "mit",
+        "file": null,
+        "sha256": null,
+        "redistributable": null,
+        "obligations": []
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1519,
+          "sha256": "11ad7efa24975ee4b0c3c3a38ed18737f0658a5f75a0a96787b576a78a023361",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 3321,
+          "sha256": "c4282e880c422a6f9be7a247fb627697ad2efe323e9a14981f3a7d2dc90989d0",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 490,
+          "sha256": "731f0046949bd8a1be401ec4150c623c837df9eabe4c064a0f452745bbdc74f6",
+          "kind": "snapshot"
+        },
+        {
+          "path": "configuration_sing_probe.py",
+          "size": 1807,
+          "sha256": "e530fd810d2121c9dba12831ed9cc047af42c6eb34ed1cfacc984903f400a044",
+          "kind": "snapshot"
+        },
+        {
+          "path": "model.safetensors",
+          "size": 16264820,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "modeling_sing_probe.py",
+          "size": 6074,
+          "sha256": "b8d964788daf53e90ed0982d290dc743235c76fd703cfef35ab15ab0b85d2dc4",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 16278031,
+      "weight_bytes": 16264820,
+      "snapshot_dir": "snapshots/inclusionAI/Ling-3.1-flash-1019-singprobe/2180148077b4145a0936fb0ceb8fb9dc75ef4dc1/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
     }
   ],
   "errata": [],
