@@ -1,0 +1,65 @@
+﻿#
+# TiMi_HOK_Game_Translator - runtime dependencies (one-shot install)
+#
+# Usage (run inside project root, preferably in a venv):
+#
+#   # 1) Create and activate a Python >= 3.8 virtual env
+#   py -3.12 -m venv .venv
+#   . .venv\Scripts\Activate.ps1       # Windows PowerShell
+#   # source .venv/bin/activate        # macOS / Linux
+#
+#   # 2) Upgrade pip and install runtime deps
+#   python -m pip install --upgrade pip
+#   pip install -r requirements.txt
+#
+#   # 3) (Optional, intranet) Install Venus SDK from Tencent mirror
+#   pip install -U venus-api-base -i https://mirrors.cloud.tencent.com/pypi/simple/
+#
+# This file mirrors [project.dependencies] in pyproject.toml plus the most
+# useful optional extras, so that `pip install -r requirements.txt` sets up
+# everything a developer needs in one go.
+#
+
+# ----------- Core runtime (required) -----------
+PyYAML>=6.0
+# ruamel.yaml is used by the Web Console to **preserve YAML comments** when
+# saving conf/*.yaml from the browser. Falls back to PyYAML (comments lost)
+# if ruamel is unavailable.
+ruamel.yaml>=0.17
+requests>=2.31
+lxml>=4.9
+tqdm>=4.66
+python-dotenv>=1.0
+
+# ----------- LLM / platform integrations (optional but recommended) -----------
+# openai SDK is shared by every OpenAI-compatible vendor (DeepSeek / Kimi /
+# GLM / Qwen compat mode / Hunyuan Hy4 ...). Hunyuan Hy-MT2 / Anthropic /
+# Venus go through plain `requests` and need no extra SDK.
+openai>=1.0
+
+# ----------- Excel / table support (optional) -----------
+# Not needed by the built-in dtxml / xml / csv / json / xliff sources, but
+# useful if you later enable XlsxSource or data-export scripts.
+pandas>=2.0
+openpyxl>=3.1
+
+# ----------- Scheduling (optional) -----------
+# Legacy timer_tool.py used `schedule`. The new framework does not use it
+# yet but it is listed here for future cron-style jobs.
+schedule>=1.2
+
+# ----------- Web Console / Server (optional, required for Web UI) -----------
+# Enable the FastAPI-based Web console (``python main.py server``):
+#   * fastapi + uvicorn — HTTP / WebSocket server
+#   * apscheduler       — cron-style scheduled runs
+# Omit these if you only use the CLI.
+fastapi>=0.110
+uvicorn[standard]>=0.27
+apscheduler>=3.10
+
+# ----------- Dev / test tools (optional, developers only) -----------
+# These are NOT required to run TiMi_HOK_Game_Translator in production. Only install if you
+# plan to hack on the codebase and run the (optional) test suite under tests/.
+pytest>=7.4
+pytest-cov>=4.1
+ruff>=0.5

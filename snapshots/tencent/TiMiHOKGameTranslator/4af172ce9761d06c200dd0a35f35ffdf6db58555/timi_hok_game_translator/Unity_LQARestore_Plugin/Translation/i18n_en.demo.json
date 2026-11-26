@@ -1,0 +1,49 @@
+{
+  "schemaVersion": "1.0",
+  "language": "en",
+  "source": {
+    "project": "SampleProject",
+    "file": "path/to/i18n_translation.csv",
+    "translationColumn": "翻译文本 en"
+  },
+  "keyTypes": ["stringKey", "hashFF", "hashFB"],
+  "generatedAt": "2026-08-25T15:04:35+08:00",
+  "entries": {
+    "ZhanShi": {
+      "keyType": "stringKey",
+      "source": "i18n.txt",
+      "original": "战士",
+      "translation": "Fighter"
+    },
+    "HeroDrawTitle": {
+      "keyType": "stringKey",
+      "source": "i18n.txt",
+      "original": "示例英雄称号",
+      "translation": "Sample Hero Title"
+    },
+    "#FFDAEEA48050734A#": {
+      "keyType": "hashFF",
+      "source": "Table/LineupTable.xlsx",
+      "original": "示例：阵容推荐说明文本。",
+      "translation": "Sample: lineup recommendation description text."
+    },
+    "#FFDAD128D6E3E99C#": {
+      "keyType": "hashFF",
+      "source": "Table/LineupTable.xlsx",
+      "original": "示例：今日推荐阵容。",
+      "translation": "Sample: today's recommended lineup."
+    },
+    "$FB505CC795D662A5$": {
+      "keyType": "hashFB",
+      "source": "Mail/GlobalMailTable.xlsx",
+      "original": "欢迎来到游戏世界",
+      "translation": "Welcome to the game world"
+    },
+    "loginNoticeTextPC": {
+      "keyType": "stringKey",
+      "source": "i18n.txt",
+      "original": "健康游戏忠告：抵制不良游戏，拒绝盗版游戏。注意自我保护，谨防受骗上当。适度游戏益脑，沉迷游戏伤身。合理安排时间，享受健康生活。\n根据国家新闻出版署《关于防止未成年人沉迷网络游戏的通知》《关于进一步严格管理 切实防止未成年人沉迷网络游戏的通知》，所有网络游戏用户均需使用有效身份信息完成账号实名注册后方可进入游戏，认证为未成年的玩家将受到防沉迷功能限制。",
+      "translation": "Healthy Gaming Advice: Resist unhealthy games, refuse pirated games. Protect yourself, beware of being deceived. Moderate gaming benefits the brain, addiction to games hurts it. Arrange your time reasonably, and enjoy a healthy life.\nIn accordance with the \"Notice on Preventing Minors from Gaming Addiction\" and \"Notice on Further Strengthening Management to Effectively Prevent Minors from Gaming Addiction\" issued by the National Press and Publication Administration, all users must complete real-name registration with a valid ID to access the game. Minor users will be restricted by the anti-addiction system."
+    }
+  }
+}

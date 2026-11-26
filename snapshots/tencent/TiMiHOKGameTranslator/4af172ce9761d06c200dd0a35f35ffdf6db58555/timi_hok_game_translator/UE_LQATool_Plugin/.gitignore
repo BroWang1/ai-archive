@@ -1,0 +1,25 @@
+# Unreal Engine
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Build/
+*.suo
+*.sln
+*.xcodeproj
+*.xcworkspace
+
+# Visual Studio
+.vs/
+*.user
+*.opendb
+*.db
+*.ipch
+
+# Rider
+.idea/
+*.sln.iml
+
+# Mac
+.DS_Store
+*.dSYM

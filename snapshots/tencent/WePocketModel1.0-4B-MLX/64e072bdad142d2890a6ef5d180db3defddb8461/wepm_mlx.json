@@ -1,0 +1,18 @@
+{
+  "format": "wepm-mlx-1",
+  "source_checkpoint": "WePocketModel1.0-4B",
+  "source_hidden_size": 2560,
+  "backbone": {
+    "sharded": true,
+    "shards": 3,
+    "dtype": "bfloat16"
+  },
+  "norm_weights": "baked",
+  "task_modules": "task_modules.safetensors",
+  "text_assets": [
+    "tokenizer.json",
+    "tokenizer_config.json",
+    "chat_template.jinja",
+    "processor_config.json"
+  ]
+}

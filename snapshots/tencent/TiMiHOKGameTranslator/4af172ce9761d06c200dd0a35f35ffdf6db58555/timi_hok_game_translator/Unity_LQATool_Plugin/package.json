@@ -1,0 +1,20 @@
+{
+  "name": "com.qq.game.lqatool",
+  "version": "1.0.0",
+  "displayName": "LQATool - Localization UI Analysis Tool",
+  "description": "A UI analysis, debugging, and testing tool for Unity project localization",
+  "keywords": [
+    "localization",
+    "ui",
+    "analysis",
+    "lqa",
+    "debug",
+    "test",
+    "tool"
+  ],
+  "author": {
+    "name": "Tencent Games",
+    "email": "tencent_games@tencent.com",
+    "url": "https://game.qq.com/"
+  }
+}

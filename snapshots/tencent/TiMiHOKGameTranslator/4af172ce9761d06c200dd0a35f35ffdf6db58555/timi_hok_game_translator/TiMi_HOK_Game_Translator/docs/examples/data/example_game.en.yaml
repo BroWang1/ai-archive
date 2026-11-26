@@ -1,0 +1,33 @@
+﻿# Fully fictional demo strings for TiMi_HOK_Game_Translator showcase.
+# No real product data. Format mirrors ``docs/examples/data/example_game.en.json``.
+meta:
+  project_code: example_game
+  source_locale: en
+  target_locale: zh-CN
+  note: "YAML demo — same schema as the JSON variant."
+
+entries:
+  - key: ui.mainmenu.play
+    source_text: Play
+    context: "Main menu — start a new game."
+    comment: "Short action button."
+  - key: ui.mainmenu.settings
+    source_text: Settings
+    context: "Main menu — open the settings panel."
+    comment: ""
+  - key: ui.mainmenu.quit
+    source_text: Quit
+    context: "Main menu — exit the application."
+    comment: ""
+  - key: hud.health
+    source_text: "HP: {value}/{max}"
+    context: "HUD label for current and maximum health."
+    comment: "Placeholders {value} and {max} must be preserved."
+  - key: dialog.tutorial.welcome
+    source_text: "Welcome, brave adventurer! Your journey starts here."
+    context: "Tutorial NPC greeting at the start of the game."
+    comment: ""
+  - key: achievement.first_win.name
+    source_text: "First Blood"
+    context: "Achievement title for winning the first battle."
+    comment: ""

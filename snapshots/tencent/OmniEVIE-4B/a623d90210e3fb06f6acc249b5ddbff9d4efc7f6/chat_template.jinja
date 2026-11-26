@@ -1,0 +1,40 @@
+{%- set ns = namespace(text='', instruction=none, image=0, video=0) -%}
+{%- for message in messages -%}
+{%- if message.role == 'system' -%}
+{%- set ns.instruction = message.content if message.content is string else message.content | map(attribute='text') | join('') -%}
+{%- elif message.content is string -%}
+{%- set ns.text = ns.text + message.content -%}
+{%- else -%}
+{%- for item in message.content -%}
+{%- if item.type == 'image' -%}
+{%- set ns.image = ns.image + 1 -%}
+{%- elif item.type == 'video' -%}
+{%- set ns.video = ns.video + 1 -%}
+{%- elif item.type == 'text' -%}
+{%- set ns.text = ns.text + item.text -%}
+{%- endif -%}
+{%- endfor -%}
+{%- endif -%}
+{%- endfor -%}
+{%- if ns.image + ns.video > 1 -%}
+{{- raise_exception('OmniEVIE accepts one image or one video per input.') -}}
+{%- endif -%}
+{%- if (ns.image or ns.video) and task != 'query' and ns.text -%}
+{{- raise_exception('Image and video documents do not accept text. Use encode_query for visual queries with text.') -}}
+{%- endif -%}
+{%- if ns.video -%}
+{%- if task == 'query' -%}
+{{- '<|im_start|>user\n' + (ns.instruction + ' ' if ns.instruction else '') + '<|vision_start|><|video_pad|><|vision_end|>' + ns.text + '<|im_end|><|endoftext|>' -}}
+{%- else -%}
+{{- '<|im_start|>user\n<|video_pad|><|im_end|><|endoftext|>' -}}
+{%- endif -%}
+{%- elif ns.image -%}
+{%- if task == 'query' -%}
+{%- set instruction = ns.instruction if ns.instruction is not none else ('Retrieve the image that answers the question about the given image.' if ns.text else 'Retrieve the image showing the same object as the given image.') -%}
+{{- instruction + '<|vision_start|><|image_pad|><|vision_end|>' + ns.text + '<|endoftext|>' * 10 -}}
+{%- else -%}
+{{- '<|im_start|>user\n<|vision_start|><|image_pad|><|vision_end|><|im_end|><|endoftext|>' -}}
+{%- endif -%}
+{%- else -%}
+{{- (ns.instruction + ' ' if ns.instruction else '') + (ns.text if ns.text | trim else ' ') + '<|endoftext|>' * 10 -}}
+{%- endif -%}

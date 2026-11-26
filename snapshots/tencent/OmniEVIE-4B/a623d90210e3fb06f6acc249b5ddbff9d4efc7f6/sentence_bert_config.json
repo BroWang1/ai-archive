@@ -1,0 +1,41 @@
+{
+  "transformer_task": "feature-extraction",
+  "modality_config": {
+    "text": {
+      "method": "forward",
+      "method_output_name": "last_hidden_state"
+    },
+    "image": {
+      "method": "forward",
+      "method_output_name": "last_hidden_state"
+    },
+    "video": {
+      "method": "forward",
+      "method_output_name": "last_hidden_state"
+    },
+    "message": {
+      "method": "forward",
+      "method_output_name": "last_hidden_state",
+      "format": "structured"
+    }
+  },
+  "module_output_name": "token_embeddings",
+  "processing_kwargs": {
+    "text": {
+      "truncation": false
+    },
+    "image": {
+      "size": {
+        "shortest_edge": 65536,
+        "longest_edge": 4194304
+      }
+    },
+    "video": {
+      "do_sample_frames": false
+    }
+  },
+  "unpad_inputs": false,
+  "processor_kwargs": {
+    "padding_side": "left"
+  }
+}

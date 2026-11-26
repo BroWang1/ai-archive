@@ -1,0 +1,38 @@
+# 环境变量与密钥 (.env.example / web 的 .env.development 等需入库, 不要加 .env.*)
+.env
+*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Node
+node_modules/
+dist/
+dist-ssr/
+.eslintcache
+
+# 运行时产物 (锚定到具体路径, 避免误伤同名源码目录)
+*.log
+/server/data/
+/server/media/
+/server/logs/
+
+# 编辑器
+.idea/
+.vscode/
+*.swp
+*.sw?
+
+# AI 开发助手本地元数据
+.workbuddy/
+
+# 系统
+.DS_Store
+Thumbs.db

@@ -1,0 +1,6 @@
+{
+  "source_weights": "ema",
+  "source_step": 115,
+  "source_seal_manifest_sha256": "bf53d4bc376479e7040ce0d0f0812efd901303949e2bc159a8e9eb050f23d244",
+  "vlm_processor_from_checkpoint": true
+}

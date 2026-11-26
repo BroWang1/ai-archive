@@ -1,0 +1,13 @@
+#pragma once
+
+#include "WidgetSlots/Widget2JsonInterface.h"
+
+class USizeBox;
+
+// For SizeBox
+class FLQA_SizeBox2Json : public FWidget2JsonInterface
+{
+public:
+	virtual void ToJson(TSharedPtr<FLQAWidgetNode> InWidget, TSharedPtr<FJsonObject> OutJsonObject,
+		TMap<FString, UTexture*>& SharedTextureMap) override;
+};

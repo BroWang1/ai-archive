@@ -1,0 +1,311 @@
+﻿{
+  "$schema": "../schema/localization.schema.json",
+  "meta": {
+    "project_code": "example_game",
+    "source_locale": "zh-CN",
+    "target_locale": "en",
+    "note": "完全虚构的 TiMi_HOK_Game_Translator 示例文案，不包含任何真实产品数据。"
+  },
+  "entries": [
+    {
+      "key": "ui.mainmenu.play",
+      "source_text": "开始游戏",
+      "context": "主菜单——开启一局新游戏。",
+      "comment": "简短的动作按钮。"
+    },
+    {
+      "key": "ui.mainmenu.settings",
+      "source_text": "设置",
+      "context": "主菜单——打开设置面板。",
+      "comment": ""
+    },
+    {
+      "key": "ui.mainmenu.quit",
+      "source_text": "退出",
+      "context": "主菜单——退出应用。",
+      "comment": ""
+    },
+    {
+      "key": "hud.health",
+      "source_text": "生命值：{value}/{max}",
+      "context": "HUD 中显示当前及最大生命值。",
+      "comment": "占位符 {value} 和 {max} 必须保留。"
+    },
+    {
+      "key": "dialog.tutorial.welcome",
+      "source_text": "欢迎你，勇敢的冒险者！你的旅程从这里开始。",
+      "context": "新手引导 NPC 在游戏开始时的问候。",
+      "comment": ""
+    },
+    {
+      "key": "dialog.tutorial.instructions",
+      "source_text": "使用方向键移动，按 [空格] 键攻击。",
+      "context": "新手引导 NPC 的操作说明。",
+      "comment": "[空格] 指物理按键，译文中请保持直观易懂。"
+    },
+    {
+      "key": "achievement.first_win.name",
+      "source_text": "首胜",
+      "context": "赢得第一场战斗的成就标题。",
+      "comment": ""
+    },
+    {
+      "key": "achievement.first_win.desc",
+      "source_text": "赢得你的第一场战斗。",
+      "context": "成就标题下方展示的描述。",
+      "comment": ""
+    },
+    {
+      "key": "error.network.offline",
+      "source_text": "当前处于离线状态，请检查你的网络连接。",
+      "context": "客户端无法连接服务器时显示。",
+      "comment": ""
+    },
+    {
+      "key": "error.save.failed",
+      "source_text": "保存游戏失败，是否重试？",
+      "context": "保存操作失败时弹出的模态对话框。",
+      "comment": ""
+    },
+    {
+      "key": "ui.mainmenu.continue",
+      "source_text": "继续游戏",
+      "context": "主菜单——从最近的存档继续。",
+      "comment": ""
+    },
+    {
+      "key": "ui.mainmenu.load",
+      "source_text": "读取存档",
+      "context": "主菜单——打开存档列表。",
+      "comment": ""
+    },
+    {
+      "key": "ui.mainmenu.multiplayer",
+      "source_text": "多人联机",
+      "context": "主菜单——进入多人大厅。",
+      "comment": ""
+    },
+    {
+      "key": "ui.mainmenu.credits",
+      "source_text": "制作名单",
+      "context": "主菜单——查看制作团队名单。",
+      "comment": ""
+    },
+    {
+      "key": "ui.button.confirm",
+      "source_text": "确认",
+      "context": "通用确认按钮。",
+      "comment": "尽量使用简短的译词。"
+    },
+    {
+      "key": "ui.button.cancel",
+      "source_text": "取消",
+      "context": "通用取消按钮。",
+      "comment": ""
+    },
+    {
+      "key": "ui.button.back",
+      "source_text": "返回",
+      "context": "通用返回上一级按钮。",
+      "comment": ""
+    },
+    {
+      "key": "ui.button.close",
+      "source_text": "关闭",
+      "context": "通用关闭弹窗按钮。",
+      "comment": ""
+    },
+    {
+      "key": "hud.mana",
+      "source_text": "法力值：{value}/{max}",
+      "context": "HUD 中显示当前及最大法力值。",
+      "comment": "占位符 {value} 和 {max} 必须保留。"
+    },
+    {
+      "key": "hud.stamina",
+      "source_text": "体力值：{value}/{max}",
+      "context": "HUD 中显示当前及最大体力值。",
+      "comment": "占位符 {value} 和 {max} 必须保留。"
+    },
+    {
+      "key": "hud.level",
+      "source_text": "等级 {level}",
+      "context": "HUD 中显示角色等级。",
+      "comment": "占位符 {level} 必须保留。"
+    },
+    {
+      "key": "hud.exp",
+      "source_text": "经验值：{value}/{max}",
+      "context": "HUD 中显示当前及升级所需经验。",
+      "comment": "占位符 {value} 和 {max} 必须保留。"
+    },
+    {
+      "key": "hud.gold",
+      "source_text": "金币：{amount}",
+      "context": "HUD 中显示当前金币数量。",
+      "comment": "占位符 {amount} 必须保留。"
+    },
+    {
+      "key": "dialog.npc.merchant.greeting",
+      "source_text": "欢迎光临，想要买点什么？",
+      "context": "商人 NPC 打招呼。",
+      "comment": ""
+    },
+    {
+      "key": "dialog.npc.merchant.farewell",
+      "source_text": "一路顺风，冒险者！",
+      "context": "玩家结束与商人交谈时的告别语。",
+      "comment": ""
+    },
+    {
+      "key": "dialog.npc.blacksmith.greeting",
+      "source_text": "需要我为你的装备打磨一番吗？",
+      "context": "铁匠 NPC 打招呼。",
+      "comment": ""
+    },
+    {
+      "key": "dialog.quest.accept",
+      "source_text": "我接受这个任务。",
+      "context": "任务对话——玩家接受任务时的选项。",
+      "comment": ""
+    },
+    {
+      "key": "dialog.quest.decline",
+      "source_text": "现在还不是时候。",
+      "context": "任务对话——玩家婉拒任务时的选项。",
+      "comment": ""
+    },
+    {
+      "key": "quest.main.chapter1.title",
+      "source_text": "第一章：失落的星图",
+      "context": "主线任务章节标题。",
+      "comment": ""
+    },
+    {
+      "key": "quest.main.chapter1.objective",
+      "source_text": "前往古代神殿寻找失落的星图。",
+      "context": "主线任务目标描述。",
+      "comment": ""
+    },
+    {
+      "key": "quest.side.lost_cat.title",
+      "source_text": "寻找走失的小猫",
+      "context": "支线任务标题。",
+      "comment": ""
+    },
+    {
+      "key": "quest.side.lost_cat.objective",
+      "source_text": "帮助村民找回走失的小猫，奖励：{reward} 金币。",
+      "context": "支线任务目标描述。",
+      "comment": "占位符 {reward} 必须保留。"
+    },
+    {
+      "key": "item.potion.health.name",
+      "source_text": "生命药水",
+      "context": "道具名称——生命药水。",
+      "comment": ""
+    },
+    {
+      "key": "item.potion.health.desc",
+      "source_text": "饮用后立即恢复 {value} 点生命值。",
+      "context": "道具描述——生命药水效果。",
+      "comment": "占位符 {value} 必须保留。"
+    },
+    {
+      "key": "item.potion.mana.name",
+      "source_text": "法力药水",
+      "context": "道具名称——法力药水。",
+      "comment": ""
+    },
+    {
+      "key": "item.potion.mana.desc",
+      "source_text": "饮用后立即恢复 {value} 点法力值。",
+      "context": "道具描述——法力药水效果。",
+      "comment": "占位符 {value} 必须保留。"
+    },
+    {
+      "key": "item.weapon.ironsword.name",
+      "source_text": "铁剑",
+      "context": "武器名称——铁剑。",
+      "comment": ""
+    },
+    {
+      "key": "item.weapon.ironsword.desc",
+      "source_text": "一把结实耐用的铁剑，适合初出茅庐的冒险者。",
+      "context": "武器描述——铁剑。",
+      "comment": ""
+    },
+    {
+      "key": "achievement.level10.name",
+      "source_text": "初露锋芒",
+      "context": "角色升至 10 级的成就标题。",
+      "comment": ""
+    },
+    {
+      "key": "achievement.level10.desc",
+      "source_text": "角色等级达到 10 级。",
+      "context": "成就描述。",
+      "comment": ""
+    },
+    {
+      "key": "achievement.explorer.name",
+      "source_text": "无畏探险家",
+      "context": "探索成就标题。",
+      "comment": ""
+    },
+    {
+      "key": "achievement.explorer.desc",
+      "source_text": "解锁地图上的 {count} 个区域。",
+      "context": "探索成就描述。",
+      "comment": "占位符 {count} 必须保留。"
+    },
+    {
+      "key": "settings.audio.master",
+      "source_text": "主音量",
+      "context": "设置界面——主音量滑条标签。",
+      "comment": ""
+    },
+    {
+      "key": "settings.audio.music",
+      "source_text": "音乐音量",
+      "context": "设置界面——音乐音量滑条标签。",
+      "comment": ""
+    },
+    {
+      "key": "settings.audio.sfx",
+      "source_text": "音效音量",
+      "context": "设置界面——音效音量滑条标签。",
+      "comment": ""
+    },
+    {
+      "key": "settings.graphics.fullscreen",
+      "source_text": "全屏模式",
+      "context": "设置界面——全屏模式切换项。",
+      "comment": ""
+    },
+    {
+      "key": "settings.graphics.resolution",
+      "source_text": "分辨率",
+      "context": "设置界面——分辨率下拉菜单标签。",
+      "comment": ""
+    },
+    {
+      "key": "settings.language",
+      "source_text": "语言",
+      "context": "设置界面——语言下拉菜单标签。",
+      "comment": ""
+    },
+    {
+      "key": "error.server.timeout",
+      "source_text": "服务器响应超时，请稍后再试。",
+      "context": "服务器响应超时时弹出的错误提示。",
+      "comment": ""
+    },
+    {
+      "key": "error.auth.invalid",
+      "source_text": "账号或密码错误，请重新输入。",
+      "context": "登录失败时的错误提示。",
+      "comment": ""
+    }
+  ]
+}

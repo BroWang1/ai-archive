@@ -1,0 +1,87 @@
+# 德语语种 profile
+# 用于验证 GenericTranslationStrategy（中 → 德）一步直译策略 + 术语注入。
+# 本阶段**跳过审校**，workflow 仅包含「pull_vcs → translate → merge_data → push_vcs」，
+# 用来专注验证一步直译与 Terms 术语注入效果。
+# 审校功能对齐 vi.yaml 的编排即可。
+
+id: de_example
+display_name: 德语
+source_locale: zh-CN
+target_locale: de
+
+locale_names:
+  cn: 德语
+  en: German
+
+# 源文件格式和路径（相对于 ``vcs.local_path`` 下的 svn 工作副本根）
+# svn 实际布局：trunk/tests/fixtures/de/99.incr.xlsx
+source:
+  format: csv
+  path: trunk/tests/fixtures/de/99.incr.xlsx
+
+# VCS 配置：留空（走 config.yaml 的 svn 配置，与 vi 共用 svn 工作副本）
+# 如需本语种独立 VCS，取消下方注释并填入；extra.username/password 建议用环境变量。
+# vcs:
+#   url: "svn://..."
+#   local_path: svn/test_translation
+
+# 使用混元翻译模型。多语种通用，底层根据 target_locale 自动切换。
+# 这里指向 conf/llm.yaml 的模板示例 profile（带 _example 后缀）。
+# 真实项目请把模板复制一份、填好凭据、重命名为 hunyuan_mt2_prod 之类，再引用。
+llm_profile: hunyuan_mt2_plus_example
+
+# 跳过审校阶段：使用 console 通知，避免误发企业微信
+notification:
+  type: console
+
+# 审校配置先占位，但本轮 workflow 不启用；保留结构便于以后接入
+reviews:
+  light:
+    platform: crowdin
+    project_name: DE_LightReview
+  first:
+    platform: crowdin
+    project_id: "your_project_id"                                  # Phrase project UID（URL /web/project2/show/<UID>）
+    project_name: DE First Review (Phrase)
+    target_language_id: de                          # Phrase 项目 targetLangs[0].code
+    poll_interval_seconds: 60
+    stop_time: "17:00"                              # 支持 "HH:MM" 绝对格式或 "+Nm/Nh" 相对格式
+    extra:
+      region: eu                                    # EU 账户走 eu.phrase.com
+  second:
+    platform: crowdin
+    project_name: DE_SecondReview(Phrase)
+
+# 工作流状态编排——【只保留翻译链路，跳过所有审校】
+# 验证重点：
+#   1. 翻译策略默认走 GenericTranslationStrategy（一步直译）；
+#   2. 注入 Terms（中→德语术语）；
+#   3. 最终 xlsx 的 Target 列有德语译文。
+workflow:
+  - pull_vcs
+  - last_first_review
+  - last_second_review
+  - last_merge_data
+  - translate
+  - update_tm
+  - update_grn_tm
+  - light_review
+  - first_review
+  - second_review
+  - validate_data
+  - merge_data
+  - push_vcs
+merge_start_time: ""
+
+strategy_config:
+  # 两步直译策略：中 → 英(pivot) → 德
+  # 若想改为一步直译：删除 class 字段，让系统走 GenericTranslationStrategy
+  class: TwoStepTranslationStrategy
+  pivot_locale: en                      # Step 1 的中转语种，默认 en
+  display_name: 德语翻译
+  use_concurrent_by_default: true
+  default_max_workers: 32
+  # 进度日志：每完成 1 条就打印一次，便于逐条跟踪翻译链路
+  # （10 条量级下看每条 key 的 zh→de 明细；量大时可改为 5 或 10）
+  progress_log_interval: 100
+

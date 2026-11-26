@@ -1,0 +1,29 @@
+flask==3.0.3
+opencv-python-headless==4.10.0.84
+numpy==1.26.4
+requests==2.32.3
+
+# 生产部署 (Linux/容器) 使用; Windows 本地开发不需要
+gunicorn==23.0.0; sys_platform != "win32"
+gevent==24.2.1; sys_platform != "win32"
+
+# ---------------------------------------------------------------
+# OCR 引擎: 按 OCR_PROVIDER 的选择安装其中一项, 详见 README
+# ---------------------------------------------------------------
+# OCR_PROVIDER=rapidocr   轻量离线, 默认推荐 (约 15MB, CPU 即可)
+#   pip install rapidocr-onnxruntime
+#
+# OCR_PROVIDER=paddleocr  精度更高的离线方案 (依赖较重, 约 2GB)
+#   pip install paddleocr paddlepaddle
+#
+# OCR_PROVIDER=easyocr    多语种离线方案
+#   pip install easyocr
+#
+# OCR_PROVIDER=tesseract  需额外安装 tesseract 可执行程序与语言包
+#   pip install pytesseract
+#
+# OCR_PROVIDER=tencentcloud
+#   pip install tencentcloud-sdk-python-ocr
+#
+# OCR_PROVIDER=baidu / azure / paddleocr_http / cvtest
+#   仅需 requests, 无额外依赖

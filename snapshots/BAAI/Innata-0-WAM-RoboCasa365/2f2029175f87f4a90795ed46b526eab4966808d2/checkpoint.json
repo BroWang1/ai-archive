@@ -1,0 +1,5 @@
+{
+  "checkpoint_type": "hf",
+  "source_weights": "ema",
+  "student_only": true
+}

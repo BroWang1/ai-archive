@@ -1,0 +1,120 @@
+{
+  "repo_id": "tencent/Hy-MT3-1.8B-GGUF",
+  "canonical_org": "tencent",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "7f97e076a8622b09f3a6f14cff38a733441ace43",
+      "captured_at": "2026-11-26T17:54:12Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/tencent/Hy-MT3-1.8B-GGUF?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"e7f-m+ljKAoapY8vdx8/b/N9YkOcp18\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "apache-2.0",
+        "file": "LICENSE.txt",
+        "sha256": "974b62424d5627567283a4808181293e3ea53894cea7e75341d8e9f5f1b874cc",
+        "redistributable": true,
+        "obligations": [],
+        "freedom": "free",
+        "freedom_note": "apache-2.0 with LICENSE file verified in snapshot"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1929,
+          "sha256": "96c9305d2a53121d41d9be0b7e91724f9f4b89c6470a712142ccb2ba548512d9",
+          "kind": "snapshot"
+        },
+        {
+          "path": "Hy-MT3-1.8B-Q4_K_M.gguf",
+          "size": 1348432160,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "Hy-MT3-1.8B-Q8_0.gguf",
+          "size": 1908528448,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "LICENSE.txt",
+          "size": 9673,
+          "sha256": "974b62424d5627567283a4808181293e3ea53894cea7e75341d8e9f5f1b874cc",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 20764,
+          "sha256": "a1d71f099e22c24d623fb4ba162d4bc4f7cf411e02108f1ace7b269cf84883fa",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README_CN.md",
+          "size": 19648,
+          "sha256": "6f8b6338d67d7b482db111920295d83baac2634372df4a18c1253013fe351fc8",
+          "kind": "snapshot"
+        },
+        {
+          "path": "imgs/efficiency.png",
+          "size": 295271,
+          "sha256": "c261d47a76e8826182ffd770c178c0130cb70fb8d72644b1d82990b02f44cf95",
+          "kind": "snapshot"
+        },
+        {
+          "path": "imgs/efficiency_zh.png",
+          "size": 315301,
+          "sha256": "1a44e636cadfdc042eaa097f20713f97aec2bb8777f35e860a1a8917c59689f1",
+          "kind": "snapshot"
+        },
+        {
+          "path": "imgs/logo-en.png",
+          "size": 65860,
+          "sha256": "0cd56e2438d4c91a5d529b3102f800de5f17c768f73caaf4848a864e7b741080",
+          "kind": "snapshot"
+        },
+        {
+          "path": "imgs/logo-zh.png",
+          "size": 69906,
+          "sha256": "1e9a9aea04658439e1af23db01c4cd2c6c6765fd1efd1a594c7ffdd312f31bb6",
+          "kind": "snapshot"
+        },
+        {
+          "path": "imgs/main_result.png",
+          "size": 154388,
+          "sha256": "779b8551e22b983ef61ab83c2830709de95b8a526bec6b160710acb2b905bfe9",
+          "kind": "snapshot"
+        },
+        {
+          "path": "imgs/main_result_zh.png",
+          "size": 156721,
+          "sha256": "134c7f52115bd3c6f6e12d53d69435ed1e465043b99f2abfdfd665925aef4452",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 3258070069,
+      "weight_bytes": 3256960608,
+      "snapshot_dir": "snapshots/tencent/Hy-MT3-1.8B-GGUF/7f97e076a8622b09f3a6f14cff38a733441ace43/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

@@ -1,0 +1,192 @@
+{
+  "repo_id": "tencent/Hy-MT3-30B-A3B-FP8",
+  "canonical_org": "tencent",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "ac1d410d5568090af2167be6e1c7dbdab2ba7c94",
+      "captured_at": "2026-11-26T17:53:59Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/tencent/Hy-MT3-30B-A3B-FP8?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"414b-EL9eTvUnfFIaLWcvthmmPpxGnB8\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "apache-2.0",
+        "file": "LICENSE.txt",
+        "sha256": "974b62424d5627567283a4808181293e3ea53894cea7e75341d8e9f5f1b874cc",
+        "redistributable": true,
+        "obligations": [],
+        "freedom": "free",
+        "freedom_note": "apache-2.0 with LICENSE file verified in snapshot"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1751,
+          "sha256": "1f61da37c121d93b6a24d7c8edc20408cbfdd6a92e00ce9413781bcd2f61691c",
+          "kind": "snapshot"
+        },
+        {
+          "path": "LICENSE.txt",
+          "size": 9673,
+          "sha256": "974b62424d5627567283a4808181293e3ea53894cea7e75341d8e9f5f1b874cc",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 20216,
+          "sha256": "1b72fe9b02ab16f6d839303992669c9dfe6c3a93389a44592b61e6085c09dbb8",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README_CN.md",
+          "size": 19100,
+          "sha256": "d9e585cc3d86fc4b0ed4e65ee5324f4b1139c1d67f15f7c0a4816a92ad39023e",
+          "kind": "snapshot"
+        },
+        {
+          "path": "chat_template.jinja",
+          "size": 11259,
+          "sha256": "53e11a67caa40e918de4930d836829024973da39b357cec4f4bf5aa2da96717f",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 1938,
+          "sha256": "b6a6fc8c0cfe4037d7367e7e04f4f6e55b913626c5f0948dc4c493c22a46d730",
+          "kind": "snapshot"
+        },
+        {
+          "path": "imgs/efficiency.png",
+          "size": 295271,
+          "sha256": "c261d47a76e8826182ffd770c178c0130cb70fb8d72644b1d82990b02f44cf95",
+          "kind": "snapshot"
+        },
+        {
+          "path": "imgs/efficiency_zh.png",
+          "size": 315301,
+          "sha256": "1a44e636cadfdc042eaa097f20713f97aec2bb8777f35e860a1a8917c59689f1",
+          "kind": "snapshot"
+        },
+        {
+          "path": "imgs/logo-en.png",
+          "size": 65860,
+          "sha256": "0cd56e2438d4c91a5d529b3102f800de5f17c768f73caaf4848a864e7b741080",
+          "kind": "snapshot"
+        },
+        {
+          "path": "imgs/logo-zh.png",
+          "size": 69906,
+          "sha256": "1e9a9aea04658439e1af23db01c4cd2c6c6765fd1efd1a594c7ffdd312f31bb6",
+          "kind": "snapshot"
+        },
+        {
+          "path": "imgs/main_result.png",
+          "size": 154388,
+          "sha256": "779b8551e22b983ef61ab83c2830709de95b8a526bec6b160710acb2b905bfe9",
+          "kind": "snapshot"
+        },
+        {
+          "path": "imgs/main_result_zh.png",
+          "size": 156721,
+          "sha256": "134c7f52115bd3c6f6e12d53d69435ed1e465043b99f2abfdfd665925aef4452",
+          "kind": "snapshot"
+        },
+        {
+          "path": "kv_cache_scales.safetensors",
+          "size": 9440,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00001-of-00007.safetensors",
+          "size": 4999627436,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00002-of-00007.safetensors",
+          "size": 5000798944,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00003-of-00007.safetensors",
+          "size": 4996077640,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00004-of-00007.safetensors",
+          "size": 5000273312,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00005-of-00007.safetensors",
+          "size": 5000801104,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00006-of-00007.safetensors",
+          "size": 5000801096,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00007-of-00007.safetensors",
+          "size": 580412108,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model.safetensors.index.json",
+          "size": 5208326,
+          "sha256": "c527611c95549fd99645152eadf79c3dc989c6333f9210f70b33ba98480d996b",
+          "kind": "snapshot"
+        },
+        {
+          "path": "special_tokens_map.json",
+          "size": 468,
+          "sha256": "687791a9ade35069d6ffdd61eb1863839baf1e5ce235d5d48ff61b40dcb72f1a",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer.json",
+          "size": 9527108,
+          "sha256": "ad96ef9f641b79bb63807bea87cecf1dd0534325b463dad44cccbb3d0c571db7",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 165617,
+          "sha256": "3b5adc69f617f4999e636a53f0024aaded19d0b1830d2c8b4ac43b7af044fd7f",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 30594823983,
+      "weight_bytes": 30578801080,
+      "snapshot_dir": "snapshots/tencent/Hy-MT3-30B-A3B-FP8/ac1d410d5568090af2167be6e1c7dbdab2ba7c94/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

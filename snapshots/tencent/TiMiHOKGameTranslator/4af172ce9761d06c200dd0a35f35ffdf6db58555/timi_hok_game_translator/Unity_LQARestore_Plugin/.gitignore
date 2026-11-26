@@ -1,0 +1,4 @@
+*.meta
+!Font/**/*.meta
+cache/
+__pycache__/

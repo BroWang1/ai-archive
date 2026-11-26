@@ -1,0 +1,217 @@
+/** 自定义 Element Plus 样式 */
+
+// 卡片
+.el-card {
+  background-color: var(--el-bg-color);
+}
+
+// 分页
+.el-pagination {
+  // 参考 Bootstrap 的响应式设计 WIDTH = 768
+  @media screen and (max-width: 768px) {
+    .el-pagination__total,
+    .el-pagination__sizes,
+    .el-pagination__jump,
+    .btn-prev,
+    .btn-next {
+      display: none !important;
+    }
+  }
+}
+
+.el-dropdown-link {
+  font-size: 12px;
+  cursor: pointer;
+  color: var(--el-color-primary);
+  display: flex;
+  align-items: center;
+}
+
+.el-table th.el-table__cell {
+  background: rgb(245, 247, 250) !important;
+}
+
+// 表格不省略样式
+.el-table .no-table-cell-text-ellipsis .cell {
+  text-overflow: unset;
+}
+
+// 纯文本 tag
+.only-text-tag {
+  .el-tag {
+    border: none !important;
+    background-color: transparent !important;
+    font-size: 13.5px;
+    padding: 0;
+    margin: 0;
+  }
+}
+
+/**
+ * 消除 el-button 点击 / 悬停时的"文字闪烁"。
+ *
+ * 成因（已用真机逐帧验证）：Element Plus 的 el-button 对 color 挂了 0.1s 过渡，并在
+ *   :hover / :active / :focus 之间切换 color 变量（例如 default 按钮由
+ *   --el-text-color-regular 渐变到 --el-color-primary，primary 按钮内部文字白色也会
+ *   随背景色过渡被重绘）。鼠标"点一下"会连续经历 hover→active→hover→(离开) 多个状态
+ *   切换，每段都有 ~100ms 过渡，视觉上文字就会"闪一下"。
+ *
+ * 处理：让所有按钮文字颜色在交互态保持恒定，交互反馈改由背景色 + 边框色承担
+ *   （保持 Element Plus 原有的浅蓝底 / 蓝边框 / 彩色按钮变浅效果），并取消 color 过渡。
+ *   仅排除 is-link / is-text —— 它们没有背景与边框，文字色本身就是唯一的交互反馈。
+ */
+.el-button:not(.is-link):not(.is-text) {
+  // 1) 关闭文字颜色的过渡动画，避免 100ms 内的逐帧重绘
+  transition-property: background-color, border-color, outline-color, box-shadow;
+
+  // 2) 冻结交互态下的文字颜色（继承各类按钮自身的 --el-button-text-color）
+  &:hover,
+  &:active,
+  &:focus,
+  &:focus-visible {
+    color: var(--el-button-text-color);
+  }
+}
+
+// plain 彩色按钮（primary/success/warning/danger/info plain）：
+// hover 时 Element Plus 会把背景从浅色变成实心主题色，文字必须同步从主题色变为白色，
+// 否则会出现"蓝字 + 蓝底"看不清。这里显式覆盖前一段"冻结文字色"的规则，
+// 让 hover/active 文字直接用 Element Plus 的 hover 文字色（白色），
+// 并把 color 过渡时长设为 0，既避免闪烁，又让切换瞬时完成。
+// 注意：
+//   1) 必须排除 disabled 状态——disabled 的 plain 按钮背景保持白色，若把文字改成
+//      白色会出现"白底白字"整个按钮消失的情况。
+//   2) 不要在 :focus / :focus-visible 下保持白色文字——点击后浏览器会保留 focus 态
+//      但背景已经恢复为浅色，若文字还是白色就会出现"浅底白字"看不清，所以仅
+//      在真正有实色背景的 :hover / :active 下保持白色即可。
+.el-button.is-plain:not(.is-link):not(.is-text) {
+  // 仅去掉 color 过渡动画，但不冻结 color 值
+  transition-property: color, background-color, border-color, outline-color, box-shadow;
+  transition-duration: 0s, var(--el-transition-duration), var(--el-transition-duration), var(--el-transition-duration), var(--el-transition-duration);
+
+  &:not(.is-disabled):not(:disabled) {
+    &:hover,
+    &:active {
+      // 覆盖前面"冻结为 --el-button-text-color"的规则，使用 Element Plus 原生的 hover 文字色（白）
+      color: var(--el-button-hover-text-color);
+    }
+  }
+}
+
+/**
+ * 补充修复：primary / success / warning / danger / info 等彩色按钮点击时文字"闪一下"。
+ *
+ * 成因：Element Plus 把这些按钮的 --el-button-hover-bg-color 设成了 light-5（约 50%
+ *   透明度）的半透明主色，鼠标按下 / 悬停瞬间背景透明度骤降，白色文字下方透出了
+ *   弹窗 / 页面的白色背景，造成"白字 + 白底 = 文字看起来淡掉"的闪烁错觉。松开后
+ *   背景恢复不透明，文字又恢复清晰。
+ *
+ * 处理：把 hover / active 的背景与边框 CSS 变量替换为不透明的 light-3 / dark-2 实色，
+ *   保持 Element Plus 原有的"变浅 / 变深"视觉反馈，但背景始终不透明，文字因此恒定。
+ */
+@mixin wb-solid-color-btn($type) {
+  .el-button--#{$type}:not(.is-plain):not(.is-link):not(.is-text) {
+    --el-button-hover-bg-color: var(--el-color-#{$type}-light-3);
+    --el-button-hover-border-color: var(--el-color-#{$type}-light-3);
+    --el-button-active-bg-color: var(--el-color-#{$type}-dark-2);
+    --el-button-active-border-color: var(--el-color-#{$type}-dark-2);
+  }
+}
+
+@include wb-solid-color-btn('primary');
+@include wb-solid-color-btn('success');
+@include wb-solid-color-btn('warning');
+@include wb-solid-color-btn('danger');
+@include wb-solid-color-btn('info');
+
+/**
+ * 消除 Dialog 关闭瞬间"背景页面上的按钮文字闪烁"。
+ *
+ * 成因：点击弹窗底部"确定"后，弹窗关闭会同时触发两段 Element Plus 原生过渡动画：
+ *   1) el-overlay 遮罩层（半透明黑色，覆盖整个页面）执行 opacity 1→0 的淡出；
+ *   2) el-dialog 弹窗容器执行 opacity 1→0 的淡出。
+ *   在遮罩淡出的 ~300ms 期间，弹窗背后的"查询 / 重置"等按钮经历
+ *   「被半透明黑色蒙住 → 蒙层逐帧变淡 → 完全露出」的过程，彩色文字（蓝/白）
+ *   在半透明黑覆盖下对比度变化明显，视觉上就是"文字闪一下"；
+ *   同理弹窗自身淡出时，底部"取消 / 重置 / 确定"白底蓝字在 opacity 过渡中
+ *   也会被看到"渐隐"过程，产生二次闪烁。
+ *
+ * 处理：
+ *   1) 让 el-overlay 遮罩直接"瞬时消失"（关闭 opacity 过渡），背景页按钮不再被
+ *      渐变蒙层扫过；
+ *   2) 让弹窗关闭时底部按钮直接 visibility: hidden，不参与弹窗 opacity 淡出。
+ *      弹窗本体的淡出动画保留，整体关闭依然自然柔和。
+ */
+.el-overlay {
+  // 遮罩不再做淡出动画，直接出现 / 直接消失
+  transition: none !important;
+  animation: none !important;
+}
+
+// 弹窗离场动画期间，隐藏底部按钮，避免白底蓝字被看到渐隐
+.el-dialog.dialog-fade-leave-active,
+.el-dialog.dialog-fade-leave-to {
+  .el-dialog__footer .el-button {
+    visibility: hidden;
+  }
+}
+
+/**
+ * 让 v-loading 遮罩的淡入淡出"够短但够平滑"（选项 3：200ms 过渡）。
+ *
+ * 背景：Element Plus 原生给 .el-loading-mask 的 opacity 过渡设为 0.3s。当请求时长
+ *   < 300ms（本地 / 测试环境常见）时，淡入还没结束就开始淡出，两段过渡交叠，
+ *   mask 的 opacity 在 0→中间值→0 之间剧烈震荡，视觉上就是"按钮闪一下"。
+ *   而线上环境请求通常 >1s，mask 稳定显示时间足够长，不会出现交叠闪烁。
+ *
+ * 处理：把 opacity 过渡设为 200ms。
+ *   - 请求 > 400ms（200ms 淡入 + 200ms 淡出，两段不交叠）：行为完全自然，接近原生
+ *     300ms 的平滑质感；
+ *   - 请求 < 400ms：虽会交叠，但 200ms 已避开原生 300ms 的敏感临界区，交叠峰值
+ *     被压低，视觉上几乎看不到闪烁；
+ *   - 线上长请求：进入 / 退出各 200ms，节奏接近原生，但略利落。
+ *   loading-mask 内部的 .el-loading-spinner（转圈图标）保留原有动画不变。
+ */
+.el-loading-mask {
+  transition: opacity 200ms ease !important;
+}
+
+/**
+ * 提单弹窗：限制整体高度不超过视口，让弹窗内部的表单区域自身滚动，
+ * 避免长内容把"提交 / 取消"按钮挤出屏幕。
+ *
+ * 另外：描述区使用 scEditor（TinyMCE，异步加载 iframe），加载前仅渲染一个
+ * 空 textarea，弹窗高度会"先小后大"闪一下。给外层容器一个最小高度，让
+ * 骨架一开始就撑到接近最终尺寸，加载完成后不再出现跳变。
+ */
+.bug-submit-dialog {
+  display: flex;
+  flex-direction: column;
+  max-height: 90vh;
+  margin-bottom: 0 !important;
+
+  .el-dialog__body {
+    flex: 1 1 auto;
+    overflow-y: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    // 预留描述区编辑器加载前的占位高度，避免弹窗先小后大的抖动
+    min-height: 560px;
+  }
+
+  .el-dialog__footer {
+    flex-shrink: 0;
+    border-top: 1px solid var(--el-border-color-lighter);
+  }
+
+  // 缺陷描述区域：TinyMCE 加载前先占位到接近实际高度
+  .fs-form-item-description,
+  .el-form-item__content .el-textarea {
+    min-height: 420px;
+  }
+
+  // TinyMCE 容器自身也给一个保底高度，避免 iframe 创建瞬间高度为 0
+  .tox-tinymce {
+    min-height: 420px !important;
+  }
+}

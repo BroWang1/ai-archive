@@ -1,0 +1,14 @@
+# IDE
+.idea/
+
+# 临时补丁 / 本地工具文件
+fix__修改开源协议.patch
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/

@@ -1,0 +1,20 @@
+OmniEVIE
+Copyright (C) 2026 Tencent. All rights reserved.
+
+The code and models released under OmniEVIE, including OmniEVIE, OmniEVIE-2B
+and OmniEVIE-4B, together with any modifications made by Tencent, are licensed
+under the Apache License, Version 2.0. See LICENSE.txt in this directory for
+the complete terms.
+
+This distribution includes or is derived from third-party components, which
+remain subject to their respective original licenses:
+
+1. Qwen3.5
+   Copyright (c) Qwen
+   License: Apache-2.0
+   https://huggingface.co/Qwen
+
+2. ColPali-engine (ColQwen3.5 multi-vector architecture reference)
+   Copyright (c) 2024 Manuel Faysse, Hugues Sibille, Tony Wu
+   License: MIT
+   https://github.com/illuin-tech/colpali

@@ -1,0 +1,381 @@
+{
+  "files": {
+    "added_tokens.json": {
+      "sha256": "f816bdc8d3b7fd3146864dac1d1560cfdf363c3870d0201ab6a3a187c8325abe",
+      "size": 2732
+    },
+    "assets/token2wav/campplus.onnx": {
+      "sha256": "a6ac6a63997761ae2997373e2ee1c47040854b4b759ea41ec48e4e42df0f4d73",
+      "size": 28303423
+    },
+    "assets/token2wav/flow.pt": {
+      "sha256": "15ccff24256ff61537c7f8b51e025116b83405f3fb017b54b008fc97da115446",
+      "size": 623466603
+    },
+    "assets/token2wav/flow.yaml": {
+      "sha256": "723295d37bf11f5f1b896ca4f2f4c81ebc2fbb3e51b753c2507ef8461c751486",
+      "size": 1099
+    },
+    "assets/token2wav/hift.pt": {
+      "sha256": "3386cc880324d4e98e05987b99107f49e40ed925b8ecc87c1f4939432d429879",
+      "size": 83390254
+    },
+    "assets/token2wav/speech_tokenizer_v2_25hz.onnx": {
+      "sha256": "d43342aa12163a80bf07bffb94c9de2e120a8df2f9917cd2f642e7f4219c6f71",
+      "size": 496082973
+    },
+    "config.json": {
+      "sha256": "35364b89d5f173f3358ab1df3d0c9a34789707c9151060690f0d0e37a7b10503",
+      "size": 6453
+    },
+    "configuration_minicpmo.py": {
+      "sha256": "b0c56c192d4aa57d3dc358338a4a93413b8b68e7c7a7c5b82a5af35afab1d86a",
+      "size": 10135
+    },
+    "generation_config.json": {
+      "sha256": "81e8e13e77962857509cc06a9960bb68f8b7893096a60357627b2dfaa72d78fe",
+      "size": 214
+    },
+    "merges.txt": {
+      "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5",
+      "size": 1671853
+    },
+    "model-00001-of-00004.safetensors": {
+      "sha256": "eba0f65507238f5ffe27cebf95ff677e9645a3fc2b06882a08e637807bde988f",
+      "size": 4900726224
+    },
+    "model-00002-of-00004.safetensors": {
+      "sha256": "794930a3a05efaa7e1e6008bda023a5cbf1b20fca63b58cf4a6a8788da78b944",
+      "size": 4915960936
+    },
+    "model-00003-of-00004.safetensors": {
+      "sha256": "4cf6cca208f45ab90da1f7d0fe4a461371869fec66222fba9854b28bf4edc1b5",
+      "size": 4983069056
+    },
+    "model-00004-of-00004.safetensors": {
+      "sha256": "bd6c3d44f785bce9c7cf1ed2052b0cb616c3cc51a56120b9866d8ef79204bb5c",
+      "size": 3943997564
+    },
+    "model.safetensors.index.json": {
+      "sha256": "f1e13d493b8639e4ee490d34a1b8cd8feb740238655a44327c8f9a6165f51fe8",
+      "size": 117203
+    },
+    "modeling_minicpmo.py": {
+      "sha256": "31b1736e047807568a4574c67c8905d2f5e8bfc4afd912e0edad2b0fec14bc7e",
+      "size": 214700
+    },
+    "modeling_navit_siglip.py": {
+      "sha256": "1a40a58cb7dfa93f723685f860d1cf3caf3a0ecf52b7904db0c4007aacd1536f",
+      "size": 42559
+    },
+    "preprocessor_config.json": {
+      "sha256": "741ce710aeff2bdcec3362b6c657b481eb920d3170ce7ddfd581020b072484a3",
+      "size": 1180
+    },
+    "processing_minicpmo.py": {
+      "sha256": "3a1f017339b92c2fa768d7737db76cc4689d2280b68a71866b06f7dedc8ac1c2",
+      "size": 67284
+    },
+    "processor_config.json": {
+      "sha256": "ac71dfe8224ac82270c1466d9a717aaef2bc26cea2d319ee1da1d0c637c0927f",
+      "size": 127
+    },
+    "resume/checkpoint_complete": {
+      "sha256": "dc51b8c96c2d745df3bd5590d990230a482fd247123599548e0632fdbf97fc22",
+      "size": 3
+    },
+    "resume/optimizer.pt": {
+      "sha256": "ad63a15427e78a8bb30577bc15874109f24d113e2987420f4f478278412a5f8d",
+      "size": 34390559178
+    },
+    "resume/rng_state_rank00000.pt": {
+      "sha256": "fa8f60a00561eb5fa3a4d6c602d8bd21aff4c695e3f03f40a304f5109a4ab184",
+      "size": 10821
+    },
+    "resume/rng_state_rank00001.pt": {
+      "sha256": "117fd01314146d0ca81a3dd03d861612ab752d71e530b62163a670c6cf254946",
+      "size": 10821
+    },
+    "resume/rng_state_rank00002.pt": {
+      "sha256": "1b205956c5a7a9f3caae46252ec14b02c51e569cc47851dbb07018e9bd2a3b30",
+      "size": 10821
+    },
+    "resume/rng_state_rank00003.pt": {
+      "sha256": "ed1f1342605c2e35210ecde9504d1825599bb4f82f7ece5c9b41ca2e525f8e44",
+      "size": 10821
+    },
+    "resume/rng_state_rank00004.pt": {
+      "sha256": "7650d493e861861014111fe4c82bbe14d56e50494b42c5e23dcb32beb75f6b12",
+      "size": 10757
+    },
+    "resume/rng_state_rank00005.pt": {
+      "sha256": "686e87e3f120c01208d257fe52e185cd12231a3cfa4adc34e756a7a78f12a2ae",
+      "size": 10757
+    },
+    "resume/rng_state_rank00006.pt": {
+      "sha256": "7eee529b95237c2539440857b42dbe2803bc588679024f852ddf5c7bbd8c325a",
+      "size": 10821
+    },
+    "resume/rng_state_rank00007.pt": {
+      "sha256": "7ce285533be0ab83d2e91bab0e048555e85ca1819ba8e10b67af3b4662c72a65",
+      "size": 10757
+    },
+    "resume/rng_state_rank00008.pt": {
+      "sha256": "688ceba0a855ed1cf6dc486cc661e77daab9e15f6482fab31d94b6ff4c0ba820",
+      "size": 10821
+    },
+    "resume/rng_state_rank00009.pt": {
+      "sha256": "ad0f517e745238fdc2770e092b1ab91771a21b14b3b1932e7a754a72de0e9535",
+      "size": 10821
+    },
+    "resume/rng_state_rank00010.pt": {
+      "sha256": "1adadbae359c71fd22e47f20b3c1b7ddf6361b0adbbf8dc449a08e3825ef6733",
+      "size": 10821
+    },
+    "resume/rng_state_rank00011.pt": {
+      "sha256": "81b4ad2f75c7195101661798c6a6d047f6c36235751b5850eb7e025327a5090c",
+      "size": 10757
+    },
+    "resume/rng_state_rank00012.pt": {
+      "sha256": "e5f34059b4a303e7cad21e50e1b25e192b07030066afb5554837c54d85e1ee02",
+      "size": 10821
+    },
+    "resume/rng_state_rank00013.pt": {
+      "sha256": "ac107606559a7cef5e3d09fc00d459d4da4c24ff0edc3b2485ca8b59b110665b",
+      "size": 10757
+    },
+    "resume/rng_state_rank00014.pt": {
+      "sha256": "71b8c70043b10d22bc7d551c41db4d9041c42521897febac749ba1ed5bc4f091",
+      "size": 10821
+    },
+    "resume/rng_state_rank00015.pt": {
+      "sha256": "5aa984a9cab1dad7aadcb92d05eb36bdb510d49c7a5b0e19741418bfce16eef2",
+      "size": 10757
+    },
+    "resume/rng_state_rank00016.pt": {
+      "sha256": "cae51eeecd2da273cb90e228c3ab31740d49831877142e74c164614e16bd0422",
+      "size": 10757
+    },
+    "resume/rng_state_rank00017.pt": {
+      "sha256": "6d9c240f59fdf99bdb0242ebeb566fd736fd2347ea9361f71360df2514e9e549",
+      "size": 10757
+    },
+    "resume/rng_state_rank00018.pt": {
+      "sha256": "d443565679b706ca7b94eb65253172a5076a6e81079f96c6f7e4a0796aa87fee",
+      "size": 10757
+    },
+    "resume/rng_state_rank00019.pt": {
+      "sha256": "e2dcaa426c7a41c0a6068103c026743748252c554de5f8b6f22eae108449f27a",
+      "size": 10821
+    },
+    "resume/rng_state_rank00020.pt": {
+      "sha256": "45f1929fcd134048085d8da151ce8df62726e05ab3ed9e54427f680a5aabc715",
+      "size": 10757
+    },
+    "resume/rng_state_rank00021.pt": {
+      "sha256": "d8474bc418f7c86c0f566dfca354e8a252b5c72d5380301471175e396febc7ec",
+      "size": 10757
+    },
+    "resume/rng_state_rank00022.pt": {
+      "sha256": "be8252418c97ac5a141acbf567efdc61b0ca6fcbfc6eef480eb203d41d440a2d",
+      "size": 10821
+    },
+    "resume/rng_state_rank00023.pt": {
+      "sha256": "414de34a7a2f2bab7be2748d8e1b62d27b26cb8873f29c492b70d56a310eee5e",
+      "size": 10757
+    },
+    "resume/rng_state_rank00024.pt": {
+      "sha256": "9fda67a0e7eaf459fd25ac4aab94b0b9520fc251361a77abbb085d6a396b94d7",
+      "size": 10757
+    },
+    "resume/rng_state_rank00025.pt": {
+      "sha256": "e1bccd46ea9d45e5901a9448df6a0a5ab7d4bb32b8655fea3dd734540c8936b6",
+      "size": 10757
+    },
+    "resume/rng_state_rank00026.pt": {
+      "sha256": "bf2bf0494277a634d433bf6ed3fed6a3f1a1057de93fb4f006cc3a4acaab165b",
+      "size": 10821
+    },
+    "resume/rng_state_rank00027.pt": {
+      "sha256": "826cefaa9311765ab440a2a2f22f0d312bc2a5aedf3b354092c9fba8cb5ec2e9",
+      "size": 10757
+    },
+    "resume/rng_state_rank00028.pt": {
+      "sha256": "8e5dcf992de515cdd35fed3a93db5fc7aaa163c2d3c5b59f0431fd9a30761204",
+      "size": 10757
+    },
+    "resume/rng_state_rank00029.pt": {
+      "sha256": "e9f2415e43dff074cc736babe5ca3ccff1aba56417a3b2c256b18154f6f50fdb",
+      "size": 10757
+    },
+    "resume/rng_state_rank00030.pt": {
+      "sha256": "e61241f438be771594154d2815bb0556b17db633f17f628c3b98a049972055d4",
+      "size": 10757
+    },
+    "resume/rng_state_rank00031.pt": {
+      "sha256": "55877254131f76ae5e0c2b1bb0b79dd81ff2e45ecda575b3342ec26609a4615e",
+      "size": 10821
+    },
+    "resume/rng_state_rank00032.pt": {
+      "sha256": "6ff231317328ae9783d2f62627815dafd38f26fa068cd3bdca1b9375f49f1be2",
+      "size": 10757
+    },
+    "resume/rng_state_rank00033.pt": {
+      "sha256": "e71aeca48d55ed357abcf7ef1afd23fa98acee7af0f5ef5f17dd3e3b5abab90b",
+      "size": 10757
+    },
+    "resume/rng_state_rank00034.pt": {
+      "sha256": "f4a26739b83a82fcee77d8b75c61cf15ac31445de69a859008197b671209d6d9",
+      "size": 10757
+    },
+    "resume/rng_state_rank00035.pt": {
+      "sha256": "687a020fc84b15f9be93ff383bb94af5a35524178bd199604c9bce4ffd5cb4b0",
+      "size": 10757
+    },
+    "resume/rng_state_rank00036.pt": {
+      "sha256": "2165fb20943ad4bf4ba452267a4267f29f0cba5d16de0f5e1dfd904d365ec48a",
+      "size": 10821
+    },
+    "resume/rng_state_rank00037.pt": {
+      "sha256": "5b66654b8904ca7d975dcd90ac655de2dfcfd308c59c3c427a5d95401db94b66",
+      "size": 10757
+    },
+    "resume/rng_state_rank00038.pt": {
+      "sha256": "ec9f74ac42683401d489331568afbaa9dc69e0225b492da6ada337cd5d028c0c",
+      "size": 10821
+    },
+    "resume/rng_state_rank00039.pt": {
+      "sha256": "ddadb80b7ad9bd07124491a5e181eb504a64469970377cafc08125e685363f5c",
+      "size": 10821
+    },
+    "resume/rng_state_rank00040.pt": {
+      "sha256": "8c97ef43aabd872d5db76cf5563bb33ac0e84a51f0f080007d087c9e281c4be0",
+      "size": 10757
+    },
+    "resume/rng_state_rank00041.pt": {
+      "sha256": "f6b70499e19d15ffa43d54ab0fbe6ac60447c8e64e10ac9a420b47e8f5ad1e96",
+      "size": 10821
+    },
+    "resume/rng_state_rank00042.pt": {
+      "sha256": "47275d485310c8eda4a5d9d1343aee4deae43250e765ca7b16fdb64c7dea488c",
+      "size": 10757
+    },
+    "resume/rng_state_rank00043.pt": {
+      "sha256": "d8ac0f3b1c9118ea96c2bd7a8e484f0d8ecaba04dba99f707272826bcfba337c",
+      "size": 10757
+    },
+    "resume/rng_state_rank00044.pt": {
+      "sha256": "e0bc49fc80cb70995239bec684181b1143770bea1f429cbc0e91e817f1961cf2",
+      "size": 10821
+    },
+    "resume/rng_state_rank00045.pt": {
+      "sha256": "e663efdb3c80629b5efc6893a48037b7da49697942724b839924030d656359a9",
+      "size": 10757
+    },
+    "resume/rng_state_rank00046.pt": {
+      "sha256": "ec62b2e8421ef3a8675da8eb0283d21e6c74c38dc9d27a0e1e22e994418cd93b",
+      "size": 10821
+    },
+    "resume/rng_state_rank00047.pt": {
+      "sha256": "29f05cfdcf19e9da1b43e5afd8dc44b089222a697c7028ee956a2486b87653b3",
+      "size": 10821
+    },
+    "resume/rng_state_rank00048.pt": {
+      "sha256": "f9be03736ef49ca6f5ba4fff8c555cdbe30bd5db5b3d66265b6719a0346e1f5b",
+      "size": 10821
+    },
+    "resume/rng_state_rank00049.pt": {
+      "sha256": "70ccd3207f2051b0a8103435b79e20c25121a60cd8f883ea446dcd3c3736f78a",
+      "size": 10821
+    },
+    "resume/rng_state_rank00050.pt": {
+      "sha256": "3b60b72c35a0ef9b68942e7e5ab02d6026d9f6d906c576e8391e92e1db8dd97f",
+      "size": 10821
+    },
+    "resume/rng_state_rank00051.pt": {
+      "sha256": "e788fd0ba9f0c4da704f944797ea7ad4176b51ad0fba369830ed1e7ffa7a9816",
+      "size": 10757
+    },
+    "resume/rng_state_rank00052.pt": {
+      "sha256": "496cdbbd1874cb357044eb57847e6c2fed31db91523d763e8425fe14b689935f",
+      "size": 10757
+    },
+    "resume/rng_state_rank00053.pt": {
+      "sha256": "357bce0f0aa4aae20559c2f7a0a70cf52c5a368bd185be3a252d7bf47edf89fd",
+      "size": 10757
+    },
+    "resume/rng_state_rank00054.pt": {
+      "sha256": "38d1b4804e4958bf6282e0a16310f122969bc4f10813e69fc57a8275dfcac884",
+      "size": 10757
+    },
+    "resume/rng_state_rank00055.pt": {
+      "sha256": "1480044c9a1ad1b8fa3c8498ea044978d086c5225eba34a16d63203793668e55",
+      "size": 10757
+    },
+    "resume/rng_state_rank00056.pt": {
+      "sha256": "e7900868c2c01b7f5d606b4d09ce0f620f11b161f144df0918d5bb5d70dac987",
+      "size": 10757
+    },
+    "resume/rng_state_rank00057.pt": {
+      "sha256": "3cd2fe2b15b53cf4adfac0a7f63ba7317d9684f2b628eab2c3b6faf04f6d8d62",
+      "size": 10821
+    },
+    "resume/rng_state_rank00058.pt": {
+      "sha256": "0df2b12434a4b1372b573640db5d0403f4ec8cecd62b62fa33f41cf733f3257f",
+      "size": 10757
+    },
+    "resume/rng_state_rank00059.pt": {
+      "sha256": "7b64d5cb5b9755796ad0caed16bf3b3183d9eca03ee05285aacdb6bf2ec4b7bc",
+      "size": 10821
+    },
+    "resume/rng_state_rank00060.pt": {
+      "sha256": "7a9df87242d83790b3592e80b38c189e5d2fa82fa167e7e24419497fae0f65e9",
+      "size": 10821
+    },
+    "resume/rng_state_rank00061.pt": {
+      "sha256": "7c6a48e81e616e6e4ff2ad1b29dc0c4170adef22941c8a55725bb49ec049e1ac",
+      "size": 10821
+    },
+    "resume/rng_state_rank00062.pt": {
+      "sha256": "f1ad7b05ea552b65f88850b10b21c35c387c549f5e44ea5fddb05050974f51c7",
+      "size": 10757
+    },
+    "resume/rng_state_rank00063.pt": {
+      "sha256": "25912cedb74979a26bb8228fb790a2fa8770a1cadd5b9ed2af63fc84069f8697",
+      "size": 10821
+    },
+    "resume/trainer_state.json": {
+      "sha256": "b05c623c8a22fc0681e1bc799e0214aaeb572175e86c7f063e831a3039bf925c",
+      "size": 114958
+    },
+    "special_tokens_map.json": {
+      "sha256": "e669eb3188c795c680cedf6681b62aba00d9fd1ff0078744bf6472ba0038de0e",
+      "size": 2256
+    },
+    "tokenization_minicpmo_fast.py": {
+      "sha256": "c9c71d0d7ef0c113829e2d810619c9e0a69cffe04c732c4d80599b40a33bc7bf",
+      "size": 3249
+    },
+    "tokenizer.json": {
+      "sha256": "21d613f114457951846e7ab280c841154fc712304cd8ff80a0aca57d0b8d1d2b",
+      "size": 11437901
+    },
+    "tokenizer_config.json": {
+      "sha256": "03fa9dcbca19f47a995d8f29c11f954782c1cc31c1bbb8928ccb59d09724a3f7",
+      "size": 25705
+    },
+    "unified_checkpoint.json": {
+      "sha256": "23a548644c4c9ee482177e00ccad2d8baf3bb2d49c7b07a174ca6d540d46d34e",
+      "size": 71
+    },
+    "utils.py": {
+      "sha256": "0372698343830d4a96524f56a91a8cabf628fd7c57dde8b25db43eed1f6042c1",
+      "size": 95702
+    },
+    "vocab.json": {
+      "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+      "size": 2776833
+    }
+  },
+  "source": "/mnt/shared-storage-user/p1-shared/zhangzhiqiu/interaction-train-mix/runs/mixed-audio-ce-video-focal-final-2e5-64gpu-20261106/output/ckpt/ckpt-614"
+}

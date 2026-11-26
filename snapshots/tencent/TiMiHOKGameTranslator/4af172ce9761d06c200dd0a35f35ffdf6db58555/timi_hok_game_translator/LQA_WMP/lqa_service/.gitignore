@@ -1,0 +1,21 @@
+# 日志
+/*.log
+/log/
+
+# 测试样例 (真实游戏截图与文案涉及版权, 不入库)
+# 运行 python tests/gen_samples.py 生成可用的合成样例
+/tests/test/
+/tests/screenShot.png
+/tests/v3_result.json
+/tests/object/*
+/tests/lqa_mark_img.png
+/tests/lqa_rect_img.png
+
+# 虚拟环境与隐藏目录
+/.*/
+.idea
+.vscode
+
+# Python 产物
+*.py[cod]
+__pycache__/

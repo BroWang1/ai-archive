@@ -1,0 +1,204 @@
+{
+  "repo_id": "tencent/WePocketModel1.0-2B-MLX",
+  "canonical_org": "tencent",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "e414eab36749b8a8592e6a5122d0f26a4585af9f",
+      "captured_at": "2026-11-26T17:54:46Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/tencent/WePocketModel1.0-2B-MLX?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"2dfb-NE2trpZMGZ9D1Hvrkyj/GcDntCQ\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "apache-2.0",
+        "file": "LICENSE.txt",
+        "sha256": "b43a7b5897a4ab81aa61a43b60494865e34308a2d55d3ba9edd5c8e39b247a56",
+        "redistributable": true,
+        "obligations": [],
+        "freedom": "free",
+        "freedom_note": "apache-2.0 with LICENSE file verified in snapshot"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1570,
+          "sha256": "34448b82c17d60fec9b65b1f093c115ddbaadc04beb1b0140b6bfed2e012a930",
+          "kind": "snapshot"
+        },
+        {
+          "path": "LICENSE.txt",
+          "size": 24535,
+          "sha256": "b43a7b5897a4ab81aa61a43b60494865e34308a2d55d3ba9edd5c8e39b247a56",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 7584,
+          "sha256": "f5f86304e5557f76de5f8fd8675a6b067c0076706c3f352c5a77aef780ea3644",
+          "kind": "snapshot"
+        },
+        {
+          "path": "chat_template.jinja",
+          "size": 6819,
+          "sha256": "854a73d577483a6ebccf72c04b786915e40fbb53656ffe2aa814c23100375188",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 3451,
+          "sha256": "e59ccf54324fb0334768eb09b73b0a0aacbace0d86f59767c8a3480a20fa38c7",
+          "kind": "snapshot"
+        },
+        {
+          "path": "model-00001-of-00002.safetensors",
+          "size": 3998841561,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00002-of-00002.safetensors",
+          "size": 427716507,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model.safetensors.index.json",
+          "size": 55736,
+          "sha256": "082891e39a5c283cbe0ab2bc53a68d91c84c084425a081aefc2a4e7c296a0ecd",
+          "kind": "snapshot"
+        },
+        {
+          "path": "processor_config.json",
+          "size": 1299,
+          "sha256": "66df228ca824d098221d8db9d31968e10d41910415231d709d2db4772b160d87",
+          "kind": "snapshot"
+        },
+        {
+          "path": "requirements.txt",
+          "size": 479,
+          "sha256": "7ee9df54647af7434240b478f9dbd089beaee7cd702a0691bf32a8db9f2968b8",
+          "kind": "snapshot"
+        },
+        {
+          "path": "runtime/infer_mlx.py",
+          "size": 6852,
+          "sha256": "38fcc5aeee551b1927008710968f5772955dbe602251605387928e5b3132284a",
+          "kind": "snapshot"
+        },
+        {
+          "path": "runtime/wepm_mlx/__init__.py",
+          "size": 864,
+          "sha256": "4d8bf27c2fad5c1188ef9ad03af7ed142f00db40f7b87b2b6efdc4561f368e30",
+          "kind": "snapshot"
+        },
+        {
+          "path": "runtime/wepm_mlx/common.py",
+          "size": 705,
+          "sha256": "c23c7ce63ce27529bb1418b2a824307be382c3746b88a47dcf69141665af2be1",
+          "kind": "snapshot"
+        },
+        {
+          "path": "runtime/wepm_mlx/config.py",
+          "size": 6495,
+          "sha256": "caea5f17493280cfd9ec7f4dc0f6b8744708ac951291af42896b48b321e446e9",
+          "kind": "snapshot"
+        },
+        {
+          "path": "runtime/wepm_mlx/decision_protocol.py",
+          "size": 6995,
+          "sha256": "94a4ca18a298641a54bfb75ae34774cbbd7746eb7c913701558d485dcdd68669",
+          "kind": "snapshot"
+        },
+        {
+          "path": "runtime/wepm_mlx/image.py",
+          "size": 5256,
+          "sha256": "8de7158198fe46bfd48e3e00bbc343048e650136dfb6d156d609f1ad1a332e7d",
+          "kind": "snapshot"
+        },
+        {
+          "path": "runtime/wepm_mlx/image_geometry.py",
+          "size": 1316,
+          "sha256": "31b2d7ed967320a1728499440b5addfa996f7e922e9932e2dcd5b89c8445fb43",
+          "kind": "snapshot"
+        },
+        {
+          "path": "runtime/wepm_mlx/mgvb.py",
+          "size": 15966,
+          "sha256": "29b00a640ccf7df7ff470e5797f24184c0c98eab1b2f13cff5e94210a0a3635e",
+          "kind": "snapshot"
+        },
+        {
+          "path": "runtime/wepm_mlx/mgvb_geometry.py",
+          "size": 6858,
+          "sha256": "2b05b5220e618f9446c5e67ab0c61e9a32c919ae80a755bb0c78f0ac6123a547",
+          "kind": "snapshot"
+        },
+        {
+          "path": "runtime/wepm_mlx/positions.py",
+          "size": 4714,
+          "sha256": "e2ac10ece3fbcc7bc0a20b1991852c43ad2bf233cd25c83aa40fef2518a9a3aa",
+          "kind": "snapshot"
+        },
+        {
+          "path": "runtime/wepm_mlx/runtime.py",
+          "size": 17933,
+          "sha256": "e3788f0f2e46ad2751cc8c87baa32a64fb7f0d485769f8b05c618cf2099827bb",
+          "kind": "snapshot"
+        },
+        {
+          "path": "runtime/wepm_mlx/weights.py",
+          "size": 10117,
+          "sha256": "743471d39d297fd009de781b8ad42dc276306f97f2d2d78c4d29148a6db32d8e",
+          "kind": "snapshot"
+        },
+        {
+          "path": "task_modules.safetensors",
+          "size": 39416968,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "tokenizer.json",
+          "size": 19989343,
+          "sha256": "87a7830d63fcf43bf241c3c5242e96e62dd3fdc29224ca26fed8ea333db72de4",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 1139,
+          "sha256": "e98f1901ac6f0adff67b1d540bfa0c36ac1a0cf59eb72ed78146ef89aafa1182",
+          "kind": "snapshot"
+        },
+        {
+          "path": "wepm_mlx.json",
+          "size": 391,
+          "sha256": "4be54e078aedddce2fd86cc3c8e8d7428fe0132640152cf137b5993fe9cce720",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 4486151453,
+      "weight_bytes": 4465975036,
+      "snapshot_dir": "snapshots/tencent/WePocketModel1.0-2B-MLX/e414eab36749b8a8592e6a5122d0f26a4585af9f/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

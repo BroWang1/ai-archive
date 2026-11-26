@@ -195,7 +195,8 @@
       "Tencent-Hunyuan/ORAV-Bench",
       "Tencent-Hunyuan/Hy4-flash",
       "Tencent-Hunyuan/Refrain",
-      "Tencent-Hunyuan/Hy4"
+      "Tencent-Hunyuan/Hy4",
+      "Tencent-Hunyuan/Hy-MT3"
     ],
     "Wan-Video": [
       "Wan-Video/Wan-Animate-2",
@@ -282,7 +283,8 @@
       "InternLM/InstantFusion",
       "InternLM/ResOPD",
       "InternLM/Sage-SciPerception",
-      "InternLM/Sage-S2.1-Flash"
+      "InternLM/Sage-S2.1-Flash",
+      "InternLM/Sage-Interaction"
     ],
     "OpenBMB": [
       "OpenBMB/Meshy",
@@ -493,7 +495,8 @@
       "vllm-project/vllm-sail",
       "vllm-project/vllm-torchtpu",
       "vllm-project/rust-pcre2",
-      "vllm-project/vllm-omni-torchtpu"
+      "vllm-project/vllm-omni-torchtpu",
+      "vllm-project/vllm-gr"
     ]
   },
   "log": [
@@ -1166,8 +1169,23 @@
       "id": "FlagOpen/HumanCOIN-Doc",
       "at": "2026-11-23T19:30:45Z",
       "desc": ""
+    },
+    {
+      "id": "Tencent-Hunyuan/Hy-MT3",
+      "at": "2026-11-26T17:59:13Z",
+      "desc": ""
+    },
+    {
+      "id": "InternLM/Sage-Interaction",
+      "at": "2026-11-26T17:59:13Z",
+      "desc": ""
+    },
+    {
+      "id": "vllm-project/vllm-gr",
+      "at": "2026-11-26T17:59:13Z",
+      "desc": "A framework for efficient model inference with generative recommendation models"
     }
   ],
   "first_run_done": true,
-  "last_run": "2026-11-23T19:30:45Z"
+  "last_run": "2026-11-26T17:59:13Z"
 }

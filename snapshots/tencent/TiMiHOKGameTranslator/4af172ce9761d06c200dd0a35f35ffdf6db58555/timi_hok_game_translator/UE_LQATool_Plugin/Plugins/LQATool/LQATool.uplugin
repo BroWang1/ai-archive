@@ -1,0 +1,35 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0.0",
+	"FriendlyName": "LQATool",
+	"Description": "A comprehensive plugin for Language Quality Assurance (LQA) testing and UI analysis in Unreal Engine projects",
+	"Category": "Testing",
+	"CreatedBy": "Tencent",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+    	"Plugins": [
+		{
+			"Name": "Paper2D",
+			"Enabled": true
+		}
+	],
+	"Modules": [
+		{
+			"Name": "LQATool",
+			"Type": "Runtime",
+			"LoadingPhase": "PostConfigInit",
+			"WhitelistPlatforms": [
+				"Win64",
+				"Mac",
+				"IOS",
+				"Android"
+			],
+			"BlacklistTargetConfigurations": [
+				"Shipping"
+			]
+		}
+	]
+}

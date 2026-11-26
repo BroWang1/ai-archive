@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Minimal fictional DTXML sample for open_localizer showcase.
+    The real DTXML dialect used in production is proprietary and out of scope;
+    this file only demonstrates enough structure for parser tests. No real data.
+-->
+<metalib xmlns="http://schemas.example.com/dtxml/2026">
+    <struct name="LocalizationEntry" version="1">
+        <entry key="ui.mainmenu.play">
+            <source>Play</source>
+            <context>Main menu — start a new game.</context>
+            <comment>Short action button.</comment>
+        </entry>
+        <entry key="ui.mainmenu.settings">
+            <source>Settings</source>
+            <context>Main menu — open the settings panel.</context>
+            <comment/>
+        </entry>
+        <entry key="hud.health">
+            <source>HP: {value}/{max}</source>
+            <context>HUD label.</context>
+            <comment>Placeholders must be preserved.</comment>
+        </entry>
+        <entry key="dialog.tutorial.welcome">
+            <source>Welcome, brave adventurer! Your journey starts here.</source>
+            <context>Tutorial NPC greeting.</context>
+            <comment/>
+        </entry>
+    </struct>
+</metalib>

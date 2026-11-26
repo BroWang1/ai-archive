@@ -1,0 +1,127 @@
+{
+    "ST_Gallery_Title": {
+        "TextKey": "ST_Gallery_Title",
+        "SourceStr": "LQA 验证画廊 (UE5)",
+        "translation": "LQA 検証ギャラリー (UE5)"
+    },
+    "ST_Gallery_Title_UE4": {
+        "TextKey": "ST_Gallery_Title_UE4",
+        "SourceStr": "LQA 验证画廊 (UE4)",
+        "translation": "LQA 検証ギャラリー (UE4)"
+    },
+    "ST_Gallery_Section_Text": {
+        "TextKey": "ST_Gallery_Section_Text",
+        "SourceStr": "一、文本类控件",
+        "translation": "1. テキストウィジェット"
+    },
+    "ST_Gallery_Section_Input": {
+        "TextKey": "ST_Gallery_Section_Input",
+        "SourceStr": "二、交互/输入类控件",
+        "translation": "2. インタラクティブ/入力ウィジェット"
+    },
+    "ST_Gallery_Section_Present": {
+        "TextKey": "ST_Gallery_Section_Present",
+        "SourceStr": "三、展示类控件",
+        "translation": "3. 表示ウィジェット"
+    },
+    "ST_Gallery_Section_Layout": {
+        "TextKey": "ST_Gallery_Section_Layout",
+        "SourceStr": "四、布局容器",
+        "translation": "4. レイアウトコンテナ"
+    },
+    "ST_Gallery_TextBlockSample": {
+        "TextKey": "ST_Gallery_TextBlockSample",
+        "SourceStr": "这是 TextBlock 示例",
+        "translation": "これは TextBlock のサンプルです"
+    },
+    "ST_Gallery_RichTextBlockSample": {
+        "TextKey": "ST_Gallery_RichTextBlockSample",
+        "SourceStr": "这是 <Name>RichTextBlock</> <Accent>富文本</> 示例",
+        "translation": "これは <Name>RichTextBlock</> <Accent>リッチテキスト</> のサンプルです"
+    },
+    "ST_Gallery_MultiLineText": {
+        "TextKey": "ST_Gallery_MultiLineText",
+        "SourceStr": "MultiLineEditableText\n多行文本",
+        "translation": "MultiLineEditableText\n複数行テキスト"
+    },
+    "ST_Gallery_MultiLineTextBox": {
+        "TextKey": "ST_Gallery_MultiLineTextBox",
+        "SourceStr": "MultiLineEditableTextBox\n多行文本框",
+        "translation": "MultiLineEditableTextBox\n複数行テキストボックス"
+    },
+    "ST_Gallery_Hint_EditableText": {
+        "TextKey": "ST_Gallery_Hint_EditableText",
+        "SourceStr": "EditableText 单行输入",
+        "translation": "EditableText 単一行入力"
+    },
+    "ST_Gallery_Hint_EditableTextBox": {
+        "TextKey": "ST_Gallery_Hint_EditableTextBox",
+        "SourceStr": "EditableTextBox 单行输入框",
+        "translation": "EditableTextBox 単一行入力ボックス"
+    },
+    "ST_Gallery_BorderContent": {
+        "TextKey": "ST_Gallery_BorderContent",
+        "SourceStr": "Border 内容",
+        "translation": "Border コンテンツ"
+    },
+    "ST_Gallery_OverlayStack": {
+        "TextKey": "ST_Gallery_OverlayStack",
+        "SourceStr": "Overlay 叠加",
+        "translation": "Overlay スタック"
+    },
+    "ST_Gallery_ScaleBoxContent": {
+        "TextKey": "ST_Gallery_ScaleBoxContent",
+        "SourceStr": "ScaleBox 缩放内容",
+        "translation": "ScaleBox スケールコンテンツ"
+    },
+    "ST_Gallery_SafeZoneContent": {
+        "TextKey": "ST_Gallery_SafeZoneContent",
+        "SourceStr": "SafeZone 内容",
+        "translation": "SafeZone コンテンツ"
+    },
+    "ST_Gallery_Section_Bug": {
+        "TextKey": "ST_Gallery_Section_Bug",
+        "SourceStr": "五、显示性质 BUG",
+        "translation": "5. 表示上の不具合"
+    },
+    "ST_Gallery_Bug_OverflowSingleLine": {
+        "TextKey": "ST_Gallery_Bug_OverflowSingleLine",
+        "SourceStr": "这段文本故意不换行，会冲出左侧固定区域并超出舞台边界，用于检测文本溢出与重叠",
+        "translation": "このテキストは意図的に折り返さず、左側の固定領域からはみ出してステージの境界を超えます。テキストのオーバーフローと重なりの検出に使用します。"
+    },
+    "ST_Gallery_Bug_OverflowMultiLine": {
+        "TextKey": "ST_Gallery_Bug_OverflowMultiLine",
+        "SourceStr": "换行后行数超出高度，越出舞台底部",
+        "translation": "折り返し後の行数が高さを超え、下部の参照行を覆います。"
+    },
+    "ST_Gallery_Bug_FontSize": {
+        "TextKey": "ST_Gallery_Bug_FontSize",
+        "SourceStr": "字号 36 的文本",
+        "translation": "フォントサイズ 36 のテキスト"
+    },
+    "ST_Gallery_Bug_ButtonOverflow": {
+        "TextKey": "ST_Gallery_Bug_ButtonOverflow",
+        "SourceStr": "Confirm and Continue With All Changes",
+        "translation": "Confirm and Continue With All Changes"
+    },
+    "ST_Gallery_Bug_LineHeight": {
+        "TextKey": "ST_Gallery_Bug_LineHeight",
+        "SourceStr": "行高被压缩到 30%，两行文本会互相叠压，用于检测单个文本节点内部的重叠",
+        "translation": "行の高さが 30% に圧縮され、2 行のテキストが互いに重なります。単一テキストノード内部の重なりの検出に使用します。"
+    },
+    "ST_Gallery_Bug_Invisible": {
+        "TextKey": "ST_Gallery_Bug_Invisible",
+        "SourceStr": "这段文本与底色同色，应完全不可见",
+        "translation": "このテキストは背景色と同じ色のため、完全に見えないはずです。"
+    },
+    "ST_Gallery_Bug_TileViewOverflow": {
+        "TextKey": "ST_Gallery_Bug_TileViewOverflow",
+        "SourceStr": "OverflowingTileViewItemTextWithoutAnySpaces",
+        "translation": "OverflowingTileViewItemTextWithoutAnySpaces"
+    },
+    "ST_Gallery_Bug_Truncate": {
+        "TextKey": "ST_Gallery_Bug_Truncate",
+        "SourceStr": "这段文本超出固定宽度后被硬截断，末尾没有省略号，用于检测截断识别",
+        "translation": "このテキストは固定幅を超えるとハードクリップされ、末尾に省略記号は付きません。切り詰め検出に使用します。"
+    }
+}

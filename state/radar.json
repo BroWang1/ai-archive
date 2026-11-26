@@ -359,7 +359,26 @@
     "http://arxiv.org/abs/2611.27919",
     "http://arxiv.org/abs/2611.27572",
     "http://arxiv.org/abs/2611.27570",
-    "http://arxiv.org/abs/2611.27336"
+    "http://arxiv.org/abs/2611.27336",
+    "http://arxiv.org/abs/2611.34776",
+    "http://arxiv.org/abs/2611.34612",
+    "http://arxiv.org/abs/2611.34529",
+    "http://arxiv.org/abs/2611.34300",
+    "http://arxiv.org/abs/2611.34092",
+    "http://arxiv.org/abs/2611.34862",
+    "http://arxiv.org/abs/2611.34843",
+    "http://arxiv.org/abs/2611.34398",
+    "http://arxiv.org/abs/2611.34352",
+    "http://arxiv.org/abs/2611.34813",
+    "http://arxiv.org/abs/2611.33263",
+    "http://arxiv.org/abs/2611.32634",
+    "http://arxiv.org/abs/2611.31791",
+    "http://arxiv.org/abs/2611.34912",
+    "http://arxiv.org/abs/2611.34907",
+    "http://arxiv.org/abs/2611.34680",
+    "http://arxiv.org/abs/2611.34616",
+    "http://arxiv.org/abs/2611.34435",
+    "http://arxiv.org/abs/2611.30662"
   ],
   "hn_seen": [
     "49735410",
@@ -655,7 +674,22 @@
     "50532515",
     "50606192",
     "50603465",
-    "50575644"
+    "50575644",
+    "50611402",
+    "50648823",
+    "50648365",
+    "50643129",
+    "50638070",
+    "50630294",
+    "50653477",
+    "50638320",
+    "50637871",
+    "50611593",
+    "50650892",
+    "44683490",
+    "50644909",
+    "50631157",
+    "50624684"
   ],
   "log": [
     {
@@ -4173,8 +4207,212 @@
       "at": "2026-11-23T19:30:58Z",
       "text": "HN front-page (593 pts): Why there are still no non-WebKit browsers on iOS",
       "url": "https://news.ycombinator.com/item?id=50575644"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-26T17:59:28Z",
+      "text": "New paper mentioning DeepSeek: DFly2: Turbocharging Long-Context Speculative Decoding by Sharing the Target's Sparsity",
+      "url": "http://arxiv.org/abs/2611.34776"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-26T17:59:28Z",
+      "text": "New paper mentioning DeepSeek: Do We Really Need an LLM for Weight-Space Programming? A Deterministic Forward-Only Paradigm and Its Capability Boundaries",
+      "url": "http://arxiv.org/abs/2611.34612"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-26T17:59:28Z",
+      "text": "New paper mentioning DeepSeek: AliceAI-Foundation-80B-A3B-Base",
+      "url": "http://arxiv.org/abs/2611.34529"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-26T17:59:28Z",
+      "text": "New paper mentioning DeepSeek: Can Large Language Models Estimate the Likely Technological Impact of Scientific Research? Evidence from Biotechnology",
+      "url": "http://arxiv.org/abs/2611.34300"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-26T17:59:28Z",
+      "text": "New paper mentioning DeepSeek: Improving Tail-Augmented Speculative Drafting with Hidden State Mixing and Gradient Detach",
+      "url": "http://arxiv.org/abs/2611.34092"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-26T17:59:28Z",
+      "text": "HN front-page (195 pts): NariQ: BF16-level Qwen3.8-27B in a 10 GB file",
+      "url": "https://news.ycombinator.com/item?id=50611402"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-26T17:59:28Z",
+      "text": "New paper mentioning Qwen: BOP-Refer: Benchmark for Monocular 3D and 2D Object Grounding",
+      "url": "http://arxiv.org/abs/2611.34862"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-26T17:59:28Z",
+      "text": "New paper mentioning Qwen: Probing Visual Idiosyncrasies in Text-to-Image Models",
+      "url": "http://arxiv.org/abs/2611.34843"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-26T17:59:28Z",
+      "text": "New paper mentioning Qwen: When Skills Fail to Compose: Compatibility and Retention in Language Models",
+      "url": "http://arxiv.org/abs/2611.34398"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-26T17:59:28Z",
+      "text": "New paper mentioning Qwen: Beyond Natural-Language Instructions: Temporal Logic as a Task Language for VLA Models with Visual-Logical Fusion",
+      "url": "http://arxiv.org/abs/2611.34352"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-26T17:59:28Z",
+      "text": "HN front-page (328 pts): Jev is probably Qwen3.5-35B-A3B",
+      "url": "https://news.ycombinator.com/item?id=50648823"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-26T17:59:28Z",
+      "text": "HN front-page (221 pts): Bare Metal Qwen",
+      "url": "https://news.ycombinator.com/item?id=50648365"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-26T17:59:28Z",
+      "text": "HN front-page (487 pts): A few questions for the guy who went snorkeling in a Home Depot retention pond",
+      "url": "https://news.ycombinator.com/item?id=50643129"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-26T17:59:28Z",
+      "text": "HN front-page (132 pts): Serving Qwen via AWS Lambdas for fun and 80x negative profit",
+      "url": "https://news.ycombinator.com/item?id=50638070"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-26T17:59:28Z",
+      "text": "HN front-page (107 pts): Show HN: Mason \u2013 A lightweight Postgres read-replica, built on columnar storage",
+      "url": "https://news.ycombinator.com/item?id=50630294"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-26T17:59:28Z",
+      "text": "New paper mentioning GLM-: Solve Vision with Code: Coding Agents Are Stronger Visual Reasoners Than Video Models",
+      "url": "http://arxiv.org/abs/2611.34813"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-26T17:59:28Z",
+      "text": "New paper mentioning GLM-: What, Who, and When: Structured Harm Assessment for Mental Health Safety via Short Reasoning",
+      "url": "http://arxiv.org/abs/2611.33263"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-26T17:59:28Z",
+      "text": "New paper mentioning GLM-: ModelLess: A Serverless System for Multi-Tier LLM Inference on Shared GPUs",
+      "url": "http://arxiv.org/abs/2611.32634"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-26T17:59:28Z",
+      "text": "New paper mentioning GLM-: SwarmLeak: Does Coordination Improve Privacy Attacks on LLM Agents?",
+      "url": "http://arxiv.org/abs/2611.31791"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-26T17:59:28Z",
+      "text": "HN front-page (94 pts): Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email",
+      "url": "https://news.ycombinator.com/item?id=50653477"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-26T17:59:28Z",
+      "text": "HN front-page (219 pts): Gemini refused to give me the lyrics to Twinkle Twinkle Little Star",
+      "url": "https://news.ycombinator.com/item?id=50638320"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-26T17:59:28Z",
+      "text": "HN front-page (104 pts): Top open problems in mathematics ranked by LLM-assessed importance",
+      "url": "https://news.ycombinator.com/item?id=50637871"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-26T17:59:28Z",
+      "text": "New paper mentioning MiniMax: LiveVAE: Causal Window Attention Makes Efficient Streaming Video VAE",
+      "url": "http://arxiv.org/abs/2611.34912"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-26T17:59:28Z",
+      "text": "New paper mentioning MiniMax: Agentic LongLive: Asynchronous Agentic Memory for Long Video Generation",
+      "url": "http://arxiv.org/abs/2611.34907"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-26T17:59:28Z",
+      "text": "New paper mentioning MiniMax: Neural Rendering Compiler: Generative Video Models as Programmable Renderers",
+      "url": "http://arxiv.org/abs/2611.34680"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-26T17:59:28Z",
+      "text": "New paper mentioning MiniMax: Conditional Independence Graph Learning from Dependent Data Via Time-Delay Embedding",
+      "url": "http://arxiv.org/abs/2611.34616"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-26T17:59:28Z",
+      "text": "New paper mentioning MiniMax: Most of the Way There: Turning a Strong Video Prior into an Action-Conditioned World Model",
+      "url": "http://arxiv.org/abs/2611.34435"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-26T17:59:28Z",
+      "text": "HN front-page (125 pts): Show HN: An agent skill that optimizes code with falsifiable hypotheses",
+      "url": "https://news.ycombinator.com/item?id=50611593"
+    },
+    {
+      "kind": "paper",
+      "at": "2026-11-26T17:59:28Z",
+      "text": "New paper mentioning MiniCPM: WeMM-Ecom: Advancing Multimodal Content Understanding for WeChat E-Commerce",
+      "url": "http://arxiv.org/abs/2611.30662"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-26T17:59:28Z",
+      "text": "HN front-page (253 pts): Minipg: PostgreSQL as a Single Executable",
+      "url": "https://news.ycombinator.com/item?id=50650892"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-26T17:59:28Z",
+      "text": "HN front-page (113 pts): Show HN: The Montana MiniComputer",
+      "url": "https://news.ycombinator.com/item?id=44683490"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-26T17:59:28Z",
+      "text": "HN front-page (55 pts): New York bans AI toys, including those using internet to talk to children",
+      "url": "https://news.ycombinator.com/item?id=50644909"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-26T17:59:28Z",
+      "text": "HN front-page (256 pts): Microsoft declares 'Code Red' after historic outage, internal memos show",
+      "url": "https://news.ycombinator.com/item?id=50631157"
+    },
+    {
+      "kind": "buzz",
+      "at": "2026-11-26T17:59:28Z",
+      "text": "HN front-page (51 pts): Show HN: Rchive \u2013 Every drive I've owned since the 90s, searchable in one window",
+      "url": "https://news.ycombinator.com/item?id=50624684"
     }
   ],
   "first_run_done": true,
-  "last_run": "2026-11-23T19:30:58Z"
+  "last_run": "2026-11-26T17:59:28Z"
 }

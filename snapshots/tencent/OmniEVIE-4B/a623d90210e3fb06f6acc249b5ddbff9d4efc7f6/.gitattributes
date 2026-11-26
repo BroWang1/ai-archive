@@ -1,0 +1,11 @@
+*.safetensors filter=lfs diff=lfs merge=lfs -text
+*.bin filter=lfs diff=lfs merge=lfs -text
+tokenizer.json filter=lfs diff=lfs merge=lfs -text
+assets/fig1_overview.png filter=lfs diff=lfs merge=lfs -text
+assets/fig4_sthac.png filter=lfs diff=lfs merge=lfs -text
+assets/fig5_three_stage.png filter=lfs diff=lfs merge=lfs -text
+assets/fig7_alignment.png filter=lfs diff=lfs merge=lfs -text
+assets/fig8_localization.png filter=lfs diff=lfs merge=lfs -text
+assets/fig9_video_cases.png filter=lfs diff=lfs merge=lfs -text
+assets/quickstart_output.png filter=lfs diff=lfs merge=lfs -text
+assets/mmeb_leaderboard.png filter=lfs diff=lfs merge=lfs -text

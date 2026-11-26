@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Fully fictional demo strings for TiMi_HOK_Game_Translator showcase.
+    No real product data. Same schema as the JSON / YAML variants.
+-->
+<localization project_code="example_game" source_locale="en" target_locale="zh-CN">
+    <entry key="ui.mainmenu.play" context="Main menu — start a new game." comment="Short action button.">
+        <source>Play</source>
+    </entry>
+    <entry key="ui.mainmenu.settings" context="Main menu — open the settings panel." comment="">
+        <source>Settings</source>
+    </entry>
+    <entry key="ui.mainmenu.quit" context="Main menu — exit the application." comment="">
+        <source>Quit</source>
+    </entry>
+    <entry key="hud.health" context="HUD label for current and maximum health." comment="Placeholders {value} and {max} must be preserved.">
+        <source>HP: {value}/{max}</source>
+    </entry>
+    <entry key="dialog.tutorial.welcome" context="Tutorial NPC greeting at the start of the game." comment="">
+        <source>Welcome, brave adventurer! Your journey starts here.</source>
+    </entry>
+    <entry key="achievement.first_win.name" context="Achievement title for winning the first battle." comment="">
+        <source>First Blood</source>
+    </entry>
+</localization>

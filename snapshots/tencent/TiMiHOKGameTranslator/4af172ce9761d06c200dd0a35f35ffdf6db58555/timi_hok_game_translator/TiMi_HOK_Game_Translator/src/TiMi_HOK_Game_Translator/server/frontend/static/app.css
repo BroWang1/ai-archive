@@ -1,0 +1,1166 @@
+/* ============================================================================
+ * TiMiHOKGameTranslator Web Console —— 高级优雅主题
+ * ----------------------------------------------------------------------------
+ * 设计风格：深色侧边栏 + 浅色主内容区 + 蓝紫渐变主色 + 柔和阴影
+ * ========================================================================== */
+
+:root {
+  --primary: #4f46e5;
+  --primary-light: #6366f1;
+  --primary-dark: #3730a3;
+  --primary-gradient: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
+  --sidebar-bg: #1a1f36;
+  --sidebar-hover: #262b47;
+  --sidebar-active: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
+  --sidebar-text: #a0aec0;
+  --sidebar-text-active: #fff;
+  --bg-main: #f7f8fc;
+  --bg-card: #fff;
+  --border-color: #e5e7eb;
+  --text-primary: #1a202c;
+  --text-secondary: #6b7280;
+  --text-muted: #9ca3af;
+  --success: #10b981;
+  --warning: #f59e0b;
+  --danger: #ef4444;
+  --info: #3b82f6;
+  --radius: 10px;
+  --radius-sm: 6px;
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.04), 0 1px 2px rgba(0, 0, 0, 0.03);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.06), 0 2px 4px rgba(0, 0, 0, 0.03);
+  --shadow-lg: 0 10px 32px rgba(0, 0, 0, 0.08), 0 4px 12px rgba(0, 0, 0, 0.04);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* stylelint-disable selector-max-id -- `#app` 是 Vue SPA 根挂载点，必须以 ID 选择器匹配 */
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei",
+    sans-serif;
+  background: var(--bg-main);
+  color: var(--text-primary);
+  -webkit-font-smoothing: antialiased;
+}
+/* stylelint-enable selector-max-id */
+
+/* ========== 布局 ========== */
+.layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: 240px;
+  background: var(--sidebar-bg);
+  color: var(--sidebar-text);
+  padding: 20px 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+}
+
+.sidebar::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 3px;
+  background: var(--primary-gradient);
+}
+
+.sidebar .logo {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 8px 24px 24px 24px;
+  letter-spacing: 0.5px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.sidebar .logo .logo-icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 10px;
+  background: var(--primary-gradient);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  box-shadow: 0 4px 12px rgba(79, 70, 229, 0.4);
+}
+
+.sidebar .nav-group-title {
+  padding: 16px 24px 8px;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: #6b7280;
+}
+
+.sidebar .nav-item {
+  display: flex;
+  align-items: center;
+  padding: 10px 24px;
+  cursor: pointer;
+  font-size: 14px;
+  color: var(--sidebar-text);
+  transition: all 0.2s ease;
+  margin: 2px 12px;
+  border-radius: var(--radius-sm);
+  gap: 12px;
+}
+
+.sidebar .nav-item:hover {
+  background: var(--sidebar-hover);
+  color: #fff;
+}
+
+.sidebar .nav-item.active {
+  background: var(--sidebar-active);
+  color: var(--sidebar-text-active);
+  box-shadow: 0 4px 12px rgba(79, 70, 229, 0.35);
+}
+
+.sidebar .nav-item .nav-icon {
+  font-size: 18px;
+  width: 20px;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.sidebar .sidebar-footer {
+  margin-top: auto;
+  padding: 16px 24px;
+  font-size: 11px;
+  color: var(--text-muted);
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  opacity: 0.6;
+}
+
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.topbar {
+  height: 64px;
+  background: var(--bg-card);
+  border-bottom: 1px solid var(--border-color);
+  display: flex;
+  align-items: center;
+  padding: 0 32px;
+  justify-content: space-between;
+  box-shadow: var(--shadow-sm);
+}
+
+.topbar .title {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--text-primary);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.topbar .subtitle {
+  font-size: 13px;
+  color: var(--text-secondary);
+  margin-left: 8px;
+}
+
+.content {
+  flex: 1;
+  overflow: auto;
+  padding: 28px 32px;
+}
+
+/* ========== 卡片 ========== */
+.card {
+  background: var(--bg-card);
+  border-radius: var(--radius);
+  padding: 24px;
+  box-shadow: var(--shadow-sm);
+  margin-bottom: 20px;
+  border: 1px solid var(--border-color);
+  transition: box-shadow 0.2s;
+}
+
+.card:hover {
+  box-shadow: var(--shadow-md);
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.card-header h3 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text-primary);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.card-header h3 .emoji {
+  font-size: 20px;
+}
+
+.card h3 {
+  margin: 0 0 16px 0;
+  font-size: 15px;
+  color: var(--text-primary);
+}
+
+/* ========== 统计卡（Dashboard） ========== */
+.stat-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.stat-card {
+  background: var(--bg-card);
+  border-radius: var(--radius);
+  padding: 20px;
+  box-shadow: var(--shadow-sm);
+  border: 1px solid var(--border-color);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.2s;
+}
+
+.stat-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.stat-card .stat-label {
+  color: var(--text-secondary);
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.stat-card .stat-value {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--text-primary);
+  line-height: 1;
+}
+
+.stat-card .stat-sub {
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+.stat-card.success {
+  border-left: 4px solid var(--success);
+}
+
+.stat-card.warning {
+  border-left: 4px solid var(--warning);
+}
+
+.stat-card.info {
+  border-left: 4px solid var(--info);
+}
+
+.stat-card.primary {
+  border-left: 4px solid var(--primary);
+}
+
+/* ========== 健康检查列表 ========== */
+.check-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.check-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  padding: 14px 16px;
+  border-radius: var(--radius-sm);
+  background: #fafbfd;
+  border: 1px solid var(--border-color);
+  transition: all 0.2s;
+}
+
+.check-item.status-ok {
+  background: #f0fdf4;
+  border-color: #bbf7d0;
+}
+
+.check-item.status-fail {
+  background: #fef2f2;
+  border-color: #fecaca;
+}
+
+.check-item.status-warn {
+  background: #fffbeb;
+  border-color: #fde68a;
+}
+
+.check-item.status-skip {
+  background: #f9fafb;
+  border-color: #e5e7eb;
+  opacity: 0.75;
+}
+
+.check-item .check-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.check-item.status-ok .check-icon {
+  background: var(--success);
+}
+
+.check-item.status-fail .check-icon {
+  background: var(--danger);
+}
+
+.check-item.status-warn .check-icon {
+  background: var(--warning);
+}
+
+.check-item.status-skip .check-icon {
+  background: var(--text-muted);
+}
+
+.check-item .check-body {
+  flex: 1;
+}
+
+.check-item .check-title {
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--text-primary);
+  margin-bottom: 2px;
+}
+
+.check-item .check-message {
+  font-size: 13px;
+  color: var(--text-secondary);
+}
+
+.check-item .check-details {
+  margin-top: 8px;
+  padding-left: 16px;
+  font-size: 12px;
+  color: var(--text-secondary);
+}
+
+.check-item .check-details li {
+  margin: 2px 0;
+}
+
+.check-item .env-hints {
+  margin-top: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.check-item .env-hint {
+  background: rgba(79, 70, 229, 0.08);
+  color: var(--primary-dark);
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-family: Consolas, Monaco, monospace;
+  font-size: 11px;
+  font-weight: 500;
+}
+
+/* ========== 字段表格（表单） ========== */
+.field-table {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+
+.field-row {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  gap: 20px;
+  padding: 16px 20px;
+  border-bottom: 1px solid var(--border-color);
+  transition: background 0.15s;
+  align-items: start;
+}
+
+.field-row:last-child {
+  border-bottom: none;
+}
+
+.field-row:hover {
+  background: #fafbfd;
+}
+
+.field-row.required {
+  background: linear-gradient(
+    to right,
+    rgba(239, 68, 68, 0.02),
+    transparent 20%
+  );
+}
+
+.field-label {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.field-label .label-text {
+  font-weight: 600;
+  color: var(--text-primary);
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.field-label .label-key {
+  color: var(--text-muted);
+  font-family: Consolas, Monaco, monospace;
+  font-size: 11px;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 1px 8px;
+  border-radius: 10px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+}
+
+.badge-required {
+  background: #fee2e2;
+  color: #b91c1c;
+}
+
+.badge-optional {
+  background: #e0e7ff;
+  color: #3730a3;
+}
+
+.badge-secret {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.badge-env {
+  background: #ccfbf1;
+  color: #0f766e;
+  font-family: Consolas, Monaco, monospace;
+}
+
+.field-input {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.field-help {
+  font-size: 12px;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+
+.field-example {
+  font-size: 11px;
+  color: var(--text-muted);
+  font-family: Consolas, Monaco, monospace;
+  margin-top: 2px;
+}
+
+.field-example::before {
+  content: "💡 示例: ";
+  font-family: inherit;
+}
+
+/* ========== 字段分组 ========== */
+.field-group {
+  margin-bottom: 20px;
+  border-radius: var(--radius);
+  overflow: hidden;
+  border: 1px solid var(--border-color);
+  background: var(--bg-card);
+}
+
+.field-group-header {
+  padding: 14px 20px;
+  background: linear-gradient(to right, #f8fafc, #fff);
+  border-bottom: 1px solid var(--border-color);
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--text-primary);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  user-select: none;
+}
+
+.field-group-header .group-arrow {
+  color: var(--text-muted);
+  transition: transform 0.2s;
+}
+
+.field-group.collapsed .group-arrow {
+  transform: rotate(-90deg);
+}
+
+.field-group.collapsed .field-table {
+  display: none;
+}
+
+.field-group .field-table {
+  border: none;
+  border-radius: 0;
+}
+
+/* ========== Setup Wizard —— 全新设计 ========== */
+.wizard-page {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.wizard-hero {
+  background: var(--primary-gradient);
+  color: #fff;
+  padding: 32px 36px;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-lg);
+  margin-bottom: 24px;
+  position: relative;
+  overflow: hidden;
+}
+
+.wizard-hero::before {
+  content: "";
+  position: absolute;
+  top: -60px;
+  right: -60px;
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.wizard-hero::after {
+  content: "";
+  position: absolute;
+  bottom: -40px;
+  right: 60px;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.wizard-hero h1 {
+  margin: 0 0 8px 0;
+  font-size: 26px;
+  font-weight: 700;
+  position: relative;
+  z-index: 1;
+}
+
+.wizard-hero p {
+  margin: 0;
+  opacity: 0.95;
+  font-size: 14px;
+  line-height: 1.6;
+  position: relative;
+  z-index: 1;
+}
+
+.wizard-step-indicator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+  margin: 24px 0 28px;
+  padding: 0 20px;
+}
+
+.wizard-step {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--text-muted);
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.wizard-step .step-num {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #e5e7eb;
+  color: #9ca3af;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  transition: all 0.3s;
+}
+
+.wizard-step.active {
+  color: var(--primary);
+}
+
+.wizard-step.active .step-num {
+  background: var(--primary);
+  color: #fff;
+  box-shadow: 0 4px 12px rgba(79, 70, 229, 0.3);
+}
+
+.wizard-step.done .step-num {
+  background: var(--success);
+  color: #fff;
+}
+
+.wizard-connector {
+  flex: 1;
+  height: 2px;
+  background: #e5e7eb;
+  margin: 0 12px;
+  max-width: 100px;
+}
+
+.wizard-connector.done {
+  background: var(--success);
+}
+
+/* ========== 平台选择卡（Setup Step: 选择要启用的功能） ========== */
+.pick-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 14px;
+  margin-top: 12px;
+}
+
+.pick-card {
+  padding: 20px;
+  border-radius: var(--radius);
+  border: 2px solid var(--border-color);
+  background: #fff;
+  cursor: pointer;
+  transition: all 0.2s;
+  position: relative;
+}
+
+.pick-card:hover {
+  border-color: var(--primary-light);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.pick-card.selected {
+  border-color: var(--primary);
+  background: linear-gradient(
+    135deg,
+    rgba(79, 70, 229, 0.04),
+    rgba(124, 58, 237, 0.04)
+  );
+}
+
+.pick-card.selected::before {
+  content: "✓";
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 22px;
+  height: 22px;
+  background: var(--primary);
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.pick-card .pick-emoji {
+  font-size: 28px;
+  margin-bottom: 8px;
+}
+
+.pick-card .pick-title {
+  font-weight: 600;
+  font-size: 15px;
+  color: var(--text-primary);
+  margin-bottom: 4px;
+}
+
+.pick-card .pick-desc {
+  font-size: 12px;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+
+/* ========== 日志终端 ========== */
+.log-view {
+  background: #0d1117;
+  color: #c9d1d9;
+  font-family: "SF Mono", Consolas, "Courier New", Monaco, monospace;
+  font-size: 12px;
+  padding: 16px;
+  border-radius: var(--radius-sm);
+  height: 62vh;
+  overflow: auto;
+  white-space: pre-wrap;
+  word-break: break-all;
+  line-height: 1.6;
+}
+
+.log-view .log-line.stream-stderr {
+  color: #ff7b72;
+}
+
+.log-view .log-line.stream-meta {
+  color: #79c0ff;
+  font-style: italic;
+}
+
+.yaml-editor {
+  font-family: "SF Mono", Consolas, Monaco, monospace;
+  font-size: 13px;
+}
+
+/* ========== 运行状态标签 ========== */
+.run-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 3px 10px;
+  border-radius: 10px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.run-status::before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+}
+
+.run-status.running {
+  background: #d1fae5;
+  color: #065f46;
+}
+
+.run-status.running::before {
+  background: #10b981;
+  animation: pulse 1.4s ease-in-out infinite;
+}
+
+.run-status.finished {
+  background: #dbeafe;
+  color: #1e40af;
+}
+
+.run-status.finished::before {
+  background: #3b82f6;
+}
+
+.run-status.failed {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+.run-status.failed::before {
+  background: #ef4444;
+}
+
+.run-status.killed {
+  background: #fed7aa;
+  color: #9a3412;
+}
+
+.run-status.killed::before {
+  background: #f97316;
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  50% {
+    opacity: 0.5;
+    transform: scale(1.3);
+  }
+}
+
+/* ========== 空态 ========== */
+.empty-state {
+  padding: 60px 20px;
+  text-align: center;
+  color: var(--text-muted);
+}
+
+.empty-state .empty-icon {
+  font-size: 56px;
+  margin-bottom: 12px;
+}
+
+.empty-state .empty-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text-secondary);
+  margin-bottom: 6px;
+}
+
+.empty-state .empty-desc {
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+
+/* ========== 按钮微调（基于 Element Plus） ========== */
+/* 下方样式用于覆盖 Element Plus 组件库默认样式，必须使用 !important 才能生效，故对此段落禁用 declaration-no-important 规则。 */
+/* stylelint-disable declaration-no-important */
+.el-button--primary {
+  background: var(--primary-gradient) !important;
+  border-color: transparent !important;
+  box-shadow: 0 2px 8px rgba(79, 70, 229, 0.25);
+}
+
+.el-button--primary:hover {
+  background: linear-gradient(135deg, #5b53e8, #8b4de8) !important;
+  box-shadow: 0 4px 14px rgba(79, 70, 229, 0.4);
+}
+
+/* ========== 对话框圆角 ========== */
+.el-dialog {
+  border-radius: var(--radius) !important;
+  overflow: hidden;
+}
+
+.el-drawer {
+  border-radius: 0 !important;
+}
+
+/* ========== 表格头部 ========== */
+.el-table th.el-table__cell {
+  background: #f8fafc !important;
+  color: var(--text-secondary) !important;
+  font-weight: 600 !important;
+  font-size: 13px !important;
+}
+/* stylelint-enable declaration-no-important */
+
+/* ========== 工具栏 ========== */
+.toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.toolbar .left,
+.toolbar .right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* ========== Tab 切换 YAML 原文视图 ========== */
+.view-switch {
+  display: inline-flex;
+  background: #f3f4f6;
+  border-radius: 8px;
+  padding: 3px;
+}
+
+.view-switch button {
+  background: transparent;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+  color: var(--text-secondary);
+  transition: all 0.15s;
+}
+
+.view-switch button.active {
+  background: #fff;
+  color: var(--primary);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.06);
+  font-weight: 600;
+}
+
+/* ============================================================================
+ * Workflow 状态编排 —— 带箭头的卡片式流程图
+ * ========================================================================== */
+
+/* 对大型复合输入（如 workflow 流程图），破除 "label 260px + input 1fr" 的
+   两列栅格，改为"label 在上、内容在下"的单列全宽布局，彻底消除左侧留白。 */
+.field-row.field-row-wide {
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+
+.field-row.field-row-wide > .field-label {
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 8px;
+}
+
+.field-row.field-row-wide > .field-label .label-key {
+  margin-left: 2px;
+}
+
+.workflow-container {
+  width: 100%;
+}
+
+.workflow-toolbar {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 10px;
+}
+
+.workflow-flow {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  gap: 24px 32px; /* 行间距 24px / 列间距 32px，给箭头留位置 */
+  padding: 16px 32px 16px 20px; /* 右侧多留 32px，用于容纳每行末尾过渡箭头 */
+  background: #f8fafc;
+  border: 1px dashed #cbd5e1;
+  border-radius: 10px;
+}
+
+.workflow-node {
+  position: relative;
+  width: 170px;
+  background: #fff;
+  border: 2px solid #e2e8f0;
+  border-radius: 10px;
+  padding: 10px 12px;
+  cursor: pointer;
+  transition: all 0.18s ease;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+}
+
+/* 箭头：作为卡片的 ::before 伪元素呈现在卡片左侧。
+   —— 整体首张 (.is-first) 不显示箭头；
+   —— 由 JS (ResizeObserver) 动态标注的"每行首张" (.row-first) 也不显示箭头，
+      这样 flex-wrap 换行后不会再出现"孤立箭头在行首"的视觉错位。
+   —— 关键优势：伪元素不是 flex 子元素，不参与 wrap 计算。 */
+.workflow-node::before {
+  content: "→";
+  position: absolute;
+  left: -24px; /* 落在 32px gap 的中间（24+8=32） */
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+  font-weight: 700;
+  color: #94a3b8;
+  pointer-events: none;
+  user-select: none;
+}
+
+.workflow-node.is-first::before,
+.workflow-node.row-first::before {
+  content: none; /* 整体首张 / 每行首张不显示前置箭头 */
+}
+
+/* 行末过渡箭头 —— 由 Vue 动态渲染为真实 DOM（而非 ::after 伪元素，
+   避开 is-recommended ⭐ 的占位），指示"流程从本行末尾衔接到下一行开头"。
+   绝对定位到卡片右侧外部，和前置 ::before 箭头对称。 */
+.workflow-node .wf-tail-arrow {
+  position: absolute;
+  right: -24px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+  font-weight: 700;
+  color: #94a3b8;
+  pointer-events: none;
+  user-select: none;
+  line-height: 1;
+}
+
+.workflow-node:hover {
+  border-color: var(--primary-light);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 10px rgba(79, 70, 229, 0.12);
+}
+
+.workflow-node.selected {
+  border-color: var(--primary);
+  background: linear-gradient(135deg, #eef2ff 0%, #faf5ff 100%);
+  box-shadow: 0 2px 8px rgba(79, 70, 229, 0.18);
+}
+
+.workflow-node.is-recommended::after {
+  content: "⭐";
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  font-size: 14px;
+  background: #fff;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.workflow-node .wf-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 6px;
+}
+
+.workflow-node .wf-order {
+  display: inline-block;
+  min-width: 20px;
+  height: 20px;
+  line-height: 20px;
+  padding: 0 6px;
+  border-radius: 10px;
+  background: var(--primary-gradient);
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.workflow-node .wf-body {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.workflow-node .wf-label {
+  font-weight: 600;
+  color: #1f2937;
+  font-size: 13px;
+}
+
+.workflow-node .wf-key {
+  color: #94a3b8;
+  font-size: 11px;
+}
+
+.workflow-node .wf-key code {
+  background: transparent;
+  padding: 0;
+  color: inherit;
+  font-size: 11px;
+}
+
+.workflow-node .wf-desc {
+  color: #64748b;
+  font-size: 11px;
+  line-height: 1.4;
+  margin-top: 2px;
+}
+
+/* ============================================================================
+ * 抽屉自定义头部 —— 标题 + 右侧保存/取消按钮，永远可见无需滚动
+ * ========================================================================== */
+.drawer-header-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  width: 100%;
+}
+
+.drawer-title {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  font-size: 16px;
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+.drawer-title-icon {
+  font-size: 18px;
+}
+
+.drawer-title-sub {
+  margin-left: 14px;
+  padding-left: 14px;
+  border-left: 1px solid #e5e7eb;
+  color: var(--text-secondary);
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.drawer-actions {
+  display: flex;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+/* 让 el-drawer 原生 header 高度稍微宽裕一些以容纳按钮 */
+.lang-editor-drawer .el-drawer__header {
+  padding: 14px 20px;
+  margin-bottom: 0;
+  border-bottom: 1px solid var(--border-color);
+}

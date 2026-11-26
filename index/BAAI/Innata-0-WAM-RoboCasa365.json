@@ -1,0 +1,186 @@
+{
+  "repo_id": "BAAI/Innata-0-WAM-RoboCasa365",
+  "canonical_org": "BAAI",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "2f2029175f87f4a90795ed46b526eab4966808d2",
+      "captured_at": "2026-11-26T17:58:57Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/BAAI/Innata-0-WAM-RoboCasa365?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"25e1-JugOrOIn5htLhzXq92r5CFV4QkE\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": null,
+        "file": null,
+        "sha256": null,
+        "redistributable": false,
+        "obligations": [],
+        "freedom": "unlicensed",
+        "freedom_note": "No license tag and no file \u2014 cannot redistribute"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1570,
+          "sha256": "34448b82c17d60fec9b65b1f093c115ddbaadc04beb1b0140b6bfed2e012a930",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 353,
+          "sha256": "6f41718a697adb7b65c7cc665adf43f9e92deb863f60d752cb6b807adc09a862",
+          "kind": "snapshot"
+        },
+        {
+          "path": "SHA256SUMS",
+          "size": 1924,
+          "sha256": "1286dbc16eca774b31333454381dd8114c6bb8d4bb81281c790d8ece3a0a0f78",
+          "kind": "snapshot"
+        },
+        {
+          "path": "added_tokens.json",
+          "size": 707,
+          "sha256": "c0284b582e14987fbd3d5a2cb2bd139084371ed9acbae488829a1c900833c680",
+          "kind": "snapshot"
+        },
+        {
+          "path": "chat_template.jinja",
+          "size": 5292,
+          "sha256": "3636d0f0bd6bef02654cdffdc447b79cb2cef8ab02cc75267345946291a489e4",
+          "kind": "snapshot"
+        },
+        {
+          "path": "checkpoint.json",
+          "size": 80,
+          "sha256": "73c2f1aa2e1a1dbed707e8798d433c0a6cd2a2157a2041b51ae1cce108bb059c",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 26208,
+          "sha256": "49b2dfa9db7a6c646b3b20d2c3daaabfa79f59c6ff16f23a08486c51700dba03",
+          "kind": "snapshot"
+        },
+        {
+          "path": "export_manifest.json",
+          "size": 256,
+          "sha256": "41a3baf70f8ce1c6b82c54d8962827cac0fcbdc0c22eaf8663c25661fa93275d",
+          "kind": "snapshot"
+        },
+        {
+          "path": "merges.txt",
+          "size": 1671853,
+          "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5",
+          "kind": "snapshot"
+        },
+        {
+          "path": "model-00001-of-00007.safetensors",
+          "size": 4923771904,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00002-of-00007.safetensors",
+          "size": 4965011344,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00003-of-00007.safetensors",
+          "size": 4965011520,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00004-of-00007.safetensors",
+          "size": 4965011520,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00005-of-00007.safetensors",
+          "size": 4965011520,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00006-of-00007.safetensors",
+          "size": 4965011520,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00007-of-00007.safetensors",
+          "size": 2615468536,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model.safetensors.index.json",
+          "size": 141422,
+          "sha256": "4402f83eee69852b2c62b28dc7e478741d324e077ad8fadb88eaecdd9637c165",
+          "kind": "snapshot"
+        },
+        {
+          "path": "preprocessor_config.json",
+          "size": 782,
+          "sha256": "93585062a80db5e8ca038efc7726a3e6411d9db948472d81d63c6303993be8c5",
+          "kind": "snapshot"
+        },
+        {
+          "path": "special_tokens_map.json",
+          "size": 613,
+          "sha256": "76862e765266b85aa9459767e33cbaf13970f327a0e88d1c65846c2ddd3a1ecd",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer.json",
+          "size": 11422654,
+          "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 5445,
+          "sha256": "81ec7bb9530159b326c0bef1d0b6c33d392090524014ea3f0123a3c1eb9c2af5",
+          "kind": "snapshot"
+        },
+        {
+          "path": "video_preprocessor_config.json",
+          "size": 817,
+          "sha256": "59c5c9eb52182eb14c06ffb10ca9effd29adce5f238a95de23ca14a38dbd2cb1",
+          "kind": "snapshot"
+        },
+        {
+          "path": "vocab.json",
+          "size": 2776833,
+          "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 32380354673,
+      "weight_bytes": 32364297864,
+      "snapshot_dir": "snapshots/BAAI/Innata-0-WAM-RoboCasa365/2f2029175f87f4a90795ed46b526eab4966808d2/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

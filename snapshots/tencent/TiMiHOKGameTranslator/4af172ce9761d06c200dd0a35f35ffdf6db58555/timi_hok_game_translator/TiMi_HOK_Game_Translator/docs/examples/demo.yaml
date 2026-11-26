@@ -1,0 +1,47 @@
+﻿# =============================================================================
+# TiMi_HOK_Game_Translator — end-to-end demo configuration
+# =============================================================================
+# 从项目根目录运行：
+#     python main.py run --config docs/examples/demo.yaml
+#
+# All backends are set to the built-in mocks so no external service is
+# required. 把 source.path 换成同目录下 data/ 的其他格式即可切换源文件格式。
+# =============================================================================
+
+project_code: example_game
+stage: trunk_week
+source_locale: en
+target_locale: zh-CN
+
+vcs:
+  type: mock
+  url: mock://demo
+  # 相对 workspace.root（默认 ${CWD}/workspace）。mock VCS 不实际克隆，
+  # 只要 source.path 能在 cwd 下找到即可。
+  local_path: vcs
+
+source:
+  format: json
+  # 相对项目根（通过 workspace 根再加 vcs.local_path 展开）。
+  # 这里直接指向 docs/examples/data/ 下的样例数据，无需额外复制。
+  path: ../../docs/examples/data/example_game.en.json
+  encoding: utf-8
+
+llm:
+  provider: mock
+  temperature: 0.2
+  batch_size: 8
+
+platform:
+  type: none
+
+notification:
+  type: console
+
+workspace:
+  root: ""
+  subdir: workspace
+
+logging:
+  level: INFO
+  console: true

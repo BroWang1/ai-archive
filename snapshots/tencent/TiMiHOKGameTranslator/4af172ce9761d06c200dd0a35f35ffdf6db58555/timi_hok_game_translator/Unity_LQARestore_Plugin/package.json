@@ -1,0 +1,20 @@
+{
+  "name": "com.qq.game.lqarestore",
+  "version": "1.0.0",
+  "displayName": "LQARestore - Localization UI Restore Tool",
+  "description": "A UI text and layout restore tool for Unity project localization, restoring dumped content back onto the scene",
+  "keywords": [
+    "localization",
+    "ui",
+    "analysis",
+    "lqa",
+    "debug",
+    "test",
+    "restore"
+  ],
+  "author": {
+    "name": "Tencent Games",
+    "email": "tencent_games@tencent.com",
+    "url": "https://game.qq.com/"
+  }
+}

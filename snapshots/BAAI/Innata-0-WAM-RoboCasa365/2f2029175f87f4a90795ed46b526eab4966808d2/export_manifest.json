@@ -1,0 +1,12 @@
+{
+  "export_args": {
+    "config_only": false,
+    "student_only_checkpoint_metadata": true,
+    "verify": false,
+    "vit": false,
+    "vit_checkpoint_path": null
+  },
+  "framework_commit": null,
+  "processor_source": null,
+  "vision_tower_source": null
+}

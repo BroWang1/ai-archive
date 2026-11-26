@@ -1,0 +1,20 @@
+__pycache__/
+*.py[cod]
+*.log
+.DS_Store
+.env
+config/env.*
+# 注意: 必须带前导斜杠锚定到 server/ 根目录
+# 写成 data/ 会匹配任意层级的同名目录, 导致 Django app server/apps/data/ 被误排除
+/data/
+/media/
+.idea/
+.vscode/
+.venv/
+
+# scripts/ 目录下只保留正式入库的脚本, 其余本地调试 /mock/ 验证脚本都不提交
+/scripts/*.py
+!/scripts/__init__.py
+!/scripts/smoke_test.py
+!/scripts/test_bug_flow.py
+!/scripts/test_bugtracker.py

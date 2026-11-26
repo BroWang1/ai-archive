@@ -1,0 +1,8 @@
+﻿key,source_text,context,comment
+ui.mainmenu.play,Play,Main menu — start a new game.,Short action button.
+ui.mainmenu.settings,Settings,Main menu — open the settings panel.,
+ui.mainmenu.quit,Quit,Main menu — exit the application.,
+hud.health,HP: {value}/{max},HUD label for current and maximum health.,Placeholders {value} and {max} must be preserved.
+dialog.tutorial.welcome,"Welcome, brave adventurer! Your journey starts here.",Tutorial NPC greeting at the start of the game.,
+achievement.first_win.name,First Blood,Achievement title for winning the first battle.,
+error.network.offline,You are currently offline. Please check your connection.,Displayed when the client cannot reach the server.,

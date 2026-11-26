@@ -1,0 +1,120 @@
+# =============================================================================
+# conf/llm.yaml — LLM 模型注册表（跨业务项目共享）
+# =============================================================================
+# config.yaml / conf/languages/*.yaml 用 `llm_profile: <name>` 按名引用。
+# 敏感字段 api_key / secret_* 建议走环境变量 GAME_TRANS_TOOLCHAIN__LLM__API_KEY 注入。
+#
+# 命名约定：
+#   - 带 `_example` 后缀的均为**模板示例**，使用前请复制一份、重命名为自己的
+#     业务 profile（如 `openai_gpt4o_mini_prod`），再把 TODO 字段填好。
+#   - `echo` 是真正可用的本地零依赖 provider，用于联调/演示，无需凭据。
+# =============================================================================
+
+default: echo
+
+profiles:
+  # ---------- Echo（本地零依赖调试：直接把原文带 [locale] 标签回显） ----------
+  # 无需任何凭据，适合首次启动 / 流程联调 / CI 测试。
+  echo:
+    provider: echo
+    model: echo-dev
+    temperature: 0.0
+    max_tokens: 2048
+    batch_size: 32
+
+  # ---------- OpenAI 官方（示例） ----------
+  # 常用 model：gpt-4o-mini / gpt-4o / gpt-4-turbo
+  # 常用 api_base：https://api.openai.com/v1
+  openai_gpt4o_mini_example:
+    provider: openai
+    model: ""                 # TODO: 填入模型 ID，例如 gpt-4o-mini
+    api_base: ""              # 走 OpenAI 官方可留空；企业网关填完整 URL
+    api_key: ""
+    temperature: 0.2
+    max_tokens: 1024
+    batch_size: 32
+    timeout_seconds: 30
+    retries: 3
+    retry_interval_seconds: 30
+
+  # ---------- Venus 内网 SDK（示例 provider） ----------
+  # 凭据：GAME_TRANS_TOOLCHAIN__LLM__API_KEY=<secret_id>:<secret_key>
+  # 常用 api_base：http://v2.open.venus.oa.com/chat/single
+  llama3_1_70b_example:
+    provider: venus
+    model: "llama3.1-70B"     # TODO: 填入 Venus 平台的模型路由名
+    api_base: "http://v2.open.venus.oa.com/chat/single" # TODO: Venus API 入口
+    temperature: 0.1
+    timeout_seconds: 180      # Venus 大模型推理较慢，建议 ≥120s
+    retries: 3
+    retry_interval_seconds: 10
+    extra:
+      server_id: 252029       # TODO: Venus 平台模型路由 ID（整数）
+      app_group_id: 2777      # TODO: Venus 平台应用组 ID（整数）
+      secret_id: ""           # TODO: Venus 平台认证 secret_id
+      secret_key: ""          # TODO: Venus 平台认证 secret_key
+      model_params:           # 透传到 Venus 请求体的解码参数（可选）
+        repetition_penalty: 1.1
+        do_sample: false
+
+  # ---------- Google Gemini（Google AI Studio generateContent API） ----------
+  # 鉴权：GAME_TRANS_TOOLCHAIN__LLM__API_KEY 或 GOOGLE_API_KEY
+  # 常用模型：gemini-2.5-flash（快）/ gemini-2.5-pro（强）
+  gemini_flash_example:
+    provider: gemini
+    model: gemini-2.5-flash
+    api_base: "https://generativelanguage.googleapis.com"
+    api_key: ""
+    temperature: 0.2
+    max_tokens: 2048
+    batch_size: 16
+    timeout_seconds: 60
+    retries: 3
+    retry_interval_seconds: 10
+
+  # ---------- 混元 HY-MT 翻译模型（OpenAI chat.completions 变体 + Wsid 头） ----------
+  # extra.wsid 为 HY-MT 工作空间 ID（必填）
+  hunyuan_mt2_plus_example:
+    provider: hunyuan_translation
+    model: ""                 # TODO: 填入混元 HY-MT 模型名
+    api_base: ""              # TODO: 填入混元 HY-MT API 入口（必填）
+    api_key: ""
+    temperature: 0.7
+    max_tokens: 4096
+    batch_size: 16
+    timeout_seconds: 3000
+    extra:
+      wsid: ""                # TODO: 填入混元 HY-MT 工作空间 ID（必填）
+      top_p: 1.0
+      top_k: -1
+      repetition_penalty: 1.0
+      system_prompt: ""
+      stream: false
+      reasoning_effort: "no_think"
+
+  # ---------- OpenAI 兼容协议（DeepSeek / Kimi / GLM / Qwen / Hy4 等通用） ----------
+  # 常用 api_base：
+  #   DeepSeek:  https://api.deepseek.com/v1
+  #   Kimi:      https://api.moonshot.cn/v1
+  #   GLM:       https://open.bigmodel.cn/api/paas/v4
+  #   Qwen:      https://dashscope.aliyuncs.com/compatible-mode/v1
+  openai_compatible_example:
+    provider: openai_compatible
+    model: ""                 # TODO: 填入模型 ID，例如 deepseek-chat
+    api_base: ""              # TODO: 对应厂商的兼容协议入口（必填）
+    api_key: ""
+    temperature: 0.2
+    max_tokens: 4096
+    batch_size: 16
+
+  # ---------- Anthropic Claude（原生 endpoint） ----------
+  # 常用 model：claude-3-5-sonnet-20241022 / claude-3-5-haiku-20241022
+  # 默认 api_base：https://api.anthropic.com（可留空走官方）
+  claude_example:
+    provider: anthropic
+    model: ""                 # TODO: 填入 Claude 模型 ID
+    api_base: ""              # 走官方可留空；企业网关填完整 URL
+    api_key: ""
+    temperature: 0.2
+    max_tokens: 4096
+    batch_size: 8

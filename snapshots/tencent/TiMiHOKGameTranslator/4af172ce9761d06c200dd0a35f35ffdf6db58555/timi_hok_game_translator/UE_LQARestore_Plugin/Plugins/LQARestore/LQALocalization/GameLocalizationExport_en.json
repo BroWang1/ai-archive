@@ -1,0 +1,127 @@
+{
+    "ST_Gallery_Title": {
+        "TextKey": "ST_Gallery_Title",
+        "SourceStr": "LQA 验证画廊 (UE5)",
+        "translation": "LQA Verification Gallery (UE5)"
+    },
+    "ST_Gallery_Title_UE4": {
+        "TextKey": "ST_Gallery_Title_UE4",
+        "SourceStr": "LQA 验证画廊 (UE4)",
+        "translation": "LQA Verification Gallery (UE4)"
+    },
+    "ST_Gallery_Section_Text": {
+        "TextKey": "ST_Gallery_Section_Text",
+        "SourceStr": "一、文本类控件",
+        "translation": "1. Text Widgets"
+    },
+    "ST_Gallery_Section_Input": {
+        "TextKey": "ST_Gallery_Section_Input",
+        "SourceStr": "二、交互/输入类控件",
+        "translation": "2. Interactive / Input Widgets"
+    },
+    "ST_Gallery_Section_Present": {
+        "TextKey": "ST_Gallery_Section_Present",
+        "SourceStr": "三、展示类控件",
+        "translation": "3. Presentation Widgets"
+    },
+    "ST_Gallery_Section_Layout": {
+        "TextKey": "ST_Gallery_Section_Layout",
+        "SourceStr": "四、布局容器",
+        "translation": "4. Layout Containers"
+    },
+    "ST_Gallery_TextBlockSample": {
+        "TextKey": "ST_Gallery_TextBlockSample",
+        "SourceStr": "这是 TextBlock 示例",
+        "translation": "This is a TextBlock sample"
+    },
+    "ST_Gallery_RichTextBlockSample": {
+        "TextKey": "ST_Gallery_RichTextBlockSample",
+        "SourceStr": "这是 <Name>RichTextBlock</> <Accent>富文本</> 示例",
+        "translation": "This is a <Name>RichTextBlock</> <Accent>rich text</> sample"
+    },
+    "ST_Gallery_MultiLineText": {
+        "TextKey": "ST_Gallery_MultiLineText",
+        "SourceStr": "MultiLineEditableText\n多行文本",
+        "translation": "MultiLineEditableText\nMulti-line text"
+    },
+    "ST_Gallery_MultiLineTextBox": {
+        "TextKey": "ST_Gallery_MultiLineTextBox",
+        "SourceStr": "MultiLineEditableTextBox\n多行文本框",
+        "translation": "MultiLineEditableTextBox\nMulti-line text box"
+    },
+    "ST_Gallery_Hint_EditableText": {
+        "TextKey": "ST_Gallery_Hint_EditableText",
+        "SourceStr": "EditableText 单行输入",
+        "translation": "EditableText single-line input"
+    },
+    "ST_Gallery_Hint_EditableTextBox": {
+        "TextKey": "ST_Gallery_Hint_EditableTextBox",
+        "SourceStr": "EditableTextBox 单行输入框",
+        "translation": "EditableTextBox single-line input box"
+    },
+    "ST_Gallery_BorderContent": {
+        "TextKey": "ST_Gallery_BorderContent",
+        "SourceStr": "Border 内容",
+        "translation": "Border Content"
+    },
+    "ST_Gallery_OverlayStack": {
+        "TextKey": "ST_Gallery_OverlayStack",
+        "SourceStr": "Overlay 叠加",
+        "translation": "Overlay Stack"
+    },
+    "ST_Gallery_ScaleBoxContent": {
+        "TextKey": "ST_Gallery_ScaleBoxContent",
+        "SourceStr": "ScaleBox 缩放内容",
+        "translation": "ScaleBox scaled content"
+    },
+    "ST_Gallery_SafeZoneContent": {
+        "TextKey": "ST_Gallery_SafeZoneContent",
+        "SourceStr": "SafeZone 内容",
+        "translation": "SafeZone Content"
+    },
+    "ST_Gallery_Section_Bug": {
+        "TextKey": "ST_Gallery_Section_Bug",
+        "SourceStr": "五、显示性质 BUG",
+        "translation": "5. Display Defects"
+    },
+    "ST_Gallery_Bug_OverflowSingleLine": {
+        "TextKey": "ST_Gallery_Bug_OverflowSingleLine",
+        "SourceStr": "这段文本故意不换行，会冲出左侧固定区域并超出舞台边界，用于检测文本溢出与重叠",
+        "translation": "This text does not wrap on purpose and overflows the stage boundary, verifying overflow detection"
+    },
+    "ST_Gallery_Bug_OverflowMultiLine": {
+        "TextKey": "ST_Gallery_Bug_OverflowMultiLine",
+        "SourceStr": "换行后行数超出高度，越出舞台底部",
+        "translation": "Wrapped lines exceed the height"
+    },
+    "ST_Gallery_Bug_FontSize": {
+        "TextKey": "ST_Gallery_Bug_FontSize",
+        "SourceStr": "字号 36 的文本",
+        "translation": "Font 36"
+    },
+    "ST_Gallery_Bug_ButtonOverflow": {
+        "TextKey": "ST_Gallery_Bug_ButtonOverflow",
+        "SourceStr": "Confirm and Continue With All Changes",
+        "translation": "Confirm and Continue With All Changes"
+    },
+    "ST_Gallery_Bug_LineHeight": {
+        "TextKey": "ST_Gallery_Bug_LineHeight",
+        "SourceStr": "行高被压缩到 30%，两行文本会互相叠压，用于检测单个文本节点内部的重叠",
+        "translation": "Line height is reduced to 30%, so adjacent lines overlap inside a single text node"
+    },
+    "ST_Gallery_Bug_Invisible": {
+        "TextKey": "ST_Gallery_Bug_Invisible",
+        "SourceStr": "这段文本与底色同色，应完全不可见",
+        "translation": "This text uses the same color as the background and should be invisible"
+    },
+    "ST_Gallery_Bug_TileViewOverflow": {
+        "TextKey": "ST_Gallery_Bug_TileViewOverflow",
+        "SourceStr": "OverflowingTileViewItemTextWithoutAnySpaces",
+        "translation": "OverflowingTileViewItemTextWithoutAnySpaces"
+    },
+    "ST_Gallery_Bug_Truncate": {
+        "TextKey": "ST_Gallery_Bug_Truncate",
+        "SourceStr": "这段文本超出固定宽度后被硬截断，末尾没有省略号，用于检测截断识别",
+        "translation": "This text is hard-clipped at the fixed width with no ellipsis, verifying truncation detection"
+    }
+}

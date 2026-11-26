@@ -1,0 +1,127 @@
+{
+    "ST_Gallery_Title": {
+        "TextKey": "ST_Gallery_Title",
+        "SourceStr": "LQA 验证画廊 (UE5)",
+        "translation": "LQA 검증 갤러리 (UE5)"
+    },
+    "ST_Gallery_Title_UE4": {
+        "TextKey": "ST_Gallery_Title_UE4",
+        "SourceStr": "LQA 验证画廊 (UE4)",
+        "translation": "LQA 검증 갤러리 (UE4)"
+    },
+    "ST_Gallery_Section_Text": {
+        "TextKey": "ST_Gallery_Section_Text",
+        "SourceStr": "一、文本类控件",
+        "translation": "1. 텍스트 위젯"
+    },
+    "ST_Gallery_Section_Input": {
+        "TextKey": "ST_Gallery_Section_Input",
+        "SourceStr": "二、交互/输入类控件",
+        "translation": "2. 인터랙티브/입력 위젯"
+    },
+    "ST_Gallery_Section_Present": {
+        "TextKey": "ST_Gallery_Section_Present",
+        "SourceStr": "三、展示类控件",
+        "translation": "3. 프레젠테이션 위젯"
+    },
+    "ST_Gallery_Section_Layout": {
+        "TextKey": "ST_Gallery_Section_Layout",
+        "SourceStr": "四、布局容器",
+        "translation": "4. 레이아웃 컨테이너"
+    },
+    "ST_Gallery_TextBlockSample": {
+        "TextKey": "ST_Gallery_TextBlockSample",
+        "SourceStr": "这是 TextBlock 示例",
+        "translation": "이것은 TextBlock 샘플입니다"
+    },
+    "ST_Gallery_RichTextBlockSample": {
+        "TextKey": "ST_Gallery_RichTextBlockSample",
+        "SourceStr": "这是 <Name>RichTextBlock</> <Accent>富文本</> 示例",
+        "translation": "이것은 <Name>RichTextBlock</> <Accent>리치 텍스트</> 샘플입니다"
+    },
+    "ST_Gallery_MultiLineText": {
+        "TextKey": "ST_Gallery_MultiLineText",
+        "SourceStr": "MultiLineEditableText\n多行文本",
+        "translation": "MultiLineEditableText\n여러 줄 텍스트"
+    },
+    "ST_Gallery_MultiLineTextBox": {
+        "TextKey": "ST_Gallery_MultiLineTextBox",
+        "SourceStr": "MultiLineEditableTextBox\n多行文本框",
+        "translation": "MultiLineEditableTextBox\n여러 줄 텍스트 상자"
+    },
+    "ST_Gallery_Hint_EditableText": {
+        "TextKey": "ST_Gallery_Hint_EditableText",
+        "SourceStr": "EditableText 单行输入",
+        "translation": "EditableText 한 줄 입력"
+    },
+    "ST_Gallery_Hint_EditableTextBox": {
+        "TextKey": "ST_Gallery_Hint_EditableTextBox",
+        "SourceStr": "EditableTextBox 单行输入框",
+        "translation": "EditableTextBox 한 줄 입력 상자"
+    },
+    "ST_Gallery_BorderContent": {
+        "TextKey": "ST_Gallery_BorderContent",
+        "SourceStr": "Border 内容",
+        "translation": "Border 콘텐츠"
+    },
+    "ST_Gallery_OverlayStack": {
+        "TextKey": "ST_Gallery_OverlayStack",
+        "SourceStr": "Overlay 叠加",
+        "translation": "Overlay 스택"
+    },
+    "ST_Gallery_ScaleBoxContent": {
+        "TextKey": "ST_Gallery_ScaleBoxContent",
+        "SourceStr": "ScaleBox 缩放内容",
+        "translation": "ScaleBox 크기 조정 콘텐츠"
+    },
+    "ST_Gallery_SafeZoneContent": {
+        "TextKey": "ST_Gallery_SafeZoneContent",
+        "SourceStr": "SafeZone 内容",
+        "translation": "SafeZone 콘텐츠"
+    },
+    "ST_Gallery_Section_Bug": {
+        "TextKey": "ST_Gallery_Section_Bug",
+        "SourceStr": "五、显示性质 BUG",
+        "translation": "5. 표시 관련 버그"
+    },
+    "ST_Gallery_Bug_OverflowSingleLine": {
+        "TextKey": "ST_Gallery_Bug_OverflowSingleLine",
+        "SourceStr": "这段文本故意不换行，会冲出左侧固定区域并超出舞台边界，用于检测文本溢出与重叠",
+        "translation": "이 텍스트는 의도적으로 줄바꿈하지 않아 왼쪽 고정 영역을 벗어나 스테이지 경계를 초과합니다. 텍스트 넘침과 겹침 감지에 사용됩니다."
+    },
+    "ST_Gallery_Bug_OverflowMultiLine": {
+        "TextKey": "ST_Gallery_Bug_OverflowMultiLine",
+        "SourceStr": "换行后行数超出高度，越出舞台底部",
+        "translation": "줄바꿈 후 줄 수가 높이를 초과하여 하단 기준 줄을 덮습니다."
+    },
+    "ST_Gallery_Bug_FontSize": {
+        "TextKey": "ST_Gallery_Bug_FontSize",
+        "SourceStr": "字号 36 的文本",
+        "translation": "글자 크기 36 텍스트"
+    },
+    "ST_Gallery_Bug_ButtonOverflow": {
+        "TextKey": "ST_Gallery_Bug_ButtonOverflow",
+        "SourceStr": "Confirm and Continue With All Changes",
+        "translation": "Confirm and Continue With All Changes"
+    },
+    "ST_Gallery_Bug_LineHeight": {
+        "TextKey": "ST_Gallery_Bug_LineHeight",
+        "SourceStr": "行高被压缩到 30%，两行文本会互相叠压，用于检测单个文本节点内部的重叠",
+        "translation": "줄 높이가 30%로 압축되어 두 줄의 텍스트가 서로 겹칩니다. 단일 텍스트 노드 내부의 겹침 감지에 사용됩니다."
+    },
+    "ST_Gallery_Bug_Invisible": {
+        "TextKey": "ST_Gallery_Bug_Invisible",
+        "SourceStr": "这段文本与底色同色，应完全不可见",
+        "translation": "이 텍스트는 배경색과 같은 색이므로 완전히 보이지 않아야 합니다."
+    },
+    "ST_Gallery_Bug_TileViewOverflow": {
+        "TextKey": "ST_Gallery_Bug_TileViewOverflow",
+        "SourceStr": "OverflowingTileViewItemTextWithoutAnySpaces",
+        "translation": "OverflowingTileViewItemTextWithoutAnySpaces"
+    },
+    "ST_Gallery_Bug_Truncate": {
+        "TextKey": "ST_Gallery_Bug_Truncate",
+        "SourceStr": "这段文本超出固定宽度后被硬截断，末尾没有省略号，用于检测截断识别",
+        "translation": "이 텍스트는 고정 너비를 초과하면 잘리고 끝에 줄임표가 없습니다. 잘림 감지에 사용됩니다."
+    }
+}

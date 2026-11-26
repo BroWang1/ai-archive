@@ -1,0 +1,112 @@
+﻿# =============================================================================
+# TiMi_HOK_Game_Translator — 主运行配置（示例）
+# =============================================================================
+# 用法：
+#   python main.py run -c conf/config.yaml --language vi --stage trunk_week
+#
+# 规范：
+#   本文件只保留**非敏感的 profile 结构**（URL、项目名、模型 profile 名等）。
+#   所有敏感字段（SVN 密码、Phrase/Crowdin token、企业微信 webhook key、LLM API key）
+#   走环境变量注入，字段保留为空字符串 "" 并注明对应环境变量名。
+# =============================================================================
+
+project_code: TiMi_HOK_Game_Translator_e2e
+
+# 当前阶段：exp_week | trunk_week | pub_week | hot_week（可被 --stage 覆盖）
+stage: trunk_week
+
+# 源语种恒定为简体中文；目标语种由各语种 profile（conf/languages/<lang>.yaml）
+# 的 target_locale 决定，命令行 `--language vi` 会定位到 conf/languages/vi.yaml。
+source_locale: zh-CN
+
+# ------------------------------ 版本控制 ------------------------------
+# 支持 type: local | svn | perforce | git（更多示例见 docs/configuration.md 的"VCS 配置示例"）。
+# * local  —— 无版本控制，直接读写 local_path 下的本地文件；适合单机 / demo。
+# * svn / git / perforce —— 真实项目使用，必须填 url。
+# local_path 可填绝对路径（推荐 local 场景）或相对路径（会自动拼接 workspace 根）。
+vcs:
+  type: local
+  url: ""                        # TODO: 使用 svn/git/perforce 时必填，local 可留空
+  revision: HEAD
+  local_path: ""                 # TODO: 本地工作副本路径，例如 svn/test_translation 或 D:/workspace/game-i18n
+  # 敏感字段：**请通过环境变量注入**，不要把真实账号密码写进本文件。
+  #   GAME_TRANS_TOOLCHAIN__VCS__USERNAME / GAME_TRANS_TOOLCHAIN__VCS__PASSWORD
+  username: ""
+  password: ""
+  cli_timeout_seconds: 600
+  default_commit_message: "[TiMi_HOK_Game_Translator] commit translation data"
+
+# ------------------------------ 本地化源 ------------------------------
+# 各语种具体的 source.path 一般在 conf/languages/<lang>.yaml 中覆盖；
+# 这里给一个全局默认值供新建语种借鉴。路径相对于 vcs.local_path（VCS 工作副本根）。
+# 约定：fixtures 下按语种拆子目录（``fixtures/<lang>/99.incr.<fmt>``），
+# 文件名使用英文避免 cmd.exe / svn.exe 中文 argv 编码坑。
+source:
+  format: json
+  path: ""                      # TODO: 填入源文件相对路径，例如 vi/json/99.incr.json
+  encoding: utf-8
+
+# -------------------------------- LLM --------------------------------
+# LLM 实际参数集中在 conf/llm.yaml 管理（支持多 profile）。
+# 这里按名引用 conf/llm.yaml 的 profiles.<name>；单个语种可在
+# conf/languages/<lang>.yaml 的 llm_profile 覆盖。
+# 默认指向本地零依赖的 echo provider，首次启动无需任何凭据即可跑通流程。
+llm_profile: echo
+
+# ------------------------- 翻译 / 审核平台 -------------------------
+# 支持 type: crowdin | phrase（更多平台见 docs/extending_platforms.md）。
+# 各语种可在 conf/languages/<lang>.yaml 的 reviews.* 覆盖 project_id/project_name。
+# 敏感字段均通过环境变量注入，字段保留为空字符串。
+#
+# 示例一：Crowdin（当前启用）
+#   环境变量：GAME_TRANS_TOOLCHAIN__PLATFORM__API_TOKEN  —— Crowdin Personal Access Token
+platform:
+  type: crowdin
+  api_base: "https://api.crowdin.com/api/v2"
+  api_token: ""                 # 通过环境变量 GAME_TRANS_TOOLCHAIN__PLATFORM__API_TOKEN 注入
+  project_id: ""                # TODO: 填入 Crowdin 项目 ID
+  extra: {}
+
+# 示例二：Phrase TMS（原 Memsource）—— 如需启用，注释掉上面的 crowdin 块，取消下面注释
+#   认证模式（推荐 Subject Token Exchange）：
+#     环境变量：GAME_TRANS_TOOLCHAIN__PLATFORM__SUBJECT_TOKEN
+#       - 来源：Phrase UI → Settings → API tokens → Generate token
+#       - 适配器会用 subject_token 向 IDM 端点换取短期 Bearer，自动缓存与刷新
+#     环境变量：GAME_TRANS_TOOLCHAIN__PLATFORM__API_TOKEN   —— 仅遗留 ApiToken 模式使用
+#   区域（EU / US 二选一）：extra.region: eu | us；默认 eu
+#   私有部署：可用 extra.idm_base / api_base 覆盖
+# platform:
+#   type: phrase
+#   api_base: "https://cloud.memsource.com/web/api2"
+#   api_token: ""                 # 遗留 ApiToken 模式使用，subject_token 模式留空
+#   project_id: ""                # Phrase project UID（URL /web/project2/show/<UID>）
+#   extra:
+#     subject_token: ""           # 走环境变量 GAME_TRANS_TOOLCHAIN__PLATFORM__SUBJECT_TOKEN
+#     region: eu                  # EU 账户走 eu.phrase.com，US 账户走 us.phrase.com
+#     # idm_base: "https://eu.phrase.com"   # 私有部署覆盖
+#     # workflow_step_uid: ""              # 把新建 job 绑定到指定 workflow step
+
+# ------------------------------ 通知 ------------------------------
+# 支持 type: none | wecom（企业微信群机器人）。
+# wecom 的 webhook 请通过环境变量注入 GAME_TRANS_TOOLCHAIN__NOTIFICATION__WEBHOOK
+notification:
+  type: none                   # none | wecom；wecom 时填 webhook
+  webhook: ""                  # 通过环境变量 GAME_TRANS_TOOLCHAIN__NOTIFICATION__WEBHOOK 注入 webhook 完整 URL
+  mentioned: []
+
+# ------------------------------ 语种 profile 目录 ------------------------------
+# attach_language_profiles 会扫描该目录下所有 *.yaml / *.json
+languages_dir: conf/languages
+
+# ------------------------------ 工作区 ------------------------------
+workspace:
+  root: ""                     # 空 → ${CWD}/workspace
+  subdir: workspace
+  state_filename: workflow_state.json
+
+# ------------------------------ 日志 ------------------------------
+logging:
+  level: INFO
+  directory: logs
+  filename: TiMi_HOK_Game_Translator.log
+  console: true

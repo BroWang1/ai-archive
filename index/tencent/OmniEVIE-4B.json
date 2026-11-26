@@ -1,0 +1,228 @@
+{
+  "repo_id": "tencent/OmniEVIE-4B",
+  "canonical_org": "tencent",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "a623d90210e3fb06f6acc249b5ddbff9d4efc7f6",
+      "captured_at": "2026-11-26T17:54:30Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/tencent/OmniEVIE-4B?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"1fc2-yb6/hTy/A7gHK+pG+AEwjsMIw2o\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "apache-2.0",
+        "file": "LICENSE.txt",
+        "sha256": "a5e9e8d6ec940b3c936f3cec9d47e2ec7220b32c8a7d4b27e42ef85900d3ae15",
+        "redistributable": true,
+        "obligations": [],
+        "freedom": "free",
+        "freedom_note": "apache-2.0 with LICENSE file verified in snapshot"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 646,
+          "sha256": "cd031548d923d0005b554770ec196d3c061a63a8a94469733bc328b50718d5f4",
+          "kind": "snapshot"
+        },
+        {
+          "path": "1_Dense/config.json",
+          "size": 225,
+          "sha256": "74695ed0f2339c75b8759a2dcdcc84f035d54837d52aad039dc21c9a4e554213",
+          "kind": "snapshot"
+        },
+        {
+          "path": "1_Dense/model.safetensors",
+          "size": 10490024,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "2_Normalize/config.json",
+          "size": 93,
+          "sha256": "364b410cb57b16a9bd3468fbb43d7d7595000c8c6a8f8243beb8517ac87f035e",
+          "kind": "snapshot"
+        },
+        {
+          "path": "3_MultiVectorMask/config.json",
+          "size": 111,
+          "sha256": "082bf71c2d0120bbecbc594396434f12286a9316de067167096a7e91f033f515",
+          "kind": "snapshot"
+        },
+        {
+          "path": "LICENSE.txt",
+          "size": 24125,
+          "sha256": "a5e9e8d6ec940b3c936f3cec9d47e2ec7220b32c8a7d4b27e42ef85900d3ae15",
+          "kind": "snapshot"
+        },
+        {
+          "path": "NOTICE",
+          "size": 718,
+          "sha256": "9178bc3e4f743771332ca06a343c9975efdbbe319fca7e1b2e4eda371015da34",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 17818,
+          "sha256": "1773c75f67badba8770d8d067c05fdf17bdd16a171a580020f318a35cf9bfd03",
+          "kind": "snapshot"
+        },
+        {
+          "path": "SHA256SUMS",
+          "size": 508,
+          "sha256": "d958fc58a0d9806133d14e683b2f53b54498b4a300ebebcafa8654e0f38013ba",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/fig1_overview.png",
+          "size": 269967,
+          "sha256": "f9292fe76ee5976515f1b859f80d227957f9431b269f2c16b94bfaa8d017bde1",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/fig4_sthac.png",
+          "size": 293163,
+          "sha256": "a7639807102e1a54cb10dd836ef8ebe8ad31cb7e7a96b0cc5f81af87c999b346",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/fig5_three_stage.png",
+          "size": 166411,
+          "sha256": "5f70b07bb51b0caf6b7d21892754aa478e09a1d5099d9d5f477f96f05bfa1a4c",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/fig7_alignment.png",
+          "size": 588333,
+          "sha256": "bde3db65383f6833b57d69aca376f3a2c4ff835ed79a9da4697a35949772220a",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/fig8_localization.png",
+          "size": 1354892,
+          "sha256": "e3d23ab996e94a2c92960bc4a85eebdb897968b1e99e4f6de58735abc46aa2c0",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/fig9_video_cases.png",
+          "size": 2271805,
+          "sha256": null,
+          "kind": "media-no-snapshot"
+        },
+        {
+          "path": "assets/hero_banner.png",
+          "size": 86536,
+          "sha256": "a2c4858abf9c5478477b68aa08c5bdc47c5c524688435809e511cde8448bb838",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/ima_logo.png",
+          "size": 8519,
+          "sha256": "af5a8c68aa28bba317c6614871063f1b1ffc25dfbc0b22092580762363178171",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/mmeb_leaderboard.png",
+          "size": 216835,
+          "sha256": "76f7255bb703c847ead3b52ce6557b1c194167bcb0912f57fd35f3cec39fc7b2",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/quickstart_output.png",
+          "size": 748658,
+          "sha256": "e42a666a707b127b9b1947f7a7391e887bdbb51142114b1dd194b005692debac",
+          "kind": "snapshot"
+        },
+        {
+          "path": "assets/youtu_mark.png",
+          "size": 6883,
+          "sha256": "1357c56f60602a34b5263a91b83df9b6c1478c6bd5e373854843f74d27414965",
+          "kind": "snapshot"
+        },
+        {
+          "path": "chat_template.jinja",
+          "size": 1956,
+          "sha256": "96bea55d993af1ddc0ee265e8fa7e64be48e371b3bec45d15940ac65d09d2335",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 3036,
+          "sha256": "4cbb61b2d54ae7e6aa50781ece7b6e46ffae2f72ae28bdef1ebc4d8ed6e9065b",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config_sentence_transformers.json",
+          "size": 422,
+          "sha256": "b8bf33200d8ce7ffed25830c34b5bb68721498b9c56f35937e5e41bcf8d03c38",
+          "kind": "snapshot"
+        },
+        {
+          "path": "model.safetensors",
+          "size": 9089106240,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "modules.json",
+          "size": 563,
+          "sha256": "f2b07682a53da80632dc26b168fbc689f35232fdf77403e45ce5508d3f2b609a",
+          "kind": "snapshot"
+        },
+        {
+          "path": "processor_config.json",
+          "size": 1217,
+          "sha256": "c6420c5c83b775ef54535f4f88998b989bb3b2748cf71d66d0aac36122e86978",
+          "kind": "snapshot"
+        },
+        {
+          "path": "query_gate.safetensors",
+          "size": 1412,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "sentence_bert_config.json",
+          "size": 858,
+          "sha256": "b26e1eba8cf59974dbb7de6ffc071792c74f3dff956db2d86a287a69a8b1260a",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer.json",
+          "size": 19989325,
+          "sha256": "06b9509352d2af50381ab2247e083b80d32d5c0aba91c272ca9ff729b6a0e523",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 1149,
+          "sha256": "de0f3d44f2a4c4bb415754f6d59f65b15cbdc6ab788892992665775e319951d3",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 9125652448,
+      "weight_bytes": 9099597676,
+      "snapshot_dir": "snapshots/tencent/OmniEVIE-4B/a623d90210e3fb06f6acc249b5ddbff9d4efc7f6/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

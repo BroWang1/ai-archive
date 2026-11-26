@@ -1,0 +1,168 @@
+{
+  "repo_id": "BAAI/Innata-0-ACWM",
+  "canonical_org": "BAAI",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "3d3af9c349e540cac389999966b81dc4bd8602b7",
+      "captured_at": "2026-11-26T17:59:08Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/BAAI/Innata-0-ACWM?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"398d-VmQ3k1DvsujDW+00GpwcMj7TObw\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": null,
+        "file": null,
+        "sha256": null,
+        "redistributable": false,
+        "obligations": [],
+        "freedom": "unlicensed",
+        "freedom_note": "No license tag and no file \u2014 cannot redistribute"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1519,
+          "sha256": "11ad7efa24975ee4b0c3c3a38ed18737f0658a5f75a0a96787b576a78a023361",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 341,
+          "sha256": "f5d88f8e33c0e7f022accac44e5958d3dce2c87da7d0236a3c9962bbe7645d67",
+          "kind": "snapshot"
+        },
+        {
+          "path": "SHA256SUMS",
+          "size": 1620,
+          "sha256": "06d0d469b1368169d82e92dc863f8ea15071ec7534c1b257acbc274322e367f0",
+          "kind": "snapshot"
+        },
+        {
+          "path": "chat_template.json",
+          "size": 5499,
+          "sha256": "5c72a170d2a4a1a3bc5adad2e689ae28138a9700e5b8c96c0266331e86c0acce",
+          "kind": "snapshot"
+        },
+        {
+          "path": "checkpoint.json",
+          "size": 194,
+          "sha256": "f34a2ab72115b689671279003ec5279f566f1e7df736501642cb43f26a88b452",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 7116,
+          "sha256": "17d72f962127bca2bf5144468a127f9445fd3d876d7819c871853139176652f4",
+          "kind": "snapshot"
+        },
+        {
+          "path": "merges.txt",
+          "size": 1671839,
+          "sha256": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3",
+          "kind": "snapshot"
+        },
+        {
+          "path": "model-00001-of-00007.safetensors",
+          "size": 4902252400,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00002-of-00007.safetensors",
+          "size": 4999868488,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00003-of-00007.safetensors",
+          "size": 4932723792,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00004-of-00007.safetensors",
+          "size": 4983089224,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00005-of-00007.safetensors",
+          "size": 4949503184,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00006-of-00007.safetensors",
+          "size": 4261648312,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00007-of-00007.safetensors",
+          "size": 2470127448,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model.safetensors.index.json",
+          "size": 125205,
+          "sha256": "6da2dcb77a69f1135c68846f9b102674279d94b05fb01dffa3d188fc89ce3c5b",
+          "kind": "snapshot"
+        },
+        {
+          "path": "preprocessor_config.json",
+          "size": 390,
+          "sha256": "27225450ac9c6529872ee1924fcb0962ff5634834f817040f444118116f4e516",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer.json",
+          "size": 7032403,
+          "sha256": "a5d85b6dcc535e6b93115a9ef287e6132fdbf30270da6218194ba742261173c7",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 10868,
+          "sha256": "c2da771801886ad9ae98181793ffd3dfb7f1af30f6f7c6a4e15d7dbba52e2399",
+          "kind": "snapshot"
+        },
+        {
+          "path": "video_preprocessor_config.json",
+          "size": 385,
+          "sha256": "7768af27c1fafa9cc9011c1dc20067e03f8915e03b63504550e11d5066986d13",
+          "kind": "snapshot"
+        },
+        {
+          "path": "vocab.json",
+          "size": 2776833,
+          "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 31510847060,
+      "weight_bytes": 31499212848,
+      "snapshot_dir": "snapshots/BAAI/Innata-0-ACWM/3d3af9c349e540cac389999966b81dc4bd8602b7/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}

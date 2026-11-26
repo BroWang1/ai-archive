@@ -1,0 +1,17 @@
+{
+  "__version__": {
+    "pytorch": "2.10.0+cu128",
+    "sentence_transformers": "6.3.0",
+    "transformers": "5.22.1"
+  },
+  "default_prompt_name": null,
+  "model_type": "MultiVectorEncoder",
+  "prompts": {
+    "query_video": "Retrieve the most relevant video for the user's request."
+  },
+  "similarity_fn_name": "maxsim",
+  "requirements": {
+    "sentence-transformers": ">=6.3.0",
+    "transformers": ">=5.13.1"
+  }
+}

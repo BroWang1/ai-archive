@@ -1,0 +1,98 @@
+.adminui-main {
+  position: relative;
+}
+
+.fs-form-wrapper {
+  .fs-form-header {
+    .fs-form-header-left {
+      justify-items: flex-start;
+      font-weight: bold;
+      font-size: medium;
+    }
+
+    .fs-form-header-action {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
+
+.fs-form {
+  // 折叠面板
+  .el-collapse-item {
+    .el-collapse-item__header {
+      font-size: 14px;
+    }
+    // 折叠面板不设间距
+    .el-collapse-item__content {
+      padding: 0;
+      padding-bottom: 21px;
+    }
+  }
+}
+
+.fs-file-uploader .el-upload--picture-card i {
+  margin-top: 0;
+}
+// 弹窗
+.fs-form-wrapper {
+  .el-dialog__header {
+    padding: 0 0 20px;
+
+    // 全屏按钮
+    .fs-form-header-action {
+      position: absolute;
+      top: 4.5px;
+      right: 0;
+      width: 108px;
+      height: 45px;
+      padding: 0;
+      font-size: var(--el-message-close-size, 15px);
+      color: var(--el-color-info);
+      cursor: pointer;
+      background: transparent;
+      border: none;
+      outline: none;
+
+      :hover {
+        color: var(--el-color-primary);
+      }
+    }
+
+    // 关闭按钮
+    .el-dialog__headerbtn {
+      right: 13px;
+      width: 30px;
+    }
+  }
+}
+// 操作列
+.fs-row-handle {
+  // 按钮间距
+  .el-button + .el-button {
+    margin-left: 6px;
+  }
+}
+.fs-row-handle > * {
+  align-items: center;
+}
+
+// container 不要最小高度
+.no-min-height.fs-crud-container {
+  min-height: 0;
+}
+
+// 图片自由比例展示
+.pic-free {
+  // 自带的裁剪上传
+  .fs-cropper-uploader .image-list .image-item,
+  .fs-cropper-uploader .image-list .image-item .image {
+    width: auto;
+    min-width: 100px;
+
+    img {
+      max-height: 100px;
+    }
+  }
+}

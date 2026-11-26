@@ -1,0 +1,9 @@
+{
+    "quantization": {
+        "exclude_modules": [
+            "lm_head"
+        ],
+        "kv_cache_quant_algo": null,
+        "quant_algo": "FP8"
+    }
+}

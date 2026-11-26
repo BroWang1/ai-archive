@@ -1,0 +1,174 @@
+{
+  "repo_id": "tencent/Hy-MT3-7B",
+  "canonical_org": "tencent",
+  "status": "live",
+  "captures": [
+    {
+      "revision": "38d6c3c31d6b4dbdfc208e0621b822ae7bf6aeb2",
+      "captured_at": "2026-11-26T17:53:47Z",
+      "provenance": {
+        "endpoint": "https://huggingface.co/api/models/tencent/Hy-MT3-7B?blobs=true",
+        "tool": "ingest.py/0.1",
+        "etag": "W/\"17f6-Suw1hMIB3cygnraGdn8pdJK+Ld0\"",
+        "last_modified": null
+      },
+      "license": {
+        "tag": "apache-2.0",
+        "file": "LICENSE.txt",
+        "sha256": "974b62424d5627567283a4808181293e3ea53894cea7e75341d8e9f5f1b874cc",
+        "redistributable": true,
+        "obligations": [],
+        "freedom": "free",
+        "freedom_note": "apache-2.0 with LICENSE file verified in snapshot"
+      },
+      "gate_terms_sha256": null,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1802,
+          "sha256": "43f1968783241ceef6b26278b3fcf0fe1a439d6054b3ffe45a20e6c971446078",
+          "kind": "snapshot"
+        },
+        {
+          "path": "LICENSE.txt",
+          "size": 9673,
+          "sha256": "974b62424d5627567283a4808181293e3ea53894cea7e75341d8e9f5f1b874cc",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README.md",
+          "size": 20652,
+          "sha256": "4524bd0c092e5564fbbf34def48536144eaf5b3e5307135d8a651f00a494d3fa",
+          "kind": "snapshot"
+        },
+        {
+          "path": "README_CN.md",
+          "size": 19536,
+          "sha256": "d02123402ed673eaab2bbb164f2d6ce0dbf98b410565be0d45e55d5bac004667",
+          "kind": "snapshot"
+        },
+        {
+          "path": "chat_template.jinja",
+          "size": 662,
+          "sha256": "788ac16c5d7bfefc28655928ad524c8f378a44cb24d24fb125d6a5859b167677",
+          "kind": "snapshot"
+        },
+        {
+          "path": "config.json",
+          "size": 1349,
+          "sha256": "fde831b202d5e43429c43a425d9d3d139e9453502a2dd84f64e362fa0dac983a",
+          "kind": "snapshot"
+        },
+        {
+          "path": "generation_config.json",
+          "size": 217,
+          "sha256": "f786ed6734246caf78549360455c8bd56f6a8dae891a8e276235edb4a02bef47",
+          "kind": "snapshot"
+        },
+        {
+          "path": "imgs/efficiency.png",
+          "size": 295271,
+          "sha256": "c261d47a76e8826182ffd770c178c0130cb70fb8d72644b1d82990b02f44cf95",
+          "kind": "snapshot"
+        },
+        {
+          "path": "imgs/efficiency_zh.png",
+          "size": 315301,
+          "sha256": "1a44e636cadfdc042eaa097f20713f97aec2bb8777f35e860a1a8917c59689f1",
+          "kind": "snapshot"
+        },
+        {
+          "path": "imgs/logo-en.png",
+          "size": 65860,
+          "sha256": "0cd56e2438d4c91a5d529b3102f800de5f17c768f73caaf4848a864e7b741080",
+          "kind": "snapshot"
+        },
+        {
+          "path": "imgs/logo-zh.png",
+          "size": 69906,
+          "sha256": "1e9a9aea04658439e1af23db01c4cd2c6c6765fd1efd1a594c7ffdd312f31bb6",
+          "kind": "snapshot"
+        },
+        {
+          "path": "imgs/main_result.png",
+          "size": 154388,
+          "sha256": "779b8551e22b983ef61ab83c2830709de95b8a526bec6b160710acb2b905bfe9",
+          "kind": "snapshot"
+        },
+        {
+          "path": "imgs/main_result_zh.png",
+          "size": 156721,
+          "sha256": "134c7f52115bd3c6f6e12d53d69435ed1e465043b99f2abfdfd665925aef4452",
+          "kind": "snapshot"
+        },
+        {
+          "path": "model-00001-of-00004.safetensors",
+          "size": 4975984632,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00002-of-00004.safetensors",
+          "size": 4915924424,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00003-of-00004.safetensors",
+          "size": 4915924448,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model-00004-of-00004.safetensors",
+          "size": 201344544,
+          "sha256": null,
+          "kind": "weights"
+        },
+        {
+          "path": "model.safetensors.index.json",
+          "size": 29696,
+          "sha256": "2615f93095f7c171938910750def0d67c32d1bd92fbbe9dfcfecb9faa5e34392",
+          "kind": "snapshot"
+        },
+        {
+          "path": "special_tokens_map.json",
+          "size": 431,
+          "sha256": "c6571f2ee67c36fa93d7f688ee6fd43f5b84784e895f3e6a4eb8c2657379758e",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer.json",
+          "size": 16388221,
+          "sha256": "4185389a69284fdd3ebf737c6120bbeee36cbed9763151fa5bac5986a39e05d4",
+          "kind": "snapshot"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 37763,
+          "sha256": "1fffdb809549222938f4a732645dd984c7c0b2973d592c2d01e05425274317da",
+          "kind": "snapshot"
+        }
+      ],
+      "total_bytes": 15026745497,
+      "weight_bytes": 15009178048,
+      "snapshot_dir": "snapshots/tencent/Hy-MT3-7B/38d6c3c31d6b4dbdfc208e0621b822ae7bf6aeb2/",
+      "runtime": {
+        "external_repos": [],
+        "working_env": null
+      },
+      "serving": null,
+      "mirrors": {
+        "hf": null,
+        "master": null
+      }
+    }
+  ],
+  "errata": [],
+  "context": {
+    "announcement_urls": [],
+    "tech_report": null,
+    "arxiv": null
+  },
+  "notes": ""
+}
